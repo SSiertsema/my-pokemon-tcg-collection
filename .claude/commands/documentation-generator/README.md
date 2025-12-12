@@ -21,6 +21,7 @@ Run the slash command:
 ```
 
 Claude will:
+
 1. Analyze your project structure
 2. Propose documentation files that make sense for your project
 3. Ask for your feedback and approval
@@ -28,19 +29,19 @@ Claude will:
 
 ## Available Documentation Types
 
-| Template | Generated when... |
-|----------|------------------|
-| `architecture.md` | Always recommended - system overview |
-| `api-reference.md` | API routes or endpoints detected |
-| `data-models.md` | Database, ORM, or data structures found |
-| `development-setup.md` | Always recommended - onboarding guide |
-| `testing.md` | Test files or test config found |
-| `deployment.md` | Dockerfile, CI/CD, or k8s config found |
-| `contributing.md` | Open source or team project |
-| `security.md` | Auth, sensitive data, or security config found |
-| `troubleshooting.md` | Complex project with potential issues |
-| `configuration.md` | Environment variables or config files found |
-| `changelog.md` | Version tracking needed |
+| Template               | Generated when...                              |
+| ---------------------- | ---------------------------------------------- |
+| `architecture.md`      | Always recommended - system overview           |
+| `api-reference.md`     | API routes or endpoints detected               |
+| `data-models.md`       | Database, ORM, or data structures found        |
+| `development-setup.md` | Always recommended - onboarding guide          |
+| `testing.md`           | Test files or test config found                |
+| `deployment.md`        | Dockerfile, CI/CD, or k8s config found         |
+| `contributing.md`      | Open source or team project                    |
+| `security.md`          | Auth, sensitive data, or security config found |
+| `troubleshooting.md`   | Complex project with potential issues          |
+| `configuration.md`     | Environment variables or config files found    |
+| `changelog.md`         | Version tracking needed                        |
 
 ## Smart Merge
 

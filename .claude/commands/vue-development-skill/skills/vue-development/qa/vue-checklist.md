@@ -15,22 +15,24 @@ This checklist is specifically designed for Vue 3 and Nuxt 3 development. All it
 ### Examples
 
 **Good - Typed props:**
+
 ```typescript
 interface Props {
-  label: string
-  disabled?: boolean
-  variant?: 'primary' | 'secondary'
+  label: string;
+  disabled?: boolean;
+  variant?: 'primary' | 'secondary';
 }
 
 const props = withDefaults(defineProps<Props>(), {
   disabled: false,
-  variant: 'primary'
-})
+  variant: 'primary',
+});
 ```
 
 **Bad - Untyped props:**
+
 ```typescript
-const props = defineProps(['label', 'disabled']) // No types!
+const props = defineProps(['label', 'disabled']); // No types!
 ```
 
 ---
@@ -45,16 +47,18 @@ const props = defineProps(['label', 'disabled']) // No types!
 ### Examples
 
 **Good - Computed for derived state:**
+
 ```typescript
-const items = ref<Item[]>([])
-const itemCount = computed(() => items.value.length)
-const hasItems = computed(() => itemCount.value > 0)
+const items = ref<Item[]>([]);
+const itemCount = computed(() => items.value.length);
+const hasItems = computed(() => itemCount.value > 0);
 ```
 
 **Bad - Method for derived state:**
+
 ```typescript
 function getItemCount() {
-  return items.value.length // Recalculates every render!
+  return items.value.length; // Recalculates every render!
 }
 ```
 
@@ -62,7 +66,7 @@ function getItemCount() {
 
 ## 3. Composables (4 items)
 
-*Mark N/A if no composables are created*
+_Mark N/A if no composables are created_
 
 - [ ] **Extracted reusable logic**: Shared logic in `use*.ts` files
 - [ ] **Returns reactive refs**: Not raw values
@@ -72,24 +76,25 @@ function getItemCount() {
 ### Examples
 
 **Good - Composable structure:**
+
 ```typescript
 // composables/useCounter.ts
 export function useCounter(initial = 0) {
-  const count = ref(initial)
+  const count = ref(initial);
 
   function increment() {
-    count.value++
+    count.value++;
   }
 
   function decrement() {
-    count.value--
+    count.value--;
   }
 
   return {
     count: readonly(count),
     increment,
-    decrement
-  }
+    decrement,
+  };
 }
 ```
 
@@ -97,7 +102,7 @@ export function useCounter(initial = 0) {
 
 ## 4. Nuxt-Specific (4 items)
 
-*Mark N/A if not using Nuxt*
+_Mark N/A if not using Nuxt_
 
 - [ ] **Auto-imports used**: Using Nuxt auto-imports correctly (no manual imports for composables)
 - [ ] **Data fetching**: Using `useFetch` or `useAsyncData` (not raw fetch)
@@ -107,8 +112,9 @@ export function useCounter(initial = 0) {
 ### Examples
 
 **Good - Nuxt data fetching:**
+
 ```typescript
-const { data: users, pending, error } = await useFetch('/api/users')
+const { data: users, pending, error } = await useFetch('/api/users');
 
 if (error.value) {
   // Handle error
@@ -116,11 +122,12 @@ if (error.value) {
 ```
 
 **Bad - Raw fetch in Nuxt:**
+
 ```typescript
-const users = ref([])
+const users = ref([]);
 onMounted(async () => {
-  users.value = await fetch('/api/users').then(r => r.json())
-})
+  users.value = await fetch('/api/users').then((r) => r.json());
+});
 ```
 
 ---
@@ -135,23 +142,26 @@ onMounted(async () => {
 ### Examples
 
 **Good - Typed function:**
+
 ```typescript
 interface User {
-  id: number
-  name: string
-  email: string
+  id: number;
+  name: string;
+  email: string;
 }
 
 async function fetchUser(id: number): Promise<User> {
-  const response = await fetch(`/api/users/${id}`)
-  return response.json()
+  const response = await fetch(`/api/users/${id}`);
+  return response.json();
 }
 ```
 
 **Bad - Untyped:**
+
 ```typescript
-async function fetchUser(id: any) { // any! No return type!
-  return await fetch(`/api/users/${id}`).then(r => r.json())
+async function fetchUser(id: any) {
+  // any! No return type!
+  return await fetch(`/api/users/${id}`).then((r) => r.json());
 }
 ```
 
@@ -169,30 +179,31 @@ async function fetchUser(id: any) { // any! No return type!
 ### Examples
 
 **Good - Comprehensive tests:**
+
 ```typescript
 describe('UserCard', () => {
   it('renders user name', () => {
     const wrapper = mount(UserCard, {
-      props: { user: { name: 'John' } }
-    })
-    expect(wrapper.text()).toContain('John')
-  })
+      props: { user: { name: 'John' } },
+    });
+    expect(wrapper.text()).toContain('John');
+  });
 
   it('emits select event on click', async () => {
     const wrapper = mount(UserCard, {
-      props: { user: { id: 1, name: 'John' } }
-    })
-    await wrapper.trigger('click')
-    expect(wrapper.emitted('select')).toEqual([[{ id: 1, name: 'John' }]])
-  })
+      props: { user: { id: 1, name: 'John' } },
+    });
+    await wrapper.trigger('click');
+    expect(wrapper.emitted('select')).toEqual([[{ id: 1, name: 'John' }]]);
+  });
 
   it('shows placeholder for missing avatar', () => {
     const wrapper = mount(UserCard, {
-      props: { user: { name: 'John' } } // No avatar
-    })
-    expect(wrapper.find('.avatar-placeholder').exists()).toBe(true)
-  })
-})
+      props: { user: { name: 'John' } }, // No avatar
+    });
+    expect(wrapper.find('.avatar-placeholder').exists()).toBe(true);
+  });
+});
 ```
 
 ---
@@ -200,16 +211,17 @@ describe('UserCard', () => {
 ## Scoring
 
 **Calculate score:**
+
 ```
 score = (items_passed / total_applicable_items) × 10
 ```
 
 **Thresholds:**
 
-| Score | Status | Meaning |
-|-------|--------|---------|
-| 9-10 | PASS | Excellent quality, ready for E2E |
-| 7-8 | ACCEPTABLE | Good quality, minor issues noted |
-| 0-6 | NEEDS_WORK | Must fix issues before handoff |
+| Score | Status     | Meaning                          |
+| ----- | ---------- | -------------------------------- |
+| 9-10  | PASS       | Excellent quality, ready for E2E |
+| 7-8   | ACCEPTABLE | Good quality, minor issues noted |
+| 0-6   | NEEDS_WORK | Must fix issues before handoff   |
 
 **Note:** Mark categories as N/A if not applicable (e.g., "Nuxt-Specific" for plain Vue projects). N/A items don't count toward the total.

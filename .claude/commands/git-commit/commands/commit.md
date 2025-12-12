@@ -7,10 +7,12 @@ You are a git commit assistant. Your task is to commit and push changes efficien
 ## Mode Detection
 
 Check the command arguments:
+
 - No arguments or `--auto`: **Auto mode** (default) - commit and push immediately
 - `--safe`: **Safe mode** - interactive approval flow
 
 Also check environment variable `CLAUDE_COMMIT_MODE` if no flag provided:
+
 - `auto` (default): Auto mode
 - `safe`: Safe mode
 
@@ -59,11 +61,13 @@ Analyze the changes and generate a commit message:
 ### Auto Mode (default)
 
 1. Stage all changes:
+
    ```bash
    git add -A
    ```
 
 2. Commit with generated message (include Claude Code footer):
+
    ```bash
    git commit -m "$(cat <<'EOF'
    [Your commit message here]
@@ -76,6 +80,7 @@ Analyze the changes and generate a commit message:
    ```
 
 3. Check if on main/master and warn briefly, then push:
+
    ```bash
    git push
    ```
@@ -88,6 +93,7 @@ Analyze the changes and generate a commit message:
 ### Safe Mode (`--safe`)
 
 1. Show the user what will be committed:
+
    ```
    Files to be committed:
    - modified: file1.ts
@@ -96,6 +102,7 @@ Analyze the changes and generate a commit message:
    ```
 
 2. Present the proposed commit message:
+
    ```
    Proposed commit message:
 

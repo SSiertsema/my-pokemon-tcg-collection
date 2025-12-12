@@ -6,5 +6,3 @@ Deze is bedoelt voor Pokemon TCG
 Run: **cp .env .env.example.**
 
 Vul de API_KEY in.
-
-

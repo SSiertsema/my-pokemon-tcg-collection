@@ -6,7 +6,7 @@ This guide explains how to extract and validate Gherkin acceptance criteria from
 
 The skill expects user stories in this format:
 
-```markdown
+````markdown
 ## {STORY_ID}: {Story Title}
 
 > **As a** {persona},
@@ -22,6 +22,7 @@ Given {precondition}
 When {action}
 Then {expected result}
 ```
+````
 
 #### AC2: {Criterion Title}
 
@@ -32,7 +33,8 @@ And {additional action}
 Then {expected result}
 And {additional result}
 ```
-```
+
+````
 
 ---
 
@@ -84,7 +86,7 @@ Each Gherkin block contains:
     { "keyword": "And", "text": "I see \"Welcome back\"" }
   ]
 }
-```
+````
 
 ---
 
@@ -94,11 +96,11 @@ Each Gherkin block contains:
 
 Acceptance criteria inform what unit tests to write:
 
-| Gherkin | Unit Test Focus |
-|---------|-----------------|
-| `Given form is empty` | Test initial state |
-| `When I click submit` | Test emit/handler |
-| `Then error is shown` | Test conditional rendering |
+| Gherkin                  | Unit Test Focus              |
+| ------------------------ | ---------------------------- |
+| `Given form is empty`    | Test initial state           |
+| `When I click submit`    | Test emit/handler            |
+| `Then error is shown`    | Test conditional rendering   |
 | `Then field is disabled` | Test computed/reactive state |
 
 **Example mapping:**
@@ -111,13 +113,14 @@ Then I see "Please enter a valid email"
 ```
 
 **Unit test:**
+
 ```typescript
 it('shows validation error for invalid email', async () => {
-  const wrapper = mount(LoginForm)
-  await wrapper.find('[name="email"]').setValue('not-an-email')
-  await wrapper.find('button').trigger('click')
-  expect(wrapper.text()).toContain('Please enter a valid email')
-})
+  const wrapper = mount(LoginForm);
+  await wrapper.find('[name="email"]').setValue('not-an-email');
+  await wrapper.find('button').trigger('click');
+  expect(wrapper.text()).toContain('Please enter a valid email');
+});
 ```
 
 ### E2E Tests (Playwright MCP)
@@ -132,6 +135,7 @@ Then I am redirected to the dashboard
 ```
 
 **Playwright execution:**
+
 ```
 1. mcp__playwright__browser_navigate → /login
 2. mcp__playwright__browser_fill → email field
@@ -213,7 +217,7 @@ Before executing E2E tests, verify:
 
 ### Input: User Story
 
-```markdown
+````markdown
 ## US-042: Password Reset
 
 > **As a** registered user,
@@ -230,6 +234,7 @@ When I click "Forgot password?"
 Then I see the password reset form
 And I see an email input field
 ```
+````
 
 #### AC2: Submit reset request
 
@@ -248,7 +253,8 @@ When I fill "email" with "not-registered@example.com"
 And I click "Send reset link"
 Then I see "No account found with this email"
 ```
-```
+
+````
 
 ### Parsed Structure
 
@@ -297,7 +303,7 @@ Then I see "No account found with this email"
     }
   ]
 }
-```
+````
 
 ### E2E Execution Plan
 

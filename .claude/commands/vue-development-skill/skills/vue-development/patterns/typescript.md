@@ -9,29 +9,29 @@ This guide covers TypeScript best practices specifically for Vue 3 and Nuxt 3 de
 ```typescript
 interface Props {
   // Required
-  title: string
+  title: string;
 
   // Optional
-  subtitle?: string
+  subtitle?: string;
 
   // With specific values
-  variant: 'primary' | 'secondary' | 'danger'
+  variant: 'primary' | 'secondary' | 'danger';
 
   // Complex types
-  user: User
+  user: User;
 
   // Arrays
-  items: Item[]
+  items: Item[];
 
   // Functions
-  onSelect?: (item: Item) => void
+  onSelect?: (item: Item) => void;
 }
 
 const props = withDefaults(defineProps<Props>(), {
   subtitle: '',
   variant: 'primary',
-  items: () => []
-})
+  items: () => [],
+});
 ```
 
 ### Generic Props
@@ -39,11 +39,11 @@ const props = withDefaults(defineProps<Props>(), {
 ```typescript
 // Generic component for lists
 interface Props<T> {
-  items: T[]
-  keyField: keyof T
+  items: T[];
+  keyField: keyof T;
 }
 
-const props = defineProps<Props<Item>>()
+const props = defineProps<Props<Item>>();
 ```
 
 ---
@@ -55,34 +55,34 @@ const props = defineProps<Props<Item>>()
 ```typescript
 const emit = defineEmits<{
   // No payload
-  close: []
+  close: [];
 
   // Single payload
-  select: [item: Item]
+  select: [item: Item];
 
   // Multiple payloads
-  update: [field: string, value: unknown]
-}>()
+  update: [field: string, value: unknown];
+}>();
 
 // Usage
-emit('close')
-emit('select', selectedItem)
-emit('update', 'name', 'John')
+emit('close');
+emit('select', selectedItem);
+emit('update', 'name', 'John');
 ```
 
 ### v-model Events
 
 ```typescript
 const props = defineProps<{
-  modelValue: string
-}>()
+  modelValue: string;
+}>();
 
 const emit = defineEmits<{
-  'update:modelValue': [value: string]
-}>()
+  'update:modelValue': [value: string];
+}>();
 
 // In template or script
-emit('update:modelValue', newValue)
+emit('update:modelValue', newValue);
 ```
 
 ---
@@ -93,21 +93,21 @@ emit('update:modelValue', newValue)
 
 ```typescript
 interface UseCounterReturn {
-  count: Readonly<Ref<number>>
-  increment: () => void
-  decrement: () => void
-  reset: () => void
+  count: Readonly<Ref<number>>;
+  increment: () => void;
+  decrement: () => void;
+  reset: () => void;
 }
 
 export function useCounter(initial = 0): UseCounterReturn {
-  const count = ref(initial)
+  const count = ref(initial);
 
   return {
     count: readonly(count),
     increment: () => count.value++,
     decrement: () => count.value--,
-    reset: () => count.value = initial
-  }
+    reset: () => (count.value = initial),
+  };
 }
 ```
 
@@ -115,51 +115,51 @@ export function useCounter(initial = 0): UseCounterReturn {
 
 ```typescript
 interface UseFetchReturn<T> {
-  data: Ref<T | null>
-  loading: Ref<boolean>
-  error: Ref<Error | null>
-  refetch: () => Promise<void>
+  data: Ref<T | null>;
+  loading: Ref<boolean>;
+  error: Ref<Error | null>;
+  refetch: () => Promise<void>;
 }
 
 export function useFetchData<T>(url: string): UseFetchReturn<T> {
-  const data = ref<T | null>(null) as Ref<T | null>
-  const loading = ref(false)
-  const error = ref<Error | null>(null)
+  const data = ref<T | null>(null) as Ref<T | null>;
+  const loading = ref(false);
+  const error = ref<Error | null>(null);
 
   async function refetch() {
-    loading.value = true
-    error.value = null
+    loading.value = true;
+    error.value = null;
     try {
-      data.value = await $fetch<T>(url)
+      data.value = await $fetch<T>(url);
     } catch (e) {
-      error.value = e as Error
+      error.value = e as Error;
     } finally {
-      loading.value = false
+      loading.value = false;
     }
   }
 
-  refetch()
+  refetch();
 
-  return { data, loading, error, refetch }
+  return { data, loading, error, refetch };
 }
 ```
 
 ### MaybeRef Pattern
 
 ```typescript
-import { unref, type MaybeRef } from 'vue'
+import { unref, type MaybeRef } from 'vue';
 
 export function useUser(userId: MaybeRef<number>) {
   // Works with both ref and plain value
-  const id = computed(() => unref(userId))
+  const id = computed(() => unref(userId));
 
   // ...
 }
 
 // Usage
-useUser(123)           // Plain number
-useUser(ref(123))      // Ref<number>
-useUser(userId)        // Can be either
+useUser(123); // Plain number
+useUser(ref(123)); // Ref<number>
+useUser(userId); // Can be either
 ```
 
 ---
@@ -170,32 +170,32 @@ useUser(userId)        // Can be either
 
 ```typescript
 // Single element
-const inputRef = ref<HTMLInputElement | null>(null)
+const inputRef = ref<HTMLInputElement | null>(null);
 
 // Component ref
-const modalRef = ref<InstanceType<typeof Modal> | null>(null)
+const modalRef = ref<InstanceType<typeof Modal> | null>(null);
 
 // Access after mount
 onMounted(() => {
-  inputRef.value?.focus()
-  modalRef.value?.open()
-})
+  inputRef.value?.focus();
+  modalRef.value?.open();
+});
 ```
 
 ### Typed Reactive
 
 ```typescript
 interface FormState {
-  username: string
-  email: string
-  age: number
+  username: string;
+  email: string;
+  age: number;
 }
 
 const form = reactive<FormState>({
   username: '',
   email: '',
-  age: 0
-})
+  age: 0,
+});
 ```
 
 ---
@@ -206,41 +206,41 @@ const form = reactive<FormState>({
 
 ```typescript
 interface User {
-  id: number
-  name: string
-  email: string
+  id: number;
+  name: string;
+  email: string;
 }
 
 interface ApiResponse<T> {
-  data: T
+  data: T;
   meta: {
-    total: number
-    page: number
-  }
+    total: number;
+    page: number;
+  };
 }
 
 // In Nuxt
-const { data } = await useFetch<ApiResponse<User[]>>('/api/users')
+const { data } = await useFetch<ApiResponse<User[]>>('/api/users');
 
 // Type-safe access
-const users = data.value?.data ?? []
-const total = data.value?.meta.total ?? 0
+const users = data.value?.data ?? [];
+const total = data.value?.meta.total ?? 0;
 ```
 
 ### Error Types
 
 ```typescript
 interface ApiError {
-  statusCode: number
-  message: string
-  errors?: Record<string, string[]>
+  statusCode: number;
+  message: string;
+  errors?: Record<string, string[]>;
 }
 
-const { error } = await useFetch('/api/users')
+const { error } = await useFetch('/api/users');
 
 if (error.value) {
-  const apiError = error.value.data as ApiError
-  console.log(apiError.message)
+  const apiError = error.value.data as ApiError;
+  console.log(apiError.message);
 }
 ```
 
@@ -250,41 +250,41 @@ if (error.value) {
 
 ```typescript
 interface User {
-  id: number
-  name: string
-  email: string
-  role: 'user' | 'admin'
+  id: number;
+  name: string;
+  email: string;
+  role: 'user' | 'admin';
 }
 
 interface UserState {
-  user: User | null
-  loading: boolean
+  user: User | null;
+  loading: boolean;
 }
 
 export const useUserStore = defineStore('user', () => {
-  const user = ref<User | null>(null)
-  const loading = ref(false)
+  const user = ref<User | null>(null);
+  const loading = ref(false);
 
-  const isAdmin = computed(() => user.value?.role === 'admin')
-  const isLoggedIn = computed(() => user.value !== null)
+  const isAdmin = computed(() => user.value?.role === 'admin');
+  const isLoggedIn = computed(() => user.value !== null);
 
   async function login(email: string, password: string): Promise<boolean> {
-    loading.value = true
+    loading.value = true;
     try {
       user.value = await $fetch<User>('/api/login', {
         method: 'POST',
-        body: { email, password }
-      })
-      return true
+        body: { email, password },
+      });
+      return true;
     } catch {
-      return false
+      return false;
     } finally {
-      loading.value = false
+      loading.value = false;
     }
   }
 
   function logout(): void {
-    user.value = null
+    user.value = null;
   }
 
   return {
@@ -293,9 +293,9 @@ export const useUserStore = defineStore('user', () => {
     isAdmin,
     isLoggedIn,
     login,
-    logout
-  }
-})
+    logout,
+  };
+});
 ```
 
 ---
@@ -303,34 +303,34 @@ export const useUserStore = defineStore('user', () => {
 ## Type-Safe Provide/Inject
 
 ```typescript
-import type { InjectionKey, Ref } from 'vue'
+import type { InjectionKey, Ref } from 'vue';
 
 // Define typed key
 interface ThemeContext {
-  theme: Ref<'light' | 'dark'>
-  toggle: () => void
+  theme: Ref<'light' | 'dark'>;
+  toggle: () => void;
 }
 
-export const ThemeKey: InjectionKey<ThemeContext> = Symbol('theme')
+export const ThemeKey: InjectionKey<ThemeContext> = Symbol('theme');
 
 // Provider
-const theme = ref<'light' | 'dark'>('light')
+const theme = ref<'light' | 'dark'>('light');
 const toggle = () => {
-  theme.value = theme.value === 'light' ? 'dark' : 'light'
-}
-provide(ThemeKey, { theme, toggle })
+  theme.value = theme.value === 'light' ? 'dark' : 'light';
+};
+provide(ThemeKey, { theme, toggle });
 
 // Consumer
-const themeContext = inject(ThemeKey)
+const themeContext = inject(ThemeKey);
 if (themeContext) {
-  themeContext.toggle()
+  themeContext.toggle();
 }
 
 // With default
 const themeContext = inject(ThemeKey, {
   theme: ref('light'),
-  toggle: () => {}
-})
+  toggle: () => {},
+});
 ```
 
 ---
@@ -341,52 +341,52 @@ const themeContext = inject(ThemeKey, {
 
 ```typescript
 // Make all properties optional
-type PartialUser = Partial<User>
+type PartialUser = Partial<User>;
 
 // Make all properties required
-type RequiredUser = Required<User>
+type RequiredUser = Required<User>;
 
 // Pick specific properties
-type UserCredentials = Pick<User, 'email' | 'password'>
+type UserCredentials = Pick<User, 'email' | 'password'>;
 
 // Omit specific properties
-type PublicUser = Omit<User, 'password'>
+type PublicUser = Omit<User, 'password'>;
 
 // Extract function return type
-type FetchResult = ReturnType<typeof useFetch>
+type FetchResult = ReturnType<typeof useFetch>;
 
 // Extract component props
-type ButtonProps = InstanceType<typeof Button>['$props']
+type ButtonProps = InstanceType<typeof Button>['$props'];
 ```
 
 ### Mapped Types for Forms
 
 ```typescript
 interface User {
-  name: string
-  email: string
-  age: number
+  name: string;
+  email: string;
+  age: number;
 }
 
 // Form errors: each field has string[] of errors
 type FormErrors<T> = {
-  [K in keyof T]?: string[]
-}
+  [K in keyof T]?: string[];
+};
 
 const errors: FormErrors<User> = {
   email: ['Invalid email format'],
-  age: ['Must be 18 or older']
-}
+  age: ['Must be 18 or older'],
+};
 
 // Form touched state
 type FormTouched<T> = {
-  [K in keyof T]?: boolean
-}
+  [K in keyof T]?: boolean;
+};
 
 const touched: FormTouched<User> = {
   email: true,
-  name: false
-}
+  name: false,
+};
 ```
 
 ---
@@ -395,29 +395,29 @@ const touched: FormTouched<User> = {
 
 ```typescript
 interface User {
-  type: 'user'
-  name: string
+  type: 'user';
+  name: string;
 }
 
 interface Admin {
-  type: 'admin'
-  name: string
-  permissions: string[]
+  type: 'admin';
+  name: string;
+  permissions: string[];
 }
 
-type Person = User | Admin
+type Person = User | Admin;
 
 // Type guard function
 function isAdmin(person: Person): person is Admin {
-  return person.type === 'admin'
+  return person.type === 'admin';
 }
 
 // Usage
 function getPermissions(person: Person): string[] {
   if (isAdmin(person)) {
-    return person.permissions  // TypeScript knows it's Admin
+    return person.permissions; // TypeScript knows it's Admin
   }
-  return []
+  return [];
 }
 ```
 
@@ -429,16 +429,16 @@ function getPermissions(person: Person): string[] {
 
 ```typescript
 // Bad
-const data: any = await fetchData()
+const data: any = await fetchData();
 
 // Good
 interface Data {
-  items: Item[]
+  items: Item[];
 }
-const data: Data = await fetchData()
+const data: Data = await fetchData();
 
 // When truly unknown
-const data: unknown = await fetchData()
+const data: unknown = await fetchData();
 if (isValidData(data)) {
   // Now typed
 }
@@ -449,12 +449,12 @@ if (isValidData(data)) {
 ```typescript
 // Bad
 function processUser(user) {
-  return user.name
+  return user.name;
 }
 
 // Good
 function processUser(user: User): string {
-  return user.name
+  return user.name;
 }
 ```
 
@@ -463,18 +463,18 @@ function processUser(user: User): string {
 ```typescript
 // Bad
 function handleClick(e) {
-  console.log(e.target.value)
+  console.log(e.target.value);
 }
 
 // Good
 function handleClick(e: MouseEvent) {
-  const target = e.target as HTMLButtonElement
-  console.log(target.value)
+  const target = e.target as HTMLButtonElement;
+  console.log(target.value);
 }
 
 function handleInput(e: Event) {
-  const target = e.target as HTMLInputElement
-  console.log(target.value)
+  const target = e.target as HTMLInputElement;
+  console.log(target.value);
 }
 ```
 
@@ -488,18 +488,18 @@ function handleInput(e: Event) {
 // types/global.d.ts
 declare global {
   interface User {
-    id: number
-    name: string
-    email: string
+    id: number;
+    name: string;
+    email: string;
   }
 
   interface ApiResponse<T> {
-    data: T
-    success: boolean
+    data: T;
+    success: boolean;
   }
 }
 
-export {}  // Make this a module
+export {}; // Make this a module
 ```
 
 ### Module Augmentation
@@ -507,17 +507,17 @@ export {}  // Make this a module
 ```typescript
 // types/vue-shim.d.ts
 declare module '*.vue' {
-  import type { DefineComponent } from 'vue'
-  const component: DefineComponent<{}, {}, any>
-  export default component
+  import type { DefineComponent } from 'vue';
+  const component: DefineComponent<{}, {}, any>;
+  export default component;
 }
 
 // Augment Nuxt
 declare module '#app' {
   interface NuxtApp {
     $api: {
-      get: <T>(url: string) => Promise<T>
-    }
+      get: <T>(url: string) => Promise<T>;
+    };
   }
 }
 ```

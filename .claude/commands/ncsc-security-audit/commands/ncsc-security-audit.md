@@ -22,11 +22,13 @@ Options:
 If the user selects "Other", they can specify any language supported by the LLM (e.g., German, French, Spanish, Japanese, Chinese, etc.).
 
 Store the selected language and use it for:
+
 - All report content and headings
 - Finding descriptions and recommendations
 - Stakeholder-friendly explanations
 
 **Language Guidelines:**
+
 - Keep technical security terms in English (XSS, CSRF, SQL injection, SSRF, etc.) regardless of report language
 - Translate explanations, descriptions, and recommendations to the selected language
 - Reference NCSC guidelines with their original Dutch IDs (U/TV.01, U/WA.01, etc.) regardless of language
@@ -35,6 +37,7 @@ Store the selected language and use it for:
 ## Reference Documents
 
 Before proceeding, read the guidelines reference:
+
 - `templates/ncsc-guidelines.md` - Full NCSC guidelines with search patterns
 
 ## Phase 1: Discovery
@@ -62,27 +65,31 @@ Launch a **Discovery Agent** to analyze the solution and determine:
 
    Based on solution type, determine which NCSC domains and guidelines apply:
 
-   | Domain | Description | Frontend | Backend | Full-Stack | Library |
-   |--------|-------------|----------|---------|------------|---------|
-   | U/TV | Toegangsvoorzieningsmiddelen | Partial | Full | Full | N/A |
-   | U/WA | Webapplicaties | Full | Full | Full | Partial |
-   | U/PW | Platformen en webservers | N/A | Full | Full | N/A |
-   | U/NW | Netwerken | N/A | Full | Full | N/A |
+   | Domain | Description                  | Frontend | Backend | Full-Stack | Library |
+   | ------ | ---------------------------- | -------- | ------- | ---------- | ------- |
+   | U/TV   | Toegangsvoorzieningsmiddelen | Partial  | Full    | Full       | N/A     |
+   | U/WA   | Webapplicaties               | Full     | Full    | Full       | Partial |
+   | U/PW   | Platformen en webservers     | N/A      | Full    | Full       | N/A     |
+   | U/NW   | Netwerken                    | N/A      | Full    | Full       | N/A     |
 
 **Output Required:**
+
 ```markdown
 ## Discovery Report
 
 ### Solution Type: [TYPE]
 
 ### Technologies Detected:
+
 - [LIST]
 
 ### Applicable Guidelines:
-| ID | Guideline | Relevance | Reason |
-|----|-----------|-----------|--------|
-| U/TV.01 | ... | Full/Partial/N/A | ... |
-| U/WA.01 | ... | Full/Partial/N/A | ... |
+
+| ID      | Guideline | Relevance        | Reason |
+| ------- | --------- | ---------------- | ------ |
+| U/TV.01 | ...       | Full/Partial/N/A | ...    |
+| U/WA.01 | ...       | Full/Partial/N/A | ...    |
+
 ...
 ```
 
@@ -137,13 +144,14 @@ For each guideline:
 4. Document consensus before proceeding to next guideline
 
 **Progress Tracking:**
+
 ```markdown
 ## Guideline Progress
 
-| ID | Analyst | Verifier | Consensus | Status |
-|----|---------|----------|-----------|--------|
-| U/TV.01 | ✓ | ✓ | ✓ | Complete |
-| U/WA.01 | ✓ | ✓ | In Progress | ... |
+| ID      | Analyst | Verifier | Consensus   | Status   |
+| ------- | ------- | -------- | ----------- | -------- |
+| U/TV.01 | ✓       | ✓        | ✓           | Complete |
+| U/WA.01 | ✓       | ✓        | In Progress | ...      |
 ```
 
 ## Phase 3: Report Generation
@@ -155,6 +163,7 @@ After all applicable guidelines are analyzed, generate two reports:
 Use template: `templates/technical-report.md`
 
 Content:
+
 1. Executive Summary with finding counts
 2. Quick Reference Matrix (all guidelines)
 3. Detailed Findings per guideline:
@@ -173,6 +182,7 @@ Content:
 Use template: `templates/stakeholder-report.md`
 
 Content:
+
 1. Plain language overview
 2. Risk summary (Critical/High/Medium/Low counts)
 3. Compliance status per security domain
@@ -190,6 +200,7 @@ Content:
 ## Execution Instructions
 
 1. **Start Discovery Phase**
+
    ```
    Launch Discovery Agent with prompt:
    "Analyze this codebase to determine solution type, technologies,
@@ -199,6 +210,7 @@ Content:
 
 2. **Execute Guideline Analysis**
    For each applicable guideline, launch parallel agents:
+
    ```
    Security Analyst: "Analyze [GUIDELINE_ID]: [GUIDELINE_NAME] using
    search patterns from templates/ncsc-guidelines.md. Document all

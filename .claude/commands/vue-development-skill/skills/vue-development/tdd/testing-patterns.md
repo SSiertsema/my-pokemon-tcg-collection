@@ -14,8 +14,8 @@ npm install -D vitest @vue/test-utils @vitejs/plugin-vue happy-dom
 
 ```typescript
 // vitest.config.ts
-import { defineConfig } from 'vitest/config'
-import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vitest/config';
+import vue from '@vitejs/plugin-vue';
 
 export default defineConfig({
   plugins: [vue()],
@@ -23,7 +23,7 @@ export default defineConfig({
     environment: 'happy-dom',
     globals: true,
   },
-})
+});
 ```
 
 ---
@@ -33,14 +33,14 @@ export default defineConfig({
 ### Mounting Components
 
 ```typescript
-import { mount, shallowMount } from '@vue/test-utils'
-import MyComponent from '../MyComponent.vue'
+import { mount, shallowMount } from '@vue/test-utils';
+import MyComponent from '../MyComponent.vue';
 
 // Full mount - renders child components
-const wrapper = mount(MyComponent)
+const wrapper = mount(MyComponent);
 
 // Shallow mount - stubs child components
-const shallow = shallowMount(MyComponent)
+const shallow = shallowMount(MyComponent);
 ```
 
 ### Testing Props
@@ -49,25 +49,25 @@ const shallow = shallowMount(MyComponent)
 describe('Button', () => {
   it('renders label prop', () => {
     const wrapper = mount(Button, {
-      props: { label: 'Click me' }
-    })
-    expect(wrapper.text()).toBe('Click me')
-  })
+      props: { label: 'Click me' },
+    });
+    expect(wrapper.text()).toBe('Click me');
+  });
 
   it('applies variant class', () => {
     const wrapper = mount(Button, {
-      props: { variant: 'primary' }
-    })
-    expect(wrapper.classes()).toContain('btn-primary')
-  })
+      props: { variant: 'primary' },
+    });
+    expect(wrapper.classes()).toContain('btn-primary');
+  });
 
   it('is disabled when disabled prop is true', () => {
     const wrapper = mount(Button, {
-      props: { disabled: true }
-    })
-    expect(wrapper.attributes('disabled')).toBeDefined()
-  })
-})
+      props: { disabled: true },
+    });
+    expect(wrapper.attributes('disabled')).toBeDefined();
+  });
+});
 ```
 
 ### Testing Emits
@@ -75,34 +75,34 @@ describe('Button', () => {
 ```typescript
 describe('Button', () => {
   it('emits click event', async () => {
-    const wrapper = mount(Button)
+    const wrapper = mount(Button);
 
-    await wrapper.trigger('click')
+    await wrapper.trigger('click');
 
-    expect(wrapper.emitted('click')).toBeTruthy()
-    expect(wrapper.emitted('click')).toHaveLength(1)
-  })
+    expect(wrapper.emitted('click')).toBeTruthy();
+    expect(wrapper.emitted('click')).toHaveLength(1);
+  });
 
   it('emits with payload', async () => {
     const wrapper = mount(ItemCard, {
-      props: { item: { id: 1, name: 'Test' } }
-    })
+      props: { item: { id: 1, name: 'Test' } },
+    });
 
-    await wrapper.trigger('click')
+    await wrapper.trigger('click');
 
-    expect(wrapper.emitted('select')?.[0]).toEqual([{ id: 1, name: 'Test' }])
-  })
+    expect(wrapper.emitted('select')?.[0]).toEqual([{ id: 1, name: 'Test' }]);
+  });
 
   it('does not emit when disabled', async () => {
     const wrapper = mount(Button, {
-      props: { disabled: true }
-    })
+      props: { disabled: true },
+    });
 
-    await wrapper.trigger('click')
+    await wrapper.trigger('click');
 
-    expect(wrapper.emitted('click')).toBeFalsy()
-  })
-})
+    expect(wrapper.emitted('click')).toBeFalsy();
+  });
+});
 ```
 
 ---
@@ -118,31 +118,31 @@ describe('CartTotal', () => {
       props: {
         items: [
           { price: 10, quantity: 2 },
-          { price: 5, quantity: 3 }
-        ]
-      }
-    })
+          { price: 5, quantity: 3 },
+        ],
+      },
+    });
 
     // Total = (10 * 2) + (5 * 3) = 35
-    expect(wrapper.text()).toContain('$35')
-  })
+    expect(wrapper.text()).toContain('$35');
+  });
 
   it('updates when items change', async () => {
     const wrapper = mount(CartTotal, {
       props: {
-        items: [{ price: 10, quantity: 1 }]
-      }
-    })
+        items: [{ price: 10, quantity: 1 }],
+      },
+    });
 
-    expect(wrapper.text()).toContain('$10')
+    expect(wrapper.text()).toContain('$10');
 
     await wrapper.setProps({
-      items: [{ price: 10, quantity: 2 }]
-    })
+      items: [{ price: 10, quantity: 2 }],
+    });
 
-    expect(wrapper.text()).toContain('$20')
-  })
-})
+    expect(wrapper.text()).toContain('$20');
+  });
+});
 ```
 
 ### Testing v-model
@@ -151,22 +151,22 @@ describe('CartTotal', () => {
 describe('TextInput', () => {
   it('updates modelValue on input', async () => {
     const wrapper = mount(TextInput, {
-      props: { modelValue: '' }
-    })
+      props: { modelValue: '' },
+    });
 
-    await wrapper.find('input').setValue('Hello')
+    await wrapper.find('input').setValue('Hello');
 
-    expect(wrapper.emitted('update:modelValue')?.[0]).toEqual(['Hello'])
-  })
+    expect(wrapper.emitted('update:modelValue')?.[0]).toEqual(['Hello']);
+  });
 
   it('displays modelValue', () => {
     const wrapper = mount(TextInput, {
-      props: { modelValue: 'Initial' }
-    })
+      props: { modelValue: 'Initial' },
+    });
 
-    expect(wrapper.find('input').element.value).toBe('Initial')
-  })
-})
+    expect(wrapper.find('input').element.value).toBe('Initial');
+  });
+});
 ```
 
 ---
@@ -176,42 +176,44 @@ describe('TextInput', () => {
 ### Using flushPromises
 
 ```typescript
-import { flushPromises } from '@vue/test-utils'
+import { flushPromises } from '@vue/test-utils';
 
 describe('UserList', () => {
   it('loads users on mount', async () => {
-    const wrapper = mount(UserList)
+    const wrapper = mount(UserList);
 
     // Wait for all promises to resolve
-    await flushPromises()
+    await flushPromises();
 
-    expect(wrapper.findAll('.user-item')).toHaveLength(3)
-  })
-})
+    expect(wrapper.findAll('.user-item')).toHaveLength(3);
+  });
+});
 ```
 
 ### Mocking API Calls
 
 ```typescript
-import { vi } from 'vitest'
+import { vi } from 'vitest';
 
 // Mock the API module
 vi.mock('@/api/users', () => ({
-  fetchUsers: vi.fn(() => Promise.resolve([
-    { id: 1, name: 'John' },
-    { id: 2, name: 'Jane' }
-  ]))
-}))
+  fetchUsers: vi.fn(() =>
+    Promise.resolve([
+      { id: 1, name: 'John' },
+      { id: 2, name: 'Jane' },
+    ])
+  ),
+}));
 
 describe('UserList', () => {
   it('displays fetched users', async () => {
-    const wrapper = mount(UserList)
-    await flushPromises()
+    const wrapper = mount(UserList);
+    await flushPromises();
 
-    expect(wrapper.text()).toContain('John')
-    expect(wrapper.text()).toContain('Jane')
-  })
-})
+    expect(wrapper.text()).toContain('John');
+    expect(wrapper.text()).toContain('Jane');
+  });
+});
 ```
 
 ### Testing Loading States
@@ -219,21 +221,21 @@ describe('UserList', () => {
 ```typescript
 describe('DataLoader', () => {
   it('shows loading state initially', () => {
-    const wrapper = mount(DataLoader)
+    const wrapper = mount(DataLoader);
 
-    expect(wrapper.find('.loading').exists()).toBe(true)
-    expect(wrapper.find('.content').exists()).toBe(false)
-  })
+    expect(wrapper.find('.loading').exists()).toBe(true);
+    expect(wrapper.find('.content').exists()).toBe(false);
+  });
 
   it('shows content after loading', async () => {
-    const wrapper = mount(DataLoader)
+    const wrapper = mount(DataLoader);
 
-    await flushPromises()
+    await flushPromises();
 
-    expect(wrapper.find('.loading').exists()).toBe(false)
-    expect(wrapper.find('.content').exists()).toBe(true)
-  })
-})
+    expect(wrapper.find('.loading').exists()).toBe(false);
+    expect(wrapper.find('.content').exists()).toBe(true);
+  });
+});
 ```
 
 ---
@@ -243,33 +245,33 @@ describe('DataLoader', () => {
 ### Setup
 
 ```typescript
-import { setActivePinia, createPinia } from 'pinia'
-import { useUserStore } from '@/stores/user'
+import { setActivePinia, createPinia } from 'pinia';
+import { useUserStore } from '@/stores/user';
 
 describe('UserProfile', () => {
   beforeEach(() => {
-    setActivePinia(createPinia())
-  })
+    setActivePinia(createPinia());
+  });
 
   it('displays user from store', () => {
-    const store = useUserStore()
-    store.user = { id: 1, name: 'John' }
+    const store = useUserStore();
+    store.user = { id: 1, name: 'John' };
 
-    const wrapper = mount(UserProfile)
+    const wrapper = mount(UserProfile);
 
-    expect(wrapper.text()).toContain('John')
-  })
+    expect(wrapper.text()).toContain('John');
+  });
 
   it('calls store action on button click', async () => {
-    const store = useUserStore()
-    const logoutSpy = vi.spyOn(store, 'logout')
+    const store = useUserStore();
+    const logoutSpy = vi.spyOn(store, 'logout');
 
-    const wrapper = mount(UserProfile)
-    await wrapper.find('.logout-btn').trigger('click')
+    const wrapper = mount(UserProfile);
+    await wrapper.find('.logout-btn').trigger('click');
 
-    expect(logoutSpy).toHaveBeenCalled()
-  })
-})
+    expect(logoutSpy).toHaveBeenCalled();
+  });
+});
 ```
 
 ---
@@ -283,13 +285,13 @@ describe('Card', () => {
   it('renders default slot content', () => {
     const wrapper = mount(Card, {
       slots: {
-        default: '<p>Card content</p>'
-      }
-    })
+        default: '<p>Card content</p>',
+      },
+    });
 
-    expect(wrapper.html()).toContain('<p>Card content</p>')
-  })
-})
+    expect(wrapper.html()).toContain('<p>Card content</p>');
+  });
+});
 ```
 
 ### Named Slots
@@ -301,15 +303,15 @@ describe('Layout', () => {
       slots: {
         header: '<h1>Title</h1>',
         default: '<main>Content</main>',
-        footer: '<footer>Footer</footer>'
-      }
-    })
+        footer: '<footer>Footer</footer>',
+      },
+    });
 
-    expect(wrapper.find('h1').text()).toBe('Title')
-    expect(wrapper.find('main').text()).toBe('Content')
-    expect(wrapper.find('footer').text()).toBe('Footer')
-  })
-})
+    expect(wrapper.find('h1').text()).toBe('Title');
+    expect(wrapper.find('main').text()).toBe('Content');
+    expect(wrapper.find('footer').text()).toBe('Footer');
+  });
+});
 ```
 
 ### Scoped Slots
@@ -319,18 +321,18 @@ describe('List', () => {
   it('passes item to scoped slot', () => {
     const wrapper = mount(List, {
       props: {
-        items: [{ id: 1, name: 'Item 1' }]
+        items: [{ id: 1, name: 'Item 1' }],
       },
       slots: {
         item: `<template #item="{ item }">
           <span class="item-name">{{ item.name }}</span>
-        </template>`
-      }
-    })
+        </template>`,
+      },
+    });
 
-    expect(wrapper.find('.item-name').text()).toBe('Item 1')
-  })
-})
+    expect(wrapper.find('.item-name').text()).toBe('Item 1');
+  });
+});
 ```
 
 ---
@@ -340,33 +342,33 @@ describe('List', () => {
 ```typescript
 // composables/useCounter.ts
 export function useCounter(initial = 0) {
-  const count = ref(initial)
-  const increment = () => count.value++
-  const decrement = () => count.value--
-  return { count, increment, decrement }
+  const count = ref(initial);
+  const increment = () => count.value++;
+  const decrement = () => count.value--;
+  return { count, increment, decrement };
 }
 
 // composables/__tests__/useCounter.spec.ts
-import { useCounter } from '../useCounter'
+import { useCounter } from '../useCounter';
 
 describe('useCounter', () => {
   it('starts with initial value', () => {
-    const { count } = useCounter(5)
-    expect(count.value).toBe(5)
-  })
+    const { count } = useCounter(5);
+    expect(count.value).toBe(5);
+  });
 
   it('increments count', () => {
-    const { count, increment } = useCounter()
-    increment()
-    expect(count.value).toBe(1)
-  })
+    const { count, increment } = useCounter();
+    increment();
+    expect(count.value).toBe(1);
+  });
 
   it('decrements count', () => {
-    const { count, decrement } = useCounter(5)
-    decrement()
-    expect(count.value).toBe(4)
-  })
-})
+    const { count, decrement } = useCounter(5);
+    decrement();
+    expect(count.value).toBe(4);
+  });
+});
 ```
 
 ---
@@ -377,16 +379,16 @@ describe('useCounter', () => {
 describe('ErrorBoundary', () => {
   it('shows error message on fetch failure', async () => {
     vi.mock('@/api', () => ({
-      fetchData: vi.fn(() => Promise.reject(new Error('Network error')))
-    }))
+      fetchData: vi.fn(() => Promise.reject(new Error('Network error'))),
+    }));
 
-    const wrapper = mount(DataComponent)
-    await flushPromises()
+    const wrapper = mount(DataComponent);
+    await flushPromises();
 
-    expect(wrapper.find('.error').exists()).toBe(true)
-    expect(wrapper.text()).toContain('Network error')
-  })
-})
+    expect(wrapper.find('.error').exists()).toBe(true);
+    expect(wrapper.text()).toContain('Network error');
+  });
+});
 ```
 
 ---
@@ -412,20 +414,20 @@ src/
 ```typescript
 describe('Button', () => {
   describe('rendering', () => {
-    it('renders label')
-    it('applies variant class')
-  })
+    it('renders label');
+    it('applies variant class');
+  });
 
   describe('interactions', () => {
-    it('emits click on click')
-    it('does not emit when disabled')
-  })
+    it('emits click on click');
+    it('does not emit when disabled');
+  });
 
   describe('accessibility', () => {
-    it('has correct aria attributes')
-    it('is keyboard accessible')
-  })
-})
+    it('has correct aria attributes');
+    it('is keyboard accessible');
+  });
+});
 ```
 
 ### Helpers
@@ -436,11 +438,11 @@ export function mountButton(props = {}) {
   return mount(Button, {
     props: {
       label: 'Default',
-      ...props
-    }
-  })
+      ...props,
+    },
+  });
 }
 
 // Usage
-const wrapper = mountButton({ variant: 'primary' })
+const wrapper = mountButton({ variant: 'primary' });
 ```

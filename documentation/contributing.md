@@ -18,17 +18,18 @@ Thank you for your interest in contributing to Pokemon-collectie-app! This docum
 
 Use descriptive branch names following this convention:
 
-| Type | Pattern | Example |
-|------|---------|---------|
-| Feature | `feature/description` | `feature/add-card-search` |
-| Bug fix | `fix/description` | `fix/card-image-loading` |
-| Documentation | `docs/description` | `docs/api-examples` |
-| Refactor | `refactor/description` | `refactor/simplify-store` |
-| Chore | `chore/description` | `chore/update-dependencies` |
+| Type          | Pattern                | Example                     |
+| ------------- | ---------------------- | --------------------------- |
+| Feature       | `feature/description`  | `feature/add-card-search`   |
+| Bug fix       | `fix/description`      | `fix/card-image-loading`    |
+| Documentation | `docs/description`     | `docs/api-examples`         |
+| Refactor      | `refactor/description` | `refactor/simplify-store`   |
+| Chore         | `chore/description`    | `chore/update-dependencies` |
 
 ### Making Changes
 
 1. Create a new branch from `main`:
+
    ```bash
    git checkout main
    git pull origin main
@@ -40,11 +41,13 @@ Use descriptive branch names following this convention:
 3. Write/update tests for your changes
 
 4. Ensure all tests pass:
+
    ```bash
    npm test
    ```
 
 5. Ensure code passes linting:
+
    ```bash
    npm run lint
    ```
@@ -68,16 +71,16 @@ type(scope): description
 
 ### Types
 
-| Type | Description |
-|------|-------------|
-| `feat` | New feature |
-| `fix` | Bug fix |
-| `docs` | Documentation changes |
-| `style` | Code style changes (formatting, semicolons, etc.) |
-| `refactor` | Code refactoring |
-| `test` | Adding or updating tests |
-| `chore` | Maintenance tasks |
-| `perf` | Performance improvements |
+| Type       | Description                                       |
+| ---------- | ------------------------------------------------- |
+| `feat`     | New feature                                       |
+| `fix`      | Bug fix                                           |
+| `docs`     | Documentation changes                             |
+| `style`    | Code style changes (formatting, semicolons, etc.) |
+| `refactor` | Code refactoring                                  |
+| `test`     | Adding or updating tests                          |
+| `chore`    | Maintenance tasks                                 |
+| `perf`     | Performance improvements                          |
 
 ### Examples
 
@@ -109,6 +112,7 @@ chore(deps): update Vue to 3.4.0
 ### Creating a Pull Request
 
 1. Push your branch to your fork:
+
    ```bash
    git push origin feature/your-feature
    ```
@@ -125,13 +129,16 @@ chore(deps): update Vue to 3.4.0
 
 ```markdown
 ## Summary
+
 Brief description of changes
 
 ## Changes
+
 - Change 1
 - Change 2
 
 ## Testing
+
 - How to test these changes
 - Test cases covered
 
@@ -150,11 +157,11 @@ Brief description of changes
 
 This project uses automated formatting and linting:
 
-| Tool | Purpose | Config File |
-|------|---------|-------------|
-| ESLint | Code linting | `.eslintrc` |
-| Prettier | Code formatting | `.prettierrc` |
-| TypeScript | Type checking | `tsconfig.json` |
+| Tool       | Purpose         | Config File     |
+| ---------- | --------------- | --------------- |
+| ESLint     | Code linting    | `.eslintrc`     |
+| Prettier   | Code formatting | `.prettierrc`   |
+| TypeScript | Type checking   | `tsconfig.json` |
 
 ### Run Before Committing
 
@@ -190,6 +197,7 @@ tests/
 ## Documentation
 
 Update documentation when:
+
 - Adding new features
 - Changing existing behavior
 - Modifying configuration options

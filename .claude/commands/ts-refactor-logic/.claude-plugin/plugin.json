@@ -7,6 +7,12 @@
   },
   "repository": "https://github.com/SSiertsema/claude-code-plugins",
   "license": "MIT",
-  "keywords": ["typescript", "refactor", "clean-code", "types", "design-patterns"],
+  "keywords": [
+    "typescript",
+    "refactor",
+    "clean-code",
+    "types",
+    "design-patterns"
+  ],
   "commands": "./commands"
 }

@@ -19,16 +19,17 @@ Investigate: existing CONTRIBUTING.md, PR templates, code style configs.
 
 Use descriptive branch names:
 
-| Type | Pattern | Example |
-|------|---------|---------|
-| Feature | `feature/description` | `feature/add-user-auth` |
-| Bug fix | `fix/description` | `fix/login-validation` |
-| Docs | `docs/description` | `docs/api-examples` |
+| Type     | Pattern                | Example                        |
+| -------- | ---------------------- | ------------------------------ |
+| Feature  | `feature/description`  | `feature/add-user-auth`        |
+| Bug fix  | `fix/description`      | `fix/login-validation`         |
+| Docs     | `docs/description`     | `docs/api-examples`            |
 | Refactor | `refactor/description` | `refactor/simplify-db-queries` |
 
 ### Making Changes
 
 1. Create a new branch from `main`:
+
    ```bash
    git checkout -b feature/your-feature
    ```
@@ -38,6 +39,7 @@ Use descriptive branch names:
 3. Write/update tests for your changes
 
 4. Ensure all tests pass:
+
    ```bash
    npm test
    ```
@@ -64,6 +66,7 @@ type(scope): description
 ```
 
 **Types:**
+
 - `feat`: New feature
 - `fix`: Bug fix
 - `docs`: Documentation changes
@@ -73,6 +76,7 @@ type(scope): description
 - `chore`: Maintenance tasks
 
 **Examples:**
+
 ```
 feat(auth): add password reset functionality
 fix(api): handle null response from external service
@@ -92,6 +96,7 @@ docs(readme): update installation instructions
 ### PR Description
 
 Include in your PR description:
+
 - **What**: What changes does this PR make?
 - **Why**: Why are these changes needed?
 - **How**: How were these changes implemented?
@@ -118,6 +123,7 @@ This project uses automated formatting and linting:
 - **Linter**: ESLint
 
 Run before committing:
+
 ```bash
 npm run format
 npm run lint
@@ -148,6 +154,7 @@ When should contributors update docs?
 -->
 
 Update documentation when:
+
 - Adding new features
 - Changing existing behavior
 - Modifying configuration options

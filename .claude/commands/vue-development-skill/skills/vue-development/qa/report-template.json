@@ -3,7 +3,17 @@
   "title": "Vue Development Skill Report",
   "description": "Report with TDD, QA checklist, and E2E validation results",
   "type": "object",
-  "required": ["id", "skill", "timestamp", "task_description", "files", "tdd", "qa", "e2e_validation", "completion"],
+  "required": [
+    "id",
+    "skill",
+    "timestamp",
+    "task_description",
+    "files",
+    "tdd",
+    "qa",
+    "e2e_validation",
+    "completion"
+  ],
   "properties": {
     "id": {
       "type": "string",
@@ -78,7 +88,12 @@
     },
     "tdd": {
       "type": "object",
-      "required": ["tests_written_first", "test_command", "tests_passing", "coverage_estimate"],
+      "required": [
+        "tests_written_first",
+        "test_command",
+        "tests_passing",
+        "coverage_estimate"
+      ],
       "properties": {
         "tests_written_first": {
           "type": "boolean",
@@ -116,7 +131,14 @@
         },
         "checklist": {
           "type": "object",
-          "required": ["component_quality", "reactivity", "composables", "nuxt_specific", "typescript", "unit_tests"],
+          "required": [
+            "component_quality",
+            "reactivity",
+            "composables",
+            "nuxt_specific",
+            "typescript",
+            "unit_tests"
+          ],
           "properties": {
             "component_quality": { "$ref": "#/$defs/checklistCategory" },
             "reactivity": { "$ref": "#/$defs/checklistCategory" },
@@ -130,7 +152,15 @@
     },
     "e2e_validation": {
       "type": "object",
-      "required": ["test_file", "test_command", "executed", "acceptance_criteria", "passed", "failed", "status"],
+      "required": [
+        "test_file",
+        "test_command",
+        "executed",
+        "acceptance_criteria",
+        "passed",
+        "failed",
+        "status"
+      ],
       "description": "E2E validation results from Playwright test execution",
       "properties": {
         "test_file": {

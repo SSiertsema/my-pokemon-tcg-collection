@@ -29,12 +29,14 @@ The agent will guide you through:
 The plugin focuses on **technical infrastructure needs**, not business logic:
 
 **Captured:**
+
 - "Need blob storage for file uploads"
 - "Require relational database for user data"
 - "Must integrate with Azure AD for authentication"
 - "Need caching layer for session management"
 
 **Not captured:**
+
 - Business rules about file validation
 - User permission logic details
 - Workflow state machines
@@ -54,6 +56,7 @@ The plugin generates `/documentation/technical-specifications.md` with sections 
 ## Handling Existing Specifications
 
 If a `technical-specifications.md` already exists, you'll be asked whether to:
+
 - **Merge**: Update and extend the existing document
 - **Overwrite**: Replace with new specifications
 - **New version**: Create a versioned copy alongside the original

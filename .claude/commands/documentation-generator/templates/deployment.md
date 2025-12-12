@@ -12,11 +12,11 @@ Investigate: Dockerfile, docker-compose.yml, CI/CD workflows, kubernetes/, infra
 List all deployment environments and their purposes.
 -->
 
-| Environment | Purpose | URL |
-|-------------|---------|-----|
-| Development | Local development | `http://localhost:PORT` |
-| Staging | Pre-production testing | |
-| Production | Live environment | |
+| Environment | Purpose                | URL                     |
+| ----------- | ---------------------- | ----------------------- |
+| Development | Local development      | `http://localhost:PORT` |
+| Staging     | Pre-production testing |                         |
+| Production  | Live environment       |                         |
 
 ## Build Process
 
@@ -84,12 +84,12 @@ If manual deployment is needed, document the steps.
 List all infrastructure components needed.
 -->
 
-| Service | Provider | Purpose |
-|---------|----------|---------|
-| Application | | Runs the main application |
-| Database | | Data storage |
-| Cache | | Session/cache storage |
-| | | |
+| Service     | Provider | Purpose                   |
+| ----------- | -------- | ------------------------- |
+| Application |          | Runs the main application |
+| Database    |          | Data storage              |
+| Cache       |          | Session/cache storage     |
+|             |          |                           |
 
 ### Infrastructure as Code
 
@@ -112,11 +112,11 @@ List required environment variables for production.
 Reference configuration.md for full details.
 -->
 
-| Variable | Required | Description |
-|----------|----------|-------------|
-| `NODE_ENV` | Yes | Must be `production` |
-| `DATABASE_URL` | Yes | Production database URL |
-| | | |
+| Variable       | Required | Description             |
+| -------------- | -------- | ----------------------- |
+| `NODE_ENV`     | Yes      | Must be `production`    |
+| `DATABASE_URL` | Yes      | Production database URL |
+|                |          |                         |
 
 ### Secrets Management
 
@@ -132,10 +132,10 @@ Explain how secrets are managed in production.
 Document health check endpoints.
 -->
 
-| Endpoint | Purpose |
-|----------|---------|
-| `GET /health` | Basic liveness check |
-| `GET /ready` | Readiness check with dependencies |
+| Endpoint      | Purpose                           |
+| ------------- | --------------------------------- |
+| `GET /health` | Basic liveness check              |
+| `GET /ready`  | Readiness check with dependencies |
 
 ### Logging
 

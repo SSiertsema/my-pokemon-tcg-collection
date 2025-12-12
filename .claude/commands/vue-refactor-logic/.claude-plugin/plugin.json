@@ -7,6 +7,12 @@
   },
   "repository": "https://github.com/SSiertsema/claude-code-plugins",
   "license": "MIT",
-  "keywords": ["vue", "refactor", "composables", "composition-api", "design-patterns"],
+  "keywords": [
+    "vue",
+    "refactor",
+    "composables",
+    "composition-api",
+    "design-patterns"
+  ],
   "commands": "./commands"
 }

@@ -24,15 +24,15 @@ The command will guide you through:
 
 The agent asks targeted questions across these areas:
 
-| Area | Questions About |
-|------|-----------------|
-| **Identity** | Role, department, experience level |
-| **Goals** | Primary objectives, motivations, success metrics |
-| **Pain Points** | Current frustrations, workarounds, impact |
-| **Technical Profile** | Proficiency, devices, usage frequency |
-| **Tasks** | Key activities, frequency, complexity |
-| **Environment** | Tools used, stakeholders, constraints |
-| **Mindset** | Representative quotes capturing their perspective |
+| Area                  | Questions About                                   |
+| --------------------- | ------------------------------------------------- |
+| **Identity**          | Role, department, experience level                |
+| **Goals**             | Primary objectives, motivations, success metrics  |
+| **Pain Points**       | Current frustrations, workarounds, impact         |
+| **Technical Profile** | Proficiency, devices, usage frequency             |
+| **Tasks**             | Key activities, frequency, complexity             |
+| **Environment**       | Tools used, stakeholders, constraints             |
+| **Mindset**           | Representative quotes capturing their perspective |
 
 ## Output
 
@@ -73,21 +73,23 @@ Each persona includes:
 ## Goals & Motivations
 
 ### Primary Goals
+
 1. Track team performance against quota in real-time
 2. Identify at-risk deals before they slip
 
 ### Motivations
+
 - Save time on manual reporting (currently 4 hours/week)
 - Look prepared in leadership meetings
 - Help struggling reps improve faster
 
 ## Pain Points
 
-| Pain Point | Impact | Workaround |
-|------------|--------|------------|
-| Manual data consolidation from multiple systems | High | Weekly spreadsheet ritual |
-| No early warning for at-risk deals | High | Gut feeling, often too late |
-| Can't see rep activity in real-time | Medium | Daily standups |
+| Pain Point                                      | Impact | Workaround                  |
+| ----------------------------------------------- | ------ | --------------------------- |
+| Manual data consolidation from multiple systems | High   | Weekly spreadsheet ritual   |
+| No early warning for at-risk deals              | High   | Gut feeling, often too late |
+| Can't see rep activity in real-time             | Medium | Daily standups              |
 
 ## User Story Mapping
 
@@ -105,6 +107,7 @@ After creating personas, use them with the user-story-generator:
 ```
 
 The user story generator will:
+
 1. Read your persona files
 2. Map personas to user stories
 3. Use pain points to inform "So that..." benefits

@@ -37,7 +37,7 @@ User Story (with Gherkin AC)
 
 The skill accepts user stories with Gherkin acceptance criteria:
 
-```markdown
+````markdown
 ## US-001: User Login
 
 > **As a** registered user,
@@ -56,6 +56,7 @@ And I click "Login"
 Then I am redirected to the dashboard
 And I see "Welcome back"
 ```
+````
 
 #### AC2: Invalid password
 
@@ -66,7 +67,8 @@ And I fill "password" with "wrong"
 And I click "Login"
 Then I see "Invalid credentials"
 ```
-```
+
+````
 
 ## E2E Test Generation
 
@@ -99,7 +101,7 @@ Add this plugin to your Claude Code configuration:
     "https://github.com/your-org/claude-code-plugins/vue-development-skill"
   ]
 }
-```
+````
 
 ## Complete Workflow
 
@@ -118,14 +120,14 @@ Add this plugin to your Claude Code configuration:
 
 The skill validates code against these Vue-specific criteria:
 
-| Category | Items | Focus |
-|----------|-------|-------|
-| Component Quality | 5 | Props, emits, single responsibility |
-| Reactivity | 4 | ref/reactive, computed, no prop mutation |
-| Composables | 4 | Structure, return types, cleanup |
-| Nuxt-Specific | 4 | useFetch, auto-imports, SEO |
-| TypeScript | 4 | No any, interfaces, generics |
-| Unit Tests | 6 | Coverage, TDD compliance |
+| Category          | Items | Focus                                    |
+| ----------------- | ----- | ---------------------------------------- |
+| Component Quality | 5     | Props, emits, single responsibility      |
+| Reactivity        | 4     | ref/reactive, computed, no prop mutation |
+| Composables       | 4     | Structure, return types, cleanup         |
+| Nuxt-Specific     | 4     | useFetch, auto-imports, SEO              |
+| TypeScript        | 4     | No any, interfaces, generics             |
+| Unit Tests        | 6     | Coverage, TDD compliance                 |
 
 ## Completion Report
 
@@ -189,32 +191,37 @@ After completing work, Claude generates a JSON report with all validation result
 ## Included Documentation
 
 ### E2E Testing
+
 - `e2e/playwright-patterns.md` - Gherkin to Playwright MCP mapping
 - `e2e/acceptance-criteria.md` - Parsing user stories and AC
 
 ### Patterns
+
 - `patterns/composition-api.md` - Vue 3 Composition API best practices
 - `patterns/nuxt3.md` - Nuxt 3 specific patterns
 - `patterns/typescript.md` - TypeScript with Vue
 
 ### Testing
+
 - `tdd/workflow.md` - Complete TDD process
 - `tdd/testing-patterns.md` - Vitest and Vue Test Utils examples
 
 ### Quality
+
 - `qa/vue-checklist.md` - Full QA checklist
 - `qa/report-template.json` - JSON schema for reports
 
 ### Debugging
+
 - `debugging/common-issues.md` - Troubleshooting guide
 
 ## Quality Thresholds
 
-| Score | Status | Meaning |
-|-------|--------|---------|
-| 9-10 | PASS | All validations passed |
-| 7-8 | ACCEPTABLE | Minor issues noted |
-| 0-6 | NEEDS_WORK | Must fix before completion |
+| Score | Status     | Meaning                    |
+| ----- | ---------- | -------------------------- |
+| 9-10  | PASS       | All validations passed     |
+| 7-8   | ACCEPTABLE | Minor issues noted         |
+| 0-6   | NEEDS_WORK | Must fix before completion |
 
 ## Completion Requirements
 

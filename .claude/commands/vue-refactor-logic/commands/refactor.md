@@ -17,6 +17,7 @@ You are a Vue 3 refactoring assistant. Your task is to autonomously refactor Vue
 Analyze the `<script setup>` section for:
 
 ### Code Splitting Issues
+
 - Functions exceeding 50 lines
 - Cyclomatic complexity > 10 (many conditionals/branches)
 - Nesting depth > 3 levels
@@ -24,6 +25,7 @@ Analyze the `<script setup>` section for:
 - Duplicate code patterns (2+ occurrences)
 
 ### Vue Anti-Patterns
+
 - Direct prop mutation (should emit)
 - Side effects in computed properties (should use watchers)
 - `v-if` and `v-for` on same element (should use computed filter)
@@ -31,12 +33,14 @@ Analyze the `<script setup>` section for:
 - Unhandled async errors in lifecycle hooks
 
 ### Extraction Opportunities
+
 - Reusable stateful logic → Extract to composable
 - Pure utility functions → Extract to utils file
 - Shared state patterns → Suggest Pinia store
 - Complex reactive logic → Extract to composable
 
 ### General Issues
+
 - Magic numbers/strings
 - Missing error handling
 - Callback chains instead of async/await
@@ -50,6 +54,7 @@ For each issue found, apply the appropriate resolution technique:
 ### Resolving High Cyclomatic Complexity (> 10)
 
 **Technique A: Extract Conditional Logic to Composable**
+
 ```typescript
 // BEFORE: complex component logic
 <script setup>
@@ -76,16 +81,24 @@ export function useActions() {
 ```
 
 **Technique B: Decompose Boolean Expressions**
+
 ```typescript
 // BEFORE
-const canSubmit = computed(() =>
-  form.name && form.email && !isLoading.value && !hasError.value && isValid.value
-)
+const canSubmit = computed(
+  () =>
+    form.name &&
+    form.email &&
+    !isLoading.value &&
+    !hasError.value &&
+    isValid.value
+);
 
 // AFTER
-const hasRequiredFields = computed(() => form.name && form.email)
-const isReady = computed(() => !isLoading.value && !hasError.value)
-const canSubmit = computed(() => hasRequiredFields.value && isReady.value && isValid.value)
+const hasRequiredFields = computed(() => form.name && form.email);
+const isReady = computed(() => !isLoading.value && !hasError.value);
+const canSubmit = computed(
+  () => hasRequiredFields.value && isReady.value && isValid.value
+);
 ```
 
 ---
@@ -93,6 +106,7 @@ const canSubmit = computed(() => hasRequiredFields.value && isReady.value && isV
 ### Resolving Deep Nesting (> 3 levels)
 
 **Technique A: Guard Clauses (Early Returns)**
+
 ```typescript
 // BEFORE: 4 levels deep
 const processData = (data) => {
@@ -103,19 +117,20 @@ const processData = (data) => {
       }
     }
   }
-}
+};
 
 // AFTER: flat with guards
 const processData = (data) => {
-  if (!data) return
-  if (!data.isValid) return
-  if (data.items.length === 0) return
+  if (!data) return;
+  if (!data.isValid) return;
+  if (data.items.length === 0) return;
 
   // actual logic
-}
+};
 ```
 
 **Technique B: Extract to Composable**
+
 ```typescript
 // BEFORE: nested in component
 <script setup>
@@ -142,20 +157,21 @@ const { user, posts, isLoading, error } = useUserData(props.userId)
 ```
 
 **Technique C: Use Array Methods**
+
 ```typescript
 // BEFORE: nested loops in setup
 for (const category of categories.value) {
   for (const item of category.items) {
-    if (item.isActive) { /* process */ }
+    if (item.isActive) {
+      /* process */
+    }
   }
 }
 
 // AFTER: flat
 const activeItems = computed(() =>
-  categories.value
-    .flatMap(cat => cat.items)
-    .filter(item => item.isActive)
-)
+  categories.value.flatMap((cat) => cat.items).filter((item) => item.isActive)
+);
 ```
 
 ---
@@ -163,6 +179,7 @@ const activeItems = computed(() =>
 ### Resolving Long Functions (> 50 lines)
 
 **Technique A: Extract to Composable by Feature**
+
 ```typescript
 // BEFORE: 100+ line setup
 <script setup>
@@ -181,16 +198,17 @@ const { submit, isSubmitting } = useFormSubmission(apiEndpoint)
 ```
 
 **Technique B: Extract Setup/Teardown Pattern**
+
 ```typescript
 // composables/useEventListener.ts
 export function useEventListener(target, event, handler) {
-  onMounted(() => target.addEventListener(event, handler))
-  onUnmounted(() => target.removeEventListener(event, handler))
+  onMounted(() => target.addEventListener(event, handler));
+  onUnmounted(() => target.removeEventListener(event, handler));
 }
 
 // Usage - clean and reusable
-useEventListener(window, 'resize', handleResize)
-useEventListener(document, 'keydown', handleKeydown)
+useEventListener(window, 'resize', handleResize);
+useEventListener(document, 'keydown', handleKeydown);
 ```
 
 ---
@@ -198,22 +216,23 @@ useEventListener(document, 'keydown', handleKeydown)
 ### Resolving Too Many Parameters (> 4)
 
 **Technique: Options Object Pattern**
+
 ```typescript
 // BEFORE
 function useDataFetcher(url, method, headers, body, timeout, retries) {}
 
 // AFTER
 interface FetcherOptions {
-  url: string
-  method?: 'GET' | 'POST'
-  headers?: Record<string, string>
-  body?: unknown
-  timeout?: number
-  retries?: number
+  url: string;
+  method?: 'GET' | 'POST';
+  headers?: Record<string, string>;
+  body?: unknown;
+  timeout?: number;
+  retries?: number;
 }
 
 function useDataFetcher(options: FetcherOptions) {
-  const { url, method = 'GET', timeout = 5000 } = options
+  const { url, method = 'GET', timeout = 5000 } = options;
   // ...
 }
 ```
@@ -223,44 +242,53 @@ function useDataFetcher(options: FetcherOptions) {
 ### Resolving Duplicate Code
 
 **Technique: Extract to Composable**
+
 ```typescript
 // BEFORE: duplicated in multiple components
 // ComponentA.vue
-const isLoading = ref(false)
-const error = ref(null)
-const data = ref(null)
+const isLoading = ref(false);
+const error = ref(null);
+const data = ref(null);
 onMounted(async () => {
-  isLoading.value = true
-  try { data.value = await fetchUsers() }
-  catch (e) { error.value = e }
-  finally { isLoading.value = false }
-})
+  isLoading.value = true;
+  try {
+    data.value = await fetchUsers();
+  } catch (e) {
+    error.value = e;
+  } finally {
+    isLoading.value = false;
+  }
+});
 
 // ComponentB.vue - same pattern for products
 
 // AFTER: single composable
 // composables/useFetch.ts
 export function useFetch<T>(fetcher: () => Promise<T>) {
-  const isLoading = ref(false)
-  const error = ref<Error | null>(null)
-  const data = ref<T | null>(null)
+  const isLoading = ref(false);
+  const error = ref<Error | null>(null);
+  const data = ref<T | null>(null);
 
   const execute = async () => {
-    isLoading.value = true
-    error.value = null
-    try { data.value = await fetcher() }
-    catch (e) { error.value = e as Error }
-    finally { isLoading.value = false }
-  }
+    isLoading.value = true;
+    error.value = null;
+    try {
+      data.value = await fetcher();
+    } catch (e) {
+      error.value = e as Error;
+    } finally {
+      isLoading.value = false;
+    }
+  };
 
-  onMounted(execute)
+  onMounted(execute);
 
-  return { data, isLoading, error, refetch: execute }
+  return { data, isLoading, error, refetch: execute };
 }
 
 // Usage
-const { data: users, isLoading } = useFetch(fetchUsers)
-const { data: products } = useFetch(fetchProducts)
+const { data: users, isLoading } = useFetch(fetchUsers);
+const { data: products } = useFetch(fetchProducts);
 ```
 
 ---
@@ -268,6 +296,7 @@ const { data: products } = useFetch(fetchProducts)
 ### Composable Extraction Guidelines
 
 Extract to composable (`composables/useX.ts`) when logic:
+
 - Uses Vue reactivity (ref, reactive, computed)
 - Uses lifecycle hooks (onMounted, onUnmounted)
 - Uses watchers (watch, watchEffect)
@@ -275,6 +304,7 @@ Extract to composable (`composables/useX.ts`) when logic:
 - Groups related functionality
 
 **Composable structure:**
+
 ```typescript
 // composables/useExample.ts
 export function useExample(props) {
@@ -297,23 +327,27 @@ export function useExample(props) {
 ```
 
 ### Utility Extraction
+
 Extract to utils (`utils/helpers.ts`) when:
+
 - Pure function (input → output, no side effects)
 - No Vue reactivity needed
 - Framework-agnostic logic
 
 ### Vue Anti-Pattern Fixes
 
-| Anti-Pattern | Fix |
-|--------------|-----|
-| `props.x = value` | `emit('update:x', value)` |
-| Side effect in computed | Move to `watch()` or `watchEffect()` |
-| v-if + v-for together | Use computed to filter first |
-| No cleanup | Add `onUnmounted()` for listeners/timers |
-| Async without catch | Add try/catch with error state |
+| Anti-Pattern            | Fix                                      |
+| ----------------------- | ---------------------------------------- |
+| `props.x = value`       | `emit('update:x', value)`                |
+| Side effect in computed | Move to `watch()` or `watchEffect()`     |
+| v-if + v-for together   | Use computed to filter first             |
+| No cleanup              | Add `onUnmounted()` for listeners/timers |
+| Async without catch     | Add try/catch with error state           |
 
 ### File Location
+
 When creating new files, analyze project structure:
+
 - Look for existing `composables/`, `utils/`, `hooks/` folders
 - Follow existing naming conventions
 - If no convention exists, use `src/composables/` and `src/utils/`
@@ -336,6 +370,7 @@ Apply all refactoring changes:
 ## Step 5: Report Completion
 
 Report all changes made:
+
 ```
 Refactored: ComponentName.vue
 
@@ -358,6 +393,7 @@ New files created:
 **You MUST complete and display this checklist. The refactoring is NOT complete until shown.**
 
 ### Analysis
+
 - [ ] Target .vue file identified
 - [ ] Script uses Composition API (`<script setup>`)
 - [ ] Code analyzed for complexity metrics
@@ -365,29 +401,34 @@ New files created:
 - [ ] Extraction opportunities found
 
 ### Code Splitting
+
 - [ ] Functions > 50 lines: addressed or N/A
 - [ ] Nesting > 3 levels: addressed or N/A
 - [ ] Complexity > 10: addressed or N/A
 - [ ] Duplicate code: extracted or N/A
 
 ### Vue-Specific Fixes
+
 - [ ] Prop mutations: fixed or N/A
 - [ ] Computed side effects: moved to watchers or N/A
 - [ ] Lifecycle cleanup: added or N/A
 - [ ] Async error handling: added or N/A
 
 ### Extractions
+
 - [ ] Composables created for reusable stateful logic
 - [ ] Utils created for pure functions
 - [ ] Files in appropriate locations
 - [ ] Imports updated correctly
 
 ### Completion
+
 - [ ] All changes applied successfully
 - [ ] Summary reported
 - [ ] This checklist displayed with [x] marks
 
 **Example output:**
+
 ```
 Verification Checklist:
 [x] Target file: src/components/UserDashboard.vue

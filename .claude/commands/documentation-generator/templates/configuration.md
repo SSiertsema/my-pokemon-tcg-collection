@@ -15,25 +15,25 @@ Group by category for readability.
 
 ### Required Variables
 
-| Variable | Description | Example |
-|----------|-------------|---------|
-| `NODE_ENV` | Environment mode | `development`, `production` |
+| Variable       | Description                | Example                               |
+| -------------- | -------------------------- | ------------------------------------- |
+| `NODE_ENV`     | Environment mode           | `development`, `production`           |
 | `DATABASE_URL` | Database connection string | `postgresql://user:pass@host:5432/db` |
-| | | |
+|                |                            |                                       |
 
 ### Optional Variables
 
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `PORT` | Server port | `3000` |
-| `LOG_LEVEL` | Logging verbosity | `info` |
-| | | |
+| Variable    | Description       | Default |
+| ----------- | ----------------- | ------- |
+| `PORT`      | Server port       | `3000`  |
+| `LOG_LEVEL` | Logging verbosity | `info`  |
+|             |                   |         |
 
 ### Third-Party Services
 
 | Variable | Service | Description |
-|----------|---------|-------------|
-| | | |
+| -------- | ------- | ----------- |
+|          |         |             |
 
 ## Configuration Files
 
@@ -63,11 +63,11 @@ module.exports = {
 How configuration varies by environment.
 -->
 
-| File | Environment |
-|------|-------------|
+| File               | Environment       |
+| ------------------ | ----------------- |
 | `.env.development` | Local development |
-| `.env.test` | Test environment |
-| `.env.production` | Production |
+| `.env.test`        | Test environment  |
+| `.env.production`  | Production        |
 
 ## Feature Flags
 
@@ -76,8 +76,8 @@ If the application uses feature flags, document them.
 -->
 
 | Flag | Description | Default | How to Enable |
-|------|-------------|---------|---------------|
-| | | | |
+| ---- | ----------- | ------- | ------------- |
+|      |             |         |               |
 
 ## Logging Configuration
 
@@ -87,12 +87,12 @@ How to configure logging behavior.
 
 ### Log Levels
 
-| Level | Description |
-|-------|-------------|
-| `error` | Error conditions |
-| `warn` | Warning conditions |
-| `info` | Informational messages |
-| `debug` | Debug-level messages |
+| Level   | Description            |
+| ------- | ---------------------- |
+| `error` | Error conditions       |
+| `warn`  | Warning conditions     |
+| `info`  | Informational messages |
+| `debug` | Debug-level messages   |
 
 ### Log Output
 
@@ -107,11 +107,11 @@ Database-specific configuration options.
 
 ### Connection Pool
 
-| Setting | Description | Default |
-|---------|-------------|---------|
-| `max` | Maximum connections | `10` |
-| `min` | Minimum connections | `2` |
-| `idle` | Idle timeout (ms) | `10000` |
+| Setting | Description         | Default |
+| ------- | ------------------- | ------- |
+| `max`   | Maximum connections | `10`    |
+| `min`   | Minimum connections | `2`     |
+| `idle`  | Idle timeout (ms)   | `10000` |
 
 ## Cache Configuration
 
@@ -119,10 +119,10 @@ Database-specific configuration options.
 If caching is used, document configuration.
 -->
 
-| Setting | Description | Default |
-|---------|-------------|---------|
-| `CACHE_TTL` | Default TTL (seconds) | `300` |
-| `REDIS_URL` | Redis connection URL | |
+| Setting     | Description           | Default |
+| ----------- | --------------------- | ------- |
+| `CACHE_TTL` | Default TTL (seconds) | `300`   |
+| `REDIS_URL` | Redis connection URL  |         |
 
 ## API Configuration
 
@@ -132,16 +132,16 @@ API-related configuration options.
 
 ### Rate Limiting
 
-| Setting | Description | Default |
-|---------|-------------|---------|
-| `RATE_LIMIT_MAX` | Max requests per window | `100` |
-| `RATE_LIMIT_WINDOW` | Window size (ms) | `60000` |
+| Setting             | Description             | Default |
+| ------------------- | ----------------------- | ------- |
+| `RATE_LIMIT_MAX`    | Max requests per window | `100`   |
+| `RATE_LIMIT_WINDOW` | Window size (ms)        | `60000` |
 
 ### CORS
 
-| Setting | Description | Default |
-|---------|-------------|---------|
-| `CORS_ORIGIN` | Allowed origins | `*` |
+| Setting       | Description     | Default |
+| ------------- | --------------- | ------- |
+| `CORS_ORIGIN` | Allowed origins | `*`     |
 
 ## Security Configuration
 
@@ -149,11 +149,11 @@ API-related configuration options.
 Security-related settings.
 -->
 
-| Setting | Description | Recommendation |
-|---------|-------------|----------------|
+| Setting          | Description            | Recommendation          |
+| ---------------- | ---------------------- | ----------------------- |
 | `SESSION_SECRET` | Session signing secret | Use strong random value |
-| `JWT_SECRET` | JWT signing secret | Use strong random value |
-| `JWT_EXPIRY` | Token expiration | `24h` |
+| `JWT_SECRET`     | JWT signing secret     | Use strong random value |
+| `JWT_EXPIRY`     | Token expiration       | `24h`                   |
 
 ## Configuration Best Practices
 

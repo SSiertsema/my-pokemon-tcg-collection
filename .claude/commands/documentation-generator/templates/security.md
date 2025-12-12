@@ -48,11 +48,11 @@ How access control is implemented.
 
 ### Role-Based Access Control
 
-| Role | Permissions |
-|------|-------------|
+| Role  | Permissions |
+| ----- | ----------- |
 | Admin | Full access |
-| User | |
-| Guest | |
+| User  |             |
+| Guest |             |
 
 ### Permission Checks
 
@@ -80,11 +80,11 @@ How and where permissions are enforced.
 How sensitive data (PII, credentials, etc.) is handled.
 -->
 
-| Data Type | Protection Measure |
-|-----------|-------------------|
+| Data Type | Protection Measure        |
+| --------- | ------------------------- |
 | Passwords | Hashed with bcrypt/argon2 |
-| API Keys | Encrypted at rest |
-| PII | |
+| API Keys  | Encrypted at rest         |
+| PII       |                           |
 
 ## API Security
 
@@ -114,12 +114,12 @@ Allowed Headers:
 HTTP security headers configured.
 -->
 
-| Header | Value |
-|--------|-------|
-| `Content-Security-Policy` | |
-| `X-Frame-Options` | `DENY` |
-| `X-Content-Type-Options` | `nosniff` |
-| `Strict-Transport-Security` | |
+| Header                      | Value     |
+| --------------------------- | --------- |
+| `Content-Security-Policy`   |           |
+| `X-Frame-Options`           | `DENY`    |
+| `X-Content-Type-Options`    | `nosniff` |
+| `Strict-Transport-Security` |           |
 
 ## Secrets Management
 

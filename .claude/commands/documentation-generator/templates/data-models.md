@@ -52,12 +52,12 @@ For each major entity/model, document:
 
 **Fields:**
 
-| Field | Type | Constraints | Description |
-|-------|------|-------------|-------------|
-| id | UUID | PK, NOT NULL | Unique identifier |
-| created_at | TIMESTAMP | NOT NULL | Creation timestamp |
-| updated_at | TIMESTAMP | NOT NULL | Last update timestamp |
-| | | | |
+| Field      | Type      | Constraints  | Description           |
+| ---------- | --------- | ------------ | --------------------- |
+| id         | UUID      | PK, NOT NULL | Unique identifier     |
+| created_at | TIMESTAMP | NOT NULL     | Creation timestamp    |
+| updated_at | TIMESTAMP | NOT NULL     | Last update timestamp |
+|            |           |              |                       |
 
 **Relationships:**
 
@@ -67,8 +67,8 @@ For each major entity/model, document:
 **Indexes:**
 
 | Name | Columns | Type |
-|------|---------|------|
-| | | |
+| ---- | ------- | ---- |
+|      |         |      |
 
 **Validations:**
 
@@ -86,11 +86,11 @@ Document enum types and constant values used across entities.
 
 ### StatusEnum
 
-| Value | Description |
-|-------|-------------|
-| `PENDING` | |
-| `ACTIVE` | |
-| `COMPLETED` | |
+| Value       | Description |
+| ----------- | ----------- |
+| `PENDING`   |             |
+| `ACTIVE`    |             |
+| `COMPLETED` |             |
 
 ## Database Migrations
 

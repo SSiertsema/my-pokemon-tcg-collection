@@ -15,10 +15,15 @@ The command automatically detects the currently open `.vue` file and proposes re
 ### 1. Reorders SFC Sections
 
 Enforces the recommended order:
+
 ```vue
 <template>...</template>
-<script setup>...</script>
-<style scoped>...</style>
+<script setup>
+...
+</script>
+<style scoped>
+...
+</style>
 ```
 
 ### 2. Reorganizes Script Content
@@ -36,14 +41,14 @@ Applies Composition API ordering convention:
 
 ### 3. Improves Naming
 
-| Type | Convention | Example |
-|------|------------|---------|
-| Files | PascalCase | `UserProfile.vue` |
-| Variables | camelCase | `userData`, `selectedItem` |
-| Booleans | is/has/can prefix | `isLoading`, `hasError` |
-| Event handlers | handle/on prefix | `handleClick`, `onSubmit` |
-| Data fetching | fetch/load/get prefix | `fetchUsers`, `loadData` |
-| Constants | UPPER_SNAKE_CASE | `MAX_ITEMS`, `API_URL` |
+| Type           | Convention            | Example                    |
+| -------------- | --------------------- | -------------------------- |
+| Files          | PascalCase            | `UserProfile.vue`          |
+| Variables      | camelCase             | `userData`, `selectedItem` |
+| Booleans       | is/has/can prefix     | `isLoading`, `hasError`    |
+| Event handlers | handle/on prefix      | `handleClick`, `onSubmit`  |
+| Data fetching  | fetch/load/get prefix | `fetchUsers`, `loadData`   |
+| Constants      | UPPER_SNAKE_CASE      | `MAX_ITEMS`, `API_URL`     |
 
 ## Requirements
 
@@ -53,19 +58,25 @@ Applies Composition API ordering convention:
 ## Example
 
 **Before:**
+
 ```vue
 <script setup>
-import { onMounted, ref } from 'vue'
-import api from '@/api'
+import { onMounted, ref } from 'vue';
+import api from '@/api';
 
-const x = ref([])
-const load = async () => { /* ... */ }
-const y = ref(false)
+const x = ref([]);
+const load = async () => {
+  /* ... */
+};
+const y = ref(false);
 
-onMounted(() => load())
+onMounted(() => load());
 </script>
 
-<style>.container { }</style>
+<style>
+.container {
+}
+</style>
 
 <template>
   <div class="container">...</div>
@@ -73,24 +84,28 @@ onMounted(() => load())
 ```
 
 **After:**
+
 ```vue
 <template>
   <div class="container">...</div>
 </template>
 
 <script setup>
-import { onMounted, ref } from 'vue'
-import api from '@/api'
+import { onMounted, ref } from 'vue';
+import api from '@/api';
 
-const items = ref([])
-const isLoading = ref(false)
+const items = ref([]);
+const isLoading = ref(false);
 
-async function fetchItems() { /* ... */ }
+async function fetchItems() {
+  /* ... */
+}
 
-onMounted(() => fetchItems())
+onMounted(() => fetchItems());
 </script>
 
 <style scoped>
-.container { }
+.container {
+}
 </style>
 ```

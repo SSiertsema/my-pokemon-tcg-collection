@@ -84,9 +84,9 @@ Each story typically has 3-6 acceptance criteria covering:
 List stories that must be completed before this one.
 -->
 
-| Story ID | Title | Type | Reason |
-|----------|-------|------|--------|
-| {US-XXX} | {Story Title} | Hard | {Why this must be completed first} |
+| Story ID | Title         | Type | Reason                                 |
+| -------- | ------------- | ---- | -------------------------------------- |
+| {US-XXX} | {Story Title} | Hard | {Why this must be completed first}     |
 | {US-YYY} | {Story Title} | Soft | {Why this makes implementation easier} |
 
 **Blocked by:** {Comma-separated list of blocking story IDs, or "None"}
@@ -100,14 +100,14 @@ List stories that must be completed before this one.
 Verification that the story meets INVEST criteria.
 -->
 
-| Criterion | Status | Notes |
-|-----------|--------|-------|
+| Criterion       | Status | Notes                                                |
+| --------------- | ------ | ---------------------------------------------------- |
 | **I**ndependent | Yes/No | {Can be developed without other stories in progress} |
-| **N**egotiable | Yes/No | {Leaves room for implementation discussion} |
-| **V**aluable | Yes/No | {Delivers clear value to the user} |
-| **E**stimable | Yes/No | {Team can reasonably estimate effort} |
-| **S**mall | Yes/No | {Fits within a single sprint} |
-| **T**estable | Yes/No | {Acceptance criteria are verifiable} |
+| **N**egotiable  | Yes/No | {Leaves room for implementation discussion}          |
+| **V**aluable    | Yes/No | {Delivers clear value to the user}                   |
+| **E**stimable   | Yes/No | {Team can reasonably estimate effort}                |
+| **S**mall       | Yes/No | {Fits within a single sprint}                        |
+| **T**estable    | Yes/No | {Acceptance criteria are verifiable}                 |
 
 ---
 

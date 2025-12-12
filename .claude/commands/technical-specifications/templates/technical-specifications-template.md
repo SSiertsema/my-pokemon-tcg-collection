@@ -26,8 +26,8 @@
 
 High-level capabilities this system must provide:
 
-| Capability | Description | Priority |
-|------------|-------------|----------|
+| Capability     | Description         | Priority            |
+| -------------- | ------------------- | ------------------- |
 | [Capability 1] | [Brief description] | [Must/Should/Could] |
 | [Capability 2] | [Brief description] | [Must/Should/Could] |
 
@@ -39,17 +39,19 @@ High-level capabilities this system must provide:
 
 **Interfaces Required:**
 
-| Interface | Platform | Description |
-|-----------|----------|-------------|
-| [Web App] | [Browsers] | [Description] |
-| [Mobile App] | [iOS/Android] | [Description] |
-| [API] | [REST/GraphQL] | [Description] |
+| Interface    | Platform       | Description   |
+| ------------ | -------------- | ------------- |
+| [Web App]    | [Browsers]     | [Description] |
+| [Mobile App] | [iOS/Android]  | [Description] |
+| [API]        | [REST/GraphQL] | [Description] |
 
 **Platform Requirements:**
+
 - [Browser support requirements]
 - [Device support requirements]
 
 **Additional Considerations:**
+
 - Accessibility: [Requirements]
 - Internationalization: [Requirements]
 - Offline support: [Requirements]
@@ -58,33 +60,38 @@ High-level capabilities this system must provide:
 
 **Storage Requirements:**
 
-| Data Type | Storage Solution | Rationale |
-|-----------|-----------------|-----------|
-| [Structured data] | [e.g., PostgreSQL] | [Why this choice] |
-| [File uploads] | [e.g., Blob storage] | [Why this choice] |
-| [Cache/sessions] | [e.g., Redis] | [Why this choice] |
-| [Search index] | [e.g., Elasticsearch] | [Why this choice] |
+| Data Type         | Storage Solution      | Rationale         |
+| ----------------- | --------------------- | ----------------- |
+| [Structured data] | [e.g., PostgreSQL]    | [Why this choice] |
+| [File uploads]    | [e.g., Blob storage]  | [Why this choice] |
+| [Cache/sessions]  | [e.g., Redis]         | [Why this choice] |
+| [Search index]    | [e.g., Elasticsearch] | [Why this choice] |
 
 **Data Characteristics:**
+
 - Volume: [Expected data volume]
 - Retention: [How long data is kept]
 - Backup: [Backup requirements]
 
 **External Data Sources:**
+
 - [Data source 1]: [Integration method]
 - [Data source 2]: [Integration method]
 
 ### 3.3 Infrastructure Layer
 
 **Deployment Target:**
+
 - Cloud Provider: [e.g., Azure, AWS, GCP]
 - Region(s): [Deployment regions]
 - Environment Strategy: [dev/staging/prod]
 
 **Containerization:**
+
 - [Docker/Kubernetes requirements]
 
 **CI/CD:**
+
 - [Pipeline requirements]
 - [Deployment strategy]
 
@@ -94,13 +101,13 @@ High-level capabilities this system must provide:
 
 ### 4.1 Proposed Technologies
 
-| Layer | Technology | Rationale |
-|-------|------------|-----------|
-| Frontend | [e.g., Vue 3 + Nuxt] | [Why this choice] |
-| Backend | [e.g., Node.js + Express] | [Why this choice] |
-| Database | [e.g., PostgreSQL] | [Why this choice] |
-| Cache | [e.g., Redis] | [Why this choice] |
-| Cloud | [e.g., Azure] | [Why this choice] |
+| Layer    | Technology                | Rationale         |
+| -------- | ------------------------- | ----------------- |
+| Frontend | [e.g., Vue 3 + Nuxt]      | [Why this choice] |
+| Backend  | [e.g., Node.js + Express] | [Why this choice] |
+| Database | [e.g., PostgreSQL]        | [Why this choice] |
+| Cache    | [e.g., Redis]             | [Why this choice] |
+| Cloud    | [e.g., Azure]             | [Why this choice] |
 
 ### 4.2 Key Libraries/Frameworks
 
@@ -113,11 +120,11 @@ High-level capabilities this system must provide:
 
 ### 5.1 Performance
 
-| Metric | Target | Notes |
-|--------|--------|-------|
-| Response Time | [e.g., < 200ms] | [For which operations] |
-| Throughput | [e.g., 1000 req/s] | [Expected load] |
-| Page Load | [e.g., < 3s] | [Initial load target] |
+| Metric        | Target             | Notes                  |
+| ------------- | ------------------ | ---------------------- |
+| Response Time | [e.g., < 200ms]    | [For which operations] |
+| Throughput    | [e.g., 1000 req/s] | [Expected load]        |
+| Page Load     | [e.g., < 3s]       | [Initial load target]  |
 
 ### 5.2 Scalability
 
@@ -128,30 +135,36 @@ High-level capabilities this system must provide:
 ### 5.3 Security
 
 **Authentication:**
+
 - [Authentication method and provider]
 
 **Authorization:**
+
 - [Authorization model: RBAC/ABAC/etc.]
 
 **Data Protection:**
+
 - Encryption at Rest: [Yes/No - details]
 - Encryption in Transit: [Yes/No - details]
 
 **Compliance:**
+
 - [GDPR, HIPAA, SOC2, etc.]
 
 **Audit:**
+
 - [Audit logging requirements]
 
 ### 5.4 Availability & Reliability
 
-| Metric | Target |
-|--------|--------|
-| Uptime SLA | [e.g., 99.9%] |
-| RTO (Recovery Time) | [e.g., 4 hours] |
-| RPO (Recovery Point) | [e.g., 1 hour] |
+| Metric               | Target          |
+| -------------------- | --------------- |
+| Uptime SLA           | [e.g., 99.9%]   |
+| RTO (Recovery Time)  | [e.g., 4 hours] |
+| RPO (Recovery Point) | [e.g., 1 hour]  |
 
 **Disaster Recovery:**
+
 - [Strategy and requirements]
 
 ---
@@ -160,30 +173,30 @@ High-level capabilities this system must provide:
 
 ### 6.1 Third-Party Services
 
-| Service | Purpose | Integration |
-|---------|---------|-------------|
+| Service     | Purpose   | Integration    |
+| ----------- | --------- | -------------- |
 | [Service 1] | [Purpose] | [API/SDK/etc.] |
 | [Service 2] | [Purpose] | [API/SDK/etc.] |
 
 ### 6.2 External APIs
 
-| API | Purpose | Authentication |
-|-----|---------|----------------|
+| API     | Purpose   | Authentication       |
+| ------- | --------- | -------------------- |
 | [API 1] | [Purpose] | [OAuth/API Key/etc.] |
 
 ### 6.3 Internal System Connections
 
-| System | Purpose | Protocol |
-|--------|---------|----------|
+| System     | Purpose   | Protocol         |
+| ---------- | --------- | ---------------- |
 | [System 1] | [Purpose] | [REST/gRPC/etc.] |
 
 ---
 
 ## 7. Open Questions / Decisions Needed
 
-| Question | Context | Owner | Due Date |
-|----------|---------|-------|----------|
-| [Question 1] | [Why this needs decision] | [Who decides] | [When] |
+| Question     | Context                   | Owner         | Due Date |
+| ------------ | ------------------------- | ------------- | -------- |
+| [Question 1] | [Why this needs decision] | [Who decides] | [When]   |
 
 ---
 
@@ -191,8 +204,8 @@ High-level capabilities this system must provide:
 
 ### A. Glossary
 
-| Term | Definition |
-|------|------------|
+| Term     | Definition   |
+| -------- | ------------ |
 | [Term 1] | [Definition] |
 
 ### B. References

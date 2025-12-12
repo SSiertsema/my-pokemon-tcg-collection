@@ -13,10 +13,10 @@ List all required software and their minimum versions.
 Include: language runtime, package manager, databases, tools.
 -->
 
-| Software | Version | Installation |
-|----------|---------|--------------|
-| Node.js | >= 18.x | [nodejs.org](https://nodejs.org) |
-| | | |
+| Software | Version | Installation                     |
+| -------- | ------- | -------------------------------- |
+| Node.js  | >= 18.x | [nodejs.org](https://nodejs.org) |
+|          |         |                                  |
 
 ## Quick Start
 
@@ -70,10 +70,10 @@ cp .env.example .env
 
 Required variables to configure:
 
-| Variable | Description | Example |
-|----------|-------------|---------|
+| Variable       | Description                | Example            |
+| -------------- | -------------------------- | ------------------ |
 | `DATABASE_URL` | Database connection string | `postgresql://...` |
-| | | |
+|                |                            |                    |
 
 ### 4. Database Setup
 
@@ -106,14 +106,14 @@ Recommended IDE configuration and extensions.
 
 ### VS Code
 
-Recommended extensions:
--
+## Recommended extensions:
+
 -
 
 Workspace settings (`.vscode/settings.json`):
+
 ```json
-{
-}
+{}
 ```
 
 ## Common Development Tasks
@@ -122,13 +122,13 @@ Workspace settings (`.vscode/settings.json`):
 Frequently used commands during development.
 -->
 
-| Task | Command |
-|------|---------|
-| Start dev server | `npm run dev` |
-| Run tests | `npm test` |
-| Lint code | `npm run lint` |
-| Format code | `npm run format` |
-| Build | `npm run build` |
+| Task             | Command          |
+| ---------------- | ---------------- |
+| Start dev server | `npm run dev`    |
+| Run tests        | `npm test`       |
+| Lint code        | `npm run lint`   |
+| Format code      | `npm run format` |
+| Build            | `npm run build`  |
 
 ## Docker Development
 

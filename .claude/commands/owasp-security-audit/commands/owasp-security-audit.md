@@ -22,11 +22,13 @@ Options:
 If the user selects "Other", they can specify any language supported by the LLM (e.g., German, French, Spanish, Dutch, Japanese, Chinese, etc.).
 
 Store the selected language and use it for:
+
 - All report content and headings
 - Finding descriptions and recommendations
 - Stakeholder-friendly explanations
 
 **Language Guidelines:**
+
 - Keep technical security terms in English (XSS, CSRF, SQL injection, SSRF, etc.) regardless of report language
 - Translate explanations, descriptions, and recommendations to the selected language
 - Reference OWASP guidelines with their original IDs (A01, A02, etc.) regardless of language
@@ -35,6 +37,7 @@ Store the selected language and use it for:
 ## Overview
 
 This command triggers a 3-agent collaborative security audit:
+
 1. **Discovery Agent** - Analyzes solution type and determines relevant OWASP guidelines
 2. **Security Analyst Agent** - Deep-dives into code to identify vulnerabilities
 3. **Verification Agent** - Cross-validates findings and ensures completeness
@@ -254,6 +257,7 @@ Independently verify security posture for [GUIDELINE_NAME]:
 ### Consensus Building
 
 After both agents complete for a guideline:
+
 1. Compare findings
 2. Resolve disputes
 3. Merge additional findings
@@ -271,7 +275,8 @@ After all guidelines are analyzed, compile two reports:
 Create file: `security-reports/owasp-audit-technical.md`
 
 Structure:
-```markdown
+
+````markdown
 # OWASP Top 10 Security Audit - Technical Report
 
 **Generated:** [DATE]
@@ -288,9 +293,10 @@ Structure:
 
 ## Quick Reference
 
-| Guideline | Status | Critical | High | Medium | Low |
-|-----------|--------|----------|------|--------|-----|
-| A01: Broken Access Control | PASS/FAIL | 0 | 1 | 2 | 0 |
+| Guideline                  | Status    | Critical | High | Medium | Low |
+| -------------------------- | --------- | -------- | ---- | ------ | --- |
+| A01: Broken Access Control | PASS/FAIL | 0        | 1    | 2      | 0   |
+
 ...
 
 ## Detailed Findings
@@ -308,31 +314,34 @@ Structure:
   ```typescript
   // Vulnerable code
   ```
+````
+
 - **Attack Vector:** [How to exploit]
 - **Recommendation:** [How to fix with code example]
 - **Effort:** Medium
 
 #### Implemented Controls
 
-| Control | Status | Location |
-|---------|--------|----------|
+| Control                 | Status      | Location              |
+| ----------------------- | ----------- | --------------------- |
 | Bearer token validation | Implemented | auth/middleware.ts:45 |
 
 ...
 
 ## Remediation Priority Matrix
 
-| Priority | Finding | Effort | Impact |
-|----------|---------|--------|--------|
-| 1 | F003: SQL Injection | Low | Critical |
-| 2 | F001: Missing RBAC | Medium | High |
+| Priority | Finding             | Effort | Impact   |
+| -------- | ------------------- | ------ | -------- |
+| 1        | F003: SQL Injection | Low    | Critical |
+| 2        | F001: Missing RBAC  | Medium | High     |
 
 ## Appendix: Files Analyzed
 
-- src/auth/*.ts
-- src/api/*.ts
-...
-```
+- src/auth/\*.ts
+- src/api/\*.ts
+  ...
+
+````
 
 ### Non-Technical Report (for stakeholders)
 
@@ -404,7 +413,7 @@ Structure:
 ---
 
 *This assessment was performed using automated analysis tools and expert review.*
-```
+````
 
 ---
 
@@ -423,6 +432,7 @@ Structure:
 ## Progress Tracking
 
 Use TodoWrite to track:
+
 - [ ] Phase 1: Solution Discovery
 - [ ] Phase 2: Guideline Analysis (per guideline)
 - [ ] Phase 3: Technical Report Generation

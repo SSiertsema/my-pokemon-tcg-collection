@@ -13,10 +13,10 @@ Specify the base URL for API requests.
 Include different environments if applicable (dev, staging, production).
 -->
 
-| Environment | Base URL |
-|-------------|----------|
+| Environment | Base URL                |
+| ----------- | ----------------------- |
 | Development | `http://localhost:PORT` |
-| Production | |
+| Production  |                         |
 
 ## Authentication
 
@@ -55,9 +55,9 @@ For each endpoint, document:
 
 **Parameters:**
 
-| Name | Type | In | Required | Description |
-|------|------|-----|----------|-------------|
-| | | query | | |
+| Name | Type | In    | Required | Description |
+| ---- | ---- | ----- | -------- | ----------- |
+|      |      | query |          |             |
 
 **Response:**
 
@@ -116,13 +116,13 @@ Document common error responses and their meanings.
 
 ### Common Error Codes
 
-| Code | HTTP Status | Description |
-|------|-------------|-------------|
-| `UNAUTHORIZED` | 401 | Invalid or missing authentication |
-| `FORBIDDEN` | 403 | Insufficient permissions |
-| `NOT_FOUND` | 404 | Resource not found |
-| `VALIDATION_ERROR` | 400 | Invalid request parameters |
-| `INTERNAL_ERROR` | 500 | Server error |
+| Code               | HTTP Status | Description                       |
+| ------------------ | ----------- | --------------------------------- |
+| `UNAUTHORIZED`     | 401         | Invalid or missing authentication |
+| `FORBIDDEN`        | 403         | Insufficient permissions          |
+| `NOT_FOUND`        | 404         | Resource not found                |
+| `VALIDATION_ERROR` | 400         | Invalid request parameters        |
+| `INTERNAL_ERROR`   | 500         | Server error                      |
 
 ## Rate Limiting
 

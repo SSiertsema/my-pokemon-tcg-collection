@@ -84,6 +84,7 @@ Options (multi-select):
 ```
 
 Common user type patterns to look for:
+
 - **End Users**: Primary users who perform core tasks
 - **Administrators**: Users who configure and manage the system
 - **Managers/Supervisors**: Users who oversee others' work
@@ -117,11 +118,13 @@ Ask about who this persona is:
 **Question Set 1 - Basic Identity:**
 
 Use AskUserQuestion:
+
 ```
 Question: "What is this persona's job title or role?"
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "What department or team do they belong to?"
 Options:
@@ -138,6 +141,7 @@ Options:
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "How experienced are they in this role?"
 Options:
@@ -155,11 +159,13 @@ Ask about what drives this persona:
 **Question Set 2 - Goals:**
 
 Use AskUserQuestion:
+
 ```
 Question: "What is this persona's PRIMARY goal when using the system? (The main outcome they want to achieve)"
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "What MOTIVATES them to achieve this goal?"
 Options (multi-select):
@@ -175,6 +181,7 @@ Options (multi-select):
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "How do they measure success? What metrics matter to them?"
 ```
@@ -186,6 +193,7 @@ Ask about current frustrations:
 **Question Set 3 - Pain Points:**
 
 Use AskUserQuestion:
+
 ```
 Question: "What are the TOP 3 frustrations this persona experiences with their current process or tools?"
 ```
@@ -193,11 +201,13 @@ Question: "What are the TOP 3 frustrations this persona experiences with their c
 For each pain point mentioned, ask:
 
 Use AskUserQuestion:
+
 ```
 Question: "For the pain point '{pain point}', how do they currently work around it?"
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "How significant is this pain point to their daily work?"
 Options:
@@ -214,6 +224,7 @@ Ask about their technical characteristics:
 **Question Set 4 - Technical:**
 
 Use AskUserQuestion:
+
 ```
 Question: "How technically proficient is this persona?"
 Options:
@@ -225,6 +236,7 @@ Options:
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "What devices do they primarily use?"
 Options (multi-select):
@@ -235,6 +247,7 @@ Options (multi-select):
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "How often will they use the system?"
 Options:
@@ -252,6 +265,7 @@ Ask about what they need to do:
 **Question Set 5 - Tasks:**
 
 Use AskUserQuestion:
+
 ```
 Question: "What are the TOP 3 tasks this persona needs to accomplish in the system?"
 ```
@@ -259,6 +273,7 @@ Question: "What are the TOP 3 tasks this persona needs to accomplish in the syst
 For each task, ask:
 
 Use AskUserQuestion:
+
 ```
 Question: "How often do they perform '{task}'?"
 Options:
@@ -270,6 +285,7 @@ Options:
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "How complex is this task for them?"
 Options:
@@ -285,11 +301,13 @@ Ask about their working context:
 **Question Set 6 - Environment:**
 
 Use AskUserQuestion:
+
 ```
 Question: "What other tools or systems does this persona regularly use? (This helps understand integration needs)"
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "Who does this persona primarily interact with?"
 Options (multi-select):
@@ -302,6 +320,7 @@ Options (multi-select):
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "What constraints affect how they work?"
 Options (multi-select):
@@ -321,16 +340,19 @@ Ask for representative quotes:
 **Question Set 7 - Mindset:**
 
 Use AskUserQuestion:
+
 ```
 Question: "What would this persona say about their main goal? Complete the sentence: 'I need to...'"
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "What would they say about their biggest frustration? Complete the sentence: 'I hate when...'"
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "What would they say about success? Complete the sentence: 'I feel successful when...'"
 ```
@@ -346,6 +368,7 @@ Create a memorable identity for the persona.
 Propose a persona name following the pattern "{First Name} the {Role}":
 
 Use AskUserQuestion:
+
 ```
 Question: "I suggest naming this persona '{Suggested Name}'. Would you like to use this name or choose a different one?"
 Options:
@@ -370,6 +393,7 @@ Does this summary accurately capture this persona?
 ```
 
 Use AskUserQuestion:
+
 ```
 Question: "Does this summary look correct?"
 Options:
@@ -409,6 +433,7 @@ Write the persona to the output location:
 Show the user where the persona was saved and ask about next steps:
 
 Use AskUserQuestion:
+
 ```
 Question: "Persona '{Name}' has been created at {path}. What would you like to do next?"
 Options:

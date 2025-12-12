@@ -9,13 +9,13 @@
 
 ## Executive Summary
 
-| Severity | Count |
-|----------|-------|
+| Severity | Count              |
+| -------- | ------------------ |
 | Critical | {{CRITICAL_COUNT}} |
-| High | {{HIGH_COUNT}} |
-| Medium | {{MEDIUM_COUNT}} |
-| Low | {{LOW_COUNT}} |
-| Info | {{INFO_COUNT}} |
+| High     | {{HIGH_COUNT}}     |
+| Medium   | {{MEDIUM_COUNT}}   |
+| Low      | {{LOW_COUNT}}      |
+| Info     | {{INFO_COUNT}}     |
 
 **Overall Status:** {{OVERALL_STATUS}}
 
@@ -23,18 +23,18 @@
 
 ## Quick Reference Matrix
 
-| # | Guideline | Status | Critical | High | Medium | Low |
-|---|-----------|--------|----------|------|--------|-----|
-| A01 | Broken Access Control | {{A01_STATUS}} | {{A01_C}} | {{A01_H}} | {{A01_M}} | {{A01_L}} |
-| A02 | Cryptographic Failures | {{A02_STATUS}} | {{A02_C}} | {{A02_H}} | {{A02_M}} | {{A02_L}} |
-| A03 | Injection | {{A03_STATUS}} | {{A03_C}} | {{A03_H}} | {{A03_M}} | {{A03_L}} |
-| A04 | Insecure Design | {{A04_STATUS}} | {{A04_C}} | {{A04_H}} | {{A04_M}} | {{A04_L}} |
+| #   | Guideline                 | Status         | Critical  | High      | Medium    | Low       |
+| --- | ------------------------- | -------------- | --------- | --------- | --------- | --------- |
+| A01 | Broken Access Control     | {{A01_STATUS}} | {{A01_C}} | {{A01_H}} | {{A01_M}} | {{A01_L}} |
+| A02 | Cryptographic Failures    | {{A02_STATUS}} | {{A02_C}} | {{A02_H}} | {{A02_M}} | {{A02_L}} |
+| A03 | Injection                 | {{A03_STATUS}} | {{A03_C}} | {{A03_H}} | {{A03_M}} | {{A03_L}} |
+| A04 | Insecure Design           | {{A04_STATUS}} | {{A04_C}} | {{A04_H}} | {{A04_M}} | {{A04_L}} |
 | A05 | Security Misconfiguration | {{A05_STATUS}} | {{A05_C}} | {{A05_H}} | {{A05_M}} | {{A05_L}} |
-| A06 | Vulnerable Components | {{A06_STATUS}} | {{A06_C}} | {{A06_H}} | {{A06_M}} | {{A06_L}} |
-| A07 | Authentication Failures | {{A07_STATUS}} | {{A07_C}} | {{A07_H}} | {{A07_M}} | {{A07_L}} |
-| A08 | Software/Data Integrity | {{A08_STATUS}} | {{A08_C}} | {{A08_H}} | {{A08_M}} | {{A08_L}} |
-| A09 | Logging Failures | {{A09_STATUS}} | {{A09_C}} | {{A09_H}} | {{A09_M}} | {{A09_L}} |
-| A10 | SSRF | {{A10_STATUS}} | {{A10_C}} | {{A10_H}} | {{A10_M}} | {{A10_L}} |
+| A06 | Vulnerable Components     | {{A06_STATUS}} | {{A06_C}} | {{A06_H}} | {{A06_M}} | {{A06_L}} |
+| A07 | Authentication Failures   | {{A07_STATUS}} | {{A07_C}} | {{A07_H}} | {{A07_M}} | {{A07_L}} |
+| A08 | Software/Data Integrity   | {{A08_STATUS}} | {{A08_C}} | {{A08_H}} | {{A08_M}} | {{A08_L}} |
+| A09 | Logging Failures          | {{A09_STATUS}} | {{A09_C}} | {{A09_H}} | {{A09_M}} | {{A09_L}} |
+| A10 | SSRF                      | {{A10_STATUS}} | {{A10_C}} | {{A10_H}} | {{A10_M}} | {{A10_L}} |
 
 **Legend:** PASS | FAIL | PARTIAL | N/A
 
@@ -56,17 +56,18 @@
 
 ##### {{FINDING_ID}}: {{FINDING_TITLE}}
 
-| Property | Value |
-|----------|-------|
-| **Severity** | {{SEVERITY}} |
-| **Location** | `{{FILE_PATH}}:{{LINE_NUMBER}}` |
-| **Effort to Fix** | {{EFFORT}} |
-| **CVSS Score** | {{CVSS}} (if applicable) |
+| Property          | Value                           |
+| ----------------- | ------------------------------- |
+| **Severity**      | {{SEVERITY}}                    |
+| **Location**      | `{{FILE_PATH}}:{{LINE_NUMBER}}` |
+| **Effort to Fix** | {{EFFORT}}                      |
+| **CVSS Score**    | {{CVSS}} (if applicable)        |
 
 **Description:**
 {{DESCRIPTION}}
 
 **Evidence:**
+
 ```{{LANGUAGE}}
 {{CODE_SNIPPET}}
 ```
@@ -81,19 +82,21 @@
 {{RECOMMENDATION}}
 
 **Remediation Code:**
+
 ```{{LANGUAGE}}
 {{REMEDIATION_CODE}}
 ```
 
 **References:**
+
 - {{REFERENCE_LINKS}}
 
 ---
 
 #### Implemented Controls
 
-| Control | Status | Location | Notes |
-|---------|--------|----------|-------|
+| Control          | Status             | Location               | Notes             |
+| ---------------- | ------------------ | ---------------------- | ----------------- |
 | {{CONTROL_NAME}} | {{CONTROL_STATUS}} | `{{CONTROL_LOCATION}}` | {{CONTROL_NOTES}} |
 
 #### Positive Observations
@@ -104,13 +107,14 @@
 
 ## Remediation Priority Matrix
 
-| Priority | Finding ID | Title | Severity | Effort | Impact |
-|----------|------------|-------|----------|--------|--------|
-| 1 | {{FINDING_ID}} | {{TITLE}} | {{SEVERITY}} | {{EFFORT}} | {{IMPACT}} |
+| Priority | Finding ID     | Title     | Severity     | Effort     | Impact     |
+| -------- | -------------- | --------- | ------------ | ---------- | ---------- |
+| 1        | {{FINDING_ID}} | {{TITLE}} | {{SEVERITY}} | {{EFFORT}} | {{IMPACT}} |
 
 ### Priority Calculation
 
 Priority is determined by:
+
 1. **Severity** - Critical > High > Medium > Low
 2. **Effort** - Low effort fixes prioritized for quick wins
 3. **Impact** - Business impact of the vulnerability
@@ -121,8 +125,8 @@ Priority is determined by:
 
 Non-critical security improvements for future consideration:
 
-| Item | Guideline | Description | Effort |
-|------|-----------|-------------|--------|
+| Item     | Guideline     | Description     | Effort     |
+| -------- | ------------- | --------------- | ---------- |
 | {{ITEM}} | {{GUIDELINE}} | {{DESCRIPTION}} | {{EFFORT}} |
 
 ---
@@ -131,8 +135,8 @@ Non-critical security improvements for future consideration:
 
 ### High-Risk Files (manually reviewed)
 
-| File | Risk Reason | Findings |
-|------|-------------|----------|
+| File          | Risk Reason     | Findings          |
+| ------------- | --------------- | ----------------- |
 | {{FILE_PATH}} | {{RISK_REASON}} | {{FINDING_COUNT}} |
 
 ### Automated Scan Coverage
@@ -169,25 +173,25 @@ Non-critical security improvements for future consideration:
 
 ## Appendix B: Agent Consensus Notes
 
-| Guideline | Analyst Finding | Verifier Finding | Consensus |
-|-----------|-----------------|------------------|-----------|
-| {{GUIDELINE}} | {{ANALYST}} | {{VERIFIER}} | {{CONSENSUS}} |
+| Guideline     | Analyst Finding | Verifier Finding | Consensus     |
+| ------------- | --------------- | ---------------- | ------------- |
+| {{GUIDELINE}} | {{ANALYST}}     | {{VERIFIER}}     | {{CONSENSUS}} |
 
 ---
 
 ## Appendix C: Glossary
 
-| Term | Definition |
-|------|------------|
+| Term | Definition                       |
+| ---- | -------------------------------- |
 | IDOR | Insecure Direct Object Reference |
-| XSS | Cross-Site Scripting |
-| CSRF | Cross-Site Request Forgery |
-| SSRF | Server-Side Request Forgery |
-| CSP | Content Security Policy |
-| HSTS | HTTP Strict Transport Security |
-| JWT | JSON Web Token |
-| SRI | Subresource Integrity |
+| XSS  | Cross-Site Scripting             |
+| CSRF | Cross-Site Request Forgery       |
+| SSRF | Server-Side Request Forgery      |
+| CSP  | Content Security Policy          |
+| HSTS | HTTP Strict Transport Security   |
+| JWT  | JSON Web Token                   |
+| SRI  | Subresource Integrity            |
 
 ---
 
-*Report generated by OWASP Security Audit Plugin using multi-agent analysis.*
+_Report generated by OWASP Security Audit Plugin using multi-agent analysis._

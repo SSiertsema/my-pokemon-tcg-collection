@@ -54,6 +54,7 @@ Use AskUserQuestion for each topic, adapting based on what you learned from exis
 ### 2.1 Problem & Purpose
 
 Ask about:
+
 - What problem does this solution solve?
 - Who are the primary users or consumers of this system?
 - What is the scope of this project? (MVP, full product, proof of concept)
@@ -61,6 +62,7 @@ Ask about:
 ### 2.2 Functional Capabilities (High-Level)
 
 Ask about:
+
 - What are the main capabilities this system needs to provide?
 - Are there specific workflows or processes it must support?
 
@@ -69,6 +71,7 @@ Ask about:
 ### 2.3 Scale & Growth
 
 Ask about:
+
 - Expected number of users (initial and projected)
 - Expected data volume
 - Traffic patterns (steady, spiky, batch processing)
@@ -83,6 +86,7 @@ Drill into each architectural layer progressively.
 ### 3.1 Presentation Layer
 
 Ask about:
+
 - What interfaces are needed? (web application, mobile app, CLI, API for external consumers, admin dashboard)
 - What platforms/browsers must be supported?
 - Any accessibility requirements (WCAG compliance)?
@@ -92,6 +96,7 @@ Ask about:
 ### 3.2 Data Layer
 
 Ask about:
+
 - What types of data need to be stored?
   - Structured data (users, orders, etc.)
   - Files/blobs (uploads, documents, images)
@@ -102,6 +107,7 @@ Ask about:
 - Backup and recovery requirements?
 
 Based on answers, identify storage needs like:
+
 - "Relational database needed for structured user data"
 - "Blob storage needed for file uploads"
 - "Cache layer needed for session management"
@@ -110,12 +116,14 @@ Based on answers, identify storage needs like:
 ### 3.3 Infrastructure Layer
 
 Ask about:
+
 - Deployment target? (cloud provider, on-premises, hybrid)
 - Containerization requirements? (Docker, Kubernetes)
 - CI/CD requirements?
 - Environment needs? (dev, staging, production)
 
 Ask about external integrations:
+
 - What third-party services will be integrated? (payment processors, email services, analytics)
 - What external APIs need to be consumed?
 - What internal systems need connections? (legacy systems, other microservices)
@@ -128,16 +136,19 @@ Ask about external integrations:
 Ask about quality attributes:
 
 ### 4.1 Performance
+
 - Expected response times for critical operations?
 - Throughput requirements? (requests/second, transactions/minute)
 - Any batch processing needs?
 
 ### 4.2 Scalability
+
 - Horizontal scaling needed?
 - Auto-scaling requirements?
 - Geographic distribution? (multi-region)
 
 ### 4.3 Security
+
 - Authentication requirements?
 - Authorization model? (RBAC, ABAC, simple permissions)
 - Data encryption requirements? (at rest, in transit)
@@ -145,6 +156,7 @@ Ask about quality attributes:
 - Audit logging needs?
 
 ### 4.4 Availability & Reliability
+
 - Uptime requirements? (99.9%, 99.99%)
 - Disaster recovery requirements?
 - Failover strategy needed?
@@ -158,6 +170,7 @@ Based on gathered requirements, propose technologies.
 ### 5.1 Ask for Preferences First
 
 Use AskUserQuestion to ask:
+
 - Do you have existing technology preferences or constraints?
 - Are there technologies you want to use or avoid?
 - Is there an existing tech stack this should integrate with?
@@ -167,19 +180,23 @@ Use AskUserQuestion to ask:
 Based on requirements AND user preferences, propose specific technologies for each layer:
 
 **Presentation Layer:**
+
 - Framework recommendation with rationale
 - UI component library if applicable
 
 **Data Layer:**
+
 - Database recommendations with rationale
 - Storage solutions for different data types
 
 **Infrastructure Layer:**
+
 - Cloud services recommendations
 - CI/CD tooling
 - Monitoring/observability tools
 
 Present proposals and allow user to:
+
 - Accept as-is
 - Modify specific choices
 - Request alternatives
@@ -197,6 +214,7 @@ Read the template from `${CLAUDE_PLUGIN_ROOT}/templates/technical-specifications
 ### 6.2 Generate Content
 
 Fill in each section of the template based on the gathered information:
+
 - Be specific and actionable
 - Include rationale for technology choices
 - List any open questions or decisions still needed
@@ -211,6 +229,7 @@ If the documentation folder doesn't exist, create it first.
 ### 6.4 Summary
 
 Present a summary to the user:
+
 - What was documented
 - Key technology decisions
 - Any open questions that need further discussion

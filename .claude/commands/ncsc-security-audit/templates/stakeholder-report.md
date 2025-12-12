@@ -15,6 +15,7 @@
 Het Nationaal Cyber Security Centrum (NCSC) publiceert ICT-beveiligingsrichtlijnen die de belangrijkste beveiligingsmaatregelen voor webapplicaties beschrijven. Naleving van deze richtlijnen vermindert het risico op beveiligingsincidenten aanzienlijk.
 
 De richtlijnen zijn ingedeeld in vier domeinen:
+
 - **Toegangsvoorziening** - Hoe gebruikers zich aanmelden
 - **Webapplicaties** - Hoe de applicatie zelf is beveiligd
 - **Platformen & Servers** - Hoe de onderliggende infrastructuur is geconfigureerd
@@ -24,12 +25,12 @@ De richtlijnen zijn ingedeeld in vier domeinen:
 
 ## Risico Samenvatting
 
-| Risiconiveau | Aantal | Wat dit betekent |
-|--------------|--------|------------------|
-| **Kritiek** | {{CRITICAL_COUNT}} | Directe actie vereist - potentieel voor datalek of systeemcompromittering |
-| **Hoog** | {{HIGH_COUNT}} | Dringend aanpakken - significant beveiligingsrisico bij misbruik |
-| **Midden** | {{MEDIUM_COUNT}} | Plannen voor remediatie - matig risico dat aandacht vereist |
-| **Laag** | {{LOW_COUNT}} | Overwegen voor verbetering - kleine beveiligingsverbeteringen |
+| Risiconiveau | Aantal             | Wat dit betekent                                                          |
+| ------------ | ------------------ | ------------------------------------------------------------------------- |
+| **Kritiek**  | {{CRITICAL_COUNT}} | Directe actie vereist - potentieel voor datalek of systeemcompromittering |
+| **Hoog**     | {{HIGH_COUNT}}     | Dringend aanpakken - significant beveiligingsrisico bij misbruik          |
+| **Midden**   | {{MEDIUM_COUNT}}   | Plannen voor remediatie - matig risico dat aandacht vereist               |
+| **Laag**     | {{LOW_COUNT}}      | Overwegen voor verbetering - kleine beveiligingsverbeteringen             |
 
 ### Algehele Beoordeling: {{OVERALL_STATUS}}
 
@@ -39,25 +40,25 @@ De richtlijnen zijn ingedeeld in vier domeinen:
 
 ## Compliance Overzicht
 
-| Beveiligingsgebied | Status | Wat we hebben gecontroleerd |
-|--------------------|--------|-----------------------------|
-| Aanmelding & Authenticatie | {{UTV_STATUS_ICON}} {{UTV_STATUS}} | Hoe gebruikers inloggen en hun identiteit wordt vastgesteld |
-| Sessiebeveiliging | {{UWA01_STATUS_ICON}} {{UWA01_STATUS}} | Hoe gebruikerssessies worden beheerd |
-| Invoercontrole | {{UWA02_STATUS_ICON}} {{UWA02_STATUS}} | Bescherming tegen kwaadaardige invoer |
-| Uitvoerbeveiliging | {{UWA03_STATUS_ICON}} {{UWA03_STATUS}} | Bescherming tegen XSS-aanvallen |
-| Database Beveiliging | {{UWA04_STATUS_ICON}} {{UWA04_STATUS}} | Bescherming tegen SQL-injectie |
-| Systeemcommando's | {{UWA05_STATUS_ICON}} {{UWA05_STATUS}} | Bescherming tegen command injection |
-| Bestandsbeveiliging | {{UWA06_STATUS_ICON}} {{UWA06_STATUS}} | Bescherming tegen path traversal |
-| SSRF Bescherming | {{UWA07_STATUS_ICON}} {{UWA07_STATUS}} | Bescherming tegen server-side request forgery |
-| CSRF Bescherming | {{UWA08_STATUS_ICON}} {{UWA08_STATUS}} | Bescherming tegen cross-site request forgery |
-| API Beveiliging | {{UWA09_STATUS_ICON}} {{UWA09_STATUS}} | Beveiliging van API-endpoints |
-| HTTPS/TLS | {{UPW01_STATUS_ICON}} {{UPW01_STATUS}} | Versleutelde verbindingen |
-| Security Headers | {{UPW02_STATUS_ICON}} {{UPW02_STATUS}} | Browser beveiligingsinstellingen |
-| Foutafhandeling | {{UPW03_STATUS_ICON}} {{UPW03_STATUS}} | Geen gevoelige informatie in foutmeldingen |
-| Logging & Monitoring | {{UPW04_STATUS_ICON}} {{UPW04_STATUS}} | Detectie van beveiligingsincidenten |
-| Dependencies | {{UPW07_STATUS_ICON}} {{UPW07_STATUS}} | Externe componenten up-to-date |
-| Secrets Management | {{UPW08_STATUS_ICON}} {{UPW08_STATUS}} | Veilig beheer van wachtwoorden en sleutels |
-| Netwerkbeveiliging | {{UNW_STATUS_ICON}} {{UNW_STATUS}} | Netwerksegmentatie en filtering |
+| Beveiligingsgebied         | Status                                 | Wat we hebben gecontroleerd                                 |
+| -------------------------- | -------------------------------------- | ----------------------------------------------------------- |
+| Aanmelding & Authenticatie | {{UTV_STATUS_ICON}} {{UTV_STATUS}}     | Hoe gebruikers inloggen en hun identiteit wordt vastgesteld |
+| Sessiebeveiliging          | {{UWA01_STATUS_ICON}} {{UWA01_STATUS}} | Hoe gebruikerssessies worden beheerd                        |
+| Invoercontrole             | {{UWA02_STATUS_ICON}} {{UWA02_STATUS}} | Bescherming tegen kwaadaardige invoer                       |
+| Uitvoerbeveiliging         | {{UWA03_STATUS_ICON}} {{UWA03_STATUS}} | Bescherming tegen XSS-aanvallen                             |
+| Database Beveiliging       | {{UWA04_STATUS_ICON}} {{UWA04_STATUS}} | Bescherming tegen SQL-injectie                              |
+| Systeemcommando's          | {{UWA05_STATUS_ICON}} {{UWA05_STATUS}} | Bescherming tegen command injection                         |
+| Bestandsbeveiliging        | {{UWA06_STATUS_ICON}} {{UWA06_STATUS}} | Bescherming tegen path traversal                            |
+| SSRF Bescherming           | {{UWA07_STATUS_ICON}} {{UWA07_STATUS}} | Bescherming tegen server-side request forgery               |
+| CSRF Bescherming           | {{UWA08_STATUS_ICON}} {{UWA08_STATUS}} | Bescherming tegen cross-site request forgery                |
+| API Beveiliging            | {{UWA09_STATUS_ICON}} {{UWA09_STATUS}} | Beveiliging van API-endpoints                               |
+| HTTPS/TLS                  | {{UPW01_STATUS_ICON}} {{UPW01_STATUS}} | Versleutelde verbindingen                                   |
+| Security Headers           | {{UPW02_STATUS_ICON}} {{UPW02_STATUS}} | Browser beveiligingsinstellingen                            |
+| Foutafhandeling            | {{UPW03_STATUS_ICON}} {{UPW03_STATUS}} | Geen gevoelige informatie in foutmeldingen                  |
+| Logging & Monitoring       | {{UPW04_STATUS_ICON}} {{UPW04_STATUS}} | Detectie van beveiligingsincidenten                         |
+| Dependencies               | {{UPW07_STATUS_ICON}} {{UPW07_STATUS}} | Externe componenten up-to-date                              |
+| Secrets Management         | {{UPW08_STATUS_ICON}} {{UPW08_STATUS}} | Veilig beheer van wachtwoorden en sleutels                  |
+| Netwerkbeveiliging         | {{UNW_STATUS_ICON}} {{UNW_STATUS}}     | Netwerksegmentatie en filtering                             |
 
 **Legenda:** VOLDOET | AANDACHT NODIG | ACTIE VEREIST | NIET VAN TOEPASSING
 
@@ -89,8 +90,9 @@ De richtlijnen zijn ingedeeld in vier domeinen:
 Onze beoordeling identificeerde verschillende positieve beveiligingspraktijken:
 
 {{#each POSITIVE_FINDINGS}}
+
 - **{{TITLE}}**: {{DESCRIPTION}}
-{{/each}}
+  {{/each}}
 
 ---
 
@@ -102,9 +104,10 @@ Deze items moeten zo snel mogelijk worden aangepakt:
 
 {{#each IMMEDIATE_ACTIONS}}
 {{NUMBER}}. **{{TITLE}}**
-   - Waarom: {{REASON}}
-   - Impact als niet opgelost: {{IMPACT}}
-{{/each}}
+
+- Waarom: {{REASON}}
+- Impact als niet opgelost: {{IMPACT}}
+  {{/each}}
 
 ### Korte Termijn (Binnen 30 Dagen)
 
@@ -112,9 +115,10 @@ Deze items vereisen planning en moeten binnenkort worden aangepakt:
 
 {{#each SHORTTERM_ACTIONS}}
 {{NUMBER}}. **{{TITLE}}**
-   - Waarom: {{REASON}}
-   - Voorgestelde aanpak: {{APPROACH}}
-{{/each}}
+
+- Waarom: {{REASON}}
+- Voorgestelde aanpak: {{APPROACH}}
+  {{/each}}
 
 ### Lange Termijn (Binnen 90 Dagen)
 
@@ -122,18 +126,19 @@ Deze items kunnen worden opgenomen in reguliere ontwikkelcycli:
 
 {{#each LONGTERM_ACTIONS}}
 {{NUMBER}}. **{{TITLE}}**
-   - Voordeel: {{BENEFIT}}
-{{/each}}
+
+- Voordeel: {{BENEFIT}}
+  {{/each}}
 
 ---
 
 ## Investeringsoverzicht
 
-| Prioriteit | Items | Geschatte Inspanning | Risicoreductie |
-|------------|-------|---------------------|----------------|
-| Direct | {{IMMEDIATE_COUNT}} | {{IMMEDIATE_EFFORT}} | Hoog |
-| Korte termijn | {{SHORTTERM_COUNT}} | {{SHORTTERM_EFFORT}} | Midden-Hoog |
-| Lange termijn | {{LONGTERM_COUNT}} | {{LONGTERM_EFFORT}} | Midden |
+| Prioriteit    | Items               | Geschatte Inspanning | Risicoreductie |
+| ------------- | ------------------- | -------------------- | -------------- |
+| Direct        | {{IMMEDIATE_COUNT}} | {{IMMEDIATE_EFFORT}} | Hoog           |
+| Korte termijn | {{SHORTTERM_COUNT}} | {{SHORTTERM_EFFORT}} | Midden-Hoog    |
+| Lange termijn | {{LONGTERM_COUNT}}  | {{LONGTERM_EFFORT}}  | Midden         |
 
 ---
 
@@ -158,6 +163,7 @@ Deze items kunnen worden opgenomen in reguliere ontwikkelcycli:
 ### Wat is de relatie met de AVG/GDPR?
 
 Veel NCSC-richtlijnen ondersteunen ook compliance met de AVG (Algemene Verordening Gegevensbescherming). Specifiek:
+
 - Toegangscontrole beschermt persoonsgegevens tegen ongeautoriseerde toegang
 - Encryptie beschermt persoonsgegevens tijdens transport en opslag
 - Logging ondersteunt het kunnen aantonen van compliance
@@ -209,18 +215,18 @@ Deze beoordeling is uitgevoerd met een multi-agent analyse aanpak:
 
 ## Woordenlijst
 
-| Term | Eenvoudige Uitleg |
-|------|-------------------|
-| **Kwetsbaarheid** | Een zwakte die door aanvallers kan worden misbruikt |
-| **Exploit** | Een methode om een kwetsbaarheid te misbruiken |
-| **Toegangscontrole** | Regels over wie wat mag zien of doen |
-| **Encryptie** | Versleutelen van data zodat alleen geautoriseerden het kunnen lezen |
-| **Authenticatie** | Vaststellen wie iemand is (meestal via inloggen) |
-| **Injectie** | Aanvallers die kwaadaardige commando's in het systeem invoeren |
-| **SSRF** | Een server misleiden om verzoeken namens een aanvaller te doen |
-| **XSS** | Kwaadaardige scripts die in webpagina's worden geïnjecteerd |
-| **CSRF** | Een gebruiker misleiden om onbedoelde acties uit te voeren |
-| **Session Hijacking** | Overnemen van een actieve gebruikerssessie |
+| Term                  | Eenvoudige Uitleg                                                   |
+| --------------------- | ------------------------------------------------------------------- |
+| **Kwetsbaarheid**     | Een zwakte die door aanvallers kan worden misbruikt                 |
+| **Exploit**           | Een methode om een kwetsbaarheid te misbruiken                      |
+| **Toegangscontrole**  | Regels over wie wat mag zien of doen                                |
+| **Encryptie**         | Versleutelen van data zodat alleen geautoriseerden het kunnen lezen |
+| **Authenticatie**     | Vaststellen wie iemand is (meestal via inloggen)                    |
+| **Injectie**          | Aanvallers die kwaadaardige commando's in het systeem invoeren      |
+| **SSRF**              | Een server misleiden om verzoeken namens een aanvaller te doen      |
+| **XSS**               | Kwaadaardige scripts die in webpagina's worden geïnjecteerd         |
+| **CSRF**              | Een gebruiker misleiden om onbedoelde acties uit te voeren          |
+| **Session Hijacking** | Overnemen van een actieve gebruikerssessie                          |
 
 ---
 
@@ -241,5 +247,5 @@ Voor vragen over dit rapport of om remediatiestrategieën te bespreken, neem con
 
 ---
 
-*Deze beoordeling is uitgevoerd met de NCSC Security Audit Plugin.*
-*Beoordelingsdatum: {{DATE}}*
+_Deze beoordeling is uitgevoerd met de NCSC Security Audit Plugin._
+_Beoordelingsdatum: {{DATE}}_

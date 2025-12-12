@@ -10,6 +10,7 @@ This skill guides development of Vue 3 and Nuxt 3 applications using a **test-dr
 ## When This Skill Activates
 
 Use this skill when:
+
 - Creating or modifying `.vue` files
 - Writing composables (`use*.ts`)
 - Working with Nuxt-specific files (`pages/`, `layouts/`, `middleware/`, `composables/`)
@@ -38,7 +39,7 @@ Use this skill when:
 
 This skill accepts user stories with Gherkin acceptance criteria:
 
-```markdown
+````markdown
 ## US-001: {Story Title}
 
 > **As a** {persona},
@@ -54,6 +55,7 @@ Given {precondition}
 When {action}
 Then {expected result}
 ```
+````
 
 #### AC2: {Error Scenario}
 
@@ -62,7 +64,8 @@ Given {precondition}
 When {invalid action}
 Then {error handling}
 ```
-```
+
+````
 
 **See:** `e2e/acceptance-criteria.md` for detailed parsing guide.
 
@@ -106,9 +109,10 @@ describe('MyComponent', () => {
     expect(wrapper.emitted('click')).toBeTruthy()
   })
 })
-```
+````
 
 **Run tests to confirm they fail:**
+
 ```bash
 npm run test -- MyComponent.spec.ts
 ```
@@ -120,19 +124,19 @@ Write the **minimal code** to make tests pass:
 ```vue
 <script setup lang="ts">
 interface Props {
-  label?: string
+  label?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  label: 'Button'
-})
+  label: 'Button',
+});
 
 const emit = defineEmits<{
-  click: []
-}>()
+  click: [];
+}>();
 
 function handleClick() {
-  emit('click')
+  emit('click');
 }
 </script>
 
@@ -174,7 +178,7 @@ For each user story, create a test file:
 
 ```typescript
 // tests/e2e/user-login.spec.ts
-import { test, expect } from '@playwright/test'
+import { test, expect } from '@playwright/test';
 
 /**
  * US-001: User Login
@@ -182,61 +186,59 @@ import { test, expect } from '@playwright/test'
  * so that I can access my account.
  */
 test.describe('US-001: User Login', () => {
-
   test('AC1: Successful login', async ({ page }) => {
     // Given I am on the login page
-    await page.goto('/login')
+    await page.goto('/login');
 
     // When I fill "email" with "user@example.com"
-    await page.fill('[name="email"]', 'user@example.com')
+    await page.fill('[name="email"]', 'user@example.com');
 
     // And I fill "password" with "password123"
-    await page.fill('[name="password"]', 'password123')
+    await page.fill('[name="password"]', 'password123');
 
     // And I click "Login"
-    await page.click('button:has-text("Login")')
+    await page.click('button:has-text("Login")');
 
     // Then I am redirected to the dashboard
-    await expect(page).toHaveURL(/dashboard/)
+    await expect(page).toHaveURL(/dashboard/);
 
     // And I see "Welcome back"
-    await expect(page.locator('text=Welcome back')).toBeVisible()
-  })
+    await expect(page.locator('text=Welcome back')).toBeVisible();
+  });
 
   test('AC2: Invalid password', async ({ page }) => {
     // Given I am on the login page
-    await page.goto('/login')
+    await page.goto('/login');
 
     // When I fill "email" with "user@example.com"
-    await page.fill('[name="email"]', 'user@example.com')
+    await page.fill('[name="email"]', 'user@example.com');
 
     // And I fill "password" with "wrong"
-    await page.fill('[name="password"]', 'wrong')
+    await page.fill('[name="password"]', 'wrong');
 
     // And I click "Login"
-    await page.click('button:has-text("Login")')
+    await page.click('button:has-text("Login")');
 
     // Then I see "Invalid credentials"
-    await expect(page.locator('text=Invalid credentials')).toBeVisible()
-  })
-
-})
+    await expect(page.locator('text=Invalid credentials')).toBeVisible();
+  });
+});
 ```
 
 #### Gherkin to Playwright Mapping
 
-| Gherkin | Playwright Code |
-|---------|-----------------|
-| `Given I am on "{url}"` | `await page.goto('{url}')` |
-| `When I click "{text}"` | `await page.click('text={text}')` |
-| `When I click the "{selector}" button` | `await page.click('{selector}')` |
-| `When I fill "{field}" with "{value}"` | `await page.fill('[name="{field}"]', '{value}')` |
-| `When I select "{option}" from "{field}"` | `await page.selectOption('[name="{field}"]', '{option}')` |
-| `When I press "{key}"` | `await page.keyboard.press('{key}')` |
-| `Then I see "{text}"` | `await expect(page.locator('text={text}')).toBeVisible()` |
-| `Then I am redirected to "{url}"` | `await expect(page).toHaveURL(/{url}/)` |
-| `Then the "{element}" is visible` | `await expect(page.locator('{element}')).toBeVisible()` |
-| `Then the "{element}" is not visible` | `await expect(page.locator('{element}')).not.toBeVisible()` |
+| Gherkin                                   | Playwright Code                                             |
+| ----------------------------------------- | ----------------------------------------------------------- |
+| `Given I am on "{url}"`                   | `await page.goto('{url}')`                                  |
+| `When I click "{text}"`                   | `await page.click('text={text}')`                           |
+| `When I click the "{selector}" button`    | `await page.click('{selector}')`                            |
+| `When I fill "{field}" with "{value}"`    | `await page.fill('[name="{field}"]', '{value}')`            |
+| `When I select "{option}" from "{field}"` | `await page.selectOption('[name="{field}"]', '{option}')`   |
+| `When I press "{key}"`                    | `await page.keyboard.press('{key}')`                        |
+| `Then I see "{text}"`                     | `await expect(page.locator('text={text}')).toBeVisible()`   |
+| `Then I am redirected to "{url}"`         | `await expect(page).toHaveURL(/{url}/)`                     |
+| `Then the "{element}" is visible`         | `await expect(page.locator('{element}')).toBeVisible()`     |
+| `Then the "{element}" is not visible`     | `await expect(page.locator('{element}')).not.toBeVisible()` |
 
 #### File Naming Convention
 
@@ -336,7 +338,11 @@ Generate a UUID and write the report:
       "component_quality": { "passed": 5, "total": 5, "issues": [] },
       "reactivity": { "passed": 4, "total": 4, "issues": [] },
       "composables": { "passed": 0, "total": 0, "issues": ["N/A"] },
-      "nuxt_specific": { "passed": 0, "total": 0, "issues": ["N/A - plain Vue"] },
+      "nuxt_specific": {
+        "passed": 0,
+        "total": 0,
+        "issues": ["N/A - plain Vue"]
+      },
       "typescript": { "passed": 4, "total": 4, "issues": [] },
       "unit_tests": { "passed": 6, "total": 6, "issues": [] }
     }
@@ -376,11 +382,11 @@ Generate a UUID and write the report:
 
 ## Quality Thresholds
 
-| Score | Status | Action |
-|-------|--------|--------|
-| 9-10 | PASS | Ready for E2E validation |
-| 7-8 | ACCEPTABLE | Ready, but note issues |
-| 0-6 | NEEDS_WORK | Fix issues before handoff |
+| Score | Status     | Action                    |
+| ----- | ---------- | ------------------------- |
+| 9-10  | PASS       | Ready for E2E validation  |
+| 7-8   | ACCEPTABLE | Ready, but note issues    |
+| 0-6   | NEEDS_WORK | Fix issues before handoff |
 
 **Formula:** `score = (checks_passed / total_applicable_checks) × 10`
 

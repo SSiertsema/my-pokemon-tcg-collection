@@ -18,12 +18,12 @@ The OWASP (Open Web Application Security Project) Top 10 represents the most cri
 
 ## Risk Summary
 
-| Risk Level | Count | What This Means |
-|------------|-------|-----------------|
+| Risk Level   | Count              | What This Means                                                            |
+| ------------ | ------------------ | -------------------------------------------------------------------------- |
 | **Critical** | {{CRITICAL_COUNT}} | Immediate action required - potential for data breach or system compromise |
-| **High** | {{HIGH_COUNT}} | Address urgently - significant security risk if exploited |
-| **Medium** | {{MEDIUM_COUNT}} | Plan for remediation - moderate risk requiring attention |
-| **Low** | {{LOW_COUNT}} | Consider for improvement - minor security enhancements |
+| **High**     | {{HIGH_COUNT}}     | Address urgently - significant security risk if exploited                  |
+| **Medium**   | {{MEDIUM_COUNT}}   | Plan for remediation - moderate risk requiring attention                   |
+| **Low**      | {{LOW_COUNT}}      | Consider for improvement - minor security enhancements                     |
 
 ### Overall Assessment: {{OVERALL_STATUS}}
 
@@ -33,18 +33,18 @@ The OWASP (Open Web Application Security Project) Top 10 represents the most cri
 
 ## Compliance Overview
 
-| Security Area | Status | What We Checked |
-|---------------|--------|-----------------|
-| Access Control | {{A01_STATUS_ICON}} {{A01_STATUS}} | Who can access what in the system |
-| Data Protection | {{A02_STATUS_ICON}} {{A02_STATUS}} | How sensitive data is protected |
-| Input Security | {{A03_STATUS_ICON}} {{A03_STATUS}} | Protection against malicious input |
-| Secure Design | {{A04_STATUS_ICON}} {{A04_STATUS}} | Security built into the architecture |
-| Configuration | {{A05_STATUS_ICON}} {{A05_STATUS}} | Secure system settings |
-| Dependencies | {{A06_STATUS_ICON}} {{A06_STATUS}} | Third-party component security |
-| Authentication | {{A07_STATUS_ICON}} {{A07_STATUS}} | Login and identity verification |
-| Data Integrity | {{A08_STATUS_ICON}} {{A08_STATUS}} | Protection against tampering |
-| Monitoring | {{A09_STATUS_ICON}} {{A09_STATUS}} | Security event detection |
-| Request Security | {{A10_STATUS_ICON}} {{A10_STATUS}} | Protection against request forgery |
+| Security Area    | Status                             | What We Checked                      |
+| ---------------- | ---------------------------------- | ------------------------------------ |
+| Access Control   | {{A01_STATUS_ICON}} {{A01_STATUS}} | Who can access what in the system    |
+| Data Protection  | {{A02_STATUS_ICON}} {{A02_STATUS}} | How sensitive data is protected      |
+| Input Security   | {{A03_STATUS_ICON}} {{A03_STATUS}} | Protection against malicious input   |
+| Secure Design    | {{A04_STATUS_ICON}} {{A04_STATUS}} | Security built into the architecture |
+| Configuration    | {{A05_STATUS_ICON}} {{A05_STATUS}} | Secure system settings               |
+| Dependencies     | {{A06_STATUS_ICON}} {{A06_STATUS}} | Third-party component security       |
+| Authentication   | {{A07_STATUS_ICON}} {{A07_STATUS}} | Login and identity verification      |
+| Data Integrity   | {{A08_STATUS_ICON}} {{A08_STATUS}} | Protection against tampering         |
+| Monitoring       | {{A09_STATUS_ICON}} {{A09_STATUS}} | Security event detection             |
+| Request Security | {{A10_STATUS_ICON}} {{A10_STATUS}} | Protection against request forgery   |
 
 **Legend:** PASS | NEEDS ATTENTION | REQUIRES ACTION | NOT APPLICABLE
 
@@ -76,8 +76,9 @@ The OWASP (Open Web Application Security Project) Top 10 represents the most cri
 Our assessment identified several positive security practices:
 
 {{#each POSITIVE_FINDINGS}}
+
 - **{{TITLE}}**: {{DESCRIPTION}}
-{{/each}}
+  {{/each}}
 
 ---
 
@@ -89,9 +90,10 @@ These items should be addressed as soon as possible:
 
 {{#each IMMEDIATE_ACTIONS}}
 {{NUMBER}}. **{{TITLE}}**
-   - Why: {{REASON}}
-   - Impact if not fixed: {{IMPACT}}
-{{/each}}
+
+- Why: {{REASON}}
+- Impact if not fixed: {{IMPACT}}
+  {{/each}}
 
 ### Short-term (Within 30 Days)
 
@@ -99,9 +101,10 @@ These items require planning and should be addressed soon:
 
 {{#each SHORTTERM_ACTIONS}}
 {{NUMBER}}. **{{TITLE}}**
-   - Why: {{REASON}}
-   - Suggested approach: {{APPROACH}}
-{{/each}}
+
+- Why: {{REASON}}
+- Suggested approach: {{APPROACH}}
+  {{/each}}
 
 ### Long-term (Within 90 Days)
 
@@ -109,18 +112,19 @@ These items can be incorporated into regular development cycles:
 
 {{#each LONGTERM_ACTIONS}}
 {{NUMBER}}. **{{TITLE}}**
-   - Benefit: {{BENEFIT}}
-{{/each}}
+
+- Benefit: {{BENEFIT}}
+  {{/each}}
 
 ---
 
 ## Investment Summary
 
-| Priority | Items | Estimated Effort | Risk Reduction |
-|----------|-------|------------------|----------------|
-| Immediate | {{IMMEDIATE_COUNT}} | {{IMMEDIATE_EFFORT}} | High |
-| Short-term | {{SHORTTERM_COUNT}} | {{SHORTTERM_EFFORT}} | Medium-High |
-| Long-term | {{LONGTERM_COUNT}} | {{LONGTERM_EFFORT}} | Medium |
+| Priority   | Items               | Estimated Effort     | Risk Reduction |
+| ---------- | ------------------- | -------------------- | -------------- |
+| Immediate  | {{IMMEDIATE_COUNT}} | {{IMMEDIATE_EFFORT}} | High           |
+| Short-term | {{SHORTTERM_COUNT}} | {{SHORTTERM_EFFORT}} | Medium-High    |
+| Long-term  | {{LONGTERM_COUNT}}  | {{LONGTERM_EFFORT}}  | Medium         |
 
 ---
 
@@ -189,15 +193,15 @@ This assessment was performed using a multi-agent analysis approach:
 
 ## Glossary
 
-| Term | Simple Explanation |
-|------|-------------------|
-| **Vulnerability** | A weakness that could be exploited by attackers |
-| **Exploit** | A method to take advantage of a vulnerability |
-| **Access Control** | Rules about who can see or do what |
-| **Encryption** | Scrambling data so only authorized parties can read it |
-| **Authentication** | Verifying who someone is (usually via login) |
-| **Injection** | Attackers inserting malicious commands into the system |
-| **SSRF** | Tricking a server into making requests on behalf of an attacker |
+| Term               | Simple Explanation                                              |
+| ------------------ | --------------------------------------------------------------- |
+| **Vulnerability**  | A weakness that could be exploited by attackers                 |
+| **Exploit**        | A method to take advantage of a vulnerability                   |
+| **Access Control** | Rules about who can see or do what                              |
+| **Encryption**     | Scrambling data so only authorized parties can read it          |
+| **Authentication** | Verifying who someone is (usually via login)                    |
+| **Injection**      | Attackers inserting malicious commands into the system          |
+| **SSRF**           | Tricking a server into making requests on behalf of an attacker |
 
 ---
 
@@ -207,5 +211,5 @@ For questions about this report or to discuss remediation strategies, please con
 
 ---
 
-*This assessment was performed using the OWASP Security Audit Plugin.*
-*Assessment date: {{DATE}}*
+_This assessment was performed using the OWASP Security Audit Plugin._
+_Assessment date: {{DATE}}_

@@ -28,55 +28,55 @@ Test-Driven Development ensures quality by writing tests before implementation. 
 
 ```typescript
 // src/components/__tests__/UserProfile.spec.ts
-import { describe, it, expect } from 'vitest'
-import { mount } from '@vue/test-utils'
-import UserProfile from '../UserProfile.vue'
+import { describe, it, expect } from 'vitest';
+import { mount } from '@vue/test-utils';
+import UserProfile from '../UserProfile.vue';
 
 describe('UserProfile', () => {
   // Test 1: Basic rendering
   it('renders user name', () => {
     const wrapper = mount(UserProfile, {
       props: {
-        user: { id: 1, name: 'John Doe', email: 'john@example.com' }
-      }
-    })
-    expect(wrapper.text()).toContain('John Doe')
-  })
+        user: { id: 1, name: 'John Doe', email: 'john@example.com' },
+      },
+    });
+    expect(wrapper.text()).toContain('John Doe');
+  });
 
   // Test 2: Props affect output
   it('displays user email', () => {
     const wrapper = mount(UserProfile, {
       props: {
-        user: { id: 1, name: 'John', email: 'john@example.com' }
-      }
-    })
-    expect(wrapper.text()).toContain('john@example.com')
-  })
+        user: { id: 1, name: 'John', email: 'john@example.com' },
+      },
+    });
+    expect(wrapper.text()).toContain('john@example.com');
+  });
 
   // Test 3: Event emission
   it('emits edit event when edit button clicked', async () => {
-    const user = { id: 1, name: 'John', email: 'john@example.com' }
+    const user = { id: 1, name: 'John', email: 'john@example.com' };
     const wrapper = mount(UserProfile, {
-      props: { user }
-    })
+      props: { user },
+    });
 
-    await wrapper.find('button.edit-btn').trigger('click')
+    await wrapper.find('button.edit-btn').trigger('click');
 
-    expect(wrapper.emitted('edit')).toBeTruthy()
-    expect(wrapper.emitted('edit')?.[0]).toEqual([user])
-  })
+    expect(wrapper.emitted('edit')).toBeTruthy();
+    expect(wrapper.emitted('edit')?.[0]).toEqual([user]);
+  });
 
   // Test 4: Edge case - loading state
   it('shows loading indicator when loading prop is true', () => {
     const wrapper = mount(UserProfile, {
       props: {
         user: { id: 1, name: 'John', email: 'john@example.com' },
-        loading: true
-      }
-    })
-    expect(wrapper.find('.loading-spinner').exists()).toBe(true)
-  })
-})
+        loading: true,
+      },
+    });
+    expect(wrapper.find('.loading-spinner').exists()).toBe(true);
+  });
+});
 ```
 
 ### Run tests - they should FAIL:
@@ -95,26 +95,26 @@ Now write the component with **just enough code** to pass tests:
 <!-- src/components/UserProfile.vue -->
 <script setup lang="ts">
 interface User {
-  id: number
-  name: string
-  email: string
+  id: number;
+  name: string;
+  email: string;
 }
 
 interface Props {
-  user: User
-  loading?: boolean
+  user: User;
+  loading?: boolean;
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  loading: false
-})
+  loading: false,
+});
 
 const emit = defineEmits<{
-  edit: [user: User]
-}>()
+  edit: [user: User];
+}>();
 
 function handleEdit() {
-  emit('edit', props.user)
+  emit('edit', props.user);
 }
 </script>
 
@@ -145,31 +145,31 @@ With green tests as your safety net, improve the code:
 ```vue
 <script setup lang="ts">
 interface User {
-  id: number
-  name: string
-  email: string
-  avatar?: string
+  id: number;
+  name: string;
+  email: string;
+  avatar?: string;
 }
 
 interface Props {
-  user: User
-  loading?: boolean
+  user: User;
+  loading?: boolean;
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  loading: false
-})
+  loading: false,
+});
 
 const emit = defineEmits<{
-  edit: [user: User]
-}>()
+  edit: [user: User];
+}>();
 
 // Computed for derived state
-const displayName = computed(() => props.user.name || 'Unknown User')
-const hasAvatar = computed(() => Boolean(props.user.avatar))
+const displayName = computed(() => props.user.name || 'Unknown User');
+const hasAvatar = computed(() => Boolean(props.user.avatar));
 
 function handleEdit() {
-  emit('edit', props.user)
+  emit('edit', props.user);
 }
 </script>
 
@@ -190,13 +190,7 @@ function handleEdit() {
       <h2>{{ displayName }}</h2>
       <p>{{ user.email }}</p>
 
-      <button
-        class="edit-btn"
-        type="button"
-        @click="handleEdit"
-      >
-        Edit
-      </button>
+      <button class="edit-btn" type="button" @click="handleEdit">Edit</button>
     </template>
   </div>
 </template>
@@ -222,22 +216,22 @@ it('shows avatar when provided', () => {
         id: 1,
         name: 'John',
         email: 'john@example.com',
-        avatar: 'https://example.com/avatar.jpg'
-      }
-    }
-  })
-  expect(wrapper.find('.avatar').exists()).toBe(true)
-  expect(wrapper.find('.avatar-placeholder').exists()).toBe(false)
-})
+        avatar: 'https://example.com/avatar.jpg',
+      },
+    },
+  });
+  expect(wrapper.find('.avatar').exists()).toBe(true);
+  expect(wrapper.find('.avatar-placeholder').exists()).toBe(false);
+});
 
 it('shows placeholder when no avatar', () => {
   const wrapper = mount(UserProfile, {
     props: {
-      user: { id: 1, name: 'John', email: 'john@example.com' }
-    }
-  })
-  expect(wrapper.find('.avatar-placeholder').exists()).toBe(true)
-})
+      user: { id: 1, name: 'John', email: 'john@example.com' },
+    },
+  });
+  expect(wrapper.find('.avatar-placeholder').exists()).toBe(true);
+});
 ```
 
 ## Common Test Patterns
@@ -246,32 +240,32 @@ it('shows placeholder when no avatar', () => {
 
 ```typescript
 it('fetches data on mount', async () => {
-  const wrapper = mount(UserList)
+  const wrapper = mount(UserList);
 
   // Wait for async operations
-  await flushPromises()
+  await flushPromises();
 
-  expect(wrapper.findAll('.user-item')).toHaveLength(3)
-})
+  expect(wrapper.findAll('.user-item')).toHaveLength(3);
+});
 ```
 
 ### Testing with Pinia stores:
 
 ```typescript
-import { setActivePinia, createPinia } from 'pinia'
+import { setActivePinia, createPinia } from 'pinia';
 
 beforeEach(() => {
-  setActivePinia(createPinia())
-})
+  setActivePinia(createPinia());
+});
 
 it('updates store on action', async () => {
-  const wrapper = mount(Counter)
-  const store = useCounterStore()
+  const wrapper = mount(Counter);
+  const store = useCounterStore();
 
-  await wrapper.find('button.increment').trigger('click')
+  await wrapper.find('button.increment').trigger('click');
 
-  expect(store.count).toBe(1)
-})
+  expect(store.count).toBe(1);
+});
 ```
 
 ### Testing slots:
@@ -281,13 +275,13 @@ it('renders slot content', () => {
   const wrapper = mount(Card, {
     slots: {
       default: '<p>Card content</p>',
-      header: '<h1>Title</h1>'
-    }
-  })
+      header: '<h1>Title</h1>',
+    },
+  });
 
-  expect(wrapper.text()).toContain('Card content')
-  expect(wrapper.text()).toContain('Title')
-})
+  expect(wrapper.text()).toContain('Card content');
+  expect(wrapper.text()).toContain('Title');
+});
 ```
 
 ## Checklist Before Moving On

@@ -17,6 +17,7 @@ You are a Vue.js refactoring assistant. Your task is to reorganize Vue 3 Single 
 ## Step 2: Read and Analyze
 
 Read the file and analyze:
+
 - Current order of SFC sections (template/script/style)
 - Script content organization
 - Variable and function naming
@@ -25,11 +26,13 @@ Read the file and analyze:
 ## Step 3: Plan Refactoring
 
 ### Section Order (enforce this order):
+
 1. `<template>`
 2. `<script setup>` (add `lang="ts"` if TypeScript is used)
 3. `<style scoped>` (add `scoped` if not present)
 
 ### Script Organization (enforce this order):
+
 1. **Imports** - External packages first (vue, vue-router, pinia), then internal (@/, ../)
 2. **Props & Emits** - `defineProps()`, `defineEmits()`, `defineModel()`, `defineExpose()`
 3. **Injections** - `inject()`, composables (`useRouter()`, `useStore()`, custom `use*`)
@@ -40,6 +43,7 @@ Read the file and analyze:
 8. **Lifecycle** - `onBeforeMount()`, `onMounted()`, `onBeforeUpdate()`, `onUpdated()`, `onBeforeUnmount()`, `onUnmounted()`
 
 ### Naming Conventions:
+
 - **File name**: PascalCase matching component purpose (e.g., `UserProfile.vue`)
 - **Variables/refs**: camelCase, descriptive (e.g., `userData`, `selectedItem`)
 - **Boolean refs**: prefix with is/has/can/should (e.g., `isLoading`, `hasError`, `canSubmit`)
@@ -52,6 +56,7 @@ Read the file and analyze:
 - **Composables**: `use*` prefix (e.g., `useAuth`, `useFormValidation`)
 
 ### Comments:
+
 - Do NOT add routine section comments like "// Imports" or "// State"
 - Only add comments when:
   - Logic is complex and not self-evident
@@ -63,6 +68,7 @@ Read the file and analyze:
 Show the user:
 
 1. **Issues Found** - List what needs improvement:
+
    ```
    Issues found:
    - Section order: script before template (should be template → script → style)
@@ -82,6 +88,7 @@ Show the user:
 ## Step 5: Apply Changes
 
 Apply all changes automatically:
+
 1. Reorder SFC sections (template → script → style)
 2. Reorganize script content according to the ordering convention
 3. Apply naming improvements
@@ -90,6 +97,7 @@ Apply all changes automatically:
 ## Step 6: Report Completion
 
 After applying changes, report:
+
 ```
 ✓ Refactored: ComponentName.vue
   - Reordered sections: template → script → style
@@ -113,17 +121,20 @@ After applying changes, report:
 Before completing, verify each item has been addressed:
 
 ### File & Validation
+
 - [ ] Target `.vue` file identified (open file or user-specified path)
 - [ ] File uses Composition API (`<script setup>`) - not Options API
 - [ ] File has been read and analyzed
 
 ### Section Order
+
 - [ ] `<template>` is first section
 - [ ] `<script setup>` is second section
 - [ ] `<style>` is last section
 - [ ] `scoped` attribute added to `<style>` if missing
 
 ### Script Organization
+
 - [ ] Imports are at the top (external before internal)
 - [ ] Props/Emits (`defineProps`, `defineEmits`, `defineModel`) follow imports
 - [ ] Composables and injections follow props/emits
@@ -134,6 +145,7 @@ Before completing, verify each item has been addressed:
 - [ ] Lifecycle hooks are at the end
 
 ### Naming Conventions
+
 - [ ] File name is PascalCase (or rename suggested)
 - [ ] Variables use camelCase
 - [ ] Boolean refs have is/has/can/should prefix
@@ -141,6 +153,7 @@ Before completing, verify each item has been addressed:
 - [ ] Constants use UPPER_SNAKE_CASE
 
 ### Completion
+
 - [ ] Changes applied successfully
 - [ ] Summary of changes reported
 - [ ] Completed checklist shown
@@ -148,6 +161,7 @@ Before completing, verify each item has been addressed:
 **You MUST show the completed checklist to the user with [x] for completed items and [ ] for skipped items (with explanation).**
 
 Example output:
+
 ```
 Verification Checklist:
 [x] Target file identified: UserList.vue

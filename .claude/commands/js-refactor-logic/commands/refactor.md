@@ -16,6 +16,7 @@ You are a JavaScript refactoring assistant. Your task is to autonomously refacto
 Analyze the entire file for:
 
 ### Code Splitting Issues
+
 - Functions exceeding 50 lines
 - Cyclomatic complexity > 10 (many conditionals/branches)
 - Nesting depth > 3 levels
@@ -23,6 +24,7 @@ Analyze the entire file for:
 - Duplicate code patterns (2+ occurrences)
 
 ### Anti-Patterns
+
 - Magic numbers/strings (unnamed constants)
 - Missing error handling in async code
 - Callback hell / Promise chains that could use async/await
@@ -30,6 +32,7 @@ Analyze the entire file for:
 - Long switch statements without abstraction
 
 ### Modernization Opportunities
+
 - `var` declarations (should be `const`/`let`)
 - `.then()/.catch()` chains (should be async/await)
 - Old-style functions where arrow functions fit better
@@ -45,51 +48,60 @@ For each issue found, apply the appropriate resolution technique:
 ### Resolving High Cyclomatic Complexity (> 10)
 
 **Technique A: Extract Conditional Logic to Lookup Object**
+
 ```javascript
 // BEFORE: complexity = 12
 function process(data) {
-  if (data.type === 'A') { /* 20 lines */ }
-  else if (data.type === 'B') { /* 20 lines */ }
-  else if (data.type === 'C') { /* 20 lines */ }
+  if (data.type === 'A') {
+    /* 20 lines */
+  } else if (data.type === 'B') {
+    /* 20 lines */
+  } else if (data.type === 'C') {
+    /* 20 lines */
+  }
 }
 
 // AFTER: complexity = 3 per function
 const processors = {
   A: processTypeA,
   B: processTypeB,
-  C: processTypeC
-}
+  C: processTypeC,
+};
 function process(data) {
-  return processors[data.type]?.(data)
+  return processors[data.type]?.(data);
 }
 ```
 
 **Technique B: Strategy Pattern for Conditionals**
+
 ```javascript
 // BEFORE
 function calculatePrice(item) {
-  if (item.type === 'book') return item.price * 0.9
-  if (item.type === 'electronics') return item.price * 1.1
+  if (item.type === 'book') return item.price * 0.9;
+  if (item.type === 'electronics') return item.price * 1.1;
 }
 
 // AFTER
 const pricingStrategies = {
   book: (item) => item.price * 0.9,
-  electronics: (item) => item.price * 1.1
-}
-const calculatePrice = (item) => pricingStrategies[item.type](item)
+  electronics: (item) => item.price * 1.1,
+};
+const calculatePrice = (item) => pricingStrategies[item.type](item);
 ```
 
 **Technique C: Decompose Boolean Expressions**
+
 ```javascript
 // BEFORE
-if (user.age > 18 && user.hasLicense && !user.isSuspended && user.balance > 0) {}
+if (user.age > 18 && user.hasLicense && !user.isSuspended && user.balance > 0) {
+}
 
 // AFTER
 const isEligibleDriver = (user) =>
-  user.age > 18 && user.hasLicense && !user.isSuspended && user.balance > 0
+  user.age > 18 && user.hasLicense && !user.isSuspended && user.balance > 0;
 
-if (isEligibleDriver(user)) {}
+if (isEligibleDriver(user)) {
+}
 ```
 
 ---
@@ -97,6 +109,7 @@ if (isEligibleDriver(user)) {}
 ### Resolving Deep Nesting (> 3 levels)
 
 **Technique A: Guard Clauses (Early Returns)**
+
 ```javascript
 // BEFORE: 4 levels deep
 function process(data) {
@@ -113,23 +126,26 @@ function process(data) {
 
 // AFTER: 0 levels deep
 function process(data) {
-  if (!data) return
-  if (!data.isValid) return
-  if (data.items.length === 0) return
-  if (data.status !== 'active') return
+  if (!data) return;
+  if (!data.isValid) return;
+  if (data.items.length === 0) return;
+  if (data.status !== 'active') return;
 
   // actual logic
 }
 ```
 
 **Technique B: Extract Nested Blocks**
+
 ```javascript
 // BEFORE
 function handleOrder(order) {
   if (order.isPaid) {
     if (order.items.length > 0) {
       for (const item of order.items) {
-        if (item.inStock) { /* complex */ }
+        if (item.inStock) {
+          /* complex */
+        }
       }
     }
   }
@@ -137,25 +153,28 @@ function handleOrder(order) {
 
 // AFTER
 function handleOrder(order) {
-  if (!order.isPaid || order.items.length === 0) return
-  order.items.filter(item => item.inStock).forEach(processItem)
+  if (!order.isPaid || order.items.length === 0) return;
+  order.items.filter((item) => item.inStock).forEach(processItem);
 }
 ```
 
 **Technique C: Use Array Methods**
+
 ```javascript
 // BEFORE: nested loops
 for (const user of users) {
   for (const order of user.orders) {
-    if (order.status === 'pending') { /* process */ }
+    if (order.status === 'pending') {
+      /* process */
+    }
   }
 }
 
 // AFTER: flat
 users
-  .flatMap(user => user.orders)
-  .filter(order => order.status === 'pending')
-  .forEach(processOrder)
+  .flatMap((user) => user.orders)
+  .filter((order) => order.status === 'pending')
+  .forEach(processOrder);
 ```
 
 ---
@@ -163,6 +182,7 @@ users
 ### Resolving Long Functions (> 50 lines)
 
 **Technique A: Extract by Responsibility**
+
 ```javascript
 // BEFORE: 100 line function
 function submitForm(data) {
@@ -184,14 +204,15 @@ function submitForm(data) {
 ```
 
 **Technique B: Extract Setup/Teardown**
+
 ```javascript
 // AFTER
 function processData() {
-  const context = setupProcessing()
+  const context = setupProcessing();
   try {
-    return executeProcessing(context)
+    return executeProcessing(context);
   } finally {
-    cleanupProcessing(context)
+    cleanupProcessing(context);
   }
 }
 ```
@@ -201,14 +222,23 @@ function processData() {
 ### Resolving Too Many Parameters (> 4)
 
 **Technique: Object Parameter Pattern**
+
 ```javascript
 // BEFORE
 function createUser(name, email, age, role, department, manager, startDate) {}
 
 // AFTER
-function createUser({ name, email, age, role, department, manager, startDate }) {}
+function createUser({
+  name,
+  email,
+  age,
+  role,
+  department,
+  manager,
+  startDate,
+}) {}
 
-createUser({ name: 'John', email: 'john@example.com', role: 'developer' })
+createUser({ name: 'John', email: 'john@example.com', role: 'developer' });
 ```
 
 ---
@@ -216,6 +246,7 @@ createUser({ name: 'John', email: 'john@example.com', role: 'developer' })
 ### Resolving Duplicate Code
 
 **Technique: Extract and Parameterize**
+
 ```javascript
 // BEFORE: duplicated
 function fetchUsers() {
@@ -244,7 +275,9 @@ const fetchProducts = () => fetchData('/products')
 ---
 
 ### File Extraction
+
 When extracting to new files, analyze the project structure:
+
 - Look for existing `utils/`, `helpers/`, `lib/` folders
 - If none exist, propose creating in appropriate location
 - Keep related utilities together
@@ -265,6 +298,7 @@ Apply all refactoring changes:
 ## Step 5: Report Completion
 
 Report all changes made:
+
 ```
 Refactored: filename.js
 
@@ -285,12 +319,14 @@ New files created:
 **You MUST complete and display this checklist. The refactoring is NOT complete until shown.**
 
 ### Analysis
+
 - [ ] Target .js/.jsx file identified
 - [ ] Code analyzed for complexity metrics
 - [ ] Anti-patterns identified
 - [ ] Modernization opportunities found
 
 ### Code Splitting
+
 - [ ] Functions > 50 lines: addressed or N/A
 - [ ] Nesting > 3 levels: addressed or N/A
 - [ ] Complexity > 10: addressed or N/A
@@ -298,6 +334,7 @@ New files created:
 - [ ] Duplicate code: extracted or N/A
 
 ### Patterns & Modernization
+
 - [ ] Guard clauses applied where beneficial
 - [ ] var converted to const/let
 - [ ] Promise chains converted to async/await
@@ -305,15 +342,18 @@ New files created:
 - [ ] Error handling added where needed
 
 ### File Organization
+
 - [ ] New files created in appropriate locations
 - [ ] Imports updated correctly
 
 ### Completion
+
 - [ ] All changes applied successfully
 - [ ] Summary reported
 - [ ] This checklist displayed with [x] marks
 
 **Example output:**
+
 ```
 Verification Checklist:
 [x] Target file: src/utils/dataProcessor.js

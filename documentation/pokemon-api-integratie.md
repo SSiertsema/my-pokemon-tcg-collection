@@ -6,15 +6,16 @@
 
 Er zijn meerdere opties voor integratie met de Pokemon TCG API:
 
-| Package | Taal | TypeScript Support | Status |
-|---------|------|-------------------|--------|
-| `pokemon-tcg-sdk-typescript` | TypeScript | Native | **Aanbevolen** |
-| `pokemontcgsdk` | JavaScript | Geen | Laatst bijgewerkt 4 jaar geleden |
-| Orval (OpenAPI) | TypeScript | Gegenereerd | Niet nodig |
+| Package                      | Taal       | TypeScript Support | Status                           |
+| ---------------------------- | ---------- | ------------------ | -------------------------------- |
+| `pokemon-tcg-sdk-typescript` | TypeScript | Native             | **Aanbevolen**                   |
+| `pokemontcgsdk`              | JavaScript | Geen               | Laatst bijgewerkt 4 jaar geleden |
+| Orval (OpenAPI)              | TypeScript | Gegenereerd        | Niet nodig                       |
 
 ### Conclusie: Orval is NIET nodig
 
 De Pokemon TCG API biedt een **officiële TypeScript SDK** (`pokemon-tcg-sdk-typescript`) die:
+
 - Volledige TypeScript types bevat
 - Actief onderhouden wordt
 - Direct bruikbaar is zonder code-generatie
@@ -46,26 +47,24 @@ npm install --save pokemon-tcg-sdk-typescript
 ### Basis Gebruik
 
 ```typescript
-import { PokemonTCG } from 'pokemon-tcg-sdk-typescript'
+import { PokemonTCG } from 'pokemon-tcg-sdk-typescript';
 
 // Enkele kaart ophalen op ID
-const card = await PokemonTCG.Card.find('base1-4')
-console.log(card.name) // "Charizard"
+const card = await PokemonTCG.Card.find('base1-4');
+console.log(card.name); // "Charizard"
 
 // Zoeken met filters
-const params: PokemonTCG.IQuery[] = [
-  { name: 'name', value: 'Pikachu' }
-]
-const cards = await PokemonTCG.Card.where(params)
+const params: PokemonTCG.IQuery[] = [{ name: 'name', value: 'Pikachu' }];
+const cards = await PokemonTCG.Card.where(params);
 
 // Alle kaarten van een type ophalen
 const fireCards = await PokemonTCG.Card.where([
-  { name: 'types', value: 'Fire' }
-])
+  { name: 'types', value: 'Fire' },
+]);
 
 // Sets ophalen
-const allSets = await PokemonTCG.Set.all()
-const baseSet = await PokemonTCG.Set.find('base1')
+const allSets = await PokemonTCG.Set.all();
+const baseSet = await PokemonTCG.Set.find('base1');
 ```
 
 ## Beschikbare TypeScript Interfaces
@@ -74,30 +73,30 @@ const baseSet = await PokemonTCG.Set.find('base1')
 
 ```typescript
 interface Card {
-  id: string
-  name: string
-  supertype: string           // "Pokémon", "Trainer", "Energy"
-  subtypes: string[]          // ["Basic"], ["Stage 1"], ["EX"]
-  hp?: string
-  types?: string[]            // ["Fire"], ["Water", "Electric"]
-  evolvesFrom?: string
-  evolvesTo?: string[]
-  abilities?: Ability[]
-  attacks?: Attack[]
-  weaknesses?: Weakness[]
-  resistances?: Resistance[]
-  retreatCost?: string[]
-  convertedRetreatCost?: number
-  set: Set
-  number: string
-  artist?: string
-  rarity?: string
-  flavorText?: string
-  nationalPokedexNumbers?: number[]
-  legalities: Legalities
-  images: CardImages
-  tcgplayer?: TCGPlayer       // Prijzen in USD
-  cardmarket?: Cardmarket     // Prijzen in EUR
+  id: string;
+  name: string;
+  supertype: string; // "Pokémon", "Trainer", "Energy"
+  subtypes: string[]; // ["Basic"], ["Stage 1"], ["EX"]
+  hp?: string;
+  types?: string[]; // ["Fire"], ["Water", "Electric"]
+  evolvesFrom?: string;
+  evolvesTo?: string[];
+  abilities?: Ability[];
+  attacks?: Attack[];
+  weaknesses?: Weakness[];
+  resistances?: Resistance[];
+  retreatCost?: string[];
+  convertedRetreatCost?: number;
+  set: Set;
+  number: string;
+  artist?: string;
+  rarity?: string;
+  flavorText?: string;
+  nationalPokedexNumbers?: number[];
+  legalities: Legalities;
+  images: CardImages;
+  tcgplayer?: TCGPlayer; // Prijzen in USD
+  cardmarket?: Cardmarket; // Prijzen in EUR
 }
 ```
 
@@ -105,16 +104,16 @@ interface Card {
 
 ```typescript
 interface Set {
-  id: string
-  name: string
-  series: string
-  printedTotal: number
-  total: number
-  legalities: Legalities
-  ptcgoCode?: string
-  releaseDate: string
-  updatedAt: string
-  images: SetImages
+  id: string;
+  name: string;
+  series: string;
+  printedTotal: number;
+  total: number;
+  legalities: Legalities;
+  ptcgoCode?: string;
+  releaseDate: string;
+  updatedAt: string;
+  images: SetImages;
 }
 ```
 
@@ -122,11 +121,11 @@ interface Set {
 
 ```typescript
 interface Attack {
-  cost: string[]              // ["Fire", "Fire", "Colorless"]
-  name: string
-  text: string
-  damage: string              // "100"
-  convertedEnergyCost: number
+  cost: string[]; // ["Fire", "Fire", "Colorless"]
+  name: string;
+  text: string;
+  damage: string; // "100"
+  convertedEnergyCost: number;
 }
 ```
 
@@ -134,27 +133,27 @@ interface Attack {
 
 ### Cards
 
-| Methode | Beschrijving | Return Type |
-|---------|--------------|-------------|
-| `Card.find(id)` | Enkele kaart op ID | `Promise<Card>` |
-| `Card.where(params)` | Kaarten met filters | `Promise<Card[]>` |
-| `Card.all()` | Alle kaarten (met paginatie) | `Promise<Card[]>` |
+| Methode              | Beschrijving                 | Return Type       |
+| -------------------- | ---------------------------- | ----------------- |
+| `Card.find(id)`      | Enkele kaart op ID           | `Promise<Card>`   |
+| `Card.where(params)` | Kaarten met filters          | `Promise<Card[]>` |
+| `Card.all()`         | Alle kaarten (met paginatie) | `Promise<Card[]>` |
 
 ### Sets
 
-| Methode | Beschrijving | Return Type |
-|---------|--------------|-------------|
-| `Set.find(id)` | Enkele set op ID | `Promise<Set>` |
+| Methode             | Beschrijving     | Return Type      |
+| ------------------- | ---------------- | ---------------- |
+| `Set.find(id)`      | Enkele set op ID | `Promise<Set>`   |
 | `Set.where(params)` | Sets met filters | `Promise<Set[]>` |
-| `Set.all()` | Alle sets | `Promise<Set[]>` |
+| `Set.all()`         | Alle sets        | `Promise<Set[]>` |
 
 ### Metadata
 
-| Methode | Beschrijving | Return Type |
-|---------|--------------|-------------|
-| `Meta.allTypes()` | Alle kaart types | `Promise<string[]>` |
-| `Meta.allSubtypes()` | Alle subtypes | `Promise<string[]>` |
-| `Meta.allSupertypes()` | Alle supertypes | `Promise<string[]>` |
+| Methode                | Beschrijving     | Return Type         |
+| ---------------------- | ---------------- | ------------------- |
+| `Meta.allTypes()`      | Alle kaart types | `Promise<string[]>` |
+| `Meta.allSubtypes()`   | Alle subtypes    | `Promise<string[]>` |
+| `Meta.allSupertypes()` | Alle supertypes  | `Promise<string[]>` |
 
 ## Query Syntax
 
@@ -186,31 +185,29 @@ const params: PokemonTCG.IQuery[] = [
 
 ```typescript
 // composables/usePokemonCards.ts
-import { ref } from 'vue'
-import { PokemonTCG } from 'pokemon-tcg-sdk-typescript'
+import { ref } from 'vue';
+import { PokemonTCG } from 'pokemon-tcg-sdk-typescript';
 
 export function usePokemonCards() {
-  const cards = ref<PokemonTCG.Card[]>([])
-  const loading = ref(false)
-  const error = ref<Error | null>(null)
+  const cards = ref<PokemonTCG.Card[]>([]);
+  const loading = ref(false);
+  const error = ref<Error | null>(null);
 
   async function searchCards(name: string) {
-    loading.value = true
-    error.value = null
+    loading.value = true;
+    error.value = null;
 
     try {
-      const params: PokemonTCG.IQuery[] = [
-        { name: 'name', value: `${name}*` }
-      ]
-      cards.value = await PokemonTCG.Card.where(params)
+      const params: PokemonTCG.IQuery[] = [{ name: 'name', value: `${name}*` }];
+      cards.value = await PokemonTCG.Card.where(params);
     } catch (e) {
-      error.value = e as Error
+      error.value = e as Error;
     } finally {
-      loading.value = false
+      loading.value = false;
     }
   }
 
-  return { cards, loading, error, searchCards }
+  return { cards, loading, error, searchCards };
 }
 ```
 
@@ -221,7 +218,7 @@ export function usePokemonCards() {
 export default defineNuxtPlugin(() => {
   // API key wordt automatisch gelezen uit POKEMONTCG_API_KEY
   // environment variable door de SDK
-})
+});
 ```
 
 ## Bronnen

@@ -7,6 +7,12 @@
   },
   "repository": "https://github.com/SSiertsema/claude-code-plugins",
   "license": "MIT",
-  "keywords": ["javascript", "refactor", "clean-code", "es6", "design-patterns"],
+  "keywords": [
+    "javascript",
+    "refactor",
+    "clean-code",
+    "es6",
+    "design-patterns"
+  ],
   "commands": "./commands"
 }

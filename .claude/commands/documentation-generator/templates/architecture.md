@@ -24,12 +24,12 @@ List the primary technologies used. Include:
 - Infrastructure (if known)
 -->
 
-| Category | Technology |
-|----------|------------|
-| Language | |
-| Framework | |
-| Database | |
-| Key Libraries | |
+| Category      | Technology |
+| ------------- | ---------- |
+| Language      |            |
+| Framework     |            |
+| Database      |            |
+| Key Libraries |            |
 
 ## System Components
 
@@ -108,5 +108,5 @@ Include: third-party APIs, cloud services, message queues, etc.
 -->
 
 | Integration | Purpose | Configuration |
-|-------------|---------|---------------|
-| | | |
+| ----------- | ------- | ------------- |
+|             |         |               |

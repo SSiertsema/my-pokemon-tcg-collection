@@ -14,6 +14,7 @@ A Claude Code plugin that streamlines committing and pushing changes with auto-g
 ### Auto Mode (default)
 
 Commits and pushes in one step:
+
 1. Analyzes your changes
 2. Generates a commit message (conventional commits or repo style)
 3. Commits and pushes
@@ -22,6 +23,7 @@ Commits and pushes in one step:
 ### Safe Mode (`--safe`)
 
 Interactive flow with approval:
+
 1. Shows files to be committed
 2. Proposes a commit message
 3. Asks for your approval (or edits)
@@ -47,6 +49,7 @@ export CLAUDE_COMMIT_MODE=safe   # Always use safe mode
 ## Commit Message Style
 
 The plugin:
+
 1. Matches your repository's existing commit style
 2. Falls back to conventional commits (feat/fix/docs/refactor/test/chore)
 3. Keeps messages concise and descriptive

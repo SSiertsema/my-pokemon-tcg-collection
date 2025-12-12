@@ -40,22 +40,22 @@ All data is sent to the Agent Meeting Room backend at `agent-meeting-room.up.rai
 
 This plugin registers the following hooks:
 
-| Hook | Purpose |
-|------|---------|
-| `SessionStart` | Creates a session in the meeting room |
-| `SessionEnd` | Marks session as ended |
-| `UserPromptSubmit` | Creates a new process or resumes waiting process |
-| `PreToolUse` | Tracks Task tool invocations for subagent linking |
-| `PostToolUse` | Detects user interruptions |
-| `Stop` | Marks process as completed/interrupted/waiting |
-| `SubagentStop` | Links completed subagents to parent processes |
-| `PreCompact` | (Reserved for future use) |
-| `Notification` | Notifies when user input is required |
+| Hook               | Purpose                                           |
+| ------------------ | ------------------------------------------------- |
+| `SessionStart`     | Creates a session in the meeting room             |
+| `SessionEnd`       | Marks session as ended                            |
+| `UserPromptSubmit` | Creates a new process or resumes waiting process  |
+| `PreToolUse`       | Tracks Task tool invocations for subagent linking |
+| `PostToolUse`      | Detects user interruptions                        |
+| `Stop`             | Marks process as completed/interrupted/waiting    |
+| `SubagentStop`     | Links completed subagents to parent processes     |
+| `PreCompact`       | (Reserved for future use)                         |
+| `Notification`     | Notifies when user input is required              |
 
 ## Environment Variables
 
-| Variable | Description |
-|----------|-------------|
+| Variable                   | Description                                          |
+| -------------------------- | ---------------------------------------------------- |
 | `CLAUDE_HOOK_PROJECT_NAME` | Override the project name (defaults to CWD basename) |
 
 ## Temporary Files

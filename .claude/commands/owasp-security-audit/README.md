@@ -22,6 +22,7 @@ The command will first ask you to select a report language. English is the defau
 ### Phase 1: Discovery
 
 The **Discovery Agent** analyzes your codebase to determine:
+
 - Solution type (frontend, backend, full-stack, API, library)
 - Technologies in use
 - Which of the 10 OWASP guidelines are relevant
@@ -41,42 +42,42 @@ The agents build consensus on findings before proceeding to the next guideline.
 
 Two reports are generated in `security-reports/`:
 
-| Report | Audience | Content |
-|--------|----------|---------|
-| `owasp-audit-technical.md` | Developers | Code locations, remediation steps, PoC details |
-| `owasp-audit-summary.md` | Stakeholders | Plain language explanations, business impact, priorities |
+| Report                     | Audience     | Content                                                  |
+| -------------------------- | ------------ | -------------------------------------------------------- |
+| `owasp-audit-technical.md` | Developers   | Code locations, remediation steps, PoC details           |
+| `owasp-audit-summary.md`   | Stakeholders | Plain language explanations, business impact, priorities |
 
 ## OWASP Top 10 Coverage
 
-| ID | Guideline | Description |
-|----|-----------|-------------|
-| A01 | Broken Access Control | Authorization bypass, IDOR, privilege escalation |
-| A02 | Cryptographic Failures | Weak encryption, exposed secrets, missing HTTPS |
-| A03 | Injection | SQL, NoSQL, XSS, command injection |
-| A04 | Insecure Design | Missing security controls, threat modeling gaps |
+| ID  | Guideline                 | Description                                         |
+| --- | ------------------------- | --------------------------------------------------- |
+| A01 | Broken Access Control     | Authorization bypass, IDOR, privilege escalation    |
+| A02 | Cryptographic Failures    | Weak encryption, exposed secrets, missing HTTPS     |
+| A03 | Injection                 | SQL, NoSQL, XSS, command injection                  |
+| A04 | Insecure Design           | Missing security controls, threat modeling gaps     |
 | A05 | Security Misconfiguration | Debug enabled, default credentials, missing headers |
-| A06 | Vulnerable Components | Outdated dependencies, known CVEs |
-| A07 | Authentication Failures | Weak auth, session issues, credential stuffing |
-| A08 | Software/Data Integrity | Insecure CI/CD, unsigned updates, deserialization |
-| A09 | Logging Failures | Missing audit logs, no alerting |
-| A10 | SSRF | Server-side request forgery via user input |
+| A06 | Vulnerable Components     | Outdated dependencies, known CVEs                   |
+| A07 | Authentication Failures   | Weak auth, session issues, credential stuffing      |
+| A08 | Software/Data Integrity   | Insecure CI/CD, unsigned updates, deserialization   |
+| A09 | Logging Failures          | Missing audit logs, no alerting                     |
+| A10 | SSRF                      | Server-side request forgery via user input          |
 
 ## Solution Type Matrix
 
 Not all guidelines apply to all solution types:
 
-| Guideline | Frontend | Backend | Full-Stack | API | Library |
-|-----------|----------|---------|------------|-----|---------|
-| A01 | Partial | Full | Full | Full | Partial |
-| A02 | Limited | Full | Full | Full | Depends |
-| A03 | XSS | Full | Full | Full | Depends |
-| A04 | Full | Full | Full | Full | Full |
-| A05 | Headers | Full | Full | Full | Build |
-| A06 | Full | Full | Full | Full | Full |
-| A07 | Tokens | Full | Full | Full | N/A |
-| A08 | CDN/SRI | Full | Full | Full | Full |
-| A09 | Client | Full | Full | Full | Limited |
-| A10 | N/A | Full | Full | Full | Depends |
+| Guideline | Frontend | Backend | Full-Stack | API  | Library |
+| --------- | -------- | ------- | ---------- | ---- | ------- |
+| A01       | Partial  | Full    | Full       | Full | Partial |
+| A02       | Limited  | Full    | Full       | Full | Depends |
+| A03       | XSS      | Full    | Full       | Full | Depends |
+| A04       | Full     | Full    | Full       | Full | Full    |
+| A05       | Headers  | Full    | Full       | Full | Build   |
+| A06       | Full     | Full    | Full       | Full | Full    |
+| A07       | Tokens   | Full    | Full       | Full | N/A     |
+| A08       | CDN/SRI  | Full    | Full       | Full | Full    |
+| A09       | Client   | Full    | Full       | Full | Limited |
+| A10       | N/A      | Full    | Full       | Full | Depends |
 
 ## Report Structure
 

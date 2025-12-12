@@ -15,6 +15,7 @@ Before starting, gather the required inputs from the user.
 ### Step 0.1: Specification Source
 
 Ask the user:
+
 > Where are your functional specifications located? (e.g., `docs/specifications/`, `requirements/`)
 
 Use Glob to verify the folder exists and contains files.
@@ -22,12 +23,14 @@ Use Glob to verify the folder exists and contains files.
 ### Step 0.2: Persona Source (Optional)
 
 Ask the user:
+
 > Do you have persona documents? If yes, where are they located? (e.g., `docs/personas/`)
 > If no personas exist, I'll help you define user types based on the specifications.
 
 ### Step 0.3: Output Location
 
 Ask the user:
+
 > Where should the generated user stories be saved? (default: `user-stories/`)
 
 ---
@@ -64,6 +67,7 @@ If persona documents exist, read each and extract using the guide at `${CLAUDE_P
 - Key tasks they perform
 
 If no personas exist, identify user types from the specifications:
+
 - Look for mentions of "user", "admin", "customer", "manager", etc.
 - Create minimal persona definitions based on context
 - Confirm with the user before proceeding
@@ -71,6 +75,7 @@ If no personas exist, identify user types from the specifications:
 ### Step 1.3: Check Existing User Stories
 
 Look for existing user stories in the output location:
+
 - If found, ask how to proceed: merge, overwrite, or create new version
 - Extract existing story IDs to avoid conflicts
 
@@ -89,6 +94,7 @@ An Epic is a large body of work grouping related features. Identify epics by:
 3. Identifying cross-cutting concerns
 
 Present proposed epics to user for approval:
+
 ```
 Based on your specifications, I've identified these epics:
 
@@ -115,6 +121,7 @@ Epic: [Name]
 Each feature should decompose into 3-8 user stories following the "Small" principle of INVEST.
 
 Create a story map showing:
+
 ```
 Epic → Feature → User Stories
 ```
@@ -128,6 +135,7 @@ Generate stories applying INVEST principles and Gherkin acceptance criteria.
 ### INVEST Criteria
 
 For each story, ensure it is:
+
 - **I**ndependent: Can be developed in any order
 - **N**egotiable: Open to discussion, not a rigid contract
 - **V**aluable: Delivers value to the user
@@ -168,6 +176,7 @@ And [additional outcomes]
 ```
 
 Each story should have multiple acceptance criteria covering:
+
 - **Happy path**: Main success scenario
 - **Edge cases**: Boundary conditions
 - **Error scenarios**: What happens when things go wrong
@@ -212,6 +221,7 @@ For each story, determine:
 ### Step 4.2: Validate Dependencies
 
 Check for:
+
 - Circular dependencies (error - must resolve)
 - Orphan stories (no dependencies - may be foundation stories)
 - Over-dependent stories (may need decomposition)
@@ -262,13 +272,14 @@ Use templates from `${CLAUDE_PLUGIN_ROOT}/templates/`:
 
 1. **README.md**: Index with statistics, epic links, and quick navigation
 2. **Epic files**: Use `epic.md` template - overview with feature list
-3. **Feature _index.md**: Feature details with story list
+3. **Feature \_index.md**: Feature details with story list
 4. **Story files**: Use `user-story.md` template - full story details
 5. **dependencies.md**: Visual dependency map with implementation phases
 
 ### Step 5.3: Story ID Convention
 
 Use consistent IDs:
+
 - Stories: `US-001`, `US-002`, etc. (sequential)
 - Epics: `EPIC-01`, `EPIC-02`, etc.
 - File names: `US-001-short-description.md`
@@ -306,6 +317,7 @@ Present results for user review.
 ### Step 6.2: Quality Checklist
 
 Verify:
+
 - [ ] All specifications covered
 - [ ] All personas represented
 - [ ] No orphan stories without context
@@ -315,6 +327,7 @@ Verify:
 ### Step 6.3: Next Steps
 
 Suggest:
+
 1. Review generated stories with stakeholders
 2. Refine acceptance criteria based on feedback
 3. Import into project management tool if needed

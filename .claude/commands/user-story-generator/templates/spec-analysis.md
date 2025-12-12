@@ -10,13 +10,13 @@ requirements for user story generation.
 
 First, identify the specification format:
 
-| Format | Indicators | Parsing Approach |
-|--------|------------|------------------|
-| **Requirements List** | REQ-001, numbered items, "shall" statements | Extract each requirement as potential story |
-| **Feature Descriptions** | "Feature:" headings, use cases | Group into features, decompose to stories |
-| **User Flows** | Flowcharts, numbered steps, sequences | Trace paths, create story per decision point |
-| **Prose/Narrative** | Paragraphs describing behavior | Extract actors, verbs, and outcomes |
-| **Use Cases** | Actor, preconditions, steps, postconditions | Map directly to stories and acceptance criteria |
+| Format                   | Indicators                                  | Parsing Approach                                |
+| ------------------------ | ------------------------------------------- | ----------------------------------------------- |
+| **Requirements List**    | REQ-001, numbered items, "shall" statements | Extract each requirement as potential story     |
+| **Feature Descriptions** | "Feature:" headings, use cases              | Group into features, decompose to stories       |
+| **User Flows**           | Flowcharts, numbered steps, sequences       | Trace paths, create story per decision point    |
+| **Prose/Narrative**      | Paragraphs describing behavior              | Extract actors, verbs, and outcomes             |
+| **Use Cases**            | Actor, preconditions, steps, postconditions | Map directly to stories and acceptance criteria |
 
 ---
 
@@ -24,17 +24,17 @@ First, identify the specification format:
 
 For each requirement found, capture:
 
-| Field | Description | Example |
-|-------|-------------|---------|
-| **ID** | Requirement identifier | REQ-001, FR-12 |
-| **Source** | File and section | `auth-spec.md#login` |
-| **Type** | Functional / Non-functional / Constraint | Functional |
-| **Description** | The requirement text | "Users shall be able to reset password" |
-| **Actors** | Who performs/benefits | End User, Admin |
-| **Preconditions** | What must be true before | User is registered |
-| **Triggers** | What initiates the action | User clicks "Forgot Password" |
-| **Outcomes** | Expected results | Password reset email sent |
-| **Related** | Connected requirements | REQ-002, REQ-003 |
+| Field             | Description                              | Example                                 |
+| ----------------- | ---------------------------------------- | --------------------------------------- |
+| **ID**            | Requirement identifier                   | REQ-001, FR-12                          |
+| **Source**        | File and section                         | `auth-spec.md#login`                    |
+| **Type**          | Functional / Non-functional / Constraint | Functional                              |
+| **Description**   | The requirement text                     | "Users shall be able to reset password" |
+| **Actors**        | Who performs/benefits                    | End User, Admin                         |
+| **Preconditions** | What must be true before                 | User is registered                      |
+| **Triggers**      | What initiates the action                | User clicks "Forgot Password"           |
+| **Outcomes**      | Expected results                         | Password reset email sent               |
+| **Related**       | Connected requirements                   | REQ-002, REQ-003                        |
 
 ---
 
@@ -68,12 +68,12 @@ Grouped into features:
 
 ## Requirement-to-Story Mapping
 
-| Requirement Type | Story Mapping |
-|------------------|---------------|
-| **Functional** | Direct 1:1 mapping to user story |
-| **Non-functional** | Becomes acceptance criteria or enabler story |
-| **Constraint** | Becomes acceptance criteria |
-| **Integration** | May need multiple stories (setup, use, error handling) |
+| Requirement Type   | Story Mapping                                          |
+| ------------------ | ------------------------------------------------------ |
+| **Functional**     | Direct 1:1 mapping to user story                       |
+| **Non-functional** | Becomes acceptance criteria or enabler story           |
+| **Constraint**     | Becomes acceptance criteria                            |
+| **Integration**    | May need multiple stories (setup, use, error handling) |
 
 ---
 
@@ -116,17 +116,18 @@ Keep together when:
 
 Look for these in specifications to inform Gherkin scenarios:
 
-| Specification Content | Acceptance Criteria Type |
-|-----------------------|-------------------------|
-| "must", "shall", "required" | Happy path criteria |
-| "valid", "invalid", "error" | Validation/error scenarios |
-| "minimum", "maximum", "at least" | Boundary conditions |
-| "when X then Y" | Direct Given/When/Then mapping |
-| "unless", "except", "only if" | Edge case scenarios |
+| Specification Content            | Acceptance Criteria Type       |
+| -------------------------------- | ------------------------------ |
+| "must", "shall", "required"      | Happy path criteria            |
+| "valid", "invalid", "error"      | Validation/error scenarios     |
+| "minimum", "maximum", "at least" | Boundary conditions            |
+| "when X then Y"                  | Direct Given/When/Then mapping |
+| "unless", "except", "only if"    | Edge case scenarios            |
 
 ### Example Extraction
 
 **Specification text:**
+
 > "Users must enter a password of at least 8 characters containing one uppercase letter, one number, and one special character. Invalid passwords should display specific error messages."
 
 **Extracted Acceptance Criteria:**
@@ -167,6 +168,7 @@ When requirements are unclear:
 ### Low Impact Ambiguity
 
 Make reasonable assumptions and document:
+
 ```
 **Assumption:** "Recent items" interpreted as last 30 days.
 **Source:** REQ-045 does not specify time range.
@@ -175,6 +177,7 @@ Make reasonable assumptions and document:
 ### High Impact Ambiguity
 
 Ask the user before proceeding:
+
 ```
 REQ-045 mentions "recent items" but doesn't define the time range.
 Options:
@@ -197,11 +200,11 @@ Which interpretation should I use?
 
 ### Problematic Requirements (need attention)
 
-| Issue | Example | Action |
-|-------|---------|--------|
-| Vague | "System shall be user-friendly" | Ask for specific criteria |
-| Unbounded | "Support all file types" | Define explicit list |
-| Unmeasurable | "Fast response times" | Request specific metrics |
-| Compound | "User can do X, Y, and Z" | Split into separate stories |
+| Issue        | Example                         | Action                      |
+| ------------ | ------------------------------- | --------------------------- |
+| Vague        | "System shall be user-friendly" | Ask for specific criteria   |
+| Unbounded    | "Support all file types"        | Define explicit list        |
+| Unmeasurable | "Fast response times"           | Request specific metrics    |
+| Compound     | "User can do X, Y, and Z"       | Split into separate stories |
 
 Mark problematic requirements with "Needs Refinement" in generated stories.

@@ -4,19 +4,19 @@
 
 ### Option A: Using Devcontainer (Recommended)
 
-| Software | Version | Installation |
-|----------|---------|--------------|
-| Docker | Latest | [docker.com](https://www.docker.com/get-started) |
-| VS Code | Latest | [code.visualstudio.com](https://code.visualstudio.com) |
-| Remote - Containers extension | Latest | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) |
+| Software                      | Version | Installation                                                                                                  |
+| ----------------------------- | ------- | ------------------------------------------------------------------------------------------------------------- |
+| Docker                        | Latest  | [docker.com](https://www.docker.com/get-started)                                                              |
+| VS Code                       | Latest  | [code.visualstudio.com](https://code.visualstudio.com)                                                        |
+| Remote - Containers extension | Latest  | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) |
 
 ### Option B: Local Development
 
-| Software | Version | Installation |
-|----------|---------|--------------|
-| Node.js | >= 22.x | [nodejs.org](https://nodejs.org) |
-| npm | >= 10.x | Included with Node.js |
-| Git | Latest | [git-scm.com](https://git-scm.com) |
+| Software | Version | Installation                       |
+| -------- | ------- | ---------------------------------- |
+| Node.js  | >= 22.x | [nodejs.org](https://nodejs.org)   |
+| npm      | >= 10.x | Included with Node.js              |
+| Git      | Latest  | [git-scm.com](https://git-scm.com) |
 
 ## Quick Start
 
@@ -34,6 +34,7 @@ code Pokemon-collectie-app
 ```
 
 The devcontainer will automatically:
+
 - Set up Node.js 22 environment
 - Install npm dependencies
 - Install Orval globally
@@ -98,24 +99,25 @@ The application will be available at: `http://localhost:3000`
 
 The devcontainer automatically installs these recommended extensions:
 
-| Extension | Purpose |
-|-----------|---------|
-| Vue - Official (Volar) | Vue 3 language support |
-| TypeScript Vue Plugin | TypeScript integration for Vue |
-| Nuxt | Nuxt-specific features |
-| ESLint | Code linting |
-| Prettier | Code formatting |
-| npm Intellisense | npm module autocomplete |
-| Path Intellisense | File path autocomplete |
-| DotENV | .env file syntax highlighting |
-| GitLens | Git integration |
-| REST Client | API testing |
-| Jest | Test runner integration |
-| Live Server | Local server for static files |
+| Extension              | Purpose                        |
+| ---------------------- | ------------------------------ |
+| Vue - Official (Volar) | Vue 3 language support         |
+| TypeScript Vue Plugin  | TypeScript integration for Vue |
+| Nuxt                   | Nuxt-specific features         |
+| ESLint                 | Code linting                   |
+| Prettier               | Code formatting                |
+| npm Intellisense       | npm module autocomplete        |
+| Path Intellisense      | File path autocomplete         |
+| DotENV                 | .env file syntax highlighting  |
+| GitLens                | Git integration                |
+| REST Client            | API testing                    |
+| Jest                   | Test runner integration        |
+| Live Server            | Local server for static files  |
 
 ### Manual VS Code Setup
 
 If not using devcontainer, install these extensions manually:
+
 - `Vue.volar`
 - `Vue.vscode-typescript-vue-plugin`
 - `Nuxt.nuxt-vscode-extension`
@@ -124,14 +126,14 @@ If not using devcontainer, install these extensions manually:
 
 ## Common Development Tasks
 
-| Task | Command |
-|------|---------|
-| Start dev server | `npm run dev` |
-| Run tests | `npm test` |
-| Lint code | `npm run lint` |
-| Format code | `npm run format` |
-| Build for production | `npm run build` |
-| Generate API client | `orval` |
+| Task                     | Command           |
+| ------------------------ | ----------------- |
+| Start dev server         | `npm run dev`     |
+| Run tests                | `npm test`        |
+| Lint code                | `npm run lint`    |
+| Format code              | `npm run format`  |
+| Build for production     | `npm run build`   |
+| Generate API client      | `orval`           |
 | Preview production build | `npm run preview` |
 
 ## Docker Development
@@ -163,6 +165,7 @@ docker run -it -v $(pwd):/workspaces/Pokemon-collectie-app pokemon-collectie-app
 **Symptoms:** VS Code shows error when opening in container
 
 **Solution:**
+
 1. Ensure Docker is running
 2. Check Docker has enough resources allocated
 3. Try rebuilding without cache:
@@ -173,6 +176,7 @@ docker run -it -v $(pwd):/workspaces/Pokemon-collectie-app pokemon-collectie-app
 **Symptoms:** Dependency installation errors
 
 **Solution:**
+
 ```bash
 # Clear npm cache
 npm cache clean --force
@@ -187,6 +191,7 @@ npm install
 **Symptoms:** Dev server fails to start
 
 **Solution:**
+
 ```bash
 # Find process using port 3000
 lsof -i :3000
@@ -200,6 +205,7 @@ npm run dev -- --port 3001
 **Symptoms:** `orval: command not found` error
 
 **Solution:**
+
 ```bash
 # Install Orval globally
 npm install -g orval

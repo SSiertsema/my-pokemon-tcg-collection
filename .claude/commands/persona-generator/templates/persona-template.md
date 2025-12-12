@@ -14,12 +14,12 @@
 
 ## Demographics
 
-| Attribute | Value |
-|-----------|-------|
-| **Role/Title** | {Job title or role} |
-| **Department** | {Team or department} |
+| Attribute      | Value                      |
+| -------------- | -------------------------- |
+| **Role/Title** | {Job title or role}        |
+| **Department** | {Team or department}       |
 | **Experience** | {Years in role / industry} |
-| **Age Range** | {Optional: age bracket} |
+| **Age Range**  | {Optional: age bracket}    |
 
 ---
 
@@ -46,8 +46,8 @@ What drives them to use the system?
 
 What problems do they currently face that the system should solve?
 
-| Pain Point | Impact | Current Workaround |
-|------------|--------|-------------------|
+| Pain Point  | Impact            | Current Workaround  |
+| ----------- | ----------------- | ------------------- |
 | {Problem 1} | {High/Medium/Low} | {How they cope now} |
 | {Problem 2} | {High/Medium/Low} | {How they cope now} |
 | {Problem 3} | {High/Medium/Low} | {How they cope now} |
@@ -64,12 +64,12 @@ What problems do they currently face that the system should solve?
 
 ### Usage Patterns
 
-| Pattern | Value |
-|---------|-------|
-| **Frequency** | {Daily / Weekly / Monthly / Occasional} |
+| Pattern              | Value                                      |
+| -------------------- | ------------------------------------------ |
+| **Frequency**        | {Daily / Weekly / Monthly / Occasional}    |
 | **Session Duration** | {Quick tasks / Extended sessions / Varies} |
-| **Primary Device** | {Desktop / Mobile / Tablet / All} |
-| **Peak Usage Time** | {Morning / Afternoon / Evening / Varies} |
+| **Primary Device**   | {Desktop / Mobile / Tablet / All}          |
+| **Peak Usage Time**  | {Morning / Afternoon / Evening / Varies}   |
 
 ### Decision Making
 
@@ -85,8 +85,8 @@ What does this persona need to accomplish in the system?
 
 ### Primary Tasks
 
-| Task | Frequency | Priority | Complexity |
-|------|-----------|----------|------------|
+| Task     | Frequency           | Priority          | Complexity                |
+| -------- | ------------------- | ----------------- | ------------------------- |
 | {Task 1} | {Daily/Weekly/etc.} | {High/Medium/Low} | {Simple/Moderate/Complex} |
 | {Task 2} | {Daily/Weekly/etc.} | {High/Medium/Low} | {Simple/Moderate/Complex} |
 | {Task 3} | {Daily/Weekly/etc.} | {High/Medium/Low} | {Simple/Moderate/Complex} |
@@ -122,10 +122,10 @@ What limitations affect how they work?
 
 Who does this persona interact with?
 
-| Stakeholder | Relationship | Interaction |
-|-------------|--------------|-------------|
-| {Role 1} | {Reports to / Collaborates with / Manages} | {Frequency} |
-| {Role 2} | {Reports to / Collaborates with / Manages} | {Frequency} |
+| Stakeholder | Relationship                               | Interaction |
+| ----------- | ------------------------------------------ | ----------- |
+| {Role 1}    | {Reports to / Collaborates with / Manages} | {Frequency} |
+| {Role 2}    | {Reports to / Collaborates with / Manages} | {Frequency} |
 
 ---
 

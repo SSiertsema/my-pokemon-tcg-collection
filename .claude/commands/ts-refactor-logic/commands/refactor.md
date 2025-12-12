@@ -16,6 +16,7 @@ You are a TypeScript refactoring assistant. Your task is to autonomously refacto
 Analyze the entire file for:
 
 ### Code Splitting Issues
+
 - Functions exceeding 50 lines
 - Cyclomatic complexity > 10 (many conditionals/branches)
 - Nesting depth > 3 levels
@@ -23,6 +24,7 @@ Analyze the entire file for:
 - Duplicate code patterns (2+ occurrences)
 
 ### Anti-Patterns
+
 - Magic numbers/strings (unnamed constants)
 - Missing error handling in async code
 - Callback hell / Promise chains that could use async/await
@@ -30,6 +32,7 @@ Analyze the entire file for:
 - Long switch statements without abstraction
 
 ### Type Issues
+
 - Use of `any` type
 - Missing return type annotations
 - Missing parameter type annotations
@@ -47,57 +50,67 @@ For each issue found, apply the appropriate resolution technique:
 ### Resolving High Cyclomatic Complexity (> 10)
 
 **Technique A: Extract Conditional Logic to Typed Lookup Object**
+
 ```typescript
 // BEFORE: complexity = 12
 function process(data: Data): Result {
-  if (data.type === 'A') { /* 20 lines */ }
-  else if (data.type === 'B') { /* 20 lines */ }
-  else if (data.type === 'C') { /* 20 lines */ }
+  if (data.type === 'A') {
+    /* 20 lines */
+  } else if (data.type === 'B') {
+    /* 20 lines */
+  } else if (data.type === 'C') {
+    /* 20 lines */
+  }
 }
 
 // AFTER: complexity = 3 per function
-type ProcessorMap = Record<DataType, (data: Data) => Result>
+type ProcessorMap = Record<DataType, (data: Data) => Result>;
 
 const processors: ProcessorMap = {
   A: processTypeA,
   B: processTypeB,
-  C: processTypeC
-}
+  C: processTypeC,
+};
 
 function process(data: Data): Result | undefined {
-  return processors[data.type]?.(data)
+  return processors[data.type]?.(data);
 }
 ```
 
 **Technique B: Strategy Pattern with Type Safety**
+
 ```typescript
 // BEFORE
 function calculatePrice(item: Item): number {
-  if (item.type === 'book') return item.price * 0.9
-  if (item.type === 'electronics') return item.price * 1.1
+  if (item.type === 'book') return item.price * 0.9;
+  if (item.type === 'electronics') return item.price * 1.1;
 }
 
 // AFTER
-type PricingStrategy = (item: Item) => number
+type PricingStrategy = (item: Item) => number;
 
 const pricingStrategies: Record<ItemType, PricingStrategy> = {
   book: (item) => item.price * 0.9,
-  electronics: (item) => item.price * 1.1
-}
+  electronics: (item) => item.price * 1.1,
+};
 
-const calculatePrice = (item: Item): number => pricingStrategies[item.type](item)
+const calculatePrice = (item: Item): number =>
+  pricingStrategies[item.type](item);
 ```
 
 **Technique C: Decompose Boolean Expressions**
+
 ```typescript
 // BEFORE
-if (user.age > 18 && user.hasLicense && !user.isSuspended && user.balance > 0) {}
+if (user.age > 18 && user.hasLicense && !user.isSuspended && user.balance > 0) {
+}
 
 // AFTER
 const isEligibleDriver = (user: User): boolean =>
-  user.age > 18 && user.hasLicense && !user.isSuspended && user.balance > 0
+  user.age > 18 && user.hasLicense && !user.isSuspended && user.balance > 0;
 
-if (isEligibleDriver(user)) {}
+if (isEligibleDriver(user)) {
+}
 ```
 
 ---
@@ -105,6 +118,7 @@ if (isEligibleDriver(user)) {}
 ### Resolving Deep Nesting (> 3 levels)
 
 **Technique A: Guard Clauses (Early Returns)**
+
 ```typescript
 // BEFORE: 4 levels deep
 function process(data: Data | null): Result | null {
@@ -121,23 +135,26 @@ function process(data: Data | null): Result | null {
 
 // AFTER: 0 levels deep
 function process(data: Data | null): Result | null {
-  if (!data) return null
-  if (!data.isValid) return null
-  if (data.items.length === 0) return null
-  if (data.status !== 'active') return null
+  if (!data) return null;
+  if (!data.isValid) return null;
+  if (data.items.length === 0) return null;
+  if (data.status !== 'active') return null;
 
   // actual logic
 }
 ```
 
 **Technique B: Extract Nested Blocks**
+
 ```typescript
 // BEFORE
 function handleOrder(order: Order): void {
   if (order.isPaid) {
     if (order.items.length > 0) {
       for (const item of order.items) {
-        if (item.inStock) { /* complex */ }
+        if (item.inStock) {
+          /* complex */
+        }
       }
     }
   }
@@ -145,8 +162,8 @@ function handleOrder(order: Order): void {
 
 // AFTER
 function handleOrder(order: Order): void {
-  if (!order.isPaid || order.items.length === 0) return
-  order.items.filter(item => item.inStock).forEach(processItem)
+  if (!order.isPaid || order.items.length === 0) return;
+  order.items.filter((item) => item.inStock).forEach(processItem);
 }
 
 function processItem(item: OrderItem): void {
@@ -155,19 +172,22 @@ function processItem(item: OrderItem): void {
 ```
 
 **Technique C: Use Array Methods**
+
 ```typescript
 // BEFORE: nested loops
 for (const user of users) {
   for (const order of user.orders) {
-    if (order.status === 'pending') { /* process */ }
+    if (order.status === 'pending') {
+      /* process */
+    }
   }
 }
 
 // AFTER: flat
 users
-  .flatMap(user => user.orders)
-  .filter(order => order.status === 'pending')
-  .forEach(processOrder)
+  .flatMap((user) => user.orders)
+  .filter((order) => order.status === 'pending')
+  .forEach(processOrder);
 ```
 
 ---
@@ -175,6 +195,7 @@ users
 ### Resolving Long Functions (> 50 lines)
 
 **Technique A: Extract by Responsibility**
+
 ```typescript
 // BEFORE: 100 line function
 async function submitForm(data: FormData): Promise<void> {
@@ -186,24 +207,25 @@ async function submitForm(data: FormData): Promise<void> {
 
 // AFTER: focused functions
 async function submitForm(data: FormData): Promise<void> {
-  const errors = validateFormData(data)
-  if (errors.length) return handleErrors(errors)
+  const errors = validateFormData(data);
+  if (errors.length) return handleErrors(errors);
 
-  const formatted = formatFormData(data)
-  const result = await sendToApi(formatted)
-  updateUI(result)
+  const formatted = formatFormData(data);
+  const result = await sendToApi(formatted);
+  updateUI(result);
 }
 ```
 
 **Technique B: Extract Setup/Teardown**
+
 ```typescript
 // AFTER
 function processData<T>(input: T): Result {
-  const context = setupProcessing(input)
+  const context = setupProcessing(input);
   try {
-    return executeProcessing(context)
+    return executeProcessing(context);
   } finally {
-    cleanupProcessing(context)
+    cleanupProcessing(context);
   }
 }
 ```
@@ -213,22 +235,40 @@ function processData<T>(input: T): Result {
 ### Resolving Too Many Parameters (> 4)
 
 **Technique: Object Parameter Pattern with Interface**
+
 ```typescript
 // BEFORE
-function createUser(name: string, email: string, age: number, role: string, department: string): User {}
+function createUser(
+  name: string,
+  email: string,
+  age: number,
+  role: string,
+  department: string
+): User {}
 
 // AFTER
 interface CreateUserParams {
-  name: string
-  email: string
-  age: number
-  role: UserRole
-  department?: string
+  name: string;
+  email: string;
+  age: number;
+  role: UserRole;
+  department?: string;
 }
 
-function createUser({ name, email, age, role, department }: CreateUserParams): User {}
+function createUser({
+  name,
+  email,
+  age,
+  role,
+  department,
+}: CreateUserParams): User {}
 
-createUser({ name: 'John', email: 'john@example.com', age: 30, role: 'developer' })
+createUser({
+  name: 'John',
+  email: 'john@example.com',
+  age: 30,
+  role: 'developer',
+});
 ```
 
 ---
@@ -236,48 +276,52 @@ createUser({ name: 'John', email: 'john@example.com', age: 30, role: 'developer'
 ### Resolving Duplicate Code
 
 **Technique: Extract and Parameterize with Generics**
+
 ```typescript
 // BEFORE: duplicated
 async function fetchUsers(): Promise<User[]> {
-  setLoading(true)
-  const data = await api.get('/users')
-  setLoading(false)
-  return data
+  setLoading(true);
+  const data = await api.get('/users');
+  setLoading(false);
+  return data;
 }
 async function fetchProducts(): Promise<Product[]> {
-  setLoading(true)
-  const data = await api.get('/products')
-  setLoading(false)
-  return data
+  setLoading(true);
+  const data = await api.get('/products');
+  setLoading(false);
+  return data;
 }
 
 // AFTER: generic parameterized function
 async function fetchData<T>(endpoint: string): Promise<T> {
-  setLoading(true)
+  setLoading(true);
   try {
-    return await api.get<T>(endpoint)
+    return await api.get<T>(endpoint);
   } finally {
-    setLoading(false)
+    setLoading(false);
   }
 }
 
-const fetchUsers = () => fetchData<User[]>('/users')
-const fetchProducts = () => fetchData<Product[]>('/products')
+const fetchUsers = () => fetchData<User[]>('/users');
+const fetchProducts = () => fetchData<Product[]>('/products');
 ```
 
 ---
 
 ### Type Improvements
-| Issue | Solution |
-|-------|----------|
-| `any` type | Specific type or `unknown` |
-| Inline object | Interface or type alias |
-| Repeated types | Shared interface/type |
-| String literals | Enum or union type |
-| Missing generics | Add type parameters |
+
+| Issue            | Solution                   |
+| ---------------- | -------------------------- |
+| `any` type       | Specific type or `unknown` |
+| Inline object    | Interface or type alias    |
+| Repeated types   | Shared interface/type      |
+| String literals  | Enum or union type         |
+| Missing generics | Add type parameters        |
 
 ### File Extraction
+
 When extracting to new files, analyze the project structure:
+
 - Look for existing `utils/`, `helpers/`, `lib/`, `types/` folders
 - If none exist, propose creating in appropriate location
 - Keep related utilities together
@@ -303,6 +347,7 @@ Apply all refactoring changes:
 ## Step 5: Report Completion
 
 Report all changes made:
+
 ```
 Refactored: filename.ts
 
@@ -325,12 +370,14 @@ New files created:
 **You MUST complete and display this checklist. The refactoring is NOT complete until shown.**
 
 ### Analysis
+
 - [ ] Target .ts/.tsx file identified
 - [ ] Code analyzed for complexity metrics
 - [ ] Anti-patterns identified
 - [ ] Type issues identified
 
 ### Code Splitting
+
 - [ ] Functions > 50 lines: addressed or N/A
 - [ ] Nesting > 3 levels: addressed or N/A
 - [ ] Complexity > 10: addressed or N/A
@@ -338,6 +385,7 @@ New files created:
 - [ ] Duplicate code: extracted or N/A
 
 ### Type Improvements
+
 - [ ] `any` types: replaced or justified
 - [ ] Missing annotations: added
 - [ ] Inline objects: interfaces created
@@ -345,22 +393,26 @@ New files created:
 - [ ] Generics: added where beneficial
 
 ### Patterns & Fixes
+
 - [ ] Guard clauses applied where beneficial
 - [ ] Promise chains converted to async/await
 - [ ] Magic values extracted to constants/enums
 - [ ] Error handling added where needed
 
 ### File Organization
+
 - [ ] New files created in appropriate locations
 - [ ] Types in dedicated files if shared
 - [ ] Imports updated correctly
 
 ### Completion
+
 - [ ] All changes applied successfully
 - [ ] Summary reported
 - [ ] This checklist displayed with [x] marks
 
 **Example output:**
+
 ```
 Verification Checklist:
 [x] Target file: src/services/userService.ts

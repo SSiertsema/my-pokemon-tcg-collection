@@ -36,10 +36,12 @@ curl http://localhost:PORT/health
 #### Issue: Dependencies fail to install
 
 **Symptoms:**
+
 - `npm install` fails with errors
 - Missing peer dependencies warnings
 
 **Solution:**
+
 ```bash
 # Clear npm cache and reinstall
 rm -rf node_modules package-lock.json
@@ -50,10 +52,12 @@ npm install
 #### Issue: Wrong Node.js version
 
 **Symptoms:**
+
 - Syntax errors on startup
 - "Unsupported engine" warning
 
 **Solution:**
+
 ```bash
 # Check Node.js version
 node --version
@@ -68,10 +72,12 @@ nvm use 18
 #### Issue: Application fails to start
 
 **Symptoms:**
+
 - Process exits immediately
 - Port already in use error
 
 **Solution:**
+
 ```bash
 # Check what's using the port
 lsof -i :PORT
@@ -85,10 +91,12 @@ PORT=3001 npm run dev
 #### Issue: Database connection failed
 
 **Symptoms:**
+
 - "Connection refused" errors
 - "Authentication failed" errors
 
 **Solution:**
+
 1. Verify database is running
 2. Check `DATABASE_URL` environment variable
 3. Verify credentials are correct
@@ -104,10 +112,12 @@ PORT=3001 npm run dev
 #### Issue: 401 Unauthorized errors
 
 **Symptoms:**
+
 - API calls return 401
 - "Invalid token" message
 
 **Solution:**
+
 1. Verify authentication token is present in header
 2. Check if token has expired
 3. Ensure token format is correct (`Bearer <token>`)
@@ -115,10 +125,12 @@ PORT=3001 npm run dev
 #### Issue: CORS errors
 
 **Symptoms:**
+
 - "Access-Control-Allow-Origin" errors in browser console
 - API works in Postman but not in browser
 
 **Solution:**
+
 1. Verify CORS configuration allows your origin
 2. Check for preflight (OPTIONS) request handling
 3. Verify allowed headers include those you're sending
@@ -128,10 +140,12 @@ PORT=3001 npm run dev
 #### Issue: Slow response times
 
 **Symptoms:**
+
 - API responses take > 1 second
 - Timeouts occurring
 
 **Diagnosis:**
+
 ```bash
 # Check resource usage
 top
@@ -143,6 +157,7 @@ htop
 ```
 
 **Possible causes:**
+
 - Database queries not optimized (missing indexes)
 - Memory leaks
 - External API dependencies slow
@@ -151,10 +166,12 @@ htop
 #### Issue: Memory leaks
 
 **Symptoms:**
+
 - Memory usage grows over time
 - Application crashes with OOM errors
 
 **Diagnosis:**
+
 ```bash
 # Monitor memory usage
 ```
@@ -164,10 +181,12 @@ htop
 #### Issue: Build fails
 
 **Symptoms:**
+
 - TypeScript compilation errors
 - Missing module errors
 
 **Solution:**
+
 ```bash
 # Clean build artifacts
 rm -rf dist/ .cache/
@@ -212,9 +231,9 @@ List common error codes/messages and their meanings.
 -->
 
 | Error Code | Message | Meaning | Solution |
-|------------|---------|---------|----------|
-| `ERR_001` | | | |
-| `ERR_002` | | | |
+| ---------- | ------- | ------- | -------- |
+| `ERR_001`  |         |         |          |
+| `ERR_002`  |         |         |          |
 
 ## Getting Help
 
@@ -233,6 +252,7 @@ If your issue isn't covered here:
 ### Q: How do I reset my local database?
 
 **A:**
+
 ```bash
 # Drop and recreate database
 # Run migrations
@@ -242,6 +262,7 @@ If your issue isn't covered here:
 ### Q: How do I clear the cache?
 
 **A:**
+
 ```bash
 # Command to clear cache
 ```

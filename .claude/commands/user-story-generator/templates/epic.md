@@ -67,8 +67,8 @@ List all features that belong to this epic.
 Link to feature index files.
 -->
 
-| Feature | Description | Stories |
-|---------|-------------|---------|
+| Feature                                                | Description         | Stories |
+| ------------------------------------------------------ | ------------------- | ------- |
 | [{Feature Name}](../features/{feature-slug}/_index.md) | {Brief description} | {count} |
 
 ---
@@ -79,8 +79,8 @@ Link to feature index files.
 Which personas interact with features in this epic?
 -->
 
-| Persona | Role | Primary Features |
-|---------|------|------------------|
+| Persona        | Role   | Primary Features              |
+| -------------- | ------ | ----------------------------- |
 | {Persona Name} | {Role} | {Features they primarily use} |
 
 ---
@@ -114,9 +114,9 @@ Aggregate view of all stories in this epic.
 
 **Total Stories:** {count}
 
-| Feature | Story Count |
-|---------|-------------|
-| {Feature Name} | {n} |
+| Feature        | Story Count |
+| -------------- | ----------- |
+| {Feature Name} | {n}         |
 
 ---
 
@@ -126,6 +126,6 @@ Aggregate view of all stories in this epic.
 Link to the source documents this epic was derived from.
 -->
 
-| Specification | Relevant Sections |
-|---------------|-------------------|
+| Specification  | Relevant Sections    |
+| -------------- | -------------------- |
 | {spec-name.md} | {Section references} |

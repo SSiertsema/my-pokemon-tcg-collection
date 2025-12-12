@@ -14,11 +14,11 @@ Overview of testing philosophy and coverage goals.
 
 ### Test Types
 
-| Type | Purpose | Location |
-|------|---------|----------|
-| Unit | Test individual functions/components | `tests/unit/` |
-| Integration | Test component interactions | `tests/integration/` |
-| E2E | Test full user flows | `tests/e2e/` |
+| Type        | Purpose                              | Location             |
+| ----------- | ------------------------------------ | -------------------- |
+| Unit        | Test individual functions/components | `tests/unit/`        |
+| Integration | Test component interactions          | `tests/integration/` |
+| E2E         | Test full user flows                 | `tests/e2e/`         |
 
 ### Coverage Goals
 
@@ -144,6 +144,7 @@ How tests run in CI.
 -->
 
 Tests run automatically on:
+
 - Pull request creation
 - Push to main branch
 

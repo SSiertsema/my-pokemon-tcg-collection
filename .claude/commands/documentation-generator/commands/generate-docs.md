@@ -29,21 +29,22 @@ First, analyze the codebase to understand what exists:
 
 Based on your analysis, propose which documentation files make sense for this project. Use the templates in `${CLAUDE_PLUGIN_ROOT}/templates/` as reference for available categories:
 
-| Template | Propose when... |
-|----------|----------------|
-| architecture.md | Always - every project benefits from architectural overview |
-| api-reference.md | Project has API routes, REST endpoints, or GraphQL |
-| data-models.md | Project has database, ORM, or significant data structures |
-| development-setup.md | Always - helps onboarding new developers |
-| testing.md | Project has test files or test configuration |
-| deployment.md | Project has Dockerfile, CI/CD, or deployment configs |
-| contributing.md | Open source project or team collaboration expected |
-| security.md | Project handles auth, sensitive data, or external APIs |
-| troubleshooting.md | Complex project with potential failure modes |
-| configuration.md | Project has environment variables or config files |
-| changelog.md | Project needs version tracking |
+| Template             | Propose when...                                             |
+| -------------------- | ----------------------------------------------------------- |
+| architecture.md      | Always - every project benefits from architectural overview |
+| api-reference.md     | Project has API routes, REST endpoints, or GraphQL          |
+| data-models.md       | Project has database, ORM, or significant data structures   |
+| development-setup.md | Always - helps onboarding new developers                    |
+| testing.md           | Project has test files or test configuration                |
+| deployment.md        | Project has Dockerfile, CI/CD, or deployment configs        |
+| contributing.md      | Open source project or team collaboration expected          |
+| security.md          | Project handles auth, sensitive data, or external APIs      |
+| troubleshooting.md   | Complex project with potential failure modes                |
+| configuration.md     | Project has environment variables or config files           |
+| changelog.md         | Project needs version tracking                              |
 
 Present your proposal with reasoning:
+
 ```
 Based on my analysis of your project, I recommend creating these documentation files:
 
@@ -62,6 +63,7 @@ Based on my analysis of your project, I recommend creating these documentation f
 ## Phase 3: User Dialog
 
 Ask the user for feedback:
+
 - Do they want to add any documentation from the "optional" or "not applicable" lists?
 - Do they want to remove any from the recommended list?
 - Are there any specific aspects they want documented?

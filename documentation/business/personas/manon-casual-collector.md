@@ -14,13 +14,13 @@
 
 ## Demographics
 
-| Attribute | Value |
-|-----------|-------|
-| **Role/Title** | Casual Collector |
-| **Department** | End User / Primary User |
+| Attribute      | Value                              |
+| -------------- | ---------------------------------- |
+| **Role/Title** | Casual Collector                   |
+| **Department** | End User / Primary User            |
 | **Experience** | 10+ years collecting Pokemon cards |
-| **Age Range** | 19 years old |
-| **Occupation** | Cashier (Cassiere) |
+| **Age Range**  | 19 years old                       |
+| **Occupation** | Cashier (Cassiere)                 |
 
 ---
 
@@ -49,12 +49,12 @@ What drives them to use the system?
 
 What problems do they currently face that the system should solve?
 
-| Pain Point | Impact | Current Workaround |
-|------------|--------|-------------------|
-| No global overview of collection | High | Manually searching through all physical binders |
-| Uncertainty about duplicates at trading events | High | Missing trade opportunities or accidentally getting doubles |
-| Not knowing set completion status | Medium | Mentally trying to remember what's missing |
-| Time-consuming to check cards in stores | Medium | Buying packs blindly, risking duplicates |
+| Pain Point                                     | Impact | Current Workaround                                          |
+| ---------------------------------------------- | ------ | ----------------------------------------------------------- |
+| No global overview of collection               | High   | Manually searching through all physical binders             |
+| Uncertainty about duplicates at trading events | High   | Missing trade opportunities or accidentally getting doubles |
+| Not knowing set completion status              | Medium | Mentally trying to remember what's missing                  |
+| Time-consuming to check cards in stores        | Medium | Buying packs blindly, risking duplicates                    |
 
 ---
 
@@ -68,12 +68,12 @@ Manon is comfortable with standard smartphone applications and uses social media
 
 ### Usage Patterns
 
-| Pattern | Value |
-|---------|-------|
-| **Frequency** | Several times per week |
+| Pattern              | Value                                                                                        |
+| -------------------- | -------------------------------------------------------------------------------------------- |
+| **Frequency**        | Several times per week                                                                       |
 | **Session Duration** | Varies - quick checks (1-2 min) at events, longer sessions (30+ min) when cataloging at home |
-| **Primary Device** | Both mobile and desktop - phone at trading events/stores, computer at home |
-| **Peak Usage Time** | Evenings (cataloging at home), weekends (trading events and store visits) |
+| **Primary Device**   | Both mobile and desktop - phone at trading events/stores, computer at home                   |
+| **Peak Usage Time**  | Evenings (cataloging at home), weekends (trading events and store visits)                    |
 
 ### Decision Making
 
@@ -89,18 +89,19 @@ What does this persona need to accomplish in the system?
 
 ### Primary Tasks
 
-| Task | Frequency | Priority | Complexity |
-|------|-----------|----------|------------|
-| Check if she owns a specific card | Weekly | High | Simple |
-| Add new cards to collection | Weekly | High | Simple |
-| View set completion progress | Weekly | Medium | Simple |
-| Create/manage trading list (duplicates) | Monthly | Medium | Moderate |
-| Browse cards by set | Weekly | Medium | Simple |
-| Search cards by filters (name, type, rarity) | Weekly | High | Simple |
+| Task                                         | Frequency | Priority | Complexity |
+| -------------------------------------------- | --------- | -------- | ---------- |
+| Check if she owns a specific card            | Weekly    | High     | Simple     |
+| Add new cards to collection                  | Weekly    | High     | Simple     |
+| View set completion progress                 | Weekly    | Medium   | Simple     |
+| Create/manage trading list (duplicates)      | Monthly   | Medium   | Moderate   |
+| Browse cards by set                          | Weekly    | Medium   | Simple     |
+| Search cards by filters (name, type, rarity) | Weekly    | High     | Simple     |
 
 ### Typical Workflow
 
 **At Trading Events:**
+
 1. Someone offers her a card
 2. Open the app on her phone
 3. Quick search for the card name
@@ -108,6 +109,7 @@ What does this persona need to accomplish in the system?
 5. Make an informed decision to trade or pass
 
 **At Home (Cataloging):**
+
 1. Take out a physical binder
 2. Select the corresponding set in the app
 3. Mark cards as owned one by one
@@ -140,10 +142,10 @@ What limitations affect how they work?
 
 Who does this persona interact with?
 
-| Stakeholder | Relationship | Interaction |
-|-------------|--------------|-------------|
-| Other collectors | Trading partners | Weekly at events |
-| Store owners | Sellers | Monthly for purchases |
+| Stakeholder      | Relationship       | Interaction                  |
+| ---------------- | ------------------ | ---------------------------- |
+| Other collectors | Trading partners   | Weekly at events             |
+| Store owners     | Sellers            | Monthly for purchases        |
 | Online community | Fellow enthusiasts | Regularly via forums/Discord |
 
 ---
@@ -153,13 +155,13 @@ Who does this persona interact with?
 Representative quotes that capture this persona's perspective:
 
 > "Ik wil graag een plek hebben om mijn collectie te kunnen digitaliseren."
-> *(I want a place where I can digitize my collection.)*
+> _(I want a place where I can digitize my collection.)_
 
 > "Het frustreert me het meest dat ik geen globaal overzicht heb over mijn collectie."
-> *(What frustrates me most is that I don't have a global overview of my collection.)*
+> _(What frustrates me most is that I don't have a global overview of my collection.)_
 
 > "Ik voel me succesvol als ik precies weet wat ik heb en wat ik mis uit elke set!"
-> *(I feel successful when I know exactly what I have and what I'm missing from each set!)*
+> _(I feel successful when I know exactly what I have and what I'm missing from each set!)_
 
 ---
 
