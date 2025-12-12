@@ -1,0 +1,131 @@
+
+#Probleemschets:
+
+“Er zijn veel applicaties waar je voor TCG's collectie kan bijhouden, echter kan er op vlakken verbeterd worden.”
+
+#Waarom nu:
+
+“Er zijn veel TCG sites, maar lang niet voor allemaal, om te beginnen met Pokemon als template en dit uit te bouwen zou heel veel range kunnen coveren.”
+
+#Doelgroep:
+
+“We zoeken naar mensen die hun collectie op een gratis platform willen bijhouden en updaten wanneer hen dit uitkomt.”
+
+#Doelstelling:
+
+“We willen er voor zorgen dat mensen hun collectie makkelijk en simpel kunnen bijhouden, ze moeten bestaande collecties/sets compleet kunnen maken of hun eigen collecties en decks kunnen aanmaken.”
+
+#Voorgestelde oplossing:
+
+“We willen een site opzetten met filter opties voor de Pokemon kaarten, hier kunnen de gebruikers filteren op Naam, Rarity, Type, Subtype, etc. Op deze site kunnen ze collecties aanmaken, bestaande sets/collecties compleet maken of decks aanmaken.”
+
+#Functionaliteiten:
+
+“Functies die benodigd zijn: Filters, sets/decks kunnen aanmaken, TCG api's aansluiten. Overview van sets en hoeveel er compleet is/ wat ze missen uit een specifieke set. Er moet een account aangemaakt worden om persoonlijke progress te tracken.”
+
+#Technische aanpak:
+
+“We willen gebruik maken van Vue, Nuxt, Javascript, Typescript, HTML, CSS, SQL, Claud code.”
+
+#Randvoorwaarden / afhankelijkheden:
+
+“We zijn afhankelijk van de uptime van de aangesloten api's, deze moeten ook compleet zijn(alle sets bevatten).”
+
+#Verwachte resultaten:
+
+“Dit levert een persoonlijke omgeving waar mensen hun eigen collectie makkelijk kunnen aanmaken, wijzigen/bijhouden.”
+
+#Succescriteria:
+
+“Als de gebruikers sets kunnen aanmaken/wijzigen, hierin kaarten kunnen zoeken op basis van uitgebreide filters. Ook moet de applicatie zo opgezet zijn dat het multipurpose ingezet kan worden(aka moet een template zijn voor meerdere tcg’s)”
+Persona.
+
+
+
+##Persona:
+
+
+Naam: Manon
+Leeftijd:  19
+Beroep: Cassaire
+
+Manon spaart sinds klein al Pokemon kaarten, ze gaat vaak naar Pokemon ruil dagen of conventies waar ze misschien kaarten hebben. Ze spaart alle kaarten en zoekt graag winkels af voor de nieuwste sets.
+Ze heeft mappen vol met kaarten, maar weet soms niet zo goed meer wat ze wel en niet heeft. Als ze hier naar zoekt moet ze al haar mappen doorspitten.
+
+Manon wilt graag een plek hebben om haar collectie te kunnen digitaliseren.
+Dit wil ze per set kunnen doen, ook wilt ze een eigen set aanmaken met dubbelen zodat ze deze kan ruilen.
+Het frustreert haar het meest dat ze geen globaal overzicht heeft over haar collectie.
+
+
+User Journey - Manon (19, Cassière, Pokémon verzamelaar)
+Fase 1: Bewustwording & Trigger
+Situatie: Manon is op een ruildag en iemand biedt haar een kaart aan die ze misschien al heeft.
+Gedachten: "Heb ik deze al? Ik moet straks thuis weer al mijn mappen doorzoeken..."
+Emotie: Gefrustreerd, onzeker
+Pijnpunt: Geen overzicht van haar collectie wanneer ze het nodig heeft
+
+Fase 2: Zoeken naar oplossing
+Actie: Manon googelt naar "pokemon kaarten collectie bijhouden app" of vraagt op een Pokémon forum/Discord
+Gedachten: "Er moet toch iets bestaan waarmee ik dit kan bijhouden?"
+Emotie: Hoopvol maar ook sceptisch
+Behoefte: Een oplossing die makkelijk is en per set werkt
+
+Fase 3: Eerste kennismaking
+Actie: Manon vindt de app/het platform en download deze of maakt een account aan
+Gedachten: "Laat dit alsjeblieft niet te ingewikkeld zijn..."
+Emotie: Nieuwsgierig, voorzichtig optimistisch
+Verwachting: Dat ze snel kan beginnen zonder uitgebreide tutorials
+
+Fase 4: Onboarding / Eerste gebruik
+Actie: Manon begint met het invoeren van één set die ze goed kent
+Gedachten: "Ah oké, dit is best overzichtelijk! Ik kan per set werken, perfect."
+Emotie: Opgelucht, gemotiveerd om door te gaan
+Succesfactor: Intuïtieve interface, duidelijke structuur per set
+Mogelijke frustratie: Als invoeren te omslachtig is of ze kaarten niet kan vinden
+
+Fase 5: Actief gebruik - Collectie opbouwen
+Actie:
+Manon vult in de avonden stapsgewijs haar collectie in
+Ze werkt set voor set door haar mappen heen
+Ze vindt het leuk om te zien hoeveel kaarten ze al heeft per set
+Gedachten: "Wauw, ik was niet eens dat ik al zoveel van deze set had!"
+Emotie: Voldaan, gemotiveerd, soms verrast door eigen collectie
+Succesfactor: Visueel overzicht, voortgangsindicatoren per set, mogelijkheid om foto's toe te voegen
+
+Fase 6: Praktisch gebruik - Op ruildag/in winkel
+Actie:
+Manon is op een ruildag
+Iemand biedt haar een kaart aan
+Ze checkt snel op haar telefoon of ze deze al heeft
+Gedachten: "Yes! Ik heb 'm nog niet, deze wil ik graag ruilen."
+Emotie: Zelfverzekerd, blij, opgelucht
+Succesfactor: Snelle zoekfunctie, offline toegang, overzichtelijke weergave
+
+Fase 7: Doorlopend beheer
+Actie:
+Na elke ruildag of winkelaankoop voegt Manon nieuwe kaarten toe
+Ze checkt welke kaarten ze nog mist uit sets
+Ze gebruikt het overzicht om gericht te zoeken naar missende kaarten
+Gedachten: "Ik mis nog maar 5 kaarten uit deze set, die ga ik zoeken!"
+Emotie: Gemotiveerd, gefocust, verzamelaarstrots
+Succesfactor: Makkelijk kaarten toevoegen, wishlist-functionaliteit, set-completeness percentage
+
+Fase 8: Loyaliteit & Aanbeveling
+Actie:
+Manon laat haar digitale collectie zien aan andere verzamelaars
+Ze beveelt de app aan op forums en aan vrienden op ruildagen
+Gedachten: "Dit maakt verzamelen echt veel leuker en overzichtelijker!"
+Emotie: Enthousiast, trots
+Succesfactor: Deelbare collectie, community features, betrouwbare app
+
+Key Touchpoints
+Ruildagen/conventies - Heeft daar overzicht nodig
+Thuis - Vult collectie in, werkt mappen door
+Winkels - Checkt voordat ze nieuwe sets koopt
+Online communities - Zoekt informatie, deelt ervaringen
+Belangrijkste behoeften door de journey heen
+Snel en makkelijk kunnen checken of ze een kaart heeft
+Per set kunnen werken (past bij haar manier van verzamelen)
+Globaal overzicht van hele collectie
+Mobiel toegankelijk (vooral tijdens ruildagen)
+Niet te tijdrovend om bij te houden
