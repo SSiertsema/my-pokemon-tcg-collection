@@ -1,0 +1,19 @@
+{
+  "name": "pokemon-collectie-app",
+  "version": "1.0.0",
+  "description": "Dit is een applicatie om te dienen als een template voor TCG applicaties.\r Deze is bedoelt voor Pokemon TCG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BakStijn/Pokemon-collectie-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BakStijn/Pokemon-collectie-app/issues"
+  },
+  "homepage": "https://github.com/BakStijn/Pokemon-collectie-app#readme"
+}
