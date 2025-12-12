@@ -1,0 +1,12 @@
+{
+  "name": "documentation-generator",
+  "version": "1.0.0",
+  "description": "Generate comprehensive project documentation through interactive dialog with templates",
+  "author": {
+    "name": "Sven Siertsema"
+  },
+  "repository": "https://github.com/SSiertsema/claude-code-plugins",
+  "license": "MIT",
+  "keywords": ["documentation", "templates", "generator", "productivity"],
+  "commands": "./commands"
+}
