@@ -10,7 +10,10 @@
     "generate": "nuxi generate",
     "preview": "nuxi preview",
     "lint": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed"
   },
   "dependencies": {
     "nuxt": "^3.11.2",
@@ -18,7 +21,10 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxt/test-utils": "^3.21.0",
     "@nuxtjs/color-mode": "latest",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.1",
     "prettier": "^3.1.1",
     "typescript": "^5.9.3",
     "vue-tsc": "^3.1.8"

@@ -5,7 +5,25 @@
       "Bash(mkdir:*)",
       "WebFetch(domain:docs.pokemontcg.io)",
       "WebFetch(domain:www.npmjs.com)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(tree:*)",
+      "Bash(npm install:*)",
+      "Bash(test:*)",
+      "Bash(npm run build:*)",
+      "Bash(cat:*)",
+      "Bash(pkill:*)",
+      "Bash(npm run lint:fix:*)",
+      "Bash(npm view:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm run test:run:*)",
+      "Bash(curl:*)",
+      "Bash(node -e:*)",
+      "WebFetch(domain:nuxt.com)",
+      "Bash(npx playwright install:*)",
+      "Bash(npm test:*)",
+      "Bash(lsof:*)",
+      "Bash(npx playwright test:*)",
+      "Bash(kill:*)"
     ]
   }
 }

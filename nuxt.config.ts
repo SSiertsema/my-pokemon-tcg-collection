@@ -7,4 +7,7 @@ export default defineNuxtConfig({
     strict: true,
     typeCheck: true,
   },
+  runtimeConfig: {
+    pokemonTcgApiKey: process.env.POKEMONTCG_API_KEY,
+  },
 });
