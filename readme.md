@@ -1,2 +1,10 @@
 Dit is een applicatie om te dienen als een template voor TCG applicaties.
 Deze is bedoelt voor Pokemon TCG
+
+# Setup
+
+Run: **cp .env .env.example.**
+
+Vul de API_KEY in.
+
+
