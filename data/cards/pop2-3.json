@@ -1,0 +1,73 @@
+{
+  "id": "pop2-3",
+  "name": "Raikou",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "attacks": [
+    {
+      "name": "Roar",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any."
+    },
+    {
+      "name": "Thunder",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Flip a coin. If tails, Raikou does 20 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pop2",
+    "name": "POP Series 2",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2005/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop2/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    243
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop2/3.png",
+    "large": "https://images.pokemontcg.io/pop2/3_hires.png"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sm9-136",
+  "name": "Buff Padding",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Pokémon Tool"
+  ],
+  "rules": [
+    "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it.",
+    "If the Pokémon this card is attached to has a Retreat Cost of exactly 4, it gets +50 HP.",
+    "You may play as many Item cards as you like during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "sm9",
+    "name": "Team Up",
+    "series": "Sun & Moon",
+    "printedTotal": 181,
+    "total": 198,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEU",
+    "releaseDate": "2019/02/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm9/logo.png"
+    }
+  },
+  "number": "136",
+  "artist": "Yoshinobu Saito",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm9/136.png",
+    "large": "https://images.pokemontcg.io/sm9/136_hires.png"
+  }
+}

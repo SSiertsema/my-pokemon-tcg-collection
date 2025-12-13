@@ -1,0 +1,83 @@
+{
+  "id": "rsv10pt5-129",
+  "name": "Gigalith",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "170",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Boldore",
+  "attacks": [
+    {
+      "name": "Vengeful Cannon",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "This attack does 20 damage for each damage counter on all of your Benched Fighting Pokémon."
+    },
+    {
+      "name": "Heavy Impact",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "160",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "rsv10pt5",
+    "name": "White Flare",
+    "series": "Scarlet & Violet",
+    "printedTotal": 86,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "WHT",
+    "releaseDate": "2025/07/18",
+    "updatedAt": "2025/07/17 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/rsv10pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/rsv10pt5/logo.png"
+    }
+  },
+  "number": "129",
+  "artist": "toi8",
+  "rarity": "Illustration Rare",
+  "flavorText": "Compressing the energy from its internal core lets it fire off an attack capable of blowing away a mountain.",
+  "nationalPokedexNumbers": [
+    526
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/rsv10pt5/129.png",
+    "large": "https://images.pokemontcg.io/rsv10pt5/129_hires.png"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "sm12-175",
+  "name": "Herdier",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Lillipup",
+  "evolvesTo": [
+    "Stoutland"
+  ],
+  "attacks": [
+    {
+      "name": "Work Up",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "During your next turn, this Pokémon's attacks do 60 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance)."
+    },
+    {
+      "name": "Headbutt Bounce",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "175",
+  "artist": "Shigenori Negishi",
+  "rarity": "Uncommon",
+  "flavorText": "The longer its black fur grows, the harder and more impervious it gets. Claws and fangs can't easily penetrate it.",
+  "nationalPokedexNumbers": [
+    507
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/175.png",
+    "large": "https://images.pokemontcg.io/sm12/175_hires.png"
+  }
+}

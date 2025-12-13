@@ -1,0 +1,78 @@
+{
+  "id": "pl2-33",
+  "name": "Snorlax",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "37",
+  "hp": "100",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Pick and Collect",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Search your discard pile for up to 4 basic Energy cards, show them to your opponent, and put them into your hand."
+    },
+    {
+      "name": "Roll Over",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60",
+      "text": "Flip a coin. If heads, both Snorlax and the Defending Pokémon are now Asleep. If tails, Snorlax is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "33",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "It stops eating only to sleep. It doesn't feel full unless it eats nearly 900 pounds a day.",
+  "nationalPokedexNumbers": [
+    143
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/33.png",
+    "large": "https://images.pokemontcg.io/pl2/33_hires.png"
+  }
+}

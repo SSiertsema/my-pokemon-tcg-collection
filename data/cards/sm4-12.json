@@ -1,0 +1,77 @@
+{
+  "id": "sm4-12",
+  "name": "Alolan Marowak",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Cubone",
+  "attacks": [
+    {
+      "name": "Dance of Flames",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "For each Energy attached to your opponent's Pokémon, attach a Fire Energy card from your discard pile to your Pokémon in any way you like."
+    },
+    {
+      "name": "Burning Bonemerang",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70×",
+      "text": "Flip 2 coins. This attack does 70 damage for each heads. If either of them is heads, your opponent's Active Pokémon is now Burned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm4",
+    "name": "Crimson Invasion",
+    "series": "Sun & Moon",
+    "printedTotal": 111,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CIN",
+    "releaseDate": "2017/11/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm4/logo.png"
+    }
+  },
+  "number": "12",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare Holo",
+  "flavorText": "The bones it possesses were once its mother's. Its mother's regrets have become like a vengeful spirit protecting this Pokémon.",
+  "nationalPokedexNumbers": [
+    105
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm4/12.png",
+    "large": "https://images.pokemontcg.io/sm4/12_hires.png"
+  }
+}

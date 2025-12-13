@@ -1,0 +1,85 @@
+{
+  "id": "sv3pt5-97",
+  "name": "Hypno",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Drowzee",
+  "abilities": [
+    {
+      "name": "Here for Hypnosis",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may make your opponent's Active Pokémon Asleep.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Super Psy Bolt",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "110",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv3pt5",
+    "name": "151",
+    "series": "Scarlet & Violet",
+    "printedTotal": 165,
+    "total": 207,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/09/22",
+    "updatedAt": "2023/09/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+    }
+  },
+  "number": "97",
+  "artist": "Mousho",
+  "rarity": "Uncommon",
+  "flavorText": "When it locks eyes with an enemy, it will use a mix of psi moves, such as Hypnosis and Confusion.",
+  "nationalPokedexNumbers": [
+    97
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3pt5/97.png",
+    "large": "https://images.pokemontcg.io/sv3pt5/97_hires.png"
+  }
+}

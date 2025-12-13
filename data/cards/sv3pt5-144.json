@@ -1,0 +1,84 @@
+{
+  "id": "sv3pt5-144",
+  "name": "Articuno",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Water"
+  ],
+  "abilities": [
+    {
+      "name": "Ice Float",
+      "text": "If this Pokémon has any Water Energy attached, it has no Retreat Cost.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Blizzard",
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "110",
+      "text": "This attack also does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv3pt5",
+    "name": "151",
+    "series": "Scarlet & Violet",
+    "printedTotal": 165,
+    "total": 207,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/09/22",
+    "updatedAt": "2023/09/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+    }
+  },
+  "number": "144",
+  "artist": "chibi",
+  "rarity": "Rare",
+  "flavorText": "This Pokémon can control ice at will. Articuno is said to live in snowy mountains riddled with permafrost.",
+  "nationalPokedexNumbers": [
+    144
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3pt5/144.png",
+    "large": "https://images.pokemontcg.io/sv3pt5/144_hires.png"
+  }
+}

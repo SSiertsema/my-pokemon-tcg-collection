@@ -1,0 +1,35 @@
+{
+  "id": "pop3",
+  "name": "POP Series 3",
+  "series": "POP",
+  "printedTotal": 17,
+  "total": 17,
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "releaseDate": "2006/04/01",
+  "updatedAt": "2020/08/14 09:35:00",
+  "images": {
+    "symbol": "https://images.pokemontcg.io/pop3/symbol.png",
+    "logo": "https://images.pokemontcg.io/pop3/logo.png"
+  },
+  "cards": [
+    "pop3-1",
+    "pop3-2",
+    "pop3-3",
+    "pop3-4",
+    "pop3-5",
+    "pop3-6",
+    "pop3-7",
+    "pop3-8",
+    "pop3-9",
+    "pop3-10",
+    "pop3-11",
+    "pop3-12",
+    "pop3-13",
+    "pop3-14",
+    "pop3-15",
+    "pop3-16",
+    "pop3-17"
+  ]
+}

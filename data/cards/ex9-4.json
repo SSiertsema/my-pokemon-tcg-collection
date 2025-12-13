@@ -1,0 +1,85 @@
+{
+  "id": "ex9-4",
+  "name": "Gardevoir",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "100",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Kirlia",
+  "abilities": [
+    {
+      "name": "Heal Dance",
+      "text": "Once during your turn (before your attack), you may remove 2 damage counter from 1 of your Pokémon. You can't use more than 1 Heal Dance Poké-Power each turn. This power can't be used if Gardevoir is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Psypunch",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Mind Shock",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60",
+      "text": "This attack's damage isn't affected by Weakness or Resistance."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex9",
+    "name": "Emerald",
+    "series": "EX",
+    "printedTotal": 106,
+    "total": 107,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "EM",
+    "releaseDate": "2005/05/01",
+    "updatedAt": "2020/02/08 09:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex9/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex9/logo.png"
+    }
+  },
+  "number": "4",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    282
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex9/4.png",
+    "large": "https://images.pokemontcg.io/ex9/4_hires.png"
+  }
+}

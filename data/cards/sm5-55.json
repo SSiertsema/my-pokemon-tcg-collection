@@ -1,0 +1,72 @@
+{
+  "id": "sm5-55",
+  "name": "Drapion",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Skorupi",
+  "attacks": [
+    {
+      "name": "Dangerous Stinger",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "100",
+      "text": "Your opponent's Active Pokémon is now Paralyzed and Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "55",
+  "artist": "Studio Bora Inc.",
+  "rarity": "Rare",
+  "flavorText": "It has the power in its clawed arms to make scrap of a car. The tips of its claws release poison.",
+  "nationalPokedexNumbers": [
+    452
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/55.png",
+    "large": "https://images.pokemontcg.io/sm5/55_hires.png"
+  }
+}

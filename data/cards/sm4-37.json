@@ -1,0 +1,76 @@
+{
+  "id": "sm4-37",
+  "name": "Haunter",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Gastly",
+  "evolvesTo": [
+    "Gengar"
+  ],
+  "attacks": [
+    {
+      "name": "Pain Amplifier",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Put 2 damage counters on each of your opponent's Pokémon that has any damage counters on it."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm4",
+    "name": "Crimson Invasion",
+    "series": "Sun & Moon",
+    "printedTotal": 111,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CIN",
+    "releaseDate": "2017/11/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm4/logo.png"
+    }
+  },
+  "number": "37",
+  "artist": "Eri Yamaki",
+  "rarity": "Uncommon",
+  "flavorText": "It strikes at humans from total darkness. Those licked by its cold tongue grow weaker with each passing day until they die.",
+  "nationalPokedexNumbers": [
+    93
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm4/37.png",
+    "large": "https://images.pokemontcg.io/sm4/37_hires.png"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "xy6-80",
+  "name": "Unfezant",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "130",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Tranquill",
+  "attacks": [
+    {
+      "name": "Quick Attack",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    },
+    {
+      "name": "Strong Winds",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Shuffle all cards attached to each player's Pokémon into that player's deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy6",
+    "name": "Roaring Skies",
+    "series": "XY",
+    "printedTotal": 108,
+    "total": 112,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ROS",
+    "releaseDate": "2015/05/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy6/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy6/logo.png"
+    }
+  },
+  "number": "80",
+  "artist": "Shigenori Negishi",
+  "rarity": "Uncommon",
+  "flavorText": "Males have plumage on their heads. They will never let themselves fell close to anyone other than their Trainers.",
+  "nationalPokedexNumbers": [
+    521
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy6/80.png",
+    "large": "https://images.pokemontcg.io/xy6/80_hires.png"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "bw9-52",
+  "name": "Metagross",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "Team Plasma"
+  ],
+  "hp": "140",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Metang",
+  "abilities": [
+    {
+      "name": "Plasma Search",
+      "text": "Once during your turn (before your attack), you may search your deck for a Team Plasma card, reveal it, and put it in your hand. Shuffle your deck afterward. You may not use an Ability with the same name during your turn.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mind Bend",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60",
+      "text": "The Defending Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "52",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo",
+  "flavorText": "With four linked brains, it's more intelligent than a supercomputer, and it uses calculations to analyze foes.",
+  "nationalPokedexNumbers": [
+    376
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/52.png",
+    "large": "https://images.pokemontcg.io/bw9/52_hires.png"
+  }
+}

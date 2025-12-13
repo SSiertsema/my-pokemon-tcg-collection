@@ -1,0 +1,74 @@
+{
+  "id": "zsv10pt5-54",
+  "name": "Venipede",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesTo": [
+    "Whirlipede"
+  ],
+  "attacks": [
+    {
+      "name": "Poison Spray",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent's Active Pokémon is now Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "zsv10pt5",
+    "name": "Black Bolt",
+    "series": "Scarlet & Violet",
+    "printedTotal": 86,
+    "total": 172,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BLK",
+    "releaseDate": "2025/07/18",
+    "updatedAt": "2025/07/17 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/zsv10pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/zsv10pt5/logo.png"
+    }
+  },
+  "number": "54",
+  "artist": "okayamatakatoshi",
+  "rarity": "Common",
+  "flavorText": "Its bite injects a potent poison, enough to paralyze large bird Pokémon that try to prey on it.",
+  "nationalPokedexNumbers": [
+    543
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/zsv10pt5/54.png",
+    "large": "https://images.pokemontcg.io/zsv10pt5/54_hires.png"
+  }
+}

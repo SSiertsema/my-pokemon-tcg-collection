@@ -1,0 +1,78 @@
+{
+  "id": "bw9-60",
+  "name": "Primeape",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Mankey",
+  "attacks": [
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30×",
+      "text": "Flip 3 coins. This attack does 30 damage times the number of heads."
+    },
+    {
+      "name": "Karate Chop",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "80-",
+      "text": "Does 80 damage minus 10 damage for each damage counter on this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "60",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Common",
+  "flavorText": "It grows angry if you see its eyes and gets angrier if you run. If you beat it, it gets even madder.",
+  "nationalPokedexNumbers": [
+    57
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/60.png",
+    "large": "https://images.pokemontcg.io/bw9/60_hires.png"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "swsh12tg-TG01",
+  "name": "Braixen",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Fennekin",
+  "evolvesTo": [
+    "Delphox"
+  ],
+  "attacks": [
+    {
+      "name": "Combustion",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Flare Parade",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60×",
+      "text": "This attack does 60 damage for each Serena card in your discard pile."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh12tg",
+    "name": "Silver Tempest Trainer Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 30,
+    "total": 30,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SIT",
+    "releaseDate": "2022/11/11",
+    "updatedAt": "2022/11/11 11:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12tg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12tg/logo.png"
+    }
+  },
+  "number": "TG01",
+  "artist": "Naoki Saito",
+  "rarity": "Trainer Gallery Rare Holo",
+  "flavorText": "When the twig is plucked from its tail, friction sets the twig alight. The flame is used to send signals to its allies.",
+  "nationalPokedexNumbers": [
+    654
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12tg/TG01.png",
+    "large": "https://images.pokemontcg.io/swsh12tg/TG01_hires.png"
+  }
+}

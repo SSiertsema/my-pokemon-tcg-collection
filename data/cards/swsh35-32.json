@@ -1,0 +1,82 @@
+{
+  "id": "swsh35-32",
+  "name": "Grapploct V",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "V"
+  ],
+  "hp": "210",
+  "types": [
+    "Fighting"
+  ],
+  "rules": [
+    "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Tie Up",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn."
+    },
+    {
+      "name": "Moonsault Press",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120+",
+      "text": "Flip a coin. If heads, this attack does 100 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh35",
+    "name": "Champion's Path",
+    "series": "Sword & Shield",
+    "printedTotal": 73,
+    "total": 80,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CPA",
+    "releaseDate": "2020/09/25",
+    "updatedAt": "2020/10/25 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh35/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh35/logo.png"
+    }
+  },
+  "number": "32",
+  "artist": "PLANETA Igarashi",
+  "rarity": "Rare Holo V",
+  "nationalPokedexNumbers": [
+    853
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh35/32.png",
+    "large": "https://images.pokemontcg.io/swsh35/32_hires.png"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "xy8-86",
+  "name": "Pancham",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Pangoro"
+  ],
+  "attacks": [
+    {
+      "name": "Pompous Punch",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10",
+      "text": "Discard a random card from your opponent's hand."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy8",
+    "name": "BREAKthrough",
+    "series": "XY",
+    "printedTotal": 162,
+    "total": 165,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKT",
+    "releaseDate": "2015/11/04",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy8/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy8/logo.png"
+    }
+  },
+  "number": "86",
+  "artist": "Mizue",
+  "rarity": "Common",
+  "flavorText": "It does its level best to glare and pull a scary face, but it can't help grinning if anyone pats its head.",
+  "nationalPokedexNumbers": [
+    674
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy8/86.png",
+    "large": "https://images.pokemontcg.io/xy8/86_hires.png"
+  }
+}

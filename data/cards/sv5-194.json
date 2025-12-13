@@ -1,0 +1,86 @@
+{
+  "id": "sv5-194",
+  "name": "Farigiraf ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Tera",
+    "ex"
+  ],
+  "hp": "260",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Girafarig",
+  "rules": [
+    "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  ],
+  "abilities": [
+    {
+      "name": "Armor Tail",
+      "text": "Prevent all damage done to this Pokémon by attacks from your opponent's Basic Pokémon ex.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Dirty Beam",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "160",
+      "text": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv5",
+    "name": "Temporal Forces",
+    "series": "Scarlet & Violet",
+    "printedTotal": 162,
+    "total": 218,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEF",
+    "releaseDate": "2024/03/22",
+    "updatedAt": "2024/03/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv5/logo.png"
+    }
+  },
+  "number": "194",
+  "artist": "5ban Graphics",
+  "rarity": "Ultra Rare",
+  "nationalPokedexNumbers": [
+    981
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv5/194.png",
+    "large": "https://images.pokemontcg.io/sv5/194_hires.png"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "swsh4-162",
+  "name": "Aromatic Grass Energy",
+  "supertype": "Energy",
+  "subtypes": [
+    "Special"
+  ],
+  "rules": [
+    "As long as this card is attached to a Pokémon, it provides Grass Energy.",
+    "The Grass Pokémon this card is attached to recovers from all Special Conditions and can't be affected by any Special Conditions."
+  ],
+  "set": {
+    "id": "swsh4",
+    "name": "Vivid Voltage",
+    "series": "Sword & Shield",
+    "printedTotal": 185,
+    "total": 203,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "VIV",
+    "releaseDate": "2020/11/13",
+    "updatedAt": "2020/11/13 16:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh4/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh4/logo.png"
+    }
+  },
+  "number": "162",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh4/162.png",
+    "large": "https://images.pokemontcg.io/swsh4/162_hires.png"
+  }
+}

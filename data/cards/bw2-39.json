@@ -1,0 +1,83 @@
+{
+  "id": "bw2-39",
+  "name": "Whirlipede",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Venipede",
+  "evolvesTo": [
+    "Scolipede"
+  ],
+  "attacks": [
+    {
+      "name": "Venoshock",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "If the Defending Pokémon is Poisoned, this attack does 60 more damage."
+    },
+    {
+      "name": "Steamroller",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": "This attack's damage isn't affected by Resistance."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw2",
+    "name": "Emerging Powers",
+    "series": "Black & White",
+    "printedTotal": 98,
+    "total": 98,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EPO",
+    "releaseDate": "2011/08/31",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw2/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw2/logo.png"
+    }
+  },
+  "number": "39",
+  "artist": "Shin Nagasawa",
+  "rarity": "Uncommon",
+  "flavorText": "It is usually motionless, but when attacked, it rotates at high speed and then crashes into its opponent.",
+  "nationalPokedexNumbers": [
+    544
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw2/39.png",
+    "large": "https://images.pokemontcg.io/bw2/39_hires.png"
+  }
+}

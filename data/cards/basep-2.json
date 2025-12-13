@@ -1,0 +1,79 @@
+{
+  "id": "basep-2",
+  "name": "Electabuzz",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "20",
+  "hp": "60",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Electivire"
+  ],
+  "attacks": [
+    {
+      "name": "Light Screen",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Whenever an attack does damage to Electabuzz (after applying Weakness and Resistance) during your opponent's next turn, that attack only does half the damage to Electabuzz (rounded down to the nearest 10). (Any other effects of attacks still happen.)"
+    },
+    {
+      "name": "Quick Attack",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10+",
+      "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "basep",
+    "name": "Wizards Black Star Promos",
+    "series": "Base",
+    "printedTotal": 53,
+    "total": 53,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR",
+    "releaseDate": "1999/07/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/basep/symbol.png",
+      "logo": "https://images.pokemontcg.io/basep/logo.png"
+    }
+  },
+  "number": "2",
+  "artist": "Ken Sugimori",
+  "rarity": "Promo",
+  "flavorText": "A wild Pokémon with a short temper. It is able to distinguish colors, and likes the color red.",
+  "nationalPokedexNumbers": [
+    125
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/basep/2.png",
+    "large": "https://images.pokemontcg.io/basep/2_hires.png"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "sm8-165",
+  "name": "Trumbeak",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Pikipek",
+  "evolvesTo": [
+    "Toucannon"
+  ],
+  "abilities": [
+    {
+      "name": "Mountain Pass",
+      "text": "Once during your turn (before your attack), if this Pokémon is in your hand, you may reveal it. If you do, look at the top card of your opponent's deck and put this Pokémon in the Lost Zone. If that card is a Supporter card, you may put it in the Lost Zone. If your opponent has no cards in their deck, you can't use this Ability.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Peck",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "165",
+  "artist": "Shin Nagasawa",
+  "rarity": "Uncommon",
+  "flavorText": "By bending its beak, it can produce a variety of calls and brand itself a noisy nuisance for its neighbors.",
+  "nationalPokedexNumbers": [
+    732
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/165.png",
+    "large": "https://images.pokemontcg.io/sm8/165_hires.png"
+  }
+}

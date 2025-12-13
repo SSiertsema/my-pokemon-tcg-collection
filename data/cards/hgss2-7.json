@@ -1,0 +1,75 @@
+{
+  "id": "hgss2-7",
+  "name": "Politoed",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Poliwhirl",
+  "abilities": [
+    {
+      "name": "Leap Frog",
+      "text": "Once during your turn (before your attack), you may choose a Water Pokémon on your Bench and switch it with your Active Pokémon. This power can't be used if Politoed is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Big Chorus",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30×",
+      "text": "Flip a coin for each Water Pokémon you have in play. This attack does 30 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "hgss2",
+    "name": "HS—Unleashed",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 96,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UL",
+    "releaseDate": "2010/05/12",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss2/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss2/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "Naoyo Kimura",
+  "rarity": "Rare Holo",
+  "flavorText": "Whenever three or more of these get together, they sing in a loud voice that sounds like bellowing.",
+  "nationalPokedexNumbers": [
+    186
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss2/7.png",
+    "large": "https://images.pokemontcg.io/hgss2/7_hires.png"
+  }
+}

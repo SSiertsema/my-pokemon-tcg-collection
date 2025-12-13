@@ -1,0 +1,88 @@
+{
+  "id": "dp6-64",
+  "name": "Metang",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "24",
+  "hp": "80",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Beldum",
+  "evolvesTo": [
+    "Metagross"
+  ],
+  "attacks": [
+    {
+      "name": "Agility",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Metang during your opponent's next turn."
+    },
+    {
+      "name": "Metal Claw",
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "dp6",
+    "name": "Legends Awakened",
+    "series": "Diamond & Pearl",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LA",
+    "releaseDate": "2008/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp6/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp6/logo.png"
+    }
+  },
+  "number": "64",
+  "artist": "Midori Harada",
+  "rarity": "Uncommon",
+  "flavorText": "It is formed by two Beldum joining together. Its steel body won't be scratched if it collides with a jet.",
+  "nationalPokedexNumbers": [
+    375
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp6/64.png",
+    "large": "https://images.pokemontcg.io/dp6/64_hires.png"
+  }
+}

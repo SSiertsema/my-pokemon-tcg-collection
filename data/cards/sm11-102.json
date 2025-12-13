@@ -1,0 +1,81 @@
+{
+  "id": "sm11-102",
+  "name": "Poipole",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Ultra Beast"
+  ],
+  "hp": "70",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Naganadel"
+  ],
+  "attacks": [
+    {
+      "name": "Belt",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Last Scene",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50+",
+      "text": "If each player has exactly 1 Prize card remaining, this attack does 130 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "102",
+  "artist": "Shin Nagasawa",
+  "rarity": "Common",
+  "flavorText": "This Ultra Beast is well enough liked to be chosen as a first partner in its own world.",
+  "nationalPokedexNumbers": [
+    803
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/102.png",
+    "large": "https://images.pokemontcg.io/sm11/102_hires.png"
+  }
+}

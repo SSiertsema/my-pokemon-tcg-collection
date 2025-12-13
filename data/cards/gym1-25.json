@@ -1,0 +1,83 @@
+{
+  "id": "gym1-25",
+  "name": "Erika's Clefairy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "17",
+  "hp": "50",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Clefable"
+  ],
+  "attacks": [
+    {
+      "name": "Moonwatching",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a basic Energy card. Show that card to your opponent, then put it into your hand. Shuffle your deck afterward."
+    },
+    {
+      "name": "Comet Slap",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10×",
+      "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "gym1",
+    "name": "Gym Heroes",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G1",
+    "releaseDate": "2000/08/14",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym1/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym1/logo.png"
+    }
+  },
+  "number": "25",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    35
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym1/25.png",
+    "large": "https://images.pokemontcg.io/gym1/25_hires.png"
+  }
+}

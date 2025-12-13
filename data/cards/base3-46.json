@@ -1,0 +1,78 @@
+{
+  "id": "base3-46",
+  "name": "Ekans",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "10",
+  "hp": "40",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Arbok"
+  ],
+  "attacks": [
+    {
+      "name": "Spit Poison",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+    },
+    {
+      "name": "Wrap",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base3",
+    "name": "Fossil",
+    "series": "Base",
+    "printedTotal": 62,
+    "total": 62,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "FO",
+    "releaseDate": "1999/10/10",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base3/symbol.png",
+      "logo": "https://images.pokemontcg.io/base3/logo.png"
+    }
+  },
+  "number": "46",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Common",
+  "flavorText": "Moves silently and stealthily. Eats the eggs of birds such as Pidgey and Spearow whole.",
+  "nationalPokedexNumbers": [
+    23
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base3/46.png",
+    "large": "https://images.pokemontcg.io/base3/46_hires.png"
+  }
+}

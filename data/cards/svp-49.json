@@ -1,0 +1,88 @@
+{
+  "id": "svp-49",
+  "name": "Zapdos ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "ex"
+  ],
+  "hp": "200",
+  "types": [
+    "Lightning"
+  ],
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Voltaic Float",
+      "text": "If this Pokémon has any Lightning Energy attached, it has no Retreat Cost.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Multishot Lightning",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120",
+      "text": "This attack also does 90 damage to 1 of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "svp",
+    "name": "Scarlet & Violet Black Star Promos",
+    "series": "Scarlet & Violet",
+    "printedTotal": 215,
+    "total": 196,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SV",
+    "releaseDate": "2023/01/01",
+    "updatedAt": "2024/11/09 13:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+      "logo": "https://images.pokemontcg.io/svp/logo.png"
+    }
+  },
+  "number": "49",
+  "artist": "takuyoa",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    145
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/svp/49.png",
+    "large": "https://images.pokemontcg.io/svp/49_hires.png"
+  }
+}

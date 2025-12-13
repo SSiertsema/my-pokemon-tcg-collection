@@ -1,0 +1,83 @@
+{
+  "id": "swshp-SWSH137",
+  "name": "Light Toxtricity",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "65",
+  "hp": "120",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Toxel",
+  "rules": [
+    "(This card cannot be used at official tournaments.)"
+  ],
+  "attacks": [
+    {
+      "name": "Slow Ballad",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 30 damage from both Active Pokémon."
+    },
+    {
+      "name": "Beatdown Smash",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "160",
+      "text": "During your next turn, this Pokémon can't use Beatdown Smash."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH137",
+  "artist": "Naoyo Kimura",
+  "rarity": "Promo",
+  "flavorText": "When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.",
+  "nationalPokedexNumbers": [
+    849
+  ],
+  "legalities": {
+    "unlimited": "Banned"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH137.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH137_hires.png"
+  }
+}

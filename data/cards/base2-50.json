@@ -1,0 +1,84 @@
+{
+  "id": "base2-50",
+  "name": "Cubone",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "13",
+  "hp": "40",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Marowak"
+  ],
+  "attacks": [
+    {
+      "name": "Snivel",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "If the Defending Pokémon attacks Cubone during your opponent's next turn, any damage done by the attack is reduced by 20 (after applying Weakness and Resistance). (Benching either Pokémon ends this effect.)"
+    },
+    {
+      "name": "Rage",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10+",
+      "text": "Does 10 damage plus 10 more damage for each damage counter on Cubone."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base2",
+    "name": "Jungle",
+    "series": "Base",
+    "printedTotal": 64,
+    "total": 64,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "JU",
+    "releaseDate": "1999/06/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base2/symbol.png",
+      "logo": "https://images.pokemontcg.io/base2/logo.png"
+    }
+  },
+  "number": "50",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Common",
+  "flavorText": "Because it never removes its skull helmet, no one has ever seen this Pokémon's real face.",
+  "nationalPokedexNumbers": [
+    104
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base2/50.png",
+    "large": "https://images.pokemontcg.io/base2/50_hires.png"
+  }
+}

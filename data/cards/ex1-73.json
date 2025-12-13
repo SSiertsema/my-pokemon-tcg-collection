@@ -1,0 +1,76 @@
+{
+  "id": "ex1-73",
+  "name": "Torchic",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Combusken"
+  ],
+  "attacks": [
+    {
+      "name": "Peck",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Fireworks",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Flip a coin. If tails, discard a Fire Energy card attached to Torchic."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex1",
+    "name": "Ruby & Sapphire",
+    "series": "EX",
+    "printedTotal": 109,
+    "total": 109,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RS",
+    "releaseDate": "2003/07/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex1/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex1/logo.png"
+    }
+  },
+  "number": "73",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    255
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex1/73.png",
+    "large": "https://images.pokemontcg.io/ex1/73_hires.png"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "swsh11tg-TG07",
+  "name": "Banette",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Single Strike"
+  ],
+  "hp": "80",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Shuppet",
+  "attacks": [
+    {
+      "name": "Resolute Spite",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "Put up to 7 damage counters on this Pokémon. This attack does 20 damage for each damage counter you placed in this way."
+    },
+    {
+      "name": "Eerie Light",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh11tg",
+    "name": "Lost Origin Trainer Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 30,
+    "total": 30,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOR",
+    "releaseDate": "2022/09/09",
+    "updatedAt": "2022/09/09 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh11tg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh11tg/logo.png"
+    }
+  },
+  "number": "TG07",
+  "artist": "Tomomi Kaneko",
+  "rarity": "Trainer Gallery Rare Holo",
+  "flavorText": "Resentment at being cast off made it spring into being. Some say that treating it well will satisfy it, and it will once more become a stuffed toy.",
+  "nationalPokedexNumbers": [
+    354
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh11tg/TG07.png",
+    "large": "https://images.pokemontcg.io/swsh11tg/TG07_hires.png"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "cel25-20",
+  "name": "Dialga",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Metal"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Metal"
+      ],
+      "name": "Temporal Backflow",
+      "damage": "",
+      "text": "Put a card from your discard pile into your hand.",
+      "convertedEnergyCost": 1
+    },
+    {
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "name": "Metal Blast",
+      "damage": "60+",
+      "text": "This attack does 20 more damage for each Metal Energy attached to this Pokémon.",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "cel25",
+    "name": "Celebrations",
+    "series": "Sword & Shield",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEL",
+    "releaseDate": "2021/10/08",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/cel25/symbol.png",
+      "logo": "https://images.pokemontcg.io/cel25/logo.png"
+    }
+  },
+  "number": "20",
+  "artist": "5ban Graphics",
+  "rarity": "Rare",
+  "flavorText": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+  "nationalPokedexNumbers": [
+    483
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/cel25/20.png",
+    "large": "https://images.pokemontcg.io/cel25/20_hires.png"
+  }
+}

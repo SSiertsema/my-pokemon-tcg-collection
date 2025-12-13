@@ -1,0 +1,82 @@
+{
+  "id": "sm12-37",
+  "name": "Pyroar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Litleo",
+  "attacks": [
+    {
+      "name": "Swirling Inferno",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "Discard all Pokémon Tool cards and Special Energy from each of your opponent's Pokémon."
+    },
+    {
+      "name": "Heat Blast",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "140",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "37",
+  "artist": "KEIICHIRO ITO",
+  "rarity": "Uncommon",
+  "flavorText": "The males are usually lazy, but when attacked by a strong foe, a male will protect its friends with no regard for its own safety.",
+  "nationalPokedexNumbers": [
+    668
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/37.png",
+    "large": "https://images.pokemontcg.io/sm12/37_hires.png"
+  }
+}

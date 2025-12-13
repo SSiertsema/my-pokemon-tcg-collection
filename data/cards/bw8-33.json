@@ -1,0 +1,72 @@
+{
+  "id": "bw8-33",
+  "name": "Sharpedo",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Team Plasma"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Carvanha",
+  "abilities": [
+    {
+      "name": "Rough Skin",
+      "text": "If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 2 damage counters on the Attacking Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hard Bite",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40+",
+      "text": "Flip a coin. If heads, this attack does 20 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "bw8",
+    "name": "Plasma Storm",
+    "series": "Black & White",
+    "printedTotal": 135,
+    "total": 138,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLS",
+    "releaseDate": "2013/02/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw8/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw8/logo.png"
+    }
+  },
+  "number": "33",
+  "artist": "5ban Graphics",
+  "rarity": "Rare",
+  "flavorText": "Its fangs rip through sheet iron. It swims at 75 mph and is known as",
+  "nationalPokedexNumbers": [
+    319
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw8/33.png",
+    "large": "https://images.pokemontcg.io/bw8/33_hires.png"
+  }
+}

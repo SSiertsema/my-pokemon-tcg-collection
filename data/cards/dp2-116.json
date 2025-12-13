@@ -1,0 +1,46 @@
+{
+  "id": "dp2-116",
+  "name": "Armor Fossil",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "hp": "50",
+  "rules": [
+    "Play Armor Fossil as if it were a Colorless Basic Pokémon. (Armor Fossil counts as a Trainer card as well, but if Armor Fossil is Knocked Out, this counts as a Knocked Out Pokémon.) Armor Fossil can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Armor Fossil from play. (This doesn't count as a Knocked Out Pokémon.)"
+  ],
+  "abilities": [
+    {
+      "name": "Armor Stone",
+      "text": "Whenever Armor Fossil would be damaged by your opponent's attack, flip a coin until you get tails. For each heads, reduce that damage by 10.",
+      "type": "Poké-Body"
+    }
+  ],
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "116",
+  "artist": "Ryo Ueda",
+  "rarity": "Common",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/116.png",
+    "large": "https://images.pokemontcg.io/dp2/116_hires.png"
+  }
+}

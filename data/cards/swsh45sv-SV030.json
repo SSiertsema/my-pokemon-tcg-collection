@@ -1,0 +1,84 @@
+{
+  "id": "swsh45sv-SV030",
+  "name": "Cramorant",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Dive",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon."
+    },
+    {
+      "name": "Hydro Pump",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50+",
+      "text": "This attack does 20 more damage for each Water Energy attached to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh45sv",
+    "name": "Shining Fates Shiny Vault",
+    "series": "Sword & Shield",
+    "printedTotal": 122,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SHF",
+    "releaseDate": "2021/02/19",
+    "updatedAt": "2021/02/24 16:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh45sv/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh45sv/logo.png"
+    }
+  },
+  "number": "SV030",
+  "artist": "Akira Komayama",
+  "rarity": "Rare Shiny",
+  "flavorText": "It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight.",
+  "nationalPokedexNumbers": [
+    845
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh45sv/SV030.png",
+    "large": "https://images.pokemontcg.io/swsh45sv/SV030_hires.png"
+  }
+}

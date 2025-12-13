@@ -1,0 +1,86 @@
+{
+  "id": "swsh45sv-SV089",
+  "name": "Corviknight",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "170",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Corvisquire",
+  "attacks": [
+    {
+      "name": "Peck",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "50",
+      "text": ""
+    },
+    {
+      "name": "Iron Wings",
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "130",
+      "text": "You may discard 2 Energy from this Pokémon. If you do, during your opponent's next turn, this Pokémon takes 100 less damage from attacks (after applying Weakness and Resistance)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh45sv",
+    "name": "Shining Fates Shiny Vault",
+    "series": "Sword & Shield",
+    "printedTotal": 122,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SHF",
+    "releaseDate": "2021/02/19",
+    "updatedAt": "2021/02/24 16:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh45sv/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh45sv/logo.png"
+    }
+  },
+  "number": "SV089",
+  "artist": "kirisAki",
+  "rarity": "Rare Shiny",
+  "flavorText": "This Pokémon reigns supreme in the skies of the Galar region. The black luster of its steel body could drive terror into the heart of any foe.",
+  "nationalPokedexNumbers": [
+    823
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh45sv/SV089.png",
+    "large": "https://images.pokemontcg.io/swsh45sv/SV089_hires.png"
+  }
+}

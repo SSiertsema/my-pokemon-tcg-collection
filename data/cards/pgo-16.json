@@ -1,0 +1,85 @@
+{
+  "id": "pgo-16",
+  "name": "Wartortle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Squirtle",
+  "evolvesTo": [
+    "Blastoise"
+  ],
+  "attacks": [
+    {
+      "name": "Water Gun",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Hydro Pump",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50+",
+      "text": "This attack does 10 more damage for each Water Energy attached to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pgo",
+    "name": "Pokémon GO",
+    "series": "Sword & Shield",
+    "printedTotal": 78,
+    "total": 88,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PGO",
+    "releaseDate": "2022/07/01",
+    "updatedAt": "2022/07/06 17:07:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pgo/symbol.png",
+      "logo": "https://images.pokemontcg.io/pgo/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "kurumitsu",
+  "rarity": "Uncommon",
+  "flavorText": "It is recognized as a symbol of longevity. If its shell has algae on it, that Wartortle is very old.",
+  "nationalPokedexNumbers": [
+    8
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/pgo/16.png",
+    "large": "https://images.pokemontcg.io/pgo/16_hires.png"
+  }
+}

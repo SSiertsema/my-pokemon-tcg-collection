@@ -1,0 +1,39 @@
+{
+  "id": "ex3-84",
+  "name": "Energy Recycle System",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Search your discard pile for basic Energy cards. You may either show 1 basic Energy card to your opponent and put it into your hand, or show 3 basic Energy cards to your opponent and shuffle them into your deck."
+  ],
+  "set": {
+    "id": "ex3",
+    "name": "Dragon",
+    "series": "EX",
+    "printedTotal": 97,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DR",
+    "releaseDate": "2003/11/24",
+    "updatedAt": "2023/02/16 05:47:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex3/logo.png"
+    }
+  },
+  "number": "84",
+  "artist": "Zu-Ka",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex3/84.png",
+    "large": "https://images.pokemontcg.io/ex3/84_hires.png"
+  }
+}

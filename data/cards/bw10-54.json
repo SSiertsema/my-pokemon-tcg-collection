@@ -1,0 +1,73 @@
+{
+  "id": "bw10-54",
+  "name": "Archeops",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Archen",
+  "attacks": [
+    {
+      "name": "Acrobatics",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20+",
+      "text": "Flip 2 coins. This attack does 20 more damage for each heads."
+    },
+    {
+      "name": "Swift Dive",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "100",
+      "text": "If this Pokémon's remaining HP is 50 or less, this attack's base damage is 50."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "bw10",
+    "name": "Plasma Blast",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 105,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLB",
+    "releaseDate": "2013/08/14",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw10/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw10/logo.png"
+    }
+  },
+  "number": "54",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare Holo",
+  "flavorText": "It runs better than it flies. It takes off into the sky by running at a speed of 25 mph.",
+  "nationalPokedexNumbers": [
+    567
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw10/54.png",
+    "large": "https://images.pokemontcg.io/bw10/54_hires.png"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "sm11-240",
+  "name": "Keldeo-GX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "GX"
+  ],
+  "hp": "170",
+  "types": [
+    "Water"
+  ],
+  "rules": [
+    "Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Pure Heart",
+      "text": "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon-GX or Pokémon-EX.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sonic Edge",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "110",
+      "text": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+    },
+    {
+      "name": "Resolute Blade-GX",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50×",
+      "text": "This attack does 50 damage for each of your opponent's Benched Pokémon. (You can't use more than 1 GX attack in a game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "240",
+  "artist": "ConceptLab",
+  "rarity": "Rare Rainbow",
+  "nationalPokedexNumbers": [
+    647
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/240.png",
+    "large": "https://images.pokemontcg.io/sm11/240_hires.png"
+  }
+}

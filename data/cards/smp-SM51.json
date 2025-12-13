@@ -1,0 +1,82 @@
+{
+  "id": "smp-SM51",
+  "name": "Alolan Meowth",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesTo": [
+    "Persian"
+  ],
+  "attacks": [
+    {
+      "name": "Nasty Plot",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Flip a coin. If heads, search your deck for a card and put it into your hand. Then, shuffle your deck."
+    },
+    {
+      "name": "Scratch",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "smp",
+    "name": "SM Black Star Promos",
+    "series": "Sun & Moon",
+    "printedTotal": 248,
+    "total": 250,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/smp/symbol.png",
+      "logo": "https://images.pokemontcg.io/smp/logo.png"
+    }
+  },
+  "number": "SM51",
+  "artist": "sui",
+  "rarity": "Promo",
+  "flavorText": "This Pokémon was not originally found in Alola. Human actions caused a surge in their numbers, and they went feral. They're prideful and crafty.",
+  "nationalPokedexNumbers": [
+    52
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/smp/SM51.png",
+    "large": "https://images.pokemontcg.io/smp/SM51_hires.png"
+  }
+}

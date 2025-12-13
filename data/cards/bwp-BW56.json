@@ -1,0 +1,79 @@
+{
+  "id": "bwp-BW56",
+  "name": "Empoleon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Prinplup",
+  "attacks": [
+    {
+      "name": "Fury Attack",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30×",
+      "text": "Flip 3 coins. This attack does 30 damage times the number of heads."
+    },
+    {
+      "name": "Cold Crush",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "You may discard an Energy attached to this Pokémon. If you do, discard an Energy attached to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bwp",
+    "name": "BW Black Star Promos",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-BLW",
+    "releaseDate": "2011/03/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bwp/symbol.png",
+      "logo": "https://images.pokemontcg.io/bwp/logo.png"
+    }
+  },
+  "number": "BW56",
+  "artist": "Shin Nagasawa",
+  "rarity": "Promo",
+  "flavorText": "If anyone were to hurt its pride, it would slash them with wings that can cleave through an ice floe.",
+  "nationalPokedexNumbers": [
+    395
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bwp/BW56.png",
+    "large": "https://images.pokemontcg.io/bwp/BW56_hires.png"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "swsh45sv-SV066",
+  "name": "Galarian Runerigus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Galarian Yamask",
+  "attacks": [
+    {
+      "name": "Spreading Spite",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "For each damage counter on this Galarian Runerigus, put 2 damage counters on your opponent's Pokémon in any way you like."
+    },
+    {
+      "name": "Mad Hammer",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120",
+      "text": "This Pokémon also does 30 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh45sv",
+    "name": "Shining Fates Shiny Vault",
+    "series": "Sword & Shield",
+    "printedTotal": 122,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SHF",
+    "releaseDate": "2021/02/19",
+    "updatedAt": "2021/02/24 16:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh45sv/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh45sv/logo.png"
+    }
+  },
+  "number": "SV066",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare Shiny",
+  "flavorText": "A powerful curse was woven into an ancient painting. After absorbing the spirit of a Yamask, the painting began to move.",
+  "nationalPokedexNumbers": [
+    867
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh45sv/SV066.png",
+    "large": "https://images.pokemontcg.io/swsh45sv/SV066_hires.png"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "basep-51",
+  "name": "Rapidash",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "60",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Ponyta",
+  "attacks": [
+    {
+      "name": "Jump Over",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "If your opponent has any Benched Pokémon, choose 1 of them. Flip a coin. If heads, this attack does 20 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Super Singe",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Burned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "basep",
+    "name": "Wizards Black Star Promos",
+    "series": "Base",
+    "printedTotal": 53,
+    "total": 53,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR",
+    "releaseDate": "1999/07/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/basep/symbol.png",
+      "logo": "https://images.pokemontcg.io/basep/logo.png"
+    }
+  },
+  "number": "51",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    78
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/basep/51.png",
+    "large": "https://images.pokemontcg.io/basep/51_hires.png"
+  }
+}

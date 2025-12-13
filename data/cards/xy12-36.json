@@ -1,0 +1,85 @@
+{
+  "id": "xy12-36",
+  "name": "Raichu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "40",
+  "hp": "100",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Pikachu",
+  "attacks": [
+    {
+      "name": "Energize",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Attach a Lightning Energy card from your discard pile to this Pokémon."
+    },
+    {
+      "name": "Spark Bolt",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70+",
+      "text": "You may discard all Energy attached to this Pokémon. If you do, this attack does 70 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy12",
+    "name": "Evolutions",
+    "series": "XY",
+    "printedTotal": 108,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVO",
+    "releaseDate": "2016/11/02",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy12/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy12/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare Holo",
+  "flavorText": "Its electric charges can reach even 100,000 volts. Careless contact can cause even an Indian elephant to faint.",
+  "nationalPokedexNumbers": [
+    26
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy12/36.png",
+    "large": "https://images.pokemontcg.io/xy12/36_hires.png"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "pl1-13",
+  "name": "Rampardos",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "54",
+  "hp": "130",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Cranidos",
+  "abilities": [
+    {
+      "name": "Iron Skull",
+      "text": "Rampardos's attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Head Smash",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "80",
+      "text": "If the Defending Pokémon would be Knocked Out by this attack, Rampardos does 40 damage to itself."
+    },
+    {
+      "name": "Mold Breaker",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "Any damage done to Rampardos by attacks is reduced by 20 (after applying Weakness and Resistance) until the end of your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "+30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl1",
+    "name": "Platinum",
+    "series": "Platinum",
+    "printedTotal": 127,
+    "total": 133,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PL",
+    "releaseDate": "2009/02/11",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl1/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl1/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    409
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl1/13.png",
+    "large": "https://images.pokemontcg.io/pl1/13_hires.png"
+  }
+}

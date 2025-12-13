@@ -1,0 +1,80 @@
+{
+  "id": "swshp-SWSH188",
+  "name": "Bibarel",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Bidoof",
+  "abilities": [
+    {
+      "name": "Industrious Incisors",
+      "text": "Once during your turn, you may draw cards until you have 5 cards in your hand.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Tail Smash",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH188",
+  "artist": "Misa Tsutsui",
+  "rarity": "Promo",
+  "flavorText": "It makes its nest by damming streams with bark and mud. It is known as an industrious worker.",
+  "nationalPokedexNumbers": [
+    400
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH188.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH188_hires.png"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "sm3-49",
+  "name": "Wobbuffet",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Shadowy Knot",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50×",
+      "text": "This attack does 50 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm3",
+    "name": "Burning Shadows",
+    "series": "Sun & Moon",
+    "printedTotal": 147,
+    "total": 177,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BUS",
+    "releaseDate": "2017/08/05",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm3/logo.png"
+    }
+  },
+  "number": "49",
+  "artist": "nagimiso",
+  "rarity": "Uncommon",
+  "flavorText": "It hates light and shock. If attacked, it inflates its body to build up its counterstrike.",
+  "nationalPokedexNumbers": [
+    202
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm3/49.png",
+    "large": "https://images.pokemontcg.io/sm3/49_hires.png"
+  }
+}

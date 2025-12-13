@@ -1,0 +1,88 @@
+{
+  "id": "sv3-144",
+  "name": "Bronzor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Metal"
+  ],
+  "evolvesTo": [
+    "Bronzong"
+  ],
+  "attacks": [
+    {
+      "name": "Mirror Draw",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Draw cards until you have the same number of cards in your hand as your opponent."
+    },
+    {
+      "name": "Speed Dive",
+      "cost": [
+        "Metal",
+        "Metal"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv3",
+    "name": "Obsidian Flames",
+    "series": "Scarlet & Violet",
+    "printedTotal": 197,
+    "total": 230,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/08/11",
+    "updatedAt": "2023/08/11 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3/logo.png"
+    }
+  },
+  "number": "144",
+  "artist": "Shinji Kanda",
+  "rarity": "Common",
+  "flavorText": "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
+  "nationalPokedexNumbers": [
+    436
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3/144.png",
+    "large": "https://images.pokemontcg.io/sv3/144_hires.png"
+  }
+}

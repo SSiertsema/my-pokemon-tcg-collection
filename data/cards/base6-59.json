@@ -1,0 +1,78 @@
+{
+  "id": "base6-59",
+  "name": "Primeape",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "45",
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Mankey",
+  "attacks": [
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20×",
+      "text": "Flip 3 coins. This attack does 20 damage times the number of heads."
+    },
+    {
+      "name": "Tantrum",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Flip a coin. If tails, Primeape is now Confused (after doing damage)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base6",
+    "name": "Legendary Collection",
+    "series": "Other",
+    "printedTotal": 110,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LC",
+    "releaseDate": "2002/05/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base6/symbol.png",
+      "logo": "https://images.pokemontcg.io/base6/logo.png"
+    }
+  },
+  "number": "59",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "flavorText": "Always furious and tenacious to boot. It will not abandon chasing its quarry until its quarry is caught.",
+  "nationalPokedexNumbers": [
+    57
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base6/59.png",
+    "large": "https://images.pokemontcg.io/base6/59_hires.png"
+  }
+}

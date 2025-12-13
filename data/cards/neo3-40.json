@@ -1,0 +1,75 @@
+{
+  "id": "neo3-40",
+  "name": "Unown [Y]",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "12",
+  "hp": "40",
+  "types": [
+    "Psychic"
+  ],
+  "rules": [
+    "You may have up to 4 Basic Pokémon cards in your deck with Unown in their names."
+  ],
+  "abilities": [
+    {
+      "name": "[Yield]",
+      "text": "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a Psychic Energy card and attach it to 1 of your Pokémon with Unown in its name. Shuffle your deck afterward. This power can be used even if Unown [Y] is Asleep, Confused, or Paralyzed.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hidden Power",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo3",
+    "name": "Neo Revelation",
+    "series": "Neo",
+    "printedTotal": 64,
+    "total": 66,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N3",
+    "releaseDate": "2001/09/21",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo3/logo.png"
+    }
+  },
+  "number": "40",
+  "artist": "CR CG gangs",
+  "rarity": "Uncommon",
+  "flavorText": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
+  "nationalPokedexNumbers": [
+    201
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo3/40.png",
+    "large": "https://images.pokemontcg.io/neo3/40_hires.png"
+  }
+}

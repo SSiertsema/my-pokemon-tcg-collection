@@ -1,0 +1,76 @@
+{
+  "id": "neo2-6",
+  "name": "Kabutops",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "42",
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Kabuto",
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Hydrocutter",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40×",
+      "text": "Flip a number of coins equal to the number of Energy cards attached to Kabutops. This attack does 40 damage times the number of heads. You can't flip more than 3 coins in this way."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "neo2",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "printedTotal": 75,
+    "total": 75,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N2",
+    "releaseDate": "2001/06/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo2/logo.png"
+    }
+  },
+  "number": "6",
+  "artist": "Kimiya Masago",
+  "rarity": "Rare Holo",
+  "flavorText": "In the water, it tucks its limbs to become more compact, then it wiggles its shell to swim fast.",
+  "nationalPokedexNumbers": [
+    141
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo2/6.png",
+    "large": "https://images.pokemontcg.io/neo2/6_hires.png"
+  }
+}

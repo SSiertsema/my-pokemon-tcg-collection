@@ -1,0 +1,86 @@
+{
+  "id": "bw8-85",
+  "name": "Scraggy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesTo": [
+    "Scrafty"
+  ],
+  "attacks": [
+    {
+      "name": "Headbutt",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Low Kick",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw8",
+    "name": "Plasma Storm",
+    "series": "Black & White",
+    "printedTotal": 135,
+    "total": 138,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLS",
+    "releaseDate": "2013/02/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw8/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw8/logo.png"
+    }
+  },
+  "number": "85",
+  "artist": "Kouki Saitou",
+  "rarity": "Common",
+  "flavorText": "Proud of its sturdy skull, it suddenly headbutts everything, but its weight makes it unstable, too.",
+  "nationalPokedexNumbers": [
+    559
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw8/85.png",
+    "large": "https://images.pokemontcg.io/bw8/85_hires.png"
+  }
+}

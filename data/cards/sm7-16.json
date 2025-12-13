@@ -1,0 +1,78 @@
+{
+  "id": "sm7-16",
+  "name": "Masquerain",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Surskit",
+  "attacks": [
+    {
+      "name": "Surprising Pattern",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Discard all Special Energy from each of your opponent's Pokémon."
+    },
+    {
+      "name": "Hurricane Wing",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40×",
+      "text": "Flip 4 coins. This attack does 40 damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm7",
+    "name": "Celestial Storm",
+    "series": "Sun & Moon",
+    "printedTotal": 168,
+    "total": 187,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CES",
+    "releaseDate": "2018/08/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm7/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "Yukiko Baba",
+  "rarity": "Uncommon",
+  "flavorText": "Its wings and antennae don't cope well with moisture. After a rain, it faces sunward to dry off.",
+  "nationalPokedexNumbers": [
+    284
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm7/16.png",
+    "large": "https://images.pokemontcg.io/sm7/16_hires.png"
+  }
+}

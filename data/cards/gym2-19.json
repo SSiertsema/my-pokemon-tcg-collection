@@ -1,0 +1,35 @@
+{
+  "id": "gym2-19",
+  "name": "Koga",
+  "supertype": "Trainer",
+  "rules": [
+    "If an attack from a Pokémon with Koga in its name does damage to a Defending Pokémon this turn, that Pokémon is then Poisoned."
+  ],
+  "set": {
+    "id": "gym2",
+    "name": "Gym Challenge",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G2",
+    "releaseDate": "2000/10/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym2/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym2/logo.png"
+    }
+  },
+  "number": "19",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare Holo",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym2/19.png",
+    "large": "https://images.pokemontcg.io/gym2/19_hires.png"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "sv5-152",
+  "name": "Hero's Cape",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Pokémon Tool",
+    "ACE SPEC"
+  ],
+  "rules": [
+    "The Pokémon this card is attached to gets +100 HP.",
+    "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached.",
+    "ACE SPEC: You can't have more than 1 ACE SPEC card in your deck."
+  ],
+  "set": {
+    "id": "sv5",
+    "name": "Temporal Forces",
+    "series": "Scarlet & Violet",
+    "printedTotal": 162,
+    "total": 218,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEF",
+    "releaseDate": "2024/03/22",
+    "updatedAt": "2024/03/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv5/logo.png"
+    }
+  },
+  "number": "152",
+  "artist": "Toyste Beach",
+  "rarity": "ACE SPEC Rare",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv5/152.png",
+    "large": "https://images.pokemontcg.io/sv5/152_hires.png"
+  }
+}

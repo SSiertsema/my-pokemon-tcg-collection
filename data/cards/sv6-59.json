@@ -1,0 +1,69 @@
+{
+  "id": "sv6-59",
+  "name": "Finizen",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Aqua Slash",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "During your next turn, this Pokémon can't attack."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv6",
+    "name": "Twilight Masquerade",
+    "series": "Scarlet & Violet",
+    "printedTotal": 167,
+    "total": 226,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TWM",
+    "releaseDate": "2024/05/24",
+    "updatedAt": "2024/05/23 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv6/logo.png"
+    }
+  },
+  "number": "59",
+  "artist": "Narumi Sato",
+  "rarity": "Common",
+  "flavorText": "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole.",
+  "nationalPokedexNumbers": [
+    963
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv6/59.png",
+    "large": "https://images.pokemontcg.io/sv6/59_hires.png"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "ecard2-13",
+  "name": "Exeggutor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Exeggcute",
+  "attacks": [
+    {
+      "name": "Big Eggsplosion",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "Flip a number of coins equal to the amount of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
+    },
+    {
+      "name": "Lateral Eggsplosion",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Flip a number of coins equal to the amount of Energy attached to all of of your Benched Pokémon. This attack does 30 damage plus 10 more damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ecard2",
+    "name": "Aquapolis",
+    "series": "E-Card",
+    "printedTotal": 147,
+    "total": 182,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AQ",
+    "releaseDate": "2003/01/15",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard2/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard2/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    103
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard2/13.png",
+    "large": "https://images.pokemontcg.io/ecard2/13_hires.png"
+  }
+}

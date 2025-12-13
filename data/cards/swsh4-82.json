@@ -1,0 +1,79 @@
+{
+  "id": "swsh4-82",
+  "name": "Zacian",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Metal Armament",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Attach a basic Energy card from your discard pile to this Pokémon."
+    },
+    {
+      "name": "Amazing Sword",
+      "cost": [
+        "Grass",
+        "Psychic",
+        "Metal"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "150+",
+      "text": "If your opponent has any Pokémon VMAX in play, this attack does 150 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh4",
+    "name": "Vivid Voltage",
+    "series": "Sword & Shield",
+    "printedTotal": 185,
+    "total": 203,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "VIV",
+    "releaseDate": "2020/11/13",
+    "updatedAt": "2020/11/13 16:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh4/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh4/logo.png"
+    }
+  },
+  "number": "82",
+  "artist": "Shin Nagasawa",
+  "rarity": "Amazing Rare",
+  "flavorText": "Now armed with a weapon it used in ancient times, this Pokémon needs only a single strike to fell even Gigantamax Pokémon.",
+  "nationalPokedexNumbers": [
+    888
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh4/82.png",
+    "large": "https://images.pokemontcg.io/swsh4/82_hires.png"
+  }
+}

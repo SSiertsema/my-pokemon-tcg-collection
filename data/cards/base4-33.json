@@ -1,0 +1,82 @@
+{
+  "id": "base4-33",
+  "name": "Arcanine",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "45",
+  "hp": "100",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Growlithe",
+  "attacks": [
+    {
+      "name": "Flamethrower",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Discard 1 Fire Energy card attached to Arcanine in order to use this attack."
+    },
+    {
+      "name": "Take Down",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": "Arcanine does 30 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "base4",
+    "name": "Base Set 2",
+    "series": "Base",
+    "printedTotal": 130,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "B2",
+    "releaseDate": "2000/02/24",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base4/symbol.png",
+      "logo": "https://images.pokemontcg.io/base4/logo.png"
+    }
+  },
+  "number": "33",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "flavorText": "A Pokémon that has been long admired for its beauty. It runs gracefully, as if on wings.",
+  "nationalPokedexNumbers": [
+    59
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base4/33.png",
+    "large": "https://images.pokemontcg.io/base4/33_hires.png"
+  }
+}

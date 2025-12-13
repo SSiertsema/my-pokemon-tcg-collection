@@ -1,0 +1,64 @@
+{
+  "id": "sv4pt5-195",
+  "name": "Cyclizar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Dragon"
+  ],
+  "attacks": [
+    {
+      "name": "Acceleration Drive",
+      "cost": [
+        "Grass",
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon."
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv4pt5",
+    "name": "Paldean Fates",
+    "series": "Scarlet & Violet",
+    "printedTotal": 91,
+    "total": 245,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2024/01/26",
+    "updatedAt": "2024/01/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4pt5/logo.png"
+    }
+  },
+  "number": "195",
+  "artist": "Souichirou Gunjima",
+  "rarity": "Shiny Rare",
+  "flavorText": "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+  "nationalPokedexNumbers": [
+    967
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4pt5/195.png",
+    "large": "https://images.pokemontcg.io/sv4pt5/195_hires.png"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "np-28",
+  "name": "Championship Arena",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",
+    "At the end of each player's turn, if that player has 8 or more cards in his or her hand, that player discards a number of cards until that player has 7 cards left in his or her hand."
+  ],
+  "set": {
+    "id": "np",
+    "name": "Nintendo Black Star Promos",
+    "series": "NP",
+    "printedTotal": 40,
+    "total": 40,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-NP",
+    "releaseDate": "2003/10/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/np/symbol.png",
+      "logo": "https://images.pokemontcg.io/np/logo.png"
+    }
+  },
+  "number": "28",
+  "artist": "Ryo Ueda",
+  "rarity": "Promo",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/np/28.png",
+    "large": "https://images.pokemontcg.io/np/28_hires.png"
+  }
+}

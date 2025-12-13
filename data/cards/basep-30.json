@@ -1,0 +1,78 @@
+{
+  "id": "basep-30",
+  "name": "Togepi",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "8",
+  "hp": "30",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Togetic"
+  ],
+  "attacks": [
+    {
+      "name": "Snivel",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "If the Defending Pokémon attacks Togepi during your opponent's next turn, any damage done to Togepi is reduced by 20 (before applying Weakness and Resistance). (Benching either Pokémon ends this effect.)"
+    },
+    {
+      "name": "Mini-Metronome",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Flip a coin. If heads, choose 1 of the Defending Pokémon's attacks. Mini-Metronome copies that attack except for its Energy cost. (You must still do anything else in order to use that attack.) (No matter what type the Defending Pokémon is, Togepi's type is still Colorless.) Togepi performs that attack."
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "basep",
+    "name": "Wizards Black Star Promos",
+    "series": "Base",
+    "printedTotal": 53,
+    "total": 53,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR",
+    "releaseDate": "1999/07/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/basep/symbol.png",
+      "logo": "https://images.pokemontcg.io/basep/logo.png"
+    }
+  },
+  "number": "30",
+  "artist": "Ken Sugimori",
+  "rarity": "Promo",
+  "flavorText": "Still only a hatchling, it uses poison to chase off its enemies when threatened.",
+  "nationalPokedexNumbers": [
+    175
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/basep/30.png",
+    "large": "https://images.pokemontcg.io/basep/30_hires.png"
+  }
+}

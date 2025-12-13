@@ -1,0 +1,77 @@
+{
+  "id": "neo2-62",
+  "name": "Poliwag",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "14",
+  "hp": "40",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Poliwhirl"
+  ],
+  "attacks": [
+    {
+      "name": "Rollout",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Hypnosis",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo2",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "printedTotal": 75,
+    "total": 75,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N2",
+    "releaseDate": "2001/06/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo2/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "Aya Kusube",
+  "rarity": "Common",
+  "flavorText": "Because it is inept at walking on its newly grown legs, it always swims around in water.",
+  "nationalPokedexNumbers": [
+    60
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo2/62.png",
+    "large": "https://images.pokemontcg.io/neo2/62_hires.png"
+  }
+}

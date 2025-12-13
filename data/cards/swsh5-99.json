@@ -1,0 +1,94 @@
+{
+  "id": "swsh5-99",
+  "name": "Steelix",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "190",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Onix",
+  "attacks": [
+    {
+      "name": "Steel Swing",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80×",
+      "text": "Flip 2 coins. This attack does 80 damage for each heads."
+    },
+    {
+      "name": "Heavy Impact",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 5,
+      "damage": "200",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "swsh5",
+    "name": "Battle Styles",
+    "series": "Sword & Shield",
+    "printedTotal": 163,
+    "total": 183,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BST",
+    "releaseDate": "2021/03/19",
+    "updatedAt": "2021/03/19 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh5/logo.png"
+    }
+  },
+  "number": "99",
+  "artist": "NC Empire",
+  "rarity": "Rare Holo",
+  "flavorText": "It is thought its body transformed as a result of iron accumulating internally from swallowing soil.",
+  "nationalPokedexNumbers": [
+    208
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh5/99.png",
+    "large": "https://images.pokemontcg.io/swsh5/99_hires.png"
+  }
+}

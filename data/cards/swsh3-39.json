@@ -1,0 +1,78 @@
+{
+  "id": "swsh3-39",
+  "name": "Milotic",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Feebas",
+  "abilities": [
+    {
+      "name": "Bright Heal",
+      "text": "Once during your turn, you may heal 20 damage from each of your Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Surf",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh3",
+    "name": "Darkness Ablaze",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 201,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DAA",
+    "releaseDate": "2020/08/14",
+    "updatedAt": "2020/10/25 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh3/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh3/logo.png"
+    }
+  },
+  "number": "39",
+  "artist": "AKIRA EGAWA",
+  "rarity": "Rare Holo",
+  "flavorText": "Milotic has provided inspiration to many artists. It has even been referred to as the most beautiful Pokémon of all.",
+  "nationalPokedexNumbers": [
+    350
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh3/39.png",
+    "large": "https://images.pokemontcg.io/swsh3/39_hires.png"
+  }
+}

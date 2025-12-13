@@ -1,0 +1,79 @@
+{
+  "id": "swsh3-57",
+  "name": "Ampharos",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "150",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Flaaffy",
+  "attacks": [
+    {
+      "name": "Dazzle Blast",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "50",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    },
+    {
+      "name": "Electric Ball",
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "130",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh3",
+    "name": "Darkness Ablaze",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 201,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DAA",
+    "releaseDate": "2020/08/14",
+    "updatedAt": "2020/10/25 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh3/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh3/logo.png"
+    }
+  },
+  "number": "57",
+  "artist": "kodama",
+  "rarity": "Rare",
+  "flavorText": "Its tail shines bright and strong. It has been prized since long ago as a beacon for sailors.",
+  "nationalPokedexNumbers": [
+    181
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh3/57.png",
+    "large": "https://images.pokemontcg.io/swsh3/57_hires.png"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "swshp-SWSH025",
+  "name": "Garbodor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Trubbish",
+  "abilities": [
+    {
+      "name": "Poisonous Puddle",
+      "text": "Once during your turn, if a Stadium is in play, you may make your opponent's Active Pokémon Poisoned.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sludge Bomb",
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH025",
+  "artist": "tetsuya koizumi",
+  "rarity": "Promo",
+  "flavorText": "This Pokémon eats trash, which turns into poison inside its body. The main component of the poison depends on what sort of trash was eaten.",
+  "nationalPokedexNumbers": [
+    569
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH025.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH025_hires.png"
+  }
+}

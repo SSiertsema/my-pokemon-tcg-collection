@@ -1,0 +1,86 @@
+{
+  "id": "xy7-51",
+  "name": "Registeel",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Metal"
+  ],
+  "attacks": [
+    {
+      "name": "Iron Head",
+      "cost": [
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30×",
+      "text": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+    },
+    {
+      "name": "Forbidden Iron Hammer",
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "If your opponent's Active Pokémon is a Pokémon-EX, discard an Energy attached to that Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy7",
+    "name": "Ancient Origins",
+    "series": "XY",
+    "printedTotal": 98,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "AOR",
+    "releaseDate": "2015/08/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy7/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy7/logo.png"
+    }
+  },
+  "number": "51",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "flavorText": "Its body is said to be harder than any kind of metal. A study has revealed that its body is hollow.",
+  "nationalPokedexNumbers": [
+    379
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy7/51.png",
+    "large": "https://images.pokemontcg.io/xy7/51_hires.png"
+  }
+}

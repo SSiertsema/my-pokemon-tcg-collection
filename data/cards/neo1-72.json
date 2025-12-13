@@ -1,0 +1,75 @@
+{
+  "id": "neo1-72",
+  "name": "Shuckle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "32",
+  "hp": "50",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "name": "Withdraw",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, prevent all damage done to Shuckle during your opponent's next turn. (Any other effects of attacks still happen.)"
+    },
+    {
+      "name": "Wrap",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo1",
+    "name": "Neo Genesis",
+    "series": "Neo",
+    "printedTotal": 111,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N1",
+    "releaseDate": "2000/12/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo1/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo1/logo.png"
+    }
+  },
+  "number": "72",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "The Berries it stores in its vaselike shell decompose and become a gooey liquid.",
+  "nationalPokedexNumbers": [
+    213
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo1/72.png",
+    "large": "https://images.pokemontcg.io/neo1/72_hires.png"
+  }
+}

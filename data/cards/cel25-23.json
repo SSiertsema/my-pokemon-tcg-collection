@@ -1,0 +1,44 @@
+{
+  "id": "cel25-23",
+  "name": "Professor's Research (Professor Oak)",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Discard your hand and draw 7 cards.",
+    "You may play only 1 Supporter card during your turn."
+  ],
+  "set": {
+    "id": "cel25",
+    "name": "Celebrations",
+    "series": "Sword & Shield",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEL",
+    "releaseDate": "2021/10/08",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/cel25/symbol.png",
+      "logo": "https://images.pokemontcg.io/cel25/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "KIYOTAKA OSHIYAMA",
+  "rarity": "Rare Holo",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/cel25/23.png",
+    "large": "https://images.pokemontcg.io/cel25/23_hires.png"
+  }
+}

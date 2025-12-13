@@ -1,0 +1,79 @@
+{
+  "id": "ex8-23",
+  "name": "Sableye",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Darkness"
+  ],
+  "abilities": [
+    {
+      "name": "Night Vision",
+      "text": "Once during your turn (before your attack), if Sableye is your Active Pokémon, you may look at your opponent's hand. This power can't be used if Sableye is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Limitation",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent can't play any Supporter Cards from his or her hand during your opponent's next turn."
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Colorless",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex8",
+    "name": "Deoxys",
+    "series": "EX",
+    "printedTotal": 107,
+    "total": 108,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DX",
+    "releaseDate": "2005/02/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex8/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex8/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Aya Kusube",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    302
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex8/23.png",
+    "large": "https://images.pokemontcg.io/ex8/23_hires.png"
+  }
+}

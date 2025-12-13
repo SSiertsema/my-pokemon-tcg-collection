@@ -1,0 +1,60 @@
+{
+  "id": "xyp-XY134",
+  "name": "Empoleon BREAK",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "BREAK"
+  ],
+  "hp": "170",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Empoleon",
+  "rules": [
+    "BREAK Evolution Rule: Empoleon BREAK retains the attacks, Abilities, Weakness, Resistance, and Retreat Cost of its previous Evolution."
+  ],
+  "attacks": [
+    {
+      "name": "Emperor's Command",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30×",
+      "text": "This attack does 30 damage times the number of Pokémon your opponent has in play."
+    }
+  ],
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY134",
+  "artist": "5ban Graphics",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    395
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY134.png",
+    "large": "https://images.pokemontcg.io/xyp/XY134_hires.png"
+  }
+}

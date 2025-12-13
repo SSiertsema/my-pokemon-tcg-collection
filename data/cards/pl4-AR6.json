@@ -1,0 +1,75 @@
+{
+  "id": "pl4-AR6",
+  "name": "Arceus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "100",
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "rules": [
+    "You may have as many of this card in your deck as you like."
+  ],
+  "attacks": [
+    {
+      "name": "Lightning Turn",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Switch Arceus with 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl4",
+    "name": "Arceus",
+    "series": "Platinum",
+    "printedTotal": 99,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AR",
+    "releaseDate": "2009/11/04",
+    "updatedAt": "2021/07/15 11:30:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl4/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl4/logo.png"
+    }
+  },
+  "number": "AR6",
+  "artist": "Wataru Kawahara",
+  "rarity": "Rare",
+  "flavorText": "It is described in mythology as the Pokémon that shaped the universe with its 1,000 arms.",
+  "nationalPokedexNumbers": [
+    493
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl4/AR6.png",
+    "large": "https://images.pokemontcg.io/pl4/AR6_hires.png"
+  }
+}

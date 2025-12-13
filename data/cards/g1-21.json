@@ -1,0 +1,81 @@
+{
+  "id": "g1-21",
+  "name": "Krabby",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Kingler"
+  ],
+  "attacks": [
+    {
+      "name": "Vice Grip",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Crabhammer",
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "g1",
+    "name": "Generations",
+    "series": "XY",
+    "printedTotal": 83,
+    "total": 117,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "GEN",
+    "releaseDate": "2016/02/22",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/g1/symbol.png",
+      "logo": "https://images.pokemontcg.io/g1/logo.png"
+    }
+  },
+  "number": "21",
+  "artist": "kirisAki",
+  "rarity": "Common",
+  "flavorText": "If it senses danger approaching, it cloaks itself with bubbles from its mouth so it will look bigger.",
+  "nationalPokedexNumbers": [
+    98
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/g1/21.png",
+    "large": "https://images.pokemontcg.io/g1/21_hires.png"
+  }
+}

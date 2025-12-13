@@ -1,0 +1,72 @@
+{
+  "id": "dp4-85",
+  "name": "Solrock",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "29",
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "abilities": [
+    {
+      "name": "Sunlight",
+      "text": "If you have Lunatone in play, damage done to your opponent's Pokémon by your Psychic or Fighting Pokémon isn't affected by resistance.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sol Charge",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Search your discard pile for a basic Energy card and attach it to 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp4",
+    "name": "Great Encounters",
+    "series": "Diamond & Pearl",
+    "printedTotal": 106,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "GE",
+    "releaseDate": "2008/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp4/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp4/logo.png"
+    }
+  },
+  "number": "85",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "A new Pokémon species, rumored to be from the sun. It gives off light while spinning.",
+  "nationalPokedexNumbers": [
+    338
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp4/85.png",
+    "large": "https://images.pokemontcg.io/dp4/85_hires.png"
+  }
+}

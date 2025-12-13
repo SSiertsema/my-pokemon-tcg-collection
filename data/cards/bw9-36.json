@@ -1,0 +1,79 @@
+{
+  "id": "bw9-36",
+  "name": "Lanturn",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Chinchou",
+  "attacks": [
+    {
+      "name": "Special Tackle",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30+",
+      "text": "If this Pokémon has any Special Energy attached to it, this attack does 30 more damage."
+    },
+    {
+      "name": "Extreme Current",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": "Discard an Energy attached to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Mizue",
+  "rarity": "Uncommon",
+  "flavorText": "Lanturn's light can shine up from great depths. It is nicknamed \"The Deep-Sea Star.\"",
+  "nationalPokedexNumbers": [
+    171
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/36.png",
+    "large": "https://images.pokemontcg.io/bw9/36_hires.png"
+  }
+}

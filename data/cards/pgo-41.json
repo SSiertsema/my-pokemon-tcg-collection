@@ -1,0 +1,73 @@
+{
+  "id": "pgo-41",
+  "name": "Alolan Rattata",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesTo": [
+    "Raticate"
+  ],
+  "attacks": [
+    {
+      "name": "Hyper Fang",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pgo",
+    "name": "Pokémon GO",
+    "series": "Sword & Shield",
+    "printedTotal": 78,
+    "total": 88,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PGO",
+    "releaseDate": "2022/07/01",
+    "updatedAt": "2022/07/06 17:07:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pgo/symbol.png",
+      "logo": "https://images.pokemontcg.io/pgo/logo.png"
+    }
+  },
+  "number": "41",
+  "artist": "KIYOTAKA OSHIYAMA",
+  "rarity": "Common",
+  "flavorText": "Night after night, they sneak into people's homes seeking food. A massive outbreak of them has become an issue of public concern.",
+  "nationalPokedexNumbers": [
+    19
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/pgo/41.png",
+    "large": "https://images.pokemontcg.io/pgo/41_hires.png"
+  }
+}

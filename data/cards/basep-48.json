@@ -1,0 +1,76 @@
+{
+  "id": "basep-48",
+  "name": "Articuno",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "34",
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "abilities": [
+    {
+      "name": "Aurora Veil",
+      "text": "As long as Articuno is your Active Pokémon, your Benched Pokémon do not take damage from and are not affected by attacks. This power cannot be used if Articuno is affected by a Special Condition.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Ice Beam",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "30",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "basep",
+    "name": "Wizards Black Star Promos",
+    "series": "Base",
+    "printedTotal": 53,
+    "total": 53,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR",
+    "releaseDate": "1999/07/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/basep/symbol.png",
+      "logo": "https://images.pokemontcg.io/basep/logo.png"
+    }
+  },
+  "number": "48",
+  "artist": "Atsuko Nishida",
+  "rarity": "Promo",
+  "flavorText": "A legendary bird Pokémon that is said to appear to doomed people who are lost in icy mountains.",
+  "nationalPokedexNumbers": [
+    144
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/basep/48.png",
+    "large": "https://images.pokemontcg.io/basep/48_hires.png"
+  }
+}

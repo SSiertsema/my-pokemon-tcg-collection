@@ -1,0 +1,82 @@
+{
+  "id": "sm11-95",
+  "name": "Aegislash",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Doublade",
+  "abilities": [
+    {
+      "name": "Durable Blade",
+      "text": "If this Pokémon is Knocked Out by damage from an opponent's attack, put it into your hand instead of the discard pile. (Discard all cards attached to it.)",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Trash Slash",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10×",
+      "text": "This attack does 10 damage for each Item card in your discard pile. You can't do more than 130 damage in this way."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "95",
+  "artist": "Eske Yoshinob",
+  "rarity": "Rare Holo",
+  "flavorText": "Generations of kings were attended by these Pokémon, which used their spectral power to manipulate and control people and Pokémon.",
+  "nationalPokedexNumbers": [
+    681
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/95.png",
+    "large": "https://images.pokemontcg.io/sm11/95_hires.png"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "swsh11-214",
+  "name": "Box of Disaster",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item",
+    "Pokémon Tool"
+  ],
+  "rules": [
+    "If the Pokémon V this card is attached to has full HP and is Knocked Out by damage from an attack from your opponent's Pokémon, put 8 damage counters on the Attacking Pokémon.",
+    "You may play any number of Item cards during your turn.",
+    "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached."
+  ],
+  "set": {
+    "id": "swsh11",
+    "name": "Lost Origin",
+    "series": "Sword & Shield",
+    "printedTotal": 196,
+    "total": 217,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOR",
+    "releaseDate": "2022/09/09",
+    "updatedAt": "2022/09/09 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh11/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh11/logo.png"
+    }
+  },
+  "number": "214",
+  "artist": "Toyste Beach",
+  "rarity": "Rare Secret",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh11/214.png",
+    "large": "https://images.pokemontcg.io/swsh11/214_hires.png"
+  }
+}

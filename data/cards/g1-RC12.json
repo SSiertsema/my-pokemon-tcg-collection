@@ -1,0 +1,71 @@
+{
+  "id": "g1-RC12",
+  "name": "Gulpin",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Swalot"
+  ],
+  "attacks": [
+    {
+      "name": "Starvin'",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "g1",
+    "name": "Generations",
+    "series": "XY",
+    "printedTotal": 83,
+    "total": 117,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "GEN",
+    "releaseDate": "2016/02/22",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/g1/symbol.png",
+      "logo": "https://images.pokemontcg.io/g1/logo.png"
+    }
+  },
+  "number": "RC12",
+  "artist": "Tomokazu Komiya",
+  "rarity": "Common",
+  "flavorText": "When Mom gets in the kitchen, the happiest things happen. I can feel my mouth watering!",
+  "nationalPokedexNumbers": [
+    316
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/g1/RC12.png",
+    "large": "https://images.pokemontcg.io/g1/RC12_hires.png"
+  }
+}

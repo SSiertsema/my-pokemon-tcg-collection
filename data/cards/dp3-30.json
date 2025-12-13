@@ -1,0 +1,77 @@
+{
+  "id": "dp3-30",
+  "name": "Jynx",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "30",
+  "hp": "70",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Icy Kiss",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "If Jynx was damaged by an attack during your opponent's last turn, the Defending Pokémon is now Paralyzed."
+    },
+    {
+      "name": "Lovely Kiss",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Move 2 damage counters from Jynx to the Defending Pokémon. If Smoochum is anywhere under Jynx, move 4 damage counters instead."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "30",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "It cries sound like human speech. However, it is impossible to tell what it is trying to say.",
+  "nationalPokedexNumbers": [
+    124
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/30.png",
+    "large": "https://images.pokemontcg.io/dp3/30_hires.png"
+  }
+}

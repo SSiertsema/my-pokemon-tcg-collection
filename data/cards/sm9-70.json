@@ -1,0 +1,73 @@
+{
+  "id": "sm9-70",
+  "name": "Cosmoem",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Cosmog",
+  "evolvesTo": [
+    "Solgaleo",
+    "Lunala"
+  ],
+  "attacks": [
+    {
+      "name": "Nap",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 20 damage from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm9",
+    "name": "Team Up",
+    "series": "Sun & Moon",
+    "printedTotal": 181,
+    "total": 198,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEU",
+    "releaseDate": "2019/02/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm9/logo.png"
+    }
+  },
+  "number": "70",
+  "artist": "Kouki Saitou",
+  "rarity": "Uncommon",
+  "flavorText": "There's something accumulating around the black core within its hard shell. People think this Pokémon may come from another world.",
+  "nationalPokedexNumbers": [
+    790
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm9/70.png",
+    "large": "https://images.pokemontcg.io/sm9/70_hires.png"
+  }
+}

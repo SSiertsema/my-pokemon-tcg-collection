@@ -1,0 +1,73 @@
+{
+  "id": "ex8-11",
+  "name": "Metagross",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "100",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Metang",
+  "abilities": [
+    {
+      "name": "Super Connectivity",
+      "text": "Once during your turn (before your attack), you may search your discard pile for a Psychic or Metal Energy card and attach it to your Active Pokémon. Then, put 1 damage counter on that Pokémon. This power can't be used if Metagross is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Link Blast",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70",
+      "text": "If Metagross and the Defending Pokémon have a different amount of Energy attached to them, this attack's base damage is 40 instead of 70."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex8",
+    "name": "Deoxys",
+    "series": "EX",
+    "printedTotal": 107,
+    "total": 108,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DX",
+    "releaseDate": "2005/02/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex8/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex8/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Hisao Nakamura",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    376
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex8/11.png",
+    "large": "https://images.pokemontcg.io/ex8/11_hires.png"
+  }
+}

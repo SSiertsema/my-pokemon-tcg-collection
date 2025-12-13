@@ -1,0 +1,77 @@
+{
+  "id": "swsh11-133",
+  "name": "Hisuian Sliggoo",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Goomy",
+  "evolvesTo": [
+    "Goodra"
+  ],
+  "attacks": [
+    {
+      "name": "Rigidify",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "During your opponent's next turn, this Pokémon takes 50 less damage from attacks (after applying Weakness and Resistance)."
+    },
+    {
+      "name": "Gentle Slap",
+      "cost": [
+        "Water",
+        "Metal"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": ""
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh11",
+    "name": "Lost Origin",
+    "series": "Sword & Shield",
+    "printedTotal": 196,
+    "total": 217,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOR",
+    "releaseDate": "2022/09/09",
+    "updatedAt": "2022/09/09 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh11/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh11/logo.png"
+    }
+  },
+  "number": "133",
+  "artist": "Kouki Saitou",
+  "rarity": "Uncommon",
+  "flavorText": "A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.",
+  "nationalPokedexNumbers": [
+    705
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh11/133.png",
+    "large": "https://images.pokemontcg.io/swsh11/133_hires.png"
+  }
+}

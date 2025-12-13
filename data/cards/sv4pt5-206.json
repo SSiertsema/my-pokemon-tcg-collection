@@ -1,0 +1,82 @@
+{
+  "id": "sv4pt5-206",
+  "name": "Greedent",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Skwovet",
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": ""
+    },
+    {
+      "name": "Enhanced Fang",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80+",
+      "text": "If this Pokémon has a Pokémon Tool attached, this attack does 80 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv4pt5",
+    "name": "Paldean Fates",
+    "series": "Scarlet & Violet",
+    "printedTotal": 91,
+    "total": 245,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2024/01/26",
+    "updatedAt": "2024/01/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4pt5/logo.png"
+    }
+  },
+  "number": "206",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Shiny Rare",
+  "flavorText": "This Pokémon makes off with heaps of fallen berries by wrapping them in its tail, which is roughly twice the length of its body.",
+  "nationalPokedexNumbers": [
+    820
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4pt5/206.png",
+    "large": "https://images.pokemontcg.io/sv4pt5/206_hires.png"
+  }
+}

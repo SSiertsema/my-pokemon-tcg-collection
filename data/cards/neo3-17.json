@@ -1,0 +1,70 @@
+{
+  "id": "neo3-17",
+  "name": "Entei",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "24",
+  "hp": "60",
+  "types": [
+    "Fire"
+  ],
+  "abilities": [
+    {
+      "name": "Legendary Body",
+      "text": "As long as Entei is your Active Pokémon, Entei and Energy cards attached to it aren't affected by effects from Trainer cards other than Stadium cards. As long as this Power is active, discard any Trainer cards attached to Entei. (This power works even if Entei is Asleep, Confused, or Paralyzed.)",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mega Flame",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Flip 2 coins. For each tails, discard 1 Fire Energy card from Entei, if it has any."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "neo3",
+    "name": "Neo Revelation",
+    "series": "Neo",
+    "printedTotal": 64,
+    "total": 66,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N3",
+    "releaseDate": "2001/09/21",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo3/logo.png"
+    }
+  },
+  "number": "17",
+  "artist": "Naoyo Kimura",
+  "rarity": "Rare",
+  "flavorText": "A Pokémon that races across the land. It is said that one is born every time a new volcano appears.",
+  "nationalPokedexNumbers": [
+    244
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo3/17.png",
+    "large": "https://images.pokemontcg.io/neo3/17_hires.png"
+  }
+}

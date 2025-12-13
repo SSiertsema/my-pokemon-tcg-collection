@@ -1,0 +1,84 @@
+{
+  "id": "dp3-117",
+  "name": "Voltorb",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "29",
+  "hp": "50",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Electrode"
+  ],
+  "attacks": [
+    {
+      "name": "Speed Ball",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Big Explosion",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Voltorb does 50 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+10"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "117",
+  "artist": "Satoshi Ohta",
+  "rarity": "Common",
+  "flavorText": "It looks just like a Poké Ball. It is dangerous because it may electrocute or explode on touch.",
+  "nationalPokedexNumbers": [
+    100
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/117.png",
+    "large": "https://images.pokemontcg.io/dp3/117_hires.png"
+  }
+}

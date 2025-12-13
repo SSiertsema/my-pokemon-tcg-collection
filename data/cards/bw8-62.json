@@ -1,0 +1,83 @@
+{
+  "id": "bw8-62",
+  "name": "Giratina",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Team Plasma"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Hex",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50+",
+      "text": "If the Defending Pokémon is affected by a Special Condition, this attack does 50 more damage."
+    },
+    {
+      "name": "Shadow Claw",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "90",
+      "text": "Discard a random card from your opponent's hand."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw8",
+    "name": "Plasma Storm",
+    "series": "Black & White",
+    "printedTotal": 135,
+    "total": 138,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLS",
+    "releaseDate": "2013/02/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw8/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw8/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "5ban Graphics",
+  "rarity": "Rare",
+  "flavorText": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+  "nationalPokedexNumbers": [
+    487
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw8/62.png",
+    "large": "https://images.pokemontcg.io/bw8/62_hires.png"
+  }
+}

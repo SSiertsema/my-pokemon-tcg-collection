@@ -1,0 +1,79 @@
+{
+  "id": "pl3-55",
+  "name": "Cherrim",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "29",
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Cherubi",
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Petal Dance",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30×",
+      "text": "Flip 3 coins. This attack does 30 damage times the number of heads. Cherrim is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "55",
+  "artist": "Saya Tsuruta",
+  "rarity": "Uncommon",
+  "flavorText": "If it senses strong sunlight, it opens its folded petals to absorb the sun's rays with its whole body.",
+  "nationalPokedexNumbers": [
+    421
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/55.png",
+    "large": "https://images.pokemontcg.io/pl3/55_hires.png"
+  }
+}

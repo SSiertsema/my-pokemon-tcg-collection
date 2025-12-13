@@ -1,0 +1,71 @@
+{
+  "id": "xy6-68",
+  "name": "Dunsparce",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Burrow",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Discard the top card of your opponent's deck."
+    },
+    {
+      "name": "Rollout",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "xy6",
+    "name": "Roaring Skies",
+    "series": "XY",
+    "printedTotal": 108,
+    "total": 112,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ROS",
+    "releaseDate": "2015/05/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy6/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy6/logo.png"
+    }
+  },
+  "number": "68",
+  "artist": "Yuka Morii",
+  "rarity": "Common",
+  "flavorText": "It digs into the ground with its tail and makes a mazelike nest. It can fly just a little.",
+  "nationalPokedexNumbers": [
+    206
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy6/68.png",
+    "large": "https://images.pokemontcg.io/xy6/68_hires.png"
+  }
+}

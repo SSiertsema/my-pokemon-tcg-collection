@@ -1,0 +1,91 @@
+{
+  "id": "base6-35",
+  "name": "Rhydon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "48",
+  "hp": "100",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Rhyhorn",
+  "evolvesTo": [
+    "Rhyperior"
+  ],
+  "attacks": [
+    {
+      "name": "Horn Attack",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Ram",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "50",
+      "text": "Rhydon does 20 damage to itself. Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon. Switch the Pokémon even if Rhydon is Knocked Out.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "base6",
+    "name": "Legendary Collection",
+    "series": "Other",
+    "printedTotal": 110,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LC",
+    "releaseDate": "2002/05/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base6/symbol.png",
+      "logo": "https://images.pokemontcg.io/base6/logo.png"
+    }
+  },
+  "number": "35",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "Protected by an armor-like hide, it is capable of living in molten lava of 3600 degrees.",
+  "nationalPokedexNumbers": [
+    112
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base6/35.png",
+    "large": "https://images.pokemontcg.io/base6/35_hires.png"
+  }
+}

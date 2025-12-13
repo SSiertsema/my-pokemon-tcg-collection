@@ -1,0 +1,70 @@
+{
+  "id": "xy6-11",
+  "name": "Shedinja",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "30",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Nincada",
+  "attacks": [
+    {
+      "name": "Cursed Rain",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Put 1 damage counter on each of your opponent's Pokémon. Switch this Pokémon with 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Hopeless Scream",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "50×",
+      "text": "This attack does 50 damage times the number of damage counters on this Pokémon."
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy6",
+    "name": "Roaring Skies",
+    "series": "XY",
+    "printedTotal": 108,
+    "total": 112,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ROS",
+    "releaseDate": "2015/05/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy6/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy6/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Aya Kusube",
+  "rarity": "Rare",
+  "flavorText": "A most peculiar Pokémon that somehow appears in a Poké Ball when a Nincada evolves.",
+  "nationalPokedexNumbers": [
+    292
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy6/11.png",
+    "large": "https://images.pokemontcg.io/xy6/11_hires.png"
+  }
+}

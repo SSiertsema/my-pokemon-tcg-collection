@@ -1,0 +1,79 @@
+{
+  "id": "bw8-46",
+  "name": "Magnezone",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "Team Plasma"
+  ],
+  "hp": "140",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Magneton",
+  "abilities": [
+    {
+      "name": "Dual Brains",
+      "text": "During your turn, you may play 2 Supporter cards.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Gyro Ball",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "Switch this Pokémon with 1 of your Benched Pokémon. Then, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw8",
+    "name": "Plasma Storm",
+    "series": "Black & White",
+    "printedTotal": 135,
+    "total": 138,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLS",
+    "releaseDate": "2013/02/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw8/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw8/logo.png"
+    }
+  },
+  "number": "46",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo",
+  "flavorText": "Sometimes the magnetism emitted by Magnezone is too strong, making them attract each other so they cannot move.",
+  "nationalPokedexNumbers": [
+    462
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw8/46.png",
+    "large": "https://images.pokemontcg.io/bw8/46_hires.png"
+  }
+}

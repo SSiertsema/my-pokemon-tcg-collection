@@ -1,0 +1,92 @@
+{
+  "id": "sv3-96",
+  "name": "Vespiquen ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "ex",
+    "Tera"
+  ],
+  "hp": "270",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Combee",
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  ],
+  "attacks": [
+    {
+      "name": "Healing Pheromone",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 60 damage from 1 of your Pokémon."
+    },
+    {
+      "name": "Phantom Queen",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "200",
+      "text": "Put 3 damage counters on each of your opponent's Benched Pokémon that has any damage counters on it."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv3",
+    "name": "Obsidian Flames",
+    "series": "Scarlet & Violet",
+    "printedTotal": 197,
+    "total": 230,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/08/11",
+    "updatedAt": "2023/08/11 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3/logo.png"
+    }
+  },
+  "number": "96",
+  "artist": "5ban Graphics",
+  "rarity": "Double Rare",
+  "nationalPokedexNumbers": [
+    416
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3/96.png",
+    "large": "https://images.pokemontcg.io/sv3/96_hires.png"
+  }
+}

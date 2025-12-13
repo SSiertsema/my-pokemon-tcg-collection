@@ -1,0 +1,79 @@
+{
+  "id": "xy11-11",
+  "name": "Shiftry",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Grass",
+    "Darkness"
+  ],
+  "evolvesFrom": "Nuzleaf",
+  "attacks": [
+    {
+      "name": "Wicked Wind",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": "Until the end of your opponent's next turn, each Stadium or Pokémon Tool card in play has no effect. (This includes cards that come into play on that turn.)"
+    },
+    {
+      "name": "Extrasensory",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60+",
+      "text": "If you have the same number of cards in your hand as your opponent, this attack does 60 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy11",
+    "name": "Steam Siege",
+    "series": "XY",
+    "printedTotal": 114,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "STS",
+    "releaseDate": "2016/08/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy11/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy11/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare Holo",
+  "flavorText": "By flapping its leafy fan, it can whip up gusts of 100 ft/second that can level houses.",
+  "nationalPokedexNumbers": [
+    275
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy11/11.png",
+    "large": "https://images.pokemontcg.io/xy11/11_hires.png"
+  }
+}

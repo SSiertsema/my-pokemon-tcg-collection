@@ -1,0 +1,68 @@
+{
+  "id": "base4-95",
+  "name": "Staryu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "15",
+  "hp": "40",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Starmie"
+  ],
+  "attacks": [
+    {
+      "name": "Slap",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base4",
+    "name": "Base Set 2",
+    "series": "Base",
+    "printedTotal": 130,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "B2",
+    "releaseDate": "2000/02/24",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base4/symbol.png",
+      "logo": "https://images.pokemontcg.io/base4/logo.png"
+    }
+  },
+  "number": "95",
+  "artist": "Keiji Kinebuchi",
+  "rarity": "Common",
+  "flavorText": "An enigmatic Pokémon that can effortlessly regenerate any appendage it loses in battle.",
+  "nationalPokedexNumbers": [
+    120
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base4/95.png",
+    "large": "https://images.pokemontcg.io/base4/95_hires.png"
+  }
+}

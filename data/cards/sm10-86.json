@@ -1,0 +1,67 @@
+{
+  "id": "sm10-86",
+  "name": "Dugtrio",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Diglett",
+  "attacks": [
+    {
+      "name": "Home Ground",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30+",
+      "text": "If you have any Stadium card in play, this attack does 60 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm10",
+    "name": "Unbroken Bonds",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 234,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNB",
+    "releaseDate": "2019/05/03",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm10/logo.png"
+    }
+  },
+  "number": "86",
+  "artist": "Akira Komayama",
+  "rarity": "Rare",
+  "flavorText": "While the three of them normally get along splendidly, on rare occasions a huge fight will break out over which head gets to eat first.",
+  "nationalPokedexNumbers": [
+    51
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm10/86.png",
+    "large": "https://images.pokemontcg.io/sm10/86_hires.png"
+  }
+}

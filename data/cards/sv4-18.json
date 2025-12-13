@@ -1,0 +1,82 @@
+{
+  "id": "sv4-18",
+  "name": "Wo-Chien",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "name": "Leaf Bringer",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Attach up to 2 Basic Grass Energy cards from your discard pile to 1 of your Pokémon."
+    },
+    {
+      "name": "Binding Greed",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "140",
+      "text": "During your opponent's next turn, attacks used by the Defending Pokémon cost ColorlessColorless more."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 266,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/11/03",
+    "updatedAt": "2023/11/03 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4/logo.png"
+    }
+  },
+  "number": "18",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "flavorText": "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren.",
+  "nationalPokedexNumbers": [
+    1001
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4/18.png",
+    "large": "https://images.pokemontcg.io/sv4/18_hires.png"
+  }
+}

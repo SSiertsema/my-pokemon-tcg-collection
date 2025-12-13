@@ -1,0 +1,82 @@
+{
+  "id": "sm5-45",
+  "name": "Shinx",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Luxio"
+  ],
+  "abilities": [
+    {
+      "name": "Evolutionary Advantage",
+      "text": "If you go second, this Pokémon can evolve during your first turn.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Static Shock",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "45",
+  "artist": "Shibuzoh.",
+  "rarity": "Common",
+  "flavorText": "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+  "nationalPokedexNumbers": [
+    403
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/45.png",
+    "large": "https://images.pokemontcg.io/sm5/45_hires.png"
+  }
+}

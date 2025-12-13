@@ -1,0 +1,70 @@
+{
+  "id": "sm75-34",
+  "name": "Dratini",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesTo": [
+    "Dragonair"
+  ],
+  "attacks": [
+    {
+      "name": "Wrap",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fairy",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm75",
+    "name": "Dragon Majesty",
+    "series": "Sun & Moon",
+    "printedTotal": 70,
+    "total": 80,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRM",
+    "releaseDate": "2018/09/07",
+    "updatedAt": "2018/10/01 21:54:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm75/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm75/logo.png"
+    }
+  },
+  "number": "34",
+  "artist": "Ayaka Yoshida",
+  "rarity": "Common",
+  "flavorText": "After a 10-hour struggle, a fisherman was able to pull one up and confirm its existence.",
+  "nationalPokedexNumbers": [
+    147
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm75/34.png",
+    "large": "https://images.pokemontcg.io/sm75/34_hires.png"
+  }
+}

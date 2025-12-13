@@ -1,0 +1,80 @@
+{
+  "id": "sm2-51a",
+  "name": "Garbodor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Trubbish",
+  "attacks": [
+    {
+      "name": "Trashalanche",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "This attack does 20 damage for each Item card in your opponent's discard pile."
+    },
+    {
+      "name": "Acid Spray",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "Flip a coin. If heads, discard an Energy from your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm2",
+    "name": "Guardians Rising",
+    "series": "Sun & Moon",
+    "printedTotal": 145,
+    "total": 180,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "GRI",
+    "releaseDate": "2017/05/05",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm2/logo.png"
+    }
+  },
+  "number": "51a",
+  "artist": "nagimiso",
+  "rarity": "Rare",
+  "flavorText": "Beware the poisonous liquid it shoots from its right arm. If even a little of it gets on you, you'll experience the effects of the unidentified toxin.",
+  "nationalPokedexNumbers": [
+    569
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm2/51a.png",
+    "large": "https://images.pokemontcg.io/sm2/51a_hires.png"
+  }
+}

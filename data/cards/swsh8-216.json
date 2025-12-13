@@ -1,0 +1,76 @@
+{
+  "id": "swsh8-216",
+  "name": "Hawlucha",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Rapid Strike"
+  ],
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Flying Stomp",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Discard a Special Energy from your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh8",
+    "name": "Fusion Strike",
+    "series": "Sword & Shield",
+    "printedTotal": 264,
+    "total": 284,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FST",
+    "releaseDate": "2021/11/12",
+    "updatedAt": "2021/11/12 07:32:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+    }
+  },
+  "number": "216",
+  "artist": "Taira Akitsu",
+  "rarity": "Uncommon",
+  "flavorText": "It always strikes a pose before going for its finishing move. Sometimes opponents take advantage of that time to counterattack.",
+  "nationalPokedexNumbers": [
+    701
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh8/216.png",
+    "large": "https://images.pokemontcg.io/swsh8/216_hires.png"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "xyp-XY180",
+  "name": "Arcanine BREAK",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "BREAK"
+  ],
+  "hp": "160",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Arcanine",
+  "rules": [
+    "BREAK Evolution Rule: Arcanine BREAK retains the attacks, Abilities, Weakness, Resistance, and Retreat Cost of its previous Evolution."
+  ],
+  "attacks": [
+    {
+      "name": "Turbo Flame",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "80",
+      "text": "Attach 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon."
+    }
+  ],
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY180",
+  "artist": "5ban Graphics",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    59
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY180.png",
+    "large": "https://images.pokemontcg.io/xyp/XY180_hires.png"
+  }
+}

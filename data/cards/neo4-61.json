@@ -1,0 +1,68 @@
+{
+  "id": "neo4-61",
+  "name": "Cyndaquil",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "15",
+  "hp": "40",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Quilava"
+  ],
+  "attacks": [
+    {
+      "name": "Smokescreen",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "If the Defending Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo4",
+    "name": "Neo Destiny",
+    "series": "Neo",
+    "printedTotal": 105,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N4",
+    "releaseDate": "2002/02/28",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo4/logo.png"
+    }
+  },
+  "number": "61",
+  "artist": "Yukiko Baba",
+  "rarity": "Common",
+  "flavorText": "It is very meek and constantly crouches in a defensive posture. When threatened, it protects itself with the flame on its back.",
+  "nationalPokedexNumbers": [
+    155
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo4/61.png",
+    "large": "https://images.pokemontcg.io/neo4/61_hires.png"
+  }
+}

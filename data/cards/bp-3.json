@@ -1,0 +1,35 @@
+{
+  "id": "bp-3",
+  "name": "Professor Elm",
+  "supertype": "Trainer",
+  "rules": [
+    "Shuffle your hand into your deck. Then, draw 7 cards. You can't play any more Trainer cards this turn."
+  ],
+  "set": {
+    "id": "bp",
+    "name": "Best of Game",
+    "series": "Other",
+    "printedTotal": 9,
+    "total": 9,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "BP",
+    "releaseDate": "2002/12/01",
+    "updatedAt": "2021/10/16 09:52:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bp/symbol.png",
+      "logo": "https://images.pokemontcg.io/bp/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Ken Sugimori",
+  "rarity": "Promo",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bp/3.png",
+    "large": "https://images.pokemontcg.io/bp/3_hires.png"
+  }
+}

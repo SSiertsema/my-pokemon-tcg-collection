@@ -1,0 +1,80 @@
+{
+  "id": "sv7-24",
+  "name": "Salazzle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Salandit",
+  "attacks": [
+    {
+      "name": "Sudden Scorching",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Your opponent discards a card from their hand. If this Pokémon evolved from Salandit during this turn, your opponent discards 2 more cards."
+    },
+    {
+      "name": "Flamethrower",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "130",
+      "text": "Discard an Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv7",
+    "name": "Stellar Crown",
+    "series": "Scarlet & Violet",
+    "printedTotal": 142,
+    "total": 175,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SCR",
+    "releaseDate": "2024/09/13",
+    "updatedAt": "2024/09/13 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv7/logo.png"
+    }
+  },
+  "number": "24",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    758
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv7/24.png",
+    "large": "https://images.pokemontcg.io/sv7/24_hires.png"
+  }
+}

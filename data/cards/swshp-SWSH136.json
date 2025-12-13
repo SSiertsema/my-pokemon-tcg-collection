@@ -1,0 +1,78 @@
+{
+  "id": "swshp-SWSH136",
+  "name": "Mimikyu δ",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "rules": [
+    "(This card cannot be used at official tournaments.)"
+  ],
+  "attacks": [
+    {
+      "name": "Filch",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Draw 2 cards."
+    },
+    {
+      "name": "Wet Claw",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "Put an Energy attached to your opponent's Active Pokémon into their hand."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH136",
+  "artist": "Hasuno",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    778
+  ],
+  "legalities": {
+    "unlimited": "Banned"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH136.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH136_hires.png"
+  }
+}

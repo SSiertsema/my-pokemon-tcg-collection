@@ -1,0 +1,81 @@
+{
+  "id": "cel25c-17_A",
+  "name": "Umbreon ★",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Star"
+  ],
+  "hp": "70",
+  "types": [
+    "Darkness"
+  ],
+  "rules": [
+    "You can't have more than 1 Pokémon Star in your deck."
+  ],
+  "abilities": [
+    {
+      "type": "Poké-Power",
+      "name": "Dark Ray",
+      "text": "Once during your turn, when you put Umbreon Star from your hand onto your Bench, you may choose 1 card from your opponent's hand without looking and discard it."
+    }
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Darkness",
+        "Darkness"
+      ],
+      "name": "Feint Attack",
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon.",
+      "convertedEnergyCost": 2
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "cel25c",
+    "name": "Celebrations: Classic Collection",
+    "series": "Sword & Shield",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CEL",
+    "releaseDate": "2021/10/08",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/cel25c/symbol.png",
+      "logo": "https://images.pokemontcg.io/cel25c/logo.png"
+    }
+  },
+  "number": "17",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Classic Collection",
+  "nationalPokedexNumbers": [
+    197
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/cel25c/17_A.png",
+    "large": "https://images.pokemontcg.io/cel25c/17_A_hires.png"
+  }
+}

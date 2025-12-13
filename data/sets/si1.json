@@ -1,0 +1,36 @@
+{
+  "id": "si1",
+  "name": "Southern Islands",
+  "series": "Other",
+  "printedTotal": 18,
+  "total": 18,
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "releaseDate": "2001/07/31",
+  "updatedAt": "2019/01/28 16:44:00",
+  "images": {
+    "symbol": "https://images.pokemontcg.io/si1/symbol.png",
+    "logo": "https://images.pokemontcg.io/si1/logo.png"
+  },
+  "cards": [
+    "si1-1",
+    "si1-2",
+    "si1-3",
+    "si1-4",
+    "si1-5",
+    "si1-6",
+    "si1-7",
+    "si1-8",
+    "si1-9",
+    "si1-10",
+    "si1-11",
+    "si1-12",
+    "si1-13",
+    "si1-14",
+    "si1-15",
+    "si1-16",
+    "si1-17",
+    "si1-18"
+  ]
+}

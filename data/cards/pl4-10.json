@@ -1,0 +1,87 @@
+{
+  "id": "pl4-10",
+  "name": "Tangrowth",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "48",
+  "hp": "110",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Tangela",
+  "attacks": [
+    {
+      "name": "Leaf Guard",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "During your opponent's next turn, any damage done to Tangrowth by attacks is reduced by 20 (after applying Weakness and Resistance)."
+    },
+    {
+      "name": "Swallow Up",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "50",
+      "text": "Before doing damage, count the remaining HP of the Defending Pokémon and Tangrowth. If the Defending Pokémon has fewer remaining HP than Tangrowth's, this attack does 120 damage instead."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "pl4",
+    "name": "Arceus",
+    "series": "Platinum",
+    "printedTotal": 99,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AR",
+    "releaseDate": "2009/11/04",
+    "updatedAt": "2021/07/15 11:30:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl4/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl4/logo.png"
+    }
+  },
+  "number": "10",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare Holo",
+  "flavorText": "Its arms are made of plants that bind themselves to things. They grow back right away if cut.",
+  "nationalPokedexNumbers": [
+    465
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl4/10.png",
+    "large": "https://images.pokemontcg.io/pl4/10_hires.png"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "base1-8",
+  "name": "Machamp",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "67",
+  "hp": "100",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Machoke",
+  "abilities": [
+    {
+      "name": "Strikes Back",
+      "text": "Whenever your opponent's attack damages Machamp (even if Machamp is Knocked Out), this power does 10 damage to the attacking Pokémon. (Don't apply Weakness and Resistance.) This power can't be used if Machamp is Asleep, Confused, or Paralyzed when your opponent attacks.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Seismic Toss",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "base1",
+    "name": "Base",
+    "series": "Base",
+    "printedTotal": 102,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "BS",
+    "releaseDate": "1999/01/09",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base1/symbol.png",
+      "logo": "https://images.pokemontcg.io/base1/logo.png"
+    }
+  },
+  "number": "8",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare Holo",
+  "flavorText": "Using its amazing muscles, it throws powerful punches that can knock its victim clear over the horizon.",
+  "nationalPokedexNumbers": [
+    68
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base1/8.png",
+    "large": "https://images.pokemontcg.io/base1/8_hires.png"
+  }
+}

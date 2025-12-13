@@ -1,0 +1,82 @@
+{
+  "id": "xy8-39",
+  "name": "Snover",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Abomasnow"
+  ],
+  "attacks": [
+    {
+      "name": "Powder Snow",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent's Active Pokémon is now Asleep."
+    },
+    {
+      "name": "Double Smash",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30×",
+      "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy8",
+    "name": "BREAKthrough",
+    "series": "XY",
+    "printedTotal": 162,
+    "total": 165,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKT",
+    "releaseDate": "2015/11/04",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy8/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy8/logo.png"
+    }
+  },
+  "number": "39",
+  "artist": "Yukiko Baba",
+  "rarity": "Common",
+  "flavorText": "In the spring, it grows berries with the texture of frozen treats around its belly.",
+  "nationalPokedexNumbers": [
+    459
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy8/39.png",
+    "large": "https://images.pokemontcg.io/xy8/39_hires.png"
+  }
+}

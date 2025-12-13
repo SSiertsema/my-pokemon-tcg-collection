@@ -1,0 +1,77 @@
+{
+  "id": "sm9-102",
+  "name": "Ferroseed",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Metal"
+  ],
+  "evolvesTo": [
+    "Ferrothorn"
+  ],
+  "attacks": [
+    {
+      "name": "Continuous Tumble",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "Flip a coin until you get tails. This attack does 20 damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm9",
+    "name": "Team Up",
+    "series": "Sun & Moon",
+    "printedTotal": 181,
+    "total": 198,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEU",
+    "releaseDate": "2019/02/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm9/logo.png"
+    }
+  },
+  "number": "102",
+  "artist": "Shigenori Negishi",
+  "rarity": "Common",
+  "flavorText": "It absorbs the iron it finds in the rock while clinging to the ceiling. It shoots spikes when in danger.",
+  "nationalPokedexNumbers": [
+    597
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm9/102.png",
+    "large": "https://images.pokemontcg.io/sm9/102_hires.png"
+  }
+}

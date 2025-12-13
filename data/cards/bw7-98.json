@@ -1,0 +1,81 @@
+{
+  "id": "bw7-98",
+  "name": "Vibrava",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Trapinch",
+  "evolvesTo": [
+    "Flygon"
+  ],
+  "attacks": [
+    {
+      "name": "Quick Turn",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+    },
+    {
+      "name": "Sand Pulse",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Dragon",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw7",
+    "name": "Boundaries Crossed",
+    "series": "Black & White",
+    "printedTotal": 149,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BCR",
+    "releaseDate": "2012/11/07",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw7/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw7/logo.png"
+    }
+  },
+  "number": "98",
+  "artist": "Naoki Saito",
+  "rarity": "Uncommon",
+  "flavorText": "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
+  "nationalPokedexNumbers": [
+    329
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw7/98.png",
+    "large": "https://images.pokemontcg.io/bw7/98_hires.png"
+  }
+}

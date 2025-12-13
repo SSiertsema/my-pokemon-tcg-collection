@@ -1,0 +1,83 @@
+{
+  "id": "xy11-85",
+  "name": "Zweilous",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Deino",
+  "evolvesTo": [
+    "Hydreigon"
+  ],
+  "attacks": [
+    {
+      "name": "Double Hit",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+    },
+    {
+      "name": "Power Breath",
+      "cost": [
+        "Psychic",
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "Discard an Energy attached to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fairy",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy11",
+    "name": "Steam Siege",
+    "series": "XY",
+    "printedTotal": 114,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "STS",
+    "releaseDate": "2016/08/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy11/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy11/logo.png"
+    }
+  },
+  "number": "85",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "flavorText": "After it has eaten up all the food in its territory, it moves to another area. Its two heads do not get along.",
+  "nationalPokedexNumbers": [
+    634
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy11/85.png",
+    "large": "https://images.pokemontcg.io/xy11/85_hires.png"
+  }
+}

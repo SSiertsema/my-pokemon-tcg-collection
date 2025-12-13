@@ -1,0 +1,49 @@
+{
+  "id": "ex4-84",
+  "name": "Team Magma Technical Machine 01",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Technical Machine"
+  ],
+  "rules": [
+    "Attach this card to 1 of your Pokémon that has Team Magma in its name. That Pokémon may use this card's attack instead of its own. At the end of your turn, discard Team Magma Technical Machine 01."
+  ],
+  "attacks": [
+    {
+      "name": "Crushing Magma",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Choose an Energy card attached to the Defending Pokémon and put that card at the bottom of your opponent's deck."
+    }
+  ],
+  "set": {
+    "id": "ex4",
+    "name": "Team Magma vs Team Aqua",
+    "series": "EX",
+    "printedTotal": 95,
+    "total": 97,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MA",
+    "releaseDate": "2004/03/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex4/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex4/logo.png"
+    }
+  },
+  "number": "84",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex4/84.png",
+    "large": "https://images.pokemontcg.io/ex4/84_hires.png"
+  }
+}

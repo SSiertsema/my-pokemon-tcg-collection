@@ -1,0 +1,82 @@
+{
+  "id": "bw9-38",
+  "name": "Thundurus-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "EX",
+    "Team Plasma"
+  ],
+  "hp": "170",
+  "types": [
+    "Lightning"
+  ],
+  "rules": [
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Raiden Knuckle",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Attach an Energy card from your discard pile to 1 of your Benched Team Plasma Pokémon."
+    },
+    {
+      "name": "Thunderous Noise",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "90",
+      "text": "If this Pokémon has any Plasma Energy attached to it, discard an Energy attached to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "38",
+  "artist": "Eske Yoshinob",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    642
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/38.png",
+    "large": "https://images.pokemontcg.io/bw9/38_hires.png"
+  }
+}

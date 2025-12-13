@@ -1,0 +1,70 @@
+{
+  "id": "ex5-18",
+  "name": "Gorebyss",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Clamperl",
+  "attacks": [
+    {
+      "name": "Stun Needle",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    },
+    {
+      "name": "Mystic Water",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "Does 20 damage plus 10 more damage for each Psychic Energy in play."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "ex5",
+    "name": "Hidden Legends",
+    "series": "EX",
+    "printedTotal": 101,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HL",
+    "releaseDate": "2004/06/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex5/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex5/logo.png"
+    }
+  },
+  "number": "18",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    368
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex5/18.png",
+    "large": "https://images.pokemontcg.io/ex5/18_hires.png"
+  }
+}

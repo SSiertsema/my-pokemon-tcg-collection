@@ -1,0 +1,76 @@
+{
+  "id": "pop7-15",
+  "name": "Ralts",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "13",
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Kirlia"
+  ],
+  "attacks": [
+    {
+      "name": "Smack",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Confuse Ray",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pop7",
+    "name": "POP Series 7",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2008/03/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop7/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop7/logo.png"
+    }
+  },
+  "number": "15",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Common",
+  "flavorText": "It uses the horns on its head to sense human emotions. It is said to appear in front of cheerful people.",
+  "nationalPokedexNumbers": [
+    280
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop7/15.png",
+    "large": "https://images.pokemontcg.io/pop7/15_hires.png"
+  }
+}

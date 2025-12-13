@@ -1,0 +1,70 @@
+{
+  "id": "ex5-51",
+  "name": "Tentacruel",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Tentacool",
+  "attacks": [
+    {
+      "name": "Long Tentacle",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Confused. If tails, discard an Energy card attached to the Defending Pokémon."
+    },
+    {
+      "name": "Toxic",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "ex5",
+    "name": "Hidden Legends",
+    "series": "EX",
+    "printedTotal": 101,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HL",
+    "releaseDate": "2004/06/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex5/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex5/logo.png"
+    }
+  },
+  "number": "51",
+  "artist": "Hisao Nakamura",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    73
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex5/51.png",
+    "large": "https://images.pokemontcg.io/ex5/51_hires.png"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "sv4pt5-221",
+  "name": "Pidgeot ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "ex"
+  ],
+  "hp": "280",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Pidgeotto",
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Quick Search",
+      "text": "Once during your turn, you may search your deck for a card and put it into your hand. Then, shuffle your deck. You can't use more than 1 Quick Search Ability each turn.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Blustery Wind",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "120",
+      "text": "You may discard a Stadium in play."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "sv4pt5",
+    "name": "Paldean Fates",
+    "series": "Scarlet & Violet",
+    "printedTotal": 91,
+    "total": 245,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2024/01/26",
+    "updatedAt": "2024/01/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4pt5/logo.png"
+    }
+  },
+  "number": "221",
+  "artist": "takuyoa",
+  "rarity": "Shiny Ultra Rare",
+  "nationalPokedexNumbers": [
+    18
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4pt5/221.png",
+    "large": "https://images.pokemontcg.io/sv4pt5/221_hires.png"
+  }
+}

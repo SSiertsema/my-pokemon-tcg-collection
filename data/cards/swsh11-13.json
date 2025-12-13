@@ -1,0 +1,80 @@
+{
+  "id": "swsh11-13",
+  "name": "Shiftry",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Nuzleaf",
+  "attacks": [
+    {
+      "name": "Fan Tornado",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "50",
+      "text": "You may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon."
+    },
+    {
+      "name": "Tearing Gust",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "210",
+      "text": "Put this Pokémon and all attached cards in the Lost Zone."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh11",
+    "name": "Lost Origin",
+    "series": "Sword & Shield",
+    "printedTotal": 196,
+    "total": 217,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOR",
+    "releaseDate": "2022/09/09",
+    "updatedAt": "2022/09/09 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh11/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh11/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "kawayoo",
+  "rarity": "Rare Holo",
+  "flavorText": "A Pokémon that was feared as a forest guardian. It can read the foe's mind and take preemptive action.",
+  "nationalPokedexNumbers": [
+    275
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh11/13.png",
+    "large": "https://images.pokemontcg.io/swsh11/13_hires.png"
+  }
+}

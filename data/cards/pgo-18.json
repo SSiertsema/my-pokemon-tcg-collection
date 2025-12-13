@@ -1,0 +1,83 @@
+{
+  "id": "pgo-18",
+  "name": "Radiant Blastoise",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Radiant"
+  ],
+  "hp": "150",
+  "types": [
+    "Water"
+  ],
+  "rules": [
+    "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+  ],
+  "abilities": [
+    {
+      "name": "Pump Shot",
+      "text": "You must discard a Water Energy card from your hand in order to use this Ability. Once during your turn, you may put 2 damage counters on 1 of your opponent's Benched Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Torrential Cannon",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "170",
+      "text": "During your next turn, this Pokémon can't use Torrential Cannon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pgo",
+    "name": "Pokémon GO",
+    "series": "Sword & Shield",
+    "printedTotal": 78,
+    "total": 88,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PGO",
+    "releaseDate": "2022/07/01",
+    "updatedAt": "2022/07/06 17:07:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pgo/symbol.png",
+      "logo": "https://images.pokemontcg.io/pgo/logo.png"
+    }
+  },
+  "number": "18",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Radiant Rare",
+  "flavorText": "It crushes its foe under its heavy body to cause fainting. In a pinch, it will withdraw inside its shell.",
+  "nationalPokedexNumbers": [
+    9
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/pgo/18.png",
+    "large": "https://images.pokemontcg.io/pgo/18_hires.png"
+  }
+}

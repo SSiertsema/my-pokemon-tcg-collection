@@ -1,0 +1,74 @@
+{
+  "id": "np-20",
+  "name": "Ludicolo",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Lombre",
+  "abilities": [
+    {
+      "name": "Rain Dish",
+      "text": "At any time between turns, remove 1 damage counter from Ludicolo.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30×",
+      "text": "Flip 3 coins. This attack does 30 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "np",
+    "name": "Nintendo Black Star Promos",
+    "series": "NP",
+    "printedTotal": 40,
+    "total": 40,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-NP",
+    "releaseDate": "2003/10/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/np/symbol.png",
+      "logo": "https://images.pokemontcg.io/np/logo.png"
+    }
+  },
+  "number": "20",
+  "artist": "Kouki Saitou",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    272
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/np/20.png",
+    "large": "https://images.pokemontcg.io/np/20_hires.png"
+  }
+}

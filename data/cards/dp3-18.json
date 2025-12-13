@@ -1,0 +1,87 @@
+{
+  "id": "dp3-18",
+  "name": "Salamence",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "62",
+  "hp": "140",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Shelgon",
+  "attacks": [
+    {
+      "name": "Direct Hit",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+    },
+    {
+      "name": "Dragon Finish",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "",
+      "text": "Discard 2 basic Fire Energy cards or 2 basic Water Energy cards attached to Salamence. If you discarded 2 basic Fire Energy cards, this attack does 100 damage to the Defending Pokémon. If you discarded 2 Basic Water Energy cards, this attack does 100 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (If you can't discard cards, this attack does nothing.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Colorless",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "18",
+  "artist": "Kazuyuki Kano",
+  "rarity": "Rare Holo",
+  "flavorText": "As a result of its long-held dream of flying, its cellular structure changes, and wings grew out.",
+  "nationalPokedexNumbers": [
+    373
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/18.png",
+    "large": "https://images.pokemontcg.io/dp3/18_hires.png"
+  }
+}

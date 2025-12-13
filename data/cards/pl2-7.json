@@ -1,0 +1,80 @@
+{
+  "id": "pl2-7",
+  "name": "Jirachi",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "39",
+  "hp": "60",
+  "types": [
+    "Metal"
+  ],
+  "abilities": [
+    {
+      "name": "Final Wish",
+      "text": "Once during your opponent's turn, if Jirachi would be Knocked Out by damage from an attack, you may search your deck for any 1 card and put it into your hand. Shuffle your deck afterward.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Detour",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "If you have a Supporter card in play, use the effect of that card as the effect of this attack."
+    },
+    {
+      "name": "Swift",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "Kenkichi Toyama",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    385
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/7.png",
+    "large": "https://images.pokemontcg.io/pl2/7_hires.png"
+  }
+}

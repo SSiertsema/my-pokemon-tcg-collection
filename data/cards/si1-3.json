@@ -1,0 +1,80 @@
+{
+  "id": "si1-3",
+  "name": "Onix",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Steelix"
+  ],
+  "attacks": [
+    {
+      "name": "Slam",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20×",
+      "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+    },
+    {
+      "name": "Body Slam",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "40",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "si1",
+    "name": "Southern Islands",
+    "series": "Other",
+    "printedTotal": 18,
+    "total": 18,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2001/07/31",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/si1/symbol.png",
+      "logo": "https://images.pokemontcg.io/si1/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Keiko Fukuyama",
+  "flavorText": "This Pokémon burrows through the earth at high speed, looking for food. The tunnels it digs are used by Diglett as nests.",
+  "nationalPokedexNumbers": [
+    95
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/si1/3.png",
+    "large": "https://images.pokemontcg.io/si1/3_hires.png"
+  }
+}

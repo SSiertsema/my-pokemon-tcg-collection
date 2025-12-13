@@ -1,0 +1,87 @@
+{
+  "id": "xy3-65",
+  "name": "Drapion",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Skorupi",
+  "attacks": [
+    {
+      "name": "Venoshock",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20+",
+      "text": "If your opponent's Active Pokémon is Poisoned, this attack does 40 more damage."
+    },
+    {
+      "name": "Venomous Fang",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": "Your opponent's Active Pokémon is now Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy3",
+    "name": "Furious Fists",
+    "series": "XY",
+    "printedTotal": 111,
+    "total": 114,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FFI",
+    "releaseDate": "2014/08/13",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy3/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy3/logo.png"
+    }
+  },
+  "number": "65",
+  "artist": "Hitoshi Ariga",
+  "rarity": "Rare",
+  "flavorText": "It takes great pride in its strength. Even though it can tear foes apart, it finishes them off with powerful poison.",
+  "nationalPokedexNumbers": [
+    452
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy3/65.png",
+    "large": "https://images.pokemontcg.io/xy3/65_hires.png"
+  }
+}

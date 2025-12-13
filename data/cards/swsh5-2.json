@@ -1,0 +1,83 @@
+{
+  "id": "swsh5-2",
+  "name": "Weepinbell",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Bellsprout",
+  "evolvesTo": [
+    "Victreebel"
+  ],
+  "abilities": [
+    {
+      "name": "Dangerous Mucus",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may make your opponent's Active Pokémon Burned and Poisoned.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Vine Whip",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh5",
+    "name": "Battle Styles",
+    "series": "Sword & Shield",
+    "printedTotal": 163,
+    "total": 183,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BST",
+    "releaseDate": "2021/03/19",
+    "updatedAt": "2021/03/19 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh5/logo.png"
+    }
+  },
+  "number": "2",
+  "artist": "Shibuzoh.",
+  "rarity": "Uncommon",
+  "flavorText": "It spits out Poison Powder to immobilize the enemy and then finishes it with a spray of Acid.",
+  "nationalPokedexNumbers": [
+    70
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh5/2.png",
+    "large": "https://images.pokemontcg.io/swsh5/2_hires.png"
+  }
+}

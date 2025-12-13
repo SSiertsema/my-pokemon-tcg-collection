@@ -1,0 +1,75 @@
+{
+  "id": "xy11-76",
+  "name": "Marill",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesTo": [
+    "Azumarill"
+  ],
+  "attacks": [
+    {
+      "name": "Bubble Drain",
+      "cost": [
+        "Fairy"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Heal 10 damage from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy11",
+    "name": "Steam Siege",
+    "series": "XY",
+    "printedTotal": 114,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "STS",
+    "releaseDate": "2016/08/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy11/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy11/logo.png"
+    }
+  },
+  "number": "76",
+  "artist": "Shibuzoh.",
+  "rarity": "Common",
+  "flavorText": "The tip of its tail is filled with oil that is lighter than water, so it acts as a float.",
+  "nationalPokedexNumbers": [
+    183
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy11/76.png",
+    "large": "https://images.pokemontcg.io/xy11/76_hires.png"
+  }
+}

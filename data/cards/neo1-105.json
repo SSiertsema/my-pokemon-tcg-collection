@@ -1,0 +1,39 @@
+{
+  "id": "neo1-105",
+  "name": "Recycle Energy",
+  "supertype": "Energy",
+  "subtypes": [
+    "Special"
+  ],
+  "rules": [
+    "Recycle Energy provides Colorless Energy. (Doesn't count as a basic Energy card.)",
+    "If this card is put into your discard pile from play, return it to your hand."
+  ],
+  "set": {
+    "id": "neo1",
+    "name": "Neo Genesis",
+    "series": "Neo",
+    "printedTotal": 111,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N1",
+    "releaseDate": "2000/12/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo1/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo1/logo.png"
+    }
+  },
+  "number": "105",
+  "artist": "Hideki Kazama",
+  "rarity": "Rare",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo1/105.png",
+    "large": "https://images.pokemontcg.io/neo1/105_hires.png"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "smp-SM135",
+  "name": "Latias",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Dragon"
+  ],
+  "attacks": [
+    {
+      "name": "Hypnoblast",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Your opponent's Active Pokémon is now Asleep."
+    },
+    {
+      "name": "Mist Ball",
+      "cost": [
+        "Fire",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "110",
+      "text": "Flip a coin. If tails, discard a Fire Energy and a Psychic Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fairy",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "smp",
+    "name": "SM Black Star Promos",
+    "series": "Sun & Moon",
+    "printedTotal": 248,
+    "total": 250,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/smp/symbol.png",
+      "logo": "https://images.pokemontcg.io/smp/logo.png"
+    }
+  },
+  "number": "SM135",
+  "artist": "Kouki Saitou",
+  "rarity": "Promo",
+  "flavorText": "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
+  "nationalPokedexNumbers": [
+    380
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/smp/SM135.png",
+    "large": "https://images.pokemontcg.io/smp/SM135_hires.png"
+  }
+}

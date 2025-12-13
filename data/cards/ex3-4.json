@@ -1,0 +1,87 @@
+{
+  "id": "ex3-4",
+  "name": "Flygon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Vibrava",
+  "attacks": [
+    {
+      "name": "Energy Shower",
+      "cost": [
+        "Grass",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Attach any number of basic Energy cards from your hand to your Pokémon in any way you like."
+    },
+    {
+      "name": "Rainbow Burn",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Does 30 damage plus 10 more damage for each type of basic Energy card attached to Flygon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Colorless",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fire",
+      "value": "-30"
+    },
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex3",
+    "name": "Dragon",
+    "series": "EX",
+    "printedTotal": 97,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DR",
+    "releaseDate": "2003/11/24",
+    "updatedAt": "2023/02/16 05:47:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex3/logo.png"
+    }
+  },
+  "number": "4",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    330
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex3/4.png",
+    "large": "https://images.pokemontcg.io/ex3/4_hires.png"
+  }
+}

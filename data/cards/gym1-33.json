@@ -1,0 +1,82 @@
+{
+  "id": "gym1-33",
+  "name": "Rocket's Snorlax",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "40",
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Restless Sleep",
+      "text": "If your opponent's attack does damage to Rocket's Snorlax and Rocket's Snorlax is already Asleep (even if it's Knocked Out), this power does 20 damage to the attacking Pokémon.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Collapse",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20",
+      "text": "Rocket's Snorlax is now Asleep (after doing damage)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "gym1",
+    "name": "Gym Heroes",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G1",
+    "releaseDate": "2000/08/14",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym1/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym1/logo.png"
+    }
+  },
+  "number": "33",
+  "artist": "Shin-ichi Yoshida",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    143
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym1/33.png",
+    "large": "https://images.pokemontcg.io/gym1/33_hires.png"
+  }
+}

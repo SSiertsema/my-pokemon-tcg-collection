@@ -1,0 +1,73 @@
+{
+  "id": "swsh6-76",
+  "name": "Diglett",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Rapid Strike"
+  ],
+  "hp": "50",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Dugtrio"
+  ],
+  "attacks": [
+    {
+      "name": "Dig",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "76",
+  "artist": "Souichirou Gunjima",
+  "rarity": "Common",
+  "flavorText": "It burrows through the ground at a shallow depth. It leaves raised earth in its wake, making it easy to spot.",
+  "nationalPokedexNumbers": [
+    50
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/76.png",
+    "large": "https://images.pokemontcg.io/swsh6/76_hires.png"
+  }
+}

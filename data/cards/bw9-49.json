@@ -1,0 +1,71 @@
+{
+  "id": "bw9-49",
+  "name": "Sableye",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Team Plasma"
+  ],
+  "hp": "70",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Scratch",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Shadow Cage",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "49",
+  "artist": "5ban Graphics",
+  "rarity": "Rare",
+  "flavorText": "It hides in the darkness of caves. Its diet of gems has transformed its eyes into gemstones.",
+  "nationalPokedexNumbers": [
+    302
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/49.png",
+    "large": "https://images.pokemontcg.io/bw9/49_hires.png"
+  }
+}

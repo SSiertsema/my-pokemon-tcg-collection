@@ -1,0 +1,46 @@
+{
+  "id": "swsh9tg-TG28",
+  "name": "Single Strike Style Mustard",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Single Strike",
+    "Supporter"
+  ],
+  "rules": [
+    "You can play this card only when it is the last card in your hand.",
+    "Search your deck for a Single Strike Pokémon and put it onto your Bench. Then, shuffle your deck. If you searched your deck in this way, draw 5 cards.",
+    "You may play only 1 Supporter card during your turn."
+  ],
+  "set": {
+    "id": "swsh9tg",
+    "name": "Brilliant Stars Trainer Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 30,
+    "total": 30,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BRS",
+    "releaseDate": "2022/02/25",
+    "updatedAt": "2022/02/23 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh9tg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh9tg/logo.png"
+    }
+  },
+  "number": "TG28",
+  "artist": "Souichirou Gunjima",
+  "rarity": "Rare Ultra",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh9tg/TG28.png",
+    "large": "https://images.pokemontcg.io/swsh9tg/TG28_hires.png"
+  }
+}

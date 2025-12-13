@@ -1,0 +1,76 @@
+{
+  "id": "base3-4",
+  "name": "Dragonite",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "45",
+  "hp": "100",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Dragonair",
+  "abilities": [
+    {
+      "name": "Step In",
+      "text": "Once during your turn (before your attack), if Dragonite is on your Bench, you may switch it with your Active Pokémon.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Slam",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "40×",
+      "text": "Flip 2 coins. This attack does 40 damage times the number of heads."
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base3",
+    "name": "Fossil",
+    "series": "Base",
+    "printedTotal": 62,
+    "total": 62,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "FO",
+    "releaseDate": "1999/10/10",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base3/symbol.png",
+      "logo": "https://images.pokemontcg.io/base3/logo.png"
+    }
+  },
+  "number": "4",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare Holo",
+  "flavorText": "An extremely rarely seen marine Pokémon. Its intelligence is said to match that of humans.",
+  "nationalPokedexNumbers": [
+    149
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base3/4.png",
+    "large": "https://images.pokemontcg.io/base3/4_hires.png"
+  }
+}

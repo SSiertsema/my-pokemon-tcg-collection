@@ -1,0 +1,79 @@
+{
+  "id": "sm6-80",
+  "name": "Guzzlord",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Ultra Beast"
+  ],
+  "hp": "160",
+  "types": [
+    "Darkness"
+  ],
+  "attacks": [
+    {
+      "name": "Lord's Valley",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Darkness",
+        "Darkness"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "160",
+      "text": "If you have exactly 2, 4, or 6 Prize cards remaining, discard the top 10 cards of your deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "sm6",
+    "name": "Forbidden Light",
+    "series": "Sun & Moon",
+    "printedTotal": 131,
+    "total": 150,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLI",
+    "releaseDate": "2018/05/04",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm6/logo.png"
+    }
+  },
+  "number": "80",
+  "artist": "Anesaki Dynamic",
+  "rarity": "Rare Holo",
+  "flavorText": "A dangerous Ultra Beast, it appears to be eating constantly, but for some reason its droppings have never been found.",
+  "nationalPokedexNumbers": [
+    799
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm6/80.png",
+    "large": "https://images.pokemontcg.io/sm6/80_hires.png"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "bw9-8",
+  "name": "Sceptile",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "130",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Grovyle",
+  "attacks": [
+    {
+      "name": "X-Scissor",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "Flip a coin. If heads, this attack does 40 more damage."
+    },
+    {
+      "name": "Energy Bloom",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "Heal 20 damage from each of your Pokémon that has any Energy attached to it."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "8",
+  "artist": "kawayoo",
+  "rarity": "Rare Holo",
+  "flavorText": "The leaves that grow on its arms can slice down thick trees. It is without peer in jungle combat.",
+  "nationalPokedexNumbers": [
+    254
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/8.png",
+    "large": "https://images.pokemontcg.io/bw9/8_hires.png"
+  }
+}

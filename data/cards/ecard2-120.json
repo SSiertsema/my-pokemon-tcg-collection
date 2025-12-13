@@ -1,0 +1,37 @@
+{
+  "id": "ecard2-120",
+  "name": "Energy Switch",
+  "supertype": "Trainer",
+  "rules": [
+    "Move a basic Energy card attached to 1 of your Pokémon to another of your Pokémon."
+  ],
+  "set": {
+    "id": "ecard2",
+    "name": "Aquapolis",
+    "series": "E-Card",
+    "printedTotal": 147,
+    "total": 182,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AQ",
+    "releaseDate": "2003/01/15",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard2/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard2/logo.png"
+    }
+  },
+  "number": "120",
+  "artist": "Mikio Menjo",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard2/120.png",
+    "large": "https://images.pokemontcg.io/ecard2/120_hires.png"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "swsh3-126",
+  "name": "Klang",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Klink",
+  "evolvesTo": [
+    "Klinklang"
+  ],
+  "attacks": [
+    {
+      "name": "Call for Backup",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Metal Pokémon, reveal it, and put it into your hand. Then, shuffle your deck."
+    },
+    {
+      "name": "Spinning Attack",
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh3",
+    "name": "Darkness Ablaze",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 201,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DAA",
+    "releaseDate": "2020/08/14",
+    "updatedAt": "2020/10/25 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh3/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh3/logo.png"
+    }
+  },
+  "number": "126",
+  "artist": "NC Empire",
+  "rarity": "Uncommon",
+  "flavorText": "When Klang goes all out, the minigear links up perfectly with the outer part of the big gear, and this Pokémon's rotation speed increases sharply.",
+  "nationalPokedexNumbers": [
+    600
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh3/126.png",
+    "large": "https://images.pokemontcg.io/swsh3/126_hires.png"
+  }
+}

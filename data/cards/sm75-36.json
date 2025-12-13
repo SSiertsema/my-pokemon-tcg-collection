@@ -1,0 +1,85 @@
+{
+  "id": "sm75-36",
+  "name": "Dragonair",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Dratini",
+  "evolvesTo": [
+    "Dragonite"
+  ],
+  "attacks": [
+    {
+      "name": "Dragon Tail",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60×",
+      "text": "Flip 2 coins. This attack does 60 damage for each heads."
+    },
+    {
+      "name": "Waterfall",
+      "cost": [
+        "Water",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fairy",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm75",
+    "name": "Dragon Majesty",
+    "series": "Sun & Moon",
+    "printedTotal": 70,
+    "total": 80,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRM",
+    "releaseDate": "2018/09/07",
+    "updatedAt": "2018/10/01 21:54:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm75/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm75/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "sui",
+  "rarity": "Uncommon",
+  "flavorText": "From time immemorial, it has been venerated by agricultural peoples as an entity able to control the weather.",
+  "nationalPokedexNumbers": [
+    148
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm75/36.png",
+    "large": "https://images.pokemontcg.io/sm75/36_hires.png"
+  }
+}

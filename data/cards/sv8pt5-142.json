@@ -1,0 +1,43 @@
+{
+  "id": "sv8pt5-142",
+  "name": "Raifort",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Look at the top 5 cards of your deck and discard any number of them. Put the other cards back in any order.",
+    "You may play only 1 Supporter card during your turn."
+  ],
+  "set": {
+    "id": "sv8pt5",
+    "name": "Prismatic Evolutions",
+    "series": "Scarlet & Violet",
+    "printedTotal": 131,
+    "total": 180,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PRE",
+    "releaseDate": "2025/01/17",
+    "updatedAt": "025/01/16 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv8pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv8pt5/logo.png"
+    }
+  },
+  "number": "142",
+  "rarity": "Ultra Rare",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv8pt5/142.png",
+    "large": "https://images.pokemontcg.io/sv8pt5/142_hires.png"
+  }
+}

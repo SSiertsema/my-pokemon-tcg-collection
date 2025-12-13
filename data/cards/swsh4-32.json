@@ -1,0 +1,81 @@
+{
+  "id": "swsh4-32",
+  "name": "Wailord",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "200",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Wailmer",
+  "abilities": [
+    {
+      "name": "Water Veil",
+      "text": "Whenever you attach an Energy card from your hand to this Pokémon, remove all Special Conditions from it.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hydro Pump",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "10+",
+      "text": "This attack does 40 more damage for each Water Energy attached to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "swsh4",
+    "name": "Vivid Voltage",
+    "series": "Sword & Shield",
+    "printedTotal": 185,
+    "total": 203,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "VIV",
+    "releaseDate": "2020/11/13",
+    "updatedAt": "2020/11/13 16:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh4/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh4/logo.png"
+    }
+  },
+  "number": "32",
+  "artist": "SATOSHI NAKAI",
+  "rarity": "Rare Holo",
+  "flavorText": "It can sometimes knock out opponents with the shock created by breaching and crashing its big body onto the water.",
+  "nationalPokedexNumbers": [
+    321
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh4/32.png",
+    "large": "https://images.pokemontcg.io/swsh4/32_hires.png"
+  }
+}

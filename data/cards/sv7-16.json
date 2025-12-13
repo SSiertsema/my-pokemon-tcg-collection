@@ -1,0 +1,68 @@
+{
+  "id": "sv7-16",
+  "name": "Lokix",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Nymble",
+  "attacks": [
+    {
+      "name": "Spiral Kick",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv7",
+    "name": "Stellar Crown",
+    "series": "Scarlet & Violet",
+    "printedTotal": 142,
+    "total": 175,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SCR",
+    "releaseDate": "2024/09/13",
+    "updatedAt": "2024/09/13 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv7/logo.png"
+    }
+  },
+  "number": "16",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    920
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv7/16.png",
+    "large": "https://images.pokemontcg.io/sv7/16_hires.png"
+  }
+}

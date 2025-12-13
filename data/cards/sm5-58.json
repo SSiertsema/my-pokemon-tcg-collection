@@ -1,0 +1,87 @@
+{
+  "id": "sm5-58",
+  "name": "Giratina ◇",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Prism Star"
+  ],
+  "hp": "160",
+  "types": [
+    "Psychic"
+  ],
+  "rules": [
+    "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+  ],
+  "abilities": [
+    {
+      "name": "Chaotic Star",
+      "text": "When you play this Pokémon from your hand onto your Bench during your turn, you may attach 2 Psychic Energy cards from your hand to it.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Crisis Dive",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "160",
+      "text": "Discard 2 Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "58",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare Prism Star",
+  "flavorText": "It was banished for its violence. It silently gazed upon the old world from the Distortion World.",
+  "nationalPokedexNumbers": [
+    487
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/58.png",
+    "large": "https://images.pokemontcg.io/sm5/58_hires.png"
+  }
+}

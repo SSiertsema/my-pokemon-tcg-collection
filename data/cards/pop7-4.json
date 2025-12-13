@@ -1,0 +1,83 @@
+{
+  "id": "pop7-4",
+  "name": "Latios",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "47",
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Energy Draw",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Flip a coin. If heads, search your deck for a basic Energy card and attach it to Latios. Shuffle your deck afterward."
+    },
+    {
+      "name": "Luster Purge",
+      "cost": [
+        "Grass",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "120",
+      "text": "Discard 3 Energy attached to Latios."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pop7",
+    "name": "POP Series 7",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2008/03/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop7/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop7/logo.png"
+    }
+  },
+  "number": "4",
+  "artist": "Daisuke Ito",
+  "rarity": "Rare",
+  "flavorText": "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
+  "nationalPokedexNumbers": [
+    381
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop7/4.png",
+    "large": "https://images.pokemontcg.io/pop7/4_hires.png"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "xy1-88",
+  "name": "Jigglypuff",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesTo": [
+    "Wigglytuff"
+  ],
+  "attacks": [
+    {
+      "name": "Body Slam",
+      "cost": [
+        "Fairy",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy1",
+    "name": "XY",
+    "series": "XY",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "XY",
+    "releaseDate": "2014/02/05",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy1/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy1/logo.png"
+    }
+  },
+  "number": "88",
+  "artist": "Sanosuke Sakuma",
+  "rarity": "Common",
+  "flavorText": "It captivates foes with its huge, round eyes, then lulls them to sleep by singing a soothing melody.",
+  "nationalPokedexNumbers": [
+    39
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy1/88.png",
+    "large": "https://images.pokemontcg.io/xy1/88_hires.png"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "dp3-103",
+  "name": "Rattata",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "10",
+  "hp": "30",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Raticate"
+  ],
+  "attacks": [
+    {
+      "name": "Tail Whip",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, the Defending Pokémon can't attack during your opponent's next turn."
+    },
+    {
+      "name": "Bite",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+10"
+    }
+  ],
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "103",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Common",
+  "flavorText": "Cautious in the extreme, its hardy vitality lets it live in any kind of environment.",
+  "nationalPokedexNumbers": [
+    19
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/103.png",
+    "large": "https://images.pokemontcg.io/dp3/103_hires.png"
+  }
+}

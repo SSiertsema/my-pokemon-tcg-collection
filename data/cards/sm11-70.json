@@ -1,0 +1,84 @@
+{
+  "id": "sm11-70",
+  "name": "Xurkitree",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Ultra Beast"
+  ],
+  "hp": "120",
+  "types": [
+    "Lightning"
+  ],
+  "attacks": [
+    {
+      "name": "Three Mirrors",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30+",
+      "text": "If your opponent has exactly 3 Prize cards remaining, this attack does 90 more damage."
+    },
+    {
+      "name": "Signal Beam",
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "70",
+  "artist": "Satoshi Shirai",
+  "rarity": "Rare",
+  "flavorText": "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
+  "nationalPokedexNumbers": [
+    796
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/70.png",
+    "large": "https://images.pokemontcg.io/sm11/70_hires.png"
+  }
+}

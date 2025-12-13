@@ -1,0 +1,38 @@
+{
+  "id": "pop2-10",
+  "name": "Pokémon Park",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",
+    "Once during each player's turn, when that player attaches an Energy card from his or her hand to 1 of his or her Benched Pokémon, he or she removes 1 damage counter from that Pokémon."
+  ],
+  "set": {
+    "id": "pop2",
+    "name": "POP Series 2",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2005/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop2/logo.png"
+    }
+  },
+  "number": "10",
+  "artist": "Kazuo Yazawa",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop2/10.png",
+    "large": "https://images.pokemontcg.io/pop2/10_hires.png"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "pgo-57",
+  "name": "Ambipom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Aipom",
+  "abilities": [
+    {
+      "name": "Primate Dexterity",
+      "text": "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Full Tilt Fling",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "60×",
+      "text": "Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pgo",
+    "name": "Pokémon GO",
+    "series": "Sword & Shield",
+    "printedTotal": 78,
+    "total": 88,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PGO",
+    "releaseDate": "2022/07/01",
+    "updatedAt": "2022/07/06 17:07:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pgo/symbol.png",
+      "logo": "https://images.pokemontcg.io/pgo/logo.png"
+    }
+  },
+  "number": "57",
+  "artist": "Scav",
+  "rarity": "Common",
+  "flavorText": "It uses its tails for everything. If it wraps both of its tails around you and gives you a squeeze, that's proof it really likes you.",
+  "nationalPokedexNumbers": [
+    424
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/pgo/57.png",
+    "large": "https://images.pokemontcg.io/pgo/57_hires.png"
+  }
+}

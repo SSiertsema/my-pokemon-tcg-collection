@@ -1,0 +1,79 @@
+{
+  "id": "sv1-93",
+  "name": "Florges",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Floette",
+  "abilities": [
+    {
+      "type": "Ability",
+      "name": "Blooming Garden",
+      "text": "Your Pokémon in play have no Weakness."
+    }
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "name": "Moonblast",
+      "damage": "120",
+      "text": "During your opponent's next turn, the Defending Pokémon's attacks do 30 less damage (before applying Weakness and Resistance).",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv1",
+    "name": "Scarlet & Violet",
+    "series": "Scarlet & Violet",
+    "printedTotal": 198,
+    "total": 258,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/03/31",
+    "updatedAt": "2023/03/31 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv1/logo.png"
+    }
+  },
+  "number": "93",
+  "artist": "Haru Akasaka",
+  "rarity": "Uncommon",
+  "flavorText": "They say that flower gardens created by Florges are constantly showered with a power that can heal both body and spirit.",
+  "nationalPokedexNumbers": [
+    671
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv1/93.png",
+    "large": "https://images.pokemontcg.io/sv1/93_hires.png"
+  }
+}

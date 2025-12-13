@@ -1,0 +1,78 @@
+{
+  "id": "swsh10tg-TG10",
+  "name": "Galarian Obstagoon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Galarian Linoone",
+  "abilities": [
+    {
+      "name": "Untamed Shout",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put 3 damage counters on 1 of your opponent's Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Obstruct",
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "90",
+      "text": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh10tg",
+    "name": "Astral Radiance Trainer Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 30,
+    "total": 30,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ASR",
+    "releaseDate": "2022/05/27",
+    "updatedAt": "2022/05/27 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh10tg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh10tg/logo.png"
+    }
+  },
+  "number": "TG10",
+  "artist": "GOSSAN",
+  "rarity": "Trainer Gallery Rare Holo",
+  "flavorText": "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
+  "nationalPokedexNumbers": [
+    862
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh10tg/TG10.png",
+    "large": "https://images.pokemontcg.io/swsh10tg/TG10_hires.png"
+  }
+}

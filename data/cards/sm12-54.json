@@ -1,0 +1,71 @@
+{
+  "id": "sm12-54",
+  "name": "Piplup",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Prinplup"
+  ],
+  "attacks": [
+    {
+      "name": "Bubble Hold",
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "54",
+  "artist": "Suwama Chiaki",
+  "rarity": "Common",
+  "flavorText": "It doesn't like to be taken care of. It's difficult to bond with since it won't listen to its Trainer.",
+  "nationalPokedexNumbers": [
+    393
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/54.png",
+    "large": "https://images.pokemontcg.io/sm12/54_hires.png"
+  }
+}

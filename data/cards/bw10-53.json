@@ -1,0 +1,81 @@
+{
+  "id": "bw10-53",
+  "name": "Archen",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Restored"
+  ],
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Plume Fossil",
+  "evolvesTo": [
+    "Archeops"
+  ],
+  "rules": [
+    "Put this card onto your Bench only with the effect of Plume Fossil"
+  ],
+  "abilities": [
+    {
+      "name": "Prehistoric Call",
+      "text": "Once during your turn (before your attack), if this Pokémon is in your discard pile, you may put this Pokémon on the bottom of your deck.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wing Attack",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw10",
+    "name": "Plasma Blast",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 105,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLB",
+    "releaseDate": "2013/08/14",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw10/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw10/logo.png"
+    }
+  },
+  "number": "53",
+  "artist": "Mizue",
+  "rarity": "Uncommon",
+  "flavorText": "It was revived from an ancient fossil. Not able to fly, it lived in treetops and hopped from one branch to another.",
+  "nationalPokedexNumbers": [
+    566
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw10/53.png",
+    "large": "https://images.pokemontcg.io/bw10/53_hires.png"
+  }
+}

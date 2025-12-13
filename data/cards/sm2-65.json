@@ -1,0 +1,81 @@
+{
+  "id": "sm2-65",
+  "name": "Machamp",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Machoke",
+  "attacks": [
+    {
+      "name": "Settle the Score",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "This attack does 80 more damage for each Prize card your opponent took on their last turn."
+    },
+    {
+      "name": "Submission",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "150",
+      "text": "This Pokémon does 30 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm2",
+    "name": "Guardians Rising",
+    "series": "Sun & Moon",
+    "printedTotal": 145,
+    "total": 180,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "GRI",
+    "releaseDate": "2017/05/05",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm2/logo.png"
+    }
+  },
+  "number": "65",
+  "artist": "Hitoshi Ariga",
+  "rarity": "Rare Holo",
+  "flavorText": "It unleashes megaton-level punches that send opponents flying clear over the horizon.",
+  "nationalPokedexNumbers": [
+    68
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm2/65.png",
+    "large": "https://images.pokemontcg.io/sm2/65_hires.png"
+  }
+}

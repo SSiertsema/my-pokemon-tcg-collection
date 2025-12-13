@@ -1,0 +1,74 @@
+{
+  "id": "ex14-100",
+  "name": "Celebi ★",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Star"
+  ],
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "rules": [
+    "You can't have more than 1 Pokémon Star in your deck."
+  ],
+  "abilities": [
+    {
+      "name": "Time Travel",
+      "text": "If Celebi Star would be Knocked Out by damage from an opponent's attack, you may flip a coin. If heads, Celebi Star is not Knocked Out, discard all cards attached to Celebi Star, and put Celebi Star on the bottom of your deck.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Leaf Shade",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Count the amount of Energy attached to Celebi Star. Put that many damage counters on 1 of your opponent's Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex14",
+    "name": "Crystal Guardians",
+    "series": "EX",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CG",
+    "releaseDate": "2006/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex14/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex14/logo.png"
+    }
+  },
+  "number": "100",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare Holo Star",
+  "nationalPokedexNumbers": [
+    251
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex14/100.png",
+    "large": "https://images.pokemontcg.io/ex14/100_hires.png"
+  }
+}

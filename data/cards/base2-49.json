@@ -1,0 +1,77 @@
+{
+  "id": "base2-49",
+  "name": "Bellsprout",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "11",
+  "hp": "40",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Weepinbell"
+  ],
+  "attacks": [
+    {
+      "name": "Vine Whip",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Basic Pokémon named Bellsprout and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench is full.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base2",
+    "name": "Jungle",
+    "series": "Base",
+    "printedTotal": 64,
+    "total": 64,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "JU",
+    "releaseDate": "1999/06/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base2/symbol.png",
+      "logo": "https://images.pokemontcg.io/base2/logo.png"
+    }
+  },
+  "number": "49",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Common",
+  "flavorText": "A carnivorous Pokémon that traps and eats bugs. It uses its root feet to soak up needed moisture.",
+  "nationalPokedexNumbers": [
+    69
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base2/49.png",
+    "large": "https://images.pokemontcg.io/base2/49_hires.png"
+  }
+}

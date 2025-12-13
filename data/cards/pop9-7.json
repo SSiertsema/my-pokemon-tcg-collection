@@ -1,0 +1,78 @@
+{
+  "id": "pop9-7",
+  "name": "Croagunk",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "19",
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Toxicroak"
+  ],
+  "attacks": [
+    {
+      "name": "Knock Off",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, choose 1 card from your opponent's hand without looking and discard it."
+    },
+    {
+      "name": "Nimble",
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "If you have Turtwig in play, remove from Croagunk the number of damage counters equal to the damage you did to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pop9",
+    "name": "POP Series 9",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2009/03/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop9/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop9/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "Midori Harada",
+  "rarity": "Uncommon",
+  "flavorText": "Inflating its poison sacs, it makes an eerie blubbering sound for intimidation.",
+  "nationalPokedexNumbers": [
+    453
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop9/7.png",
+    "large": "https://images.pokemontcg.io/pop9/7_hires.png"
+  }
+}

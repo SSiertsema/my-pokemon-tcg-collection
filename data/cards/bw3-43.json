@@ -1,0 +1,66 @@
+{
+  "id": "bw3-43",
+  "name": "Victini",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "V-blast",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "120",
+      "text": "Flip 2 coins. If either of them is tails, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw3",
+    "name": "Noble Victories",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "NVI",
+    "releaseDate": "2011/11/16",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw3/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw3/logo.png"
+    }
+  },
+  "number": "43",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare",
+  "flavorText": "It creates an unlimited supply of energy inside its body, which it shares with those who touch it.",
+  "nationalPokedexNumbers": [
+    494
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw3/43.png",
+    "large": "https://images.pokemontcg.io/bw3/43_hires.png"
+  }
+}

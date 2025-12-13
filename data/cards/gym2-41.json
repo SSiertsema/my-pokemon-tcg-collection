@@ -1,0 +1,78 @@
+{
+  "id": "gym2-41",
+  "name": "Erika's Ivysaur",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "22",
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Erika's Bulbasaur",
+  "evolvesTo": [
+    "Venusaur"
+  ],
+  "abilities": [
+    {
+      "name": "Relaxing Scent",
+      "text": "As long as Erika's Ivysaur is your Active Pokémon, whenever an attack (even your own) does damage to any Pokémon (after applying Weakness and Resistance), that attack only does half the damage to that Pokémon (rounded up to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Erika's Ivysaur is Asleep, Confused, or Paralyzed.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Double Razor Leaf",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40×",
+      "text": "Flip 2 coins. This attack does 40 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "gym2",
+    "name": "Gym Challenge",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G2",
+    "releaseDate": "2000/10/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym2/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym2/logo.png"
+    }
+  },
+  "number": "41",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    2
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym2/41.png",
+    "large": "https://images.pokemontcg.io/gym2/41_hires.png"
+  }
+}

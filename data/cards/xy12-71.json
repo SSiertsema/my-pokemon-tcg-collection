@@ -1,0 +1,70 @@
+{
+  "id": "xy12-71",
+  "name": "Porygon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "12",
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Porygon2"
+  ],
+  "attacks": [
+    {
+      "name": "Conversion 3",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Choose Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Fairy, or Dragon type. The Defending Pokémon's Weakness is now that type until the end of your next turn. (The amount of Weakness doesn't change.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy12",
+    "name": "Evolutions",
+    "series": "XY",
+    "printedTotal": 108,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVO",
+    "releaseDate": "2016/11/02",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy12/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy12/logo.png"
+    }
+  },
+  "number": "71",
+  "artist": "Tomoaki Imakuni",
+  "rarity": "Uncommon",
+  "flavorText": "Using the most advanced technologies, scientists finally succeeded in making the first artificial Pokémon.",
+  "nationalPokedexNumbers": [
+    137
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy12/71.png",
+    "large": "https://images.pokemontcg.io/xy12/71_hires.png"
+  }
+}

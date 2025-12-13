@@ -1,0 +1,87 @@
+{
+  "id": "sv3-66",
+  "name": "Tyranitar ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "ex",
+    "Tera"
+  ],
+  "hp": "340",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Pupitar",
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  ],
+  "attacks": [
+    {
+      "name": "Mountain Hurl",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "120",
+      "text": "Discard the top 2 cards of your deck."
+    },
+    {
+      "name": "Lightning Rampage",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "150+",
+      "text": "If your Benched Pokémon have any damage counters on them, this attack does 100 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "sv3",
+    "name": "Obsidian Flames",
+    "series": "Scarlet & Violet",
+    "printedTotal": 197,
+    "total": 230,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/08/11",
+    "updatedAt": "2023/08/11 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3/logo.png"
+    }
+  },
+  "number": "66",
+  "artist": "5ban Graphics",
+  "rarity": "Double Rare",
+  "nationalPokedexNumbers": [
+    248
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3/66.png",
+    "large": "https://images.pokemontcg.io/sv3/66_hires.png"
+  }
+}

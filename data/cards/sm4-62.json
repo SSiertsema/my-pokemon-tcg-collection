@@ -1,0 +1,83 @@
+{
+  "id": "sm4-62",
+  "name": "Hydreigon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Zweilous",
+  "abilities": [
+    {
+      "name": "Weed Out",
+      "text": "Once during your turn (before your attack), you may choose 3 of your Benched Pokémon. Then, discard your other Benched Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Dark Destruction",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120",
+      "text": "You may discard an Energy from this Pokémon. If you do, discard an Energy from your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm4",
+    "name": "Crimson Invasion",
+    "series": "Sun & Moon",
+    "printedTotal": 111,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CIN",
+    "releaseDate": "2017/11/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm4/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "Anesaki Dynamic",
+  "rarity": "Rare",
+  "flavorText": "The heads on their arms do not have brains. They use all three heads to consume and destroy everything.",
+  "nationalPokedexNumbers": [
+    635
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm4/62.png",
+    "large": "https://images.pokemontcg.io/sm4/62_hires.png"
+  }
+}

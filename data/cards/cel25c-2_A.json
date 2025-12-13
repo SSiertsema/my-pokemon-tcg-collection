@@ -1,0 +1,77 @@
+{
+  "id": "cel25c-2_A",
+  "name": "Blastoise",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "52",
+  "hp": "100",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Wartortle",
+  "abilities": [
+    {
+      "name": "Rain Dance",
+      "text": "As often as you like during your turn (before your attack), you may attach 1 Water Energy card to 1 of your Water Pokémon. (This doesn't use up your 1 Energy card attachment for the turn.) This power can't be used if Blastoise is Asleep, Confused, or Paralyzed.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "name": "Hydro Pump",
+      "damage": "40+",
+      "text": "Does 40 damage plus 10 more damage for each Water Energy attached to Blastoise but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count.",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "cel25c",
+    "name": "Celebrations: Classic Collection",
+    "series": "Sword & Shield",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CEL",
+    "releaseDate": "2021/10/08",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/cel25c/symbol.png",
+      "logo": "https://images.pokemontcg.io/cel25c/logo.png"
+    }
+  },
+  "number": "2",
+  "artist": "Ken Sugimori",
+  "rarity": "Classic Collection",
+  "flavorText": "A brutal Pokémon with pressurized water jets on its shell. They are used for high-speed tackles.",
+  "nationalPokedexNumbers": [
+    9
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/cel25c/2_A.png",
+    "large": "https://images.pokemontcg.io/cel25c/2_A_hires.png"
+  }
+}

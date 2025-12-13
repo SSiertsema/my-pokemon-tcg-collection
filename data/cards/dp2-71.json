@@ -1,0 +1,76 @@
+{
+  "id": "dp2-71",
+  "name": "Aron",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "15",
+  "hp": "50",
+  "types": [
+    "Metal"
+  ],
+  "evolvesTo": [
+    "Lairon"
+  ],
+  "attacks": [
+    {
+      "name": "Steel Tackle",
+      "cost": [
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Aron does 10 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+10"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "71",
+  "artist": "Yuka Morii",
+  "rarity": "Common",
+  "flavorText": "It usually lives deep in mountains. However, hunger may drive it to eat railroad tracks and cars.",
+  "nationalPokedexNumbers": [
+    304
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/71.png",
+    "large": "https://images.pokemontcg.io/dp2/71_hires.png"
+  }
+}

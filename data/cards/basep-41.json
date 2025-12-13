@@ -1,0 +1,39 @@
+{
+  "id": "basep-41",
+  "name": "Lucky Stadium",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+    "Once during each player's turn (before attacking), that player may flip a coin. If heads, that player draws a card."
+  ],
+  "set": {
+    "id": "basep",
+    "name": "Wizards Black Star Promos",
+    "series": "Base",
+    "printedTotal": 53,
+    "total": 53,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR",
+    "releaseDate": "1999/07/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/basep/symbol.png",
+      "logo": "https://images.pokemontcg.io/basep/logo.png"
+    }
+  },
+  "number": "41",
+  "artist": "\"Big Mama\" Tagawa",
+  "rarity": "Promo",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/basep/41.png",
+    "large": "https://images.pokemontcg.io/basep/41_hires.png"
+  }
+}

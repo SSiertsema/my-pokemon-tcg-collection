@@ -1,0 +1,73 @@
+{
+  "id": "sv8pt5-72",
+  "name": "Drakloak",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Dreepy",
+  "evolvesTo": [
+    "Dragapult"
+  ],
+  "abilities": [
+    {
+      "name": "Recon Directive",
+      "text": "Once during your turn, you may look at the top 2 cards of your deck and put 1 of them into your hand. Put the other card on the bottom of your deck.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Dragon Headbutt",
+      "cost": [
+        "Fire",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70",
+      "text": ""
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv8pt5",
+    "name": "Prismatic Evolutions",
+    "series": "Scarlet & Violet",
+    "printedTotal": 131,
+    "total": 180,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PRE",
+    "releaseDate": "2025/01/17",
+    "updatedAt": "025/01/16 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv8pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv8pt5/logo.png"
+    }
+  },
+  "number": "72",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    886
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv8pt5/72.png",
+    "large": "https://images.pokemontcg.io/sv8pt5/72_hires.png"
+  }
+}

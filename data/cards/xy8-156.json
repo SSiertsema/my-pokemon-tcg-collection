@@ -1,0 +1,78 @@
+{
+  "id": "xy8-156",
+  "name": "M Glalie-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "MEGA",
+    "EX"
+  ],
+  "hp": "220",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Glalie-EX",
+  "evolvesTo": [
+    "Froslass"
+  ],
+  "rules": [
+    "Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.",
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Cryo Mouth",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100+",
+      "text": "If this Pokémon has 10 or more damage counters on it, this attack does 150 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy8",
+    "name": "BREAKthrough",
+    "series": "XY",
+    "printedTotal": 162,
+    "total": 165,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKT",
+    "releaseDate": "2015/11/04",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy8/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy8/logo.png"
+    }
+  },
+  "number": "156",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Ultra",
+  "nationalPokedexNumbers": [
+    362
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy8/156.png",
+    "large": "https://images.pokemontcg.io/xy8/156_hires.png"
+  }
+}

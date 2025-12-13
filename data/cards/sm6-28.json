@@ -1,0 +1,84 @@
+{
+  "id": "sm6-28",
+  "name": "Aurorus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Amaura",
+  "attacks": [
+    {
+      "name": "Frost Wall",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon."
+    },
+    {
+      "name": "Blizzard Burn",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "150",
+      "text": "This Pokémon can't attack during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "sm6",
+    "name": "Forbidden Light",
+    "series": "Sun & Moon",
+    "printedTotal": 131,
+    "total": 150,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLI",
+    "releaseDate": "2018/05/04",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm6/logo.png"
+    }
+  },
+  "number": "28",
+  "artist": "Suwama Chiaki",
+  "rarity": "Rare Holo",
+  "flavorText": "Using its diamond-shaped crystals, it can instantly create a wall of ice to block an opponent's attack.",
+  "nationalPokedexNumbers": [
+    699
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm6/28.png",
+    "large": "https://images.pokemontcg.io/sm6/28_hires.png"
+  }
+}

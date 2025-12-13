@@ -1,0 +1,88 @@
+{
+  "id": "dp2-53",
+  "name": "Lairon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "32",
+  "hp": "80",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Aron",
+  "evolvesTo": [
+    "Aggron"
+  ],
+  "attacks": [
+    {
+      "name": "Mend",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your discard pile for a Metal Energy card and attach it to Lairon. If you do, remove 2 damage counters from Lairon."
+    },
+    {
+      "name": "Confront",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "53",
+  "artist": "Midori Harada",
+  "rarity": "Uncommon",
+  "flavorText": "For food, it digs up iron ore. It smashes its steely body against others to fight over territory.",
+  "nationalPokedexNumbers": [
+    305
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/53.png",
+    "large": "https://images.pokemontcg.io/dp2/53_hires.png"
+  }
+}

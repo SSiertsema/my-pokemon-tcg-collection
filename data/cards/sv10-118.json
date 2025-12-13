@@ -1,0 +1,86 @@
+{
+  "id": "sv10-118",
+  "name": "Team Rocket's Nidorino",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Team Rocket's Nidoran♂",
+  "evolvesTo": [
+    "Nidoking"
+  ],
+  "attacks": [
+    {
+      "name": "Hammer In",
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Horn Rend",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 60 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv10",
+    "name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 244,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRI",
+    "releaseDate": "2025/05/30",
+    "updatedAt": "2025/05/29 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv10/logo.png"
+    }
+  },
+  "number": "118",
+  "artist": "KEIICHIRO ITO",
+  "rarity": "Common",
+  "flavorText": "It's nervous and quick to act aggressively. The potency of its poison increases along with the level of adrenaline present in its body.",
+  "nationalPokedexNumbers": [
+    33
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv10/118.png",
+    "large": "https://images.pokemontcg.io/sv10/118_hires.png"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "xy8-34",
+  "name": "Glalie-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "EX"
+  ],
+  "hp": "170",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Froslass"
+  ],
+  "rules": [
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Ice Breath",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    },
+    {
+      "name": "Instant Freeze",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50+",
+      "text": "If you have the same number of cards in your hand as your opponent, this attack does 100 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy8",
+    "name": "BREAKthrough",
+    "series": "XY",
+    "printedTotal": 162,
+    "total": 165,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKT",
+    "releaseDate": "2015/11/04",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy8/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy8/logo.png"
+    }
+  },
+  "number": "34",
+  "artist": "Eske Yoshinob",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    362
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy8/34.png",
+    "large": "https://images.pokemontcg.io/xy8/34_hires.png"
+  }
+}

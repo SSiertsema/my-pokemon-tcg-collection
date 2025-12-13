@@ -1,0 +1,73 @@
+{
+  "id": "dp2-88",
+  "name": "Magby",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "5",
+  "hp": "40",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Magmar"
+  ],
+  "abilities": [
+    {
+      "name": "Baby Evolution",
+      "text": "Once during your turn (before your attack), you may put Magmar from your hand onto Magby (this counts as evolving Magby) and remove all damage counters from Magby.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Scorch",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Burned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "88",
+  "artist": "Midori Harada",
+  "rarity": "Common",
+  "flavorText": "Its body temperature is around 1,100 degrees F. It is healthy if it is breathing yellow flames.",
+  "nationalPokedexNumbers": [
+    240
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/88.png",
+    "large": "https://images.pokemontcg.io/dp2/88_hires.png"
+  }
+}

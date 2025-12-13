@@ -1,0 +1,67 @@
+{
+  "id": "si1-15",
+  "name": "Wartortle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Squirtle",
+  "evolvesTo": [
+    "Blastoise"
+  ],
+  "attacks": [
+    {
+      "name": "Water Gun",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "Does 20 damage plus 10 more damage for each Water Energy attached to Wartortle but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "si1",
+    "name": "Southern Islands",
+    "series": "Other",
+    "printedTotal": 18,
+    "total": 18,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2001/07/31",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/si1/symbol.png",
+      "logo": "https://images.pokemontcg.io/si1/logo.png"
+    }
+  },
+  "number": "15",
+  "artist": "Naoyo Kimura",
+  "flavorText": "When attacked, this Pokémon withdraws into its shell, although it can't quite pull in all of its long tail.",
+  "nationalPokedexNumbers": [
+    8
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/si1/15.png",
+    "large": "https://images.pokemontcg.io/si1/15_hires.png"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "swshp-SWSH180",
+  "name": "Flareon VMAX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VMAX",
+    "Single Strike"
+  ],
+  "hp": "320",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Flareon V",
+  "rules": [
+    "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Max Detonate",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100×",
+      "text": "Discard the top 5 cards of your deck. This attack does 100 damage for each Energy card you discarded in this way."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH180",
+  "artist": "OKACHEKE",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    136
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH180.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH180_hires.png"
+  }
+}

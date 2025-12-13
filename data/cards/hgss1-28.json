@@ -1,0 +1,62 @@
+{
+  "id": "hgss1-28",
+  "name": "Pichu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "30",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Pikachu"
+  ],
+  "abilities": [
+    {
+      "name": "Sweet Sleeping Face",
+      "text": "As long as Pichu is Asleep, prevent all damage done to Pichu by attacks.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Playground",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Each player may search his or her deck for as many Basic Pokémon as he or she likes, put them onto his or her Bench, and shuffle his or her deck afterward. (You put your Pokémon on the Bench first.) Pichu is now Asleep."
+    }
+  ],
+  "set": {
+    "id": "hgss1",
+    "name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss1/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss1/logo.png"
+    }
+  },
+  "number": "28",
+  "artist": "match",
+  "rarity": "Rare",
+  "flavorText": "Despite its small size, it can zap even adult humans. However, if it does so, it also surprises itself.",
+  "nationalPokedexNumbers": [
+    172
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss1/28.png",
+    "large": "https://images.pokemontcg.io/hgss1/28_hires.png"
+  }
+}

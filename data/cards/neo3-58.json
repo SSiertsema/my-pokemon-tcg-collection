@@ -1,0 +1,75 @@
+{
+  "id": "neo3-58",
+  "name": "Unown [K]",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "14",
+  "hp": "40",
+  "types": [
+    "Psychic"
+  ],
+  "rules": [
+    "You may have up to 4 Basic Pokémon cards in your deck with Unown in their names."
+  ],
+  "abilities": [
+    {
+      "name": "[Keep]",
+      "text": "Your opponent's attacks, Pokémon Powers, and Trainer cards can't discard Energy cards from your Pokémon with Unown in their names. (Any other effects still happen.)",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hidden Power",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo3",
+    "name": "Neo Revelation",
+    "series": "Neo",
+    "printedTotal": 64,
+    "total": 66,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N3",
+    "releaseDate": "2001/09/21",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo3/logo.png"
+    }
+  },
+  "number": "58",
+  "artist": "CR CG gangs",
+  "rarity": "Common",
+  "flavorText": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
+  "nationalPokedexNumbers": [
+    201
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo3/58.png",
+    "large": "https://images.pokemontcg.io/neo3/58_hires.png"
+  }
+}

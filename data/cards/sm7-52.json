@@ -1,0 +1,76 @@
+{
+  "id": "sm7-52",
+  "name": "Manectric",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Electrike",
+  "abilities": [
+    {
+      "name": "Electric Start",
+      "text": "If you go second, and if this Pokémon is in your hand when you are setting up to play, you may put it face down as your Active Pokémon or on your Bench.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Double Charge",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": "You may attach up to 2 basic Energy cards from your hand to 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "sm7",
+    "name": "Celestial Storm",
+    "series": "Sun & Moon",
+    "printedTotal": 168,
+    "total": 187,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CES",
+    "releaseDate": "2018/08/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm7/logo.png"
+    }
+  },
+  "number": "52",
+  "artist": "Sanosuke Sakuma",
+  "rarity": "Rare",
+  "flavorText": "It discharges electricity from its mane. It creates a thundercloud overhead to drop lightning bolts.",
+  "nationalPokedexNumbers": [
+    310
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm7/52.png",
+    "large": "https://images.pokemontcg.io/sm7/52_hires.png"
+  }
+}

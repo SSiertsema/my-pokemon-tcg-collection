@@ -1,0 +1,63 @@
+{
+  "id": "gym1-91",
+  "name": "Sabrina's Abra",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "11",
+  "hp": "40",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Kadabra"
+  ],
+  "attacks": [
+    {
+      "name": "Energy Loop",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Return a Psychic Energy card attached to Sabrina's Abra to your hand in order to use this attack."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "gym1",
+    "name": "Gym Heroes",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G1",
+    "releaseDate": "2000/08/14",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym1/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym1/logo.png"
+    }
+  },
+  "number": "91",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    63
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym1/91.png",
+    "large": "https://images.pokemontcg.io/gym1/91_hires.png"
+  }
+}

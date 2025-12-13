@@ -1,0 +1,74 @@
+{
+  "id": "neo1-71",
+  "name": "Sentret",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "13",
+  "hp": "40",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Furret"
+  ],
+  "attacks": [
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10×",
+      "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo1",
+    "name": "Neo Genesis",
+    "series": "Neo",
+    "printedTotal": 111,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N1",
+    "releaseDate": "2000/12/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo1/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo1/logo.png"
+    }
+  },
+  "number": "71",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "A very cautious Pokémon, it raises itself up using its tail to get a better view of its surroundings.",
+  "nationalPokedexNumbers": [
+    161
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo1/71.png",
+    "large": "https://images.pokemontcg.io/neo1/71_hires.png"
+  }
+}

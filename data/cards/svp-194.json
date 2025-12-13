@@ -1,0 +1,83 @@
+{
+  "id": "svp-194",
+  "name": "Iono's Bellibolt ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "ex"
+  ],
+  "hp": "280",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Iono's Tadbulb",
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Electric Streamer",
+      "text": "As often as you like during your turn, you may attach a Basic Lightning Energy card from your hand to 1 of your Iono's Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Thunderous Bolt",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "230",
+      "text": "During your next turn, this Pokémon can't attack."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "svp",
+    "name": "Scarlet & Violet Promos",
+    "series": "Scarlet & Violet",
+    "printedTotal": 150,
+    "total": 148,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2022/11/01",
+    "updatedAt": "2023/07/20 22:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+      "logo": "https://images.pokemontcg.io/svp/logo.png"
+    }
+  },
+  "number": "194",
+  "artist": "PLANETA Mochizuki",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    939
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/svp/194.png",
+    "large": "https://images.pokemontcg.io/svp/194_hires.png"
+  }
+}

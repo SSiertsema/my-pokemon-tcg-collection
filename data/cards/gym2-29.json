@@ -1,0 +1,78 @@
+{
+  "id": "gym2-29",
+  "name": "Sabrina's Gengar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "42",
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Sabrina's Haunter",
+  "attacks": [
+    {
+      "name": "Dark Wave",
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "All Pokémon Powers stop working until the end of your opponent's next turn."
+    },
+    {
+      "name": "Shadow Bind",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "gym2",
+    "name": "Gym Challenge",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G2",
+    "releaseDate": "2000/10/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym2/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym2/logo.png"
+    }
+  },
+  "number": "29",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    94
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym2/29.png",
+    "large": "https://images.pokemontcg.io/gym2/29_hires.png"
+  }
+}

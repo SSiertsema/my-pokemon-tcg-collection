@@ -1,0 +1,81 @@
+{
+  "id": "base5-27",
+  "name": "Dark Machamp",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "30",
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Dark Machoke",
+  "attacks": [
+    {
+      "name": "Mega Punch",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Fling",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "",
+      "text": "Your opponent shuffles his or her Active Pokémon and all cards attached to it into his or her deck. This attack can't be used if your opponent has no Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "base5",
+    "name": "Team Rocket",
+    "series": "Base",
+    "printedTotal": 82,
+    "total": 83,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TR",
+    "releaseDate": "2000/04/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base5/symbol.png",
+      "logo": "https://images.pokemontcg.io/base5/logo.png"
+    }
+  },
+  "number": "27",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "flavorText": "It is almost impossible to defend against a Machamp's four powerful arms.",
+  "nationalPokedexNumbers": [
+    68
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base5/27.png",
+    "large": "https://images.pokemontcg.io/base5/27_hires.png"
+  }
+}

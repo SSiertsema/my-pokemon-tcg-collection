@@ -1,0 +1,41 @@
+{
+  "id": "sm11-206",
+  "name": "Reset Stamp",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Your opponent shuffles their hand into their deck and draws a card for each of their remaining Prize cards.",
+    "You may play as many Item cards as you like during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "206",
+  "artist": "sadaji",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Banned"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/206.png",
+    "large": "https://images.pokemontcg.io/sm11/206_hires.png"
+  }
+}

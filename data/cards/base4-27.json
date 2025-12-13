@@ -1,0 +1,73 @@
+{
+  "id": "base4-27",
+  "name": "Mr. Mime",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "28",
+  "hp": "40",
+  "types": [
+    "Psychic"
+  ],
+  "abilities": [
+    {
+      "name": "Invisible Wall",
+      "text": "Whenever an attack (including your own) does 30 or more damage to Mr. Mime (after applying Weakness and Resistance), prevent that damage. (Any other effects of attacks still happen.) This power stops working while Mr. Mime is Asleep, Confused, or Paralyzed.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Meditate",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10+",
+      "text": "Does 10 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base4",
+    "name": "Base Set 2",
+    "series": "Base",
+    "printedTotal": 130,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "B2",
+    "releaseDate": "2000/02/24",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base4/symbol.png",
+      "logo": "https://images.pokemontcg.io/base4/logo.png"
+    }
+  },
+  "number": "27",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare",
+  "flavorText": "If interrupted while miming, it will slap around the enemy with its broad hands.",
+  "nationalPokedexNumbers": [
+    122
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base4/27.png",
+    "large": "https://images.pokemontcg.io/base4/27_hires.png"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "sm9-88",
+  "name": "Absol",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "100",
+  "types": [
+    "Darkness"
+  ],
+  "abilities": [
+    {
+      "name": "Dark Ambition",
+      "text": "If your opponent's Active Pokémon is a Basic Pokémon, its Retreat Cost is Colorless more.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Shadow Seeker",
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "This attack does 30 more damage for each Colorless in your opponent's Active Pokémon's Retreat Cost."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm9",
+    "name": "Team Up",
+    "series": "Sun & Moon",
+    "printedTotal": 181,
+    "total": 198,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEU",
+    "releaseDate": "2019/02/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm9/logo.png"
+    }
+  },
+  "number": "88",
+  "artist": "nagimiso",
+  "rarity": "Rare Holo",
+  "flavorText": "Although it's said to bring disaster, in actuality, this Pokémon possesses a calm disposition and warns people of any crises that loom.",
+  "nationalPokedexNumbers": [
+    359
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm9/88.png",
+    "large": "https://images.pokemontcg.io/sm9/88_hires.png"
+  }
+}

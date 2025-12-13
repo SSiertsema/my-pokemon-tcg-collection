@@ -1,0 +1,80 @@
+{
+  "id": "sm8-36",
+  "name": "Gogoat",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Skiddo",
+  "attacks": [
+    {
+      "name": "Leaf Wallop",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "During your next turn, this Pokémon's Leaf Wallop attack does 50 more damage (before applying Weakness and Resistance)."
+    },
+    {
+      "name": "Solar Beam",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "sowsow",
+  "rarity": "Uncommon",
+  "flavorText": "They inhabit mountainous regions. The leader of the herd is decided by a battle of clashing horns.",
+  "nationalPokedexNumbers": [
+    673
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/36.png",
+    "large": "https://images.pokemontcg.io/sm8/36_hires.png"
+  }
+}

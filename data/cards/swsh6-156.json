@@ -1,0 +1,45 @@
+{
+  "id": "swsh6-156",
+  "name": "Welcoming Lantern",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item",
+    "Single Strike"
+  ],
+  "rules": [
+    "Put a Single Strike Supporter card from your discard pile into your hand.",
+    "You may play any number of Item cards during your turn."
+  ],
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "156",
+  "artist": "Studio Bora Inc.",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/156.png",
+    "large": "https://images.pokemontcg.io/swsh6/156_hires.png"
+  }
+}

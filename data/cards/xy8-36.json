@@ -1,0 +1,70 @@
+{
+  "id": "xy8-36",
+  "name": "Piplup",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Prinplup"
+  ],
+  "attacks": [
+    {
+      "name": "Wave Splash",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy8",
+    "name": "BREAKthrough",
+    "series": "XY",
+    "printedTotal": 162,
+    "total": 165,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKT",
+    "releaseDate": "2015/11/04",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy8/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy8/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Kanako Eo",
+  "rarity": "Common",
+  "flavorText": "Because it is very proud, it hates accepting food from people. Its thick down guards it from cold.",
+  "nationalPokedexNumbers": [
+    393
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy8/36.png",
+    "large": "https://images.pokemontcg.io/xy8/36_hires.png"
+  }
+}

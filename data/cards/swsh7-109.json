@@ -1,0 +1,73 @@
+{
+  "id": "swsh7-109",
+  "name": "Salamence",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "170",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Shelgon",
+  "abilities": [
+    {
+      "name": "Intimidating Roar",
+      "text": "Once during your turn, you may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Fierce Dragon",
+      "cost": [
+        "Fire",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "100+",
+      "text": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 120 more damage."
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh7",
+    "name": "Evolving Skies",
+    "series": "Sword & Shield",
+    "printedTotal": 203,
+    "total": 237,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVS",
+    "releaseDate": "2021/08/27",
+    "updatedAt": "2021/08/27 10:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh7/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh7/logo.png"
+    }
+  },
+  "number": "109",
+  "artist": "kodama",
+  "rarity": "Rare Holo",
+  "flavorText": "Thanks to its fervent wishes, the cells in its body finally mutated, and at last it has its heart's desire—wings.",
+  "nationalPokedexNumbers": [
+    373
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh7/109.png",
+    "large": "https://images.pokemontcg.io/swsh7/109_hires.png"
+  }
+}

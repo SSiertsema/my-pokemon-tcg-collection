@@ -1,0 +1,39 @@
+{
+  "id": "ex8-91",
+  "name": "Space Center",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+    "Ignore Poké-Bodies for all Basic Pokémon in play (both yours and your opponent's) (excluding Pokémon-ex and Pokémon that has an owner in its name)."
+  ],
+  "set": {
+    "id": "ex8",
+    "name": "Deoxys",
+    "series": "EX",
+    "printedTotal": 107,
+    "total": 108,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DX",
+    "releaseDate": "2005/02/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex8/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex8/logo.png"
+    }
+  },
+  "number": "91",
+  "artist": "Ryo Ueda",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex8/91.png",
+    "large": "https://images.pokemontcg.io/ex8/91_hires.png"
+  }
+}

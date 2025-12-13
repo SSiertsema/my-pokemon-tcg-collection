@@ -1,0 +1,38 @@
+{
+  "id": "base5-79",
+  "name": "Sleep!",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Rocket's Secret Machine"
+  ],
+  "rules": [
+    "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+  ],
+  "set": {
+    "id": "base5",
+    "name": "Team Rocket",
+    "series": "Base",
+    "printedTotal": 82,
+    "total": 83,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TR",
+    "releaseDate": "2000/04/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base5/symbol.png",
+      "logo": "https://images.pokemontcg.io/base5/logo.png"
+    }
+  },
+  "number": "79",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Common",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base5/79.png",
+    "large": "https://images.pokemontcg.io/base5/79_hires.png"
+  }
+}

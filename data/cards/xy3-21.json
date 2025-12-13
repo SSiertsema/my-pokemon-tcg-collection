@@ -1,0 +1,81 @@
+{
+  "id": "xy3-21",
+  "name": "Cubchoo",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Beartic"
+  ],
+  "attacks": [
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10×",
+      "text": "Flip 3 coins. This attack does 10 damage times the number of heads."
+    },
+    {
+      "name": "Frost Breath",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy3",
+    "name": "Furious Fists",
+    "series": "XY",
+    "printedTotal": 111,
+    "total": 114,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FFI",
+    "releaseDate": "2014/08/13",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy3/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy3/logo.png"
+    }
+  },
+  "number": "21",
+  "artist": "kirisAki",
+  "rarity": "Common",
+  "flavorText": "Its nose is always running. It sniffs the snot back up because the mucus provides the raw material for its moves.",
+  "nationalPokedexNumbers": [
+    613
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy3/21.png",
+    "large": "https://images.pokemontcg.io/xy3/21_hires.png"
+  }
+}

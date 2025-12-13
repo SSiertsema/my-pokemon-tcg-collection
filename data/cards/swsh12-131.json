@@ -1,0 +1,79 @@
+{
+  "id": "swsh12-131",
+  "name": "Dragonite",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Dragonair",
+  "attacks": [
+    {
+      "name": "Dragon Claw",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": ""
+    },
+    {
+      "name": "Energy Hurricane",
+      "cost": [
+        "Water",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "180",
+      "text": "Search your deck for up to 3 basic Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck."
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh12",
+    "name": "Silver Tempest",
+    "series": "Sword & Shield",
+    "printedTotal": 195,
+    "total": 215,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SIT",
+    "releaseDate": "2022/11/11",
+    "updatedAt": "2022/09/09 11:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12/logo.png"
+    }
+  },
+  "number": "131",
+  "artist": "Naoyo Kimura",
+  "rarity": "Rare Holo",
+  "flavorText": "It's a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them.",
+  "nationalPokedexNumbers": [
+    149
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12/131.png",
+    "large": "https://images.pokemontcg.io/swsh12/131_hires.png"
+  }
+}

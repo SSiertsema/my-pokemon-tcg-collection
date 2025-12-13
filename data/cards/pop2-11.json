@@ -1,0 +1,39 @@
+{
+  "id": "pop2-11",
+  "name": "TV Reporter",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.",
+    "Draw 3 cards. Then discard any 1 card from your hand."
+  ],
+  "set": {
+    "id": "pop2",
+    "name": "POP Series 2",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2005/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop2/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop2/11.png",
+    "large": "https://images.pokemontcg.io/pop2/11_hires.png"
+  }
+}

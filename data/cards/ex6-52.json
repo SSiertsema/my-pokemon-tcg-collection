@@ -1,0 +1,72 @@
+{
+  "id": "ex6-52",
+  "name": "Wigglytuff",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Jigglypuff",
+  "abilities": [
+    {
+      "name": "Assistance",
+      "text": "Once during your turn (before your attack), if Wigglytuff is on your Bench, you may choose 1 of your Active Pokémon and remove 1 Special Condition from it.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Expand",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "During your opponent's next turn, any damage done to Wigglytuff by attacks is reduced by 10 (after applying Weakness and Resistance)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex6",
+    "name": "FireRed & LeafGreen",
+    "series": "EX",
+    "printedTotal": 112,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RG",
+    "releaseDate": "2004/09/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex6/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex6/logo.png"
+    }
+  },
+  "number": "52",
+  "artist": "Kyoko Umemoto",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    40
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex6/52.png",
+    "large": "https://images.pokemontcg.io/ex6/52_hires.png"
+  }
+}

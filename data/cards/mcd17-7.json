@@ -1,0 +1,80 @@
+{
+  "id": "mcd17-7",
+  "name": "Crabrawler",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Crabominable"
+  ],
+  "attacks": [
+    {
+      "name": "Punch",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Crabhammer",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "mcd17",
+    "name": "McDonald's Collection 2017",
+    "series": "Other",
+    "printedTotal": 12,
+    "total": 12,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2017/11/07",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/mcd17/symbol.png",
+      "logo": "https://images.pokemontcg.io/mcd17/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "Shin Nagasawa",
+  "flavorText": "It punches so much, its pincers often come off from overuse, but they grow back quickly. What little meat they contain is rich and delicious.",
+  "nationalPokedexNumbers": [
+    739
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/mcd17/7.png",
+    "large": "https://images.pokemontcg.io/mcd17/7_hires.png"
+  }
+}

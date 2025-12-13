@@ -1,0 +1,86 @@
+{
+  "id": "neo4-55",
+  "name": "Scyther",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "21",
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Scizor"
+  ],
+  "attacks": [
+    {
+      "name": "Agility",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10",
+      "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Scyther."
+    },
+    {
+      "name": "Sharp Sickle",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo4",
+    "name": "Neo Destiny",
+    "series": "Neo",
+    "printedTotal": 105,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N4",
+    "releaseDate": "2002/02/28",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo4/logo.png"
+    }
+  },
+  "number": "55",
+  "artist": "Shin-ichi Yoshida",
+  "rarity": "Uncommon",
+  "flavorText": "It moves so fast as to be invisible to the naked eye. Even when standing still, its camouflage prevents it from being seen.",
+  "nationalPokedexNumbers": [
+    123
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo4/55.png",
+    "large": "https://images.pokemontcg.io/neo4/55_hires.png"
+  }
+}

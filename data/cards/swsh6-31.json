@@ -1,0 +1,80 @@
+{
+  "id": "swsh6-31",
+  "name": "Weavile",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Rapid Strike"
+  ],
+  "hp": "110",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Sneasel",
+  "attacks": [
+    {
+      "name": "Two-Hit KO",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "During your next turn, if the Defending Pokémon is damaged by an attack from a Rapid Strike Pokémon, it will be Knocked Out."
+    },
+    {
+      "name": "Nasty Plot",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "31",
+  "artist": "Taira Akitsu",
+  "rarity": "Rare Holo",
+  "flavorText": "With its claws, it leaves behind signs for its friends to find. The number of distinct signs is said to be over 500.",
+  "nationalPokedexNumbers": [
+    461
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/31.png",
+    "large": "https://images.pokemontcg.io/swsh6/31_hires.png"
+  }
+}

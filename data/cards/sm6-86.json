@@ -1,0 +1,83 @@
+{
+  "id": "sm6-86",
+  "name": "Florges",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesFrom": "Floette",
+  "abilities": [
+    {
+      "name": "Wondrous Gift",
+      "text": "Once during your turn (before your attack), you may flip a coin. If heads, put an Item card from your discard pile on top of your deck.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mist Guard",
+      "cost": [
+        "Fairy",
+        "Fairy",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "Prevent all damage done to this Pokémon by attacks from Dragon Pokémon during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm6",
+    "name": "Forbidden Light",
+    "series": "Sun & Moon",
+    "printedTotal": 131,
+    "total": 150,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLI",
+    "releaseDate": "2018/05/04",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm6/logo.png"
+    }
+  },
+  "number": "86",
+  "artist": "Satoshi Shirai",
+  "rarity": "Rare",
+  "flavorText": "In times long past, governors of castles would invite Florges to create flower gardens to embellish the castle domains.",
+  "nationalPokedexNumbers": [
+    671
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm6/86.png",
+    "large": "https://images.pokemontcg.io/sm6/86_hires.png"
+  }
+}

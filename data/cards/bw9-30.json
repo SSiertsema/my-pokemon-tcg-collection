@@ -1,0 +1,76 @@
+{
+  "id": "bw9-30",
+  "name": "Cryogonal",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Team Plasma"
+  ],
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Call Sign",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Water Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward."
+    },
+    {
+      "name": "Cryofreeze",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Discard an Energy attached to this Pokémon. The Defending Pokémon can't attack during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "30",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "flavorText": "They are composed of ice crystals. They capture prey with chains of ice, freezing the prey at -148° F.",
+  "nationalPokedexNumbers": [
+    615
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/30.png",
+    "large": "https://images.pokemontcg.io/bw9/30_hires.png"
+  }
+}

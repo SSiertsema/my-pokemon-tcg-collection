@@ -1,0 +1,75 @@
+{
+  "id": "pl3-SH7",
+  "name": "Milotic",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "52",
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Feebas",
+  "abilities": [
+    {
+      "name": "Aqua Mirage",
+      "text": "If you have no cards in your hand, prevent all damage done to Milotic by attacks from your opponent's Pokémon.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Dwindling Wave",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80-",
+      "text": "Does 80 damage minus 10 damage for each damage counter on Milotic."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "SH7",
+  "artist": "Hajime Kusajima",
+  "rarity": "Rare",
+  "flavorText": "Its lovely scales are described as rainbow colored. They change color depending on the viewing angle.",
+  "nationalPokedexNumbers": [
+    350
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/SH7.png",
+    "large": "https://images.pokemontcg.io/pl3/SH7_hires.png"
+  }
+}

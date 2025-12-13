@@ -1,0 +1,79 @@
+{
+  "id": "base3-51",
+  "name": "Krabby",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "20",
+  "hp": "50",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Kingler"
+  ],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Basic Pokémon named Krabby and put it onto your Bench. Shuffle your deck afterward. (You can't use this attack if your Bench if full.)"
+    },
+    {
+      "name": "Irongrip",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "base3",
+    "name": "Fossil",
+    "series": "Base",
+    "printedTotal": 62,
+    "total": 62,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "FO",
+    "releaseDate": "1999/10/10",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base3/symbol.png",
+      "logo": "https://images.pokemontcg.io/base3/logo.png"
+    }
+  },
+  "number": "51",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Common",
+  "flavorText": "Its pincers are not only powerful weapons, they are used for balance when walking sideways.",
+  "nationalPokedexNumbers": [
+    98
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base3/51.png",
+    "large": "https://images.pokemontcg.io/base3/51_hires.png"
+  }
+}

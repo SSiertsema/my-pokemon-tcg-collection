@@ -1,0 +1,75 @@
+{
+  "id": "pl2-56",
+  "name": "Ambipom G",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "SP"
+  ],
+  "level": "40",
+  "hp": "80",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Tail Code",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Move an Energy card attached to the Defending Pokémon to another of your opponent's Pokémon."
+    },
+    {
+      "name": "Snap Attack",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60",
+      "text": "If the Defending Pokémon has any Energy cards attached to it, this attack's base damage is 20 instead of 60."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "56",
+  "artist": "Makoto Imai",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    424
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/56.png",
+    "large": "https://images.pokemontcg.io/pl2/56_hires.png"
+  }
+}

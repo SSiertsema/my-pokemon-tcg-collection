@@ -1,0 +1,45 @@
+{
+  "id": "swsh6-225",
+  "name": "Echoing Horn",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item",
+    "Rapid Strike"
+  ],
+  "rules": [
+    "Put a Basic Pokémon from your opponent's discard pile onto their Bench.",
+    "You may play any number of Item cards during your turn."
+  ],
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "225",
+  "artist": "Studio Bora Inc.",
+  "rarity": "Rare Secret",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/225.png",
+    "large": "https://images.pokemontcg.io/swsh6/225_hires.png"
+  }
+}

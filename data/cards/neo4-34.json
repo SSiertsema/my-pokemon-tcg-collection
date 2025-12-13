@@ -1,0 +1,79 @@
+{
+  "id": "neo4-34",
+  "name": "Dark Flaaffy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "25",
+  "hp": "60",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Mareep",
+  "evolvesTo": [
+    "Ampharos"
+  ],
+  "attacks": [
+    {
+      "name": "High Voltage",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Flip a coin. If heads, your opponent can't play Trainer cards during his or her next turn."
+    },
+    {
+      "name": "Stun Wave",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "If the Defending Pokémon has a Pokémon Power, that power stops working until the end of your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo4",
+    "name": "Neo Destiny",
+    "series": "Neo",
+    "printedTotal": 105,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N4",
+    "releaseDate": "2002/02/28",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo4/logo.png"
+    }
+  },
+  "number": "34",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "flavorText": "As a result of storing massive amounts of electricity there, it can no longer grow wool on certain areas of its body.",
+  "nationalPokedexNumbers": [
+    180
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo4/34.png",
+    "large": "https://images.pokemontcg.io/neo4/34_hires.png"
+  }
+}

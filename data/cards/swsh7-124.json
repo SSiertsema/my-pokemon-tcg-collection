@@ -1,0 +1,77 @@
+{
+  "id": "swsh7-124",
+  "name": "Regidrago",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Dragon"
+  ],
+  "attacks": [
+    {
+      "name": "Hammer In",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Dragon Energy",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Fire"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "240-",
+      "text": "This attack does 20 less damage for each damage counter on this Pokémon."
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh7",
+    "name": "Evolving Skies",
+    "series": "Sword & Shield",
+    "printedTotal": 203,
+    "total": 237,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVS",
+    "releaseDate": "2021/08/27",
+    "updatedAt": "2021/08/27 10:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh7/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh7/logo.png"
+    }
+  },
+  "number": "124",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare Holo",
+  "flavorText": "Its body is composed of crystallized dragon energy. Regidrago is said to have the powers of every dragon Pokémon.",
+  "nationalPokedexNumbers": [
+    895
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh7/124.png",
+    "large": "https://images.pokemontcg.io/swsh7/124_hires.png"
+  }
+}

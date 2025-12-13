@@ -1,0 +1,35 @@
+{
+  "id": "neo1-85",
+  "name": "Energy Charge",
+  "supertype": "Trainer",
+  "rules": [
+    "Flip a coin. If heads, shuffle up to 2 Energy cards from your discard pile into your deck."
+  ],
+  "set": {
+    "id": "neo1",
+    "name": "Neo Genesis",
+    "series": "Neo",
+    "printedTotal": 111,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N1",
+    "releaseDate": "2000/12/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo1/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo1/logo.png"
+    }
+  },
+  "number": "85",
+  "artist": "Keiji Kinebuchi",
+  "rarity": "Rare",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo1/85.png",
+    "large": "https://images.pokemontcg.io/neo1/85_hires.png"
+  }
+}

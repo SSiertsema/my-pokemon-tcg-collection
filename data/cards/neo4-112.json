@@ -1,0 +1,80 @@
+{
+  "id": "neo4-112",
+  "name": "Shining Steelix",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "51",
+  "hp": "90",
+  "types": [
+    "Metal"
+  ],
+  "rules": [
+    "You can't have more than 1 Shining Steelix in your deck."
+  ],
+  "attacks": [
+    {
+      "name": "Crushing Earth",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": "Flip a coin. If heads, this attack does 10 damage to each Benched Pokémon (yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) If tails, this attack does nothing. Either way, Shining Steelix can't attack during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "neo4",
+    "name": "Neo Destiny",
+    "series": "Neo",
+    "printedTotal": 105,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N4",
+    "releaseDate": "2002/02/28",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo4/logo.png"
+    }
+  },
+  "number": "112",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare Shining",
+  "flavorText": "If an Onix lives 100 years or more, its skin hardens, eventually becoming even harder than a diamond.",
+  "nationalPokedexNumbers": [
+    208
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo4/112.png",
+    "large": "https://images.pokemontcg.io/neo4/112_hires.png"
+  }
+}

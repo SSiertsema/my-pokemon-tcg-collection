@@ -1,0 +1,76 @@
+{
+  "id": "base6-16",
+  "name": "Muk",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "34",
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Grimer",
+  "abilities": [
+    {
+      "name": "Toxic Gas",
+      "text": "Ignore all Pokémon Powers other than Toxic Gases. This power stops working while Muk is affected by a Special Condition.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sludge",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "base6",
+    "name": "Legendary Collection",
+    "series": "Other",
+    "printedTotal": 110,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LC",
+    "releaseDate": "2002/05/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base6/symbol.png",
+      "logo": "https://images.pokemontcg.io/base6/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare Holo",
+  "flavorText": "Thickly covered with a filthy, vile sludge. It is so toxic, even its footprints contain poison.",
+  "nationalPokedexNumbers": [
+    89
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base6/16.png",
+    "large": "https://images.pokemontcg.io/base6/16_hires.png"
+  }
+}

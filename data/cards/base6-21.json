@@ -1,0 +1,81 @@
+{
+  "id": "base6-21",
+  "name": "Butterfree",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "28",
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Metapod",
+  "attacks": [
+    {
+      "name": "Whirlwind",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon, if any. (Do the damage before switching the Pokémon.)"
+    },
+    {
+      "name": "Mega Drain",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "40",
+      "text": "Remove a number of damage counters from Butterfree equal of half the damage done to the Defending Pokémon (after applying Weakness and Resistance) (rounded up to the nearest 10). If Butterfree has fewer damage counters that that, remove all of them."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "base6",
+    "name": "Legendary Collection",
+    "series": "Other",
+    "printedTotal": 110,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LC",
+    "releaseDate": "2002/05/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base6/symbol.png",
+      "logo": "https://images.pokemontcg.io/base6/logo.png"
+    }
+  },
+  "number": "21",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "In battle, it flaps its wings at high speed to release highly toxic dust into the air.",
+  "nationalPokedexNumbers": [
+    12
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base6/21.png",
+    "large": "https://images.pokemontcg.io/base6/21_hires.png"
+  }
+}

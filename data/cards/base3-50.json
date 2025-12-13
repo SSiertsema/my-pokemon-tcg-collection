@@ -1,0 +1,76 @@
+{
+  "id": "base3-50",
+  "name": "Kabuto",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "9",
+  "hp": "30",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Mysterious Fossil",
+  "evolvesTo": [
+    "Kabutops"
+  ],
+  "abilities": [
+    {
+      "name": "Kabuto Armor",
+      "text": "Whenever an attack (even your own) does damage to Kabuto (after applying Weakness and Resistance), that attack does half the damage to Kabuto (rounded down to the nearest 10). (Any other effects of attacks still happen.) This power stops working while Kabuto is Asleep, Confused, or Paralyzed.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Scratch",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base3",
+    "name": "Fossil",
+    "series": "Base",
+    "printedTotal": 62,
+    "total": 62,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "FO",
+    "releaseDate": "1999/10/10",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base3/symbol.png",
+      "logo": "https://images.pokemontcg.io/base3/logo.png"
+    }
+  },
+  "number": "50",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "A Pokémon that was resurrected from a fossil found in what was once the ocean floor eons ago.",
+  "nationalPokedexNumbers": [
+    140
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base3/50.png",
+    "large": "https://images.pokemontcg.io/base3/50_hires.png"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "xy9-98a",
+  "name": "Delinquent",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Discard any Stadium card in play. If you do, your opponent discards 3 cards from his or her hand.",
+    "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "xy9",
+    "name": "BREAKpoint",
+    "series": "XY",
+    "printedTotal": 122,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKP",
+    "releaseDate": "2016/02/03",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy9/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy9/logo.png"
+    }
+  },
+  "number": "98a",
+  "artist": "Megumi Mizutani",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Banned"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy9/98a.png",
+    "large": "https://images.pokemontcg.io/xy9/98a_hires.png"
+  }
+}

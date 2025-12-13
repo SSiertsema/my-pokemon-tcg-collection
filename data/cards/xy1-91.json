@@ -1,0 +1,85 @@
+{
+  "id": "xy1-91",
+  "name": "Mr. Mime",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Fairy"
+  ],
+  "attacks": [
+    {
+      "name": "Massage",
+      "cost": [
+        "Fairy",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Heal 60 damage from 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Slap Down",
+      "cost": [
+        "Fairy",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40+",
+      "text": "Flip 2 coins. This attack does 20 more damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy1",
+    "name": "XY",
+    "series": "XY",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "XY",
+    "releaseDate": "2014/02/05",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy1/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy1/logo.png"
+    }
+  },
+  "number": "91",
+  "artist": "Mizue",
+  "rarity": "Uncommon",
+  "flavorText": "Emanations from its fingertips solidify the air into invisible walls that repel even harsh attacks.",
+  "nationalPokedexNumbers": [
+    122
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy1/91.png",
+    "large": "https://images.pokemontcg.io/xy1/91_hires.png"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "base6-89",
+  "name": "Rattata",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "9",
+  "hp": "30",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Raticate"
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "base6",
+    "name": "Legendary Collection",
+    "series": "Other",
+    "printedTotal": 110,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LC",
+    "releaseDate": "2002/05/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base6/symbol.png",
+      "logo": "https://images.pokemontcg.io/base6/logo.png"
+    }
+  },
+  "number": "89",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Common",
+  "flavorText": "Bites anything when it attacks. Small and very quick, it is a common sight in many places.",
+  "nationalPokedexNumbers": [
+    19
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base6/89.png",
+    "large": "https://images.pokemontcg.io/base6/89_hires.png"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "sm5-65",
+  "name": "Rampardos",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "150",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Cranidos",
+  "attacks": [
+    {
+      "name": "Clean Hit",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "60+",
+      "text": "If your opponent's Active Pokémon is an Evolution Pokémon, this attack does 60 more damage."
+    },
+    {
+      "name": "Wild Crash",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "If your opponent's Active Pokémon is a Basic Pokémon, it is Knocked Out."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "65",
+  "artist": "Yoshinobu Saito",
+  "rarity": "Rare Holo",
+  "flavorText": "Records exist of a revived fossil that evolved into Rampardos. It proceeded to escape and then destroy a skyscraper with a headbutt.",
+  "nationalPokedexNumbers": [
+    409
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/65.png",
+    "large": "https://images.pokemontcg.io/sm5/65_hires.png"
+  }
+}

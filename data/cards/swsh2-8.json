@@ -1,0 +1,80 @@
+{
+  "id": "swsh2-8",
+  "name": "Lombre",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Lotad",
+  "evolvesTo": [
+    "Ludicolo"
+  ],
+  "abilities": [
+    {
+      "name": "Top Entry",
+      "text": "Once during your turn, if you drew this Pokémon from your deck at the beginning of your turn and your Bench isn't full, before you put it into your hand, you may put it onto your Bench.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40×",
+      "text": "Flip 3 coins. This attack does 40 damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh2",
+    "name": "Rebel Clash",
+    "series": "Sword & Shield",
+    "printedTotal": 192,
+    "total": 209,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "RCL",
+    "releaseDate": "2020/05/01",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh2/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh2/logo.png"
+    }
+  },
+  "number": "8",
+  "artist": "Miki Tanaka",
+  "rarity": "Uncommon",
+  "flavorText": "It is nocturnal and becomes active at nightfall. It feeds on aquatic mosses that grow in the riverbed.",
+  "nationalPokedexNumbers": [
+    271
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh2/8.png",
+    "large": "https://images.pokemontcg.io/swsh2/8_hires.png"
+  }
+}

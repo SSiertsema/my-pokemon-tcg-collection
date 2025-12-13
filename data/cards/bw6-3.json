@@ -1,0 +1,76 @@
+{
+  "id": "bw6-3",
+  "name": "Jumpluff",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "90",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Skiploom",
+  "abilities": [
+    {
+      "name": "Leave It to the Wind",
+      "text": "Once during your turn (before your attack), you may return this Pokémon and all cards attached to it to your hand.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Acrobatics",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20+",
+      "text": "Flip 2 coins. This attack does 30 more damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "bw6",
+    "name": "Dragons Exalted",
+    "series": "Black & White",
+    "printedTotal": 124,
+    "total": 128,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRX",
+    "releaseDate": "2012/08/15",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw6/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw6/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "Blown by the seasonal winds, it circles the globe, scattering cotton spores as it goes.",
+  "nationalPokedexNumbers": [
+    189
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw6/3.png",
+    "large": "https://images.pokemontcg.io/bw6/3_hires.png"
+  }
+}

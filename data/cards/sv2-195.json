@@ -1,0 +1,79 @@
+{
+  "id": "sv2-195",
+  "name": "Tropius",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Grass"
+      ],
+      "name": "Leaf Drain",
+      "damage": "20",
+      "text": "Heal 20 damage from this Pokémon.",
+      "convertedEnergyCost": 1
+    },
+    {
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "name": "Tropic Breeze",
+      "damage": "130",
+      "text": "Move all Energy from this Pokémon to 1 of your Benched Pokémon.",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    }
+  },
+  "number": "195",
+  "artist": "Jerky",
+  "rarity": "Illustration Rare",
+  "flavorText": "It lives in tropical jungles. The bunch of fruit around its neck is delicious. The fruit grows twice a year.",
+  "nationalPokedexNumbers": [
+    357
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv2/195.png",
+    "large": "https://images.pokemontcg.io/sv2/195_hires.png"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "swshp-SWSH155",
+  "name": "Greninja V-UNION",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "V-UNION"
+  ],
+  "hp": "300",
+  "types": [
+    "Water"
+  ],
+  "rules": [
+    "How to play a Pokémon V-UNION: Once per game during your turn, combine 4 different Greninja V-UNION from your discard pile and put them onto your Bench.",
+    "V-UNION rule: When your Pokémon V-UNION is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Ninja Body",
+      "text": "Whenever your opponent plays an Item card from their hand, prevent all effects of that card done to this Pokémon.",
+      "type": "Ability"
+    },
+    {
+      "name": "Antidote Jutsu",
+      "text": "This Pokémon can't be Poisoned.",
+      "type": "Ability"
+    },
+    {
+      "name": "Feel the Way",
+      "text": "Once during your turn, you may have your opponent reveal their hand.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Union Gain",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Attach up to 2 Water Energy cards from your discard pile to this Pokémon."
+    },
+    {
+      "name": "Aqua Edge",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "130",
+      "text": ""
+    },
+    {
+      "name": "Twister Shuriken",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "This attack does 100 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Waterfall Blind",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "180",
+      "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH155",
+  "artist": "Shin Nagasawa",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    658
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH155.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH155_hires.png"
+  }
+}

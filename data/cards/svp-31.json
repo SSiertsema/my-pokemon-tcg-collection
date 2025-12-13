@@ -1,0 +1,86 @@
+{
+  "id": "svp-31",
+  "name": "Tinkaton ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "ex"
+  ],
+  "hp": "300",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Tinkatuff",
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Big Hammer",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30×",
+      "text": "This attack does 30 damage for each card in your hand."
+    },
+    {
+      "name": "Pulverizing Press",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "140",
+      "text": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "svp",
+    "name": "Scarlet & Violet Black Star Promos",
+    "series": "Scarlet & Violet",
+    "printedTotal": 215,
+    "total": 196,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SV",
+    "releaseDate": "2023/01/01",
+    "updatedAt": "2024/11/09 13:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+      "logo": "https://images.pokemontcg.io/svp/logo.png"
+    }
+  },
+  "number": "31",
+  "artist": "takuyoa",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    959
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/svp/31.png",
+    "large": "https://images.pokemontcg.io/svp/31_hires.png"
+  }
+}

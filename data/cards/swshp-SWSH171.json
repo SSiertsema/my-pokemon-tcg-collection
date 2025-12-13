@@ -1,0 +1,73 @@
+{
+  "id": "swshp-SWSH171",
+  "name": "Latias",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Fusion Strike"
+  ],
+  "hp": "120",
+  "types": [
+    "Dragon"
+  ],
+  "abilities": [
+    {
+      "name": "Red Assist",
+      "text": "Once during your turn, you may attach a Psychic Energy card from your hand to 1 of your Latios.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Dyna Barrier",
+      "cost": [
+        "Fire",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon VMAX."
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH171",
+  "artist": "takuyoa",
+  "rarity": "Promo",
+  "flavorText": "It can telepathically communicate with people. It changes its appearance using its down that refracts light.",
+  "nationalPokedexNumbers": [
+    380
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH171.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH171_hires.png"
+  }
+}

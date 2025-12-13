@@ -1,0 +1,40 @@
+{
+  "id": "ex13-85",
+  "name": "Holon Adventurer",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.",
+    "Discard a card from your hand. If you can't discard a card from your hand, you can't play this card.",
+    "Draw 3 cards. If you discarded a Pokémon that has δ on its card, draw 4 cards instead."
+  ],
+  "set": {
+    "id": "ex13",
+    "name": "Holon Phantoms",
+    "series": "EX",
+    "printedTotal": 110,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HP",
+    "releaseDate": "2006/05/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex13/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex13/logo.png"
+    }
+  },
+  "number": "85",
+  "artist": "Kouki Saitou",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex13/85.png",
+    "large": "https://images.pokemontcg.io/ex13/85_hires.png"
+  }
+}

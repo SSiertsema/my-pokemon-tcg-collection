@@ -1,0 +1,98 @@
+{
+  "id": "pl2-22",
+  "name": "Gastrodon West Sea",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "50",
+  "hp": "110",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Shellos West Sea",
+  "attacks": [
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    },
+    {
+      "name": "Muddy Bomb",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon and 10 damage to each of your opponent's other Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Raging Sea",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60+",
+      "text": "Does 60 damage plus 10 more damage for each of your Benched Pokémon that has any damage counters on it."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "22",
+  "artist": "Kyoko Umemoto",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    423
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/22.png",
+    "large": "https://images.pokemontcg.io/pl2/22_hires.png"
+  }
+}

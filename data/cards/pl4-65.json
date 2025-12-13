@@ -1,0 +1,75 @@
+{
+  "id": "pl4-65",
+  "name": "Geodude",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "14",
+  "hp": "60",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Graveler"
+  ],
+  "attacks": [
+    {
+      "name": "Stone Barrage",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10×",
+      "text": "Flip a coin until you get tails. This attack does 10 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "+10"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pl4",
+    "name": "Arceus",
+    "series": "Platinum",
+    "printedTotal": 99,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AR",
+    "releaseDate": "2009/11/04",
+    "updatedAt": "2021/07/15 11:30:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl4/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl4/logo.png"
+    }
+  },
+  "number": "65",
+  "artist": "Motofumi Fujiwara",
+  "rarity": "Common",
+  "flavorText": "At rest, it looks just like a rock. Carelessly stepping on it will make it swing its fists angrily.",
+  "nationalPokedexNumbers": [
+    74
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl4/65.png",
+    "large": "https://images.pokemontcg.io/pl4/65_hires.png"
+  }
+}

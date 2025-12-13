@@ -1,0 +1,46 @@
+{
+  "id": "swsh8-230",
+  "name": "Cross Switcher",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item",
+    "Fusion Strike"
+  ],
+  "rules": [
+    "You must play 2 Cross Switcher cards at once. (This effect works one time for 2 cards.)",
+    "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. If you do, switch your Active Pokémon with 1 of your Benched Pokémon.",
+    "You may play any number of Item cards during your turn."
+  ],
+  "set": {
+    "id": "swsh8",
+    "name": "Fusion Strike",
+    "series": "Sword & Shield",
+    "printedTotal": 264,
+    "total": 284,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FST",
+    "releaseDate": "2021/11/12",
+    "updatedAt": "2021/11/12 07:32:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+    }
+  },
+  "number": "230",
+  "artist": "inose yukie",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh8/230.png",
+    "large": "https://images.pokemontcg.io/swsh8/230_hires.png"
+  }
+}

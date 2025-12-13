@@ -1,0 +1,78 @@
+{
+  "id": "sm11-148",
+  "name": "Dratini",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesTo": [
+    "Dragonair"
+  ],
+  "abilities": [
+    {
+      "name": "Aqua Lift",
+      "text": "If this Pokémon has any Water Energy attached to it, it has no Retreat Cost.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Jump On",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fairy",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "148",
+  "artist": "Sekio",
+  "rarity": "Common",
+  "flavorText": "It's still weak, so it lurks on the floor of bodies of water, eating whatever food sinks down and living a quiet life.",
+  "nationalPokedexNumbers": [
+    147
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/148.png",
+    "large": "https://images.pokemontcg.io/sm11/148_hires.png"
+  }
+}

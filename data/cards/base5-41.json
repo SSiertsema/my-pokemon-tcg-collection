@@ -1,0 +1,75 @@
+{
+  "id": "base5-41",
+  "name": "Dark Muk",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "25",
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Grimer",
+  "abilities": [
+    {
+      "name": "Sticky Goo",
+      "text": "As long as Dark Muk is your Active Pokémon, your opponent pays ColorlessColorless more to retreat his or her Active Pokémon. This power stops working while Dark Muk is Asleep, Confused, or Paralyzed.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sludge Punch",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "The Defending Pokémon is now Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "base5",
+    "name": "Team Rocket",
+    "series": "Base",
+    "printedTotal": 82,
+    "total": 83,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TR",
+    "releaseDate": "2000/04/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base5/symbol.png",
+      "logo": "https://images.pokemontcg.io/base5/logo.png"
+    }
+  },
+  "number": "41",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "flavorText": "Muks appear suddenly, spreading sludge everywhere. Whenever one appears in a city, panic ensues.",
+  "nationalPokedexNumbers": [
+    89
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base5/41.png",
+    "large": "https://images.pokemontcg.io/base5/41_hires.png"
+  }
+}

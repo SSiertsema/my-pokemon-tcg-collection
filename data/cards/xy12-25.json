@@ -1,0 +1,80 @@
+{
+  "id": "xy12-25",
+  "name": "Poliwrath",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "48",
+  "hp": "140",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Poliwhirl",
+  "attacks": [
+    {
+      "name": "Dashing Punch",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "50+",
+      "text": "If this Pokémon was on the Bench and became your Active Pokémon this turn, this attack does 50 more damage."
+    },
+    {
+      "name": "Whirlpool",
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "Discard an Energy attached to your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy12",
+    "name": "Evolutions",
+    "series": "XY",
+    "printedTotal": 108,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVO",
+    "releaseDate": "2016/11/02",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy12/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy12/logo.png"
+    }
+  },
+  "number": "25",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare Holo",
+  "flavorText": "An adept swimmer, it knows the front crawl, butterfly, and more. It is faster than the best human swimmers.",
+  "nationalPokedexNumbers": [
+    62
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy12/25.png",
+    "large": "https://images.pokemontcg.io/xy12/25_hires.png"
+  }
+}

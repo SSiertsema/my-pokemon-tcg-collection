@@ -1,0 +1,93 @@
+{
+  "id": "swsh6-125",
+  "name": "Tornadus VMAX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VMAX",
+    "Single Strike"
+  ],
+  "hp": "320",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Tornadus V",
+  "rules": [
+    "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Blasting Wind",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60",
+      "text": ""
+    },
+    {
+      "name": "Max Wind Spirit",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "120+",
+      "text": "If a Stadium is in play, this attack does 120 more damage. Then, discard that Stadium."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "125",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare Holo VMAX",
+  "nationalPokedexNumbers": [
+    641
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/125.png",
+    "large": "https://images.pokemontcg.io/swsh6/125_hires.png"
+  }
+}

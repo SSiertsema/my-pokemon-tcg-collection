@@ -1,0 +1,71 @@
+{
+  "id": "neo2-41",
+  "name": "Kakuna",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "22",
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Weedle",
+  "evolvesTo": [
+    "Beedrill"
+  ],
+  "attacks": [
+    {
+      "name": "Secrete Poison",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "During your opponent's next turn, whenever your opponent's attack damages Kakuna (even if Kakuna is Knocked Out), your opponent's Active Pokémon is now Poisoned and Kakuna does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "neo2",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "printedTotal": 75,
+    "total": 75,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N2",
+    "releaseDate": "2001/06/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo2/logo.png"
+    }
+  },
+  "number": "41",
+  "artist": "Yukiko Baba",
+  "rarity": "Uncommon",
+  "flavorText": "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked.",
+  "nationalPokedexNumbers": [
+    14
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo2/41.png",
+    "large": "https://images.pokemontcg.io/neo2/41_hires.png"
+  }
+}

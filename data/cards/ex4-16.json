@@ -1,0 +1,77 @@
+{
+  "id": "ex4-16",
+  "name": "Team Aqua's Sealeo",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Team Aqua's Spheal",
+  "evolvesTo": [
+    "Walrein"
+  ],
+  "attacks": [
+    {
+      "name": "Aqua Trance",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "At the end of your opponent's next turn, the Defending Pokémon is now Asleep."
+    },
+    {
+      "name": "Super Hypnoblast",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "If the Defending Pokémon is Asleep, this attack does 30 damage plus 20 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex4",
+    "name": "Team Magma vs Team Aqua",
+    "series": "EX",
+    "printedTotal": 95,
+    "total": 97,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MA",
+    "releaseDate": "2004/03/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex4/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex4/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "T. Honda",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    364
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex4/16.png",
+    "large": "https://images.pokemontcg.io/ex4/16_hires.png"
+  }
+}

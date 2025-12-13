@@ -1,0 +1,71 @@
+{
+  "id": "sm75-7",
+  "name": "Victini ◇",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Prism Star"
+  ],
+  "hp": "90",
+  "types": [
+    "Fire"
+  ],
+  "rules": [
+    "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+  ],
+  "attacks": [
+    {
+      "name": "Infinity",
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20×",
+      "text": "This attack does 20 damage for each basic Energy card in your discard pile. Then, shuffle those cards into your deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm75",
+    "name": "Dragon Majesty",
+    "series": "Sun & Moon",
+    "printedTotal": 70,
+    "total": 80,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRM",
+    "releaseDate": "2018/09/07",
+    "updatedAt": "2018/10/01 21:54:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm75/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm75/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare Prism Star",
+  "flavorText": "When it shares the infinite energy it creates, that being's entire body will be overflowing with power.",
+  "nationalPokedexNumbers": [
+    494
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm75/7.png",
+    "large": "https://images.pokemontcg.io/sm75/7_hires.png"
+  }
+}

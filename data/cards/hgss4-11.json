@@ -1,0 +1,73 @@
+{
+  "id": "hgss4-11",
+  "name": "Venomoth",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Venonat",
+  "abilities": [
+    {
+      "name": "Poison Moth Wind",
+      "text": "Once during your turn (before your attack), you may flip a coin. If heads, your opponent's Active Pokémon is now Poisoned. If tails, your Active Pokémon is now Poisoned. This power can't be used if Venomoth is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Stun Spore",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hgss4",
+    "name": "HS—Triumphant",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 102,
+    "total": 103,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TM",
+    "releaseDate": "2010/11/03",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss4/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss4/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Hideaki Hakozaki",
+  "rarity": "Rare Holo",
+  "flavorText": "The powder on its wings is poisonous if it is dark in hue. If it is light in hue, it causes paralysis.",
+  "nationalPokedexNumbers": [
+    49
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss4/11.png",
+    "large": "https://images.pokemontcg.io/hgss4/11_hires.png"
+  }
+}

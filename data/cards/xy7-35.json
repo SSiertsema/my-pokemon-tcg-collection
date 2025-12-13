@@ -1,0 +1,90 @@
+{
+  "id": "xy7-35",
+  "name": "Golurk",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Golett",
+  "ancientTrait": {
+    "name": "θ Stop",
+    "text": "Prevent all effects of your opponent's Pokémon's Abilities done to this Pokémon."
+  },
+  "abilities": [
+    {
+      "name": "Double Type",
+      "text": "As long as this Pokémon is in play, it is Psychic and Fighting type.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Superpower",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80+",
+      "text": "You may do 40 more damage. If you do, this Pokémon does 20 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "xy7",
+    "name": "Ancient Origins",
+    "series": "XY",
+    "printedTotal": 98,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "AOR",
+    "releaseDate": "2015/08/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy7/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy7/logo.png"
+    }
+  },
+  "number": "35",
+  "artist": "kawayoo",
+  "rarity": "Rare",
+  "flavorText": "It flies across the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.",
+  "nationalPokedexNumbers": [
+    623
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy7/35.png",
+    "large": "https://images.pokemontcg.io/xy7/35_hires.png"
+  }
+}

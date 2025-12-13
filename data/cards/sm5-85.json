@@ -1,0 +1,84 @@
+{
+  "id": "sm5-85",
+  "name": "Bastiodon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Shieldon",
+  "abilities": [
+    {
+      "name": "Earthen Shield",
+      "text": "Prevent all damage done to your Metal Pokémon by attacks from your opponent's Pokémon that have any Special Energy attached to them.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Push Down",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "110",
+      "text": "You may have your opponent switch their Active Pokémon with 1 of their Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "85",
+  "artist": "Hasuno",
+  "rarity": "Rare Holo",
+  "flavorText": "It lived in the same environments as Rampardos. Their fossils have been found together—seemingly from after they'd fought to the finish.",
+  "nationalPokedexNumbers": [
+    411
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/85.png",
+    "large": "https://images.pokemontcg.io/sm5/85_hires.png"
+  }
+}

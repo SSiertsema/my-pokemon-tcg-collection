@@ -1,0 +1,65 @@
+{
+  "id": "sv6-69",
+  "name": "Emolga",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Lightning"
+  ],
+  "attacks": [
+    {
+      "name": "Sky Wave",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "This attack also does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "sv6",
+    "name": "Twilight Masquerade",
+    "series": "Scarlet & Violet",
+    "printedTotal": 167,
+    "total": 226,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TWM",
+    "releaseDate": "2024/05/24",
+    "updatedAt": "2024/05/23 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv6/logo.png"
+    }
+  },
+  "number": "69",
+  "artist": "Shimaris Yukichi",
+  "rarity": "Common",
+  "flavorText": "As Emolga flutters through the air, it crackles with electricity. This Pokémon is cute, but it can cause a lot of trouble.",
+  "nationalPokedexNumbers": [
+    587
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv6/69.png",
+    "large": "https://images.pokemontcg.io/sv6/69_hires.png"
+  }
+}

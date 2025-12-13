@@ -1,0 +1,75 @@
+{
+  "id": "bw6-52",
+  "name": "Sigilyph",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "abilities": [
+    {
+      "name": "Safeguard",
+      "text": "Prevent all effects of attacks, including damage, done to this Pokémon by Pokémon-EX.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Psychic",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50+",
+      "text": "Does 10 more damage for each Energy attached to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw6",
+    "name": "Dragons Exalted",
+    "series": "Black & White",
+    "printedTotal": 124,
+    "total": 128,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRX",
+    "releaseDate": "2012/08/15",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw6/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw6/logo.png"
+    }
+  },
+  "number": "52",
+  "artist": "Ryo Ueda",
+  "rarity": "Rare Holo",
+  "flavorText": "The guardians of an ancient city, they use their psychic power to attack enemies that invade their territory.",
+  "nationalPokedexNumbers": [
+    561
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw6/52.png",
+    "large": "https://images.pokemontcg.io/bw6/52_hires.png"
+  }
+}

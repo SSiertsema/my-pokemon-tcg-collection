@@ -1,0 +1,77 @@
+{
+  "id": "base6-23",
+  "name": "Exeggutor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "35",
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Exeggcute",
+  "attacks": [
+    {
+      "name": "Teleport",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Switch Exeggutor with 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Big Eggsplosion",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "Flip a number of coins equal to the number of Energy attached to Exeggutor. This attack does 20 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "base6",
+    "name": "Legendary Collection",
+    "series": "Other",
+    "printedTotal": 110,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LC",
+    "releaseDate": "2002/05/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base6/symbol.png",
+      "logo": "https://images.pokemontcg.io/base6/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "Legend has it that on rare occasions, one of its heads will drop off and continue on as an Exeggcute.",
+  "nationalPokedexNumbers": [
+    103
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base6/23.png",
+    "large": "https://images.pokemontcg.io/base6/23_hires.png"
+  }
+}

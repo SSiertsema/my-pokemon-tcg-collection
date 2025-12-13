@@ -1,0 +1,81 @@
+{
+  "id": "dp1-50",
+  "name": "Haunter",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "32",
+  "hp": "70",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Gastly",
+  "evolvesTo": [
+    "Gengar"
+  ],
+  "attacks": [
+    {
+      "name": "Hypnosis",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Asleep."
+    },
+    {
+      "name": "Dream Eater",
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60",
+      "text": "If the Defending Pokémon is not Asleep, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Colorless",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "dp1",
+    "name": "Diamond & Pearl",
+    "series": "Diamond & Pearl",
+    "printedTotal": 130,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DP",
+    "releaseDate": "2007/05/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp1/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp1/logo.png"
+    }
+  },
+  "number": "50",
+  "artist": "Naoyo Kimura",
+  "rarity": "Uncommon",
+  "flavorText": "It can slip through any obstacle. It lurks inside walls to keep an eye on its foes.",
+  "nationalPokedexNumbers": [
+    93
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp1/50.png",
+    "large": "https://images.pokemontcg.io/dp1/50_hires.png"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "sv6pt5-5",
+  "name": "Decidueye",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "150",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Dartrix",
+  "attacks": [
+    {
+      "name": "Stock Up on Feathers",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Draw cards until you have 7 cards in your hand."
+    },
+    {
+      "name": "Power Shot",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "170",
+      "text": "Discard a Basic Grass Energy card from your hand. If you can't, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv6pt5",
+    "name": "Shrouded Fable",
+    "series": "Scarlet & Violet",
+    "printedTotal": 64,
+    "total": 99,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SFA",
+    "releaseDate": "2024/08/02",
+    "updatedAt": "2024/08/02 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+    }
+  },
+  "number": "5",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    724
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv6pt5/5.png",
+    "large": "https://images.pokemontcg.io/sv6pt5/5_hires.png"
+  }
+}

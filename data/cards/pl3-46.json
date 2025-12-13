@@ -1,0 +1,74 @@
+{
+  "id": "pl3-46",
+  "name": "Spinda",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "27",
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Synchro Removal",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "If any Energy card attached to Spinda is the same type as any Energy card attached to the Defending Pokémon, discard 1 of those Energy cards from the Defending Pokémon."
+    },
+    {
+      "name": "Pulled Punch",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "If the Defending Pokémon already has any damage counters on it, this attack's base damage is 10 instead of 30."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "46",
+  "artist": "Miki Tanaka",
+  "rarity": "Rare",
+  "flavorText": "No two Spinda have the same pattern of spots. Its tottering step fouls the aim of foes.",
+  "nationalPokedexNumbers": [
+    327
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/46.png",
+    "large": "https://images.pokemontcg.io/pl3/46_hires.png"
+  }
+}

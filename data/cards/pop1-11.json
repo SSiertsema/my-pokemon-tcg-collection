@@ -1,0 +1,65 @@
+{
+  "id": "pop1-11",
+  "name": "Larvitar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Pupitar"
+  ],
+  "attacks": [
+    {
+      "name": "Sand Attack",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "If the Pokémon tries to attack during your opponent's next turn, your opponent flips a coin. If tails, that attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pop1",
+    "name": "POP Series 1",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2004/09/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop1/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop1/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Hisao Nakamura",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    246
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop1/11.png",
+    "large": "https://images.pokemontcg.io/pop1/11_hires.png"
+  }
+}

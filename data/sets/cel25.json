@@ -1,0 +1,45 @@
+{
+  "id": "cel25",
+  "name": "Celebrations",
+  "series": "Sword & Shield",
+  "printedTotal": 25,
+  "total": 25,
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "ptcgoCode": "CEL",
+  "releaseDate": "2021/10/08",
+  "updatedAt": "2022/10/11 21:39:00",
+  "images": {
+    "symbol": "https://images.pokemontcg.io/cel25/symbol.png",
+    "logo": "https://images.pokemontcg.io/cel25/logo.png"
+  },
+  "cards": [
+    "cel25-1",
+    "cel25-4",
+    "cel25-2",
+    "cel25-7",
+    "cel25-3",
+    "cel25-12",
+    "cel25-8",
+    "cel25-14",
+    "cel25-9",
+    "cel25-15",
+    "cel25-10",
+    "cel25-17",
+    "cel25-23",
+    "cel25-21",
+    "cel25-13",
+    "cel25-5",
+    "cel25-6",
+    "cel25-11",
+    "cel25-20",
+    "cel25-22",
+    "cel25-24",
+    "cel25-16",
+    "cel25-18",
+    "cel25-19",
+    "cel25-25"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "mcd12",
+  "name": "McDonald's Collection 2012",
+  "series": "Other",
+  "printedTotal": 12,
+  "total": 12,
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "releaseDate": "2012/06/15",
+  "updatedAt": "2022/10/10 15:12:00",
+  "images": {
+    "symbol": "https://images.pokemontcg.io/mcd12/symbol.png",
+    "logo": "https://images.pokemontcg.io/mcd12/logo.png"
+  },
+  "cards": [
+    "mcd12-1",
+    "mcd12-2",
+    "mcd12-3",
+    "mcd12-4",
+    "mcd12-5",
+    "mcd12-6",
+    "mcd12-7",
+    "mcd12-8",
+    "mcd12-9",
+    "mcd12-10",
+    "mcd12-11",
+    "mcd12-12"
+  ]
+}

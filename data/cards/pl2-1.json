@@ -1,0 +1,85 @@
+{
+  "id": "pl2-1",
+  "name": "Arcanine",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "53",
+  "hp": "100",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Growlithe",
+  "abilities": [
+    {
+      "name": "Flare Condition",
+      "text": "As long as Arcanine has any Fire Energy attached to it, Arcanine has no Weakness.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Burn Out",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "You may do 30 damage plus 30 more damage. If you do, Arcanine is now Burned."
+    },
+    {
+      "name": "Flames of Rage",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "Discard a Fire Energy attached to Arcanine. This attack does 60 damage plus 10 more damage for each damage counter on Arcanine."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "1",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    59
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/1.png",
+    "large": "https://images.pokemontcg.io/pl2/1_hires.png"
+  }
+}

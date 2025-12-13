@@ -1,0 +1,45 @@
+{
+  "id": "swsh6-229",
+  "name": "Urn of Vitality",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item",
+    "Single Strike"
+  ],
+  "rules": [
+    "Shuffle up to 2 Single Strike Energy cards from your discard pile into your deck.",
+    "You may play any number of Item cards during your turn."
+  ],
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "229",
+  "artist": "Toyste Beach",
+  "rarity": "Rare Secret",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/229.png",
+    "large": "https://images.pokemontcg.io/swsh6/229_hires.png"
+  }
+}

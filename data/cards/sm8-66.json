@@ -1,0 +1,80 @@
+{
+  "id": "sm8-66",
+  "name": "Brionne",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Popplio",
+  "evolvesTo": [
+    "Primarina"
+  ],
+  "attacks": [
+    {
+      "name": "Captivate",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon."
+    },
+    {
+      "name": "Water Gun",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "66",
+  "artist": "Atsuko Nishida",
+  "rarity": "Uncommon",
+  "flavorText": "It cares deeply for its companions. When its Trainer is feeling down, it performs a cheery dance to try and help.",
+  "nationalPokedexNumbers": [
+    729
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/66.png",
+    "large": "https://images.pokemontcg.io/sm8/66_hires.png"
+  }
+}

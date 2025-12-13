@@ -1,0 +1,35 @@
+{
+  "id": "base1-92",
+  "name": "Energy Removal",
+  "supertype": "Trainer",
+  "rules": [
+    "Choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it."
+  ],
+  "set": {
+    "id": "base1",
+    "name": "Base",
+    "series": "Base",
+    "printedTotal": 102,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "BS",
+    "releaseDate": "1999/01/09",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base1/symbol.png",
+      "logo": "https://images.pokemontcg.io/base1/logo.png"
+    }
+  },
+  "number": "92",
+  "artist": "Keiji Kinebuchi",
+  "rarity": "Common",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base1/92.png",
+    "large": "https://images.pokemontcg.io/base1/92_hires.png"
+  }
+}

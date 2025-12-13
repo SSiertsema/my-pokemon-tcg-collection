@@ -1,0 +1,78 @@
+{
+  "id": "base2-28",
+  "name": "Vaporeon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "42",
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Eevee",
+  "attacks": [
+    {
+      "name": "Quick Attack",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10+",
+      "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage; if tails, this attack does 10 damage."
+    },
+    {
+      "name": "Water Gun",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Does 30 damage plus 10 more damage for each Water Energy attached to Vaporeon but not used to pay for this attack's Energy cost. Extra Water Energy after the 2nd doesn't count."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base2",
+    "name": "Jungle",
+    "series": "Base",
+    "printedTotal": 64,
+    "total": 64,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "JU",
+    "releaseDate": "1999/06/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base2/symbol.png",
+      "logo": "https://images.pokemontcg.io/base2/logo.png"
+    }
+  },
+  "number": "28",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "Lives close to water. Its long tail is ridged with a fin that is often mistaken for a mermaid's.",
+  "nationalPokedexNumbers": [
+    134
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base2/28.png",
+    "large": "https://images.pokemontcg.io/base2/28_hires.png"
+  }
+}

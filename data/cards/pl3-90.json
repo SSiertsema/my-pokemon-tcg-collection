@@ -1,0 +1,84 @@
+{
+  "id": "pl3-90",
+  "name": "Beldum",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "10",
+  "hp": "50",
+  "types": [
+    "Metal"
+  ],
+  "evolvesTo": [
+    "Metang"
+  ],
+  "attacks": [
+    {
+      "name": "Pit Search",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Stadium card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+    },
+    {
+      "name": "Ram",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+10"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "90",
+  "artist": "Atsuko Nishida",
+  "rarity": "Common",
+  "flavorText": "It converses with others by using magnetic pulses. In a swarm, they move in perfect unison.",
+  "nationalPokedexNumbers": [
+    374
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/90.png",
+    "large": "https://images.pokemontcg.io/pl3/90_hires.png"
+  }
+}

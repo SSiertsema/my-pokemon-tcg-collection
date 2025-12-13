@@ -1,0 +1,78 @@
+{
+  "id": "base3-31",
+  "name": "Arbok",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "27",
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Ekans",
+  "attacks": [
+    {
+      "name": "Terror Strike",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Flip a coin. If heads and if your opponent has any Benched Pokémon, he or she chooses 1 of them and switches it with the Defending Pokémon. (Do the damage before switching the Pokémon.)"
+    },
+    {
+      "name": "Poison Fang",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20",
+      "text": "The Defending Pokémon is now Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "base3",
+    "name": "Fossil",
+    "series": "Base",
+    "printedTotal": 62,
+    "total": 62,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "FO",
+    "releaseDate": "1999/10/10",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base3/symbol.png",
+      "logo": "https://images.pokemontcg.io/base3/logo.png"
+    }
+  },
+  "number": "31",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "flavorText": "It is rumored that the ferocious warning markings on its belly differ from area to area.",
+  "nationalPokedexNumbers": [
+    24
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base3/31.png",
+    "large": "https://images.pokemontcg.io/base3/31_hires.png"
+  }
+}

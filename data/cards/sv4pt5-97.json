@@ -1,0 +1,79 @@
+{
+  "id": "sv4pt5-97",
+  "name": "Skiploom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Hoppip",
+  "evolvesTo": [
+    "Jumpluff"
+  ],
+  "abilities": [
+    {
+      "name": "Drifting Dodge",
+      "text": "If any damage is done to this Pokémon by attacks, flip a coin. If heads, prevent that damage.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Flowery Zephyr",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv4pt5",
+    "name": "Paldean Fates",
+    "series": "Scarlet & Violet",
+    "printedTotal": 91,
+    "total": 245,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2024/01/26",
+    "updatedAt": "2024/01/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4pt5/logo.png"
+    }
+  },
+  "number": "97",
+  "artist": "Mizue",
+  "rarity": "Shiny Rare",
+  "flavorText": "Skiploom enthusiasts can apparently tell where a Skiploom was born by the scent drifting from the flower on the Pokémon's head.",
+  "nationalPokedexNumbers": [
+    188
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4pt5/97.png",
+    "large": "https://images.pokemontcg.io/sv4pt5/97_hires.png"
+  }
+}

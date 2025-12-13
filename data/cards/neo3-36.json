@@ -1,0 +1,90 @@
+{
+  "id": "neo3-36",
+  "name": "Piloswine",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "41",
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Swinub",
+  "evolvesTo": [
+    "Mamoswine"
+  ],
+  "attacks": [
+    {
+      "name": "Nap",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Remove 3 damage counters from Piloswine. If it has fewer damage counters than that, remove all of them."
+    },
+    {
+      "name": "High-Speed Charge",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": "Piloswine does 30 damage to itself. Piloswine can't use this attack during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "neo3",
+    "name": "Neo Revelation",
+    "series": "Neo",
+    "printedTotal": 64,
+    "total": 66,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N3",
+    "releaseDate": "2001/09/21",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo3/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Atsuko Nishida",
+  "rarity": "Uncommon",
+  "flavorText": "If it charges at an enemy, the hairs on its back stand up straight. It is very sensitive to sound.",
+  "nationalPokedexNumbers": [
+    221
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo3/36.png",
+    "large": "https://images.pokemontcg.io/neo3/36_hires.png"
+  }
+}

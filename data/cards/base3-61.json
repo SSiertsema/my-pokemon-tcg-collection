@@ -1,0 +1,36 @@
+{
+  "id": "base3-61",
+  "name": "Recycle",
+  "supertype": "Trainer",
+  "rules": [
+    "Flip a coin. If heads, put a card in your discard pile on top of your deck."
+  ],
+  "set": {
+    "id": "base3",
+    "name": "Fossil",
+    "series": "Base",
+    "printedTotal": 62,
+    "total": 62,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "FO",
+    "releaseDate": "1999/10/10",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base3/symbol.png",
+      "logo": "https://images.pokemontcg.io/base3/logo.png"
+    }
+  },
+  "number": "61",
+  "artist": "Keiji Kinebuchi",
+  "rarity": "Common",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base3/61.png",
+    "large": "https://images.pokemontcg.io/base3/61_hires.png"
+  }
+}

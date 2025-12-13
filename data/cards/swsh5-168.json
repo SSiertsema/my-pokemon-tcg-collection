@@ -1,0 +1,89 @@
+{
+  "id": "swsh5-168",
+  "name": "Single Strike Urshifu VMAX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VMAX",
+    "Single Strike"
+  ],
+  "hp": "330",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Single Strike Urshifu V",
+  "rules": [
+    "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Beatdown",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": ""
+    },
+    {
+      "name": "G-Max One Blow",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "270",
+      "text": "Discard all Energy from this Pokémon. This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh5",
+    "name": "Battle Styles",
+    "series": "Sword & Shield",
+    "printedTotal": 163,
+    "total": 183,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BST",
+    "releaseDate": "2021/03/19",
+    "updatedAt": "2021/03/19 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh5/logo.png"
+    }
+  },
+  "number": "168",
+  "artist": "Kinu Nishimura",
+  "rarity": "Rare Rainbow",
+  "nationalPokedexNumbers": [
+    892
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh5/168.png",
+    "large": "https://images.pokemontcg.io/swsh5/168_hires.png"
+  }
+}

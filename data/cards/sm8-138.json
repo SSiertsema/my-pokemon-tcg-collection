@@ -1,0 +1,86 @@
+{
+  "id": "sm8-138",
+  "name": "Granbull",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesFrom": "Snubbull",
+  "attacks": [
+    {
+      "name": "All Out",
+      "cost": [
+        "Fairy"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30+",
+      "text": "If you have no cards in your hand, this attack does 130 more damage."
+    },
+    {
+      "name": "Giant Fangs",
+      "cost": [
+        "Fairy",
+        "Fairy",
+        "Fairy"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "110",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "138",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare",
+  "flavorText": "More timid than Snubbull, this Pokémon is doted on by young people amused at the contrast between its looks and its attitude.",
+  "nationalPokedexNumbers": [
+    210
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/138.png",
+    "large": "https://images.pokemontcg.io/sm8/138_hires.png"
+  }
+}

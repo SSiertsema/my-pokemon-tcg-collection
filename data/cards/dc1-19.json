@@ -1,0 +1,85 @@
+{
+  "id": "dc1-19",
+  "name": "Team Magma's Mightyena",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Team Magma's Poochyena",
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Hostile Fang",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "If your opponent's Active Pokémon is a Team Aqua Pokémon, this attack does 40 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dc1",
+    "name": "Double Crisis",
+    "series": "XY",
+    "printedTotal": 34,
+    "total": 34,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DCR",
+    "releaseDate": "2015/03/25",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dc1/symbol.png",
+      "logo": "https://images.pokemontcg.io/dc1/logo.png"
+    }
+  },
+  "number": "19",
+  "artist": "Hitoshi Ariga",
+  "rarity": "Common",
+  "flavorText": "This Pokémon is loyal to its master. It will protect its partner to the end, no matter what.",
+  "nationalPokedexNumbers": [
+    262
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dc1/19.png",
+    "large": "https://images.pokemontcg.io/dc1/19_hires.png"
+  }
+}

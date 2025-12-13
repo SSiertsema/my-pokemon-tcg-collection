@@ -1,0 +1,113 @@
+{
+  "id": "swshp-SWSH164",
+  "name": "Zacian V-UNION",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "V-UNION"
+  ],
+  "hp": "320",
+  "types": [
+    "Metal"
+  ],
+  "rules": [
+    "How to play a Pokémon V-UNION: Once per game during your turn, combine 4 different Zacian V-UNION from your discard pile and put them onto your Bench.",
+    "V-UNION rule: When your Pokémon V-UNION is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Union Gain",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Attach up to 2 Metal Energy cards from your discard pile to this Pokémon."
+    },
+    {
+      "name": "Dance of the Crowned Sword",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "150",
+      "text": "During your opponent's next turn, the Defending Pokémon's attacks do 150 less damage (before applying Weakness and Resistance)."
+    },
+    {
+      "name": "Steel Cut",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "200",
+      "text": ""
+    },
+    {
+      "name": "Master Blade",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "340",
+      "text": "Discard 3 Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH164",
+  "artist": "PLANETA Tsuji",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    888
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH164.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH164_hires.png"
+  }
+}

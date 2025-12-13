@@ -1,0 +1,83 @@
+{
+  "id": "gym1-3",
+  "name": "Erika's Clefable",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "35",
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Erika's Clefairy",
+  "attacks": [
+    {
+      "name": "Fairy Power",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, you may return any number of your Pokémon in play and all cards attached to them to your hand."
+    },
+    {
+      "name": "Moon Impact",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "gym1",
+    "name": "Gym Heroes",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G1",
+    "releaseDate": "2000/08/14",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym1/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym1/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Atsuko Nishida",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    36
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym1/3.png",
+    "large": "https://images.pokemontcg.io/gym1/3_hires.png"
+  }
+}

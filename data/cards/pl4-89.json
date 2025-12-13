@@ -1,0 +1,46 @@
+{
+  "id": "pl4-89",
+  "name": "Old Amber",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "hp": "50",
+  "rules": [
+    "Play Old Amber as if it were a Colorless Basic Pokémon. (Old Amber counts as a Trainer card as well, but if Old Amber is Knocked Out, this counts as a Knocked Out Pokémon.) Old Amber can't be affected by any Special Conditions and can't retreat. At any time during your turn before your attack, you may discard Old Amber from play. (This doesn't count as a Knocked Out Pokémon.)"
+  ],
+  "abilities": [
+    {
+      "name": "Hard Amber",
+      "text": "As long as Old Amber is on your Bench, prevent all damage done to Old Amber by attacks (both yours and your opponent's).",
+      "type": "Poké-Body"
+    }
+  ],
+  "set": {
+    "id": "pl4",
+    "name": "Arceus",
+    "series": "Platinum",
+    "printedTotal": 99,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AR",
+    "releaseDate": "2009/11/04",
+    "updatedAt": "2021/07/15 11:30:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl4/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl4/logo.png"
+    }
+  },
+  "number": "89",
+  "artist": "Ryo Ueda",
+  "rarity": "Common",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl4/89.png",
+    "large": "https://images.pokemontcg.io/pl4/89_hires.png"
+  }
+}

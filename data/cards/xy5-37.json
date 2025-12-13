@@ -1,0 +1,83 @@
+{
+  "id": "xy5-37",
+  "name": "Ludicolo",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "130",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Lombre",
+  "ancientTrait": {
+    "name": "α Recovery",
+    "text": "When this Pokémon is healed, double the amount healed."
+  },
+  "attacks": [
+    {
+      "name": "Astonish",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck."
+    },
+    {
+      "name": "Splash Dance",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "During your next turn, this Pokémon's Splash Dance attack does 60 more damage (before applying Weakness and Resistance)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy5",
+    "name": "Primal Clash",
+    "series": "XY",
+    "printedTotal": 160,
+    "total": 164,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PRC",
+    "releaseDate": "2015/02/04",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy5/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy5/logo.png"
+    }
+  },
+  "number": "37",
+  "artist": "kawayoo",
+  "rarity": "Rare",
+  "flavorText": "The rhythm of bright, festive music activates Ludicolo's cells, making it more powerful.",
+  "nationalPokedexNumbers": [
+    272
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy5/37.png",
+    "large": "https://images.pokemontcg.io/xy5/37_hires.png"
+  }
+}

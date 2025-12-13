@@ -1,0 +1,46 @@
+{
+  "id": "ex12-80",
+  "name": "Root Fossil",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "hp": "40",
+  "rules": [
+    "Play Root Fossil as if it were a Basic Pokémon. While in play, Root Fossil counts as a Colorless Pokémon (as well as a Trainer card). Root Fossil has no attacks of its own, can't retreat, and can't be affected by any Special Conditions. If Root Fossil is Knocked Out, it doesn't count as a Knocked Out Pokémon. (Discard it anyway.) At any time during your turn before your attack, you may discard Root Fossil from play."
+  ],
+  "abilities": [
+    {
+      "name": "Spongy Stone",
+      "text": "At any time between turns, remove 1 damage counter from Root Fossil.",
+      "type": "Poké-Body"
+    }
+  ],
+  "set": {
+    "id": "ex12",
+    "name": "Legend Maker",
+    "series": "EX",
+    "printedTotal": 92,
+    "total": 93,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LM",
+    "releaseDate": "2006/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex12/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex12/logo.png"
+    }
+  },
+  "number": "80",
+  "artist": "Ryo Ueda",
+  "rarity": "Common",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex12/80.png",
+    "large": "https://images.pokemontcg.io/ex12/80_hires.png"
+  }
+}

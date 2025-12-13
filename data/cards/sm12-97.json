@@ -1,0 +1,68 @@
+{
+  "id": "sm12-97",
+  "name": "Mimikyu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Psychic"
+  ],
+  "abilities": [
+    {
+      "name": "Shadow Box",
+      "text": "Pokémon-GX that have any damage counters on them (both yours and your opponent's) have no Abilities.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Tail Trickery",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "97",
+  "artist": "Yuka Morii",
+  "rarity": "Rare",
+  "flavorText": "Although it's a quiet, lonely Pokémon, if you try to look at what's under its rag, it will become agitated and resist violently.",
+  "nationalPokedexNumbers": [
+    778
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/97.png",
+    "large": "https://images.pokemontcg.io/sm12/97_hires.png"
+  }
+}

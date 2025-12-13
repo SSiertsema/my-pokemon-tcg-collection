@@ -1,0 +1,71 @@
+{
+  "id": "xy12-14",
+  "name": "Vulpix",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "11",
+  "hp": "60",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Ninetales"
+  ],
+  "attacks": [
+    {
+      "name": "Confuse Ray",
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy12",
+    "name": "Evolutions",
+    "series": "XY",
+    "printedTotal": 108,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVO",
+    "releaseDate": "2016/11/02",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy12/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy12/logo.png"
+    }
+  },
+  "number": "14",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "While young, it has six gorgeous tails. When it grows, several new tails are sprouted.",
+  "nationalPokedexNumbers": [
+    37
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy12/14.png",
+    "large": "https://images.pokemontcg.io/xy12/14_hires.png"
+  }
+}

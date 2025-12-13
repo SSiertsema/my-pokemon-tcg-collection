@@ -1,0 +1,83 @@
+{
+  "id": "bw9-83",
+  "name": "Dragonite",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "150",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Dragonair",
+  "attacks": [
+    {
+      "name": "Deafen",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Your opponent can't play any Item cards from his or her hand during his or her next turn."
+    },
+    {
+      "name": "Healwing",
+      "cost": [
+        "Grass",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "90",
+      "text": "Heal 30 damage from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Dragon",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "83",
+  "artist": "Akira Komayama",
+  "rarity": "Rare Holo",
+  "flavorText": "It is said to make its home somewhere in the sea. It guides crews of shipwrecks to shore.",
+  "nationalPokedexNumbers": [
+    149
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/83.png",
+    "large": "https://images.pokemontcg.io/bw9/83_hires.png"
+  }
+}

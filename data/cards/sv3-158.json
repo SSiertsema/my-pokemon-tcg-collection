@@ -1,0 +1,77 @@
+{
+  "id": "sv3-158",
+  "name": "Dragonair",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Dratini",
+  "evolvesTo": [
+    "Dragonite"
+  ],
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Dragon Tail",
+      "cost": [
+        "Water",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70×",
+      "text": "Flip 2 coins. This attack does 70 damage for each heads."
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv3",
+    "name": "Obsidian Flames",
+    "series": "Scarlet & Violet",
+    "printedTotal": 197,
+    "total": 230,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/08/11",
+    "updatedAt": "2023/08/11 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3/logo.png"
+    }
+  },
+  "number": "158",
+  "artist": "Misa Tsutsui",
+  "rarity": "Uncommon",
+  "flavorText": "They say that if it emits an aura from its whole body, the weather will begin to change instantly.",
+  "nationalPokedexNumbers": [
+    148
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3/158.png",
+    "large": "https://images.pokemontcg.io/sv3/158_hires.png"
+  }
+}

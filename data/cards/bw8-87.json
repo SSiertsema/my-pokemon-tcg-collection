@@ -1,0 +1,84 @@
+{
+  "id": "bw8-87",
+  "name": "Skarmory",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Team Plasma"
+  ],
+  "hp": "90",
+  "types": [
+    "Metal"
+  ],
+  "attacks": [
+    {
+      "name": "Cargo Jet",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Discard a Team Plasma card from your hand. if you do, draw 3 cards."
+    },
+    {
+      "name": "Steel Wing",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 20 (after applying Weakness and Resistance)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw8",
+    "name": "Plasma Storm",
+    "series": "Black & White",
+    "printedTotal": 135,
+    "total": 138,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLS",
+    "releaseDate": "2013/02/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw8/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw8/logo.png"
+    }
+  },
+  "number": "87",
+  "artist": "5ban Graphics",
+  "rarity": "Rare",
+  "flavorText": "Its heavy-looking iron body is actually thin and light, so it can fly at speeds over 180 mph.",
+  "nationalPokedexNumbers": [
+    227
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw8/87.png",
+    "large": "https://images.pokemontcg.io/bw8/87_hires.png"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "bw9-41",
+  "name": "Nidorina",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Nidoran ♀",
+  "evolvesTo": [
+    "Nidoqueen"
+  ],
+  "attacks": [
+    {
+      "name": "Poison Sting",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "The Defending Pokémon is now Poisoned."
+    },
+    {
+      "name": "Double Kick",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40×",
+      "text": "Flip 2 coins. This attack does 40 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "41",
+  "artist": "Atsuko Nishida",
+  "rarity": "Uncommon",
+  "flavorText": "When it senses danger, it raises all the barbs on its body. These barbs grow slower than Nidorino's.",
+  "nationalPokedexNumbers": [
+    30
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/41.png",
+    "large": "https://images.pokemontcg.io/bw9/41_hires.png"
+  }
+}

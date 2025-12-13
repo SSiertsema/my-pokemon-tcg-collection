@@ -1,0 +1,77 @@
+{
+  "id": "sm8-108",
+  "name": "Naganadel",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Ultra Beast"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Poipole",
+  "abilities": [
+    {
+      "name": "Charging Up",
+      "text": "Once during your turn (before your attack), you may attach a basic Energy card from your discard pile to this Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Turning Point",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80+",
+      "text": "If you have exactly 3 Prize cards remaining, this attack does 80 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "108",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare Holo",
+  "flavorText": "It stores hundreds of liters of poisonous liquid inside its body. It is one of the organisms known as UBs.",
+  "nationalPokedexNumbers": [
+    804
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/108.png",
+    "large": "https://images.pokemontcg.io/sm8/108_hires.png"
+  }
+}
