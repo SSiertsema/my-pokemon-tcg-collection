@@ -1,0 +1,44 @@
+{
+  "id": "sv5-144",
+  "name": "Buddy-Buddy Poffin",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench. Then, shuffle your deck.",
+    "You may play any number of Item cards during your turn."
+  ],
+  "set": {
+    "id": "sv5",
+    "name": "Temporal Forces",
+    "series": "Scarlet & Violet",
+    "printedTotal": 162,
+    "total": 218,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEF",
+    "releaseDate": "2024/03/22",
+    "updatedAt": "2024/03/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv5/logo.png"
+    }
+  },
+  "number": "144",
+  "artist": "AYUMI ODASHIMA",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv5/144.png",
+    "large": "https://images.pokemontcg.io/sv5/144_hires.png"
+  }
+}

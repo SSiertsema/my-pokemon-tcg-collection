@@ -1,0 +1,73 @@
+{
+  "id": "swsh2-45",
+  "name": "Palpitoad",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Tympole",
+  "evolvesTo": [
+    "Seismitoad"
+  ],
+  "attacks": [
+    {
+      "name": "Twirling Sign",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh2",
+    "name": "Rebel Clash",
+    "series": "Sword & Shield",
+    "printedTotal": 192,
+    "total": 209,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "RCL",
+    "releaseDate": "2020/05/01",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh2/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh2/logo.png"
+    }
+  },
+  "number": "45",
+  "artist": "MAHOU",
+  "rarity": "Uncommon",
+  "flavorText": "It weakens its prey with sound waves intense enough to cause headaches, then entangles them with its sticky tongue.",
+  "nationalPokedexNumbers": [
+    536
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh2/45.png",
+    "large": "https://images.pokemontcg.io/swsh2/45_hires.png"
+  }
+}

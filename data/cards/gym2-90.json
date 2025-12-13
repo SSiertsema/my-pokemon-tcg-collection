@@ -1,0 +1,67 @@
+{
+  "id": "gym2-90",
+  "name": "Misty's Psyduck",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "18",
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Golduck"
+  ],
+  "attacks": [
+    {
+      "name": "ESP",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip 3 coins. If exactly 1 is heads, draw a card. If exactly 2 are heads, this attack does 20 damage. If all 3 are heads, choose 1 of the Defending Pokémon's attacks. Misty's Psyduck copies that attack except for its Energy costs. (No matter what type the Defending Pokémon is, Misty's Psyduck's type is still Water.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "gym2",
+    "name": "Gym Challenge",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G2",
+    "releaseDate": "2000/10/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym2/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym2/logo.png"
+    }
+  },
+  "number": "90",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    54
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym2/90.png",
+    "large": "https://images.pokemontcg.io/gym2/90_hires.png"
+  }
+}

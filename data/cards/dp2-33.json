@@ -1,0 +1,78 @@
+{
+  "id": "dp2-33",
+  "name": "Rampardos",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "48",
+  "hp": "120",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Cranidos",
+  "attacks": [
+    {
+      "name": "Assurance",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "As long as the Defending Pokémon's remaining HP is 60 or less, this attack's base damage is 60 instead of 30."
+    },
+    {
+      "name": "Hasty Headbutt",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": "Rampardos does 20 damage to itself. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "+30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "33",
+  "artist": "Kazuyuki Kano",
+  "rarity": "Rare",
+  "flavorText": "Its powerful head butt has enough power to shatter even the most durable things upon impact.",
+  "nationalPokedexNumbers": [
+    409
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/33.png",
+    "large": "https://images.pokemontcg.io/dp2/33_hires.png"
+  }
+}

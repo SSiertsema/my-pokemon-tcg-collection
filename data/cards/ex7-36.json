@@ -1,0 +1,94 @@
+{
+  "id": "ex7-36",
+  "name": "Dark Gyarados",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Water",
+    "Darkness"
+  ],
+  "evolvesFrom": "Magikarp",
+  "rules": [
+    "This Pokémon is both Water Darkness type."
+  ],
+  "abilities": [
+    {
+      "name": "Dark Scale",
+      "text": "If Dark Gyarados is your Active Pokémon and is Knocked Out by an opponent's attack, put 3 damage counters on the Attacking Pokémon.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sharp Fang",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Dark Streak",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": "Flip a coin. If heads, each Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex7",
+    "name": "Team Rocket Returns",
+    "series": "EX",
+    "printedTotal": 109,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TRR",
+    "releaseDate": "2004/11/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex7/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex7/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Nakaoka",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    130
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex7/36.png",
+    "large": "https://images.pokemontcg.io/ex7/36_hires.png"
+  }
+}

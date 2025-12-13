@@ -1,0 +1,82 @@
+{
+  "id": "sm1-55",
+  "name": "Golbat",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Zubat",
+  "evolvesTo": [
+    "Crobat"
+  ],
+  "attacks": [
+    {
+      "name": "Super Poison Breath",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent's Active Pokémon is now Poisoned."
+    },
+    {
+      "name": "Acrobatics",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10+",
+      "text": "Flip 2 coins. This attack does 20 more damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "sm1",
+    "name": "Sun & Moon",
+    "series": "Sun & Moon",
+    "printedTotal": 149,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SUM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm1/logo.png"
+    }
+  },
+  "number": "55",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Uncommon",
+  "flavorText": "Its thick fangs are hollow like straws, making them unexpectedly fragile. These fangs are specialized for sucking blood.",
+  "nationalPokedexNumbers": [
+    42
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm1/55.png",
+    "large": "https://images.pokemontcg.io/sm1/55_hires.png"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "xyp-XY158",
+  "name": "M Beedrill-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "MEGA",
+    "EX"
+  ],
+  "hp": "200",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Beedrill-EX",
+  "rules": [
+    "Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.",
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Hazard Stinger",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "Discard all Energy attached to this Pokémon. Your opponent's Active Pokémon is now Paralyzed and Poisoned. Put 4 damage counters instead of 1 on that Pokémon between turns."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY158",
+  "artist": "5ban Graphics",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    15
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY158.png",
+    "large": "https://images.pokemontcg.io/xyp/XY158_hires.png"
+  }
+}

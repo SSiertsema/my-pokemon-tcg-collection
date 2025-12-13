@@ -1,0 +1,78 @@
+{
+  "id": "swsh9tg-TG09",
+  "name": "Ariados",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Spinarak",
+  "abilities": [
+    {
+      "name": "Spider Net",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch 1 of your opponent's Benched Evolution Pokémon with their Active Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Poison Sting",
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Your opponent's Active Pokémon is now Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh9tg",
+    "name": "Brilliant Stars Trainer Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 30,
+    "total": 30,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BRS",
+    "releaseDate": "2022/02/25",
+    "updatedAt": "2022/02/23 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh9tg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh9tg/logo.png"
+    }
+  },
+  "number": "TG09",
+  "artist": "Shiburingaru",
+  "rarity": "Trainer Gallery Rare Holo",
+  "flavorText": "It spews threads from its mouth to catch its prey. When night falls, it leaves its web to go hunt aggressively.",
+  "nationalPokedexNumbers": [
+    168
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh9tg/TG09.png",
+    "large": "https://images.pokemontcg.io/swsh9tg/TG09_hires.png"
+  }
+}

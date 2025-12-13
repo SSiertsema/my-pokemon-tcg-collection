@@ -1,0 +1,81 @@
+{
+  "id": "ex12-52",
+  "name": "Gastly",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Haunter"
+  ],
+  "attacks": [
+    {
+      "name": "Lick",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    },
+    {
+      "name": "Smog",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex12",
+    "name": "Legend Maker",
+    "series": "EX",
+    "printedTotal": 92,
+    "total": 93,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LM",
+    "releaseDate": "2006/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex12/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex12/logo.png"
+    }
+  },
+  "number": "52",
+  "artist": "Hajime Kusajima",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    92
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex12/52.png",
+    "large": "https://images.pokemontcg.io/ex12/52_hires.png"
+  }
+}

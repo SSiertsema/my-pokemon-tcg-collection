@@ -1,0 +1,81 @@
+{
+  "id": "pl1-30",
+  "name": "Gyarados G",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "SP"
+  ],
+  "level": "46",
+  "hp": "110",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Wriggle",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Flip a coin for each of your opponent's Pokémon. If that coin flip is heads, this attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Dwindling Wave",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "100-",
+      "text": "Does 100 damage minus 10 damage for each damage counter on Gyarados G."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "pl1",
+    "name": "Platinum",
+    "series": "Platinum",
+    "printedTotal": 127,
+    "total": 133,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PL",
+    "releaseDate": "2009/02/11",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl1/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl1/logo.png"
+    }
+  },
+  "number": "30",
+  "artist": "Kent Kanetsuna",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    130
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl1/30.png",
+    "large": "https://images.pokemontcg.io/pl1/30_hires.png"
+  }
+}

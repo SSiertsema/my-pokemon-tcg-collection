@@ -1,0 +1,82 @@
+{
+  "id": "swsh11-62",
+  "name": "Clefairy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Clefable"
+  ],
+  "abilities": [
+    {
+      "name": "Moon-Watching Party",
+      "text": "Once during your turn, if this Pokémon is in the Active Spot, for each of your Benched Clefairy, you may search your deck for a Psychic Energy card and attach it to that Clefairy. Then, shuffle your deck.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wonder Storm",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20×",
+      "text": "This attack does 20 damage for each Psychic Energy attached to all of your Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh11",
+    "name": "Lost Origin",
+    "series": "Sword & Shield",
+    "printedTotal": 196,
+    "total": 217,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOR",
+    "releaseDate": "2022/09/09",
+    "updatedAt": "2022/09/09 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh11/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh11/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "Kouki Saitou",
+  "rarity": "Common",
+  "flavorText": "It can be found in quiet mountain areas on a full moon's night. Its dancing and its tiny, faintly glowing wings confer upon it a lovely fairylike quality.",
+  "nationalPokedexNumbers": [
+    35
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh11/62.png",
+    "large": "https://images.pokemontcg.io/swsh11/62_hires.png"
+  }
+}

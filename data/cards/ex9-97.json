@@ -1,0 +1,84 @@
+{
+  "id": "ex9-97",
+  "name": "Raichu ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "ex"
+  ],
+  "hp": "100",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Pikachu",
+  "rules": [
+    "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Rai-shield",
+      "text": "Damage done to any of your Raichu ex in play by attacks from your opponent's Pokémon-ex is reduced by 30 (after applying Weakness and Resistance). You can't use more than 1 Rai-shield Poké-Body each turn.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Power Short",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) If that Pokémon has Poké-Powers, this attack does 30 damage plus 20 more damage."
+    },
+    {
+      "name": "Pika Bolt",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "70",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "ex9",
+    "name": "Emerald",
+    "series": "EX",
+    "printedTotal": 106,
+    "total": 107,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "EM",
+    "releaseDate": "2005/05/01",
+    "updatedAt": "2020/02/08 09:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex9/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex9/logo.png"
+    }
+  },
+  "number": "97",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    26
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex9/97.png",
+    "large": "https://images.pokemontcg.io/ex9/97_hires.png"
+  }
+}

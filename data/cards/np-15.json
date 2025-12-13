@@ -1,0 +1,76 @@
+{
+  "id": "np-15",
+  "name": "Latios",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Super Psy",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Freeze Dry",
+      "cost": [
+        "Water",
+        "Psychic",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "np",
+    "name": "Nintendo Black Star Promos",
+    "series": "NP",
+    "printedTotal": 40,
+    "total": 40,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-NP",
+    "releaseDate": "2003/10/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/np/symbol.png",
+      "logo": "https://images.pokemontcg.io/np/logo.png"
+    }
+  },
+  "number": "15",
+  "artist": "Ken Sugimori",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    381
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/np/15.png",
+    "large": "https://images.pokemontcg.io/np/15_hires.png"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "bw1-88",
+  "name": "Minccino",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Cinccino"
+  ],
+  "attacks": [
+    {
+      "name": "Tail Slap",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10×",
+      "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw1",
+    "name": "Black & White",
+    "series": "Black & White",
+    "printedTotal": 114,
+    "total": 115,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BLW",
+    "releaseDate": "2011/04/25",
+    "updatedAt": "2018/11/29 19:56:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw1/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw1/logo.png"
+    }
+  },
+  "number": "88",
+  "artist": "sui",
+  "rarity": "Common",
+  "flavorText": "They greet one another by rubbing each other with their tails, which are always kept well groomed and clean.",
+  "nationalPokedexNumbers": [
+    572
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw1/88.png",
+    "large": "https://images.pokemontcg.io/bw1/88_hires.png"
+  }
+}

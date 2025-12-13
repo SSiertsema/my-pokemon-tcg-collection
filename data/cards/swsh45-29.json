@@ -1,0 +1,72 @@
+{
+  "id": "swsh45-29",
+  "name": "Snom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Frosmoth"
+  ],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh45",
+    "name": "Shining Fates",
+    "series": "Sword & Shield",
+    "printedTotal": 72,
+    "total": 73,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SHF",
+    "releaseDate": "2021/02/19",
+    "updatedAt": "2021/02/24 16:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh45/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh45/logo.png"
+    }
+  },
+  "number": "29",
+  "artist": "Tika Matsuno",
+  "rarity": "Common",
+  "flavorText": "It spits out thread imbued with a frigid sort of energy and uses it to tie its body to branches, disguising itself as an icicle while it sleeps.",
+  "nationalPokedexNumbers": [
+    872
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh45/29.png",
+    "large": "https://images.pokemontcg.io/swsh45/29_hires.png"
+  }
+}

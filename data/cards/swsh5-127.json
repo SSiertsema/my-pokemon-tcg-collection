@@ -1,0 +1,45 @@
+{
+  "id": "swsh5-127",
+  "name": "Fan of Waves",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item",
+    "Rapid Strike"
+  ],
+  "rules": [
+    "Put a Special Energy attached to 1 of your opponent's Pokémon on the bottom of their deck.",
+    "You may play any number of Item cards during your turn."
+  ],
+  "set": {
+    "id": "swsh5",
+    "name": "Battle Styles",
+    "series": "Sword & Shield",
+    "printedTotal": 163,
+    "total": 183,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BST",
+    "releaseDate": "2021/03/19",
+    "updatedAt": "2021/03/19 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh5/logo.png"
+    }
+  },
+  "number": "127",
+  "artist": "sadaji",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh5/127.png",
+    "large": "https://images.pokemontcg.io/swsh5/127_hires.png"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "sm12-171",
+  "name": "Teddiursa",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Ursaring"
+  ],
+  "attacks": [
+    {
+      "name": "Scratch",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Slash",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "171",
+  "artist": "kodama",
+  "rarity": "Common",
+  "flavorText": "If it finds honey, its crescent mark glows. It always licks its paws because they are soaked with honey.",
+  "nationalPokedexNumbers": [
+    216
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/171.png",
+    "large": "https://images.pokemontcg.io/sm12/171_hires.png"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "bw6-47",
+  "name": "Dustox",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Cascoon",
+  "attacks": [
+    {
+      "name": "Hazardous Scales",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Asleep, Burned, and Poisoned."
+    },
+    {
+      "name": "Aerial Ace",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw6",
+    "name": "Dragons Exalted",
+    "series": "Black & White",
+    "printedTotal": 124,
+    "total": 128,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRX",
+    "releaseDate": "2012/08/15",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw6/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw6/logo.png"
+    }
+  },
+  "number": "47",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "Toxic powder is scattered with each flap. At night, it is known to strip leaves off trees lining boulevards.",
+  "nationalPokedexNumbers": [
+    269
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw6/47.png",
+    "large": "https://images.pokemontcg.io/bw6/47_hires.png"
+  }
+}

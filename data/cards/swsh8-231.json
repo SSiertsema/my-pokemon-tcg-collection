@@ -1,0 +1,46 @@
+{
+  "id": "swsh8-231",
+  "name": "Crossceiver",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item",
+    "Fusion Strike"
+  ],
+  "rules": [
+    "You must play 2 Crossceiver cards at once. (This effect works one time for 2 cards.)",
+    "Put a Pokémon or a Supporter card from your discard pile into your hand.",
+    "You may play any number of Item cards during your turn."
+  ],
+  "set": {
+    "id": "swsh8",
+    "name": "Fusion Strike",
+    "series": "Sword & Shield",
+    "printedTotal": 264,
+    "total": 284,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FST",
+    "releaseDate": "2021/11/12",
+    "updatedAt": "2021/11/12 07:32:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+    }
+  },
+  "number": "231",
+  "artist": "Studio Bora Inc.",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh8/231.png",
+    "large": "https://images.pokemontcg.io/swsh8/231_hires.png"
+  }
+}

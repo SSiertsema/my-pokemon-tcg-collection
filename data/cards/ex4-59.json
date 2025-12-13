@@ -1,0 +1,66 @@
+{
+  "id": "ex4-59",
+  "name": "Team Magma's Aron",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Lairon"
+  ],
+  "attacks": [
+    {
+      "name": "Dig Under",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. This attack's damage isn't affected by Weakness or Resistance."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex4",
+    "name": "Team Magma vs Team Aqua",
+    "series": "EX",
+    "printedTotal": 95,
+    "total": 97,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MA",
+    "releaseDate": "2004/03/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex4/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex4/logo.png"
+    }
+  },
+  "number": "59",
+  "artist": "Katsura Tabata",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    304
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex4/59.png",
+    "large": "https://images.pokemontcg.io/ex4/59_hires.png"
+  }
+}

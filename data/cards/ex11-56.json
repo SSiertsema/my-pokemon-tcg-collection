@@ -1,0 +1,71 @@
+{
+  "id": "ex11-56",
+  "name": "Volbeat",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "abilities": [
+    {
+      "name": "Extra Protection",
+      "text": "As long as you have Illumise in play, prevent all effects, including damage, done to Volbeat by attacks from your opponent's Pokémon-ex.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Swift",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex11",
+    "name": "Delta Species",
+    "series": "EX",
+    "printedTotal": 113,
+    "total": 114,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DS",
+    "releaseDate": "2005/10/31",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex11/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex11/logo.png"
+    }
+  },
+  "number": "56",
+  "artist": "Midori Harada",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    313
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex11/56.png",
+    "large": "https://images.pokemontcg.io/ex11/56_hires.png"
+  }
+}

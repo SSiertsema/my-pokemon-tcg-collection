@@ -1,0 +1,77 @@
+{
+  "id": "mcd21-19",
+  "name": "Mudkip",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Marshtomp"
+  ],
+  "attacks": [
+    {
+      "name": "Tackle",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Mud-Slap",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "mcd21",
+    "name": "McDonald's Collection 2021",
+    "series": "Other",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2021/02/09",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/mcd21/symbol.png",
+      "logo": "https://images.pokemontcg.io/mcd21/logo.png"
+    }
+  },
+  "number": "19",
+  "artist": "Aya Kusube",
+  "flavorText": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+  "nationalPokedexNumbers": [
+    258
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/mcd21/19.png",
+    "large": "https://images.pokemontcg.io/mcd21/19_hires.png"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "sm8-1",
+  "name": "Tangela",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Tangrowth"
+  ],
+  "attacks": [
+    {
+      "name": "Gentle Slap",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Bind",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "1",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "It tangles any moving thing with its vines. Their subtle shaking is ticklish if you get ensnared.",
+  "nationalPokedexNumbers": [
+    114
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/1.png",
+    "large": "https://images.pokemontcg.io/sm8/1_hires.png"
+  }
+}

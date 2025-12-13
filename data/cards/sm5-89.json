@@ -1,0 +1,90 @@
+{
+  "id": "sm5-89",
+  "name": "Solgaleo ◇",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Prism Star"
+  ],
+  "hp": "160",
+  "types": [
+    "Metal"
+  ],
+  "rules": [
+    "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+  ],
+  "attacks": [
+    {
+      "name": "Radiant Star",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "For each of your opponent's Pokémon in play, attach a Metal Energy card from your discard pile to your Pokémon in any way you like."
+    },
+    {
+      "name": "Corona Impact",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Metal",
+        "Metal"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "160",
+      "text": "This Pokémon can't attack during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "89",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare Prism Star",
+  "flavorText": "This Pokémon is said to be a male evolution of Cosmog. At the activation of its third eye, it departs for another world.",
+  "nationalPokedexNumbers": [
+    791
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/89.png",
+    "large": "https://images.pokemontcg.io/sm5/89_hires.png"
+  }
+}

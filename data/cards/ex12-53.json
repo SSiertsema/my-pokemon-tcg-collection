@@ -1,0 +1,67 @@
+{
+  "id": "ex12-53",
+  "name": "Geodude",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Graveler"
+  ],
+  "attacks": [
+    {
+      "name": "Selfdestruct",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) Geodude does 50 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex12",
+    "name": "Legend Maker",
+    "series": "EX",
+    "printedTotal": 92,
+    "total": 93,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LM",
+    "releaseDate": "2006/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex12/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex12/logo.png"
+    }
+  },
+  "number": "53",
+  "artist": "Miki Tanaka",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    74
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex12/53.png",
+    "large": "https://images.pokemontcg.io/ex12/53_hires.png"
+  }
+}

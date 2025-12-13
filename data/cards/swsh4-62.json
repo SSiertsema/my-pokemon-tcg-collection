@@ -1,0 +1,77 @@
+{
+  "id": "swsh4-62",
+  "name": "Pincurchin",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Lightning"
+  ],
+  "attacks": [
+    {
+      "name": "Spinning Fan",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Peck",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh4",
+    "name": "Vivid Voltage",
+    "series": "Sword & Shield",
+    "printedTotal": 185,
+    "total": 203,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "VIV",
+    "releaseDate": "2020/11/13",
+    "updatedAt": "2020/11/13 16:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh4/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh4/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "Kouki Saitou",
+  "rarity": "Uncommon",
+  "flavorText": "It feeds on seaweed, using its teeth to scrape it off rocks. Electric current flows from the tips of its spines.",
+  "nationalPokedexNumbers": [
+    871
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh4/62.png",
+    "large": "https://images.pokemontcg.io/swsh4/62_hires.png"
+  }
+}

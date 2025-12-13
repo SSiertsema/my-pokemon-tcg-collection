@@ -1,0 +1,76 @@
+{
+  "id": "ex1-12",
+  "name": "Slaking",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Vigoroth",
+  "abilities": [
+    {
+      "name": "Lazy",
+      "text": "As long as Slaking is your Active Pokémon, your opponent's Pokémon can't use any Poké-Powers.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Critical Move",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "100",
+      "text": "Discard a basic Energy card attached to Slaking or this attack does nothing. Slaking can't attack during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "ex1",
+    "name": "Ruby & Sapphire",
+    "series": "EX",
+    "printedTotal": 109,
+    "total": 109,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RS",
+    "releaseDate": "2003/07/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex1/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex1/logo.png"
+    }
+  },
+  "number": "12",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    289
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex1/12.png",
+    "large": "https://images.pokemontcg.io/ex1/12_hires.png"
+  }
+}

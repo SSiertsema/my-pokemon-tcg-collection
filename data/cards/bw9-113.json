@@ -1,0 +1,85 @@
+{
+  "id": "bw9-113",
+  "name": "Latios-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "EX"
+  ],
+  "hp": "170",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesTo": [
+    "M Latios-EX"
+  ],
+  "rules": [
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Mach Flight",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    },
+    {
+      "name": "Luster Purge",
+      "cost": [
+        "Water",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "150",
+      "text": "Discard all Energy attached to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Dragon",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "113",
+  "artist": "Ryo Ueda",
+  "rarity": "Rare Ultra",
+  "nationalPokedexNumbers": [
+    381
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/113.png",
+    "large": "https://images.pokemontcg.io/bw9/113_hires.png"
+  }
+}

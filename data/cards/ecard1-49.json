@@ -1,0 +1,77 @@
+{
+  "id": "ecard1-49",
+  "name": "Golem",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "100",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Graveler",
+  "abilities": [
+    {
+      "name": "Rock Body",
+      "text": "All damage done by attacks to Golem is reduced by 10 (after applying Weakness and Resistance).",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Rock Tumble",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60",
+      "text": "Don't apply Resistance."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "ecard1",
+    "name": "Expedition Base Set",
+    "series": "E-Card",
+    "printedTotal": 165,
+    "total": 165,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "EX",
+    "releaseDate": "2002/09/15",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard1/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard1/logo.png"
+    }
+  },
+  "number": "49",
+  "artist": "Aya Kusube",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    76
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard1/49.png",
+    "large": "https://images.pokemontcg.io/ecard1/49_hires.png"
+  }
+}

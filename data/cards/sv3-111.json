@@ -1,0 +1,72 @@
+{
+  "id": "sv3-111",
+  "name": "Drilbur",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Excadrill"
+  ],
+  "attacks": [
+    {
+      "name": "Rising Lunge",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "Flip a coin. If heads, this attack does 10 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv3",
+    "name": "Obsidian Flames",
+    "series": "Scarlet & Violet",
+    "printedTotal": 197,
+    "total": 230,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/08/11",
+    "updatedAt": "2023/08/11 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3/logo.png"
+    }
+  },
+  "number": "111",
+  "artist": "sowsow",
+  "rarity": "Common",
+  "flavorText": "It's a digger, using its claws to burrow through the ground. It causes damage to vegetable crops, so many farmers have little love for it.",
+  "nationalPokedexNumbers": [
+    529
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3/111.png",
+    "large": "https://images.pokemontcg.io/sv3/111_hires.png"
+  }
+}

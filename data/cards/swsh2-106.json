@@ -1,0 +1,85 @@
+{
+  "id": "swsh2-106",
+  "name": "Carkol",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Rolycoly",
+  "evolvesTo": [
+    "Coalossal"
+  ],
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Heat Crash",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh2",
+    "name": "Rebel Clash",
+    "series": "Sword & Shield",
+    "printedTotal": 192,
+    "total": 209,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "RCL",
+    "releaseDate": "2020/05/01",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh2/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh2/logo.png"
+    }
+  },
+  "number": "106",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Uncommon",
+  "flavorText": "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region.",
+  "nationalPokedexNumbers": [
+    838
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh2/106.png",
+    "large": "https://images.pokemontcg.io/swsh2/106_hires.png"
+  }
+}

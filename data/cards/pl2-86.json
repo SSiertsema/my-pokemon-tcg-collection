@@ -1,0 +1,75 @@
+{
+  "id": "pl2-86",
+  "name": "Weedle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "6",
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Kakuna"
+  ],
+  "attacks": [
+    {
+      "name": "Rescue String",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Search your discard pile for up to 5 Pokémon, show them to your opponent, and shuffle them into your deck."
+    },
+    {
+      "name": "Needling Sting",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "86",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "It eats its weight in leaves every day. It fends off attackers with the needle on its head.",
+  "nationalPokedexNumbers": [
+    13
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/86.png",
+    "large": "https://images.pokemontcg.io/pl2/86_hires.png"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "hgss4-26",
+  "name": "Machamp",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "130",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Machoke",
+  "attacks": [
+    {
+      "name": "Vital Throw",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40+",
+      "text": "You may do 40 damage plus 20 more damage. If you do, Machamp does 20 damage to itself."
+    },
+    {
+      "name": "Hundred Furious Punches",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "Does 60 damage plus 10 more damage for each Fighting Energy attached to Machamp."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "hgss4",
+    "name": "HS—Triumphant",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 102,
+    "total": 103,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TM",
+    "releaseDate": "2010/11/03",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss4/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss4/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare",
+  "flavorText": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+  "nationalPokedexNumbers": [
+    68
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss4/26.png",
+    "large": "https://images.pokemontcg.io/hgss4/26_hires.png"
+  }
+}

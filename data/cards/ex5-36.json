@@ -1,0 +1,77 @@
+{
+  "id": "ex5-36",
+  "name": "Golbat",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Zubat",
+  "evolvesTo": [
+    "Crobat"
+  ],
+  "attacks": [
+    {
+      "name": "Supersonic",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Confused."
+    },
+    {
+      "name": "Sharp Fang",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex5",
+    "name": "Hidden Legends",
+    "series": "EX",
+    "printedTotal": 101,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HL",
+    "releaseDate": "2004/06/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex5/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex5/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Midori Harada",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    42
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex5/36.png",
+    "large": "https://images.pokemontcg.io/ex5/36_hires.png"
+  }
+}

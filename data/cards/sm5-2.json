@@ -1,0 +1,76 @@
+{
+  "id": "sm5-2",
+  "name": "Yanma",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Yanmega"
+  ],
+  "attacks": [
+    {
+      "name": "Super Speed",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to this Pokémon during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "2",
+  "artist": "Akira Komayama",
+  "rarity": "Common",
+  "flavorText": "If it flaps its wings really fast, it can generate shock waves that will shatter windows in the area.",
+  "nationalPokedexNumbers": [
+    193
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/2.png",
+    "large": "https://images.pokemontcg.io/sm5/2_hires.png"
+  }
+}

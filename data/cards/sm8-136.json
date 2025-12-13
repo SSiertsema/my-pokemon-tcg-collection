@@ -1,0 +1,85 @@
+{
+  "id": "sm8-136",
+  "name": "Azumarill",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesFrom": "Marill",
+  "attacks": [
+    {
+      "name": "Polka-Dot Search",
+      "cost": [
+        "Fairy"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Look at the top 8 cards of your deck and attach any number of Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck."
+    },
+    {
+      "name": "Play Rough",
+      "cost": [
+        "Fairy",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "136",
+  "artist": "Naoyo Kimura",
+  "rarity": "Rare",
+  "flavorText": "The bubble-like pattern on its stomach helps it camouflage itself when it's in the water.",
+  "nationalPokedexNumbers": [
+    184
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/136.png",
+    "large": "https://images.pokemontcg.io/sm8/136_hires.png"
+  }
+}

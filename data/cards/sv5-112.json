@@ -1,0 +1,87 @@
+{
+  "id": "sv5-112",
+  "name": "Mawile",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Metal"
+  ],
+  "attacks": [
+    {
+      "name": "Invite and Strike",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Switch in 1 of your opponent's Benched Pokémon to the Active Spot. This attack does 30 damage to the new Active Pokémon."
+    },
+    {
+      "name": "Sharp Fang",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv5",
+    "name": "Temporal Forces",
+    "series": "Scarlet & Violet",
+    "printedTotal": 162,
+    "total": 218,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEF",
+    "releaseDate": "2024/03/22",
+    "updatedAt": "2024/03/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv5/logo.png"
+    }
+  },
+  "number": "112",
+  "artist": "aspara",
+  "rarity": "Common",
+  "flavorText": "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
+  "nationalPokedexNumbers": [
+    303
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv5/112.png",
+    "large": "https://images.pokemontcg.io/sv5/112_hires.png"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "bw9-94",
+  "name": "Kecleon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Color Change",
+      "text": "As long as this Pokémon is your Active Pokémon, this Pokémon is the same type as the your opponent's Active Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Imittack",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Choose 1 of the Defending Pokémon's attacks. If this Pokémon has the necessary Energy to use that attack, use it as this attack."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "94",
+  "artist": "Toyste Beach",
+  "rarity": "Rare",
+  "flavorText": "It can freely change its body's color. The zigzag pattern on its belly doesn't change, however.",
+  "nationalPokedexNumbers": [
+    352
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/94.png",
+    "large": "https://images.pokemontcg.io/bw9/94_hires.png"
+  }
+}

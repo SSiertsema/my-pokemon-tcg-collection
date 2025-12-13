@@ -1,0 +1,63 @@
+{
+  "id": "sm7-43",
+  "name": "Gorebyss",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Clamperl",
+  "attacks": [
+    {
+      "name": "Deflecting Splash",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Evolution Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "sm7",
+    "name": "Celestial Storm",
+    "series": "Sun & Moon",
+    "printedTotal": 168,
+    "total": 187,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CES",
+    "releaseDate": "2018/08/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm7/logo.png"
+    }
+  },
+  "number": "43",
+  "artist": "Mizue",
+  "rarity": "Uncommon",
+  "flavorText": "Its swimming form is exquisitely elegant. With its thin mouth, it feeds on seaweed that grows between rocks.",
+  "nationalPokedexNumbers": [
+    368
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm7/43.png",
+    "large": "https://images.pokemontcg.io/sm7/43_hires.png"
+  }
+}

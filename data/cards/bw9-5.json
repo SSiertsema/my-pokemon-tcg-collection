@@ -1,0 +1,85 @@
+{
+  "id": "bw9-5",
+  "name": "Exeggutor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Exeggcute",
+  "attacks": [
+    {
+      "name": "Blockade",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Your opponent can't play any Supporter cards from his or her hand during his or her next turn."
+    },
+    {
+      "name": "Stomp",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "5",
+  "artist": "match",
+  "rarity": "Rare",
+  "flavorText": "It is called \"The Walking Jungle.\" If a head grows too big, it falls off and becomes an Exeggcute.",
+  "nationalPokedexNumbers": [
+    103
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/5.png",
+    "large": "https://images.pokemontcg.io/bw9/5_hires.png"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "swsh8-161",
+  "name": "Galarian Obstagoon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "170",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Galarian Linoone",
+  "attacks": [
+    {
+      "name": "Silence",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Choose 1 of your opponent's Active Pokémon's attacks. During your opponent's next turn, that Pokémon can't use that attack."
+    },
+    {
+      "name": "Merciless Strike",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "60+",
+      "text": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 90 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh8",
+    "name": "Fusion Strike",
+    "series": "Sword & Shield",
+    "printedTotal": 264,
+    "total": 284,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FST",
+    "releaseDate": "2021/11/12",
+    "updatedAt": "2021/11/12 07:32:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+    }
+  },
+  "number": "161",
+  "artist": "kodama",
+  "rarity": "Rare Holo",
+  "flavorText": "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
+  "nationalPokedexNumbers": [
+    862
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh8/161.png",
+    "large": "https://images.pokemontcg.io/swsh8/161_hires.png"
+  }
+}

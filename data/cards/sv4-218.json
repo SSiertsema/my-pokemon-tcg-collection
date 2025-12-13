@@ -1,0 +1,81 @@
+{
+  "id": "sv4-218",
+  "name": "Armarouge ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "ex"
+  ],
+  "hp": "260",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Charcadet",
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Crimson Armor",
+      "text": "If this Pokémon has full HP, it takes 80 less damage from attacks from your opponent's Pokémon (after applying Weakness and Resistance).",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Scorching Bazooka",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40+",
+      "text": "This attack does 40 more damage for each Fire Energy attached to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 266,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/11/03",
+    "updatedAt": "2023/11/03 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4/logo.png"
+    }
+  },
+  "number": "218",
+  "artist": "takuyoa",
+  "rarity": "Ultra Rare",
+  "nationalPokedexNumbers": [
+    936
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4/218.png",
+    "large": "https://images.pokemontcg.io/sv4/218_hires.png"
+  }
+}

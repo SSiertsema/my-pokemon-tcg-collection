@@ -1,0 +1,81 @@
+{
+  "id": "dp7-69",
+  "name": "Onix",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "25",
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Steelix"
+  ],
+  "attacks": [
+    {
+      "name": "Harden",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "During your opponent's next turn, if Onix would be damaged by an attack, prevent that attack's damage done to Onix if that damage is 40 or less."
+    },
+    {
+      "name": "Bind",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dp7",
+    "name": "Stormfront",
+    "series": "Diamond & Pearl",
+    "printedTotal": 100,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SF",
+    "releaseDate": "2008/11/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp7/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp7/logo.png"
+    }
+  },
+  "number": "69",
+  "artist": "Kyoko Umemoto",
+  "rarity": "Common",
+  "flavorText": "When it travels underground, it causes rumbling and tremors. It can move at 50 mph.",
+  "nationalPokedexNumbers": [
+    95
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp7/69.png",
+    "large": "https://images.pokemontcg.io/dp7/69_hires.png"
+  }
+}

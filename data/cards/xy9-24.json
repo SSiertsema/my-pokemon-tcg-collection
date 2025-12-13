@@ -1,0 +1,79 @@
+{
+  "id": "xy9-24",
+  "name": "Cloyster",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Shellder",
+  "attacks": [
+    {
+      "name": "Sudden Grip",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "If this Pokémon evolved from Shellder during this turn, your opponent's Active Pokémon is now Paralyzed."
+    },
+    {
+      "name": "Surf",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy9",
+    "name": "BREAKpoint",
+    "series": "XY",
+    "printedTotal": 122,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKP",
+    "releaseDate": "2016/02/03",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy9/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy9/logo.png"
+    }
+  },
+  "number": "24",
+  "artist": "Saya Tsuruta",
+  "rarity": "Uncommon",
+  "flavorText": "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking.",
+  "nationalPokedexNumbers": [
+    91
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy9/24.png",
+    "large": "https://images.pokemontcg.io/xy9/24_hires.png"
+  }
+}

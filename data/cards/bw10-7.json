@@ -1,0 +1,81 @@
+{
+  "id": "bw10-7",
+  "name": "Shelmet",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Accelgor"
+  ],
+  "attacks": [
+    {
+      "name": "Yawn",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Asleep."
+    },
+    {
+      "name": "Ram",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw10",
+    "name": "Plasma Blast",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 105,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLB",
+    "releaseDate": "2013/08/14",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw10/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw10/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Common",
+  "flavorText": "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+  "nationalPokedexNumbers": [
+    616
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw10/7.png",
+    "large": "https://images.pokemontcg.io/bw10/7_hires.png"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "swsh8-101",
+  "name": "Vikavolt",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "150",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Charjabug",
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": ""
+    },
+    {
+      "name": "Electro Blaster",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "",
+      "text": "Discard 2 Lightning Energy from this Pokémon. This attack does 200 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "swsh8",
+    "name": "Fusion Strike",
+    "series": "Sword & Shield",
+    "printedTotal": 264,
+    "total": 284,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FST",
+    "releaseDate": "2021/11/12",
+    "updatedAt": "2021/11/12 07:32:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+    }
+  },
+  "number": "101",
+  "artist": "nagimiso",
+  "rarity": "Rare",
+  "flavorText": "If it carries a Charjabug to use as a spare battery, a flying Vikavolt can rapidly fire high-powered beams of electricity.",
+  "nationalPokedexNumbers": [
+    738
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh8/101.png",
+    "large": "https://images.pokemontcg.io/swsh8/101_hires.png"
+  }
+}

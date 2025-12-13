@@ -1,0 +1,72 @@
+{
+  "id": "ex11-26",
+  "name": "Rain Castform",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "abilities": [
+    {
+      "name": "Temperamental Weather",
+      "text": "Once during your turn (before your attack), you may search your deck for Castform, Sunny Castform, or Snow-cloud Castform and switch it with Rain Castform. (Any cards attached to Rain Castform, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Shuffle Rain Castform back into your deck. You can't use more than 1 Temperamental Weather Poké-Power each turn.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Holon Splash",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Does 30 damage plus 10 more damage for each Holon Energy card attached to Rain Castform."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex11",
+    "name": "Delta Species",
+    "series": "EX",
+    "printedTotal": 113,
+    "total": 114,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DS",
+    "releaseDate": "2005/10/31",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex11/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex11/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Miki Tanaka",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    351
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex11/26.png",
+    "large": "https://images.pokemontcg.io/ex11/26_hires.png"
+  }
+}

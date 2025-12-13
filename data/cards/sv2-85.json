@@ -1,0 +1,86 @@
+{
+  "id": "sv2-85",
+  "name": "Slowpoke",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Psychic"
+      ],
+      "name": "Tail-Fishing",
+      "damage": "",
+      "text": "Flip a coin. If heads, search your deck for a card and put it into your hand. Then, shuffle your deck. If tails, discard a card from your hand.",
+      "convertedEnergyCost": 1
+    },
+    {
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "name": "Zen Headbutt",
+      "damage": "30",
+      "text": "",
+      "convertedEnergyCost": 2
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    }
+  },
+  "number": "85",
+  "artist": "sowsow",
+  "rarity": "Common",
+  "flavorText": "It is incredibly slow and dopey. It takes five seconds for it to feel pain when under attack.",
+  "nationalPokedexNumbers": [
+    79
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv2/85.png",
+    "large": "https://images.pokemontcg.io/sv2/85_hires.png"
+  }
+}

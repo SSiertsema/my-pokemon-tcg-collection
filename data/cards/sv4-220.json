@@ -1,0 +1,85 @@
+{
+  "id": "sv4-220",
+  "name": "Tsareena ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "Tera",
+    "ex"
+  ],
+  "hp": "310",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Steenee",
+  "rules": [
+    "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Icicle Sole",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Put damage counters on 1 of your opponent's Pokémon until its remaining HP is 30."
+    },
+    {
+      "name": "Trop Kick",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "180",
+      "text": "Heal 30 damage from this Pokémon, and it recovers from all Special Conditions."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 266,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/11/03",
+    "updatedAt": "2023/11/03 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4/logo.png"
+    }
+  },
+  "number": "220",
+  "artist": "5ban Graphics",
+  "rarity": "Ultra Rare",
+  "nationalPokedexNumbers": [
+    763
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4/220.png",
+    "large": "https://images.pokemontcg.io/sv4/220_hires.png"
+  }
+}

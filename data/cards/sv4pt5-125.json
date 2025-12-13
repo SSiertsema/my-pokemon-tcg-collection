@@ -1,0 +1,81 @@
+{
+  "id": "sv4pt5-125",
+  "name": "Veluza",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Slim Screw",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "120",
+      "text": "If you have no cards in your hand, this attack can be used for Water."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv4pt5",
+    "name": "Paldean Fates",
+    "series": "Scarlet & Violet",
+    "printedTotal": 91,
+    "total": 245,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2024/01/26",
+    "updatedAt": "2024/01/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4pt5/logo.png"
+    }
+  },
+  "number": "125",
+  "artist": "Nelnal",
+  "rarity": "Shiny Rare",
+  "flavorText": "When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.",
+  "nationalPokedexNumbers": [
+    976
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4pt5/125.png",
+    "large": "https://images.pokemontcg.io/sv4pt5/125_hires.png"
+  }
+}

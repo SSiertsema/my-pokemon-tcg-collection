@@ -1,0 +1,77 @@
+{
+  "id": "hgss1-75",
+  "name": "Meowth",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Persian"
+  ],
+  "attacks": [
+    {
+      "name": "Pay Day",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Draw a card."
+    },
+    {
+      "name": "Dig Claws",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hgss1",
+    "name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss1/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss1/logo.png"
+    }
+  },
+  "number": "75",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Common",
+  "flavorText": "It loves anything that shines. It especially adores coins that it picks up and secretly hoards.",
+  "nationalPokedexNumbers": [
+    52
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss1/75.png",
+    "large": "https://images.pokemontcg.io/hgss1/75_hires.png"
+  }
+}

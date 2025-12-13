@@ -1,0 +1,76 @@
+{
+  "id": "ex1-18",
+  "name": "Nosepass",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Probopass"
+  ],
+  "attacks": [
+    {
+      "name": "Invisible Hand",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "If any of your opponent's Active Pokémon are Evolved Pokémon, search your deck for any 1 card and put it into your hand. Shuffle your deck afterward."
+    },
+    {
+      "name": "Repulsion",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Flip a coin. If heads, your opponent returns the Defending Pokémon and all cards attached to it to his or her hand. (If your opponent doesn't have any Benched Pokémon or other Active Pokémon, this attack does nothing.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex1",
+    "name": "Ruby & Sapphire",
+    "series": "EX",
+    "printedTotal": 109,
+    "total": 109,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RS",
+    "releaseDate": "2003/07/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex1/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex1/logo.png"
+    }
+  },
+  "number": "18",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    299
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex1/18.png",
+    "large": "https://images.pokemontcg.io/ex1/18_hires.png"
+  }
+}

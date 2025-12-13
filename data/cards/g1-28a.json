@@ -1,0 +1,82 @@
+{
+  "id": "g1-28a",
+  "name": "Jolteon-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "EX"
+  ],
+  "hp": "160",
+  "types": [
+    "Lightning"
+  ],
+  "rules": [
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Swift",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pokémon."
+    },
+    {
+      "name": "Flash Ray",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "g1",
+    "name": "Generations",
+    "series": "XY",
+    "printedTotal": 83,
+    "total": 117,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "GEN",
+    "releaseDate": "2016/02/22",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/g1/symbol.png",
+      "logo": "https://images.pokemontcg.io/g1/logo.png"
+    }
+  },
+  "number": "28a",
+  "artist": "Ryo Ueda",
+  "rarity": "Rare Ultra",
+  "nationalPokedexNumbers": [
+    135
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/g1/28a.png",
+    "large": "https://images.pokemontcg.io/g1/28a_hires.png"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "sm4-38",
+  "name": "Gengar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Haunter",
+  "abilities": [
+    {
+      "name": "Gnawing Curse",
+      "text": "Whenever your opponent attaches an Energy card from their hand to 1 of their Pokémon, put 2 damage counters on that Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Fade to Black",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "sm4",
+    "name": "Crimson Invasion",
+    "series": "Sun & Moon",
+    "printedTotal": 111,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CIN",
+    "releaseDate": "2017/11/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm4/logo.png"
+    }
+  },
+  "number": "38",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare Holo",
+  "flavorText": "Should you feel yourself attacked by a sudden chill, it is evidence of an approaching Gengar. There is no escaping it. Give up.",
+  "nationalPokedexNumbers": [
+    94
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm4/38.png",
+    "large": "https://images.pokemontcg.io/sm4/38_hires.png"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "bw7-102",
+  "name": "White Kyurem",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Dragon"
+  ],
+  "attacks": [
+    {
+      "name": "Damage Rush",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20×",
+      "text": "Flip a coin until you get tails. This attack does 20 damage times the number of heads."
+    },
+    {
+      "name": "Cold Fire",
+      "cost": [
+        "Fire",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80+",
+      "text": "Flip a coin. If heads, this attack does 40 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Dragon",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw7",
+    "name": "Boundaries Crossed",
+    "series": "Black & White",
+    "printedTotal": 149,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BCR",
+    "releaseDate": "2012/11/07",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw7/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw7/logo.png"
+    }
+  },
+  "number": "102",
+  "artist": "5ban Graphics",
+  "rarity": "Rare",
+  "flavorText": "This legendary ice Pokémon waits for a hero to fill in the missing parts of its body with truth or ideals.",
+  "nationalPokedexNumbers": [
+    646
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw7/102.png",
+    "large": "https://images.pokemontcg.io/bw7/102_hires.png"
+  }
+}

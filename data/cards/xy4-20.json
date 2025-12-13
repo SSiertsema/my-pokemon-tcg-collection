@@ -1,0 +1,70 @@
+{
+  "id": "xy4-20",
+  "name": "Frillish",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Jellicent"
+  ],
+  "attacks": [
+    {
+      "name": "Confuse Ray",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy4",
+    "name": "Phantom Forces",
+    "series": "XY",
+    "printedTotal": 119,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PHF",
+    "releaseDate": "2014/11/05",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy4/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy4/logo.png"
+    }
+  },
+  "number": "20",
+  "artist": "Kyoko Umemoto",
+  "rarity": "Common",
+  "flavorText": "They paralyze prey with poison, then drag them down to their lairs, five miles below the surface.",
+  "nationalPokedexNumbers": [
+    592
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy4/20.png",
+    "large": "https://images.pokemontcg.io/xy4/20_hires.png"
+  }
+}

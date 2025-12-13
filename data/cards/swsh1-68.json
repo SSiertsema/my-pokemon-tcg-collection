@@ -1,0 +1,80 @@
+{
+  "id": "swsh1-68",
+  "name": "Chinchou",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Lanturn"
+  ],
+  "attacks": [
+    {
+      "name": "Luring Glow",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon."
+    },
+    {
+      "name": "Lightning Ball",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh1",
+    "name": "Sword & Shield",
+    "series": "Sword & Shield",
+    "printedTotal": 202,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SSH",
+    "releaseDate": "2020/02/07",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh1/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh1/logo.png"
+    }
+  },
+  "number": "68",
+  "artist": "Yukiko Baba",
+  "rarity": "Common",
+  "flavorText": "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them.",
+  "nationalPokedexNumbers": [
+    170
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh1/68.png",
+    "large": "https://images.pokemontcg.io/swsh1/68_hires.png"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "pl3-149",
+  "name": "Moltres",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "33",
+  "hp": "70",
+  "types": [
+    "Fire"
+  ],
+  "attacks": [
+    {
+      "name": "Hyper Flame",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Flip a coin. If heads, discard a Fire Energy attached to Moltres. If tails, discard all Energy attached to Moltres."
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "149",
+  "artist": "Toshinao Aoki",
+  "rarity": "Rare Secret",
+  "flavorText": "The flames on this legendary Pokémon's wings burn so brightly that they can make night seem like day.",
+  "nationalPokedexNumbers": [
+    146
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/149.png",
+    "large": "https://images.pokemontcg.io/pl3/149_hires.png"
+  }
+}

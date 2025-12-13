@@ -1,0 +1,83 @@
+{
+  "id": "cel25-2",
+  "name": "Reshiram",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Fire"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "name": "Scorching Wind",
+      "damage": "",
+      "text": "This attack does 20 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      "convertedEnergyCost": 2
+    },
+    {
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "name": "Black Flame",
+      "damage": "80+",
+      "text": "If Zekrom is on your Bench, this attack does 80 more damage.",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "cel25",
+    "name": "Celebrations",
+    "series": "Sword & Shield",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEL",
+    "releaseDate": "2021/10/08",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/cel25/symbol.png",
+      "logo": "https://images.pokemontcg.io/cel25/logo.png"
+    }
+  },
+  "number": "2",
+  "artist": "Aya Kusube",
+  "rarity": "Rare",
+  "flavorText": "When Reshiram's tail flares, the heat energy moves the atmosphere and changes the world's weather.",
+  "nationalPokedexNumbers": [
+    643
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/cel25/2.png",
+    "large": "https://images.pokemontcg.io/cel25/2_hires.png"
+  }
+}

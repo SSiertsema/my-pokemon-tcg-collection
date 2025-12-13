@@ -1,0 +1,86 @@
+{
+  "id": "sv10-150",
+  "name": "Team Rocket's Persian ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "ex"
+  ],
+  "hp": "260",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Team Rocket's Meowth",
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Haughty Order",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Reveal the top 10 cards of your opponent's deck. You may choose an attack from a Pokémon you find there and use it as this attack. Shuffle the revealed cards into your opponent's deck."
+    },
+    {
+      "name": "Cruel Slash",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "140",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv10",
+    "name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 244,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRI",
+    "releaseDate": "2025/05/30",
+    "updatedAt": "2025/05/29 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv10/logo.png"
+    }
+  },
+  "number": "150",
+  "artist": "5ban Graphics",
+  "rarity": "Double Rare",
+  "nationalPokedexNumbers": [
+    53
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv10/150.png",
+    "large": "https://images.pokemontcg.io/sv10/150_hires.png"
+  }
+}

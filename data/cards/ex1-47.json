@@ -1,0 +1,79 @@
+{
+  "id": "ex1-47",
+  "name": "Vigoroth",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Slakoth",
+  "evolvesTo": [
+    "Slaking"
+  ],
+  "attacks": [
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20×",
+      "text": "Flip 3 coins. This attack does 20 damage times the number of heads."
+    },
+    {
+      "name": "Rage",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20+",
+      "text": "Does 20 damage plus 10 more damage for each damage counter on Vigoroth."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex1",
+    "name": "Ruby & Sapphire",
+    "series": "EX",
+    "printedTotal": 109,
+    "total": 109,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RS",
+    "releaseDate": "2003/07/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex1/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex1/logo.png"
+    }
+  },
+  "number": "47",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    288
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex1/47.png",
+    "large": "https://images.pokemontcg.io/ex1/47_hires.png"
+  }
+}

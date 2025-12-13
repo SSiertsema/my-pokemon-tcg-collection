@@ -1,0 +1,87 @@
+{
+  "id": "zsv10pt5-121",
+  "name": "Beheeyem",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Elgyem",
+  "attacks": [
+    {
+      "name": "Calm Mind",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 40 damage from this Pokémon."
+    },
+    {
+      "name": "Psychic",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80+",
+      "text": "This attack does 30 more damage for each Energy attached to your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "zsv10pt5",
+    "name": "Black Bolt",
+    "series": "Scarlet & Violet",
+    "printedTotal": 86,
+    "total": 172,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BLK",
+    "releaseDate": "2025/07/18",
+    "updatedAt": "2025/07/17 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/zsv10pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/zsv10pt5/logo.png"
+    }
+  },
+  "number": "121",
+  "artist": "Aya Kusube",
+  "rarity": "Illustration Rare",
+  "flavorText": "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers.",
+  "nationalPokedexNumbers": [
+    606
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/zsv10pt5/121.png",
+    "large": "https://images.pokemontcg.io/zsv10pt5/121_hires.png"
+  }
+}

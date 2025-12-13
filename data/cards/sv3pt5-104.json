@@ -1,0 +1,78 @@
+{
+  "id": "sv3pt5-104",
+  "name": "Cubone",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Marowak"
+  ],
+  "abilities": [
+    {
+      "name": "Cheering Bone",
+      "text": "As long as this Pokémon is on your Bench, attacks used by your Marowak do 30 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hit Twice",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10×",
+      "text": "Flip 2 coins. This attack does 10 damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv3pt5",
+    "name": "151",
+    "series": "Scarlet & Violet",
+    "printedTotal": 165,
+    "total": 207,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/09/22",
+    "updatedAt": "2023/09/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+    }
+  },
+  "number": "104",
+  "artist": "Shinya Komatsu",
+  "rarity": "Common",
+  "flavorText": "This Pokémon wears the skull of its deceased mother. Sometimes Cubone's dreams make it cry, but each tear Cubone sheds makes it stronger.",
+  "nationalPokedexNumbers": [
+    104
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3pt5/104.png",
+    "large": "https://images.pokemontcg.io/sv3pt5/104_hires.png"
+  }
+}

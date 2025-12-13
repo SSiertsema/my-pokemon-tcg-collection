@@ -1,0 +1,78 @@
+{
+  "id": "dp2-92",
+  "name": "Paras",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "16",
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Parasect"
+  ],
+  "attacks": [
+    {
+      "name": "Scratch",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Mushroom Tackle",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "92",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "Mushrooms named tochukaso grow on its back. They grow along with the host PARAS.",
+  "nationalPokedexNumbers": [
+    46
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/92.png",
+    "large": "https://images.pokemontcg.io/dp2/92_hires.png"
+  }
+}

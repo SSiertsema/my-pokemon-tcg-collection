@@ -1,0 +1,81 @@
+{
+  "id": "swsh10-23",
+  "name": "Cyndaquil",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Quilava"
+  ],
+  "attacks": [
+    {
+      "name": "Charge Energy",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for up to 2 basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+    },
+    {
+      "name": "Live Coal",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh10",
+    "name": "Astral Radiance",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ASR",
+    "releaseDate": "2022/05/27",
+    "updatedAt": "2022/05/27 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh10/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh10/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "sui",
+  "rarity": "Common",
+  "flavorText": "Hails from the Johto region. Though usually curled into a ball due to its timid disposition, it harbors tremendous firepower.",
+  "nationalPokedexNumbers": [
+    155
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh10/23.png",
+    "large": "https://images.pokemontcg.io/swsh10/23_hires.png"
+  }
+}

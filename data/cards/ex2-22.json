@@ -1,0 +1,79 @@
+{
+  "id": "ex2-22",
+  "name": "Shiftry",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Nuzleaf",
+  "attacks": [
+    {
+      "name": "Feint Attack",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon. This attack does 40 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon."
+    },
+    {
+      "name": "Slash",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex2",
+    "name": "Sandstorm",
+    "series": "EX",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SS",
+    "releaseDate": "2003/09/18",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex2/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex2/logo.png"
+    }
+  },
+  "number": "22",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    275
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex2/22.png",
+    "large": "https://images.pokemontcg.io/ex2/22_hires.png"
+  }
+}

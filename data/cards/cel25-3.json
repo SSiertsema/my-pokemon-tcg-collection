@@ -1,0 +1,85 @@
+{
+  "id": "cel25-3",
+  "name": "Kyogre",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "name": "Aqua Storm",
+      "damage": "",
+      "text": "Discard the top 5 cards of your deck, and then choose 2 of your opponent's Benched Pokémon. This attack does 50 damage for each Energy card you discarded in this way to each of those Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      "convertedEnergyCost": 3
+    },
+    {
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "name": "Surf",
+      "damage": "120",
+      "text": "",
+      "convertedEnergyCost": 4
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "cel25",
+    "name": "Celebrations",
+    "series": "Sword & Shield",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEL",
+    "releaseDate": "2021/10/08",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/cel25/symbol.png",
+      "logo": "https://images.pokemontcg.io/cel25/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Ryuta Fuse",
+  "rarity": "Rare",
+  "flavorText": "It is said to have widened the seas by causing downpours. It had been asleep in a marine trench.",
+  "nationalPokedexNumbers": [
+    382
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/cel25/3.png",
+    "large": "https://images.pokemontcg.io/cel25/3_hires.png"
+  }
+}

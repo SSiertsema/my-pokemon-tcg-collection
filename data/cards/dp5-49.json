@@ -1,0 +1,68 @@
+{
+  "id": "dp5-49",
+  "name": "Unown [Q]",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "15",
+  "hp": "30",
+  "types": [
+    "Psychic"
+  ],
+  "abilities": [
+    {
+      "name": "QUICK",
+      "text": "Once during your turn (before your attack), if Unown Q is on your Bench, you may discard all cards attached to Unown Q and attach Unown Q to 1 of your Pokémon as a Pokémon Tool card. As long as Unown Q is attached to a Pokémon, you pay Colorless less to retreat that Pokémon.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hidden Power",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "+10"
+    }
+  ],
+  "set": {
+    "id": "dp5",
+    "name": "Majestic Dawn",
+    "series": "Diamond & Pearl",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MD",
+    "releaseDate": "2008/05/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp5/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp5/logo.png"
+    }
+  },
+  "number": "49",
+  "artist": "Kent Kanetsuna",
+  "rarity": "Uncommon",
+  "flavorText": "Shaped like ancient writing, it is a huge mystery whether language or Unown came first.",
+  "nationalPokedexNumbers": [
+    201
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp5/49.png",
+    "large": "https://images.pokemontcg.io/dp5/49_hires.png"
+  }
+}

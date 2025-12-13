@@ -1,0 +1,74 @@
+{
+  "id": "hgss1-7",
+  "name": "Ninetales",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Vulpix",
+  "abilities": [
+    {
+      "name": "Roast Reveal",
+      "text": "Once during your turn (before your attack), you may discard a Fire Energy card from your hand. If you do, draw 3 cards. This power can't be used if Ninetales is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Will-o'-the-wisp",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hgss1",
+    "name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss1/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss1/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "TOKIYA",
+  "rarity": "Rare Holo",
+  "flavorText": "Its nine beautiful tails are filled with a wondrous energy that could keep it alive for 1,000 years.",
+  "nationalPokedexNumbers": [
+    38
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss1/7.png",
+    "large": "https://images.pokemontcg.io/hgss1/7_hires.png"
+  }
+}

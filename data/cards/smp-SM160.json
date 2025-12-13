@@ -1,0 +1,78 @@
+{
+  "id": "smp-SM160",
+  "name": "Nidoqueen",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Nidorina",
+  "abilities": [
+    {
+      "name": "Queen's Call",
+      "text": "Once during your turn (before your attack), you may search your deck for a Pokémon that isn't a Pokémon-GX or Pokémon-EX, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Power Lariat",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "10+",
+      "text": "This attack does 50 more damage for each Evolution Pokémon on your Bench."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "smp",
+    "name": "SM Black Star Promos",
+    "series": "Sun & Moon",
+    "printedTotal": 248,
+    "total": 250,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/smp/symbol.png",
+      "logo": "https://images.pokemontcg.io/smp/logo.png"
+    }
+  },
+  "number": "SM160",
+  "artist": "Midori Harada",
+  "rarity": "Promo",
+  "flavorText": "It uses its scaly, rugged body to seal the entrance of its nest and protect its young from predators.",
+  "nationalPokedexNumbers": [
+    31
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/smp/SM160.png",
+    "large": "https://images.pokemontcg.io/smp/SM160_hires.png"
+  }
+}

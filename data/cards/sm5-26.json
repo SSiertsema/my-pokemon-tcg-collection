@@ -1,0 +1,77 @@
+{
+  "id": "sm5-26",
+  "name": "Salazzle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Salandit",
+  "attacks": [
+    {
+      "name": "Panic Poison",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent's Active Pokémon is now Burned, Confused, and Poisoned."
+    },
+    {
+      "name": "Hunter's Nails",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60+",
+      "text": "If your opponent's Active Pokémon is affected by a Special Condition, this attack does 60 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "Filled with pheromones, its poisonous gas can be diluted to use in the production of luscious perfumes.",
+  "nationalPokedexNumbers": [
+    758
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/26.png",
+    "large": "https://images.pokemontcg.io/sm5/26_hires.png"
+  }
+}

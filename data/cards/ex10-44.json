@@ -1,0 +1,83 @@
+{
+  "id": "ex10-44",
+  "name": "Quagsire",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Wooper",
+  "abilities": [
+    {
+      "name": "Dense",
+      "text": "Any damage done to Quagsire by attacks from your opponent's Evolved Pokémon is reduced by 20 (after applying Weakness and Resistance).",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mud Shot",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Rock Hurl",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "This attack's damage isn't affected by Resistance."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex10",
+    "name": "Unseen Forces",
+    "series": "EX",
+    "printedTotal": 115,
+    "total": 145,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UF",
+    "releaseDate": "2005/08/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex10/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex10/logo.png"
+    }
+  },
+  "number": "44",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    195
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex10/44.png",
+    "large": "https://images.pokemontcg.io/ex10/44_hires.png"
+  }
+}

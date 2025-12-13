@@ -1,0 +1,72 @@
+{
+  "id": "me2-76",
+  "name": "Jigglypuff",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Wigglytuff"
+  ],
+  "attacks": [
+    {
+      "name": "Ball Roll",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "Flip a coin until you get tails. This attack does 20 damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "me2",
+    "name": "Phantasmal Flames",
+    "series": "Mega Evolution",
+    "printedTotal": 94,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PFL",
+    "releaseDate": "2025/11/14",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+      "logo": "https://images.pokemontcg.io/me2/logo.png"
+    }
+  },
+  "number": "76",
+  "artist": "Naoyo Kimura",
+  "rarity": "Common",
+  "flavorText": "When its huge eyes waver, it sings a mysteriously soothing melody that lulls its enemies to sleep.",
+  "nationalPokedexNumbers": [
+    39
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me2/76.png",
+    "large": "https://images.pokemontcg.io/me2/76_hires.png"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "hgss1-26",
+  "name": "Meganium",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "130",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Bayleef",
+  "attacks": [
+    {
+      "name": "Sleep Powder",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "The Defending Pokémon is now Asleep."
+    },
+    {
+      "name": "Giant Bloom",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Remove 2 damage counters from Meganium."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "hgss1",
+    "name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss1/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss1/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare",
+  "flavorText": "Meganium's breath has the power to revive dead grass and plants. It can make them healthy again.",
+  "nationalPokedexNumbers": [
+    154
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss1/26.png",
+    "large": "https://images.pokemontcg.io/hgss1/26_hires.png"
+  }
+}

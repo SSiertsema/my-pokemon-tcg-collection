@@ -1,0 +1,41 @@
+{
+  "id": "xy2-105",
+  "name": "Pokémon Center Lady",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Heal 60 damage and remove all Special Conditions from 1 of your Pokémon.",
+    "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "xy2",
+    "name": "Flashfire",
+    "series": "XY",
+    "printedTotal": 106,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLF",
+    "releaseDate": "2014/05/07",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy2/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy2/logo.png"
+    }
+  },
+  "number": "105",
+  "artist": "Megumi Mizutani",
+  "rarity": "Rare Ultra",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy2/105.png",
+    "large": "https://images.pokemontcg.io/xy2/105_hires.png"
+  }
+}

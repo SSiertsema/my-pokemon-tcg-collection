@@ -1,0 +1,88 @@
+{
+  "id": "swshp-SWSH069",
+  "name": "Lugia",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Gust",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": ""
+    },
+    {
+      "name": "Wind Pressure",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "250",
+      "text": "If your opponent has 5 or fewer cards in their hand, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH069",
+  "artist": "kodama",
+  "rarity": "Promo",
+  "flavorText": "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+  "nationalPokedexNumbers": [
+    249
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH069.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH069_hires.png"
+  }
+}

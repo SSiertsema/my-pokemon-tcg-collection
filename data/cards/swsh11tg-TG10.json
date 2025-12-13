@@ -1,0 +1,81 @@
+{
+  "id": "swsh11tg-TG10",
+  "name": "Snorlax",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "150",
+  "types": [
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Unfazed Fat",
+      "text": "Prevent all effects of attacks from your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Thumping Snore",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "180",
+      "text": "This Pokémon is now Asleep. During Pokémon Checkup, flip 2 coins instead of 1. If either of them is tails, this Pokémon is still Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "swsh11tg",
+    "name": "Lost Origin Trainer Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 30,
+    "total": 30,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOR",
+    "releaseDate": "2022/09/09",
+    "updatedAt": "2022/09/09 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh11tg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh11tg/logo.png"
+    }
+  },
+  "number": "TG10",
+  "artist": "Kouki Saitou",
+  "rarity": "Trainer Gallery Rare Holo",
+  "flavorText": "This glutton appears in villages without warning and devours the entirety of their rice granaries—such occurrences have long been counted among the gravest of disasters.",
+  "nationalPokedexNumbers": [
+    143
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh11tg/TG10.png",
+    "large": "https://images.pokemontcg.io/swsh11tg/TG10_hires.png"
+  }
+}

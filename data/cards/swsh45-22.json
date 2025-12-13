@@ -1,0 +1,72 @@
+{
+  "id": "swsh45-22",
+  "name": "Buizel",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Floatzel"
+  ],
+  "attacks": [
+    {
+      "name": "Rain Splash",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh45",
+    "name": "Shining Fates",
+    "series": "Sword & Shield",
+    "printedTotal": 72,
+    "total": 73,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SHF",
+    "releaseDate": "2021/02/19",
+    "updatedAt": "2021/02/24 16:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh45/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh45/logo.png"
+    }
+  },
+  "number": "22",
+  "artist": "ryoma uratsuka",
+  "rarity": "Common",
+  "flavorText": "It inflates the flotation sac around its neck and pokes its head out of the water to see what is going on.",
+  "nationalPokedexNumbers": [
+    418
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh45/22.png",
+    "large": "https://images.pokemontcg.io/swsh45/22_hires.png"
+  }
+}

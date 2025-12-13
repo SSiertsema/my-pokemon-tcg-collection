@@ -1,0 +1,87 @@
+{
+  "id": "bw2-81",
+  "name": "Tranquill",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Pidove",
+  "evolvesTo": [
+    "Unfezant"
+  ],
+  "attacks": [
+    {
+      "name": "Claw",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Flip a coin. If tails, this attack does nothing."
+    },
+    {
+      "name": "Wing Attack",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw2",
+    "name": "Emerging Powers",
+    "series": "Black & White",
+    "printedTotal": 98,
+    "total": 98,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EPO",
+    "releaseDate": "2011/08/31",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw2/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw2/logo.png"
+    }
+  },
+  "number": "81",
+  "artist": "Midori Harada",
+  "rarity": "Uncommon",
+  "flavorText": "Many people believe that, deep in the forest where Tranquill live, there is a peaceful place where there is no war.",
+  "nationalPokedexNumbers": [
+    520
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw2/81.png",
+    "large": "https://images.pokemontcg.io/bw2/81_hires.png"
+  }
+}

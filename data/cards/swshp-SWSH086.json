@@ -1,0 +1,88 @@
+{
+  "id": "swshp-SWSH086",
+  "name": "Cramorant V",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "V"
+  ],
+  "hp": "200",
+  "types": [
+    "Colorless"
+  ],
+  "rules": [
+    "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Beak Catch",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck."
+    },
+    {
+      "name": "Spit Shot",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Discard all Energy from this Pokémon. This attack does 160 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH086",
+  "artist": "aky CG Works",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    845
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH086.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH086_hires.png"
+  }
+}

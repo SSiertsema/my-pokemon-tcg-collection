@@ -1,0 +1,80 @@
+{
+  "id": "sm7-73",
+  "name": "Donphan",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Phanpy",
+  "attacks": [
+    {
+      "name": "Flail",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10×",
+      "text": "This attack does 10 damage for each damage counter on this Pokémon."
+    },
+    {
+      "name": "Rapid Spin",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Switch this Pokémon with 1 of your Benched Pokémon. If you do, your opponent switches their Active Pokémon with 1 of their Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm7",
+    "name": "Celestial Storm",
+    "series": "Sun & Moon",
+    "printedTotal": 168,
+    "total": 187,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CES",
+    "releaseDate": "2018/08/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm7/logo.png"
+    }
+  },
+  "number": "73",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "flavorText": "The longer and bigger its tusks, the higher its rank in its herd. The tusks take long to grow.",
+  "nationalPokedexNumbers": [
+    232
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm7/73.png",
+    "large": "https://images.pokemontcg.io/sm7/73_hires.png"
+  }
+}

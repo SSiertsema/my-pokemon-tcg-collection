@@ -1,0 +1,39 @@
+{
+  "id": "ex15-81",
+  "name": "Strength Charm",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Pokémon Tool"
+  ],
+  "rules": [
+    "Attach Strength Charm to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card.",
+    "Whenever an attack from the Pokémon that Strength Charm is attached to does damage to the Active Pokémon, this attack does 10 more damage (before applying Weakness and Resistance). Discard Strength Charm at the end of the turn in which this Pokémon attacks."
+  ],
+  "set": {
+    "id": "ex15",
+    "name": "Dragon Frontiers",
+    "series": "EX",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DF",
+    "releaseDate": "2006/11/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex15/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex15/logo.png"
+    }
+  },
+  "number": "81",
+  "artist": "Shizurow",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex15/81.png",
+    "large": "https://images.pokemontcg.io/ex15/81_hires.png"
+  }
+}

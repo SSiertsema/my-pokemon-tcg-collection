@@ -1,0 +1,42 @@
+{
+  "id": "xy11-101",
+  "name": "Gardevoir Spirit Link",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Pokémon Tool"
+  ],
+  "rules": [
+    "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it.",
+    "Your turn does not end if the Pokémon this card is attached to becomes M Gardevoir-EX.",
+    "You may play as many Item cards as you like during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "xy11",
+    "name": "Steam Siege",
+    "series": "XY",
+    "printedTotal": 114,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "STS",
+    "releaseDate": "2016/08/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy11/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy11/logo.png"
+    }
+  },
+  "number": "101",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy11/101.png",
+    "large": "https://images.pokemontcg.io/xy11/101_hires.png"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "swsh6-53",
+  "name": "Zeraora V",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "V",
+    "Rapid Strike"
+  ],
+  "hp": "210",
+  "types": [
+    "Lightning"
+  ],
+  "rules": [
+    "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Cross Fist",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": "If 1 of your other Rapid Strike Pokémon used an attack during your last turn, this attack also does 160 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "53",
+  "artist": "chibi",
+  "rarity": "Rare Holo V",
+  "nationalPokedexNumbers": [
+    807
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/53.png",
+    "large": "https://images.pokemontcg.io/swsh6/53_hires.png"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "ex2-3",
+  "name": "Cradily",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "100",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Lileep",
+  "abilities": [
+    {
+      "name": "Super Suction Cups",
+      "text": "As long as Cradily is your Active Pokémon, your opponent's Pokémon can't retreat.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Lure Poison",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Before using this effect, you may switch the Defending Pokémon with 1 of your opponent's Benched Pokémon, if any. The Defending Pokémon is now Poisoned."
+    },
+    {
+      "name": "Spiral Drain",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Remove 2 damage counters from Cradily (remove 1 if there is only 1)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex2",
+    "name": "Sandstorm",
+    "series": "EX",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SS",
+    "releaseDate": "2003/09/18",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex2/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex2/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Midori Harada",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    346
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex2/3.png",
+    "large": "https://images.pokemontcg.io/ex2/3_hires.png"
+  }
+}

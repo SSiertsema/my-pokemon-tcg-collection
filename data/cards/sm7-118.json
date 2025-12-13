@@ -1,0 +1,74 @@
+{
+  "id": "sm7-118",
+  "name": "Loudred",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Whismur",
+  "evolvesTo": [
+    "Exploud"
+  ],
+  "attacks": [
+    {
+      "name": "Cracking Voice",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm7",
+    "name": "Celestial Storm",
+    "series": "Sun & Moon",
+    "printedTotal": 168,
+    "total": 187,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CES",
+    "releaseDate": "2018/08/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm7/logo.png"
+    }
+  },
+  "number": "118",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Uncommon",
+  "flavorText": "The shock waves from its cries can tip over trucks. It stamps its feet to power up.",
+  "nationalPokedexNumbers": [
+    294
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm7/118.png",
+    "large": "https://images.pokemontcg.io/sm7/118_hires.png"
+  }
+}

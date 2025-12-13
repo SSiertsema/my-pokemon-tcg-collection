@@ -1,0 +1,80 @@
+{
+  "id": "bw2-50",
+  "name": "Roggenrola",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Boldore"
+  ],
+  "attacks": [
+    {
+      "name": "Headbutt",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Reckless Charge",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "This Pokémon does 10 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw2",
+    "name": "Emerging Powers",
+    "series": "Black & White",
+    "printedTotal": 98,
+    "total": 98,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EPO",
+    "releaseDate": "2011/08/31",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw2/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw2/logo.png"
+    }
+  },
+  "number": "50",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Common",
+  "flavorText": "They were discovered a hundred years ago in an earthquake fissure. Inside each one is an energy core.",
+  "nationalPokedexNumbers": [
+    524
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw2/50.png",
+    "large": "https://images.pokemontcg.io/bw2/50_hires.png"
+  }
+}

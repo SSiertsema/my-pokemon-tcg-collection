@@ -1,0 +1,79 @@
+{
+  "id": "sm35-24",
+  "name": "Palkia",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Spiral Drain",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Heal 30 damage from this Pokémon."
+    },
+    {
+      "name": "Aqua Blade",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm35",
+    "name": "Shining Legends",
+    "series": "Sun & Moon",
+    "printedTotal": 73,
+    "total": 81,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SLG",
+    "releaseDate": "2017/10/06",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm35/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm35/logo.png"
+    }
+  },
+  "number": "24",
+  "artist": "Eske Yoshinob",
+  "rarity": "Rare Holo",
+  "flavorText": "It is said to live in a gap in the spatial dimension parallel to ours. It appears in mythology.",
+  "nationalPokedexNumbers": [
+    484
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm35/24.png",
+    "large": "https://images.pokemontcg.io/sm35/24_hires.png"
+  }
+}

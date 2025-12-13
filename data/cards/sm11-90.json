@@ -1,0 +1,69 @@
+{
+  "id": "sm11-90",
+  "name": "Elgyem",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Beheeyem"
+  ],
+  "attacks": [
+    {
+      "name": "Psybeam",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "90",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Uncommon",
+  "flavorText": "It controls tremendous psychic power. Most reports of alien sightings are actually just people mistaking Elgyem for an alien.",
+  "nationalPokedexNumbers": [
+    605
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/90.png",
+    "large": "https://images.pokemontcg.io/sm11/90_hires.png"
+  }
+}

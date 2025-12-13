@@ -1,0 +1,79 @@
+{
+  "id": "xy9-57",
+  "name": "Garbodor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Trubbish",
+  "abilities": [
+    {
+      "name": "Garbotoxin",
+      "text": "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Garbotoxin).",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Offensive Bomb",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60",
+      "text": "Your opponent's Active Pokémon is now Confused and Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy9",
+    "name": "BREAKpoint",
+    "series": "XY",
+    "printedTotal": 122,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKP",
+    "releaseDate": "2016/02/03",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy9/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy9/logo.png"
+    }
+  },
+  "number": "57",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare Holo",
+  "flavorText": "Consuming garbage makes new kinds of poison gases and liquids inside their bodies.",
+  "nationalPokedexNumbers": [
+    569
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy9/57.png",
+    "large": "https://images.pokemontcg.io/xy9/57_hires.png"
+  }
+}

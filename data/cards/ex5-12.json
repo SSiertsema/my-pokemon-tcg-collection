@@ -1,0 +1,85 @@
+{
+  "id": "ex5-12",
+  "name": "Milotic",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Feebas",
+  "abilities": [
+    {
+      "name": "Healing Shower",
+      "text": "Once during your turn, when you play Milotic from your hand to evolve 1 of your Pokémon, you may remove all damage counters from all of your Pokémon and your opponent's Pokémon (excluding Pokémon-ex).",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wave Splash",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Distorted Wave",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": "Before doing damage, remove 3 damage counters from the Defending Pokémon (all if there are less than 3)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex5",
+    "name": "Hidden Legends",
+    "series": "EX",
+    "printedTotal": 101,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HL",
+    "releaseDate": "2004/06/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex5/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex5/logo.png"
+    }
+  },
+  "number": "12",
+  "artist": "Atsuko Nishida",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    350
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex5/12.png",
+    "large": "https://images.pokemontcg.io/ex5/12_hires.png"
+  }
+}

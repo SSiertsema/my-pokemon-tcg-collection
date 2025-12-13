@@ -1,0 +1,64 @@
+{
+  "id": "neo4-65",
+  "name": "Gastly",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "12",
+  "hp": "40",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Haunter"
+  ],
+  "attacks": [
+    {
+      "name": "Nightmare",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "The Defending Pokémon is now Asleep."
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "neo4",
+    "name": "Neo Destiny",
+    "series": "Neo",
+    "printedTotal": 105,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N4",
+    "releaseDate": "2002/02/28",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo4/logo.png"
+    }
+  },
+  "number": "65",
+  "artist": "Aya Kusube",
+  "rarity": "Common",
+  "flavorText": "Its gas-like body allows it to enter almost anywhere, but it is vulnerable to high winds.",
+  "nationalPokedexNumbers": [
+    92
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo4/65.png",
+    "large": "https://images.pokemontcg.io/neo4/65_hires.png"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "ex9-50",
+  "name": "Feebas",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "30",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Milotic"
+  ],
+  "attacks": [
+    {
+      "name": "Water Arrow",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex9",
+    "name": "Emerald",
+    "series": "EX",
+    "printedTotal": 106,
+    "total": 107,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "EM",
+    "releaseDate": "2005/05/01",
+    "updatedAt": "2020/02/08 09:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex9/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex9/logo.png"
+    }
+  },
+  "number": "50",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    349
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex9/50.png",
+    "large": "https://images.pokemontcg.io/ex9/50_hires.png"
+  }
+}

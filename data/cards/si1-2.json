@@ -1,0 +1,78 @@
+{
+  "id": "si1-2",
+  "name": "Pidgeot",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Pidgeotto",
+  "attacks": [
+    {
+      "name": "Supersonic Flight",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "Flip a coin. If tails, this attack does nothing."
+    },
+    {
+      "name": "Slicing Wind",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "si1",
+    "name": "Southern Islands",
+    "series": "Other",
+    "printedTotal": 18,
+    "total": 18,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2001/07/31",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/si1/symbol.png",
+      "logo": "https://images.pokemontcg.io/si1/logo.png"
+    }
+  },
+  "number": "2",
+  "artist": "Keiko Fukuyama",
+  "flavorText": "This Pokémon searches for food while flying at Mach 2. Its large claws make fearsome weapons.",
+  "nationalPokedexNumbers": [
+    18
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/si1/2.png",
+    "large": "https://images.pokemontcg.io/si1/2_hires.png"
+  }
+}

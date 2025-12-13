@@ -1,0 +1,85 @@
+{
+  "id": "sv1-120",
+  "name": "Sandaconda",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "140",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Silicobra",
+  "attacks": [
+    {
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "name": "Skull Bash",
+      "damage": "120",
+      "text": "",
+      "convertedEnergyCost": 3
+    },
+    {
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "name": "Sandstorm Spray",
+      "damage": "",
+      "text": "Discard 2 Energy from this Pokémon. If you discarded any Energy in this way, your opponent shuffles their Active Pokémon and all attached cards into their deck.",
+      "convertedEnergyCost": 4
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv1",
+    "name": "Scarlet & Violet",
+    "series": "Scarlet & Violet",
+    "printedTotal": 198,
+    "total": 258,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/03/31",
+    "updatedAt": "2023/03/31 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv1/logo.png"
+    }
+  },
+  "number": "120",
+  "artist": "Yuya Oka",
+  "rarity": "Uncommon",
+  "flavorText": "It will expand its body as much as it can and then contract itself, blasting out sand with enough force to wash away a dump truck.",
+  "nationalPokedexNumbers": [
+    844
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv1/120.png",
+    "large": "https://images.pokemontcg.io/sv1/120_hires.png"
+  }
+}

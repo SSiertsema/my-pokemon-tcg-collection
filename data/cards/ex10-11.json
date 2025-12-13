@@ -1,0 +1,84 @@
+{
+  "id": "ex10-11",
+  "name": "Poliwrath",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Poliwhirl",
+  "abilities": [
+    {
+      "name": "Spiral Swirl",
+      "text": "If Poliwrath is your Active Pokémon and is Knocked Out by damage from an opponent's attack, the Attacking Pokémon is now Confused.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Beatdown",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40+",
+      "text": "If the Defending Pokémon is a Darkness Pokémon or has Dark in its name, this attack does 40 damage plus 30 more damage."
+    },
+    {
+      "name": "Hyper Splash",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "If the Defending Pokémon is a Stage 2 Evolved Pokémon, this attack does 60 damage plus 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex10",
+    "name": "Unseen Forces",
+    "series": "EX",
+    "printedTotal": 115,
+    "total": 145,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UF",
+    "releaseDate": "2005/08/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex10/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex10/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Hajime Kusajima",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    62
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex10/11.png",
+    "large": "https://images.pokemontcg.io/ex10/11_hires.png"
+  }
+}

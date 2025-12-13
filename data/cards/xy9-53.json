@@ -1,0 +1,71 @@
+{
+  "id": "xy9-53",
+  "name": "Skorupi",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Drapion"
+  ],
+  "attacks": [
+    {
+      "name": "Pin Missile",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10×",
+      "text": "Flip 4 coins. This attack does 10 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy9",
+    "name": "BREAKpoint",
+    "series": "XY",
+    "printedTotal": 122,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKP",
+    "releaseDate": "2016/02/03",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy9/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy9/logo.png"
+    }
+  },
+  "number": "53",
+  "artist": "Kyoko Umemoto",
+  "rarity": "Common",
+  "flavorText": "It burrows under the sand to lie in wait for prey. Its tail claws can inject its prey with a savage poison.",
+  "nationalPokedexNumbers": [
+    451
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy9/53.png",
+    "large": "https://images.pokemontcg.io/xy9/53_hires.png"
+  }
+}

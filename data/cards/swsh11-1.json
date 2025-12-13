@@ -1,0 +1,73 @@
+{
+  "id": "swsh11-1",
+  "name": "Oddish",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Gloom"
+  ],
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh11",
+    "name": "Lost Origin",
+    "series": "Sword & Shield",
+    "printedTotal": 196,
+    "total": 217,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOR",
+    "releaseDate": "2022/09/09",
+    "updatedAt": "2022/09/09 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh11/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh11/logo.png"
+    }
+  },
+  "number": "1",
+  "artist": "Miki Tanaka",
+  "rarity": "Common",
+  "flavorText": "If exposed to moonlight, it starts to move. It roams far and wide at night to scatter its seeds.",
+  "nationalPokedexNumbers": [
+    43
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh11/1.png",
+    "large": "https://images.pokemontcg.io/swsh11/1_hires.png"
+  }
+}

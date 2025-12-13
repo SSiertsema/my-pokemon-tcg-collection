@@ -1,0 +1,73 @@
+{
+  "id": "tk2a-1",
+  "name": "Beldum",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Metang"
+  ],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+    },
+    {
+      "name": "Metal Ball",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Put 1 damage counter on the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "tk2a",
+    "name": "EX Trainer Kit 2 Plusle",
+    "series": "EX",
+    "printedTotal": 12,
+    "total": 12,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2006/03/01",
+    "updatedAt": "2022/01/13 20:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/tk2a/symbol.png",
+      "logo": "https://images.pokemontcg.io/tk2a/logo.png"
+    }
+  },
+  "number": "1",
+  "artist": "Kouki Saitou",
+  "nationalPokedexNumbers": [
+    374
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/tk2a/1.png",
+    "large": "https://images.pokemontcg.io/tk2a/1_hires.png"
+  }
+}

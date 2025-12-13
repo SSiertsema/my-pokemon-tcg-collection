@@ -1,0 +1,86 @@
+{
+  "id": "swshp-SWSH208",
+  "name": "Magnezone",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "150",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Magneton",
+  "abilities": [
+    {
+      "name": "Giga Magnet",
+      "text": "Once during your turn, you may look at the top 6 cards of your deck and attach any number of Metal Energy cards you find there to your Pokémon in any way you like. Shuffle the other cards back into your deck.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Power Beam",
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH208",
+  "artist": "zig",
+  "rarity": "Promo",
+  "flavorText": "Some say that Magnezone receives signals from space via the antenna on its head and that it's being controlled by some mysterious being.",
+  "nationalPokedexNumbers": [
+    462
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH208.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH208_hires.png"
+  }
+}

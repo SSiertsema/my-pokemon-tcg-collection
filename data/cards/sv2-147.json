@@ -1,0 +1,85 @@
+{
+  "id": "sv2-147",
+  "name": "Bombirdier",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Darkness"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Colorless"
+      ],
+      "name": "Delivery Pocket",
+      "damage": "",
+      "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck.",
+      "convertedEnergyCost": 1
+    },
+    {
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "name": "Dark Edge",
+      "damage": "120",
+      "text": "Discard an Energy from this Pokémon.",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    }
+  },
+  "number": "147",
+  "artist": "Sekio",
+  "rarity": "Uncommon",
+  "flavorText": "It gathers things up in an apron made from shed feathers added to the Pokémon's chest feathers, then drops those things from high places for fun.",
+  "nationalPokedexNumbers": [
+    962
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv2/147.png",
+    "large": "https://images.pokemontcg.io/sv2/147_hires.png"
+  }
+}

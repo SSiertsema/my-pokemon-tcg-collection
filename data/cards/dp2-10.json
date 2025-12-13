@@ -1,0 +1,81 @@
+{
+  "id": "dp2-10",
+  "name": "Honchkrow",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "42",
+  "hp": "90",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Murkrow",
+  "abilities": [
+    {
+      "name": "Dark Genes",
+      "text": "As long as Honchkrow has the Energy necessary to use its attack, each of your Murkrow can use Honchkrow's attack as its own without the Energy necessary to use that attack.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Dark Wing Flaps",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Choose 1 card from your opponent's hand without looking. Look at the card you chose, then have your opponent shuffle that card into his or her deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "10",
+  "artist": "Kazuyuki Kano",
+  "rarity": "Rare Holo",
+  "flavorText": "Becoming active at night, it is known to swarm with numerous MURKROW in tow.",
+  "nationalPokedexNumbers": [
+    430
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/10.png",
+    "large": "https://images.pokemontcg.io/dp2/10_hires.png"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "gym2-117",
+  "name": "Max Revive",
+  "supertype": "Trainer",
+  "rules": [
+    "Discard 2 Energy cards from your hand in order to put 1 Basic Pokémon from your discard pile onto your Bench. (You can't play Max Revive if your Bench is full.)"
+  ],
+  "set": {
+    "id": "gym2",
+    "name": "Gym Challenge",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G2",
+    "releaseDate": "2000/10/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym2/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym2/logo.png"
+    }
+  },
+  "number": "117",
+  "artist": "Hikaru Koike",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym2/117.png",
+    "large": "https://images.pokemontcg.io/gym2/117_hires.png"
+  }
+}

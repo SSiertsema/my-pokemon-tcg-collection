@@ -1,0 +1,68 @@
+{
+  "id": "sv3-55",
+  "name": "Cryogonal",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "First Freeze",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "If you go second and it's your first turn, your opponent's Active Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv3",
+    "name": "Obsidian Flames",
+    "series": "Scarlet & Violet",
+    "printedTotal": 197,
+    "total": 230,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/08/11",
+    "updatedAt": "2023/08/11 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3/logo.png"
+    }
+  },
+  "number": "55",
+  "artist": "kirisAki",
+  "rarity": "Common",
+  "flavorText": "Cryogonal appear during cold seasons. It is said that people and Pokémon who die on snowy mountains are reborn into these Pokémon.",
+  "nationalPokedexNumbers": [
+    615
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3/55.png",
+    "large": "https://images.pokemontcg.io/sv3/55_hires.png"
+  }
+}

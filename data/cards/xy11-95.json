@@ -1,0 +1,76 @@
+{
+  "id": "xy11-95",
+  "name": "Fletchinder",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Fletchling",
+  "evolvesTo": [
+    "Talonflame"
+  ],
+  "attacks": [
+    {
+      "name": "Glide",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy11",
+    "name": "Steam Siege",
+    "series": "XY",
+    "printedTotal": 114,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "STS",
+    "releaseDate": "2016/08/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy11/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy11/logo.png"
+    }
+  },
+  "number": "95",
+  "artist": "Shigenori Negishi",
+  "rarity": "Uncommon",
+  "flavorText": "The hotter the flame sac on its belly, the faster it can fly, but it takes some time to get the fire going.",
+  "nationalPokedexNumbers": [
+    662
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy11/95.png",
+    "large": "https://images.pokemontcg.io/xy11/95_hires.png"
+  }
+}

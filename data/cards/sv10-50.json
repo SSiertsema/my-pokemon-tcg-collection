@@ -1,0 +1,79 @@
+{
+  "id": "sv10-50",
+  "name": "Misty's Lapras",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Swim Together",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for up to 3 Misty's Pokémon, reveal them, and put them into your hand. Then, shuffle your deck."
+    },
+    {
+      "name": "Surf",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv10",
+    "name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 244,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRI",
+    "releaseDate": "2025/05/30",
+    "updatedAt": "2025/05/29 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv10/logo.png"
+    }
+  },
+  "number": "50",
+  "artist": "En Morikura",
+  "rarity": "Common",
+  "flavorText": "It ferries people across the sea on its back. It may sing an enchanting cry if it is in a good mood.",
+  "nationalPokedexNumbers": [
+    131
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv10/50.png",
+    "large": "https://images.pokemontcg.io/sv10/50_hires.png"
+  }
+}

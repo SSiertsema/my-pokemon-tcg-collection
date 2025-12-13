@@ -1,0 +1,83 @@
+{
+  "id": "bw9-62",
+  "name": "Makuhita",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Hariyama"
+  ],
+  "attacks": [
+    {
+      "name": "Continuous Slap",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20×",
+      "text": "Flip a coin until you get tails. This attack does 20 damage times the number of heads."
+    },
+    {
+      "name": "Hammer In",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Common",
+  "flavorText": "It toughens its body by slamming into thick trees. Many snapped trees can be found near its nest.",
+  "nationalPokedexNumbers": [
+    296
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/62.png",
+    "large": "https://images.pokemontcg.io/bw9/62_hires.png"
+  }
+}

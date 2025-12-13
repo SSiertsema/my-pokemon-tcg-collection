@@ -1,0 +1,39 @@
+{
+  "id": "ex13-88",
+  "name": "Mr. Stone's Project",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.",
+    "Search your deck for up to 2 basic Energy cards, show them to your opponent, and put them into your hand. Shuffle your deck afterward. Or, search your discard pile for up to 2 basic Energy cards, show them to your opponent, and put them into your hand."
+  ],
+  "set": {
+    "id": "ex13",
+    "name": "Holon Phantoms",
+    "series": "EX",
+    "printedTotal": 110,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HP",
+    "releaseDate": "2006/05/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex13/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex13/logo.png"
+    }
+  },
+  "number": "88",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex13/88.png",
+    "large": "https://images.pokemontcg.io/ex13/88_hires.png"
+  }
+}

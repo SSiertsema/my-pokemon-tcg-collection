@@ -1,0 +1,74 @@
+{
+  "id": "swsh6-16",
+  "name": "Grookey",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Rapid Strike"
+  ],
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Thwackey"
+  ],
+  "attacks": [
+    {
+      "name": "Hit Twice",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30×",
+      "text": "Flip 2 coins. This attack does 30 damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "kodama",
+  "rarity": "Common",
+  "flavorText": "It attacks with rapid beats of its stick. As it strikes with amazing speed, it gets more and more pumped.",
+  "nationalPokedexNumbers": [
+    810
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/16.png",
+    "large": "https://images.pokemontcg.io/swsh6/16_hires.png"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "swsh12-10",
+  "name": "Hisuian Lilligant",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Petilil",
+  "attacks": [
+    {
+      "name": "Swelling Scent",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Search your deck for up to 2 Grass Energy cards and attach them to your Benched Pokémon in any way you like. Then, shuffle your deck."
+    },
+    {
+      "name": "Spiral Kick",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh12",
+    "name": "Silver Tempest",
+    "series": "Sword & Shield",
+    "printedTotal": 195,
+    "total": 215,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SIT",
+    "releaseDate": "2022/11/11",
+    "updatedAt": "2022/09/09 11:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12/logo.png"
+    }
+  },
+  "number": "10",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "flavorText": "I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.",
+  "nationalPokedexNumbers": [
+    549
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12/10.png",
+    "large": "https://images.pokemontcg.io/swsh12/10_hires.png"
+  }
+}

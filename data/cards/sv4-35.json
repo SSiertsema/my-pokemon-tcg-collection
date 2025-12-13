@@ -1,0 +1,71 @@
+{
+  "id": "sv4-35",
+  "name": "Feebas",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "30",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Milotic"
+  ],
+  "attacks": [
+    {
+      "name": "Drawup Power",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for an Energy card, reveal it, and put it into your hand. Then, shuffle your deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 266,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/11/03",
+    "updatedAt": "2023/11/03 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4/logo.png"
+    }
+  },
+  "number": "35",
+  "artist": "Tetsu Kayama",
+  "rarity": "Common",
+  "flavorText": "It is a shabby and ugly Pokémon. However, it is very hardy and can survive on little water.",
+  "nationalPokedexNumbers": [
+    349
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4/35.png",
+    "large": "https://images.pokemontcg.io/sv4/35_hires.png"
+  }
+}

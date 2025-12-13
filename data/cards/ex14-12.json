@@ -1,0 +1,80 @@
+{
+  "id": "ex14-12",
+  "name": "Tauros",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Crush Chance",
+      "text": "Once during your turn, when you put Tauros from your hand onto your Bench, you may discard a Stadium card in play.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+    },
+    {
+      "name": "Horn Attack",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex14",
+    "name": "Crystal Guardians",
+    "series": "EX",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CG",
+    "releaseDate": "2006/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex14/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex14/logo.png"
+    }
+  },
+  "number": "12",
+  "artist": "Hajime Kusajima",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    128
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex14/12.png",
+    "large": "https://images.pokemontcg.io/ex14/12_hires.png"
+  }
+}

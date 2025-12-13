@@ -1,0 +1,82 @@
+{
+  "id": "bwp-BW47",
+  "name": "Rayquaza-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "EX"
+  ],
+  "hp": "170",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesTo": [
+    "M Rayquaza-EX"
+  ],
+  "rules": [
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Celestial Roar",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Discard the top 3 cards of your deck. If any of those cards are Energy cards, attach them to this Pokémon."
+    },
+    {
+      "name": "Dragon Burst",
+      "cost": [
+        "Fire",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60×",
+      "text": "Discard all basic Fire Energy or all basic Lightning Energy attached to this Pokémon. This attack does 60 damage times the number of Energy you discarded."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Dragon",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bwp",
+    "name": "BW Black Star Promos",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-BLW",
+    "releaseDate": "2011/03/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bwp/symbol.png",
+      "logo": "https://images.pokemontcg.io/bwp/logo.png"
+    }
+  },
+  "number": "BW47",
+  "artist": "Eske Yoshinob",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    384
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bwp/BW47.png",
+    "large": "https://images.pokemontcg.io/bwp/BW47_hires.png"
+  }
+}

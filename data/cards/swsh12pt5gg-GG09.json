@@ -1,0 +1,81 @@
+{
+  "id": "swsh12pt5gg-GG09",
+  "name": "Toxtricity",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Fusion Strike"
+  ],
+  "hp": "120",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Toxel",
+  "abilities": [
+    {
+      "name": "Maximum Downer",
+      "text": "If all your Pokémon in play are Fusion Strike Pokémon, your opponent's Pokémon VMAX in play get -30 HP.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Head Bolt",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh12pt5gg",
+    "name": "Crown Zenith Galarian Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 70,
+    "total": 70,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRZ",
+    "releaseDate": "2023/01/20",
+    "updatedAt": "2023/01/19 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12pt5gg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12pt5gg/logo.png"
+    }
+  },
+  "number": "GG09",
+  "artist": "Nelnal",
+  "rarity": "Trainer Gallery Rare Holo",
+  "flavorText": "It has an electrical organ on its chest. While generating electricity, it fills its surroundings with what sounds like the strumming of a bass guitar.",
+  "nationalPokedexNumbers": [
+    849
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12pt5gg/GG09.png",
+    "large": "https://images.pokemontcg.io/swsh12pt5gg/GG09_hires.png"
+  }
+}

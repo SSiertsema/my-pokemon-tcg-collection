@@ -1,0 +1,78 @@
+{
+  "id": "bw10-19",
+  "name": "Octillery",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Team Plasma"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Remoraid",
+  "attacks": [
+    {
+      "name": "Sharpshooting",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "This attack does 30 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Bubble Beam",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw10",
+    "name": "Plasma Blast",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 105,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLB",
+    "releaseDate": "2013/08/14",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw10/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw10/logo.png"
+    }
+  },
+  "number": "19",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "flavorText": "It has a tendency to want to be in holes. It prefers rock crags or pots and sprays ink from them before attacking.",
+  "nationalPokedexNumbers": [
+    224
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw10/19.png",
+    "large": "https://images.pokemontcg.io/bw10/19_hires.png"
+  }
+}

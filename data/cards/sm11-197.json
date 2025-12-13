@@ -1,0 +1,41 @@
+{
+  "id": "sm11-197",
+  "name": "Giant Hearth",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "Once during each player's turn, that player may discard a card from their hand. If they do, that player searches their deck for up to 2 Fire Energy cards, reveals them, and puts them into their hand. Then, that player shuffles their deck.",
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
+  ],
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "197",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/197.png",
+    "large": "https://images.pokemontcg.io/sm11/197_hires.png"
+  }
+}

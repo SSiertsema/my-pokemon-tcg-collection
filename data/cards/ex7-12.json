@@ -1,0 +1,84 @@
+{
+  "id": "ex7-12",
+  "name": "Kingdra",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Seadra",
+  "abilities": [
+    {
+      "name": "Dragon Veil",
+      "text": "As long as Kingdra is in play, each of your Active Pokémon has no Weakness.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hyper Whirlpool",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin until you get tails. For each heads, discard an Energy card attached to the Defending Pokémon."
+    },
+    {
+      "name": "Aqua Sonic",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "This attack's damage is not affected by Resistance."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex7",
+    "name": "Team Rocket Returns",
+    "series": "EX",
+    "printedTotal": 109,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TRR",
+    "releaseDate": "2004/11/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex7/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex7/logo.png"
+    }
+  },
+  "number": "12",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    230
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex7/12.png",
+    "large": "https://images.pokemontcg.io/ex7/12_hires.png"
+  }
+}

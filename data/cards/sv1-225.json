@@ -1,0 +1,92 @@
+{
+  "id": "sv1-225",
+  "name": "Gyarados ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Tera",
+    "ex"
+  ],
+  "hp": "300",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Magikarp",
+  "rules": [
+    "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "name": "Waterfall",
+      "damage": "100",
+      "text": "",
+      "convertedEnergyCost": 3
+    },
+    {
+      "cost": [
+        "Water",
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "name": "Tyrannical Tail",
+      "damage": "180+",
+      "text": "If your opponent's Active Pokémon already has any damage counters on it, this attack does 180 more damage.",
+      "convertedEnergyCost": 5
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "sv1",
+    "name": "Scarlet & Violet",
+    "series": "Scarlet & Violet",
+    "printedTotal": 198,
+    "total": 258,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/03/31",
+    "updatedAt": "2023/03/31 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv1/logo.png"
+    }
+  },
+  "number": "225",
+  "artist": "5ban Graphics",
+  "rarity": "Ultra Rare",
+  "nationalPokedexNumbers": [
+    130
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv1/225.png",
+    "large": "https://images.pokemontcg.io/sv1/225_hires.png"
+  }
+}

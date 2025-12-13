@@ -1,0 +1,89 @@
+{
+  "id": "ecard3-H23",
+  "name": "Politoed",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "110",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Poliwhirl",
+  "attacks": [
+    {
+      "name": "Sudden Growth",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Attach any number of basic Energy cards from your hand to Politoed."
+    },
+    {
+      "name": "Frog Hop",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Flip a coin. If heads, this attack does 30 damage plus 20 more damage."
+    },
+    {
+      "name": "Energy Splash",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 5,
+      "damage": "70",
+      "text": "Move 2 Water Energy cards attached to Politoed to 1 or 2 of your Benched Pokémon. (You may put both on the same Pokémon or 1 each on 2 different Pokémon.) If you have no Benched Pokémon, ignore this effect."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ecard3",
+    "name": "Skyridge",
+    "series": "E-Card",
+    "printedTotal": 144,
+    "total": 182,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SK",
+    "releaseDate": "2003/05/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard3/logo.png"
+    }
+  },
+  "number": "H23",
+  "artist": "Atsuko Nishida",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    186
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard3/H23.png",
+    "large": "https://images.pokemontcg.io/ecard3/H23_hires.png"
+  }
+}

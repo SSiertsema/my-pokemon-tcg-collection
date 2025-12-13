@@ -1,0 +1,44 @@
+{
+  "id": "swshp-SWSH152",
+  "name": "Professor's Research",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Discard your hand and draw 7 cards.",
+    "You may play only 1 Supporter card during your turn."
+  ],
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH152",
+  "artist": "Yuu Nishida",
+  "rarity": "Promo",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH152.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH152_hires.png"
+  }
+}

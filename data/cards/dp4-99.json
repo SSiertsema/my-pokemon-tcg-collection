@@ -1,0 +1,39 @@
+{
+  "id": "dp4-99",
+  "name": "Leftovers",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Pokémon Tool"
+  ],
+  "rules": [
+    "Attach Leftovers to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card.",
+    "If the Pokémon Leftovers is attached to is your Active Pokémon at the end of your turn, remove 1 damage counter from the Pokémon."
+  ],
+  "set": {
+    "id": "dp4",
+    "name": "Great Encounters",
+    "series": "Diamond & Pearl",
+    "printedTotal": 106,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "GE",
+    "releaseDate": "2008/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp4/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp4/logo.png"
+    }
+  },
+  "number": "99",
+  "artist": "Daisuke Ito",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp4/99.png",
+    "large": "https://images.pokemontcg.io/dp4/99_hires.png"
+  }
+}

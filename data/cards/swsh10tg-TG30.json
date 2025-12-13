@@ -1,0 +1,88 @@
+{
+  "id": "swsh10tg-TG30",
+  "name": "Shadow Rider Calyrex VMAX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VMAX"
+  ],
+  "hp": "320",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Shadow Rider Calyrex V",
+  "rules": [
+    "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Underworld Door",
+      "text": "Once during your turn, you may attach a Psychic Energy card from your hand to 1 of your Benched Psychic Pokémon. If you attached Energy to a Pokémon in this way, draw 2 cards.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Max Geist",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "10+",
+      "text": "This attack does 30 more damage for each Psychic Energy attached to all of your Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh10tg",
+    "name": "Astral Radiance Trainer Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 30,
+    "total": 30,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ASR",
+    "releaseDate": "2022/05/27",
+    "updatedAt": "2022/05/27 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh10tg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh10tg/logo.png"
+    }
+  },
+  "number": "TG30",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Secret",
+  "nationalPokedexNumbers": [
+    898
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh10tg/TG30.png",
+    "large": "https://images.pokemontcg.io/swsh10tg/TG30_hires.png"
+  }
+}

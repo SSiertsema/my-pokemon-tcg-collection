@@ -1,0 +1,83 @@
+{
+  "id": "sm1-2",
+  "name": "Metapod",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Caterpie",
+  "evolvesTo": [
+    "Butterfree"
+  ],
+  "attacks": [
+    {
+      "name": "Iron Defense",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn."
+    },
+    {
+      "name": "Bug Bite",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm1",
+    "name": "Sun & Moon",
+    "series": "Sun & Moon",
+    "printedTotal": 149,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SUM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm1/logo.png"
+    }
+  },
+  "number": "2",
+  "artist": "Yuka Morii",
+  "rarity": "Uncommon",
+  "flavorText": "Its shell is filled with its soft innards. It doesn't move much because of the risk it might carelessly spill its innards out.",
+  "nationalPokedexNumbers": [
+    11
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm1/2.png",
+    "large": "https://images.pokemontcg.io/sm1/2_hires.png"
+  }
+}

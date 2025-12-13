@@ -1,0 +1,79 @@
+{
+  "id": "rsv10pt5-73",
+  "name": "Watchog",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Patrat",
+  "attacks": [
+    {
+      "name": "Focus Energy",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "During your next turn, this Pokémon's Hyper Fang attack's base damage is 240."
+    },
+    {
+      "name": "Hyper Fang",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "80",
+      "text": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "rsv10pt5",
+    "name": "White Flare",
+    "series": "Scarlet & Violet",
+    "printedTotal": 86,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "WHT",
+    "releaseDate": "2025/07/18",
+    "updatedAt": "2025/07/17 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/rsv10pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/rsv10pt5/logo.png"
+    }
+  },
+  "number": "73",
+  "artist": "Ounishi",
+  "rarity": "Uncommon",
+  "flavorText": "When they see an enemy, their tails stand high, and they spit the seeds of berries stored in their cheek pouches.",
+  "nationalPokedexNumbers": [
+    505
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/rsv10pt5/73.png",
+    "large": "https://images.pokemontcg.io/rsv10pt5/73_hires.png"
+  }
+}

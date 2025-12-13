@@ -1,0 +1,86 @@
+{
+  "id": "smp-SM170",
+  "name": "Detective Pikachu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Raichu"
+  ],
+  "attacks": [
+    {
+      "name": "Scout",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent reveals their hand."
+    },
+    {
+      "name": "Surprise Attack",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "smp",
+    "name": "SM Black Star Promos",
+    "series": "Sun & Moon",
+    "printedTotal": 248,
+    "total": 250,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/smp/symbol.png",
+      "logo": "https://images.pokemontcg.io/smp/logo.png"
+    }
+  },
+  "number": "SM170",
+  "rarity": "Promo",
+  "flavorText": "He loves to show off his vast knowledge. This expressive Pikachu is like a middle-aged man.",
+  "nationalPokedexNumbers": [
+    25
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/smp/SM170.png",
+    "large": "https://images.pokemontcg.io/smp/SM170_hires.png"
+  }
+}

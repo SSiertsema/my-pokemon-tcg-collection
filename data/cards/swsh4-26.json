@@ -1,0 +1,78 @@
+{
+  "id": "swsh4-26",
+  "name": "Flareon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Eevee",
+  "abilities": [
+    {
+      "name": "Incandescent Awakening",
+      "text": "If this Pokémon has a Memory Capsule attached, Grass Pokémon in play (both yours and your opponent's) have no Abilities.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Fire Mane",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh4",
+    "name": "Vivid Voltage",
+    "series": "Sword & Shield",
+    "printedTotal": 185,
+    "total": 203,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "VIV",
+    "releaseDate": "2020/11/13",
+    "updatedAt": "2020/11/13 16:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh4/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh4/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Eri Yamaki",
+  "rarity": "Rare",
+  "flavorText": "Once it has stored up enough heat, this Pokémon's body temperature can reach up to 1,700 degrees Fahrenheit.",
+  "nationalPokedexNumbers": [
+    136
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh4/26.png",
+    "large": "https://images.pokemontcg.io/swsh4/26_hires.png"
+  }
+}

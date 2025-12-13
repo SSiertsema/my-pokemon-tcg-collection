@@ -1,0 +1,66 @@
+{
+  "id": "hsp-HGSS20",
+  "name": "Entei",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Fire"
+  ],
+  "attacks": [
+    {
+      "name": "Flare Blitz",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "Discard all Fire Energy attached to Entei."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hsp",
+    "name": "HGSS Black Star Promos",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hsp/symbol.png",
+      "logo": "https://images.pokemontcg.io/hsp/logo.png"
+    }
+  },
+  "number": "HGSS20",
+  "artist": "Yuri Umemura",
+  "rarity": "Promo",
+  "flavorText": "Volcanoes erupt when it barks. Unable to contain its sheer power, it races headlong around the land.",
+  "nationalPokedexNumbers": [
+    244
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hsp/HGSS20.png",
+    "large": "https://images.pokemontcg.io/hsp/HGSS20_hires.png"
+  }
+}

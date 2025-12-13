@@ -1,0 +1,82 @@
+{
+  "id": "swsh1-18",
+  "name": "Dottler",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Blipbug",
+  "evolvesTo": [
+    "Orbeetle"
+  ],
+  "attacks": [
+    {
+      "name": "Reflect",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "During your opponent's next turn, this Pokémon takes 40 less damage from attacks (after applying Weakness and Resistance)."
+    },
+    {
+      "name": "Ram",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh1",
+    "name": "Sword & Shield",
+    "series": "Sword & Shield",
+    "printedTotal": 202,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SSH",
+    "releaseDate": "2020/02/07",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh1/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh1/logo.png"
+    }
+  },
+  "number": "18",
+  "artist": "Misa Tsutsui",
+  "rarity": "Uncommon",
+  "flavorText": "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.",
+  "nationalPokedexNumbers": [
+    825
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh1/18.png",
+    "large": "https://images.pokemontcg.io/swsh1/18_hires.png"
+  }
+}

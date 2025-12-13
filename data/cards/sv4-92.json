@@ -1,0 +1,81 @@
+{
+  "id": "sv4-92",
+  "name": "Gliscor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Gligar",
+  "attacks": [
+    {
+      "name": "Pierce",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": ""
+    },
+    {
+      "name": "Toxic Sting",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Poisoned. During Pokémon Checkup, put 2 damage counters on that Pokémon instead of 1."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 266,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/11/03",
+    "updatedAt": "2023/11/03 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4/logo.png"
+    }
+  },
+  "number": "92",
+  "artist": "GOSSAN",
+  "rarity": "Uncommon",
+  "flavorText": "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
+  "nationalPokedexNumbers": [
+    472
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4/92.png",
+    "large": "https://images.pokemontcg.io/sv4/92_hires.png"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "ecard3-116",
+  "name": "Yanma",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Yanmega"
+  ],
+  "attacks": [
+    {
+      "name": "Agility",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10",
+      "text": "Flip a coin. If heads, during your opponent's next turn, prevent all effects of attacks, including damage, done to Yanma."
+    },
+    {
+      "name": "Triple Smash",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20+",
+      "text": "Flip 3 coins. This attack does 20 damage plus 10 more damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ecard3",
+    "name": "Skyridge",
+    "series": "E-Card",
+    "printedTotal": 144,
+    "total": 182,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SK",
+    "releaseDate": "2003/05/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard3/logo.png"
+    }
+  },
+  "number": "116",
+  "artist": "Miki Tanaka",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    193
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard3/116.png",
+    "large": "https://images.pokemontcg.io/ecard3/116_hires.png"
+  }
+}

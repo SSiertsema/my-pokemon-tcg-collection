@@ -1,0 +1,82 @@
+{
+  "id": "ecard2-75",
+  "name": "Eevee",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Vaporeon",
+    "Jolteon",
+    "Flareon",
+    "Sylveon",
+    "Espeon",
+    "Umbreon",
+    "Leafeon",
+    "Glaceon"
+  ],
+  "attacks": [
+    {
+      "name": "Charge Up",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, search your deck for an Energy card and attach it to Eevee. Shuffle your deck afterward."
+    },
+    {
+      "name": "Lunge",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ecard2",
+    "name": "Aquapolis",
+    "series": "E-Card",
+    "printedTotal": 147,
+    "total": 182,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AQ",
+    "releaseDate": "2003/01/15",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard2/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard2/logo.png"
+    }
+  },
+  "number": "75",
+  "artist": "Midori Harada",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    133
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard2/75.png",
+    "large": "https://images.pokemontcg.io/ecard2/75_hires.png"
+  }
+}

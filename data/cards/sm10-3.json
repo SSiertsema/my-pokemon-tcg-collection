@@ -1,0 +1,81 @@
+{
+  "id": "sm10-3",
+  "name": "Metapod",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Caterpie",
+  "evolvesTo": [
+    "Butterfree"
+  ],
+  "abilities": [
+    {
+      "name": "Emerge",
+      "text": "Once during your turn (before your attack), you may flip a coin. If heads, search your deck for a card that evolves from this Pokémon and put it onto this Pokémon to evolve it. Then, shuffle your deck.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Bug Bite",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm10",
+    "name": "Unbroken Bonds",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 234,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNB",
+    "releaseDate": "2019/05/03",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm10/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Shigenori Negishi",
+  "rarity": "Uncommon",
+  "flavorText": "Its shell is filled with a thick liquid. All of the cells throughout its body are being rebuilt in preparation for evolution.",
+  "nationalPokedexNumbers": [
+    11
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm10/3.png",
+    "large": "https://images.pokemontcg.io/sm10/3_hires.png"
+  }
+}

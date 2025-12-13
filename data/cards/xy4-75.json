@@ -1,0 +1,80 @@
+{
+  "id": "xy4-75",
+  "name": "Goomy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesTo": [
+    "Sliggoo"
+  ],
+  "attacks": [
+    {
+      "name": "Gooey",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 10 damage from this Pokémon"
+    },
+    {
+      "name": "Tackle",
+      "cost": [
+        "Water",
+        "Fairy"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fairy",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy4",
+    "name": "Phantom Forces",
+    "series": "XY",
+    "printedTotal": 119,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PHF",
+    "releaseDate": "2014/11/05",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy4/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy4/logo.png"
+    }
+  },
+  "number": "75",
+  "artist": "Sanosuke Sakuma",
+  "rarity": "Common",
+  "flavorText": "The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn't dry out.",
+  "nationalPokedexNumbers": [
+    704
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy4/75.png",
+    "large": "https://images.pokemontcg.io/xy4/75_hires.png"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "xyp-XY156",
+  "name": "Lugia",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Gust",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Aeroblast",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80+",
+      "text": "Flip 2 coins. This attack does 20 more damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY156",
+  "artist": "Hajime Kusajima",
+  "rarity": "Promo",
+  "flavorText": "It is said to be the guardian of the seas. It is rumored to have been seen on the night of a storm.",
+  "nationalPokedexNumbers": [
+    249
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY156.png",
+    "large": "https://images.pokemontcg.io/xyp/XY156_hires.png"
+  }
+}

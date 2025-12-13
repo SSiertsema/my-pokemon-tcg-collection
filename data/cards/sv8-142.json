@@ -1,0 +1,79 @@
+{
+  "id": "sv8-142",
+  "name": "Tatsugiri ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Tera",
+    "ex"
+  ],
+  "hp": "160",
+  "types": [
+    "Dragon"
+  ],
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  ],
+  "attacks": [
+    {
+      "name": "Surprise Pump",
+      "cost": [
+        "Fire",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "100",
+      "text": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+    },
+    {
+      "name": "Cinnabar Lure",
+      "cost": [
+        "Fire",
+        "Water",
+        "Darkness"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Look at the top 10 cards of your deck. You may put any number of Pokémon you find there onto your Bench. Shuffle the other cards back into your deck."
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv8",
+    "name": "Surging Sparks",
+    "series": "Scarlet & Violet",
+    "printedTotal": 191,
+    "total": 252,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SSP",
+    "releaseDate": "2024/11/08",
+    "updatedAt": "2024/11/07 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv8/logo.png"
+    }
+  },
+  "number": "142",
+  "rarity": "Double Rare",
+  "nationalPokedexNumbers": [
+    978
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv8/142.png",
+    "large": "https://images.pokemontcg.io/sv8/142_hires.png"
+  }
+}

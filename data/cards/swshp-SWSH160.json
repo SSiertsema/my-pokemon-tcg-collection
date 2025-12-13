@@ -1,0 +1,120 @@
+{
+  "id": "swshp-SWSH160",
+  "name": "Mewtwo V-UNION",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "V-UNION"
+  ],
+  "hp": "300",
+  "types": [
+    "Psychic"
+  ],
+  "rules": [
+    "How to play a Pokémon V-UNION: Once per game during your turn, combine 4 different Mewtwo V-UNION from your discard pile and put them onto your Bench.",
+    "V-UNION rule: When your Pokémon V-UNION is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Photon Barrier",
+      "text": "Prevent all effects of attacks from your opponent's Pokémon done to this Pokémon. (Damage is not an effect.)",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Union Gain",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Attach up to 2 Psychic Energy cards from your discard pile to this Pokémon."
+    },
+    {
+      "name": "Super Regeneration",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Heal 200 damage from this Pokémon."
+    },
+    {
+      "name": "Psysplosion",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Put 16 damage counters on your opponent's Pokémon in any way you like."
+    },
+    {
+      "name": "Final Burn",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "300",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH160",
+  "artist": "AKIRA EGAWA",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    150
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH160.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH160_hires.png"
+  }
+}

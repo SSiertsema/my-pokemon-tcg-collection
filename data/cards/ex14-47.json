@@ -1,0 +1,76 @@
+{
+  "id": "ex14-47",
+  "name": "Cacnea",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Cacturne"
+  ],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+    },
+    {
+      "name": "Rising Lunge",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10+",
+      "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex14",
+    "name": "Crystal Guardians",
+    "series": "EX",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CG",
+    "releaseDate": "2006/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex14/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex14/logo.png"
+    }
+  },
+  "number": "47",
+  "artist": "Tomokazu Komiya",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    331
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex14/47.png",
+    "large": "https://images.pokemontcg.io/ex14/47_hires.png"
+  }
+}

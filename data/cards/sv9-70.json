@@ -1,0 +1,91 @@
+{
+  "id": "sv9-70",
+  "name": "Dhelmise",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Bind Down",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+    },
+    {
+      "name": "Anchor Smash",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "130",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv9",
+    "name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "printedTotal": 159,
+    "total": 190,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "JTG",
+    "releaseDate": "2025/03/28",
+    "updatedAt": "2025/03/27 16:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv9/logo.png"
+    }
+  },
+  "number": "70",
+  "artist": "Sanosuke Sakuma",
+  "rarity": "Common",
+  "flavorText": "After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon.",
+  "nationalPokedexNumbers": [
+    781
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv9/70.png",
+    "large": "https://images.pokemontcg.io/sv9/70_hires.png"
+  }
+}

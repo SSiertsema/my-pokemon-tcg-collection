@@ -1,0 +1,86 @@
+{
+  "id": "bw6-73",
+  "name": "Honchkrow",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Murkrow",
+  "attacks": [
+    {
+      "name": "Whirlwind",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "You may have your opponent switch the Defending Pokémon with 1 of his or her Benched Pokémon."
+    },
+    {
+      "name": "Diving Swipe",
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "Discard a random card from your opponent's hand."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw6",
+    "name": "Dragons Exalted",
+    "series": "Black & White",
+    "printedTotal": 124,
+    "total": 128,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRX",
+    "releaseDate": "2012/08/15",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw6/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw6/logo.png"
+    }
+  },
+  "number": "73",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare",
+  "flavorText": "If one utters a deep cry, many Murkrow gather quickly. For this, it is called \"Summoner of Night.\"",
+  "nationalPokedexNumbers": [
+    430
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw6/73.png",
+    "large": "https://images.pokemontcg.io/bw6/73_hires.png"
+  }
+}

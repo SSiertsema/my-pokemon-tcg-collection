@@ -1,0 +1,79 @@
+{
+  "id": "bw9-81",
+  "name": "Dratini",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesTo": [
+    "Dragonair"
+  ],
+  "attacks": [
+    {
+      "name": "Shed Skin",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 20 damage from this Pokémon."
+    },
+    {
+      "name": "Tail Smack",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Dragon",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "81",
+  "artist": "Atsuko Nishida",
+  "rarity": "Common",
+  "flavorText": "It is called the \"Mirage Pokémon\" because so few have seen it. Its shed skin has been found.",
+  "nationalPokedexNumbers": [
+    147
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/81.png",
+    "large": "https://images.pokemontcg.io/bw9/81_hires.png"
+  }
+}

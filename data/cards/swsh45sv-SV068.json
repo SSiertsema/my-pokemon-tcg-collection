@@ -1,0 +1,85 @@
+{
+  "id": "swsh45sv-SV068",
+  "name": "Carkol",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Rolycoly",
+  "evolvesTo": [
+    "Coalossal"
+  ],
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Heat Crash",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh45sv",
+    "name": "Shining Fates Shiny Vault",
+    "series": "Sword & Shield",
+    "printedTotal": 122,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SHF",
+    "releaseDate": "2021/02/19",
+    "updatedAt": "2021/02/24 16:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh45sv/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh45sv/logo.png"
+    }
+  },
+  "number": "SV068",
+  "artist": "tetsuya koizumi",
+  "rarity": "Rare Shiny",
+  "flavorText": "It forms coal inside its body. Coal dropped by this Pokémon once helped fuel the lives of people in the Galar region.",
+  "nationalPokedexNumbers": [
+    838
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh45sv/SV068.png",
+    "large": "https://images.pokemontcg.io/swsh45sv/SV068_hires.png"
+  }
+}

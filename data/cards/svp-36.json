@@ -1,0 +1,81 @@
+{
+  "id": "svp-36",
+  "name": "Palafin",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "150",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Finizen",
+  "attacks": [
+    {
+      "name": "Jet Punch",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Justice Kick",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "210",
+      "text": "If this Pokémon didn't move from the Bench to the Active Spot this turn, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "svp",
+    "name": "Scarlet & Violet Black Star Promos",
+    "series": "Scarlet & Violet",
+    "printedTotal": 215,
+    "total": 196,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SV",
+    "releaseDate": "2023/01/01",
+    "updatedAt": "2024/11/09 13:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+      "logo": "https://images.pokemontcg.io/svp/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "nagimiso",
+  "rarity": "Promo",
+  "flavorText": "This Pokémon's ancient genes have awakened. It is now so extraordinarily strong that it can easily lift a cruise ship with one fin.",
+  "nationalPokedexNumbers": [
+    964
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/svp/36.png",
+    "large": "https://images.pokemontcg.io/svp/36_hires.png"
+  }
+}

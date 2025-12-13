@@ -1,0 +1,79 @@
+{
+  "id": "sv1-115",
+  "name": "Sandile",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Fighting"
+      ],
+      "name": "Gnaw",
+      "damage": "10",
+      "text": "",
+      "convertedEnergyCost": 1
+    },
+    {
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "name": "Ram",
+      "damage": "30",
+      "text": "",
+      "convertedEnergyCost": 2
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv1",
+    "name": "Scarlet & Violet",
+    "series": "Scarlet & Violet",
+    "printedTotal": 198,
+    "total": 258,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/03/31",
+    "updatedAt": "2023/03/31 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv1/logo.png"
+    }
+  },
+  "number": "115",
+  "artist": "Tomokazu Komiya",
+  "rarity": "Common",
+  "flavorText": "It submerges itself in sand and moves as if swimming. This wise behavior keeps its enemies from finding it and maintains its temperature.",
+  "nationalPokedexNumbers": [
+    551
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv1/115.png",
+    "large": "https://images.pokemontcg.io/sv1/115_hires.png"
+  }
+}

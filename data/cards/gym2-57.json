@@ -1,0 +1,74 @@
+{
+  "id": "gym2-57",
+  "name": "Sabrina's Jynx",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "21",
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Helping Hand",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon. Remove any number of damage counters from that Pokémon, then draw that many cards."
+    },
+    {
+      "name": "Hug",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, the Defending Pokémon can't retreat during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "gym2",
+    "name": "Gym Challenge",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G2",
+    "releaseDate": "2000/10/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym2/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym2/logo.png"
+    }
+  },
+  "number": "57",
+  "artist": "Atsuko Nishida",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    124
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym2/57.png",
+    "large": "https://images.pokemontcg.io/gym2/57_hires.png"
+  }
+}

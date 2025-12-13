@@ -1,0 +1,78 @@
+{
+  "id": "bw9-29",
+  "name": "Vanilluxe",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "Team Plasma"
+  ],
+  "hp": "130",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Vanillish",
+  "attacks": [
+    {
+      "name": "ChillMAX",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "60×",
+      "text": "Flip a coin for each Energy attached to this Pokémon. This attack does 60 damage for each heads."
+    },
+    {
+      "name": "Cold Breath",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "The Defending Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "29",
+  "artist": "5ban Graphics",
+  "rarity": "Rare",
+  "flavorText": "Swallowing large amounts of water, they make snow clouds inside their bodies and, when angry, cause violent blizzards.",
+  "nationalPokedexNumbers": [
+    584
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/29.png",
+    "large": "https://images.pokemontcg.io/bw9/29_hires.png"
+  }
+}

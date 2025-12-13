@@ -1,0 +1,83 @@
+{
+  "id": "dp3-60",
+  "name": "Quagsire",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "38",
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Wooper",
+  "abilities": [
+    {
+      "name": "Aqua Healing",
+      "text": "Once during your turn (before your attack), if Quagsire is your Active Pokémon and the Defending Pokémon has any Water Energy attached to it, you may remove 3 damage counters from Quagsire.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Muddy Water",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Does 20 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "60",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Uncommon",
+  "flavorText": "It has a sluggish nature. It lies at the river's bottom, waiting for prey to stray into its mouth.",
+  "nationalPokedexNumbers": [
+    195
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/60.png",
+    "large": "https://images.pokemontcg.io/dp3/60_hires.png"
+  }
+}

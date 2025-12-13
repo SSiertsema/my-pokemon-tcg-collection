@@ -1,0 +1,88 @@
+{
+  "id": "sm10-115",
+  "name": "Krokorok",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Sandile",
+  "evolvesTo": [
+    "Krookodile"
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Corner",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm10",
+    "name": "Unbroken Bonds",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 234,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNB",
+    "releaseDate": "2019/05/03",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm10/logo.png"
+    }
+  },
+  "number": "115",
+  "artist": "SATOSHI NAKAI",
+  "rarity": "Uncommon",
+  "flavorText": "Krokorok really hates it when its body gets cold. On nights when the temperature drops, it digs deep into the desert sands.",
+  "nationalPokedexNumbers": [
+    552
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm10/115.png",
+    "large": "https://images.pokemontcg.io/sm10/115_hires.png"
+  }
+}

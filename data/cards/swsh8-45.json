@@ -1,0 +1,77 @@
+{
+  "id": "swsh8-45",
+  "name": "Cinderace VMAX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VMAX",
+    "Single Strike"
+  ],
+  "hp": "320",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Cinderace V",
+  "rules": [
+    "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "G-Max Fireball",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "230",
+      "text": "Your opponent's Active Pokémon is now Burned. During your next turn, this Pokémon can't attack."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh8",
+    "name": "Fusion Strike",
+    "series": "Sword & Shield",
+    "printedTotal": 264,
+    "total": 284,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FST",
+    "releaseDate": "2021/11/12",
+    "updatedAt": "2021/11/12 07:32:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+    }
+  },
+  "number": "45",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo VMAX",
+  "nationalPokedexNumbers": [
+    815
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh8/45.png",
+    "large": "https://images.pokemontcg.io/swsh8/45_hires.png"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "dp3-22",
+  "name": "Arcanine",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "48",
+  "hp": "100",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Growlithe",
+  "abilities": [
+    {
+      "name": "Flame Dash",
+      "text": "Once during your turn, when you play Arcanine from your hand to evolve 1 of your Benched Pokémon, you may switch Arcanine with 1 of your Active Pokémon. If you do, you may move any number of Energy cards attached to that Pokémon to Arcanine.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Inferno Onrush",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "120",
+      "text": "Arcanine does 40 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "+30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "22",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "flavorText": "Its proud and regal appearance has captured the hearts of people since long ago.",
+  "nationalPokedexNumbers": [
+    59
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/22.png",
+    "large": "https://images.pokemontcg.io/dp3/22_hires.png"
+  }
+}

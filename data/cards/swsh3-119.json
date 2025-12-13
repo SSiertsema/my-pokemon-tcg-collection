@@ -1,0 +1,89 @@
+{
+  "id": "swsh3-119",
+  "name": "Scizor VMAX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VMAX"
+  ],
+  "hp": "320",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Scizor V",
+  "rules": [
+    "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Hard Scissors",
+      "cost": [
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "90",
+      "text": "During your opponent's next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+    },
+    {
+      "name": "Max Steelspike",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "190",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh3",
+    "name": "Darkness Ablaze",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 201,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DAA",
+    "releaseDate": "2020/08/14",
+    "updatedAt": "2020/10/25 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh3/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh3/logo.png"
+    }
+  },
+  "number": "119",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo VMAX",
+  "nationalPokedexNumbers": [
+    212
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh3/119.png",
+    "large": "https://images.pokemontcg.io/swsh3/119_hires.png"
+  }
+}

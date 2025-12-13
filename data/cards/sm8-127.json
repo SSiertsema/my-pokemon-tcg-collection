@@ -1,0 +1,87 @@
+{
+  "id": "sm8-127",
+  "name": "Dialga",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Metal"
+  ],
+  "attacks": [
+    {
+      "name": "Turn Back Time",
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "If your opponent's Active Pokémon is an evolved Pokémon, devolve it by putting the highest Stage Evolution card on it into your opponent's hand."
+    },
+    {
+      "name": "Power Blast",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "130",
+      "text": "Discard an Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "127",
+  "artist": "nagimiso",
+  "rarity": "Rare Holo",
+  "flavorText": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+  "nationalPokedexNumbers": [
+    483
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/127.png",
+    "large": "https://images.pokemontcg.io/sm8/127_hires.png"
+  }
+}

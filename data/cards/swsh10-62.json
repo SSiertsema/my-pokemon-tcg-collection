@@ -1,0 +1,86 @@
+{
+  "id": "swsh10-62",
+  "name": "Gallade",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Kirlia",
+  "abilities": [
+    {
+      "name": "Buddy Catch",
+      "text": "Once during your turn, you may search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Swirling Slice",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "160",
+      "text": "Move an Energy from this Pokémon to 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh10",
+    "name": "Astral Radiance",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ASR",
+    "releaseDate": "2022/05/27",
+    "updatedAt": "2022/05/27 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh10/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh10/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "Atsushi Furusawa",
+  "rarity": "Rare Holo",
+  "flavorText": "True to its honorable-warrior image, it uses the blades on its elbows only in defense of something or someone.",
+  "nationalPokedexNumbers": [
+    475
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh10/62.png",
+    "large": "https://images.pokemontcg.io/swsh10/62_hires.png"
+  }
+}

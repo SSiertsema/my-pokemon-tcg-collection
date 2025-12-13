@@ -1,0 +1,83 @@
+{
+  "id": "swsh11-109",
+  "name": "Rockruff",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Lycanroc"
+  ],
+  "attacks": [
+    {
+      "name": "Double Draw",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Draw 2 cards."
+    },
+    {
+      "name": "Rear Kick",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh11",
+    "name": "Lost Origin",
+    "series": "Sword & Shield",
+    "printedTotal": 196,
+    "total": 217,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOR",
+    "releaseDate": "2022/09/09",
+    "updatedAt": "2022/09/09 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh11/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh11/logo.png"
+    }
+  },
+  "number": "109",
+  "artist": "Miki Tanaka",
+  "rarity": "Common",
+  "flavorText": "This Pokémon can bond very strongly with its Trainer, but it also has a habit of biting. Raising a Rockruff for a long time can be challenging.",
+  "nationalPokedexNumbers": [
+    744
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh11/109.png",
+    "large": "https://images.pokemontcg.io/swsh11/109_hires.png"
+  }
+}

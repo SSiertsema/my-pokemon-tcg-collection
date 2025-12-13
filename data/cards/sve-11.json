@@ -1,0 +1,40 @@
+{
+  "id": "sve-11",
+  "name": "Basic Water Energy",
+  "supertype": "Energy",
+  "subtypes": [
+    "Basic"
+  ],
+  "types": [
+    "Water"
+  ],
+  "set": {
+    "id": "sve",
+    "name": "Scarlet & Violet Energies",
+    "series": "Scarlet & Violet",
+    "printedTotal": 16,
+    "total": 16,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SVE",
+    "releaseDate": "2023/03/31",
+    "updatedAt": "2024/09/19 19:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sve/symbol.png",
+      "logo": "https://images.pokemontcg.io/sve/logo.png"
+    }
+  },
+  "number": "11",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sve/11.png",
+    "large": "https://images.pokemontcg.io/sve/11_hires.png"
+  }
+}

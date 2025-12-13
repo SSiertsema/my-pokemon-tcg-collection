@@ -1,0 +1,78 @@
+{
+  "id": "swsh12-79",
+  "name": "Elgyem",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Beheeyem"
+  ],
+  "attacks": [
+    {
+      "name": "Headbutt",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh12",
+    "name": "Silver Tempest",
+    "series": "Sword & Shield",
+    "printedTotal": 195,
+    "total": 215,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SIT",
+    "releaseDate": "2022/11/11",
+    "updatedAt": "2022/09/09 11:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12/logo.png"
+    }
+  },
+  "number": "79",
+  "artist": "Shigenori Negishi",
+  "rarity": "Common",
+  "flavorText": "If this Pokémon stands near a TV, strange scenery will appear on the screen. That scenery is said to be from its home.",
+  "nationalPokedexNumbers": [
+    605
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12/79.png",
+    "large": "https://images.pokemontcg.io/swsh12/79_hires.png"
+  }
+}

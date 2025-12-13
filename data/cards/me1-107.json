@@ -1,0 +1,79 @@
+{
+  "id": "me1-107",
+  "name": "Buneary",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Lopunny"
+  ],
+  "attacks": [
+    {
+      "name": "Charm",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "During your opponent's next turn, attacks used by the Defending Pokémon do 20 less damage (before applying Weakness and Resistance)."
+    },
+    {
+      "name": "Skip",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "me1",
+    "name": "Mega Evolution",
+    "series": "Mega Evolution",
+    "printedTotal": 132,
+    "total": 188,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "MEG",
+    "releaseDate": "2025/09/26",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me1/symbol.png",
+      "logo": "https://images.pokemontcg.io/me1/logo.png"
+    }
+  },
+  "number": "107",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    427
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me1/107.png",
+    "large": "https://images.pokemontcg.io/me1/107_hires.png"
+  }
+}

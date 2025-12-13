@@ -1,0 +1,82 @@
+{
+  "id": "xy1-62",
+  "name": "Rhyperior",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Rhydon",
+  "attacks": [
+    {
+      "name": "Rock Black",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "50×",
+      "text": "Flip a coin for each Fighting Energy attached to this Pokémon. This attack does 50 damage times the number of heads."
+    },
+    {
+      "name": "Rock Wrecker",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "130",
+      "text": "This attack's damage isn't affected by Weakness or Resistance. This Pokémon can't attack during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "xy1",
+    "name": "XY",
+    "series": "XY",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "XY",
+    "releaseDate": "2014/02/05",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy1/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy1/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "Naoki Saito",
+  "rarity": "Rare Holo",
+  "flavorText": "From holes in its palms, it fires out Geodude. Its carapace can withstand volcanic eruptions.",
+  "nationalPokedexNumbers": [
+    464
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy1/62.png",
+    "large": "https://images.pokemontcg.io/xy1/62_hires.png"
+  }
+}

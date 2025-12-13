@@ -1,0 +1,79 @@
+{
+  "id": "swsh4-102",
+  "name": "Zamazenta",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "name": "Metal Armament",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Attach a basic Energy card from your discard pile to this Pokémon."
+    },
+    {
+      "name": "Amazing Shield",
+      "cost": [
+        "Lightning",
+        "Fighting",
+        "Metal"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "180",
+      "text": "During your opponent's next turn, prevent all damage done to this Pokémon by attacks from Pokémon VMAX."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh4",
+    "name": "Vivid Voltage",
+    "series": "Sword & Shield",
+    "printedTotal": 185,
+    "total": 203,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "VIV",
+    "releaseDate": "2020/11/13",
+    "updatedAt": "2020/11/13 16:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh4/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh4/logo.png"
+    }
+  },
+  "number": "102",
+  "artist": "aky CG Works",
+  "rarity": "Amazing Rare",
+  "flavorText": "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
+  "nationalPokedexNumbers": [
+    889
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh4/102.png",
+    "large": "https://images.pokemontcg.io/swsh4/102_hires.png"
+  }
+}

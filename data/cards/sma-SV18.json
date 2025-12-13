@@ -1,0 +1,76 @@
+{
+  "id": "sma-SV18",
+  "name": "Malamar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Inkay",
+  "abilities": [
+    {
+      "name": "Psychic Recharge",
+      "text": "Once during your turn (before your attack), you may attach a Psychic Energy card from your discard pile to 1 of your Benched Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Psychic Sphere",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sma",
+    "name": "Hidden Fates Shiny Vault",
+    "series": "Sun & Moon",
+    "printedTotal": 94,
+    "total": 94,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2019/08/23",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sma/symbol.png",
+      "logo": "https://images.pokemontcg.io/sma/logo.png"
+    }
+  },
+  "number": "SV18",
+  "artist": "Hideki Ishikawa",
+  "rarity": "Rare Shiny",
+  "flavorText": "It lures prey close with hypnotic motions, then wraps its tentacles around it before finishing it off with digestive fluids.",
+  "nationalPokedexNumbers": [
+    687
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sma/SV18.png",
+    "large": "https://images.pokemontcg.io/sma/SV18_hires.png"
+  }
+}

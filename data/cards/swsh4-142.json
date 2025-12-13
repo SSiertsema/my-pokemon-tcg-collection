@@ -1,0 +1,84 @@
+{
+  "id": "swsh4-142",
+  "name": "Tornadus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Jet Draft",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Discard a Special Energy from your opponent's Active Pokémon."
+    },
+    {
+      "name": "Air Slash",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120",
+      "text": "Discard an Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh4",
+    "name": "Vivid Voltage",
+    "series": "Sword & Shield",
+    "printedTotal": 185,
+    "total": 203,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "VIV",
+    "releaseDate": "2020/11/13",
+    "updatedAt": "2020/11/13 16:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh4/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh4/logo.png"
+    }
+  },
+  "number": "142",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare Holo",
+  "flavorText": "Tornadus expels massive energy from its tail, causing severe storms. Its power is great enough to blow houses away.",
+  "nationalPokedexNumbers": [
+    641
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh4/142.png",
+    "large": "https://images.pokemontcg.io/swsh4/142_hires.png"
+  }
+}

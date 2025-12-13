@@ -1,0 +1,89 @@
+{
+  "id": "sm5-84",
+  "name": "Shieldon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Unidentified Fossil",
+  "evolvesTo": [
+    "Bastiodon"
+  ],
+  "attacks": [
+    {
+      "name": "Take Down",
+      "cost": [
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "This Pokémon does 10 damage to itself."
+    },
+    {
+      "name": "Confront",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "84",
+  "artist": "so-taro",
+  "rarity": "Uncommon",
+  "flavorText": "This Pokémon lived in primeval jungles. Few enemies would have been willing to square off against its heavily armored face, so it's thought.",
+  "nationalPokedexNumbers": [
+    410
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/84.png",
+    "large": "https://images.pokemontcg.io/sm5/84_hires.png"
+  }
+}

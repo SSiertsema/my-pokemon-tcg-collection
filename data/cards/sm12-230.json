@@ -1,0 +1,42 @@
+{
+  "id": "sm12-230",
+  "name": "Lillie's Full Force",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Draw 4 cards.",
+    "At the end of this turn, if you have 3 or more cards in your hand, shuffle cards from your hand into your deck until you have 2 cards in your hand.",
+    "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "230",
+  "artist": "Noriko Uono",
+  "rarity": "Rare Ultra",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/230.png",
+    "large": "https://images.pokemontcg.io/sm12/230_hires.png"
+  }
+}

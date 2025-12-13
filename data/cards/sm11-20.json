@@ -1,0 +1,76 @@
+{
+  "id": "sm11-20",
+  "name": "Dhelmise",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "100",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "name": "Sea Creeper Net",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
+    },
+    {
+      "name": "Spinning Attack",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "20",
+  "artist": "TOKIYA",
+  "rarity": "Uncommon",
+  "flavorText": "It wraps its prey in green seaweed and sucks away their vitality. It only likes to go after big prey like Wailord.",
+  "nationalPokedexNumbers": [
+    781
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/20.png",
+    "large": "https://images.pokemontcg.io/sm11/20_hires.png"
+  }
+}

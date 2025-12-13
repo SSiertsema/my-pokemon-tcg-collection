@@ -1,0 +1,82 @@
+{
+  "id": "sm11-81",
+  "name": "Drifblim",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Drifloon",
+  "abilities": [
+    {
+      "name": "Tag Transport",
+      "text": "Once during your turn (before your attack), you may switch your Active TAG TEAM Pokémon with 1 of your Benched Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Spinning Attack",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "81",
+  "artist": "Mizue",
+  "rarity": "Rare",
+  "flavorText": "There's a rumor that if you catch a Drifblim floating on the wind at dusk, you'll be carried away to the afterlife.",
+  "nationalPokedexNumbers": [
+    426
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/81.png",
+    "large": "https://images.pokemontcg.io/sm11/81_hires.png"
+  }
+}

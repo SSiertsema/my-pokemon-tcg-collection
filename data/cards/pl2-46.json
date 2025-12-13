@@ -1,0 +1,81 @@
+{
+  "id": "pl2-46",
+  "name": "Machamp GL",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "SP"
+  ],
+  "level": "64",
+  "hp": "100",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "name": "Cross-Cut",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "If the Defending Pokémon is an Evolved Pokémon, this attack does 30 damage plus 20 more damage."
+    },
+    {
+      "name": "Brush Off",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "",
+      "text": "Put the Defending Pokémon and all cards attached to it on top of your opponent's deck. Your opponent shuffles his or her deck afterward. (If your opponent doesn't have any Benched Pokémon, this attack does nothing.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "46",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    68
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/46.png",
+    "large": "https://images.pokemontcg.io/pl2/46_hires.png"
+  }
+}

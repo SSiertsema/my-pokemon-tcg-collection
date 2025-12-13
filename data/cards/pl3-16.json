@@ -1,0 +1,86 @@
+{
+  "id": "pl3-16",
+  "name": "Articuno",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "41",
+  "hp": "100",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Sharp Beak",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Flip a coin. If heads, this attack does 30 damage plus 10 more damage."
+    },
+    {
+      "name": "Ice Beam",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "50",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "flavorText": "A legendary bird Pokémon. It can create blizzards by freezing moisture in the air.",
+  "nationalPokedexNumbers": [
+    144
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/16.png",
+    "large": "https://images.pokemontcg.io/pl3/16_hires.png"
+  }
+}

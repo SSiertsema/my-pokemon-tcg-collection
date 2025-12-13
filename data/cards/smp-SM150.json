@@ -1,0 +1,74 @@
+{
+  "id": "smp-SM150",
+  "name": "Raikou",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Lightning"
+  ],
+  "attacks": [
+    {
+      "name": "Lost Voltage",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "If you have any Lightning Energy cards in the Lost Zone, this attack does 90 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "smp",
+    "name": "SM Black Star Promos",
+    "series": "Sun & Moon",
+    "printedTotal": 248,
+    "total": 250,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/smp/symbol.png",
+      "logo": "https://images.pokemontcg.io/smp/logo.png"
+    }
+  },
+  "number": "SM150",
+  "artist": "nagimiso",
+  "rarity": "Promo",
+  "flavorText": "This rough Pokémon stores energy inside its body, then sweeps across the land, shooting off electricity.",
+  "nationalPokedexNumbers": [
+    243
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/smp/SM150.png",
+    "large": "https://images.pokemontcg.io/smp/SM150_hires.png"
+  }
+}

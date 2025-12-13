@@ -1,0 +1,72 @@
+{
+  "id": "xy1-20",
+  "name": "Slugma",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Magcargo"
+  ],
+  "attacks": [
+    {
+      "name": "Flamethrower",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Discard an Energy attached to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy1",
+    "name": "XY",
+    "series": "XY",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "XY",
+    "releaseDate": "2014/02/05",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy1/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy1/logo.png"
+    }
+  },
+  "number": "20",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Common",
+  "flavorText": "A common sight in volcanic areas, it slowly slithers around in a constant search for warm places.",
+  "nationalPokedexNumbers": [
+    218
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy1/20.png",
+    "large": "https://images.pokemontcg.io/xy1/20_hires.png"
+  }
+}

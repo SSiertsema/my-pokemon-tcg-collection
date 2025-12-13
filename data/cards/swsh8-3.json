@@ -1,0 +1,78 @@
+{
+  "id": "swsh8-3",
+  "name": "Butterfree",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Metapod",
+  "abilities": [
+    {
+      "name": "Tricolored Scales",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may make your opponent's Active Pokémon Burned, Confused, and Poisoned.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Gust",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "90",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh8",
+    "name": "Fusion Strike",
+    "series": "Sword & Shield",
+    "printedTotal": 264,
+    "total": 284,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FST",
+    "releaseDate": "2021/11/12",
+    "updatedAt": "2021/11/12 07:32:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "ryoma uratsuka",
+  "rarity": "Rare Holo",
+  "flavorText": "It collects honey every day. It rubs honey onto the hairs on its legs to carry it back to its nest.",
+  "nationalPokedexNumbers": [
+    12
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh8/3.png",
+    "large": "https://images.pokemontcg.io/swsh8/3_hires.png"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "id": "pl2-RT5",
+  "name": "Wash Rotom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "46",
+  "hp": "90",
+  "types": [
+    "Lightning"
+  ],
+  "abilities": [
+    {
+      "name": "Wash Shift",
+      "text": "Once during your turn (before your attack), you may use this power. Wash Rotom's type is Water until the end of your turn.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Cleanse Away",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Remove 3 damage counters from each of your Benched Pokémon."
+    },
+    {
+      "name": "Drain Wash",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Flip a coin until you get tails. For each heads, choose 1 card from your opponent's hand without looking and discard it."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Colorless",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "RT5",
+  "artist": "Hiroki Fuchino",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    479
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/RT5.png",
+    "large": "https://images.pokemontcg.io/pl2/RT5_hires.png"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "xy9-69",
+  "name": "Gabite",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Gible",
+  "evolvesTo": [
+    "Garchomp"
+  ],
+  "attacks": [
+    {
+      "name": "Sand Tomb",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy9",
+    "name": "BREAKpoint",
+    "series": "XY",
+    "printedTotal": 122,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKP",
+    "releaseDate": "2016/02/03",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy9/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy9/logo.png"
+    }
+  },
+  "number": "69",
+  "artist": "Midori Harada",
+  "rarity": "Uncommon",
+  "flavorText": "As it digs to expand its nest, it habitually digs up gems that it then hoards in its nest.",
+  "nationalPokedexNumbers": [
+    444
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy9/69.png",
+    "large": "https://images.pokemontcg.io/xy9/69_hires.png"
+  }
+}

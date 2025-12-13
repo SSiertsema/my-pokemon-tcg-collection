@@ -1,0 +1,83 @@
+{
+  "id": "swsh2-88",
+  "name": "Indeedee",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "100",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Replenish Time",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 30 damage from each of your Pokémon."
+    },
+    {
+      "name": "Psybeam",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh2",
+    "name": "Rebel Clash",
+    "series": "Sword & Shield",
+    "printedTotal": 192,
+    "total": 209,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "RCL",
+    "releaseDate": "2020/05/01",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh2/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh2/logo.png"
+    }
+  },
+  "number": "88",
+  "artist": "Mizue",
+  "rarity": "Uncommon",
+  "flavorText": "These intelligent Pokémon touch horns with each other to share information between them.",
+  "nationalPokedexNumbers": [
+    876
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh2/88.png",
+    "large": "https://images.pokemontcg.io/swsh2/88_hires.png"
+  }
+}

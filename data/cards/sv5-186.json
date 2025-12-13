@@ -1,0 +1,82 @@
+{
+  "id": "sv5-186",
+  "name": "Iron Leaves ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "ex",
+    "Future"
+  ],
+  "hp": "220",
+  "types": [
+    "Grass"
+  ],
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Rapid Vernier",
+      "text": "When you play this Pokémon from your hand onto your Bench during your turn, you may switch it with your Active Pokémon. If you do, you may move any amount of Energy from your other Pokémon to this Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Prism Edge",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "180",
+      "text": "During your next turn, this Pokémon can't attack."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv5",
+    "name": "Temporal Forces",
+    "series": "Scarlet & Violet",
+    "printedTotal": 162,
+    "total": 218,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEF",
+    "releaseDate": "2024/03/22",
+    "updatedAt": "2024/03/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv5/logo.png"
+    }
+  },
+  "number": "186",
+  "artist": "5ban Graphics",
+  "rarity": "Ultra Rare",
+  "nationalPokedexNumbers": [
+    1010
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv5/186.png",
+    "large": "https://images.pokemontcg.io/sv5/186_hires.png"
+  }
+}

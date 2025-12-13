@@ -1,0 +1,74 @@
+{
+  "id": "hgss4-3",
+  "name": "Celebi",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Future Sight",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order."
+    },
+    {
+      "name": "Leaf Bind",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hgss4",
+    "name": "HS—Triumphant",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 102,
+    "total": 103,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TM",
+    "releaseDate": "2010/11/03",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss4/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss4/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare Holo",
+  "flavorText": "This Pokémon wanders across time. Grass and trees flourish in the forests in which it has appeared.",
+  "nationalPokedexNumbers": [
+    251
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss4/3.png",
+    "large": "https://images.pokemontcg.io/hgss4/3_hires.png"
+  }
+}

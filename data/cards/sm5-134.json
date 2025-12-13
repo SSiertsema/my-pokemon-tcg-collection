@@ -1,0 +1,44 @@
+{
+  "id": "sm5-134",
+  "name": "Unidentified Fossil",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "hp": "60",
+  "rules": [
+    "Play this card as if it were a 60-HP Colorless Basic Pokémon. At any time during your turn (before your attack), you may discard this card from play.",
+    "This card can't retreat.",
+    "You may play as many Item cards as you like during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "134",
+  "artist": "Toyste Beach",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/134.png",
+    "large": "https://images.pokemontcg.io/sm5/134_hires.png"
+  }
+}

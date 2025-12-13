@@ -1,0 +1,78 @@
+{
+  "id": "neo2-39",
+  "name": "Houndour",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "15",
+  "hp": "40",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesTo": [
+    "Houndoom"
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Plunder",
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Before doing damage, discard all Trainer cards attached to the Defending Pokémon (before they affect the damage)."
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo2",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "printedTotal": 75,
+    "total": 75,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N2",
+    "releaseDate": "2001/06/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo2/logo.png"
+    }
+  },
+  "number": "39",
+  "artist": "Shin-ichi Yoshida",
+  "rarity": "Uncommon",
+  "flavorText": "It uses different kinds of cries for communicating with others of its kind and for pursuing its prey.",
+  "nationalPokedexNumbers": [
+    228
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo2/39.png",
+    "large": "https://images.pokemontcg.io/neo2/39_hires.png"
+  }
+}

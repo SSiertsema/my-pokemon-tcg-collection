@@ -1,0 +1,82 @@
+{
+  "id": "pl2-85",
+  "name": "Turtwig GL",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "SP"
+  ],
+  "level": "20",
+  "hp": "90",
+  "types": [
+    "Grass"
+  ],
+  "abilities": [
+    {
+      "name": "Overgrow",
+      "text": "As long as Turtwig GL's remaining HP is 60 or less, each of Turtwig GL's attacks does 30 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Giga Drain",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": "After your attack, remove from Turtwig GL the number of damage counters equal to the damage you did to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "85",
+  "artist": "Kanako Eo",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    387
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/85.png",
+    "large": "https://images.pokemontcg.io/pl2/85_hires.png"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "sv4pt5-13",
+  "name": "Heat Rotom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Fire"
+  ],
+  "attacks": [
+    {
+      "name": "Heat Tackle",
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "100",
+      "text": "This Pokémon also does 40 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv4pt5",
+    "name": "Paldean Fates",
+    "series": "Scarlet & Violet",
+    "printedTotal": 91,
+    "total": 245,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2024/01/26",
+    "updatedAt": "2024/01/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4pt5/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "Scav",
+  "rarity": "Rare",
+  "flavorText": "If the convection microwave oven is not working properly, then the Rotom inhabiting it will become lethargic.",
+  "nationalPokedexNumbers": [
+    479
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4pt5/13.png",
+    "large": "https://images.pokemontcg.io/sv4pt5/13_hires.png"
+  }
+}

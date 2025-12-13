@@ -1,0 +1,86 @@
+{
+  "id": "dp3-74",
+  "name": "Vibrava",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "37",
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Trapinch",
+  "evolvesTo": [
+    "Flygon"
+  ],
+  "attacks": [
+    {
+      "name": "Sand Wind",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Hyper Beam",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "74",
+  "artist": "Kouki Saitou",
+  "rarity": "Uncommon",
+  "flavorText": "It violently shudders its wings, generating ultrasonic waves to induce headaches in people.",
+  "nationalPokedexNumbers": [
+    329
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/74.png",
+    "large": "https://images.pokemontcg.io/dp3/74_hires.png"
+  }
+}

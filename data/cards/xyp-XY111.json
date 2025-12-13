@@ -1,0 +1,75 @@
+{
+  "id": "xyp-XY111",
+  "name": "Celebi",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "name": "Time Call",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, search your deck for a card that evolves from 1 of your Pokémon and put it onto that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward."
+    },
+    {
+      "name": "Leech Seed",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Heal 10 damage from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY111",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Promo",
+  "flavorText": "It has the power to travel across time, but it is said to appear only in peaceful times.",
+  "nationalPokedexNumbers": [
+    251
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY111.png",
+    "large": "https://images.pokemontcg.io/xyp/XY111_hires.png"
+  }
+}

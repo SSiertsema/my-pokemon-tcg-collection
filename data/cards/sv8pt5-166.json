@@ -1,0 +1,75 @@
+{
+  "id": "sv8pt5-166",
+  "name": "Raging Bolt ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "ex",
+    "Ancient"
+  ],
+  "hp": "240",
+  "types": [
+    "Dragon"
+  ],
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Burst Roar",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Discard your hand and draw 6 cards."
+    },
+    {
+      "name": "Bellowing Thunder",
+      "cost": [
+        "Lightning",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70×",
+      "text": "You may discard any amount of Basic Energy from your Pokémon. This attack does 70 damage for each card you discarded in this way."
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv8pt5",
+    "name": "Prismatic Evolutions",
+    "series": "Scarlet & Violet",
+    "printedTotal": 131,
+    "total": 180,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PRE",
+    "releaseDate": "2025/01/17",
+    "updatedAt": "025/01/16 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv8pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv8pt5/logo.png"
+    }
+  },
+  "number": "166",
+  "rarity": "Special Illustration Rare",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv8pt5/166.png",
+    "large": "https://images.pokemontcg.io/sv8pt5/166_hires.png"
+  }
+}

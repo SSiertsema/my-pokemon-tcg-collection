@@ -1,0 +1,82 @@
+{
+  "id": "swsh11-51",
+  "name": "Glastrier",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Freeze Down",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "If the Defending Pokémon is a Basic Pokémon, it can't attack during your opponent's next turn."
+    },
+    {
+      "name": "Wild Tackle",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "130",
+      "text": "This Pokémon also does 30 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh11",
+    "name": "Lost Origin",
+    "series": "Sword & Shield",
+    "printedTotal": 196,
+    "total": 217,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOR",
+    "releaseDate": "2022/09/09",
+    "updatedAt": "2022/09/09 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh11/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh11/logo.png"
+    }
+  },
+  "number": "51",
+  "artist": "Jiro Sasumo",
+  "rarity": "Rare Holo",
+  "flavorText": "Glastrier emits intense cold from its hooves. It's also a belligerent Pokémon—anything it wants, it takes by force.",
+  "nationalPokedexNumbers": [
+    896
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh11/51.png",
+    "large": "https://images.pokemontcg.io/swsh11/51_hires.png"
+  }
+}

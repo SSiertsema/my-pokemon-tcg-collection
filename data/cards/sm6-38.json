@@ -1,0 +1,84 @@
+{
+  "id": "sm6-38",
+  "name": "Heliolisk",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Helioptile",
+  "attacks": [
+    {
+      "name": "Gnaw",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Volt Wave",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm6",
+    "name": "Forbidden Light",
+    "series": "Sun & Moon",
+    "printedTotal": 131,
+    "total": 150,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLI",
+    "releaseDate": "2018/05/04",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm6/logo.png"
+    }
+  },
+  "number": "38",
+  "artist": "otumami",
+  "rarity": "Uncommon",
+  "flavorText": "It stimulates its muscles with electricity, boosting the strength in its legs and enabling it to run 100 yards in five seconds.",
+  "nationalPokedexNumbers": [
+    695
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm6/38.png",
+    "large": "https://images.pokemontcg.io/sm6/38_hires.png"
+  }
+}

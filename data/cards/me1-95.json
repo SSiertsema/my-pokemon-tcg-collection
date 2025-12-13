@@ -1,0 +1,85 @@
+{
+  "id": "me1-95",
+  "name": "Dialga",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "140",
+  "types": [
+    "Metal"
+  ],
+  "attacks": [
+    {
+      "name": "Beam",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Chrono Burst",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80+",
+      "text": "You may shuffle all Energy attached to this Pokémon into your deck and have this attack do 80 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "me1",
+    "name": "Mega Evolution",
+    "series": "Mega Evolution",
+    "printedTotal": 132,
+    "total": 188,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "MEG",
+    "releaseDate": "2025/09/26",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me1/symbol.png",
+      "logo": "https://images.pokemontcg.io/me1/logo.png"
+    }
+  },
+  "number": "95",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    483
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me1/95.png",
+    "large": "https://images.pokemontcg.io/me1/95_hires.png"
+  }
+}

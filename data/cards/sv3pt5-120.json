@@ -1,0 +1,72 @@
+{
+  "id": "sv3pt5-120",
+  "name": "Staryu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Starmie"
+  ],
+  "attacks": [
+    {
+      "name": "Swift",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "This attack's damage isn't affected by Weakness or Resistance, or by any effects on your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv3pt5",
+    "name": "151",
+    "series": "Scarlet & Violet",
+    "printedTotal": 165,
+    "total": 207,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/09/22",
+    "updatedAt": "2023/09/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+    }
+  },
+  "number": "120",
+  "artist": "Arai Kiriko",
+  "rarity": "Common",
+  "flavorText": "Fish Pokémon nibble at it, but Staryu isn't bothered. Its body regenerates quickly, even if part of it is completely torn off.",
+  "nationalPokedexNumbers": [
+    120
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3pt5/120.png",
+    "large": "https://images.pokemontcg.io/sv3pt5/120_hires.png"
+  }
+}

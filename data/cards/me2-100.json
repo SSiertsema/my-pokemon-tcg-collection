@@ -1,0 +1,71 @@
+{
+  "id": "me2-100",
+  "name": "Zacian",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Limit Break",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50+",
+      "text": "If your opponent has 3 or fewer Prize cards remaining, this attack does 90 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "me2",
+    "name": "Phantasmal Flames",
+    "series": "Mega Evolution",
+    "printedTotal": 94,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PFL",
+    "releaseDate": "2025/11/14",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+      "logo": "https://images.pokemontcg.io/me2/logo.png"
+    }
+  },
+  "number": "100",
+  "artist": "Yoriyuki Ikegami",
+  "rarity": "Illustration Rare",
+  "flavorText": "Able to cut down anything with a single strike, it became known as the Fairy King's Sword, and it inspired awe in friend and foe alike.",
+  "nationalPokedexNumbers": [
+    888
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me2/100.png",
+    "large": "https://images.pokemontcg.io/me2/100_hires.png"
+  }
+}

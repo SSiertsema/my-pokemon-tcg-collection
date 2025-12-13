@@ -1,0 +1,79 @@
+{
+  "id": "neo2-18",
+  "name": "Beedrill",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "36",
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Kakuna",
+  "attacks": [
+    {
+      "name": "Triple Poison",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Poisoned. Your opponent now puts 3 damage counters on it instead of 1 after each player's turn (even if it was already Poisoned)."
+    },
+    {
+      "name": "Pin Missile",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20×",
+      "text": "Flip 4 coins. This attack does 20 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "neo2",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "printedTotal": 75,
+    "total": 75,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N2",
+    "releaseDate": "2001/06/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo2/logo.png"
+    }
+  },
+  "number": "18",
+  "artist": "Aya Kusube",
+  "rarity": "Rare",
+  "flavorText": "It can take down any opponent with its powerful poison stingers. It sometimes attacks in swarms.",
+  "nationalPokedexNumbers": [
+    15
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo2/18.png",
+    "large": "https://images.pokemontcg.io/neo2/18_hires.png"
+  }
+}

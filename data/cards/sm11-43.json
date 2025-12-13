@@ -1,0 +1,75 @@
+{
+  "id": "sm11-43",
+  "name": "Basculin",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Swarming Bites",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "This attack does 20 damage for each Basculin you have in play to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "43",
+  "artist": "SATOSHI NAKAI",
+  "rarity": "Uncommon",
+  "flavorText": "Savage, violent Pokémon, red and blue Basculin are always fighting each other over territory.",
+  "nationalPokedexNumbers": [
+    550
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/43.png",
+    "large": "https://images.pokemontcg.io/sm11/43_hires.png"
+  }
+}

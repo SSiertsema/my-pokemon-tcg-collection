@@ -1,0 +1,41 @@
+{
+  "id": "xyp-XY177",
+  "name": "Karen",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Each player shuffles all Pokémon in his or her discard pile into his or her deck.",
+    "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY177",
+  "artist": "You Iribi",
+  "rarity": "Promo",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY177.png",
+    "large": "https://images.pokemontcg.io/xyp/XY177_hires.png"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "xy11-91",
+  "name": "Ambipom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Aipom",
+  "attacks": [
+    {
+      "name": "Furry Chance",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20+",
+      "text": "Discard the top card of your opponent's deck. If that card is an Energy card, this attack does 60 more damage."
+    },
+    {
+      "name": "Double Hit",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50×",
+      "text": "Flip 2 coins. This attack does 50 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy11",
+    "name": "Steam Siege",
+    "series": "XY",
+    "printedTotal": 114,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "STS",
+    "releaseDate": "2016/08/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy11/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy11/logo.png"
+    }
+  },
+  "number": "91",
+  "artist": "Atsuko Nishida",
+  "rarity": "Uncommon",
+  "flavorText": "To eat, it deftly shucks nuts with its two tails. It rarely uses its arms now.",
+  "nationalPokedexNumbers": [
+    424
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy11/91.png",
+    "large": "https://images.pokemontcg.io/xy11/91_hires.png"
+  }
+}

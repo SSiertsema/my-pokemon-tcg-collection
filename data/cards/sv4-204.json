@@ -1,0 +1,82 @@
+{
+  "id": "sv4-204",
+  "name": "Garbodor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Trubbish",
+  "attacks": [
+    {
+      "name": "Chuck",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "50×",
+      "text": "Discard any number of Pokémon Tool cards from your hand. This attack does 50 damage for each card you discarded in this way."
+    },
+    {
+      "name": "Venomous Hit",
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "Your opponent's Active Pokémon is now Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 266,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/11/03",
+    "updatedAt": "2023/11/03 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4/logo.png"
+    }
+  },
+  "number": "204",
+  "artist": "Shinya Komatsu",
+  "rarity": "Illustration Rare",
+  "flavorText": "The toxic liquid it launches from its right arm is so virulent that it can kill a weakened creature instantly.",
+  "nationalPokedexNumbers": [
+    569
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4/204.png",
+    "large": "https://images.pokemontcg.io/sv4/204_hires.png"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "swsh7-44",
+  "name": "Bergmite",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Avalugg"
+  ],
+  "attacks": [
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Spinning Attack",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh7",
+    "name": "Evolving Skies",
+    "series": "Sword & Shield",
+    "printedTotal": 203,
+    "total": 237,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVS",
+    "releaseDate": "2021/08/27",
+    "updatedAt": "2021/08/27 10:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh7/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh7/logo.png"
+    }
+  },
+  "number": "44",
+  "artist": "kirisAki",
+  "rarity": "Common",
+  "flavorText": "This Pokémon lives in areas of frigid cold. It secures itself to the back of an Avalugg by freezing its feet in place.",
+  "nationalPokedexNumbers": [
+    712
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh7/44.png",
+    "large": "https://images.pokemontcg.io/swsh7/44_hires.png"
+  }
+}

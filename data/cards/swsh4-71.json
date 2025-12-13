@@ -1,0 +1,84 @@
+{
+  "id": "swsh4-71",
+  "name": "Dusknoir",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "150",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Dusclops",
+  "abilities": [
+    {
+      "name": "Spectral Breach",
+      "text": "All Special Energy attached to Pokémon (both yours and your opponent's) provide Colorless Energy and have no other effect.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Spooky Shot",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh4",
+    "name": "Vivid Voltage",
+    "series": "Sword & Shield",
+    "printedTotal": 185,
+    "total": 203,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "VIV",
+    "releaseDate": "2020/11/13",
+    "updatedAt": "2020/11/13 16:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh4/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh4/logo.png"
+    }
+  },
+  "number": "71",
+  "artist": "Shigenori Negishi",
+  "rarity": "Rare Holo",
+  "flavorText": "At the bidding of transmissions from the spirit world, it steals people and Pokémon away. No one knows whether it has a will of its own.",
+  "nationalPokedexNumbers": [
+    477
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh4/71.png",
+    "large": "https://images.pokemontcg.io/swsh4/71_hires.png"
+  }
+}

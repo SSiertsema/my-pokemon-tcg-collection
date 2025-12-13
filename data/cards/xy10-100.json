@@ -1,0 +1,41 @@
+{
+  "id": "xy10-100",
+  "name": "Fairy Garden",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "Each Pokémon that has any Fairy Energy attached to it (both yours and your opponent's) has no Retreat Cost.",
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
+  ],
+  "set": {
+    "id": "xy10",
+    "name": "Fates Collide",
+    "series": "XY",
+    "printedTotal": 124,
+    "total": 129,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FCO",
+    "releaseDate": "2016/05/02",
+    "updatedAt": "2018/09/03 11:49:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy10/logo.png"
+    }
+  },
+  "number": "100",
+  "artist": "Ryo Ueda",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy10/100.png",
+    "large": "https://images.pokemontcg.io/xy10/100_hires.png"
+  }
+}

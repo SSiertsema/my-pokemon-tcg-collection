@@ -1,0 +1,71 @@
+{
+  "id": "dp5-22",
+  "name": "Infernape",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "46",
+  "hp": "110",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Monferno",
+  "attacks": [
+    {
+      "name": "Mach Punch",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Mega Bravo",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40×",
+      "text": "Discard all Fire Energy attached to Infernape. This attack does 40 damage times the amount of Fire Energy you discarded."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "+30"
+    }
+  ],
+  "set": {
+    "id": "dp5",
+    "name": "Majestic Dawn",
+    "series": "Diamond & Pearl",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MD",
+    "releaseDate": "2008/05/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp5/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp5/logo.png"
+    }
+  },
+  "number": "22",
+  "artist": "Daisuke Ito",
+  "rarity": "Rare",
+  "flavorText": "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+  "nationalPokedexNumbers": [
+    392
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp5/22.png",
+    "large": "https://images.pokemontcg.io/dp5/22_hires.png"
+  }
+}

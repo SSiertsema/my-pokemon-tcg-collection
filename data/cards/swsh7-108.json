@@ -1,0 +1,70 @@
+{
+  "id": "swsh7-108",
+  "name": "Shelgon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Bagon",
+  "evolvesTo": [
+    "Salamence"
+  ],
+  "attacks": [
+    {
+      "name": "Hard Roll",
+      "cost": [
+        "Fire",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon."
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh7",
+    "name": "Evolving Skies",
+    "series": "Sword & Shield",
+    "printedTotal": 203,
+    "total": 237,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVS",
+    "releaseDate": "2021/08/27",
+    "updatedAt": "2021/08/27 10:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh7/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh7/logo.png"
+    }
+  },
+  "number": "108",
+  "artist": "tetsuya koizumi",
+  "rarity": "Uncommon",
+  "flavorText": "Shelgon lives deep within caves. It stays shut up in its hard shell, dreaming of the day it will be able to fly.",
+  "nationalPokedexNumbers": [
+    372
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh7/108.png",
+    "large": "https://images.pokemontcg.io/swsh7/108_hires.png"
+  }
+}

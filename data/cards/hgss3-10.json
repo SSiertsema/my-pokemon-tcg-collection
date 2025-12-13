@@ -1,0 +1,81 @@
+{
+  "id": "hgss3-10",
+  "name": "Umbreon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Eevee",
+  "attacks": [
+    {
+      "name": "Moonlight Fang",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "During your opponent's next turn, prevent all effects, including damage, done to Umbreon by attacks from your opponent's Pokémon that has any Poké-Powers or Poké-Bodies."
+    },
+    {
+      "name": "Quick Blow",
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "Flip a coin. If heads, this attack does 30 damage plus 30 damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hgss3",
+    "name": "HS—Undaunted",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 90,
+    "total": 91,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UD",
+    "releaseDate": "2010/08/18",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss3/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss3/logo.png"
+    }
+  },
+  "number": "10",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare Holo",
+  "flavorText": "When agitated, this Pokémon protects itself by spraying poisonous sweat from its pores.",
+  "nationalPokedexNumbers": [
+    197
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss3/10.png",
+    "large": "https://images.pokemontcg.io/hgss3/10_hires.png"
+  }
+}

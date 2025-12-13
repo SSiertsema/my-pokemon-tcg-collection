@@ -1,0 +1,77 @@
+{
+  "id": "bw4-16",
+  "name": "Simisear",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Pansear",
+  "attacks": [
+    {
+      "name": "Collect",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Draw 3 cards."
+    },
+    {
+      "name": "Stadium Burn",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "If there is any Stadium card in play, this attack does 30 more damage and the Defending Pokémon is now Burned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw4",
+    "name": "Next Destinies",
+    "series": "Black & White",
+    "printedTotal": 99,
+    "total": 103,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "NXD",
+    "releaseDate": "2012/02/08",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw4/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw4/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "flavorText": "It loves sweets because they become energy for the fire burning inside its body.",
+  "nationalPokedexNumbers": [
+    514
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw4/16.png",
+    "large": "https://images.pokemontcg.io/bw4/16_hires.png"
+  }
+}

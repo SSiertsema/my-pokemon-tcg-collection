@@ -1,0 +1,74 @@
+{
+  "id": "ex3-3",
+  "name": "Crawdaunt",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Corphish",
+  "abilities": [
+    {
+      "name": "Power Pinchers",
+      "text": "As long as Crawdaunt is your Active Pokémon, when any of your Active Pokémon does damage to the Defending Pokémon, the attack does 10 more damage (before applying Weakness and Resistance).",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Guillotine",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex3",
+    "name": "Dragon",
+    "series": "EX",
+    "printedTotal": 97,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DR",
+    "releaseDate": "2003/11/24",
+    "updatedAt": "2023/02/16 05:47:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex3/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Hisao Nakamura",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    342
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex3/3.png",
+    "large": "https://images.pokemontcg.io/ex3/3_hires.png"
+  }
+}

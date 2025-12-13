@@ -1,0 +1,84 @@
+{
+  "id": "swsh9-34",
+  "name": "Snorunt",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Glalie",
+    "Froslass"
+  ],
+  "attacks": [
+    {
+      "name": "Ice Breath",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    },
+    {
+      "name": "Icy Snow",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh9",
+    "name": "Brilliant Stars",
+    "series": "Sword & Shield",
+    "printedTotal": 172,
+    "total": 186,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BRS",
+    "releaseDate": "2022/02/25",
+    "updatedAt": "2022/02/23 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh9/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh9/logo.png"
+    }
+  },
+  "number": "34",
+  "artist": "HYOGONOSUKE",
+  "rarity": "Common",
+  "flavorText": "It can only survive in cold areas. It bounces happily around, even in environments as cold as -150 degrees Fahrenheit.",
+  "nationalPokedexNumbers": [
+    361
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh9/34.png",
+    "large": "https://images.pokemontcg.io/swsh9/34_hires.png"
+  }
+}

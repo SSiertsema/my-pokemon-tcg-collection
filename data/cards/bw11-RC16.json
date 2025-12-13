@@ -1,0 +1,82 @@
+{
+  "id": "bw11-RC16",
+  "name": "Ursaring",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Teddiursa",
+  "attacks": [
+    {
+      "name": "Picnic Weather",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Put a Teddiursa from your discard pile onto your Bench. Then, attach an Energy card from your discard pile to that Pokémon."
+    },
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "50×",
+      "text": "Flip 3 coins. This attack does 50 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw11",
+    "name": "Legendary Treasures",
+    "series": "Black & White",
+    "printedTotal": 113,
+    "total": 140,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LTR",
+    "releaseDate": "2013/11/06",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw11/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw11/logo.png"
+    }
+  },
+  "number": "RC16",
+  "artist": "Sanosuke Sakuma",
+  "rarity": "Common",
+  "flavorText": "In its territory, it leaves scratches on trees that bear delicious berries or fruits.",
+  "nationalPokedexNumbers": [
+    217
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw11/RC16.png",
+    "large": "https://images.pokemontcg.io/bw11/RC16_hires.png"
+  }
+}

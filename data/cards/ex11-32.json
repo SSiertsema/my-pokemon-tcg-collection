@@ -1,0 +1,77 @@
+{
+  "id": "ex11-32",
+  "name": "Swellow",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Taillow",
+  "attacks": [
+    {
+      "name": "Steep Dive",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Swellow during your opponent's next turn. If tails, during your next turn, Swellow's Glide attack's base damage is 100."
+    },
+    {
+      "name": "Glide",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "ex11",
+    "name": "Delta Species",
+    "series": "EX",
+    "printedTotal": 113,
+    "total": 114,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DS",
+    "releaseDate": "2005/10/31",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex11/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex11/logo.png"
+    }
+  },
+  "number": "32",
+  "artist": "Atsuko Nishida",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    277
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex11/32.png",
+    "large": "https://images.pokemontcg.io/ex11/32_hires.png"
+  }
+}

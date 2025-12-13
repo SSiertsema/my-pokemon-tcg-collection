@@ -1,0 +1,38 @@
+{
+  "id": "ex11-99",
+  "name": "Master Ball",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Look at the top 7 cards from your deck. Choose a Basic Pokémon or Evolution card from those cards, show it to your opponent, and put it into your hand. Put the other 6 cards back on top of your deck. Shuffle your deck afterward."
+  ],
+  "set": {
+    "id": "ex11",
+    "name": "Delta Species",
+    "series": "EX",
+    "printedTotal": 113,
+    "total": 114,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DS",
+    "releaseDate": "2005/10/31",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex11/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex11/logo.png"
+    }
+  },
+  "number": "99",
+  "artist": "Keiji Kinebuchi",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex11/99.png",
+    "large": "https://images.pokemontcg.io/ex11/99_hires.png"
+  }
+}

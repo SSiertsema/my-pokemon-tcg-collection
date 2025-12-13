@@ -1,0 +1,75 @@
+{
+  "id": "sm5-46",
+  "name": "Shinx",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Luxio"
+  ],
+  "attacks": [
+    {
+      "name": "Charge",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Lightning Energy card and attach it to this Pokémon. Then, shuffle your deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "46",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "All of its fur dazzles if danger is sensed. It flees while the foe is momentarily blinded.",
+  "nationalPokedexNumbers": [
+    403
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/46.png",
+    "large": "https://images.pokemontcg.io/sm5/46_hires.png"
+  }
+}

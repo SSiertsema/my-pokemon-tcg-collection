@@ -1,0 +1,77 @@
+{
+  "id": "xy2-23",
+  "name": "Milotic",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Feebas",
+  "abilities": [
+    {
+      "name": "Energy Grace",
+      "text": "Once during your turn (before your attack) you may Knock Out this Pokémon. If you do, attach 3 basic Energy from your discard pile to 1 of your Pokémon (excluding Pokémon-EX).",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Waterfall",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy2",
+    "name": "Flashfire",
+    "series": "XY",
+    "printedTotal": 106,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLF",
+    "releaseDate": "2014/05/07",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy2/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy2/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare Holo",
+  "flavorText": "Milotic is breathtakingly beautiful. Those that see it are said to forget their combative spirits.",
+  "nationalPokedexNumbers": [
+    350
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Banned"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy2/23.png",
+    "large": "https://images.pokemontcg.io/xy2/23_hires.png"
+  }
+}

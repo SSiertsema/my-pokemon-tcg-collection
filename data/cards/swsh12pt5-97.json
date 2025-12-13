@@ -1,0 +1,85 @@
+{
+  "id": "swsh12pt5-97",
+  "name": "Zamazenta",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Metal"
+  ],
+  "abilities": [
+    {
+      "name": "Metal Shield",
+      "text": "If this Pokémon has any Energy attached, it takes 30 less damage from attacks (after applying Weakness and Resistance).",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Retaliate",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100+",
+      "text": "If any of your Pokémon were Knocked Out during your opponent's last turn, this attack does 120 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh12pt5",
+    "name": "Crown Zenith",
+    "series": "Sword & Shield",
+    "printedTotal": 159,
+    "total": 160,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRZ",
+    "releaseDate": "2023/01/20",
+    "updatedAt": "2023/01/19 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+    }
+  },
+  "number": "97",
+  "artist": "GIDORA",
+  "rarity": "Rare Holo",
+  "flavorText": "Its ability to deflect any attack led to it being known as the Fighting Master's Shield. It was feared and respected by all.",
+  "nationalPokedexNumbers": [
+    889
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12pt5/97.png",
+    "large": "https://images.pokemontcg.io/swsh12pt5/97_hires.png"
+  }
+}

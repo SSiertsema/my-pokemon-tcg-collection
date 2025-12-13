@@ -1,0 +1,79 @@
+{
+  "id": "dp4-80",
+  "name": "Mudkip",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "7",
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Marshtomp"
+  ],
+  "attacks": [
+    {
+      "name": "Mud Spatter",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Endeavor",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Flip 2 coins. This attack does 30 damage plus 20 more damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp4",
+    "name": "Great Encounters",
+    "series": "Diamond & Pearl",
+    "printedTotal": 106,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "GE",
+    "releaseDate": "2008/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp4/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp4/logo.png"
+    }
+  },
+  "number": "80",
+  "artist": "Emi Yoshida",
+  "rarity": "Common",
+  "flavorText": "To alert it, the fin on its head senses the flow of water. It has the strength to heft boulders.",
+  "nationalPokedexNumbers": [
+    258
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp4/80.png",
+    "large": "https://images.pokemontcg.io/dp4/80_hires.png"
+  }
+}

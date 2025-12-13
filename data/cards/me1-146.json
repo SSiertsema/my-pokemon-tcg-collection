@@ -1,0 +1,68 @@
+{
+  "id": "me1-146",
+  "name": "Marshadow",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "name": "Shadowy Side Kick",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60",
+      "text": "If your opponent's Pokémon is Knocked Out by damage from this attack, during your opponent's next turn, prevent all damage from and effects of attacks done to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "me1",
+    "name": "Mega Evolution",
+    "series": "Mega Evolution",
+    "printedTotal": 132,
+    "total": 188,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "MEG",
+    "releaseDate": "2025/09/26",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me1/symbol.png",
+      "logo": "https://images.pokemontcg.io/me1/logo.png"
+    }
+  },
+  "number": "146",
+  "rarity": "Illustration Rare",
+  "nationalPokedexNumbers": [
+    802
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me1/146.png",
+    "large": "https://images.pokemontcg.io/me1/146_hires.png"
+  }
+}

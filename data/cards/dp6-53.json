@@ -1,0 +1,79 @@
+{
+  "id": "dp6-53",
+  "name": "Drifblim",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "43",
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Drifloon",
+  "attacks": [
+    {
+      "name": "Expand",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "During your opponent's next turn, any damage done to Drifblim by attacks is reduced by 10 (after applying Weakness and Resistance)."
+    },
+    {
+      "name": "Whirlwind",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Colorless",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "dp6",
+    "name": "Legends Awakened",
+    "series": "Diamond & Pearl",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LA",
+    "releaseDate": "2008/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp6/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp6/logo.png"
+    }
+  },
+  "number": "53",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "flavorText": "It's drowzy in daytime, but flies off in the evening in big groups. No one knows where they go.",
+  "nationalPokedexNumbers": [
+    426
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp6/53.png",
+    "large": "https://images.pokemontcg.io/dp6/53_hires.png"
+  }
+}

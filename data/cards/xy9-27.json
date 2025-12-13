@@ -1,0 +1,75 @@
+{
+  "id": "xy9-27",
+  "name": "M Gyarados-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "MEGA",
+    "EX"
+  ],
+  "hp": "240",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Gyarados-EX",
+  "rules": [
+    "Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.",
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Blast Geyser",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "120+",
+      "text": "You may do 20 more damage for each Water Energy attached to this Pokémon. If you do, discard the top 2 cards of your deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy9",
+    "name": "BREAKpoint",
+    "series": "XY",
+    "printedTotal": 122,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKP",
+    "releaseDate": "2016/02/03",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy9/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy9/logo.png"
+    }
+  },
+  "number": "27",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    130
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy9/27.png",
+    "large": "https://images.pokemontcg.io/xy9/27_hires.png"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "ex7-26",
+  "name": "Quagsire",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Wooper",
+  "abilities": [
+    {
+      "name": "Saturation",
+      "text": "When you attach a Water Energy card from your hand to Quagsire, remove all Special Conditions and 2 damage counters from Quagsire.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hyper Pump",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20+",
+      "text": "Does 20 damage plus 20 more damage for each basic Energy card attached to Quagsire but not used to pay for this attack's Energy cost. You can't add more than 60 damage in this way."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex7",
+    "name": "Team Rocket Returns",
+    "series": "EX",
+    "printedTotal": 109,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TRR",
+    "releaseDate": "2004/11/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex7/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex7/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Miki Tanaka",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    195
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex7/26.png",
+    "large": "https://images.pokemontcg.io/ex7/26_hires.png"
+  }
+}

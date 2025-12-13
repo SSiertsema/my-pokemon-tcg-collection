@@ -1,0 +1,69 @@
+{
+  "id": "bw3-50",
+  "name": "Solosis",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "30",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Duosion"
+  ],
+  "attacks": [
+    {
+      "name": "Rollout",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw3",
+    "name": "Noble Victories",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "NVI",
+    "releaseDate": "2011/11/16",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw3/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw3/logo.png"
+    }
+  },
+  "number": "50",
+  "artist": "Atsuko Nishida",
+  "rarity": "Common",
+  "flavorText": "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+  "nationalPokedexNumbers": [
+    577
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw3/50.png",
+    "large": "https://images.pokemontcg.io/bw3/50_hires.png"
+  }
+}

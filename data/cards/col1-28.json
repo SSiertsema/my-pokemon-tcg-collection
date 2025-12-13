@@ -1,0 +1,81 @@
+{
+  "id": "col1-28",
+  "name": "Mismagius",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Misdreavus",
+  "attacks": [
+    {
+      "name": "Sleeping Spell",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+    },
+    {
+      "name": "Poltergeist",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30×",
+      "text": "Look at your opponent's hand. This attack does 30 damage times the number of Trainer, Supporter, and Stadium cards in your opponent's hand."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Colorless",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "col1",
+    "name": "Call of Legends",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CL",
+    "releaseDate": "2011/02/09",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/col1/symbol.png",
+      "logo": "https://images.pokemontcg.io/col1/logo.png"
+    }
+  },
+  "number": "28",
+  "artist": "Suwama Chiaki",
+  "rarity": "Rare",
+  "flavorText": "Its cries sound like incantations to torment the foe. It appears where you least expect it.",
+  "nationalPokedexNumbers": [
+    429
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/col1/28.png",
+    "large": "https://images.pokemontcg.io/col1/28_hires.png"
+  }
+}

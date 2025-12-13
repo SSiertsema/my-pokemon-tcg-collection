@@ -1,0 +1,77 @@
+{
+  "id": "ex14-93",
+  "name": "Groudon ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "ex"
+  ],
+  "hp": "100",
+  "types": [
+    "Fighting"
+  ],
+  "rules": [
+    "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Hard Rock",
+      "text": "As long as Groudon ex has 1 Energy or less attached to it, damage done to any of your Groudon ex in play by attacks is reduced by 20 (after applying Weakness and Resistance). You can't use more than 1 Hard Rock Poké-Body each turn.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Power Blast",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": "Discard 2 Energy attached to Groudon ex."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex14",
+    "name": "Crystal Guardians",
+    "series": "EX",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CG",
+    "releaseDate": "2006/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex14/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex14/logo.png"
+    }
+  },
+  "number": "93",
+  "artist": "Takabon",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    383
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex14/93.png",
+    "large": "https://images.pokemontcg.io/ex14/93_hires.png"
+  }
+}

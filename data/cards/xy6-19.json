@@ -1,0 +1,87 @@
+{
+  "id": "xy6-19",
+  "name": "Pelipper",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Wingull",
+  "attacks": [
+    {
+      "name": "Swallow",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Heal from this Pokémon the same amount of damage you did to your opponent's Active Pokémon."
+    },
+    {
+      "name": "Water Pulse",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "70",
+      "text": "Your opponent's Active Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy6",
+    "name": "Roaring Skies",
+    "series": "XY",
+    "printedTotal": 108,
+    "total": 112,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ROS",
+    "releaseDate": "2015/05/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy6/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy6/logo.png"
+    }
+  },
+  "number": "19",
+  "artist": "Midori Harada",
+  "rarity": "Uncommon",
+  "flavorText": "It is a messenger of the skies, carrying small Pokémon and eggs to safety in its bill.",
+  "nationalPokedexNumbers": [
+    279
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy6/19.png",
+    "large": "https://images.pokemontcg.io/xy6/19_hires.png"
+  }
+}

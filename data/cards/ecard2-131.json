@@ -1,0 +1,39 @@
+{
+  "id": "ecard2-131",
+  "name": "Pokémon Park",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+    "Once during each of his or her turns, whenever a player attaches an Energy card from his or her hand to 1 of his or her Benched Pokémon, he or she removes 1 damage counter, if any, from that Pokémon."
+  ],
+  "set": {
+    "id": "ecard2",
+    "name": "Aquapolis",
+    "series": "E-Card",
+    "printedTotal": 147,
+    "total": 182,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AQ",
+    "releaseDate": "2003/01/15",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard2/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard2/logo.png"
+    }
+  },
+  "number": "131",
+  "artist": "Kazuo Yazawa",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard2/131.png",
+    "large": "https://images.pokemontcg.io/ecard2/131_hires.png"
+  }
+}

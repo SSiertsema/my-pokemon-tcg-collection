@@ -1,0 +1,75 @@
+{
+  "id": "sm5-42",
+  "name": "Manaphy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Deep Currents",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Shuffle 5 Water Energy cards from your discard pile into your deck."
+    },
+    {
+      "name": "Water Pulse",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Your opponent's Active Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "42",
+  "artist": "kawayoo",
+  "rarity": "Uncommon",
+  "flavorText": "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+  "nationalPokedexNumbers": [
+    490
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/42.png",
+    "large": "https://images.pokemontcg.io/sm5/42_hires.png"
+  }
+}

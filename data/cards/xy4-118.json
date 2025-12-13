@@ -1,0 +1,41 @@
+{
+  "id": "xy4-118",
+  "name": "Lysandre's Trump Card",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Each player shuffles all cards in his or her discard pile into his or her deck (except for Lysandre's Trump Card).",
+    "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "xy4",
+    "name": "Phantom Forces",
+    "series": "XY",
+    "printedTotal": 119,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PHF",
+    "releaseDate": "2014/11/05",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy4/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy4/logo.png"
+    }
+  },
+  "number": "118",
+  "artist": "Hitoshi Ariga",
+  "rarity": "Rare Ultra",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Banned"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy4/118.png",
+    "large": "https://images.pokemontcg.io/xy4/118_hires.png"
+  }
+}

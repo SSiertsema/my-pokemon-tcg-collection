@@ -1,0 +1,82 @@
+{
+  "id": "sm7-54",
+  "name": "Minun",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "attacks": [
+    {
+      "name": "Ditch and Draw",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "You may discard any number of cards from your hand. Then, draw cards until you have 5 cards in your hand."
+    },
+    {
+      "name": "Electro Ball",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm7",
+    "name": "Celestial Storm",
+    "series": "Sun & Moon",
+    "printedTotal": 168,
+    "total": 187,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CES",
+    "releaseDate": "2018/08/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm7/logo.png"
+    }
+  },
+  "number": "54",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Uncommon",
+  "flavorText": "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
+  "nationalPokedexNumbers": [
+    312
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm7/54.png",
+    "large": "https://images.pokemontcg.io/sm7/54_hires.png"
+  }
+}

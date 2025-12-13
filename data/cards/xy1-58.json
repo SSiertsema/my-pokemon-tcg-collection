@@ -1,0 +1,79 @@
+{
+  "id": "xy1-58",
+  "name": "Diglett",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Dugtrio"
+  ],
+  "attacks": [
+    {
+      "name": "Mine",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Look at the top card of your opponent's deck. Then, you may have your opponent shuffle his or her deck."
+    },
+    {
+      "name": "Mud-Slap",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy1",
+    "name": "XY",
+    "series": "XY",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "XY",
+    "releaseDate": "2014/02/05",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy1/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy1/logo.png"
+    }
+  },
+  "number": "58",
+  "artist": "Kanako Eo",
+  "rarity": "Common",
+  "flavorText": "Lives about one yard underground where it feeds on plant roots. It sometimes appears aboveground.",
+  "nationalPokedexNumbers": [
+    50
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy1/58.png",
+    "large": "https://images.pokemontcg.io/xy1/58_hires.png"
+  }
+}

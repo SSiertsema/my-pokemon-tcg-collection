@@ -1,0 +1,85 @@
+{
+  "id": "swsh7-204",
+  "name": "Leafeon VMAX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VMAX"
+  ],
+  "hp": "310",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Leafeon V",
+  "rules": [
+    "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Grass Knot",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60×",
+      "text": "This attack does 60 damage for each Colorless in your opponent's Active Pokémon's Retreat Cost."
+    },
+    {
+      "name": "Max Leaf",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "170",
+      "text": "Heal 30 damage from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh7",
+    "name": "Evolving Skies",
+    "series": "Sword & Shield",
+    "printedTotal": 203,
+    "total": 237,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVS",
+    "releaseDate": "2021/08/27",
+    "updatedAt": "2021/08/27 10:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh7/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh7/logo.png"
+    }
+  },
+  "number": "204",
+  "artist": "PLANETA Tsuji",
+  "rarity": "Rare Rainbow",
+  "nationalPokedexNumbers": [
+    470
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh7/204.png",
+    "large": "https://images.pokemontcg.io/swsh7/204_hires.png"
+  }
+}

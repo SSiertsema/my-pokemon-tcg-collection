@@ -1,0 +1,75 @@
+{
+  "id": "ex10-73",
+  "name": "Slugma",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Magcargo"
+  ],
+  "attacks": [
+    {
+      "name": "Yawn",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Asleep."
+    },
+    {
+      "name": "Headbutt",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex10",
+    "name": "Unseen Forces",
+    "series": "EX",
+    "printedTotal": 115,
+    "total": 145,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UF",
+    "releaseDate": "2005/08/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex10/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex10/logo.png"
+    }
+  },
+  "number": "73",
+  "artist": "Tomokazu Komiya",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    218
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex10/73.png",
+    "large": "https://images.pokemontcg.io/ex10/73_hires.png"
+  }
+}

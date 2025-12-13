@@ -1,0 +1,76 @@
+{
+  "id": "base6-57",
+  "name": "Omanyte",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "19",
+  "hp": "40",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Mysterious Fossil",
+  "evolvesTo": [
+    "Omastar"
+  ],
+  "abilities": [
+    {
+      "name": "Clairvoyance",
+      "text": "Your opponent plays with his or her hand face up. This power stops working while Omanyte is affected by a Special Condition.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Water Gun",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "Does 10 damage plus 10 more damage for each Water Energy attached to Omanyte but not used to pay for this attack's Energy cost. You can't add more than 20 damage in this way."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base6",
+    "name": "Legendary Collection",
+    "series": "Other",
+    "printedTotal": 110,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LC",
+    "releaseDate": "2002/05/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base6/symbol.png",
+      "logo": "https://images.pokemontcg.io/base6/logo.png"
+    }
+  },
+  "number": "57",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "flavorText": "Although long extinct, in rare cases, it can be genetically resurrected from fossils.",
+  "nationalPokedexNumbers": [
+    138
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base6/57.png",
+    "large": "https://images.pokemontcg.io/base6/57_hires.png"
+  }
+}

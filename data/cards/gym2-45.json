@@ -1,0 +1,71 @@
+{
+  "id": "gym2-45",
+  "name": "Giovanni's Nidorino",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "32",
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Giovanni's Nidoran ♂",
+  "evolvesTo": [
+    "Nidoking"
+  ],
+  "attacks": [
+    {
+      "name": "Rend",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20+",
+      "text": "If the Defending Pokémon already has any damage counters on it, this attack does 20 damage plus 20 more damage. If not, this attack does 20 damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "gym2",
+    "name": "Gym Challenge",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G2",
+    "releaseDate": "2000/10/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym2/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym2/logo.png"
+    }
+  },
+  "number": "45",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    33
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym2/45.png",
+    "large": "https://images.pokemontcg.io/gym2/45_hires.png"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pl4-26",
+  "name": "Porygon-Z G",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "SP"
+  ],
+  "level": "56",
+  "hp": "80",
+  "types": [
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Dowsing Code",
+      "text": "Once during your turn, when you put Porygon-Z G from your hand onto your Bench, you may search your discard pile for up to 2 Pokémon Tool cards, show them to your opponent, and shuffle them into your deck.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Ambush",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20+",
+      "text": "Flip a coin. If heads, this attack does 20 damage plus 40 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl4",
+    "name": "Arceus",
+    "series": "Platinum",
+    "printedTotal": 99,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AR",
+    "releaseDate": "2009/11/04",
+    "updatedAt": "2021/07/15 11:30:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl4/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl4/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Nobuyuki Fujimoto",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    474
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl4/26.png",
+    "large": "https://images.pokemontcg.io/pl4/26_hires.png"
+  }
+}

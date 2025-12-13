@@ -1,0 +1,80 @@
+{
+  "id": "ecard2-60",
+  "name": "Skiploom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Hoppip",
+  "evolvesTo": [
+    "Jumpluff"
+  ],
+  "abilities": [
+    {
+      "name": "Lightweight",
+      "text": "You pay Colorless less to retreat Skiploom for each Grass Energy attached to it.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Break Powder",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "Flip a coin. If heads, this attack does 10 damage plus 20 more damage. If tails, this attack does 10 damage and the Defending Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ecard2",
+    "name": "Aquapolis",
+    "series": "E-Card",
+    "printedTotal": 147,
+    "total": 182,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AQ",
+    "releaseDate": "2003/01/15",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard2/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard2/logo.png"
+    }
+  },
+  "number": "60",
+  "artist": "Yuka Morii",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    188
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard2/60.png",
+    "large": "https://images.pokemontcg.io/ecard2/60_hires.png"
+  }
+}

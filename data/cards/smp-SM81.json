@@ -1,0 +1,86 @@
+{
+  "id": "smp-SM81",
+  "name": "Pikachu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Raichu"
+  ],
+  "attacks": [
+    {
+      "name": "Thunder Wave",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    },
+    {
+      "name": "Electro Ball",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "smp",
+    "name": "SM Black Star Promos",
+    "series": "Sun & Moon",
+    "printedTotal": 248,
+    "total": 250,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/smp/symbol.png",
+      "logo": "https://images.pokemontcg.io/smp/logo.png"
+    }
+  },
+  "number": "SM81",
+  "artist": "Sanosuke Sakuma",
+  "rarity": "Promo",
+  "flavorText": "A plan was recently announced to gather many Pikachu and make an electric power plant.",
+  "nationalPokedexNumbers": [
+    25
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/smp/SM81.png",
+    "large": "https://images.pokemontcg.io/smp/SM81_hires.png"
+  }
+}

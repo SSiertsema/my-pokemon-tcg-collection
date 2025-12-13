@@ -1,0 +1,83 @@
+{
+  "id": "rsv10pt5-13",
+  "name": "Emboar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "180",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Pignite",
+  "abilities": [
+    {
+      "name": "Inferno Fandango",
+      "text": "As often as you like during your turn, you may attach a Basic Fire Energy card from your hand to 1 of your Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Heat Crash",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "120",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "rsv10pt5",
+    "name": "White Flare",
+    "series": "Scarlet & Violet",
+    "printedTotal": 86,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "WHT",
+    "releaseDate": "2025/07/18",
+    "updatedAt": "2025/07/17 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/rsv10pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/rsv10pt5/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "Teeziro",
+  "rarity": "Rare",
+  "flavorText": "It can throw a fire punch by setting its fists on fire with its fiery chin. It cares deeply about its friends.",
+  "nationalPokedexNumbers": [
+    500
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/rsv10pt5/13.png",
+    "large": "https://images.pokemontcg.io/rsv10pt5/13_hires.png"
+  }
+}

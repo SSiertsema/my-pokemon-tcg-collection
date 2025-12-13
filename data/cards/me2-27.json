@@ -1,0 +1,82 @@
+{
+  "id": "me2-27",
+  "name": "Piplup",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Prinplup"
+  ],
+  "attacks": [
+    {
+      "name": "Call for Support",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Supporter card, reveal it, and put it into your hand. Then, shuffle your deck."
+    },
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "me2",
+    "name": "Phantasmal Flames",
+    "series": "Mega Evolution",
+    "printedTotal": 94,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PFL",
+    "releaseDate": "2025/11/14",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+      "logo": "https://images.pokemontcg.io/me2/logo.png"
+    }
+  },
+  "number": "27",
+  "artist": "Hideki Ishikawa",
+  "rarity": "Common",
+  "flavorText": "A poor walker, it often falls down. However, its strong pride makes it puff up its chest without a care.",
+  "nationalPokedexNumbers": [
+    393
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me2/27.png",
+    "large": "https://images.pokemontcg.io/me2/27_hires.png"
+  }
+}

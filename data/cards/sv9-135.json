@@ -1,0 +1,74 @@
+{
+  "id": "sv9-135",
+  "name": "Hop's Wooloo",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Dubwool"
+  ],
+  "attacks": [
+    {
+      "name": "Smash Kick",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv9",
+    "name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "printedTotal": 159,
+    "total": 190,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "JTG",
+    "releaseDate": "2025/03/28",
+    "updatedAt": "2025/03/27 16:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv9/logo.png"
+    }
+  },
+  "number": "135",
+  "artist": "Tomomi Ozaki",
+  "rarity": "Common",
+  "flavorText": "If its fleece grows too long, Wooloo won't be able to move. Cloth made with the wool of this Pokémon is surprisingly strong.",
+  "nationalPokedexNumbers": [
+    831
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv9/135.png",
+    "large": "https://images.pokemontcg.io/sv9/135_hires.png"
+  }
+}

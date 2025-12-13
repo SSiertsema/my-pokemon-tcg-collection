@@ -1,0 +1,76 @@
+{
+  "id": "hgss2-90",
+  "name": "Entei & Raikou LEGEND",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "LEGEND"
+  ],
+  "hp": "140",
+  "types": [
+    "Fire",
+    "Lightning"
+  ],
+  "rules": [
+    "Put this card from your hand onto your Bench only with the other half of Entei & Raikou LEGEND.",
+    "When this Pokémon has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Detonation Spin",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "90",
+      "text": "Discard a Fire Energy attached to Entei & Raikou LEGEND."
+    },
+    {
+      "name": "Thunder Fall",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Discard all Energy attached to Entei & Raikou LEGEND. This attack does 80 damage to each Pokémon that has any Poké-Powers (both yours and your opponent's). This attack's damage isn't affected by Weakness or Resistance."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "hgss2",
+    "name": "HS—Unleashed",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 96,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UL",
+    "releaseDate": "2010/05/12",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss2/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss2/logo.png"
+    }
+  },
+  "number": "90",
+  "artist": "Shinji Higuchi + Sachiko Eba",
+  "rarity": "LEGEND",
+  "nationalPokedexNumbers": [
+    243,
+    244
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss2/90.png",
+    "large": "https://images.pokemontcg.io/hgss2/90_hires.png"
+  }
+}

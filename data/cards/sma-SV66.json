@@ -1,0 +1,89 @@
+{
+  "id": "sma-SV66",
+  "name": "Lycanroc-GX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "GX"
+  ],
+  "hp": "200",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Rockruff",
+  "rules": [
+    "Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Bloodthirsty Eyes",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may switch 1 of your opponent's Benched Pokémon with their Active Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Claw Slash",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "110",
+      "text": ""
+    },
+    {
+      "name": "Dangerous Rogue-GX",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50×",
+      "text": "This attack does 50 damage for each of your opponent's Benched Pokémon. (You can't use more than 1 GX attack in a game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sma",
+    "name": "Hidden Fates Shiny Vault",
+    "series": "Sun & Moon",
+    "printedTotal": 94,
+    "total": 94,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2019/08/23",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sma/symbol.png",
+      "logo": "https://images.pokemontcg.io/sma/logo.png"
+    }
+  },
+  "number": "SV66",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Shiny GX",
+  "nationalPokedexNumbers": [
+    745
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sma/SV66.png",
+    "large": "https://images.pokemontcg.io/sma/SV66_hires.png"
+  }
+}

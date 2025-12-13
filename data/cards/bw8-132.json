@@ -1,0 +1,90 @@
+{
+  "id": "bw8-132",
+  "name": "Articuno-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "EX",
+    "Team Plasma"
+  ],
+  "hp": "170",
+  "types": [
+    "Water"
+  ],
+  "rules": [
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Blizzard",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Frost Prison",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": "If this Pokémon has any Plasma Energy attached to it, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw8",
+    "name": "Plasma Storm",
+    "series": "Black & White",
+    "printedTotal": 135,
+    "total": 138,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLS",
+    "releaseDate": "2013/02/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw8/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw8/logo.png"
+    }
+  },
+  "number": "132",
+  "artist": "Toyste Beach",
+  "rarity": "Rare Ultra",
+  "nationalPokedexNumbers": [
+    144
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw8/132.png",
+    "large": "https://images.pokemontcg.io/bw8/132_hires.png"
+  }
+}

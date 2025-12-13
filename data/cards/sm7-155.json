@@ -1,0 +1,94 @@
+{
+  "id": "sm7-155",
+  "name": "Electrode-GX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "GX"
+  ],
+  "hp": "190",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Voltorb",
+  "rules": [
+    "Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Extra Energy Bomb",
+      "text": "Once during your turn (before your attack), you may attach 5 Energy cards from your discard pile to your Pokémon, except Pokémon-GX or Pokémon-EX, in any way you like. If you do, this Pokémon is Knocked Out.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Electro Ball",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": ""
+    },
+    {
+      "name": "Crush and Burn-GX",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "Discard any amount of Energy from your Pokémon. This attack does 50 more damage for each card you discarded in this way. (You can't use more than 1 GX attack in a game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm7",
+    "name": "Celestial Storm",
+    "series": "Sun & Moon",
+    "printedTotal": 168,
+    "total": 187,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CES",
+    "releaseDate": "2018/08/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm7/logo.png"
+    }
+  },
+  "number": "155",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Ultra",
+  "nationalPokedexNumbers": [
+    101
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm7/155.png",
+    "large": "https://images.pokemontcg.io/sm7/155_hires.png"
+  }
+}

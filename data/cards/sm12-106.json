@@ -1,0 +1,83 @@
+{
+  "id": "sm12-106",
+  "name": "Nosepass",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Probopass"
+  ],
+  "attacks": [
+    {
+      "name": "Draw Toward",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon."
+    },
+    {
+      "name": "Zap Cannon",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "This Pokémon can't use Zap Cannon during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "106",
+  "artist": "Anesaki Dynamic",
+  "rarity": "Common",
+  "flavorText": "It moves less than an inch a year, but when it's in a jam, it will spin and drill down into the ground in a split second.",
+  "nationalPokedexNumbers": [
+    299
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/106.png",
+    "large": "https://images.pokemontcg.io/sm12/106_hires.png"
+  }
+}

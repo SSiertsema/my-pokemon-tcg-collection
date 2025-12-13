@@ -1,0 +1,72 @@
+{
+  "id": "sv4-188",
+  "name": "Snorunt",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Glalie",
+    "Froslass"
+  ],
+  "attacks": [
+    {
+      "name": "Ice Shard",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "If your opponent's Active Pokémon is a Fighting Pokémon, this attack does 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 266,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/11/03",
+    "updatedAt": "2023/11/03 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4/logo.png"
+    }
+  },
+  "number": "188",
+  "artist": "Narumi Sato",
+  "rarity": "Illustration Rare",
+  "flavorText": "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+  "nationalPokedexNumbers": [
+    361
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4/188.png",
+    "large": "https://images.pokemontcg.io/sv4/188_hires.png"
+  }
+}

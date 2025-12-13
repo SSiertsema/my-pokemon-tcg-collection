@@ -1,0 +1,90 @@
+{
+  "id": "sm5-62",
+  "name": "Lunala ◇",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Prism Star"
+  ],
+  "hp": "160",
+  "types": [
+    "Psychic"
+  ],
+  "rules": [
+    "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+  ],
+  "attacks": [
+    {
+      "name": "Full Moon Star",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "For each of your opponent's Pokémon in play, attach a Psychic Energy card from your discard pile to your Pokémon in any way you like."
+    },
+    {
+      "name": "Psystorm",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "20×",
+      "text": "This attack does 20 damage times the amount of Energy attached to all Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "Hitoshi Ariga",
+  "rarity": "Rare Prism Star",
+  "flavorText": "Said to live in another world, this Pokémon devours light, drawing the moonless dark veil of night over the brightness of day.",
+  "nationalPokedexNumbers": [
+    792
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/62.png",
+    "large": "https://images.pokemontcg.io/sm5/62_hires.png"
+  }
+}

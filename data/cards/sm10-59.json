@@ -1,0 +1,84 @@
+{
+  "id": "sm10-59",
+  "name": "Vikavolt",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "150",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Charjabug",
+  "abilities": [
+    {
+      "name": "Stealthy Body",
+      "text": "If there is any Stadium card in play, this Pokémon has no Weakness.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Electricannon",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "120+",
+      "text": "You may discard all Lightning Energy from this Pokémon. If you do, this attack does 100 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm10",
+    "name": "Unbroken Bonds",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 234,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNB",
+    "releaseDate": "2019/05/03",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm10/logo.png"
+    }
+  },
+  "number": "59",
+  "artist": "Hasuno",
+  "rarity": "Rare Holo",
+  "flavorText": "It has an organ that generates electricity in its abdomen. It concentrates energy in its strong jaws and fires off powerful jolts of electricity.",
+  "nationalPokedexNumbers": [
+    738
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm10/59.png",
+    "large": "https://images.pokemontcg.io/sm10/59_hires.png"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "bw1-35",
+  "name": "Basculin",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Crunch",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw1",
+    "name": "Black & White",
+    "series": "Black & White",
+    "printedTotal": 114,
+    "total": 115,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BLW",
+    "releaseDate": "2011/04/25",
+    "updatedAt": "2018/11/29 19:56:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw1/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw1/logo.png"
+    }
+  },
+  "number": "35",
+  "artist": "Naoyo Kimura",
+  "rarity": "Uncommon",
+  "flavorText": "Red and blue Basculin get along so poorly, they'll start fighting instantly. These Pokémon are very hostile.",
+  "nationalPokedexNumbers": [
+    550
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw1/35.png",
+    "large": "https://images.pokemontcg.io/bw1/35_hires.png"
+  }
+}

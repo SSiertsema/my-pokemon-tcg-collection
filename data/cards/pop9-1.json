@@ -1,0 +1,72 @@
+{
+  "id": "pop9-1",
+  "name": "Garchomp",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "64",
+  "hp": "130",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Gabite",
+  "attacks": [
+    {
+      "name": "Dragon Rage",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "80",
+      "text": "Flip 2 coins. If either of them is tails, this attack does nothing."
+    },
+    {
+      "name": "Jet Sword",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": "Discard 2 Energy attached to Garchomp and this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Colorless",
+      "value": "+30"
+    }
+  ],
+  "set": {
+    "id": "pop9",
+    "name": "POP Series 9",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2009/03/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop9/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop9/logo.png"
+    }
+  },
+  "number": "1",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "It flies at speeds equal to a jet fighter plane. It never allows its prey to escape.",
+  "nationalPokedexNumbers": [
+    445
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop9/1.png",
+    "large": "https://images.pokemontcg.io/pop9/1_hires.png"
+  }
+}

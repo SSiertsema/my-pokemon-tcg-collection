@@ -1,0 +1,73 @@
+{
+  "id": "gym2-93",
+  "name": "Sabrina's Abra",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "12",
+  "hp": "40",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Kadabra"
+  ],
+  "attacks": [
+    {
+      "name": "Pound",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Synchronize",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "This attack can't be used unless Sabrina's Abra and the Defending Pokémon have the same number of Energy cards attached to them."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "gym2",
+    "name": "Gym Challenge",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G2",
+    "releaseDate": "2000/10/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym2/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym2/logo.png"
+    }
+  },
+  "number": "93",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    63
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym2/93.png",
+    "large": "https://images.pokemontcg.io/gym2/93_hires.png"
+  }
+}

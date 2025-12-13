@@ -1,0 +1,75 @@
+{
+  "id": "ex10-71",
+  "name": "Remoraid",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Octillery"
+  ],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Shuffle your deck afterward."
+    },
+    {
+      "name": "Splash",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex10",
+    "name": "Unseen Forces",
+    "series": "EX",
+    "printedTotal": 115,
+    "total": 145,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UF",
+    "releaseDate": "2005/08/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex10/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex10/logo.png"
+    }
+  },
+  "number": "71",
+  "artist": "Sachiko Adachi",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    223
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex10/71.png",
+    "large": "https://images.pokemontcg.io/ex10/71_hires.png"
+  }
+}

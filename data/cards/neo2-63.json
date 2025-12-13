@@ -1,0 +1,84 @@
+{
+  "id": "neo2-63",
+  "name": "Sentret",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "18",
+  "hp": "50",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Furret"
+  ],
+  "attacks": [
+    {
+      "name": "Scout",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Look at your opponent's hand."
+    },
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo2",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "printedTotal": 75,
+    "total": 75,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N2",
+    "releaseDate": "2001/06/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo2/logo.png"
+    }
+  },
+  "number": "63",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Common",
+  "flavorText": "It stands on its tail so it can see a long way. If it spots an enemy, it cries loudly to warn its kind.",
+  "nationalPokedexNumbers": [
+    161
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo2/63.png",
+    "large": "https://images.pokemontcg.io/neo2/63_hires.png"
+  }
+}

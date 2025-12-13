@@ -1,0 +1,92 @@
+{
+  "id": "sv2-238",
+  "name": "Slowking ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Tera",
+    "ex"
+  ],
+  "hp": "270",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Slowpoke",
+  "rules": [
+    "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Psychic"
+      ],
+      "name": "Profound Knowledge",
+      "damage": "30",
+      "text": "Your opponent's Active Pokémon is now Confused.",
+      "convertedEnergyCost": 1
+    },
+    {
+      "cost": [
+        "Psychic",
+        "Psychic"
+      ],
+      "name": "Wise Headbutt",
+      "damage": "130",
+      "text": "You may search your deck for up to 2 cards and put them into your hand. Then, shuffle your deck.",
+      "convertedEnergyCost": 2
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    }
+  },
+  "number": "238",
+  "artist": "5ban Graphics",
+  "rarity": "Ultra Rare",
+  "nationalPokedexNumbers": [
+    199
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv2/238.png",
+    "large": "https://images.pokemontcg.io/sv2/238_hires.png"
+  }
+}

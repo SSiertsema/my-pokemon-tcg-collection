@@ -1,0 +1,95 @@
+{
+  "id": "smp-SM196",
+  "name": "Mewtwo-GX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "GX"
+  ],
+  "hp": "190",
+  "types": [
+    "Psychic"
+  ],
+  "rules": [
+    "Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Telekinesis",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "This attack does 50 damage to 1 of your opponent's Pokémon. This damage isn't affected by Weakness or Resistance."
+    },
+    {
+      "name": "Reigning Pulse",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "120",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    },
+    {
+      "name": "Psychic Nova-GX",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "180",
+      "text": "Prevent all damage done to this Pokémon by attacks during your opponent's next turn. (You can't use more than 1 GX attack in a game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "smp",
+    "name": "SM Black Star Promos",
+    "series": "Sun & Moon",
+    "printedTotal": 248,
+    "total": 250,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/smp/symbol.png",
+      "logo": "https://images.pokemontcg.io/smp/logo.png"
+    }
+  },
+  "number": "SM196",
+  "artist": "MPC Film",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    150
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/smp/SM196.png",
+    "large": "https://images.pokemontcg.io/smp/SM196_hires.png"
+  }
+}

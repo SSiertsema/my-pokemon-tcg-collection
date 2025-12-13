@@ -1,0 +1,77 @@
+{
+  "id": "bwp-BW69",
+  "name": "Meloetta",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "name": "Smack",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Acrobatics",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40+",
+      "text": "Flip 2 coins. This attack does 20 more damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bwp",
+    "name": "BW Black Star Promos",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-BLW",
+    "releaseDate": "2011/03/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bwp/symbol.png",
+      "logo": "https://images.pokemontcg.io/bwp/logo.png"
+    }
+  },
+  "number": "BW69",
+  "artist": "Shin Nagasawa",
+  "rarity": "Promo",
+  "flavorText": "Many famous songs have been inspired by the melodies that Meloetta plays.",
+  "nationalPokedexNumbers": [
+    648
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bwp/BW69.png",
+    "large": "https://images.pokemontcg.io/bwp/BW69_hires.png"
+  }
+}

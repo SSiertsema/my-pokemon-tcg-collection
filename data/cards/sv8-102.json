@@ -1,0 +1,71 @@
+{
+  "id": "sv8-102",
+  "name": "Phanpy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Donphan"
+  ],
+  "attacks": [
+    {
+      "name": "Headbutt",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv8",
+    "name": "Surging Sparks",
+    "series": "Scarlet & Violet",
+    "printedTotal": 191,
+    "total": 252,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SSP",
+    "releaseDate": "2024/11/08",
+    "updatedAt": "2024/11/07 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv8/logo.png"
+    }
+  },
+  "number": "102",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    231
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv8/102.png",
+    "large": "https://images.pokemontcg.io/sv8/102_hires.png"
+  }
+}

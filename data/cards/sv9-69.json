@@ -1,0 +1,90 @@
+{
+  "id": "sv9-69",
+  "name": "Mimikyu ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "ex"
+  ],
+  "hp": "190",
+  "types": [
+    "Psychic"
+  ],
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Mischievous Hands",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Choose 2 of your opponent's Pokémon and put 3 damage counters on each of them."
+    },
+    {
+      "name": "Ghostly Trip",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv9",
+    "name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "printedTotal": 159,
+    "total": 190,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "JTG",
+    "releaseDate": "2025/03/28",
+    "updatedAt": "2025/03/27 16:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv9/logo.png"
+    }
+  },
+  "number": "69",
+  "artist": "PLANETA Igarashi",
+  "rarity": "Double Rare",
+  "nationalPokedexNumbers": [
+    778
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv9/69.png",
+    "large": "https://images.pokemontcg.io/sv9/69_hires.png"
+  }
+}

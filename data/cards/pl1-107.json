@@ -1,0 +1,38 @@
+{
+  "id": "pl1-107",
+  "name": "Level Max",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Flip a coin. If heads, search your deck for a Pokémon LV.X that levels up from 1 of your Pokémon, and put it onto that Pokémon. (This counts as leveling up that Pokémon.) Shuffle your deck afterward."
+  ],
+  "set": {
+    "id": "pl1",
+    "name": "Platinum",
+    "series": "Platinum",
+    "printedTotal": 127,
+    "total": 133,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PL",
+    "releaseDate": "2009/02/11",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl1/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl1/logo.png"
+    }
+  },
+  "number": "107",
+  "artist": "Ryo Ueda",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl1/107.png",
+    "large": "https://images.pokemontcg.io/pl1/107_hires.png"
+  }
+}

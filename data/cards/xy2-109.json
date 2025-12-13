@@ -1,0 +1,75 @@
+{
+  "id": "xy2-109",
+  "name": "M Kangaskhan-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "MEGA",
+    "EX"
+  ],
+  "hp": "230",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Kangaskhan-EX",
+  "rules": [
+    "Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.",
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Wham Bam Punch",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100+",
+      "text": "Flip a coin until you get tails. This attack does 30 more damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy2",
+    "name": "Flashfire",
+    "series": "XY",
+    "printedTotal": 106,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLF",
+    "releaseDate": "2014/05/07",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy2/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy2/logo.png"
+    }
+  },
+  "number": "109",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Secret",
+  "nationalPokedexNumbers": [
+    115
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy2/109.png",
+    "large": "https://images.pokemontcg.io/xy2/109_hires.png"
+  }
+}

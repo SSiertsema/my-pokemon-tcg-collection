@@ -1,0 +1,81 @@
+{
+  "id": "swsh6-19",
+  "name": "Zarude",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "name": "Pack Call",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Grass Pokémon, reveal it, and put it into your hand. If you go second and it's your first turn, search for up to 3 Grass Pokémon instead of 1. Then, shuffle your deck."
+    },
+    {
+      "name": "Repeated Whip",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "This attack does 20 more damage for each Grass Energy attached to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "19",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare Holo",
+  "flavorText": "Once the vines on Zarude's body tear off, they become nutrients in the soil. This helps the plants of the forest grow.",
+  "nationalPokedexNumbers": [
+    893
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/19.png",
+    "large": "https://images.pokemontcg.io/swsh6/19_hires.png"
+  }
+}

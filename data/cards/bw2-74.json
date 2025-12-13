@@ -1,0 +1,86 @@
+{
+  "id": "bw2-74",
+  "name": "Klink",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Metal"
+  ],
+  "evolvesTo": [
+    "Klang"
+  ],
+  "attacks": [
+    {
+      "name": "Spinning Attack",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Gear Grind",
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30×",
+      "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw2",
+    "name": "Emerging Powers",
+    "series": "Black & White",
+    "printedTotal": 98,
+    "total": 98,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EPO",
+    "releaseDate": "2011/08/31",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw2/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw2/logo.png"
+    }
+  },
+  "number": "74",
+  "artist": "Kouki Saitou",
+  "rarity": "Common",
+  "flavorText": "Interlocking two bodies and spinning around generates the energy they need to live.",
+  "nationalPokedexNumbers": [
+    599
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw2/74.png",
+    "large": "https://images.pokemontcg.io/bw2/74_hires.png"
+  }
+}

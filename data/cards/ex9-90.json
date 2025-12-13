@@ -1,0 +1,80 @@
+{
+  "id": "ex9-90",
+  "name": "Altaria ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "ex"
+  ],
+  "hp": "100",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Swablu",
+  "rules": [
+    "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Mist",
+      "text": "Any damage done to Altaria ex by attacks from Stage 2 Evolved Pokémon (both yours and your opponent's) is reduced by 30 (after applying Weakness and Resistance).",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Dive",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Dragon Mist",
+      "cost": [
+        "Water",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "This attack's damage isn't affected by Resistance, Poké-Powers, Poké-Bodies, or any other effects on the Defending Pokémon."
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex9",
+    "name": "Emerald",
+    "series": "EX",
+    "printedTotal": 106,
+    "total": 107,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "EM",
+    "releaseDate": "2005/05/01",
+    "updatedAt": "2020/02/08 09:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex9/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex9/logo.png"
+    }
+  },
+  "number": "90",
+  "artist": "Ryo Ueda",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    334
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex9/90.png",
+    "large": "https://images.pokemontcg.io/ex9/90_hires.png"
+  }
+}

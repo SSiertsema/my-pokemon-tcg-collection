@@ -1,0 +1,78 @@
+{
+  "id": "hgss2-14",
+  "name": "Crobat",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "110",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Golbat",
+  "attacks": [
+    {
+      "name": "Supersonic",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "The Defending Pokémon is now Confused."
+    },
+    {
+      "name": "Hurricane Wing",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30×",
+      "text": "Flip 4 coins. This attack does 30 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "hgss2",
+    "name": "HS—Unleashed",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 96,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UL",
+    "releaseDate": "2010/05/12",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss2/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss2/logo.png"
+    }
+  },
+  "number": "14",
+  "artist": "kawayoo",
+  "rarity": "Rare",
+  "flavorText": "The development of wings on its legs enables it to fly fast but also makes it tough to stop and rest.",
+  "nationalPokedexNumbers": [
+    169
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss2/14.png",
+    "large": "https://images.pokemontcg.io/hgss2/14_hires.png"
+  }
+}

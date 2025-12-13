@@ -1,0 +1,68 @@
+{
+  "id": "dp1-41",
+  "name": "Wobbuffet",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "25",
+  "hp": "80",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Countercharge",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Flip a coin. If heads, move all damage counters from Wobbuffet to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dp1",
+    "name": "Diamond & Pearl",
+    "series": "Diamond & Pearl",
+    "printedTotal": 130,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DP",
+    "releaseDate": "2007/05/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp1/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp1/logo.png"
+    }
+  },
+  "number": "41",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "flavorText": "It desperately tries to keep its black tail hidden. It is said to be proof the tail hides a secret.",
+  "nationalPokedexNumbers": [
+    202
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp1/41.png",
+    "large": "https://images.pokemontcg.io/dp1/41_hires.png"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "dp3-120",
+  "name": "Night Maintenance",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Search your discard pile for up to 3 in any combination of Pokémon and basic Energy cards. Show them to your opponent and shuffle them into your deck."
+  ],
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "120",
+  "artist": "Ryo Ueda",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/120.png",
+    "large": "https://images.pokemontcg.io/dp3/120_hires.png"
+  }
+}

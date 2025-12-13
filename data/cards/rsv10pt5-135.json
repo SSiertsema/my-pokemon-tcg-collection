@@ -1,0 +1,83 @@
+{
+  "id": "rsv10pt5-135",
+  "name": "Terrakion",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "140",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "name": "Retaliate",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50+",
+      "text": "If any of your Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 80 more damage."
+    },
+    {
+      "name": "Land Crush",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "rsv10pt5",
+    "name": "White Flare",
+    "series": "Scarlet & Violet",
+    "printedTotal": 86,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "WHT",
+    "releaseDate": "2025/07/18",
+    "updatedAt": "2025/07/17 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/rsv10pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/rsv10pt5/logo.png"
+    }
+  },
+  "number": "135",
+  "artist": "Shiburingaru",
+  "rarity": "Illustration Rare",
+  "flavorText": "This Pokémon came to the defense of Pokémon that had lost their homes in a war among humans.",
+  "nationalPokedexNumbers": [
+    639
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/rsv10pt5/135.png",
+    "large": "https://images.pokemontcg.io/rsv10pt5/135_hires.png"
+  }
+}

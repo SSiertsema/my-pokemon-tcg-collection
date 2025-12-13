@@ -1,0 +1,79 @@
+{
+  "id": "sm12-115",
+  "name": "Excadrill",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "140",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Drilbur",
+  "attacks": [
+    {
+      "name": "Eleventh Hour Tackle",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30+",
+      "text": "If there are 3 or fewer cards in your deck, this attack does 150 more damage."
+    },
+    {
+      "name": "Drill Bazooka",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "120",
+      "text": "Discard the top 4 cards of your deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "115",
+  "artist": "SATOSHI NAKAI",
+  "rarity": "Rare Holo",
+  "flavorText": "It can help in tunnel construction. Its drill has evolved into steel strong enough to bore through iron plates.",
+  "nationalPokedexNumbers": [
+    530
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/115.png",
+    "large": "https://images.pokemontcg.io/sm12/115_hires.png"
+  }
+}

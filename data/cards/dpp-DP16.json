@@ -1,0 +1,82 @@
+{
+  "id": "dpp-DP16",
+  "name": "Pikachu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "15",
+  "hp": "60",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Raichu"
+  ],
+  "abilities": [
+    {
+      "name": "Electro Recycle",
+      "text": "Once during your turn (before your attack), if Pichu is anywhere under Pikachu, you may search your discard pile for a Lightning Energy card, show it to your opponent, and put it into your hand. This power can't be used if Pikachu is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "BikaBika",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+10"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dpp",
+    "name": "DP Black Star Promos",
+    "series": "Diamond & Pearl",
+    "printedTotal": 56,
+    "total": 56,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-DPP",
+    "releaseDate": "2007/05/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dpp/symbol.png",
+      "logo": "https://images.pokemontcg.io/dpp/logo.png"
+    }
+  },
+  "number": "DP16",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Promo",
+  "flavorText": "It lives in forests with others. It stores electricity in the pouches on its cheeks.",
+  "nationalPokedexNumbers": [
+    25
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dpp/DP16.png",
+    "large": "https://images.pokemontcg.io/dpp/DP16_hires.png"
+  }
+}

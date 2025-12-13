@@ -1,0 +1,83 @@
+{
+  "id": "ex10-7",
+  "name": "Houndoom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Houndour",
+  "abilities": [
+    {
+      "name": "Lonesome",
+      "text": "As long as you have less Pokémon in play than your opponent, your opponent can't play any Trainer cards (except for Supporter cards) from his or her hand.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Tight Jaw",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    },
+    {
+      "name": "Flamethrower",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "Discard a Fire Energy attached to Houndoom."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex10",
+    "name": "Unseen Forces",
+    "series": "EX",
+    "printedTotal": 115,
+    "total": 145,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UF",
+    "releaseDate": "2005/08/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex10/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex10/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "Midori Harada",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    229
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex10/7.png",
+    "large": "https://images.pokemontcg.io/ex10/7_hires.png"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "swsh12pt5-151",
+  "name": "Volo",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Discard 1 of your Benched Pokémon V and all attached cards.",
+    "You may play only 1 Supporter card during your turn."
+  ],
+  "set": {
+    "id": "swsh12pt5",
+    "name": "Crown Zenith",
+    "series": "Sword & Shield",
+    "printedTotal": 159,
+    "total": 160,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRZ",
+    "releaseDate": "2023/01/20",
+    "updatedAt": "2023/01/19 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+    }
+  },
+  "number": "151",
+  "artist": "Souichirou Gunjima",
+  "rarity": "Rare Ultra",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12pt5/151.png",
+    "large": "https://images.pokemontcg.io/swsh12pt5/151_hires.png"
+  }
+}

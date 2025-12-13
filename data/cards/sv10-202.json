@@ -1,0 +1,70 @@
+{
+  "id": "sv10-202",
+  "name": "Team Rocket's Raticate",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Team Rocket's Rattata",
+  "attacks": [
+    {
+      "name": "Reckless Abandon",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "90",
+      "text": "Flip 2 coins. If both of them are tails, this Pokémon also does 90 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv10",
+    "name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 244,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRI",
+    "releaseDate": "2025/05/30",
+    "updatedAt": "2025/05/29 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv10/logo.png"
+    }
+  },
+  "number": "202",
+  "artist": "Mékayu",
+  "rarity": "Illustration Rare",
+  "flavorText": "Its whiskers are essential for maintaining its balance. No matter how friendly you are, it will get angry and bite you if you touch its whiskers.",
+  "nationalPokedexNumbers": [
+    20
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv10/202.png",
+    "large": "https://images.pokemontcg.io/sv10/202_hires.png"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "ecard1-29",
+  "name": "Tyranitar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Pupitar",
+  "abilities": [
+    {
+      "name": "Dark Aura",
+      "text": "All Energy attached to Tyranitar is Darkness Energy instead of its usual type.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Stamp",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Darkness",
+        "Darkness"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "50+",
+      "text": "Flip a coin. If heads, this attack does 50 damage plus 10 more damage and does 10 damage to each of your opponent's Benched Pokémon, if any. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "ecard1",
+    "name": "Expedition Base Set",
+    "series": "E-Card",
+    "printedTotal": 165,
+    "total": 165,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "EX",
+    "releaseDate": "2002/09/15",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard1/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard1/logo.png"
+    }
+  },
+  "number": "29",
+  "artist": "Kimiya Masago",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    248
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard1/29.png",
+    "large": "https://images.pokemontcg.io/ecard1/29_hires.png"
+  }
+}

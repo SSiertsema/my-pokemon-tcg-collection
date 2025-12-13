@@ -1,0 +1,94 @@
+{
+  "id": "swshp-SWSH230",
+  "name": "Radiant Eevee",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Radiant"
+  ],
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Vaporeon",
+    "Jolteon",
+    "Flareon",
+    "Sylveon",
+    "Espeon",
+    "Umbreon",
+    "Leafeon",
+    "Glaceon"
+  ],
+  "rules": [
+    "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+  ],
+  "attacks": [
+    {
+      "name": "Twinkle Gathering",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a number of cards up to the number of different types of Pokémon you have in play and put them into your hand. Then, shuffle your deck."
+    },
+    {
+      "name": "Boost Dash",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH230",
+  "artist": "Souichirou Gunjima",
+  "rarity": "Promo",
+  "flavorText": "It has the ability to alter the composition of its body to suit its surrounding environment.",
+  "nationalPokedexNumbers": [
+    133
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH230.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH230_hires.png"
+  }
+}

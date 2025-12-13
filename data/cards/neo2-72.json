@@ -1,0 +1,35 @@
+{
+  "id": "neo2-72",
+  "name": "Fossil Egg",
+  "supertype": "Trainer",
+  "rules": [
+    "Flip a coin. If heads, search your deck for a card that evolves from Mysterious Fossil and put it onto your Bench or put a card that evolves from Mysterious Fossil from your hand onto your Bench. Either way, treat the new card as a Basic Pokémon. If you searched your deck, shuffle it. (You can't play this card if your Bench is full.)"
+  ],
+  "set": {
+    "id": "neo2",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "printedTotal": 75,
+    "total": 75,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N2",
+    "releaseDate": "2001/06/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo2/logo.png"
+    }
+  },
+  "number": "72",
+  "artist": "K. Hoshiba, CR CG gangs",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo2/72.png",
+    "large": "https://images.pokemontcg.io/neo2/72_hires.png"
+  }
+}

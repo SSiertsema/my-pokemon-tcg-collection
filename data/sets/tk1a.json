@@ -12,5 +12,17 @@
   "images": {
     "symbol": "https://images.pokemontcg.io/tk1a/symbol.png",
     "logo": "https://images.pokemontcg.io/tk1a/logo.png"
-  }
+  },
+  "cards": [
+    "tk1a-1",
+    "tk1a-2",
+    "tk1a-3",
+    "tk1a-4",
+    "tk1a-5",
+    "tk1a-6",
+    "tk1a-7",
+    "tk1a-8",
+    "tk1a-9",
+    "tk1a-10"
+  ]
 }

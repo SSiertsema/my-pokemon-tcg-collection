@@ -1,0 +1,72 @@
+{
+  "id": "swsh6-59",
+  "name": "Ralts",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Kirlia"
+  ],
+  "attacks": [
+    {
+      "name": "Confuse Ray",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "59",
+  "artist": "Narumi Sato",
+  "rarity": "Common",
+  "flavorText": "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+  "nationalPokedexNumbers": [
+    280
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/59.png",
+    "large": "https://images.pokemontcg.io/swsh6/59_hires.png"
+  }
+}

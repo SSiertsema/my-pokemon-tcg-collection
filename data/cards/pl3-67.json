@@ -1,0 +1,78 @@
+{
+  "id": "pl3-67",
+  "name": "Marshtomp",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "21",
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Mudkip",
+  "evolvesTo": [
+    "Swampert"
+  ],
+  "abilities": [
+    {
+      "name": "Plunge",
+      "text": "Once during your turn (before your attack), if Marshtomp is on your Bench, you may flip a coin. If heads, move all Energy cards attached to your Active Pokémon to Marshtomp. If you do, switch Marshtomp with that Active Pokémon.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mud Shot",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "67",
+  "artist": "Tomokazu Komiya",
+  "rarity": "Uncommon",
+  "flavorText": "Its sturdy legs give it sure footing, even in mud. It burrows into dirt to sleep.",
+  "nationalPokedexNumbers": [
+    259
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/67.png",
+    "large": "https://images.pokemontcg.io/pl3/67_hires.png"
+  }
+}

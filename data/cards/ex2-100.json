@@ -1,0 +1,88 @@
+{
+  "id": "ex2-100",
+  "name": "Wailord ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "ex"
+  ],
+  "hp": "200",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Wailmer",
+  "rules": [
+    "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Super Deep Dive",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "If you don't have any Benched Pokémon, this attack does nothing. Remove 3 damage counters from Wailord ex. Switch Wailord ex with 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Dwindling Wave",
+      "cost": [
+        "Water",
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "100-",
+      "text": "Does 100 damage minus 10 damage for each damage counter on Wailord ex."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    },
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 5,
+  "set": {
+    "id": "ex2",
+    "name": "Sandstorm",
+    "series": "EX",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SS",
+    "releaseDate": "2003/09/18",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex2/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex2/logo.png"
+    }
+  },
+  "number": "100",
+  "artist": "Ryo Ueda",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    321
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex2/100.png",
+    "large": "https://images.pokemontcg.io/ex2/100_hires.png"
+  }
+}

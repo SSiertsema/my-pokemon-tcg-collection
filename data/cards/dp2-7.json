@@ -1,0 +1,73 @@
+{
+  "id": "dp2-7",
+  "name": "Celebi",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "39",
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "name": "Sprouting",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Search your deck for a Grass Energy card and attach it to Celebi. Shuffle your deck afterward."
+    },
+    {
+      "name": "Leaf Tornado",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "You may move any number of basic Grass Energy cards attached to your Pokémon to your other Pokémon in any way you like."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare Holo",
+  "flavorText": "It has the power to travel across time, but is is said to appear only in peaceful times.",
+  "nationalPokedexNumbers": [
+    251
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/7.png",
+    "large": "https://images.pokemontcg.io/dp2/7_hires.png"
+  }
+}

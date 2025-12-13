@@ -1,0 +1,82 @@
+{
+  "id": "pl2-59",
+  "name": "Eevee",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "10",
+  "hp": "50",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Vaporeon",
+    "Jolteon",
+    "Flareon",
+    "Sylveon",
+    "Espeon",
+    "Umbreon",
+    "Leafeon",
+    "Glaceon"
+  ],
+  "attacks": [
+    {
+      "name": "Signs of Evolution",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Search your deck for up to 2 cards that evolve from Eevee, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
+    },
+    {
+      "name": "Bounce",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Switch Eevee with 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "59",
+  "artist": "Naoyo Kimura",
+  "rarity": "Common",
+  "flavorText": "Because its genetic makeup is irregular, it quickly changes its form due to a variety of causes.",
+  "nationalPokedexNumbers": [
+    133
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/59.png",
+    "large": "https://images.pokemontcg.io/pl2/59_hires.png"
+  }
+}

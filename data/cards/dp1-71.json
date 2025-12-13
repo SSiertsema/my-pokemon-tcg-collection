@@ -1,0 +1,73 @@
+{
+  "id": "dp1-71",
+  "name": "Bonsly",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "6",
+  "hp": "40",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Sudowoodo"
+  ],
+  "abilities": [
+    {
+      "name": "Baby Evolution",
+      "text": "Once during your turn (before your attack), you may put Sudowoodo from your hand onto Bonsly (this counts as evolving Bonsly) and remove all damage counters from Bonsly.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Fake Tears",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Flip a coin. If heads, your opponent can't play any Trainer cards from his or her hand during your opponent's next turn, and any damage done to Bonsly by attacks is reduced by 30 (after applying Weakness and Resistance)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp1",
+    "name": "Diamond & Pearl",
+    "series": "Diamond & Pearl",
+    "printedTotal": 130,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DP",
+    "releaseDate": "2007/05/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp1/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp1/logo.png"
+    }
+  },
+  "number": "71",
+  "artist": "Midori Harada",
+  "rarity": "Common",
+  "flavorText": "It looks as if it is always crying. It is actually adjusting its body's fluid levels by eliminating excess.",
+  "nationalPokedexNumbers": [
+    438
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp1/71.png",
+    "large": "https://images.pokemontcg.io/dp1/71_hires.png"
+  }
+}

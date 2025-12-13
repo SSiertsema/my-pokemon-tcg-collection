@@ -1,0 +1,76 @@
+{
+  "id": "sv1-68",
+  "name": "Pachirisu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "abilities": [
+    {
+      "type": "Ability",
+      "name": "Electricity Pouches",
+      "text": "This Pokémon can't be Paralyzed."
+    }
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "name": "Everyone Discharge",
+      "damage": "10+",
+      "text": "This attack does 20 more damage for each of your Benched Lightning Pokémon. This attack's damage isn't affected by Weakness.",
+      "convertedEnergyCost": 2
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv1",
+    "name": "Scarlet & Violet",
+    "series": "Scarlet & Violet",
+    "printedTotal": 198,
+    "total": 258,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/03/31",
+    "updatedAt": "2023/03/31 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv1/logo.png"
+    }
+  },
+  "number": "68",
+  "artist": "Naoki Saito",
+  "rarity": "Uncommon",
+  "flavorText": "A pair may be seen rubbing their cheek pouches together in an effort to share stored electricity.",
+  "nationalPokedexNumbers": [
+    417
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv1/68.png",
+    "large": "https://images.pokemontcg.io/sv1/68_hires.png"
+  }
+}

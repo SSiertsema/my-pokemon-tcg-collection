@@ -1,0 +1,69 @@
+{
+  "id": "swshp-SWSH184",
+  "name": "Jolteon VMAX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VMAX"
+  ],
+  "hp": "300",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Jolteon V",
+  "rules": [
+    "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Max Thunder Rumble",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "100",
+      "text": "This attack also does 100 damage to 1 of your opponent's Benched Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH184",
+  "artist": "Hasuno",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    135
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH184.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH184_hires.png"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "sv10-15",
+  "name": "Team Rocket's Blipbug",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Dottler"
+  ],
+  "attacks": [
+    {
+      "name": "Searching Eyes",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Look at 1 of your opponent's face-down Prize cards."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv10",
+    "name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 244,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRI",
+    "releaseDate": "2025/05/30",
+    "updatedAt": "2025/05/29 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv10/logo.png"
+    }
+  },
+  "number": "15",
+  "artist": "buchi",
+  "rarity": "Common",
+  "flavorText": "Often found in gardens, this Pokémon has hairs on its body that it uses to assess its surroundings.",
+  "nationalPokedexNumbers": [
+    824
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv10/15.png",
+    "large": "https://images.pokemontcg.io/sv10/15_hires.png"
+  }
+}

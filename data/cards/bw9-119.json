@@ -1,0 +1,78 @@
+{
+  "id": "bw9-119",
+  "name": "Garbodor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Trubbish",
+  "abilities": [
+    {
+      "name": "Garbotoxin",
+      "text": "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Garbotoxin).",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sludge Toss",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "119",
+  "artist": "Ayaka Yoshida",
+  "rarity": "Rare Secret",
+  "flavorText": "This extremely rare Pokémon is a different color than usual. It is very hard to find.",
+  "nationalPokedexNumbers": [
+    569
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/119.png",
+    "large": "https://images.pokemontcg.io/bw9/119_hires.png"
+  }
+}

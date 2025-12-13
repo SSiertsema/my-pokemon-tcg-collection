@@ -1,0 +1,78 @@
+{
+  "id": "dp6-35",
+  "name": "Poliwrath",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "46",
+  "hp": "130",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Poliwhirl",
+  "attacks": [
+    {
+      "name": "Focus Punch",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "60",
+      "text": "If Poliwrath was damaged by an attack during your opponent's last turn, this attack does nothing."
+    },
+    {
+      "name": "Submission",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": "Poliwrath does 20 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "+30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "dp6",
+    "name": "Legends Awakened",
+    "series": "Diamond & Pearl",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LA",
+    "releaseDate": "2008/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp6/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp6/logo.png"
+    }
+  },
+  "number": "35",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "flavorText": "With extremely tough muscles, it can keep swimming in the Pacific Ocean without resting.",
+  "nationalPokedexNumbers": [
+    62
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp6/35.png",
+    "large": "https://images.pokemontcg.io/dp6/35_hires.png"
+  }
+}

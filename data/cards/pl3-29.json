@@ -1,0 +1,81 @@
+{
+  "id": "pl3-29",
+  "name": "Honchkrow",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "46",
+  "hp": "90",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Murkrow",
+  "abilities": [
+    {
+      "name": "Darkness Restore",
+      "text": "Once during your turn (before your attack), if Honchkrow is your Active Pokémon and your opponent's Bench isn't full, you may use this power. Search your opponent's discard pile for a Basic Pokémon and put it onto his or her bench. This power can't be used if Honchkrow is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Riot",
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Does 30 damage plus 10 more damage for each Pokémon that isn't an evolved Pokémon in play (both yours and your opponent's)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "29",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "flavorText": "If one utters a deep cry, many Murkrow gather quickly. For this, it is called \"Summoner of Night.\"",
+  "nationalPokedexNumbers": [
+    430
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/29.png",
+    "large": "https://images.pokemontcg.io/pl3/29_hires.png"
+  }
+}

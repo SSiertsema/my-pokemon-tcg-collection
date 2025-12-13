@@ -1,0 +1,80 @@
+{
+  "id": "ex12-90",
+  "name": "Regice ★",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Star"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "rules": [
+    "You can't have more than 1 Pokémon Star in your deck."
+  ],
+  "attacks": [
+    {
+      "name": "Ice Barrier",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Prevent all effects of an attack, including damage, done to Regice Star by your opponent's Pokémon-ex during your opponent's next turn."
+    },
+    {
+      "name": "Final Blizzard",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": "If your opponent has only 1 Prize card left and Regice Star is the only Pokémon you have in play, this attack does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "ex12",
+    "name": "Legend Maker",
+    "series": "EX",
+    "printedTotal": 92,
+    "total": 93,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LM",
+    "releaseDate": "2006/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex12/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex12/logo.png"
+    }
+  },
+  "number": "90",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare Holo Star",
+  "nationalPokedexNumbers": [
+    378
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex12/90.png",
+    "large": "https://images.pokemontcg.io/ex12/90_hires.png"
+  }
+}

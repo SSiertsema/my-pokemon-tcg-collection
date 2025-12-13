@@ -1,0 +1,76 @@
+{
+  "id": "sm12-21",
+  "name": "Buzzwole",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Ultra Beast"
+  ],
+  "hp": "130",
+  "types": [
+    "Grass"
+  ],
+  "abilities": [
+    {
+      "name": "Beast Boost",
+      "text": "This Pokémon's attacks do 20 more damage to your opponent's Active Pokémon for each Prize card you have taken (before applying Weakness and Resistance).",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Touchdown",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60",
+      "text": "Heal 30 damage from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "21",
+  "artist": "Anesaki Dynamic",
+  "rarity": "Rare Holo",
+  "flavorText": "Although it's alien to this world and a danger here, it's apparently a common organism in the world where it normally lives.",
+  "nationalPokedexNumbers": [
+    794
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/21.png",
+    "large": "https://images.pokemontcg.io/sm12/21_hires.png"
+  }
+}

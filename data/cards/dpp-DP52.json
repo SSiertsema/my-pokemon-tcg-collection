@@ -1,0 +1,81 @@
+{
+  "id": "dpp-DP52",
+  "name": "Darkrai",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "61",
+  "hp": "90",
+  "types": [
+    "Darkness"
+  ],
+  "abilities": [
+    {
+      "name": "Darkness Aura",
+      "text": "If you have Cresselia in play, each of Darkrai's attack does 20 more damage to the Defending Pokémon (before applying Weakness and Resistance).",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hypnoblast",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "dpp",
+    "name": "DP Black Star Promos",
+    "series": "Diamond & Pearl",
+    "printedTotal": 56,
+    "total": 56,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-DPP",
+    "releaseDate": "2007/05/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dpp/symbol.png",
+      "logo": "https://images.pokemontcg.io/dpp/logo.png"
+    }
+  },
+  "number": "DP52",
+  "artist": "Wataru Kawahara",
+  "rarity": "Promo",
+  "flavorText": "To protect itself, it afflicts those around it with nightmares. However, it means no harm.",
+  "nationalPokedexNumbers": [
+    491
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dpp/DP52.png",
+    "large": "https://images.pokemontcg.io/dpp/DP52_hires.png"
+  }
+}

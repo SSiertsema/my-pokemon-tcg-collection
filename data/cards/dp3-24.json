@@ -1,0 +1,80 @@
+{
+  "id": "dp3-24",
+  "name": "Dugtrio",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "46",
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Diglett",
+  "attacks": [
+    {
+      "name": "Dig Trap",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Flip a coin. If tails, this attack does nothing. If heads, prevent all effects of an attack, including damage, done to Dugtrio during your opponent's next turn. If Dugtrio is your Active Pokémon at the end of your opponent's next turn, put 6 damage counters on 1 of your opponent's Benched Pokémon."
+    },
+    {
+      "name": "Pit Trap",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50+",
+      "text": "Your opponent flips a coin. If tails, this attack does 50 damage plus 50 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "24",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare",
+  "flavorText": "Its three heads moves alternately, driving it through tough soil to depths of over 60 miles.",
+  "nationalPokedexNumbers": [
+    51
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/24.png",
+    "large": "https://images.pokemontcg.io/dp3/24_hires.png"
+  }
+}

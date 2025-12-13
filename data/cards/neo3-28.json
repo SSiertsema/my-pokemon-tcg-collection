@@ -1,0 +1,80 @@
+{
+  "id": "neo3-28",
+  "name": "Flaaffy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "32",
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Mareep",
+  "evolvesTo": [
+    "Ampharos"
+  ],
+  "attacks": [
+    {
+      "name": "Electric Punch",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Tail Shock",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": "Flip a coin. If heads, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo3",
+    "name": "Neo Revelation",
+    "series": "Neo",
+    "printedTotal": 64,
+    "total": 66,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N3",
+    "releaseDate": "2001/09/21",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo3/logo.png"
+    }
+  },
+  "number": "28",
+  "artist": "Toshinao Aoki",
+  "rarity": "Uncommon",
+  "flavorText": "Its fluffy fleece easily stores electricity. Its rubbery hide keeps it from being electrocuted.",
+  "nationalPokedexNumbers": [
+    180
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo3/28.png",
+    "large": "https://images.pokemontcg.io/neo3/28_hires.png"
+  }
+}

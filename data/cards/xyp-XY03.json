@@ -1,0 +1,79 @@
+{
+  "id": "xyp-XY03",
+  "name": "Froakie",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Frogadier"
+  ],
+  "attacks": [
+    {
+      "name": "Pound",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Water Drip",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY03",
+  "artist": "5ban Graphics",
+  "rarity": "Promo",
+  "flavorText": "It secretes flexible bubbles from its chest and back. The bubbles reduce the damage it would otherwise take when attacked.",
+  "nationalPokedexNumbers": [
+    656
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY03.png",
+    "large": "https://images.pokemontcg.io/xyp/XY03_hires.png"
+  }
+}

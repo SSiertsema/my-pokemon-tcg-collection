@@ -1,0 +1,67 @@
+{
+  "id": "sv8-120",
+  "name": "Shroodle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Darkness"
+  ],
+  "attacks": [
+    {
+      "name": "Spray Fluid",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv8",
+    "name": "Surging Sparks",
+    "series": "Scarlet & Violet",
+    "printedTotal": 191,
+    "total": 252,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SSP",
+    "releaseDate": "2024/11/08",
+    "updatedAt": "2024/11/07 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv8/logo.png"
+    }
+  },
+  "number": "120",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    944
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv8/120.png",
+    "large": "https://images.pokemontcg.io/sv8/120_hires.png"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "swsh5-36",
+  "name": "Remoraid",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Rapid Strike"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Octillery"
+  ],
+  "attacks": [
+    {
+      "name": "Water Gun",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Sharp Fin",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh5",
+    "name": "Battle Styles",
+    "series": "Sword & Shield",
+    "printedTotal": 163,
+    "total": 183,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BST",
+    "releaseDate": "2021/03/19",
+    "updatedAt": "2021/03/19 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh5/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "HYOGONOSUKE",
+  "rarity": "Common",
+  "flavorText": "Using its dorsal fin as a suction pad, it clings to a Mantine's underside to scavenge for leftovers.",
+  "nationalPokedexNumbers": [
+    223
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh5/36.png",
+    "large": "https://images.pokemontcg.io/swsh5/36_hires.png"
+  }
+}

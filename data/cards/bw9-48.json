@@ -1,0 +1,77 @@
+{
+  "id": "bw9-48",
+  "name": "Espeon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Team Plasma"
+  ],
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Eevee",
+  "attacks": [
+    {
+      "name": "Psy Alert",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Draw cards until you have 6 cards in your hand."
+    },
+    {
+      "name": "Shadow Ball",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "This attack does 40 damage to 1 of your opponent's Pokémon. Also apply Weakness and Resistance for Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "48",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "flavorText": "Its fur is so sensitive, it can feel minute shifts in the air and predict the weather…and its foes' thoughts.",
+  "nationalPokedexNumbers": [
+    196
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/48.png",
+    "large": "https://images.pokemontcg.io/bw9/48_hires.png"
+  }
+}

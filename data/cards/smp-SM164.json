@@ -1,0 +1,76 @@
+{
+  "id": "smp-SM164",
+  "name": "Deoxys",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Psychic"
+  ],
+  "abilities": [
+    {
+      "name": "Power Suction",
+      "text": "Once during your turn (before your attack), you may move an Energy from 1 of your Pokémon to 1 of your Deoxys.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Psycho Boost",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": "During your next turn, this Pokémon's Psycho Boost attack's base damage is 50."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "smp",
+    "name": "SM Black Star Promos",
+    "series": "Sun & Moon",
+    "printedTotal": 248,
+    "total": 250,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/smp/symbol.png",
+      "logo": "https://images.pokemontcg.io/smp/logo.png"
+    }
+  },
+  "number": "SM164",
+  "artist": "You Iribi",
+  "rarity": "Promo",
+  "flavorText": "DNA from a space virus mutated and became a Pokémon. It appears where auroras are seen.",
+  "nationalPokedexNumbers": [
+    386
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/smp/SM164.png",
+    "large": "https://images.pokemontcg.io/smp/SM164_hires.png"
+  }
+}

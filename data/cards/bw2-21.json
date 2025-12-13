@@ -1,0 +1,82 @@
+{
+  "id": "bw2-21",
+  "name": "Darmanitan",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Darumaka",
+  "attacks": [
+    {
+      "name": "Rock Smash",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "Flip a coin. If heads, this attack does 20 more damage."
+    },
+    {
+      "name": "Fire Punch",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "70",
+      "text": "The Defending Pokémon is now Burned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw2",
+    "name": "Emerging Powers",
+    "series": "Black & White",
+    "printedTotal": 98,
+    "total": 98,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EPO",
+    "releaseDate": "2011/08/31",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw2/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw2/logo.png"
+    }
+  },
+  "number": "21",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "flavorText": "Its internal fire burns at 2,500º F, making enough power that it can destroy a dump truck with one punch.",
+  "nationalPokedexNumbers": [
+    555
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw2/21.png",
+    "large": "https://images.pokemontcg.io/bw2/21_hires.png"
+  }
+}

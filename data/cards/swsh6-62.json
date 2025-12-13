@@ -1,0 +1,79 @@
+{
+  "id": "swsh6-62",
+  "name": "Shuppet",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Single Strike"
+  ],
+  "hp": "50",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Banette"
+  ],
+  "attacks": [
+    {
+      "name": "Will-O-Wisp",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "OKACHEKE",
+  "rarity": "Common",
+  "flavorText": "There's a proverb that says, \"Shun the house where Shuppet gather in the growing dusk.\"",
+  "nationalPokedexNumbers": [
+    353
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/62.png",
+    "large": "https://images.pokemontcg.io/swsh6/62_hires.png"
+  }
+}

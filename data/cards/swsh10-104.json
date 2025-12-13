@@ -1,0 +1,79 @@
+{
+  "id": "swsh10-104",
+  "name": "Thievul",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Nickit",
+  "abilities": [
+    {
+      "name": "Baffling",
+      "text": "If your opponent has 2 or fewer Prize cards remaining, whenever your opponent plays a Supporter card from their hand, prevent all effects of that card done to your Benched Pokémon V.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sharp Fang",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "110",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh10",
+    "name": "Astral Radiance",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ASR",
+    "releaseDate": "2022/05/27",
+    "updatedAt": "2022/05/27 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh10/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh10/logo.png"
+    }
+  },
+  "number": "104",
+  "artist": "KIYOTAKA OSHIYAMA",
+  "rarity": "Rare",
+  "flavorText": "It secretly marks potential targets with a scent. By following the scent, it stalks its targets and steals from them when they least expect it.",
+  "nationalPokedexNumbers": [
+    828
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh10/104.png",
+    "large": "https://images.pokemontcg.io/swsh10/104_hires.png"
+  }
+}

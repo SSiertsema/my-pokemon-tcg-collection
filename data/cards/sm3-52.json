@@ -1,0 +1,89 @@
+{
+  "id": "sm3-52",
+  "name": "Dusclops",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Duskull",
+  "evolvesTo": [
+    "Dusknoir"
+  ],
+  "attacks": [
+    {
+      "name": "Night Roam",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Put 1 damage counter on each Pokémon (both yours and your opponent's)."
+    },
+    {
+      "name": "Ambush",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm3",
+    "name": "Burning Shadows",
+    "series": "Sun & Moon",
+    "printedTotal": 147,
+    "total": 177,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BUS",
+    "releaseDate": "2017/08/05",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm3/logo.png"
+    }
+  },
+  "number": "52",
+  "artist": "SATOSHI NAKAI",
+  "rarity": "Uncommon",
+  "flavorText": "Anyone who dares peer into its body to see its spectral ball of fire will have their spirit stolen away.",
+  "nationalPokedexNumbers": [
+    356
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm3/52.png",
+    "large": "https://images.pokemontcg.io/sm3/52_hires.png"
+  }
+}

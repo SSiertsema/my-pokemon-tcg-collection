@@ -1,0 +1,83 @@
+{
+  "id": "xy2-64",
+  "name": "Floette",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesFrom": "Flabébé",
+  "evolvesTo": [
+    "Florges"
+  ],
+  "abilities": [
+    {
+      "name": "Flower Veil",
+      "text": "Each of your Grass Pokémon in play gets +20 HP.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Fairy Wind",
+      "cost": [
+        "Fairy"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy2",
+    "name": "Flashfire",
+    "series": "XY",
+    "printedTotal": 106,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLF",
+    "releaseDate": "2014/05/07",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy2/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy2/logo.png"
+    }
+  },
+  "number": "64",
+  "artist": "5ban Graphics",
+  "rarity": "Rare",
+  "flavorText": "It flutters around fields of flowers and cares for flowers that are starting to wilt. It draws out the hidden power of flowers to battle.",
+  "nationalPokedexNumbers": [
+    670
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy2/64.png",
+    "large": "https://images.pokemontcg.io/xy2/64_hires.png"
+  }
+}

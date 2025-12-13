@@ -1,0 +1,42 @@
+{
+  "id": "sm5-166",
+  "name": "Crushing Hammer",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Flip a coin. If heads, discard an Energy from 1 of your opponent's Pokémon.",
+    "You may play as many Item cards as you like during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "166",
+  "artist": "Yoshinobu Saito",
+  "rarity": "Rare Secret",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/166.png",
+    "large": "https://images.pokemontcg.io/sm5/166_hires.png"
+  }
+}

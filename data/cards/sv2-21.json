@@ -1,0 +1,79 @@
+{
+  "id": "sv2-21",
+  "name": "Lokix",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Nymble",
+  "attacks": [
+    {
+      "cost": [
+        "Grass"
+      ],
+      "name": "Assaulting Kick",
+      "damage": "30+",
+      "text": "If this Pokémon evolved from Nymble during this turn, this attack does 100 more damage.",
+      "convertedEnergyCost": 1
+    },
+    {
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "name": "Speed Attack",
+      "damage": "70",
+      "text": "",
+      "convertedEnergyCost": 2
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    }
+  },
+  "number": "21",
+  "artist": "Anesaki Dynamic",
+  "rarity": "Rare",
+  "flavorText": "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
+  "nationalPokedexNumbers": [
+    920
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv2/21.png",
+    "large": "https://images.pokemontcg.io/sv2/21_hires.png"
+  }
+}

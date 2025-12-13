@@ -1,0 +1,80 @@
+{
+  "id": "hgss3-17",
+  "name": "Leafeon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Eevee",
+  "attacks": [
+    {
+      "name": "Miasma Wind",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "50×",
+      "text": "Does 50 damage damage times the number of Special Conditions affecting the Defending Pokémon."
+    },
+    {
+      "name": "Soothing Scent",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "The Defending Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hgss3",
+    "name": "HS—Undaunted",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 90,
+    "total": 91,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UD",
+    "releaseDate": "2010/08/18",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss3/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss3/logo.png"
+    }
+  },
+  "number": "17",
+  "artist": "Noriko Hotta",
+  "rarity": "Rare",
+  "flavorText": "When you see Leafeon asleep in a patch of sunshine, you'll know it is using photosynthesis to produce clean air.",
+  "nationalPokedexNumbers": [
+    470
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss3/17.png",
+    "large": "https://images.pokemontcg.io/hgss3/17_hires.png"
+  }
+}

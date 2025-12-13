@@ -1,0 +1,85 @@
+{
+  "id": "swshp-SWSH150",
+  "name": "Vaporeon V",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "V",
+    "Rapid Strike"
+  ],
+  "hp": "210",
+  "types": [
+    "Water"
+  ],
+  "rules": [
+    "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Triple Draw",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Draw 3 cards."
+    },
+    {
+      "name": "Splash Jump",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH150",
+  "artist": "5ban Graphics",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    134
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH150.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH150_hires.png"
+  }
+}

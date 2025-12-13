@@ -1,0 +1,82 @@
+{
+  "id": "ex4-52",
+  "name": "Team Aqua's Electrike",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Manectric"
+  ],
+  "attacks": [
+    {
+      "name": "Scratch",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Thundershock",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex4",
+    "name": "Team Magma vs Team Aqua",
+    "series": "EX",
+    "printedTotal": 95,
+    "total": 97,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MA",
+    "releaseDate": "2004/03/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex4/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex4/logo.png"
+    }
+  },
+  "number": "52",
+  "artist": "M. Akiyama",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    309
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex4/52.png",
+    "large": "https://images.pokemontcg.io/ex4/52_hires.png"
+  }
+}

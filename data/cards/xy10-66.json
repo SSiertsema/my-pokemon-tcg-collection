@@ -1,0 +1,86 @@
+{
+  "id": "xy10-66",
+  "name": "Wigglytuff",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesFrom": "Jigglypuff",
+  "attacks": [
+    {
+      "name": "Expand",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "During your opponent's next turn, any damage done to this Pokémon by attacks is reduced by 30 (after applying Weakness and Resistance)."
+    },
+    {
+      "name": "Double Slap",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60×",
+      "text": "Flip 2 coins. This attack does 60 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy10",
+    "name": "Fates Collide",
+    "series": "XY",
+    "printedTotal": 124,
+    "total": 129,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FCO",
+    "releaseDate": "2016/05/02",
+    "updatedAt": "2018/09/03 11:49:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy10/logo.png"
+    }
+  },
+  "number": "66",
+  "artist": "Mizue",
+  "rarity": "Uncommon",
+  "flavorText": "The body is soft and rubbery. When angered, it will suck in air and inflate itself to an enormous size.",
+  "nationalPokedexNumbers": [
+    40
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy10/66.png",
+    "large": "https://images.pokemontcg.io/xy10/66_hires.png"
+  }
+}

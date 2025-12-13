@@ -1,0 +1,88 @@
+{
+  "id": "swsh12-59",
+  "name": "Radiant Alakazam",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Radiant"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "rules": [
+    "Radiant Pokémon Rule: You can't have more than 1 Radiant Pokémon in your deck."
+  ],
+  "abilities": [
+    {
+      "name": "Painful Spoons",
+      "text": "Once during your turn, you may move up to 2 damage counters from 1 of your opponent's Pokémon to another of their Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mind Ruler",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20×",
+      "text": "This attack does 20 damage for each card in your opponent's hand."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh12",
+    "name": "Silver Tempest",
+    "series": "Sword & Shield",
+    "printedTotal": 195,
+    "total": 215,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SIT",
+    "releaseDate": "2022/11/11",
+    "updatedAt": "2022/09/09 11:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12/logo.png"
+    }
+  },
+  "number": "59",
+  "artist": "Akira Komayama",
+  "rarity": "Radiant Rare",
+  "flavorText": "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
+  "nationalPokedexNumbers": [
+    65
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12/59.png",
+    "large": "https://images.pokemontcg.io/swsh12/59_hires.png"
+  }
+}

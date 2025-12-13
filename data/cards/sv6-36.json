@@ -1,0 +1,82 @@
+{
+  "id": "sv6-36",
+  "name": "Litwick",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Lampent"
+  ],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Basic Pokémon and put it onto your Bench. Then, shuffle your deck."
+    },
+    {
+      "name": "Live Coal",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv6",
+    "name": "Twilight Masquerade",
+    "series": "Scarlet & Violet",
+    "printedTotal": 167,
+    "total": 226,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TWM",
+    "releaseDate": "2024/05/24",
+    "updatedAt": "2024/05/23 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv6/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Saya Tsuruta",
+  "rarity": "Common",
+  "flavorText": "While shining a light and pretending to be a guide, it leeches off the life-force of any who follow it.",
+  "nationalPokedexNumbers": [
+    607
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv6/36.png",
+    "large": "https://images.pokemontcg.io/sv6/36_hires.png"
+  }
+}

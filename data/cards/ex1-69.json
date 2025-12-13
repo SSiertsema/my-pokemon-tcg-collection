@@ -1,0 +1,72 @@
+{
+  "id": "ex1-69",
+  "name": "Shroomish",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Breloom"
+  ],
+  "attacks": [
+    {
+      "name": "Sleep Powder",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "The Defending Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex1",
+    "name": "Ruby & Sapphire",
+    "series": "EX",
+    "printedTotal": 109,
+    "total": 109,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RS",
+    "releaseDate": "2003/07/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex1/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex1/logo.png"
+    }
+  },
+  "number": "69",
+  "artist": "Atsuko Nishida",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    285
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex1/69.png",
+    "large": "https://images.pokemontcg.io/ex1/69_hires.png"
+  }
+}

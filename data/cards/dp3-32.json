@@ -1,0 +1,78 @@
+{
+  "id": "dp3-32",
+  "name": "Minun",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "30",
+  "hp": "60",
+  "types": [
+    "Lightning"
+  ],
+  "abilities": [
+    {
+      "name": "Minus Charge",
+      "text": "Once during your turn (before your attack), if any Pokémon were Knocked Out during your opponent's last turn, you may draw 2 cards. You can't use more than 1 Minus Charge Poké-Power each turn. This power can't be used if Minun is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Tag Play —",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "If you have Plusle on your Bench, you may move an Energy card attached to Minun to 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+10"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "32",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare",
+  "flavorText": "It cheers on friends. If its friends are losing, its body lets off more and more sparks.",
+  "nationalPokedexNumbers": [
+    312
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/32.png",
+    "large": "https://images.pokemontcg.io/dp3/32_hires.png"
+  }
+}

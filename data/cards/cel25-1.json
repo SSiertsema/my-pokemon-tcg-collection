@@ -1,0 +1,88 @@
+{
+  "id": "cel25-1",
+  "name": "Ho-Oh",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Fire"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "name": "Sacred Fire",
+      "damage": "",
+      "text": "This attack does 50 damage to 1 of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      "convertedEnergyCost": 2
+    },
+    {
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "name": "Fire Blast",
+      "damage": "120",
+      "text": "Discard an Energy from this Pokémon.",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "cel25",
+    "name": "Celebrations",
+    "series": "Sword & Shield",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEL",
+    "releaseDate": "2021/10/08",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/cel25/symbol.png",
+      "logo": "https://images.pokemontcg.io/cel25/logo.png"
+    }
+  },
+  "number": "1",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "flavorText": "It will reveal itself before a pure-hearted Trainer by shining its bright, rainbow-colored wings.",
+  "nationalPokedexNumbers": [
+    250
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/cel25/1.png",
+    "large": "https://images.pokemontcg.io/cel25/1_hires.png"
+  }
+}

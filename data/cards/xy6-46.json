@@ -1,0 +1,86 @@
+{
+  "id": "xy6-46",
+  "name": "Togekiss",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "130",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesFrom": "Togetic",
+  "ancientTrait": {
+    "name": "Δ Evolution",
+    "text": "You may play this card from your hand to evolve a Pokémon during your first turn or the turn you play that Pokémon."
+  },
+  "abilities": [
+    {
+      "name": "Serene Grace",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may look at the top 8 cards of your deck. Choose any basic Energy cards you find there and attach them to your Pokémon in any way you like. Shuffle the other cards back into your deck.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Fairy Wind",
+      "cost": [
+        "Fairy",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy6",
+    "name": "Roaring Skies",
+    "series": "XY",
+    "printedTotal": 108,
+    "total": 112,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ROS",
+    "releaseDate": "2015/05/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy6/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy6/logo.png"
+    }
+  },
+  "number": "46",
+  "artist": "PLANETA",
+  "rarity": "Rare Holo",
+  "flavorText": "It shares many blessings with people who respect one another's rights and avoid needless strife.",
+  "nationalPokedexNumbers": [
+    468
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy6/46.png",
+    "large": "https://images.pokemontcg.io/xy6/46_hires.png"
+  }
+}

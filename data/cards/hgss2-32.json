@@ -1,0 +1,78 @@
+{
+  "id": "hgss2-32",
+  "name": "Kakuna",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Weedle",
+  "evolvesTo": [
+    "Beedrill"
+  ],
+  "attacks": [
+    {
+      "name": "Speed Evolution",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a card that evolves from Kakuna and put it onto Kakuna. (This counts as evolving Kakuna.) Shuffle your deck afterward."
+    },
+    {
+      "name": "Poison Sting",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "hgss2",
+    "name": "HS—Unleashed",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 96,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UL",
+    "releaseDate": "2010/05/12",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss2/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss2/logo.png"
+    }
+  },
+  "number": "32",
+  "artist": "Kyoko Umemoto",
+  "rarity": "Uncommon",
+  "flavorText": "Although it is a cocoon, it can move a little. It can extend its poison barb if it is attacked.",
+  "nationalPokedexNumbers": [
+    14
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss2/32.png",
+    "large": "https://images.pokemontcg.io/hgss2/32_hires.png"
+  }
+}

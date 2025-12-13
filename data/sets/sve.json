@@ -15,5 +15,23 @@
   "images": {
     "symbol": "https://images.pokemontcg.io/sve/symbol.png",
     "logo": "https://images.pokemontcg.io/sve/logo.png"
-  }
+  },
+  "cards": [
+    "sve-3",
+    "sve-1",
+    "sve-7",
+    "sve-4",
+    "sve-8",
+    "sve-2",
+    "sve-5",
+    "sve-6",
+    "sve-10",
+    "sve-11",
+    "sve-12",
+    "sve-16",
+    "sve-9",
+    "sve-14",
+    "sve-13",
+    "sve-15"
+  ]
 }

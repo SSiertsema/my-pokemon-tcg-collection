@@ -1,0 +1,81 @@
+{
+  "id": "pl3-96",
+  "name": "Cherubi",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "10",
+  "hp": "50",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Cherrim"
+  ],
+  "attacks": [
+    {
+      "name": "Growth",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Attach a Grass Energy from your hand to Cherubi."
+    },
+    {
+      "name": "Razor Leaf",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+10"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "96",
+  "artist": "Saya Tsuruta",
+  "rarity": "Common",
+  "flavorText": "The small ball is not only filled with nutrients, it is also tasty. Starly try to peck it off.",
+  "nationalPokedexNumbers": [
+    420
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/96.png",
+    "large": "https://images.pokemontcg.io/pl3/96_hires.png"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "sv2-166",
+  "name": "Tandemaus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "30",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Colorless"
+      ],
+      "name": "Collect",
+      "damage": "",
+      "text": "Draw 2 cards.",
+      "convertedEnergyCost": 1
+    },
+    {
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "name": "Gentle Slap",
+      "damage": "30",
+      "text": "",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    }
+  },
+  "number": "166",
+  "artist": "Oswaldo KATO",
+  "rarity": "Common",
+  "flavorText": "Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.",
+  "nationalPokedexNumbers": [
+    924
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv2/166.png",
+    "large": "https://images.pokemontcg.io/sv2/166_hires.png"
+  }
+}

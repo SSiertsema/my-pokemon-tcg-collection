@@ -1,0 +1,79 @@
+{
+  "id": "smp-SM237",
+  "name": "Leafeon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Eevee",
+  "attacks": [
+    {
+      "name": "Aromax",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal all damage from 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Leaf Blade",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80+",
+      "text": "Flip a coin. If heads, this attack does 40 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "smp",
+    "name": "SM Black Star Promos",
+    "series": "Sun & Moon",
+    "printedTotal": 248,
+    "total": 250,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/smp/symbol.png",
+      "logo": "https://images.pokemontcg.io/smp/logo.png"
+    }
+  },
+  "number": "SM237",
+  "artist": "chibi",
+  "rarity": "Promo",
+  "flavorText": "Although it doesn't like disputes, it will sharpen the leaf on its tail into a blade and fight if it has to protect its friends.",
+  "nationalPokedexNumbers": [
+    470
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/smp/SM237.png",
+    "large": "https://images.pokemontcg.io/smp/SM237_hires.png"
+  }
+}

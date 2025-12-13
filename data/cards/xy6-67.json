@@ -1,0 +1,80 @@
+{
+  "id": "xy6-67",
+  "name": "Meowth",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Persian"
+  ],
+  "attacks": [
+    {
+      "name": "Feelin' Fine",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Draw a card."
+    },
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20×",
+      "text": "Flip 3 coins. This attack does 20 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy6",
+    "name": "Roaring Skies",
+    "series": "XY",
+    "printedTotal": 108,
+    "total": 112,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ROS",
+    "releaseDate": "2015/05/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy6/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy6/logo.png"
+    }
+  },
+  "number": "67",
+  "artist": "Akira Komayama",
+  "rarity": "Common",
+  "flavorText": "Adores round objects. It wanders the streets on a nightly basis to look for dropped loose change.",
+  "nationalPokedexNumbers": [
+    52
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy6/67.png",
+    "large": "https://images.pokemontcg.io/xy6/67_hires.png"
+  }
+}

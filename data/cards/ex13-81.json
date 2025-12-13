@@ -1,0 +1,75 @@
+{
+  "id": "ex13-81",
+  "name": "Psyduck δ",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Golduck"
+  ],
+  "attacks": [
+    {
+      "name": "Scratch",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Disable",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Choose 1 of the Defending Pokémon's attacks. That Pokémon can't use that attack during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex13",
+    "name": "Holon Phantoms",
+    "series": "EX",
+    "printedTotal": 110,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HP",
+    "releaseDate": "2006/05/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex13/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex13/logo.png"
+    }
+  },
+  "number": "81",
+  "artist": "Hajime Kusajima",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    54
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex13/81.png",
+    "large": "https://images.pokemontcg.io/ex13/81_hires.png"
+  }
+}

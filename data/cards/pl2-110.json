@@ -1,0 +1,84 @@
+{
+  "id": "pl2-110",
+  "name": "Mismagius GL LV.X",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Level-Up",
+    "SP"
+  ],
+  "level": "X",
+  "hp": "100",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Mismagius GL",
+  "rules": [
+    "Put this card onto your Active Mismagius GL. Mismagius GL LV.X can use any attack, Poké-Power, or Poké-Body from its previous level."
+  ],
+  "abilities": [
+    {
+      "name": "Magical Return",
+      "text": "As often as you like during your turn (before your attack), you may return a Pokémon Tool or Technical Machine card attached to your Pokémon to your hand. This power can't be used if Mismagius GL is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Darkness Magic",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Count the number of cards in your hand. Put that many damage counters on the Defending Pokémon. You can't put more than 8 damage counters in this way."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Colorless",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "110",
+  "artist": "Kent Kanetsuna",
+  "rarity": "Rare Holo LV.X",
+  "nationalPokedexNumbers": [
+    429
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/110.png",
+    "large": "https://images.pokemontcg.io/pl2/110_hires.png"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "swsh5-122",
+  "name": "Camping Gear",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Search your deck for a card and put it into your hand. Then, shuffle your deck. Your turn ends.",
+    "You may play any number of Item cards during your turn."
+  ],
+  "set": {
+    "id": "swsh5",
+    "name": "Battle Styles",
+    "series": "Sword & Shield",
+    "printedTotal": 163,
+    "total": 183,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BST",
+    "releaseDate": "2021/03/19",
+    "updatedAt": "2021/03/19 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh5/logo.png"
+    }
+  },
+  "number": "122",
+  "artist": "sadaji",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh5/122.png",
+    "large": "https://images.pokemontcg.io/swsh5/122_hires.png"
+  }
+}

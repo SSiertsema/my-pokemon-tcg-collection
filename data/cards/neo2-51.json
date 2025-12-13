@@ -1,0 +1,75 @@
+{
+  "id": "neo2-51",
+  "name": "Unown [U]",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "14",
+  "hp": "40",
+  "types": [
+    "Psychic"
+  ],
+  "rules": [
+    "You may have up to 4 Basic Pokémon cards in your deck with Unown in their names."
+  ],
+  "abilities": [
+    {
+      "name": "[Undo]",
+      "text": "Once during your turn (before your attack), if you have Unown [U], Unown [N], Unown [D], and Unown [O] on your Bench, you may return your Active Pokémon and all cards attached to it to your hand.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hidden Power",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo2",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "printedTotal": 75,
+    "total": 75,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N2",
+    "releaseDate": "2001/06/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo2/logo.png"
+    }
+  },
+  "number": "51",
+  "artist": "CR CG gangs",
+  "rarity": "Uncommon",
+  "flavorText": "Their shapes look like hieroglyphs on ancient tablets. It is said that the two are somehow related.",
+  "nationalPokedexNumbers": [
+    201
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo2/51.png",
+    "large": "https://images.pokemontcg.io/neo2/51_hires.png"
+  }
+}

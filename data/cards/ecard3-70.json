@@ -1,0 +1,75 @@
+{
+  "id": "ecard3-70",
+  "name": "Kakuna",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Weedle",
+  "evolvesTo": [
+    "Beedrill"
+  ],
+  "abilities": [
+    {
+      "name": "Exoskeleton",
+      "text": "All damage by attacks to Kakuna is reduced by 10 (after applying Weakness and Resistance).",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Poisonpowder",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ecard3",
+    "name": "Skyridge",
+    "series": "E-Card",
+    "printedTotal": 144,
+    "total": 182,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SK",
+    "releaseDate": "2003/05/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard3/logo.png"
+    }
+  },
+  "number": "70",
+  "artist": "Hisao Nakamura",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    14
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard3/70.png",
+    "large": "https://images.pokemontcg.io/ecard3/70_hires.png"
+  }
+}

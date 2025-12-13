@@ -1,0 +1,75 @@
+{
+  "id": "neo2-46",
+  "name": "Scyther",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "24",
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Scizor"
+  ],
+  "attacks": [
+    {
+      "name": "Fury Cutter",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10+",
+      "text": "Flip 4 coins. This attack does 10 damage plus 10 more damage if exactly 1 is heads, or 20 more damage if exactly 2 are heads, or 40 more damage if exactly 3 are heads, or 80 more damage if all 4 are heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo2",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "printedTotal": 75,
+    "total": 75,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N2",
+    "releaseDate": "2001/06/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo2/logo.png"
+    }
+  },
+  "number": "46",
+  "artist": "Kimiya Masago",
+  "rarity": "Uncommon",
+  "flavorText": "It slashes through grass with its sharp scythes, moving too fast for the human eye to track.",
+  "nationalPokedexNumbers": [
+    123
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo2/46.png",
+    "large": "https://images.pokemontcg.io/neo2/46_hires.png"
+  }
+}

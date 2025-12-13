@@ -1,0 +1,42 @@
+{
+  "id": "bw10-89",
+  "name": "Silver Mirror",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Pokémon Tool"
+  ],
+  "rules": [
+    "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it.",
+    "Prevent all effects of attacks, including damage, done to the Pokémon this card is attached to (excluding Pokémon-EX) by your opponent's Team Plasma Pokémon.",
+    "You may play as many Item cards as you like during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "bw10",
+    "name": "Plasma Blast",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 105,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLB",
+    "releaseDate": "2013/08/14",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw10/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw10/logo.png"
+    }
+  },
+  "number": "89",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw10/89.png",
+    "large": "https://images.pokemontcg.io/bw10/89_hires.png"
+  }
+}

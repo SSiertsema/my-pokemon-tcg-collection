@@ -1,0 +1,87 @@
+{
+  "id": "dp7-28",
+  "name": "Steelix",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "63",
+  "hp": "130",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Onix",
+  "attacks": [
+    {
+      "name": "Outbreak Power",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Choose a number of your opponent's Pokémon up to the amount of Energy attached to Steelix. This attack does 20 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Iron Tail",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "100×",
+      "text": "Flip a coin until you get tails. This attack does 100 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "dp7",
+    "name": "Stormfront",
+    "series": "Diamond & Pearl",
+    "printedTotal": 100,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SF",
+    "releaseDate": "2008/11/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp7/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp7/logo.png"
+    }
+  },
+  "number": "28",
+  "artist": "Naoyo Kimura",
+  "rarity": "Rare",
+  "flavorText": "Tempered underground under high pressure and heat, its body is harder than any metal.",
+  "nationalPokedexNumbers": [
+    208
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp7/28.png",
+    "large": "https://images.pokemontcg.io/dp7/28_hires.png"
+  }
+}

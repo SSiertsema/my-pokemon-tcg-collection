@@ -1,0 +1,87 @@
+{
+  "id": "xy10-56",
+  "name": "Tyranitar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Pupitar",
+  "abilities": [
+    {
+      "name": "Raging Roar",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon, you may attach 1 Darkness Energy from your discard pile to this Pokémon for each Prize card your opponent has taken.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Dark Mountain",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Darkness",
+        "Darkness",
+        "Darkness"
+      ],
+      "convertedEnergyCost": 5,
+      "damage": "150+",
+      "text": "Discard the top 2 cards of your deck. This attack does 50 more damage for each Supporter card discarded in this way."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "xy10",
+    "name": "Fates Collide",
+    "series": "XY",
+    "printedTotal": 124,
+    "total": 129,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FCO",
+    "releaseDate": "2016/05/02",
+    "updatedAt": "2018/09/03 11:49:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy10/logo.png"
+    }
+  },
+  "number": "56",
+  "artist": "Satoshi Shirai",
+  "rarity": "Rare Holo",
+  "flavorText": "If it rampages, it knocks down mountains and buries rivers. Maps must be redrawn afterward.",
+  "nationalPokedexNumbers": [
+    248
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy10/56.png",
+    "large": "https://images.pokemontcg.io/xy10/56_hires.png"
+  }
+}

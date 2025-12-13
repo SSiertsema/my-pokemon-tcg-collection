@@ -1,0 +1,39 @@
+{
+  "id": "dp6-130",
+  "name": "Buck's Training",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.",
+    "Draw 2 cards. As long as Buck's Training is next to your Active Pokémon, each of your Active Pokémon's attacks does 10 more damage to the Active Pokémon (before applying Weakness and Resistance)."
+  ],
+  "set": {
+    "id": "dp6",
+    "name": "Legends Awakened",
+    "series": "Diamond & Pearl",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LA",
+    "releaseDate": "2008/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp6/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp6/logo.png"
+    }
+  },
+  "number": "130",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp6/130.png",
+    "large": "https://images.pokemontcg.io/dp6/130_hires.png"
+  }
+}

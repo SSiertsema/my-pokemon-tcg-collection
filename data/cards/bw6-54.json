@@ -1,0 +1,78 @@
+{
+  "id": "bw6-54",
+  "name": "Garbodor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Trubbish",
+  "abilities": [
+    {
+      "name": "Garbotoxin",
+      "text": "If this Pokémon has a Pokémon Tool card attached to it, each Pokémon in play, in each player's hand, and in each player's discard pile has no Abilities (except for Garbotoxin).",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sludge Toss",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw6",
+    "name": "Dragons Exalted",
+    "series": "Black & White",
+    "printedTotal": 124,
+    "total": 128,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRX",
+    "releaseDate": "2012/08/15",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw6/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw6/logo.png"
+    }
+  },
+  "number": "54",
+  "artist": "kawayoo",
+  "rarity": "Rare Holo",
+  "flavorText": "It clenches opponents with its left arm and finishes them off with foul-smelling poison gas belched from its mouth.",
+  "nationalPokedexNumbers": [
+    569
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw6/54.png",
+    "large": "https://images.pokemontcg.io/bw6/54_hires.png"
+  }
+}

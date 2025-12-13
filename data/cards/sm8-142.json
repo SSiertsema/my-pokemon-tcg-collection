@@ -1,0 +1,72 @@
+{
+  "id": "sm8-142",
+  "name": "Dedenne",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fairy"
+  ],
+  "attacks": [
+    {
+      "name": "Zzzap Touch",
+      "cost": [
+        "Fairy"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Confused. If tails, your opponent's Active Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "142",
+  "artist": "Megumi Mizutani",
+  "rarity": "Uncommon",
+  "flavorText": "It uses its tail to absorb electricity from power plants or from outlets in houses, and then it fires the electricity from its whiskers.",
+  "nationalPokedexNumbers": [
+    702
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/142.png",
+    "large": "https://images.pokemontcg.io/sm8/142_hires.png"
+  }
+}

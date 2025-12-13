@@ -1,0 +1,85 @@
+{
+  "id": "bw2-77",
+  "name": "Cobalion",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Metal"
+  ],
+  "attacks": [
+    {
+      "name": "Metal Horns",
+      "cost": [
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+    },
+    {
+      "name": "Sacred Sword",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": "This Pokémon can't use Sacred Sword during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw2",
+    "name": "Emerging Powers",
+    "series": "Black & White",
+    "printedTotal": 98,
+    "total": 98,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EPO",
+    "releaseDate": "2011/08/31",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw2/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw2/logo.png"
+    }
+  },
+  "number": "77",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo",
+  "flavorText": "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+  "nationalPokedexNumbers": [
+    638
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw2/77.png",
+    "large": "https://images.pokemontcg.io/bw2/77_hires.png"
+  }
+}

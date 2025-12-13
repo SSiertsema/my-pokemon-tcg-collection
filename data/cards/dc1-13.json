@@ -1,0 +1,84 @@
+{
+  "id": "dc1-13",
+  "name": "Team Magma's Lairon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Team Magma's Aron",
+  "evolvesTo": [
+    "Aggron"
+  ],
+  "attacks": [
+    {
+      "name": "Gnaw",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Take Down",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "This Pokémon does 10 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dc1",
+    "name": "Double Crisis",
+    "series": "XY",
+    "printedTotal": 34,
+    "total": 34,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DCR",
+    "releaseDate": "2015/03/25",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dc1/symbol.png",
+      "logo": "https://images.pokemontcg.io/dc1/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Common",
+  "flavorText": "When Lairon uses Take Down, the impact from its solid body is enough to destroy concrete!",
+  "nationalPokedexNumbers": [
+    305
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dc1/13.png",
+    "large": "https://images.pokemontcg.io/dc1/13_hires.png"
+  }
+}

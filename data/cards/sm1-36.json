@@ -1,0 +1,80 @@
+{
+  "id": "sm1-36",
+  "name": "Corsola",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Cursola"
+  ],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+    },
+    {
+      "name": "Surf",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm1",
+    "name": "Sun & Moon",
+    "series": "Sun & Moon",
+    "printedTotal": 149,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SUM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm1/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Satoshi Shirai",
+  "rarity": "Uncommon",
+  "flavorText": "Pursued by Mareanie for the branches on its head, this Pokémon will sometimes snap its own branches off as a diversion while it escapes.",
+  "nationalPokedexNumbers": [
+    222
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm1/36.png",
+    "large": "https://images.pokemontcg.io/sm1/36_hires.png"
+  }
+}

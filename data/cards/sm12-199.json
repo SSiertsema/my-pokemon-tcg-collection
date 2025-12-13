@@ -1,0 +1,43 @@
+{
+  "id": "sm12-199",
+  "name": "Misty & Lorelei",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter",
+    "TAG TEAM"
+  ],
+  "rules": [
+    "Search your deck for up to 3 Water Energy cards, reveal them, and put them into your hand. Then, shuffle your deck.",
+    "When you play this card, you may discard 5 other cards from your hand. If you do, during this turn, your Water Pokémon can use their GX attacks even if you have used your GX attack.",
+    "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "199",
+  "artist": "Megumi Mizutani",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/199.png",
+    "large": "https://images.pokemontcg.io/sm12/199_hires.png"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "swsh3-106",
+  "name": "Purrloin",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesTo": [
+    "Liepard"
+  ],
+  "attacks": [
+    {
+      "name": "Dig Claws",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Fake Out",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh3",
+    "name": "Darkness Ablaze",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 201,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DAA",
+    "releaseDate": "2020/08/14",
+    "updatedAt": "2020/10/25 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh3/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh3/logo.png"
+    }
+  },
+  "number": "106",
+  "artist": "sowsow",
+  "rarity": "Common",
+  "flavorText": "It steals things from people just to amuse itself with their frustration. A rivalry exists between this Pokémon and Nickit.",
+  "nationalPokedexNumbers": [
+    509
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh3/106.png",
+    "large": "https://images.pokemontcg.io/swsh3/106_hires.png"
+  }
+}

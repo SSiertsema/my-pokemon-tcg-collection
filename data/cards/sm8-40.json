@@ -1,0 +1,70 @@
+{
+  "id": "sm8-40",
+  "name": "Cyndaquil",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Quilava"
+  ],
+  "attacks": [
+    {
+      "name": "Hammer In",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "40",
+  "artist": "kirisAki",
+  "rarity": "Common",
+  "flavorText": "It has a timid nature. If it is startled, the flames on its back burn more vigorously.",
+  "nationalPokedexNumbers": [
+    155
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/40.png",
+    "large": "https://images.pokemontcg.io/sm8/40_hires.png"
+  }
+}

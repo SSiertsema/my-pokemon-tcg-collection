@@ -1,0 +1,83 @@
+{
+  "id": "svp-120",
+  "name": "Pupitar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Larvitar",
+  "evolvesTo": [
+    "Tyranitar"
+  ],
+  "attacks": [
+    {
+      "name": "Rock Throw",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Blasting Tackle",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60",
+      "text": "This attack also does 20 damage to 1 of your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "svp",
+    "name": "Scarlet & Violet Black Star Promos",
+    "series": "Scarlet & Violet",
+    "printedTotal": 215,
+    "total": 196,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SV",
+    "releaseDate": "2023/01/01",
+    "updatedAt": "2024/11/09 13:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+      "logo": "https://images.pokemontcg.io/svp/logo.png"
+    }
+  },
+  "number": "120",
+  "artist": "Shiburingaru",
+  "rarity": "Promo",
+  "flavorText": "This pupa flies around wildly by venting with great force the gas pressurized inside its body.",
+  "nationalPokedexNumbers": [
+    247
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/svp/120.png",
+    "large": "https://images.pokemontcg.io/svp/120_hires.png"
+  }
+}

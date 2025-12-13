@@ -1,0 +1,43 @@
+{
+  "id": "xy4-97",
+  "name": "Head Ringer Team Flare Hyper Gear",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Pokémon Tool F"
+  ],
+  "rules": [
+    "Attach this Pokemon Tool to 1 of your opponent's Pokemon-EX that doesn't already have a Pokemon Tool attached to it.",
+    "The attacks of the Pokémon this card is attached to cost Colorless more.",
+    "When this card is removed from a Pokémon for any reason, put this card in its owner's discard pile.",
+    "You may play as many Item cards as you like during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "xy4",
+    "name": "Phantom Forces",
+    "series": "XY",
+    "printedTotal": 119,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PHF",
+    "releaseDate": "2014/11/05",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy4/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy4/logo.png"
+    }
+  },
+  "number": "97",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy4/97.png",
+    "large": "https://images.pokemontcg.io/xy4/97_hires.png"
+  }
+}

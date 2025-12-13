@@ -1,0 +1,38 @@
+{
+  "id": "ex10-82",
+  "name": "Energy Removal 2",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and discard it."
+  ],
+  "set": {
+    "id": "ex10",
+    "name": "Unseen Forces",
+    "series": "EX",
+    "printedTotal": 115,
+    "total": 145,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UF",
+    "releaseDate": "2005/08/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex10/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex10/logo.png"
+    }
+  },
+  "number": "82",
+  "artist": "Keiji Kinebuchi",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex10/82.png",
+    "large": "https://images.pokemontcg.io/ex10/82_hires.png"
+  }
+}

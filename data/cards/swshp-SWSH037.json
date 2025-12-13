@@ -1,0 +1,80 @@
+{
+  "id": "swshp-SWSH037",
+  "name": "Hydreigon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Zweilous",
+  "abilities": [
+    {
+      "name": "Dark Squall",
+      "text": "As often as you like during your turn, you may attach a Darkness Energy card from your hand to 1 of your Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Pitch-Black Fangs",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "130",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH037",
+  "artist": "Taira Akitsu",
+  "rarity": "Promo",
+  "flavorText": "There are a slew of stories about villages that were destroyed by Hydreigon. It bites anything that moves.",
+  "nationalPokedexNumbers": [
+    635
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH037.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH037_hires.png"
+  }
+}

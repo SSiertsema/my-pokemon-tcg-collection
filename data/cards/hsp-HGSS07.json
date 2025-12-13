@@ -1,0 +1,77 @@
+{
+  "id": "hsp-HGSS07",
+  "name": "Feraligatr",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "Prime"
+  ],
+  "hp": "140",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Croconaw",
+  "abilities": [
+    {
+      "name": "Rain Dance",
+      "text": "As often as you like during your turn (before your attack), you may attach a Water Energy from your hand to 1 of your Water Pokémon. This power can't be used if Feraligatr is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hydro Crunch",
+      "cost": [
+        "Water",
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60+",
+      "text": "Does 60 damage plus 10 more damage for each damage counter on the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "hsp",
+    "name": "HGSS Black Star Promos",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hsp/symbol.png",
+      "logo": "https://images.pokemontcg.io/hsp/logo.png"
+    }
+  },
+  "number": "HGSS07",
+  "artist": "Kent Kanetsuna",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    160
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hsp/HGSS07.png",
+    "large": "https://images.pokemontcg.io/hsp/HGSS07_hires.png"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "sm2-13",
+  "name": "Chandelure",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Lampent",
+  "abilities": [
+    {
+      "name": "Shady Move",
+      "text": "Once during your turn (before your attack), you may move 1 damage counter from 1 Pokémon to another Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Super Singe",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "50",
+      "text": "Your opponent's Active Pokémon is now Burned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm2",
+    "name": "Guardians Rising",
+    "series": "Sun & Moon",
+    "printedTotal": 145,
+    "total": 180,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "GRI",
+    "releaseDate": "2017/05/05",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm2/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare Holo",
+  "flavorText": "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+  "nationalPokedexNumbers": [
+    609
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm2/13.png",
+    "large": "https://images.pokemontcg.io/sm2/13_hires.png"
+  }
+}

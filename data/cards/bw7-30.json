@@ -1,0 +1,82 @@
+{
+  "id": "bw7-30",
+  "name": "Wartortle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Squirtle",
+  "evolvesTo": [
+    "Blastoise"
+  ],
+  "attacks": [
+    {
+      "name": "Withdraw",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, prevent all damage done to this Pokémon by attacks during your opponent's next turn."
+    },
+    {
+      "name": "Waterfall",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw7",
+    "name": "Boundaries Crossed",
+    "series": "Black & White",
+    "printedTotal": 149,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BCR",
+    "releaseDate": "2012/11/07",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw7/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw7/logo.png"
+    }
+  },
+  "number": "30",
+  "artist": "Mizue",
+  "rarity": "Uncommon",
+  "flavorText": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+  "nationalPokedexNumbers": [
+    8
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw7/30.png",
+    "large": "https://images.pokemontcg.io/bw7/30_hires.png"
+  }
+}

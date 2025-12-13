@@ -1,0 +1,80 @@
+{
+  "id": "sm1-56",
+  "name": "Crobat",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Golbat",
+  "attacks": [
+    {
+      "name": "Triple Poison",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent's Active Pokémon is now Poisoned. Put 3 damage counters instead of 1 on that Pokémon between turns."
+    },
+    {
+      "name": "Surprise Strike",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "If this Pokémon was on the Bench and became your Active Pokémon this turn, this attack does 60 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "sm1",
+    "name": "Sun & Moon",
+    "series": "Sun & Moon",
+    "printedTotal": 149,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SUM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm1/logo.png"
+    }
+  },
+  "number": "56",
+  "artist": "DemizuPosuka",
+  "rarity": "Rare Holo",
+  "flavorText": "Both its legs became wings, and as a result, it can't move well on the ground. All it can do is crawl around.",
+  "nationalPokedexNumbers": [
+    169
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm1/56.png",
+    "large": "https://images.pokemontcg.io/sm1/56_hires.png"
+  }
+}

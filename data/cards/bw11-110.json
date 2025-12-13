@@ -1,0 +1,41 @@
+{
+  "id": "bw11-110",
+  "name": "Cedric Juniper",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Put a Pokémon from your hand face down in front of you and tell your opponent its name. Your opponent guesses the height of that Pokémon. Reveal that Pokémon. If your opponent guessed right, he or she draws 3 cards. If your opponent guessed wrong, you draw 3 cards. Return the Pokémon to your hand. (You can't choose a Pokémon that doesn't have the height printed on the card.)",
+    "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "bw11",
+    "name": "Legendary Treasures",
+    "series": "Black & White",
+    "printedTotal": 113,
+    "total": 140,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LTR",
+    "releaseDate": "2013/11/06",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw11/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw11/logo.png"
+    }
+  },
+  "number": "110",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw11/110.png",
+    "large": "https://images.pokemontcg.io/bw11/110_hires.png"
+  }
+}

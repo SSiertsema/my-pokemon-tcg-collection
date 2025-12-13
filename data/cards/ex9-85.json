@@ -1,0 +1,39 @@
+{
+  "id": "ex9-85",
+  "name": "Wally's Training",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.",
+    "Search your deck for a card that evolves from your Active Pokémon (choose 1 if there are 2) and put it on your Active Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward."
+  ],
+  "set": {
+    "id": "ex9",
+    "name": "Emerald",
+    "series": "EX",
+    "printedTotal": 106,
+    "total": 107,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "EM",
+    "releaseDate": "2005/05/01",
+    "updatedAt": "2020/02/08 09:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex9/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex9/logo.png"
+    }
+  },
+  "number": "85",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex9/85.png",
+    "large": "https://images.pokemontcg.io/ex9/85_hires.png"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "swsh12pt5-33",
+  "name": "Corphish",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Crawdaunt"
+  ],
+  "attacks": [
+    {
+      "name": "Water Gun",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Crabhammer",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh12pt5",
+    "name": "Crown Zenith",
+    "series": "Sword & Shield",
+    "printedTotal": 159,
+    "total": 160,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRZ",
+    "releaseDate": "2023/01/20",
+    "updatedAt": "2023/01/19 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+    }
+  },
+  "number": "33",
+  "artist": "0313",
+  "rarity": "Common",
+  "flavorText": "No matter how dirty the water in the river, it will adapt and thrive. It has a strong will to survive.",
+  "nationalPokedexNumbers": [
+    341
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12pt5/33.png",
+    "large": "https://images.pokemontcg.io/swsh12pt5/33_hires.png"
+  }
+}

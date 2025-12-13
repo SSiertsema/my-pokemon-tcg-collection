@@ -1,0 +1,73 @@
+{
+  "id": "sm75-31",
+  "name": "Wishiwashi",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "30",
+  "types": [
+    "Water"
+  ],
+  "abilities": [
+    {
+      "name": "Meet Up",
+      "text": "Your Wishiwashi-GX in play get +20 HP, and their attacks do 20 more damage to your opponent's Active Pokémon (before applying Weakness and Resistance).",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Water Gun",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm75",
+    "name": "Dragon Majesty",
+    "series": "Sun & Moon",
+    "printedTotal": 70,
+    "total": 80,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRM",
+    "releaseDate": "2018/09/07",
+    "updatedAt": "2018/10/01 21:54:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm75/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm75/logo.png"
+    }
+  },
+  "number": "31",
+  "artist": "Kouki Saitou",
+  "rarity": "Common",
+  "flavorText": "It's awfully weak and notably tasty, so everyone is always out to get it. As it happens, anyone trying to bully it receives a painful lesson.",
+  "nationalPokedexNumbers": [
+    746
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm75/31.png",
+    "large": "https://images.pokemontcg.io/sm75/31_hires.png"
+  }
+}

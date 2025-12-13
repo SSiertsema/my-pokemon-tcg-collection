@@ -1,0 +1,64 @@
+{
+  "id": "col1-36",
+  "name": "Tyrogue",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "30",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Hitmonlee",
+    "Hitmonchan",
+    "Hitmontop"
+  ],
+  "abilities": [
+    {
+      "name": "Sweet Sleeping Face",
+      "text": "As long as Tyrogue is Asleep, prevent all damage done to Tyrogue by attacks.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mischievous Punch",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "30",
+      "text": "This attack's damage isn't affected by Weakness or Resistance. Tyrogue is now Asleep."
+    }
+  ],
+  "set": {
+    "id": "col1",
+    "name": "Call of Legends",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CL",
+    "releaseDate": "2011/02/09",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/col1/symbol.png",
+      "logo": "https://images.pokemontcg.io/col1/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Shigenori Negishi",
+  "rarity": "Rare",
+  "flavorText": "Even though it is small, it can't be ignored because it will slug any handy target without warning.",
+  "nationalPokedexNumbers": [
+    236
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/col1/36.png",
+    "large": "https://images.pokemontcg.io/col1/36_hires.png"
+  }
+}

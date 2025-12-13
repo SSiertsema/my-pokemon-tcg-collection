@@ -1,0 +1,83 @@
+{
+  "id": "swsh9-10",
+  "name": "Wormadam",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Burmy",
+  "attacks": [
+    {
+      "name": "Matron's Anger",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "This attack does 10 more damage for each Pokémon in your discard pile."
+    },
+    {
+      "name": "Leaf Drain",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "Heal 30 damage from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh9",
+    "name": "Brilliant Stars",
+    "series": "Sword & Shield",
+    "printedTotal": 172,
+    "total": 186,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BRS",
+    "releaseDate": "2022/02/25",
+    "updatedAt": "2022/02/23 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh9/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh9/logo.png"
+    }
+  },
+  "number": "10",
+  "artist": "Yuka Morii",
+  "rarity": "Rare",
+  "flavorText": "When Burmy evolved, its cloak became a part of this Pokémon's body. The cloak is never shed.",
+  "nationalPokedexNumbers": [
+    413
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh9/10.png",
+    "large": "https://images.pokemontcg.io/swsh9/10_hires.png"
+  }
+}

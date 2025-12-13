@@ -1,0 +1,43 @@
+{
+  "id": "me1-183",
+  "name": "Acerola's Mischief",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "You can use this card only if your opponent has 2 or fewer Prize cards remaining.  Choose 1 of your Pokémon in play. During your opponent's next turn, prevent all damage from and effects of attacks done to that Pokémon by your opponent's Pokémon ex.",
+    "You may play only 1 Supporter card during your turn."
+  ],
+  "set": {
+    "id": "me1",
+    "name": "Mega Evolution",
+    "series": "Mega Evolution",
+    "printedTotal": 132,
+    "total": 188,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "MEG",
+    "releaseDate": "2025/09/26",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me1/symbol.png",
+      "logo": "https://images.pokemontcg.io/me1/logo.png"
+    }
+  },
+  "number": "183",
+  "rarity": "Special Illustration Rare",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me1/183.png",
+    "large": "https://images.pokemontcg.io/me1/183_hires.png"
+  }
+}

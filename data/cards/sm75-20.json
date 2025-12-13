@@ -1,0 +1,79 @@
+{
+  "id": "sm75-20",
+  "name": "Gyarados",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "160",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Magikarp",
+  "abilities": [
+    {
+      "name": "Commotion",
+      "text": "If this Pokémon is your Active Pokémon and is damaged by an opponent's attack (even if this Pokémon is Knocked Out), put 2 damage counters on each of your Benched Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wild Tail",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "160",
+      "text": "You may discard any Stadium card in play."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "sm75",
+    "name": "Dragon Majesty",
+    "series": "Sun & Moon",
+    "printedTotal": 70,
+    "total": 80,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRM",
+    "releaseDate": "2018/09/07",
+    "updatedAt": "2018/10/01 21:54:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm75/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm75/logo.png"
+    }
+  },
+  "number": "20",
+  "artist": "kawayoo",
+  "rarity": "Rare Holo",
+  "flavorText": "There are people who swear that any place Gyarados appears is fated for destruction.",
+  "nationalPokedexNumbers": [
+    130
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm75/20.png",
+    "large": "https://images.pokemontcg.io/sm75/20_hires.png"
+  }
+}

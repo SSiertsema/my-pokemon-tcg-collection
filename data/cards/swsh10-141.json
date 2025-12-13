@@ -1,0 +1,44 @@
+{
+  "id": "swsh10-141",
+  "name": "Feather Ball",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Search your deck for a Pokémon that has no Retreat Cost, reveal it, and put it into your hand. Then, shuffle your deck.",
+    "You may play any number of Item cards during your turn."
+  ],
+  "set": {
+    "id": "swsh10",
+    "name": "Astral Radiance",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ASR",
+    "releaseDate": "2022/05/27",
+    "updatedAt": "2022/05/27 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh10/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh10/logo.png"
+    }
+  },
+  "number": "141",
+  "artist": "Studio Bora Inc.",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh10/141.png",
+    "large": "https://images.pokemontcg.io/swsh10/141_hires.png"
+  }
+}

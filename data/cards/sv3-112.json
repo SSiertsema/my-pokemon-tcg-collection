@@ -1,0 +1,77 @@
+{
+  "id": "sv3-112",
+  "name": "Stunfisk",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Fighting"
+  ],
+  "abilities": [
+    {
+      "name": "Custom Trap",
+      "text": "If this Pokémon is in the Active Spot, has a Pokémon Tool attached, and is damaged by an attack from your opponent's Pokémon (even if this Pokémon is Knocked Out), put 5 damage counters on the Attacking Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Rumble",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv3",
+    "name": "Obsidian Flames",
+    "series": "Scarlet & Violet",
+    "printedTotal": 197,
+    "total": 230,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/08/11",
+    "updatedAt": "2023/08/11 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3/logo.png"
+    }
+  },
+  "number": "112",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Uncommon",
+  "flavorText": "For some reason, this Pokémon smiles slightly when it emits a strong electric current from the yellow markings on its body.",
+  "nationalPokedexNumbers": [
+    618
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3/112.png",
+    "large": "https://images.pokemontcg.io/sv3/112_hires.png"
+  }
+}

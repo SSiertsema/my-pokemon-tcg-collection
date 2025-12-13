@@ -1,0 +1,77 @@
+{
+  "id": "neo1-42",
+  "name": "Noctowl",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "23",
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Hoothoot",
+  "abilities": [
+    {
+      "name": "Glaring Gaze",
+      "text": "Once during your turn (before your attack), you may flip a coin. If heads, look at your opponent's hand. If your opponent has any Trainer cards there, choose 1 of them. Your opponent shuffles that card into his or her deck. This power can't be used if Noctowl is Asleep, Confused, or Paralyzed.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wing Attack",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "neo1",
+    "name": "Neo Genesis",
+    "series": "Neo",
+    "printedTotal": 111,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N1",
+    "releaseDate": "2000/12/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo1/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo1/logo.png"
+    }
+  },
+  "number": "42",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "flavorText": "Its eyes are specially adapted. They concentrate even faint light and enable it to see in the dark.",
+  "nationalPokedexNumbers": [
+    164
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo1/42.png",
+    "large": "https://images.pokemontcg.io/neo1/42_hires.png"
+  }
+}

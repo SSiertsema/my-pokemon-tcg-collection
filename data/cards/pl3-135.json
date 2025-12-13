@@ -1,0 +1,39 @@
+{
+  "id": "pl3-135",
+  "name": "Champion's Room",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",
+    "The Retreat cost for each Pokémon SP (both yours and your opponent's) is Colorless less."
+  ],
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "135",
+  "artist": "Yusuke Ishikawa",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/135.png",
+    "large": "https://images.pokemontcg.io/pl3/135_hires.png"
+  }
+}

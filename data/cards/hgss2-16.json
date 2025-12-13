@@ -1,0 +1,70 @@
+{
+  "id": "hgss2-16",
+  "name": "Floatzel",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Buizel",
+  "abilities": [
+    {
+      "name": "Water Acceleration",
+      "text": "Once during your turn (before your attack), you may attach a Water Energy card from your hand to Floatzel. This power can't be used if Floatzel is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Waterfall",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "hgss2",
+    "name": "HS—Unleashed",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 96,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UL",
+    "releaseDate": "2010/05/12",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss2/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss2/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare",
+  "flavorText": "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
+  "nationalPokedexNumbers": [
+    419
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss2/16.png",
+    "large": "https://images.pokemontcg.io/hgss2/16_hires.png"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "me2-82",
+  "name": "Linoone",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Zigzagoon",
+  "abilities": [
+    {
+      "name": "Excited Dash",
+      "text": "Once during your turn, if this Pokémon is on your Bench, and if you have any Mega Evolution Pokémon ex in play, you may use this Ability. Switch this Pokémon with your Active Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "70",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "me2",
+    "name": "Phantasmal Flames",
+    "series": "Mega Evolution",
+    "printedTotal": 94,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PFL",
+    "releaseDate": "2025/11/14",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+      "logo": "https://images.pokemontcg.io/me2/logo.png"
+    }
+  },
+  "number": "82",
+  "artist": "nagimiso",
+  "rarity": "Uncommon",
+  "flavorText": "It uses its explosive speed and razor-sharp claws to bring down prey. Running along winding paths is not its strong suit.",
+  "nationalPokedexNumbers": [
+    264
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me2/82.png",
+    "large": "https://images.pokemontcg.io/me2/82_hires.png"
+  }
+}

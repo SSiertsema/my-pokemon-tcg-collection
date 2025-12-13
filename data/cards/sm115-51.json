@@ -1,0 +1,41 @@
+{
+  "id": "sm115-51",
+  "name": "Bill's Analysis",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Look at the top 7 cards of your deck. You may reveal up to 2 Trainer cards you find there and put them into your hand. Shuffle the other cards back into your deck.",
+    "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "sm115",
+    "name": "Hidden Fates",
+    "series": "Sun & Moon",
+    "printedTotal": 68,
+    "total": 69,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "HIF",
+    "releaseDate": "2019/08/23",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm115/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm115/logo.png"
+    }
+  },
+  "number": "51",
+  "artist": "Naoki Saito",
+  "rarity": "Rare",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm115/51.png",
+    "large": "https://images.pokemontcg.io/sm115/51_hires.png"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "sm6-70",
+  "name": "Hawlucha",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "name": "High Jump Kick",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Sky Drop",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80-",
+      "text": "This attack does 20 less damage for each Colorless in your opponent's Active Pokémon's Retreat Cost."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm6",
+    "name": "Forbidden Light",
+    "series": "Sun & Moon",
+    "printedTotal": 131,
+    "total": 150,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLI",
+    "releaseDate": "2018/05/04",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm6/logo.png"
+    }
+  },
+  "number": "70",
+  "artist": "Naoki Saito",
+  "rarity": "Uncommon",
+  "flavorText": "With its wings, it controls its position in the air. It likes to attack from above, a maneuver that is difficult to defend against.",
+  "nationalPokedexNumbers": [
+    701
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm6/70.png",
+    "large": "https://images.pokemontcg.io/sm6/70_hires.png"
+  }
+}

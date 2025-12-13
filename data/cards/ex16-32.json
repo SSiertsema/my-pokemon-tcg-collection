@@ -1,0 +1,86 @@
+{
+  "id": "ex16-32",
+  "name": "Lairon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Aron",
+  "evolvesTo": [
+    "Aggron"
+  ],
+  "attacks": [
+    {
+      "name": "Granite Head",
+      "cost": [
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "During your opponent's next turn, any damage done to Lairon by attacks is reduced by 10 (after applying Weakness and Resistance)."
+    },
+    {
+      "name": "Stomp",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Flip a coin. If heads, this attack does 30 damage plus 20 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex16",
+    "name": "Power Keepers",
+    "series": "EX",
+    "printedTotal": 108,
+    "total": 108,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PK",
+    "releaseDate": "2007/02/02",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex16/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex16/logo.png"
+    }
+  },
+  "number": "32",
+  "artist": "Sachiko Adachi",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    305
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex16/32.png",
+    "large": "https://images.pokemontcg.io/ex16/32_hires.png"
+  }
+}

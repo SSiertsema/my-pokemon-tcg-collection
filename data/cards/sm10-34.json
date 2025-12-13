@@ -1,0 +1,79 @@
+{
+  "id": "sm10-34",
+  "name": "Wartortle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Squirtle",
+  "evolvesTo": [
+    "Blastoise"
+  ],
+  "abilities": [
+    {
+      "name": "Solid Shell",
+      "text": "This Pokémon takes 20 less damage from attacks (after applying Weakness and Resistance).",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Aqua Slash",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60",
+      "text": "This Pokémon can't attack during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm10",
+    "name": "Unbroken Bonds",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 234,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNB",
+    "releaseDate": "2019/05/03",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm10/logo.png"
+    }
+  },
+  "number": "34",
+  "artist": "Hiroki Asanuma",
+  "rarity": "Uncommon",
+  "flavorText": "When tapped, this Pokémon will pull in its head, but its tail will still stick out a little bit.",
+  "nationalPokedexNumbers": [
+    8
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm10/34.png",
+    "large": "https://images.pokemontcg.io/sm10/34_hires.png"
+  }
+}

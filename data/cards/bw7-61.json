@@ -1,0 +1,69 @@
+{
+  "id": "bw7-61",
+  "name": "Duskull",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Dusclops"
+  ],
+  "attacks": [
+    {
+      "name": "Confuse Ray",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw7",
+    "name": "Boundaries Crossed",
+    "series": "Black & White",
+    "printedTotal": 149,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BCR",
+    "releaseDate": "2012/11/07",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw7/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw7/logo.png"
+    }
+  },
+  "number": "61",
+  "artist": "Naoki Saito",
+  "rarity": "Common",
+  "flavorText": "It loves the crying of children. It startles bad kids by passing through walls and making them cry.",
+  "nationalPokedexNumbers": [
+    355
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw7/61.png",
+    "large": "https://images.pokemontcg.io/bw7/61_hires.png"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "sm1-109",
+  "name": "Yungoos",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Gumshoos"
+  ],
+  "attacks": [
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Bite",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm1",
+    "name": "Sun & Moon",
+    "series": "Sun & Moon",
+    "printedTotal": 149,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SUM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm1/logo.png"
+    }
+  },
+  "number": "109",
+  "artist": "match",
+  "rarity": "Common",
+  "flavorText": "With its sharp fangs, it will bite anything. It did not originally live in Alola but was imported from another region.",
+  "nationalPokedexNumbers": [
+    734
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm1/109.png",
+    "large": "https://images.pokemontcg.io/sm1/109_hires.png"
+  }
+}

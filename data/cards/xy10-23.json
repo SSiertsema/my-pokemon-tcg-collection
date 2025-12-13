@@ -1,0 +1,78 @@
+{
+  "id": "xy10-23",
+  "name": "Barbaracle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Binacle",
+  "abilities": [
+    {
+      "name": "Hand Block",
+      "text": "If you have a Stadium card in play, your opponent can't attach any Special Energy cards from his or her hand to his or her Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Claw Slash",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy10",
+    "name": "Fates Collide",
+    "series": "XY",
+    "printedTotal": 124,
+    "total": 129,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FCO",
+    "releaseDate": "2016/05/02",
+    "updatedAt": "2018/09/03 11:49:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy10/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare",
+  "flavorText": "Barbaracle's legs and hands have minds of their own, and they will move independently. But they usually follow the head's orders.",
+  "nationalPokedexNumbers": [
+    689
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy10/23.png",
+    "large": "https://images.pokemontcg.io/xy10/23_hires.png"
+  }
+}

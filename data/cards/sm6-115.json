@@ -1,0 +1,41 @@
+{
+  "id": "sm6-115",
+  "name": "Ultra Space",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "Once during each player's turn, that player may search their deck for an Ultra Beast card, reveal it, put it into their hand, and shuffle their deck.",
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
+  ],
+  "set": {
+    "id": "sm6",
+    "name": "Forbidden Light",
+    "series": "Sun & Moon",
+    "printedTotal": 131,
+    "total": 150,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLI",
+    "releaseDate": "2018/05/04",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm6/logo.png"
+    }
+  },
+  "number": "115",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm6/115.png",
+    "large": "https://images.pokemontcg.io/sm6/115_hires.png"
+  }
+}

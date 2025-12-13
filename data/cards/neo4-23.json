@@ -1,0 +1,77 @@
+{
+  "id": "neo4-23",
+  "name": "Light Lanturn",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "33",
+  "hp": "80",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Chinchou",
+  "attacks": [
+    {
+      "name": "Searchlight",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, each player may choose a card from his or her discard pile and put it into his or her hand."
+    },
+    {
+      "name": "Spark",
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "If your opponent has any Benched Pokémon, choose 1 of them and this attack does 10 damage to it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "neo4",
+    "name": "Neo Destiny",
+    "series": "Neo",
+    "printedTotal": 105,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N4",
+    "releaseDate": "2002/02/28",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo4/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Miki Tanaka",
+  "rarity": "Rare",
+  "flavorText": "This Pokémon has evolved its dorsal fin to emit light, which attracts the fish it feeds on.",
+  "nationalPokedexNumbers": [
+    171
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo4/23.png",
+    "large": "https://images.pokemontcg.io/neo4/23_hires.png"
+  }
+}

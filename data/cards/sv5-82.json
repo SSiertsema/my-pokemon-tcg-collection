@@ -1,0 +1,82 @@
+{
+  "id": "sv5-82",
+  "name": "Meditite",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Medicham"
+  ],
+  "attacks": [
+    {
+      "name": "Slap",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Kick",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv5",
+    "name": "Temporal Forces",
+    "series": "Scarlet & Violet",
+    "printedTotal": 162,
+    "total": 218,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEF",
+    "releaseDate": "2024/03/22",
+    "updatedAt": "2024/03/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv5/logo.png"
+    }
+  },
+  "number": "82",
+  "artist": "Natsumi Miyanose",
+  "rarity": "Common",
+  "flavorText": "It meditates to heighten its inner energy and to float in the air. It eats one berry a day.",
+  "nationalPokedexNumbers": [
+    307
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv5/82.png",
+    "large": "https://images.pokemontcg.io/sv5/82_hires.png"
+  }
+}

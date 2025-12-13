@@ -1,0 +1,73 @@
+{
+  "id": "xy10-38",
+  "name": "Kabuto",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Restored"
+  ],
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Dome Fossil Kabuto",
+  "evolvesTo": [
+    "Kabutops"
+  ],
+  "rules": [
+    "Put this card onto your Bench only with the effect of Dome Fossil Kabuto"
+  ],
+  "attacks": [
+    {
+      "name": "Mud Shot",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy10",
+    "name": "Fates Collide",
+    "series": "XY",
+    "printedTotal": 124,
+    "total": 129,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FCO",
+    "releaseDate": "2016/05/02",
+    "updatedAt": "2018/09/03 11:49:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy10/logo.png"
+    }
+  },
+  "number": "38",
+  "artist": "MAHOU",
+  "rarity": "Uncommon",
+  "flavorText": "This Pokémon was regenerated from the fossil of an ancient creature. It protects itself with a hard shell.",
+  "nationalPokedexNumbers": [
+    140
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy10/38.png",
+    "large": "https://images.pokemontcg.io/xy10/38_hires.png"
+  }
+}

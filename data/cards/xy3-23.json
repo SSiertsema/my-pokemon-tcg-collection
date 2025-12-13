@@ -1,0 +1,80 @@
+{
+  "id": "xy3-23",
+  "name": "Clauncher",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Clawitzer"
+  ],
+  "attacks": [
+    {
+      "name": "Bubble",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    },
+    {
+      "name": "Crabhammer",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy3",
+    "name": "Furious Fists",
+    "series": "XY",
+    "printedTotal": 111,
+    "total": 114,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FFI",
+    "releaseDate": "2014/08/13",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy3/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy3/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "5ban Graphics",
+  "rarity": "Common",
+  "flavorText": "They knock down flying prey by firing compressed water from their massive claws like shooting a pistol.",
+  "nationalPokedexNumbers": [
+    692
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy3/23.png",
+    "large": "https://images.pokemontcg.io/xy3/23_hires.png"
+  }
+}

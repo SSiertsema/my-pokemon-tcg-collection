@@ -1,0 +1,68 @@
+{
+  "id": "mcd14-10",
+  "name": "Bunnelby",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Diggersby"
+  ],
+  "attacks": [
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "mcd14",
+    "name": "McDonald's Collection 2014",
+    "series": "Other",
+    "printedTotal": 12,
+    "total": 12,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2014/05/23",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/mcd14/symbol.png",
+      "logo": "https://images.pokemontcg.io/mcd14/logo.png"
+    }
+  },
+  "number": "10",
+  "artist": "5ban Graphics",
+  "flavorText": "They use their large ears to dig burrows. They will dig the whole night through.",
+  "nationalPokedexNumbers": [
+    659
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/mcd14/10.png",
+    "large": "https://images.pokemontcg.io/mcd14/10_hires.png"
+  }
+}

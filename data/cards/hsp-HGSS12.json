@@ -1,0 +1,62 @@
+{
+  "id": "hsp-HGSS12",
+  "name": "Cleffa",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "30",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Clefairy"
+  ],
+  "abilities": [
+    {
+      "name": "Sweet Sleeping Face",
+      "text": "As long as Cleffa is Asleep, prevent all damage done to Cleffa by attacks.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Eeeeeeek",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Shuffle your hand into your deck, then draw 6 cards. Cleffa is now Asleep."
+    }
+  ],
+  "set": {
+    "id": "hsp",
+    "name": "HGSS Black Star Promos",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hsp/symbol.png",
+      "logo": "https://images.pokemontcg.io/hsp/logo.png"
+    }
+  },
+  "number": "HGSS12",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Promo",
+  "flavorText": "Because of its unusual, star-like silhouette, people believe that it came here on a meteor.",
+  "nationalPokedexNumbers": [
+    173
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hsp/HGSS12.png",
+    "large": "https://images.pokemontcg.io/hsp/HGSS12_hires.png"
+  }
+}

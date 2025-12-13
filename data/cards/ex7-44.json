@@ -1,0 +1,77 @@
+{
+  "id": "ex7-44",
+  "name": "Magmar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Magmortar"
+  ],
+  "attacks": [
+    {
+      "name": "Dump and Draw",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Discard up to 2 Energy cards from your hand. Then, draw 2 cards for each Energy card you discarded."
+    },
+    {
+      "name": "Flame Tail",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex7",
+    "name": "Team Rocket Returns",
+    "series": "EX",
+    "printedTotal": 109,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TRR",
+    "releaseDate": "2004/11/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex7/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex7/logo.png"
+    }
+  },
+  "number": "44",
+  "artist": "Yukiko Baba",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    126
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex7/44.png",
+    "large": "https://images.pokemontcg.io/ex7/44_hires.png"
+  }
+}

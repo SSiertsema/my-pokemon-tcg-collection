@@ -1,0 +1,70 @@
+{
+  "id": "sm10-96",
+  "name": "Wooper",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Quagsire"
+  ],
+  "attacks": [
+    {
+      "name": "Mud Bomb",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm10",
+    "name": "Unbroken Bonds",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 234,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNB",
+    "releaseDate": "2019/05/03",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm10/logo.png"
+    }
+  },
+  "number": "96",
+  "artist": "tetsuya koizumi",
+  "rarity": "Common",
+  "flavorText": "This Pokémon lives in cold water. It will leave the water to search for food when it gets cold outside.",
+  "nationalPokedexNumbers": [
+    194
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm10/96.png",
+    "large": "https://images.pokemontcg.io/sm10/96_hires.png"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "sv5-62",
+  "name": "Iron Thorns",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Future"
+  ],
+  "hp": "140",
+  "types": [
+    "Lightning"
+  ],
+  "attacks": [
+    {
+      "name": "Destructo-Press",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70×",
+      "text": "Reveal the top 5 cards of your deck. This attack does 70 damage for each Future card you find there. Then, discard those Future cards and shuffle the other cards back into your deck."
+    },
+    {
+      "name": "Megaton Lariat",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "140",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv5",
+    "name": "Temporal Forces",
+    "series": "Scarlet & Violet",
+    "printedTotal": 162,
+    "total": 218,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEF",
+    "releaseDate": "2024/03/22",
+    "updatedAt": "2024/03/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv5/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "Takeshi Nakamura",
+  "rarity": "Rare",
+  "flavorText": "Some of its notable features match those of an object named within a certain expedition journal as Iron Thorns.",
+  "nationalPokedexNumbers": [
+    995
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv5/62.png",
+    "large": "https://images.pokemontcg.io/sv5/62_hires.png"
+  }
+}

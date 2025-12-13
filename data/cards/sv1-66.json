@@ -1,0 +1,79 @@
+{
+  "id": "sv1-66",
+  "name": "Mareep",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Lightning"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Lightning"
+      ],
+      "name": "Static Shock",
+      "damage": "10",
+      "text": "",
+      "convertedEnergyCost": 1
+    },
+    {
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "name": "Electro Ball",
+      "damage": "40",
+      "text": "",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv1",
+    "name": "Scarlet & Violet",
+    "series": "Scarlet & Violet",
+    "printedTotal": 198,
+    "total": 258,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/03/31",
+    "updatedAt": "2023/03/31 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv1/logo.png"
+    }
+  },
+  "number": "66",
+  "artist": "Narumi Sato",
+  "rarity": "Common",
+  "flavorText": "Its fleece grows continually. In the summer, the fleece is fully shed, but it grows back in a week.",
+  "nationalPokedexNumbers": [
+    179
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv1/66.png",
+    "large": "https://images.pokemontcg.io/sv1/66_hires.png"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "sm9-157",
+  "name": "Water Memory",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Pokémon Tool"
+  ],
+  "rules": [
+    "Attach a Pokémon Tool to 1 of your Pokémon that doesn't already have a Pokémon Tool attached to it.",
+    "The Silvally-GX this card is attached to is a Water Pokémon.",
+    "You may play as many Item cards as you like during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "sm9",
+    "name": "Team Up",
+    "series": "Sun & Moon",
+    "printedTotal": 181,
+    "total": 198,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEU",
+    "releaseDate": "2019/02/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm9/logo.png"
+    }
+  },
+  "number": "157",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm9/157.png",
+    "large": "https://images.pokemontcg.io/sm9/157_hires.png"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "xyp-XY115",
+  "name": "Shaymin",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "name": "Aromatherapy",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Heal 30 damage from each of your Pokémon."
+    },
+    {
+      "name": "Magical Leaf",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40+",
+      "text": "Flip a coin. If heads, this attack does 20 more damage and heal 20 damage from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY115",
+  "artist": "You Iribi",
+  "rarity": "Promo",
+  "flavorText": "The blooming of Gracidea flowers confers the power of flight upon it. Feelings of gratitude and the message it delivers.",
+  "nationalPokedexNumbers": [
+    492
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY115.png",
+    "large": "https://images.pokemontcg.io/xyp/XY115_hires.png"
+  }
+}

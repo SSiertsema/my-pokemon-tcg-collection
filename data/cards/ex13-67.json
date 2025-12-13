@@ -1,0 +1,78 @@
+{
+  "id": "ex13-67",
+  "name": "Kabuto δ",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Mysterious Fossil",
+  "evolvesTo": [
+    "Kabutops"
+  ],
+  "attacks": [
+    {
+      "name": "Eerie Light",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Confused."
+    },
+    {
+      "name": "Shell Attack",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex13",
+    "name": "Holon Phantoms",
+    "series": "EX",
+    "printedTotal": 110,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HP",
+    "releaseDate": "2006/05/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex13/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex13/logo.png"
+    }
+  },
+  "number": "67",
+  "artist": "Hajime Kusajima",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    140
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex13/67.png",
+    "large": "https://images.pokemontcg.io/ex13/67_hires.png"
+  }
+}

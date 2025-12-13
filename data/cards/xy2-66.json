@@ -1,0 +1,82 @@
+{
+  "id": "xy2-66",
+  "name": "Florges",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "110",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesFrom": "Floette",
+  "attacks": [
+    {
+      "name": "Brilliant Search",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for up to 3 cards and put them into your hand. Shuffle your deck afterward."
+    },
+    {
+      "name": "Petal Blizzard",
+      "cost": [
+        "Fairy"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy2",
+    "name": "Flashfire",
+    "series": "XY",
+    "printedTotal": 106,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLF",
+    "releaseDate": "2014/05/07",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy2/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy2/logo.png"
+    }
+  },
+  "number": "66",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo",
+  "flavorText": "It claims exquisite flower gardens as its territory, and it obtains power from basking in the energy emitted by flowering plants.",
+  "nationalPokedexNumbers": [
+    671
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy2/66.png",
+    "large": "https://images.pokemontcg.io/xy2/66_hires.png"
+  }
+}

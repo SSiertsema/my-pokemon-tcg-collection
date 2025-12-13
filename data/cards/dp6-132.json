@@ -1,0 +1,38 @@
+{
+  "id": "dp6-132",
+  "name": "Energy Pickup",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Flip a coin. If heads, search your discard pile for a basic Energy card and attach it to 1 of your Pokémon."
+  ],
+  "set": {
+    "id": "dp6",
+    "name": "Legends Awakened",
+    "series": "Diamond & Pearl",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LA",
+    "releaseDate": "2008/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp6/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp6/logo.png"
+    }
+  },
+  "number": "132",
+  "artist": "Kent Kanetsuna",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp6/132.png",
+    "large": "https://images.pokemontcg.io/dp6/132_hires.png"
+  }
+}

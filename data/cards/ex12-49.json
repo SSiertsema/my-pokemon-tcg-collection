@@ -1,0 +1,66 @@
+{
+  "id": "ex12-49",
+  "name": "Bellsprout",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Weepinbell"
+  ],
+  "attacks": [
+    {
+      "name": "Sleep Powder",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex12",
+    "name": "Legend Maker",
+    "series": "EX",
+    "printedTotal": 92,
+    "total": 93,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LM",
+    "releaseDate": "2006/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex12/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex12/logo.png"
+    }
+  },
+  "number": "49",
+  "artist": "Midori Harada",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    69
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex12/49.png",
+    "large": "https://images.pokemontcg.io/ex12/49_hires.png"
+  }
+}

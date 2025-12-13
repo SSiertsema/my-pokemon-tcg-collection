@@ -1,0 +1,81 @@
+{
+  "id": "sv10-1",
+  "name": "Ethan's Pinsir",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "name": "Vise Grip",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Rallying Horn",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70+",
+      "text": "If any of your Ethan's Pokémon were Knocked Out by damage from an attack during your opponent's last turn, this attack does 100 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv10",
+    "name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 244,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRI",
+    "releaseDate": "2025/05/30",
+    "updatedAt": "2025/05/29 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv10/logo.png"
+    }
+  },
+  "number": "1",
+  "artist": "GIDORA",
+  "rarity": "Uncommon",
+  "flavorText": "This Pokémon clamps its pincers down on its prey and then either splits the prey in half or flings it away.",
+  "nationalPokedexNumbers": [
+    127
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv10/1.png",
+    "large": "https://images.pokemontcg.io/sv10/1_hires.png"
+  }
+}

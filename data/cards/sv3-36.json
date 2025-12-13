@@ -1,0 +1,71 @@
+{
+  "id": "sv3-36",
+  "name": "Litwick",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Lampent"
+  ],
+  "attacks": [
+    {
+      "name": "Firebreathing",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "Flip a coin. If heads, this attack does 10 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv3",
+    "name": "Obsidian Flames",
+    "series": "Scarlet & Violet",
+    "printedTotal": 197,
+    "total": 230,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/08/11",
+    "updatedAt": "2023/08/11 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Nagomi Nijo",
+  "rarity": "Common",
+  "flavorText": "The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns.",
+  "nationalPokedexNumbers": [
+    607
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3/36.png",
+    "large": "https://images.pokemontcg.io/sv3/36_hires.png"
+  }
+}

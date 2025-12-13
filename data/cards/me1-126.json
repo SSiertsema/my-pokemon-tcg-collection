@@ -1,0 +1,43 @@
+{
+  "id": "me1-126",
+  "name": "Repel",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)",
+    "You may play any number of Item cards during your turn."
+  ],
+  "set": {
+    "id": "me1",
+    "name": "Mega Evolution",
+    "series": "Mega Evolution",
+    "printedTotal": 132,
+    "total": 188,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "MEG",
+    "releaseDate": "2025/09/26",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me1/symbol.png",
+      "logo": "https://images.pokemontcg.io/me1/logo.png"
+    }
+  },
+  "number": "126",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me1/126.png",
+    "large": "https://images.pokemontcg.io/me1/126_hires.png"
+  }
+}

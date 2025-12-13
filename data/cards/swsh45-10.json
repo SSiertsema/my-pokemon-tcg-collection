@@ -1,0 +1,84 @@
+{
+  "id": "swsh45-10",
+  "name": "Dhelmise VMAX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VMAX"
+  ],
+  "hp": "330",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Dhelmise V",
+  "rules": [
+    "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Swinging Chain",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "This attack does 30 damage to 1 of your opponent's Pokémon for each Grass Energy attached to this Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Max Anchor",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "240",
+      "text": "During your next turn, this Pokémon can't use Max Anchor."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh45",
+    "name": "Shining Fates",
+    "series": "Sword & Shield",
+    "printedTotal": 72,
+    "total": 73,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SHF",
+    "releaseDate": "2021/02/19",
+    "updatedAt": "2021/02/24 16:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh45/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh45/logo.png"
+    }
+  },
+  "number": "10",
+  "artist": "PLANETA Mochizuki",
+  "rarity": "Rare Holo VMAX",
+  "nationalPokedexNumbers": [
+    781
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh45/10.png",
+    "large": "https://images.pokemontcg.io/swsh45/10_hires.png"
+  }
+}

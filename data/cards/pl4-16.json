@@ -1,0 +1,77 @@
+{
+  "id": "pl4-16",
+  "name": "Gengar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "44",
+  "hp": "110",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Haunter",
+  "abilities": [
+    {
+      "name": "Curse",
+      "text": "Once during your turn (before your attack), you may move 1 damage counter from 1 of your opponent's Pokémon to another of your opponent's Pokémon. This power can't be used if Gengar is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Shadow Skip",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) You may switch Gengar with 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Colorless",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "pl4",
+    "name": "Arceus",
+    "series": "Platinum",
+    "printedTotal": 99,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AR",
+    "releaseDate": "2009/11/04",
+    "updatedAt": "2021/07/15 11:30:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl4/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl4/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "Midori Harada",
+  "rarity": "Rare",
+  "flavorText": "The leer that floats in darkness belongs to a Gengar delighting in casting curses on people.",
+  "nationalPokedexNumbers": [
+    94
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl4/16.png",
+    "large": "https://images.pokemontcg.io/pl4/16_hires.png"
+  }
+}

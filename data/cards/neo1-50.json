@@ -1,0 +1,68 @@
+{
+  "id": "neo1-50",
+  "name": "Sunflora",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "36",
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Sunkern",
+  "attacks": [
+    {
+      "name": "Petal Dance",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30×",
+      "text": "Flip 3 coins. This attack does 30 damage times the number of heads. Sunflora is now Confused (after doing damage)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo1",
+    "name": "Neo Genesis",
+    "series": "Neo",
+    "printedTotal": 111,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N1",
+    "releaseDate": "2000/12/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo1/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo1/logo.png"
+    }
+  },
+  "number": "50",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "flavorText": "It converts sunlight into energy. In the darkness after sunset, it closes its petals and becomes still.",
+  "nationalPokedexNumbers": [
+    192
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo1/50.png",
+    "large": "https://images.pokemontcg.io/neo1/50_hires.png"
+  }
+}

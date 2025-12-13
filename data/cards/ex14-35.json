@@ -1,0 +1,79 @@
+{
+  "id": "ex14-35",
+  "name": "Ivysaur",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Bulbasaur",
+  "evolvesTo": [
+    "Venusaur"
+  ],
+  "attacks": [
+    {
+      "name": "Stretch Vine",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Benched Pokémon. This attack does 30 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Sharp Leaf",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40+",
+      "text": "Flip a coin. If heads, this attack does 40 damage plus 20 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex14",
+    "name": "Crystal Guardians",
+    "series": "EX",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CG",
+    "releaseDate": "2006/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex14/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex14/logo.png"
+    }
+  },
+  "number": "35",
+  "artist": "Hisao Nakamura",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    2
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex14/35.png",
+    "large": "https://images.pokemontcg.io/ex14/35_hires.png"
+  }
+}

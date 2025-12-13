@@ -1,0 +1,79 @@
+{
+  "id": "dp5-23",
+  "name": "Jolteon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "39",
+  "hp": "80",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Eevee",
+  "attacks": [
+    {
+      "name": "Thunder Fang",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    },
+    {
+      "name": "Lightning Strike",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "You may discard 2 Energy attached to Jolteon. If you do, this attack's base damage is 90 instead of 50."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "dp5",
+    "name": "Majestic Dawn",
+    "series": "Diamond & Pearl",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MD",
+    "releaseDate": "2008/05/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp5/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp5/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Midori Harada",
+  "rarity": "Rare",
+  "flavorText": "It controls 10,000-volt power and can raise all the furs on its body as if it were sharp needles.",
+  "nationalPokedexNumbers": [
+    135
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp5/23.png",
+    "large": "https://images.pokemontcg.io/dp5/23_hires.png"
+  }
+}

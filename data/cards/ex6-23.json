@@ -1,0 +1,81 @@
+{
+  "id": "ex6-23",
+  "name": "Farfetch'd",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Sirfetch'd"
+  ],
+  "attacks": [
+    {
+      "name": "Hoard",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for up to 2 Pokémon Tool cards and attach them to any of your Pokémon (excluding Pokémon that already have a Pokémon Tool attached to them). Shuffle your deck afterward."
+    },
+    {
+      "name": "Cross-Cut",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "If the Defending Pokémon is an Evolved Pokémon, this attack does 10 damage plus 20 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex6",
+    "name": "FireRed & LeafGreen",
+    "series": "EX",
+    "printedTotal": 112,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RG",
+    "releaseDate": "2004/09/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex6/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex6/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Yukiko Baba",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    83
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex6/23.png",
+    "large": "https://images.pokemontcg.io/ex6/23_hires.png"
+  }
+}

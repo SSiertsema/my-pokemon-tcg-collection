@@ -1,0 +1,86 @@
+{
+  "id": "hgss2-39",
+  "name": "Pupitar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Larvitar",
+  "evolvesTo": [
+    "Tyranitar"
+  ],
+  "attacks": [
+    {
+      "name": "Hammer In",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Speed Attack",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hgss2",
+    "name": "HS—Unleashed",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 96,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UL",
+    "releaseDate": "2010/05/12",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss2/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss2/logo.png"
+    }
+  },
+  "number": "39",
+  "artist": "Kouki Saitou",
+  "rarity": "Uncommon",
+  "flavorText": "Even sealed in its shell, it can move freely. Hard and fast, it has outstanding destructive power.",
+  "nationalPokedexNumbers": [
+    247
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss2/39.png",
+    "large": "https://images.pokemontcg.io/hgss2/39_hires.png"
+  }
+}

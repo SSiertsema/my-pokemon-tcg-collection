@@ -1,0 +1,79 @@
+{
+  "id": "bw9-20",
+  "name": "Vaporeon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Team Plasma"
+  ],
+  "hp": "110",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Eevee",
+  "attacks": [
+    {
+      "name": "Refreshing Rain",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 30 damage from each of your Pokémon."
+    },
+    {
+      "name": "Gold Breaker",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "If the Defending Pokémon is a Pokémon-EX, this attack does 50 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "20",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "flavorText": "Its cell composition is similar to water molecules. As a result, it can't be seen when it melts away into water.",
+  "nationalPokedexNumbers": [
+    134
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/20.png",
+    "large": "https://images.pokemontcg.io/bw9/20_hires.png"
+  }
+}

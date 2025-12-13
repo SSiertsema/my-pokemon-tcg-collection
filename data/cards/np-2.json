@@ -1,0 +1,72 @@
+{
+  "id": "np-2",
+  "name": "Groudon ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "EX"
+  ],
+  "hp": "120",
+  "types": [
+    "Fighting"
+  ],
+  "rules": [
+    "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Major Earthquake",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": "Discard a Fighting Energy card attached to Groudon ex. Does 10 damage to your Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "np",
+    "name": "Nintendo Black Star Promos",
+    "series": "NP",
+    "printedTotal": 40,
+    "total": 40,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-NP",
+    "releaseDate": "2003/10/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/np/symbol.png",
+      "logo": "https://images.pokemontcg.io/np/logo.png"
+    }
+  },
+  "number": "2",
+  "artist": "Kazuo Yazawa",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    383
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/np/2.png",
+    "large": "https://images.pokemontcg.io/np/2_hires.png"
+  }
+}

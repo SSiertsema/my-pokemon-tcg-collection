@@ -1,0 +1,80 @@
+{
+  "id": "neo2-9",
+  "name": "Poliwrath",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "45",
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Poliwhirl",
+  "attacks": [
+    {
+      "name": "Corkscrew Punch",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Submission",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "70",
+      "text": "Poliwrath does 20 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "neo2",
+    "name": "Neo Discovery",
+    "series": "Neo",
+    "printedTotal": 75,
+    "total": 75,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N2",
+    "releaseDate": "2001/06/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo2/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo2/logo.png"
+    }
+  },
+  "number": "9",
+  "artist": "Shin-ichi Yoshida",
+  "rarity": "Rare Holo",
+  "flavorText": "Although an energetic, skilled swimmer that uses all of its muscles, it lives on dry land.",
+  "nationalPokedexNumbers": [
+    62
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo2/9.png",
+    "large": "https://images.pokemontcg.io/neo2/9_hires.png"
+  }
+}

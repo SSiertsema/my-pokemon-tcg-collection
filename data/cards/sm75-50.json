@@ -1,0 +1,70 @@
+{
+  "id": "sm75-50",
+  "name": "Turtonator",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Dragon"
+  ],
+  "attacks": [
+    {
+      "name": "Explosive Jet",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50×",
+      "text": "Discard any amount of Fire Energy from your Pokémon. This attack does 50 damage for each card you discarded in this way."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fairy",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm75",
+    "name": "Dragon Majesty",
+    "series": "Sun & Moon",
+    "printedTotal": 70,
+    "total": 80,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRM",
+    "releaseDate": "2018/09/07",
+    "updatedAt": "2018/10/01 21:54:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm75/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm75/logo.png"
+    }
+  },
+  "number": "50",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Uncommon",
+  "flavorText": "It gushes fire and poisonous gases from its nostrils. Its dung is an explosive substance and can be put to various uses.",
+  "nationalPokedexNumbers": [
+    776
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm75/50.png",
+    "large": "https://images.pokemontcg.io/sm75/50_hires.png"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "swsh2-138",
+  "name": "Duraludon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Metal"
+  ],
+  "attacks": [
+    {
+      "name": "Metal Sharpener",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Attach a Metal Energy card from your discard pile to 1 of your Pokémon."
+    },
+    {
+      "name": "Power Beam",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "110",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh2",
+    "name": "Rebel Clash",
+    "series": "Sword & Shield",
+    "printedTotal": 192,
+    "total": 209,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "RCL",
+    "releaseDate": "2020/05/01",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh2/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh2/logo.png"
+    }
+  },
+  "number": "138",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare Holo",
+  "flavorText": "Its body resembles polished metal, and it's both lightweight and strong. The only drawback is that it rusts easily.",
+  "nationalPokedexNumbers": [
+    884
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh2/138.png",
+    "large": "https://images.pokemontcg.io/swsh2/138_hires.png"
+  }
+}

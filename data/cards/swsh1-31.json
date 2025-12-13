@@ -1,0 +1,80 @@
+{
+  "id": "swsh1-31",
+  "name": "Scorbunny",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Raboot"
+  ],
+  "attacks": [
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Flare",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh1",
+    "name": "Sword & Shield",
+    "series": "Sword & Shield",
+    "printedTotal": 202,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SSH",
+    "releaseDate": "2020/02/07",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh1/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh1/logo.png"
+    }
+  },
+  "number": "31",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Common",
+  "flavorText": "A warm-up of running around gets fire energy coursing through this Pokémon's body. Once that happens, it's ready to fight at full power.",
+  "nationalPokedexNumbers": [
+    813
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh1/31.png",
+    "large": "https://images.pokemontcg.io/swsh1/31_hires.png"
+  }
+}

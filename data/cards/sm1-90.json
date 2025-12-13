@@ -1,0 +1,75 @@
+{
+  "id": "sm1-90",
+  "name": "Snubbull",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesTo": [
+    "Granbull"
+  ],
+  "attacks": [
+    {
+      "name": "Reckless Charge",
+      "cost": [
+        "Fairy"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Flip a coin. If tails, this Pokémon does 10 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm1",
+    "name": "Sun & Moon",
+    "series": "Sun & Moon",
+    "printedTotal": 149,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SUM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm1/logo.png"
+    }
+  },
+  "number": "90",
+  "artist": "Tomokazu Komiya",
+  "rarity": "Common",
+  "flavorText": "Its growls make its opponents uneasy. This laid-back Pokémon tends to sleep half the day.",
+  "nationalPokedexNumbers": [
+    209
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm1/90.png",
+    "large": "https://images.pokemontcg.io/sm1/90_hires.png"
+  }
+}

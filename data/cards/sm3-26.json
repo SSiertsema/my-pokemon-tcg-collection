@@ -1,0 +1,80 @@
+{
+  "id": "sm3-26",
+  "name": "Turtonator",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Fire"
+  ],
+  "attacks": [
+    {
+      "name": "Flame Cloak",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Attach a Fire Energy card from your discard pile to this Pokémon."
+    },
+    {
+      "name": "Heat Blast",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm3",
+    "name": "Burning Shadows",
+    "series": "Sun & Moon",
+    "printedTotal": 147,
+    "total": 177,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BUS",
+    "releaseDate": "2017/08/05",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm3/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "flavorText": "The shell on its back is chemically unstable and explodes violently if struck. The hole in its stomach is its weak point.",
+  "nationalPokedexNumbers": [
+    776
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm3/26.png",
+    "large": "https://images.pokemontcg.io/sm3/26_hires.png"
+  }
+}

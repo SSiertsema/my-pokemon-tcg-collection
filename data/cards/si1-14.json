@@ -1,0 +1,74 @@
+{
+  "id": "si1-14",
+  "name": "Slowking",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Slowpoke",
+  "attacks": [
+    {
+      "name": "Revelation",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, search your deck for a Trainer card, show it to your opponent, and put it into your hand. Shuffle your deck afterward."
+    },
+    {
+      "name": "Psychic",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10+",
+      "text": "Does 10 damage plus 10 more damage for each Energy card attached to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "si1",
+    "name": "Southern Islands",
+    "series": "Other",
+    "printedTotal": 18,
+    "total": 18,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2001/07/31",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/si1/symbol.png",
+      "logo": "https://images.pokemontcg.io/si1/logo.png"
+    }
+  },
+  "number": "14",
+  "artist": "Naoyo Kimura",
+  "flavorText": "Its nonchalant reaction to everything somehow gives this Pokémon an imposing presence.",
+  "nationalPokedexNumbers": [
+    199
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/si1/14.png",
+    "large": "https://images.pokemontcg.io/si1/14_hires.png"
+  }
+}

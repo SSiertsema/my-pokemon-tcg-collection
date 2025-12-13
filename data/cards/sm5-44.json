@@ -1,0 +1,90 @@
+{
+  "id": "sm5-44",
+  "name": "Electivire",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "140",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Electabuzz",
+  "attacks": [
+    {
+      "name": "Steel Short",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "If your opponent's Active Pokémon is a Metal Pokémon, it is now Paralyzed."
+    },
+    {
+      "name": "Volt Knuckle",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "130",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "44",
+  "artist": "Anesaki Dynamic",
+  "rarity": "Rare",
+  "flavorText": "When it gets excited, it thumps its chest. With every thud, thunder roars and electric sparks shower all around.",
+  "nationalPokedexNumbers": [
+    466
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/44.png",
+    "large": "https://images.pokemontcg.io/sm5/44_hires.png"
+  }
+}

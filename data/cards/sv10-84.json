@@ -1,0 +1,88 @@
+{
+  "id": "sv10-84",
+  "name": "Steven's Claydol",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Steven's Baltoy",
+  "attacks": [
+    {
+      "name": "Eerie Light",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    },
+    {
+      "name": "Clay Blast",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "220",
+      "text": "Discard all Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv10",
+    "name": "Destined Rivals",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 244,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRI",
+    "releaseDate": "2025/05/30",
+    "updatedAt": "2025/05/29 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv10/logo.png"
+    }
+  },
+  "number": "84",
+  "artist": "nagimiso",
+  "rarity": "Uncommon",
+  "flavorText": "It appears to have been born from clay dolls made by ancient people. It uses telekinesis to float and move.",
+  "nationalPokedexNumbers": [
+    344
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv10/84.png",
+    "large": "https://images.pokemontcg.io/sv10/84_hires.png"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "sm6-71",
+  "name": "Zygarde",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "abilities": [
+    {
+      "name": "Earthen Aura",
+      "text": "Damage from this Pokémon's attacks isn't affected by Weakness or Resistance.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Peace Maker",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30+",
+      "text": "If your opponent has an Ultra Beast in play, this attack does 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm6",
+    "name": "Forbidden Light",
+    "series": "Sun & Moon",
+    "printedTotal": 131,
+    "total": 150,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLI",
+    "releaseDate": "2018/05/04",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm6/logo.png"
+    }
+  },
+  "number": "71",
+  "artist": "Akira Komayama",
+  "rarity": "Uncommon",
+  "flavorText": "This is Zygarde's form when about 10% of its cells have been gathered. It runs across the land at speeds greater than 60 mph.",
+  "nationalPokedexNumbers": [
+    718
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm6/71.png",
+    "large": "https://images.pokemontcg.io/sm6/71_hires.png"
+  }
+}

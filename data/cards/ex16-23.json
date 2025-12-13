@@ -1,0 +1,74 @@
+{
+  "id": "ex16-23",
+  "name": "Seviper",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "name": "Sharp Fang",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Toxic",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "The Defending Pokémon is now Poisoned. Put 2 damage counters instead of 1 on the Defending Pokémon between turns."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex16",
+    "name": "Power Keepers",
+    "series": "EX",
+    "printedTotal": 108,
+    "total": 108,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PK",
+    "releaseDate": "2007/02/02",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex16/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex16/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Midori Harada",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    336
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex16/23.png",
+    "large": "https://images.pokemontcg.io/ex16/23_hires.png"
+  }
+}

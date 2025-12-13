@@ -1,0 +1,75 @@
+{
+  "id": "sm10-77",
+  "name": "Misdreavus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Mismagius"
+  ],
+  "attacks": [
+    {
+      "name": "Ominous Eyes",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Put 1 damage counter on 1 of your opponent's Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm10",
+    "name": "Unbroken Bonds",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 234,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNB",
+    "releaseDate": "2019/05/03",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm10/logo.png"
+    }
+  },
+  "number": "77",
+  "artist": "Miki Tanaka",
+  "rarity": "Common",
+  "flavorText": "What gives meaning to its life is surprising others. If you set your ear against the red orbs around its neck, you can hear shrieking.",
+  "nationalPokedexNumbers": [
+    200
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm10/77.png",
+    "large": "https://images.pokemontcg.io/sm10/77_hires.png"
+  }
+}

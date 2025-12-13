@@ -1,0 +1,83 @@
+{
+  "id": "bw6-24",
+  "name": "Gyarados",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Magikarp",
+  "attacks": [
+    {
+      "name": "Sharp Fang",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": ""
+    },
+    {
+      "name": "Swing Around",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60+",
+      "text": "Flip 2 coins. This attack does 30 more damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw6",
+    "name": "Dragons Exalted",
+    "series": "Black & White",
+    "printedTotal": 124,
+    "total": 128,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRX",
+    "releaseDate": "2012/08/15",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw6/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw6/logo.png"
+    }
+  },
+  "number": "24",
+  "artist": "Mizue",
+  "rarity": "Rare",
+  "flavorText": "Once it begins to rampage, a Gyarados will burn everything down, even in a harsh storm.",
+  "nationalPokedexNumbers": [
+    130
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw6/24.png",
+    "large": "https://images.pokemontcg.io/bw6/24_hires.png"
+  }
+}

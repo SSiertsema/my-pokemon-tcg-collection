@@ -1,0 +1,77 @@
+{
+  "id": "hgss1-10",
+  "name": "Raichu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Pikachu",
+  "attacks": [
+    {
+      "name": "Iron Tail",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30×",
+      "text": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+    },
+    {
+      "name": "Thunderbolt",
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "100",
+      "text": "Discard all Energy attached to Raichu."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "hgss1",
+    "name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss1/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss1/logo.png"
+    }
+  },
+  "number": "10",
+  "artist": "match",
+  "rarity": "Rare Holo",
+  "flavorText": "If the electric pouches in its cheeks become fully charged, both ears will stand straight up.",
+  "nationalPokedexNumbers": [
+    26
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss1/10.png",
+    "large": "https://images.pokemontcg.io/hgss1/10_hires.png"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "dpp-DP42",
+  "name": "Carnivine G",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "SP"
+  ],
+  "level": "43",
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "name": "Power Whip",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon. This attack does 10 damage for each Energy attached to Carnivine G to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Grass Knot",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "Does 20 damage plus 10 more damage for each Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dpp",
+    "name": "DP Black Star Promos",
+    "series": "Diamond & Pearl",
+    "printedTotal": 56,
+    "total": 56,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-DPP",
+    "releaseDate": "2007/05/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dpp/symbol.png",
+      "logo": "https://images.pokemontcg.io/dpp/logo.png"
+    }
+  },
+  "number": "DP42",
+  "artist": "Makoto Imai",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    455
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dpp/DP42.png",
+    "large": "https://images.pokemontcg.io/dpp/DP42_hires.png"
+  }
+}

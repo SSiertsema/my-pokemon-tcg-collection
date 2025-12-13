@@ -1,0 +1,84 @@
+{
+  "id": "xy1-89",
+  "name": "Wigglytuff",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesFrom": "Jigglypuff",
+  "attacks": [
+    {
+      "name": "Gather Energy",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a basic Energy card and attach it to 1 of your Pokémon. Shuffle your deck afterward."
+    },
+    {
+      "name": "Hocus Pinkus",
+      "cost": [
+        "Fairy",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "The Defending Pokémon can't attack during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy1",
+    "name": "XY",
+    "series": "XY",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "XY",
+    "releaseDate": "2014/02/05",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy1/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy1/logo.png"
+    }
+  },
+  "number": "89",
+  "artist": "Mizue",
+  "rarity": "Rare",
+  "flavorText": "Their fur feels so good that if two of them snuggle together, they won't want to be separated.",
+  "nationalPokedexNumbers": [
+    40
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy1/89.png",
+    "large": "https://images.pokemontcg.io/xy1/89_hires.png"
+  }
+}

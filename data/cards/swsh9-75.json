@@ -1,0 +1,73 @@
+{
+  "id": "swsh9-75",
+  "name": "Vibrava",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Trapinch",
+  "evolvesTo": [
+    "Flygon"
+  ],
+  "attacks": [
+    {
+      "name": "Razor Wing",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh9",
+    "name": "Brilliant Stars",
+    "series": "Sword & Shield",
+    "printedTotal": 172,
+    "total": 186,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BRS",
+    "releaseDate": "2022/02/25",
+    "updatedAt": "2022/02/23 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh9/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh9/logo.png"
+    }
+  },
+  "number": "75",
+  "artist": "Tomokazu Komiya",
+  "rarity": "Uncommon",
+  "flavorText": "The ultrasonic waves it generates by rubbing its two wings together cause severe headaches.",
+  "nationalPokedexNumbers": [
+    329
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh9/75.png",
+    "large": "https://images.pokemontcg.io/swsh9/75_hires.png"
+  }
+}

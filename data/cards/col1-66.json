@@ -1,0 +1,82 @@
+{
+  "id": "col1-66",
+  "name": "Phanpy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Donphan"
+  ],
+  "abilities": [
+    {
+      "name": "Ultra-Thick Skin",
+      "text": "As long as Phanpy has Energy attached to it, any damage done to Phanpy by attacks is reduced by 10 (after applying Weakness and Resistance).",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Rock Smash",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "col1",
+    "name": "Call of Legends",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CL",
+    "releaseDate": "2011/02/09",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/col1/symbol.png",
+      "logo": "https://images.pokemontcg.io/col1/logo.png"
+    }
+  },
+  "number": "66",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "As a sign of affection, it bumps with its snout. However, it is so strong, it may send you flying.",
+  "nationalPokedexNumbers": [
+    231
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/col1/66.png",
+    "large": "https://images.pokemontcg.io/col1/66_hires.png"
+  }
+}

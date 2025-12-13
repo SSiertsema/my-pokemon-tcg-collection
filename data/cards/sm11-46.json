@@ -1,0 +1,66 @@
+{
+  "id": "sm11-46",
+  "name": "Cryogonal",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Frozen Lock",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Your opponent can't play any Item cards from their hand during their next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "46",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "They are born in snow clouds. They use chains made of ice crystals to capture prey.",
+  "nationalPokedexNumbers": [
+    615
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/46.png",
+    "large": "https://images.pokemontcg.io/sm11/46_hires.png"
+  }
+}

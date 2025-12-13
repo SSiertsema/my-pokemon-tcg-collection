@@ -1,0 +1,81 @@
+{
+  "id": "sv3pt5-57",
+  "name": "Primeape",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Mankey",
+  "attacks": [
+    {
+      "name": "Rant and Rave",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": "This Pokémon is now Confused."
+    },
+    {
+      "name": "Raging Smash",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "150",
+      "text": "If this Pokémon isn't Confused, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv3pt5",
+    "name": "151",
+    "series": "Scarlet & Violet",
+    "printedTotal": 165,
+    "total": 207,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/09/22",
+    "updatedAt": "2023/09/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+    }
+  },
+  "number": "57",
+  "artist": "Mina Nakai",
+  "rarity": "Uncommon",
+  "flavorText": "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
+  "nationalPokedexNumbers": [
+    57
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3pt5/57.png",
+    "large": "https://images.pokemontcg.io/sv3pt5/57_hires.png"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "sm5-24",
+  "name": "Heat Rotom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Fire"
+  ],
+  "abilities": [
+    {
+      "name": "Roto Motor",
+      "text": "If you have 9 or more Pokémon Tool cards in your discard pile, ignore all Energy in the attack cost of each of this Pokémon's attacks.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Heat Blast",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "24",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare",
+  "flavorText": "Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.",
+  "nationalPokedexNumbers": [
+    479
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/24.png",
+    "large": "https://images.pokemontcg.io/sm5/24_hires.png"
+  }
+}

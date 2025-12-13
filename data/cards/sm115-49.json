@@ -1,0 +1,76 @@
+{
+  "id": "sm115-49",
+  "name": "Eevee",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Vaporeon",
+    "Jolteon",
+    "Flareon",
+    "Sylveon",
+    "Espeon",
+    "Umbreon",
+    "Leafeon",
+    "Glaceon"
+  ],
+  "attacks": [
+    {
+      "name": "Gnaw",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm115",
+    "name": "Hidden Fates",
+    "series": "Sun & Moon",
+    "printedTotal": 68,
+    "total": 69,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "HIF",
+    "releaseDate": "2019/08/23",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm115/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm115/logo.png"
+    }
+  },
+  "number": "49",
+  "artist": "Hitoshi Ariga",
+  "rarity": "Common",
+  "flavorText": "Current studies show it can evolve into an incredible eight different species of Pokémon.",
+  "nationalPokedexNumbers": [
+    133
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm115/49.png",
+    "large": "https://images.pokemontcg.io/sm115/49_hires.png"
+  }
+}

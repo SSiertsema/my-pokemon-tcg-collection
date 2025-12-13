@@ -1,0 +1,87 @@
+{
+  "id": "svp-21",
+  "name": "Murkrow",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesTo": [
+    "Honchkrow"
+  ],
+  "attacks": [
+    {
+      "name": "Spin Turn",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+    },
+    {
+      "name": "United Wings",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "This attack does 20 damage for each Pokémon in your discard pile that has the United Wings attack."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "svp",
+    "name": "Scarlet & Violet Black Star Promos",
+    "series": "Scarlet & Violet",
+    "printedTotal": 215,
+    "total": 196,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SV",
+    "releaseDate": "2023/01/01",
+    "updatedAt": "2024/11/09 13:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+      "logo": "https://images.pokemontcg.io/svp/logo.png"
+    }
+  },
+  "number": "21",
+  "artist": "Shiburingaru",
+  "rarity": "Promo",
+  "flavorText": "Feared and loathed by many, it is believed to bring misfortune to all those who see it at night.",
+  "nationalPokedexNumbers": [
+    198
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/svp/21.png",
+    "large": "https://images.pokemontcg.io/svp/21_hires.png"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "sv9-179",
+  "name": "Brock's Scouting",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Search your deck for up to 2 Basic Pokémon or 1 Evolution Pokémon, reveal them, and put them into your hand. Then, shuffle your deck.",
+    "You may play only 1 Supporter card during your turn."
+  ],
+  "set": {
+    "id": "sv9",
+    "name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "printedTotal": 159,
+    "total": 190,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "JTG",
+    "releaseDate": "2025/03/28",
+    "updatedAt": "2025/03/27 16:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv9/logo.png"
+    }
+  },
+  "number": "179",
+  "artist": "Teeziro",
+  "rarity": "Ultra Rare",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv9/179.png",
+    "large": "https://images.pokemontcg.io/sv9/179_hires.png"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "swsh12-51",
+  "name": "Chinchou",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Lanturn"
+  ],
+  "attacks": [
+    {
+      "name": "Lightning Ball",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Gentle Slap",
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh12",
+    "name": "Silver Tempest",
+    "series": "Sword & Shield",
+    "printedTotal": 195,
+    "total": 215,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SIT",
+    "releaseDate": "2022/11/11",
+    "updatedAt": "2022/09/09 11:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12/logo.png"
+    }
+  },
+  "number": "51",
+  "artist": "Miki Tanaka",
+  "rarity": "Common",
+  "flavorText": "Its antennae, which evolved from a fin, have both positive and negative charges flowing through them.",
+  "nationalPokedexNumbers": [
+    170
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12/51.png",
+    "large": "https://images.pokemontcg.io/swsh12/51_hires.png"
+  }
+}

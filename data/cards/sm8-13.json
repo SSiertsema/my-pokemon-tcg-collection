@@ -1,0 +1,79 @@
+{
+  "id": "sm8-13",
+  "name": "Skiploom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Hoppip",
+  "evolvesTo": [
+    "Jumpluff"
+  ],
+  "abilities": [
+    {
+      "name": "Floral Path to the Sky",
+      "text": "Once during your turn (before your attack), you may search your deck for Jumpluff, put this Pokémon and all cards attached to it in the Lost Zone, and put that Jumpluff in its place. Then, shuffle your deck.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Tackle",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "Hitoshi Ariga",
+  "rarity": "Uncommon",
+  "flavorText": "It spreads its petals to absorb sunlight. It also floats in the air to get closer to the sun.",
+  "nationalPokedexNumbers": [
+    188
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/13.png",
+    "large": "https://images.pokemontcg.io/sm8/13_hires.png"
+  }
+}

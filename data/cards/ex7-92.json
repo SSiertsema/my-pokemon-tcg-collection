@@ -1,0 +1,38 @@
+{
+  "id": "ex7-92",
+  "name": "Swoop! Teleporter",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Rocket's Secret Machine"
+  ],
+  "rules": [
+    "Search your deck for a Basic Pokémon (excluding Pokémon-ex) and switch it with 1 of your Basic Pokémon (excluding Pokémon-ex) in play. (Any cards attached to that Pokémon, damage counters, Special Conditions, and effects on it are now on the new Pokémon.) Place the first Basic Pokémon in the discard pile. Shuffle your deck afterward."
+  ],
+  "set": {
+    "id": "ex7",
+    "name": "Team Rocket Returns",
+    "series": "EX",
+    "printedTotal": 109,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TRR",
+    "releaseDate": "2004/11/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex7/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex7/logo.png"
+    }
+  },
+  "number": "92",
+  "artist": "Katsura Tabata",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex7/92.png",
+    "large": "https://images.pokemontcg.io/ex7/92_hires.png"
+  }
+}

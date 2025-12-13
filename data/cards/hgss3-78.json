@@ -1,0 +1,39 @@
+{
+  "id": "hgss3-78",
+  "name": "Team Rocket's Trickery",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.",
+    "Draw 2 cards. Then, your opponent discards a card from his or her hand."
+  ],
+  "set": {
+    "id": "hgss3",
+    "name": "HS—Undaunted",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 90,
+    "total": 91,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UD",
+    "releaseDate": "2010/08/18",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss3/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss3/logo.png"
+    }
+  },
+  "number": "78",
+  "artist": "Takao Unno",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss3/78.png",
+    "large": "https://images.pokemontcg.io/hgss3/78_hires.png"
+  }
+}

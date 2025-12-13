@@ -1,0 +1,75 @@
+{
+  "id": "hgss3-25",
+  "name": "Weavile",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Sneasel",
+  "abilities": [
+    {
+      "name": "Claw Snag",
+      "text": "Once during your turn, when you play Weavile from your hand to evolve 1 of your Pokémon, you may look at your opponent's hand. Choose a card from your opponent's hand and discard it.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Feint Attack",
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon. This attack does 30 damage to that Pokémon. This attack's damage isn't affected by Weakness, Resistance, Poké-Powers, Poké-Bodies, or any other effects on that Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "hgss3",
+    "name": "HS—Undaunted",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 90,
+    "total": 91,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UD",
+    "releaseDate": "2010/08/18",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss3/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss3/logo.png"
+    }
+  },
+  "number": "25",
+  "artist": "Aya Kusube",
+  "rarity": "Rare",
+  "flavorText": "It lives in snowy regions. It carves patterns in trees with its claws as a signal to others.",
+  "nationalPokedexNumbers": [
+    461
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss3/25.png",
+    "large": "https://images.pokemontcg.io/hgss3/25_hires.png"
+  }
+}

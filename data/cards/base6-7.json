@@ -1,0 +1,68 @@
+{
+  "id": "base6-7",
+  "name": "Dark Raichu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "31",
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Pikachu",
+  "attacks": [
+    {
+      "name": "Surprise Thunder",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": "Flip a coin. If heads, flip another coin. If the second coins is heads, this attack does 20 damage to each of your opponent's Benched Pokémon. If the second coin is tails, this attack does 10 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base6",
+    "name": "Legendary Collection",
+    "series": "Other",
+    "printedTotal": 110,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LC",
+    "releaseDate": "2002/05/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base6/symbol.png",
+      "logo": "https://images.pokemontcg.io/base6/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare Holo",
+  "flavorText": "Stores up electricity in its body, then suddenly releases it to surprise and shock everyone.",
+  "nationalPokedexNumbers": [
+    26
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base6/7.png",
+    "large": "https://images.pokemontcg.io/base6/7_hires.png"
+  }
+}

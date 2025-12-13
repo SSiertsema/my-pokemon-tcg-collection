@@ -1,0 +1,78 @@
+{
+  "id": "xy1-84",
+  "name": "Doublade",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Honedge",
+  "evolvesTo": [
+    "Aegislash"
+  ],
+  "attacks": [
+    {
+      "name": "Dual Blades",
+      "cost": [
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30×",
+      "text": "Flip 2 coins. This attack does 30 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy1",
+    "name": "XY",
+    "series": "XY",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "XY",
+    "releaseDate": "2014/02/05",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy1/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy1/logo.png"
+    }
+  },
+  "number": "84",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "flavorText": "When Honedge evolves, it divides into two swords, which cooperate via telepathy to coordinate attacks and slash their enemies to ribbons.",
+  "nationalPokedexNumbers": [
+    680
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy1/84.png",
+    "large": "https://images.pokemontcg.io/xy1/84_hires.png"
+  }
+}

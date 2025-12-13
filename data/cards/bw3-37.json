@@ -1,0 +1,66 @@
+{
+  "id": "bw3-37",
+  "name": "Emolga",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "attacks": [
+    {
+      "name": "Electrichain",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "Does 20 more damage if you have any Lightning Pokémon on your Bench."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw3",
+    "name": "Noble Victories",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "NVI",
+    "releaseDate": "2011/11/16",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw3/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw3/logo.png"
+    }
+  },
+  "number": "37",
+  "artist": "Naoki Saito",
+  "rarity": "Uncommon",
+  "flavorText": "They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.",
+  "nationalPokedexNumbers": [
+    587
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw3/37.png",
+    "large": "https://images.pokemontcg.io/bw3/37_hires.png"
+  }
+}

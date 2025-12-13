@@ -1,0 +1,107 @@
+{
+  "id": "swshp-SWSH140",
+  "name": "Pikachu V-UNION",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "V-UNION"
+  ],
+  "hp": "300",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Raichu"
+  ],
+  "rules": [
+    "How to play a Pokémon V-UNION: Once per game during your turn, combine 4 different Pikachu V-UNION from your discard pile and put them onto your Bench.",
+    "V-UNION rule: When your Pokémon V-UNION is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Union Gain",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Attach up to 2 Lightning Energy cards from your discard pile to this Pokémon."
+    },
+    {
+      "name": "Shocking Shock",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "120",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    },
+    {
+      "name": "Disconnect",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "150",
+      "text": "During your opponent's next turn, they can't play any Item cards from their hand."
+    },
+    {
+      "name": "Electro Ball Together",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "250",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH140",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    25
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH140.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH140_hires.png"
+  }
+}

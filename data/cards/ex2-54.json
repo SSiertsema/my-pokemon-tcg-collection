@@ -1,0 +1,73 @@
+{
+  "id": "ex2-54",
+  "name": "Wynaut",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Wobbuffet"
+  ],
+  "abilities": [
+    {
+      "name": "Baby Evolution",
+      "text": "Once during your turn (before your attack), you may put Wobbuffet from your hand onto Wynaut (this counts as evolving Wynaut), and remove all damage counters from Wynaut.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Alluring Smile",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Basic Pokémon card or Evolution card for each Energy attached to Wynaut, show them to your opponent, and put them into your hand. Shuffle your deck afterward."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex2",
+    "name": "Sandstorm",
+    "series": "EX",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SS",
+    "releaseDate": "2003/09/18",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex2/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex2/logo.png"
+    }
+  },
+  "number": "54",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    360
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex2/54.png",
+    "large": "https://images.pokemontcg.io/ex2/54_hires.png"
+  }
+}

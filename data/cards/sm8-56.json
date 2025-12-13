@@ -1,0 +1,75 @@
+{
+  "id": "sm8-56",
+  "name": "Lapras",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Water"
+  ],
+  "abilities": [
+    {
+      "name": "Go for a Swim",
+      "text": "Once during your turn (before your attack), you may look at the top 2 cards of your deck and put them back in any order.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Ice Beam",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "56",
+  "artist": "Sekio",
+  "rarity": "Rare",
+  "flavorText": "These Pokémon were once near extinction due to poaching. Following protective regulations, there is now an overabundance of them.",
+  "nationalPokedexNumbers": [
+    131
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/56.png",
+    "large": "https://images.pokemontcg.io/sm8/56_hires.png"
+  }
+}

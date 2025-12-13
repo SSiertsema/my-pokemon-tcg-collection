@@ -1,0 +1,79 @@
+{
+  "id": "ex13-29",
+  "name": "Registeel",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Metal"
+  ],
+  "abilities": [
+    {
+      "name": "Clear Body",
+      "text": "Registeel can't be affected by any Special Conditions.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hyper Beam",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex13",
+    "name": "Holon Phantoms",
+    "series": "EX",
+    "printedTotal": 110,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HP",
+    "releaseDate": "2006/05/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex13/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex13/logo.png"
+    }
+  },
+  "number": "29",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    379
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex13/29.png",
+    "large": "https://images.pokemontcg.io/ex13/29_hires.png"
+  }
+}

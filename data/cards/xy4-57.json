@@ -1,0 +1,83 @@
+{
+  "id": "xy4-57",
+  "name": "Liepard",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Purrloin",
+  "attacks": [
+    {
+      "name": "Gentle Bite",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 60 (before applying Weakness and Resistance)."
+    },
+    {
+      "name": "Mach Claw",
+      "cost": [
+        "Darkness",
+        "Darkness"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "This attack's damage isn't affected by Resistance."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy4",
+    "name": "Phantom Forces",
+    "series": "XY",
+    "printedTotal": 119,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PHF",
+    "releaseDate": "2014/11/05",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy4/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy4/logo.png"
+    }
+  },
+  "number": "57",
+  "artist": "TOKIYA",
+  "rarity": "Uncommon",
+  "flavorText": "Their beautiful form comes from the muscles they have developed. They run silently in the night.",
+  "nationalPokedexNumbers": [
+    510
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy4/57.png",
+    "large": "https://images.pokemontcg.io/xy4/57_hires.png"
+  }
+}

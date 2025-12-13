@@ -1,0 +1,44 @@
+{
+  "id": "sv6-223",
+  "name": "Buddy-Buddy Poffin",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Search your deck for up to 2 Basic Pokémon with 70 HP or less and put them onto your Bench. Then, shuffle your deck.",
+    "You may play any number of Item cards during your turn."
+  ],
+  "set": {
+    "id": "sv6",
+    "name": "Twilight Masquerade",
+    "series": "Scarlet & Violet",
+    "printedTotal": 167,
+    "total": 226,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TWM",
+    "releaseDate": "2024/05/24",
+    "updatedAt": "2024/05/23 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv6/logo.png"
+    }
+  },
+  "number": "223",
+  "artist": "AYUMI ODASHIMA",
+  "rarity": "Hyper Rare",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv6/223.png",
+    "large": "https://images.pokemontcg.io/sv6/223_hires.png"
+  }
+}

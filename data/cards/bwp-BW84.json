@@ -1,0 +1,77 @@
+{
+  "id": "bwp-BW84",
+  "name": "Porygon-Z",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "Team Plasma"
+  ],
+  "hp": "130",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Porygon2",
+  "abilities": [
+    {
+      "name": "Plasma Transfer",
+      "text": "As often as you like during your turn (before your attack), you may move a Plasma Energy attached to 1 of your Pokémon to another of your Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Tri Attack",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50×",
+      "text": "Flip 3 coins. This attack does 50 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bwp",
+    "name": "BW Black Star Promos",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-BLW",
+    "releaseDate": "2011/03/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bwp/symbol.png",
+      "logo": "https://images.pokemontcg.io/bwp/logo.png"
+    }
+  },
+  "number": "BW84",
+  "artist": "5ban Graphics",
+  "rarity": "Promo",
+  "flavorText": "Its programming was modified to enable work in alien dimensions. It did not work as planned.",
+  "nationalPokedexNumbers": [
+    474
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bwp/BW84.png",
+    "large": "https://images.pokemontcg.io/bwp/BW84_hires.png"
+  }
+}

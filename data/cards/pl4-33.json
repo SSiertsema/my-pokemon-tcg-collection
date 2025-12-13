@@ -1,0 +1,85 @@
+{
+  "id": "pl4-33",
+  "name": "Bronzong",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "45",
+  "hp": "90",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Bronzor",
+  "attacks": [
+    {
+      "name": "Wide Laser",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "This attack does 10 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Hyper Beam",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "pl4",
+    "name": "Arceus",
+    "series": "Platinum",
+    "printedTotal": 99,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AR",
+    "releaseDate": "2009/11/04",
+    "updatedAt": "2021/07/15 11:30:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl4/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl4/logo.png"
+    }
+  },
+  "number": "33",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Uncommon",
+  "flavorText": "It brought rains by opening portals to another world. It was revered as a bringer of plentiful harvests.",
+  "nationalPokedexNumbers": [
+    437
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl4/33.png",
+    "large": "https://images.pokemontcg.io/pl4/33_hires.png"
+  }
+}

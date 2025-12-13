@@ -1,0 +1,70 @@
+{
+  "id": "xy11-30",
+  "name": "Oshawott",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Dewott"
+  ],
+  "attacks": [
+    {
+      "name": "Water Gun",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy11",
+    "name": "Steam Siege",
+    "series": "XY",
+    "printedTotal": 114,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "STS",
+    "releaseDate": "2016/08/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy11/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy11/logo.png"
+    }
+  },
+  "number": "30",
+  "artist": "sui",
+  "rarity": "Common",
+  "flavorText": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+  "nationalPokedexNumbers": [
+    501
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy11/30.png",
+    "large": "https://images.pokemontcg.io/xy11/30_hires.png"
+  }
+}

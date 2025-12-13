@@ -1,0 +1,77 @@
+{
+  "id": "sm11-19",
+  "name": "Tsareena",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Steenee",
+  "abilities": [
+    {
+      "name": "Queenly Reward",
+      "text": "Once during your turn (before your attack), you may attach a Grass Energy card from your discard pile to your Active Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "High Jump Kick",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "19",
+  "artist": "kirisAki",
+  "rarity": "Rare Holo",
+  "flavorText": "A master of grand and beautiful kicks, it can knock out even kickboxing champions with a single blow.",
+  "nationalPokedexNumbers": [
+    763
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/19.png",
+    "large": "https://images.pokemontcg.io/sm11/19_hires.png"
+  }
+}

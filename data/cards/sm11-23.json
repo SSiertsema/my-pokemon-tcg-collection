@@ -1,0 +1,84 @@
+{
+  "id": "sm11-23",
+  "name": "Numel",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Camerupt"
+  ],
+  "attacks": [
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Flamethrower",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": "Discard an Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Motofumi Fujiwara",
+  "rarity": "Common",
+  "flavorText": "Its humped back stores intensely hot magma. In rain, the magma cools, slowing its movement.",
+  "nationalPokedexNumbers": [
+    322
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/23.png",
+    "large": "https://images.pokemontcg.io/sm11/23_hires.png"
+  }
+}

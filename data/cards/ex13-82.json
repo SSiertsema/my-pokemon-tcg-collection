@@ -1,0 +1,66 @@
+{
+  "id": "ex13-82",
+  "name": "Surskit",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Masquerain"
+  ],
+  "attacks": [
+    {
+      "name": "Super Hypno Wave",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "The Defending Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex13",
+    "name": "Holon Phantoms",
+    "series": "EX",
+    "printedTotal": 110,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HP",
+    "releaseDate": "2006/05/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex13/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex13/logo.png"
+    }
+  },
+  "number": "82",
+  "artist": "Atsuko Nishida",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    283
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex13/82.png",
+    "large": "https://images.pokemontcg.io/ex13/82_hires.png"
+  }
+}

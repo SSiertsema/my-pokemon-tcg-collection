@@ -1,0 +1,77 @@
+{
+  "id": "bw1-57",
+  "name": "Reuniclus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Duosion",
+  "abilities": [
+    {
+      "name": "Damage Swap",
+      "text": "As often as you like during your turn (before your attack), you may move 1 damage counter from 1 of your Pokémon to another of your Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Psywave",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Does 10 more damage for each Energy attached to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw1",
+    "name": "Black & White",
+    "series": "Black & White",
+    "printedTotal": 114,
+    "total": 115,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BLW",
+    "releaseDate": "2011/04/25",
+    "updatedAt": "2018/11/29 19:56:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw1/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw1/logo.png"
+    }
+  },
+  "number": "57",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo",
+  "flavorText": "These remarkably intelligent Pokémon fight by controlling arms that can grip with rock-crushing power.",
+  "nationalPokedexNumbers": [
+    579
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw1/57.png",
+    "large": "https://images.pokemontcg.io/bw1/57_hires.png"
+  }
+}

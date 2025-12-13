@@ -1,0 +1,81 @@
+{
+  "id": "swsh5-90",
+  "name": "Golbat",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Zubat",
+  "evolvesTo": [
+    "Crobat"
+  ],
+  "abilities": [
+    {
+      "name": "Discreet Draw",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may draw 2 cards.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Air Slash",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Discard an Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh5",
+    "name": "Battle Styles",
+    "series": "Sword & Shield",
+    "printedTotal": 163,
+    "total": 183,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BST",
+    "releaseDate": "2021/03/19",
+    "updatedAt": "2021/03/19 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh5/logo.png"
+    }
+  },
+  "number": "90",
+  "artist": "sui",
+  "rarity": "Uncommon",
+  "flavorText": "They can suck down over 10 ounces of blood in one go. They have been known to drink so much blood that they can no longer fly.",
+  "nationalPokedexNumbers": [
+    42
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh5/90.png",
+    "large": "https://images.pokemontcg.io/swsh5/90_hires.png"
+  }
+}

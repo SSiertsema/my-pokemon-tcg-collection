@@ -1,0 +1,75 @@
+{
+  "id": "neo1-38",
+  "name": "Lanturn",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "26",
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Chinchou",
+  "abilities": [
+    {
+      "name": "Hydroelectric Power",
+      "text": "You may make Floodlight do 10 more damage for each Water Energy attached to Lanturn, but not used to pay for Floodlight's Energy cost. This power can't be used if Lanturn is Asleep, Confused, or Paralyzed.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Floodlight",
+      "cost": [
+        "Lightning",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "neo1",
+    "name": "Neo Genesis",
+    "series": "Neo",
+    "printedTotal": 111,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N1",
+    "releaseDate": "2000/12/16",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo1/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo1/logo.png"
+    }
+  },
+  "number": "38",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "flavorText": "The light it emits is so bright that it can illuminate the sea's surface from a depth of over three miles.",
+  "nationalPokedexNumbers": [
+    171
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo1/38.png",
+    "large": "https://images.pokemontcg.io/neo1/38_hires.png"
+  }
+}

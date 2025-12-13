@@ -1,0 +1,73 @@
+{
+  "id": "ex2-10",
+  "name": "Sableye",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Darkness"
+  ],
+  "attacks": [
+    {
+      "name": "Supernatural",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Look at your opponent's hand. You may use the effect of a Supporter card you find there as the effect of this attack. (The Supporter card remains in your opponent's hand.)"
+    },
+    {
+      "name": "Dark Bind",
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "You may discard a Darkness Energy card attached to Sableye. If you do, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex2",
+    "name": "Sandstorm",
+    "series": "EX",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SS",
+    "releaseDate": "2003/09/18",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex2/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex2/logo.png"
+    }
+  },
+  "number": "10",
+  "artist": "Hajime Kusajima",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    302
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex2/10.png",
+    "large": "https://images.pokemontcg.io/ex2/10_hires.png"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "sv3pt5-140",
+  "name": "Kabuto",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Antique Dome Fossil",
+  "evolvesTo": [
+    "Kabutops"
+  ],
+  "attacks": [
+    {
+      "name": "Double Scratch",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70×",
+      "text": "Flip 2 coins. This attack does 70 damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv3pt5",
+    "name": "151",
+    "series": "Scarlet & Violet",
+    "printedTotal": 165,
+    "total": 207,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/09/22",
+    "updatedAt": "2023/09/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+    }
+  },
+  "number": "140",
+  "artist": "Souichirou Gunjima",
+  "rarity": "Uncommon",
+  "flavorText": "While some say this species has gone extinct, Kabuto sightings are apparently fairly common in some places.",
+  "nationalPokedexNumbers": [
+    140
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3pt5/140.png",
+    "large": "https://images.pokemontcg.io/sv3pt5/140_hires.png"
+  }
+}

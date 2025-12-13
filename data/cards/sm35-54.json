@@ -1,0 +1,85 @@
+{
+  "id": "sm35-54",
+  "name": "Yveltal",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Darkness"
+  ],
+  "attacks": [
+    {
+      "name": "Strafe",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "You may switch this Pokémon with 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Oblivion Wing",
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": "Attach a Darkness Energy card from your discard pile to 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm35",
+    "name": "Shining Legends",
+    "series": "Sun & Moon",
+    "printedTotal": 73,
+    "total": 81,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SLG",
+    "releaseDate": "2017/10/06",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm35/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm35/logo.png"
+    }
+  },
+  "number": "54",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare Holo",
+  "flavorText": "When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.",
+  "nationalPokedexNumbers": [
+    717
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm35/54.png",
+    "large": "https://images.pokemontcg.io/sm35/54_hires.png"
+  }
+}

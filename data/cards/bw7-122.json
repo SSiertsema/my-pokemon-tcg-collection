@@ -1,0 +1,78 @@
+{
+  "id": "bw7-122",
+  "name": "Stoutland",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Herdier",
+  "abilities": [
+    {
+      "name": "Sentinel",
+      "text": "As long as this Pokémon is your Active Pokémon, your opponent can't play any Supporter cards from his or her hand.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wild Tackle",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": "Flip a coin. If tails, this Pokémon does 20 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw7",
+    "name": "Boundaries Crossed",
+    "series": "Black & White",
+    "printedTotal": 149,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BCR",
+    "releaseDate": "2012/11/07",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw7/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw7/logo.png"
+    }
+  },
+  "number": "122",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare Holo",
+  "flavorText": "Being wrapped in its long fur is so comfortable that a person would be fine even overnight on a wintry mountain.",
+  "nationalPokedexNumbers": [
+    508
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw7/122.png",
+    "large": "https://images.pokemontcg.io/bw7/122_hires.png"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "pl1-40",
+  "name": "Toxicroak G",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "SP"
+  ],
+  "level": "40",
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "abilities": [
+    {
+      "name": "Anticipation",
+      "text": "Prevent all effects of attacks, excluding damage, done to Toxicroak G.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Deep Poison",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "If the Defending Pokémon is Poisoned, this attack does 20 damage plus 40 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pl1",
+    "name": "Platinum",
+    "series": "Platinum",
+    "printedTotal": 127,
+    "total": 133,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PL",
+    "releaseDate": "2009/02/11",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl1/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl1/logo.png"
+    }
+  },
+  "number": "40",
+  "artist": "Ryota Saito",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    454
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl1/40.png",
+    "large": "https://images.pokemontcg.io/pl1/40_hires.png"
+  }
+}

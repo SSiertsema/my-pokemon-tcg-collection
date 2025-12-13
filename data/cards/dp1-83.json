@@ -1,0 +1,78 @@
+{
+  "id": "dp1-83",
+  "name": "Glameow",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "12",
+  "hp": "50",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Purugly"
+  ],
+  "attacks": [
+    {
+      "name": "Charm",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "During your opponent's next turn, any damage done by attacks from the Defending Pokémon is reduced by 20 (before applying Weakness and Resistance)."
+    },
+    {
+      "name": "Pose",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Flip a coin. If tails, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp1",
+    "name": "Diamond & Pearl",
+    "series": "Diamond & Pearl",
+    "printedTotal": 130,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DP",
+    "releaseDate": "2007/05/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp1/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp1/logo.png"
+    }
+  },
+  "number": "83",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "It claws if displeased and purrs when affectionate. Its fickleness if very popular among some.",
+  "nationalPokedexNumbers": [
+    431
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp1/83.png",
+    "large": "https://images.pokemontcg.io/dp1/83_hires.png"
+  }
+}

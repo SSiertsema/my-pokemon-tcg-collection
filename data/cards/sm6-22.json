@@ -1,0 +1,79 @@
+{
+  "id": "sm6-22",
+  "name": "Froakie",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Frogadier"
+  ],
+  "attacks": [
+    {
+      "name": "Rain Splash",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Wave Splash",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm6",
+    "name": "Forbidden Light",
+    "series": "Sun & Moon",
+    "printedTotal": 131,
+    "total": 150,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FLI",
+    "releaseDate": "2018/05/04",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm6/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm6/logo.png"
+    }
+  },
+  "number": "22",
+  "artist": "Aya Kusube",
+  "rarity": "Common",
+  "flavorText": "It protects its skin by covering its body in delicate bubbles. Beneath its happy-go-lucky air, it keeps a watchful eye on its surroundings.",
+  "nationalPokedexNumbers": [
+    656
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm6/22.png",
+    "large": "https://images.pokemontcg.io/sm6/22_hires.png"
+  }
+}

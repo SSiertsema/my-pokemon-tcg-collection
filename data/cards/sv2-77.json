@@ -1,0 +1,68 @@
+{
+  "id": "sv2-77",
+  "name": "Tadbulb",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Lightning"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Lightning"
+      ],
+      "name": "Thunder Wave",
+      "damage": "10",
+      "text": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+      "convertedEnergyCost": 1
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    }
+  },
+  "number": "77",
+  "artist": "Pani Kobayashi",
+  "rarity": "Common",
+  "flavorText": "Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.",
+  "nationalPokedexNumbers": [
+    938
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv2/77.png",
+    "large": "https://images.pokemontcg.io/sv2/77_hires.png"
+  }
+}

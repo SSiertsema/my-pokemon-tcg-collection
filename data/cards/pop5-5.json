@@ -1,0 +1,78 @@
+{
+  "id": "pop5-5",
+  "name": "Charmeleon δ",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Charmander",
+  "evolvesTo": [
+    "Charizard"
+  ],
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Thunder Jolt",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Flip a coin. If tails, Charmeleon does 10 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pop5",
+    "name": "POP Series 5",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2007/03/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop5/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop5/logo.png"
+    }
+  },
+  "number": "5",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    5
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop5/5.png",
+    "large": "https://images.pokemontcg.io/pop5/5_hires.png"
+  }
+}

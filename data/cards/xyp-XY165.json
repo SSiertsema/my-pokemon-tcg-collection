@@ -1,0 +1,81 @@
+{
+  "id": "xyp-XY165",
+  "name": "Magearna",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Metal"
+  ],
+  "attacks": [
+    {
+      "name": "Entertain",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 40 damage from 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Prismatic Wave",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "This attack does 20 damage times the number of different types of Pokémon on your opponent's Bench."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY165",
+  "artist": "Megumi Mizutani",
+  "rarity": "Promo",
+  "flavorText": "Magearna, with its metallic body, is an artificial Pokémon created 500 years ago by humans.",
+  "nationalPokedexNumbers": [
+    801
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY165.png",
+    "large": "https://images.pokemontcg.io/xyp/XY165_hires.png"
+  }
+}

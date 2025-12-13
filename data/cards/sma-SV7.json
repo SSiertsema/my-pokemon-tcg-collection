@@ -1,0 +1,79 @@
+{
+  "id": "sma-SV7",
+  "name": "Charmeleon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Charmander",
+  "evolvesTo": [
+    "Charizard"
+  ],
+  "abilities": [
+    {
+      "name": "Burning Fighter",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may discard the top 5 cards of your deck. If any of those cards are Fire Energy cards, attach them to this Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Flamethrower",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "Discard an Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sma",
+    "name": "Hidden Fates Shiny Vault",
+    "series": "Sun & Moon",
+    "printedTotal": 94,
+    "total": 94,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2019/08/23",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sma/symbol.png",
+      "logo": "https://images.pokemontcg.io/sma/logo.png"
+    }
+  },
+  "number": "SV7",
+  "artist": "nagimiso",
+  "rarity": "Rare Shiny",
+  "flavorText": "When it swings its burning tail, it elevates the air temperature to unbearably high levels.",
+  "nationalPokedexNumbers": [
+    5
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sma/SV7.png",
+    "large": "https://images.pokemontcg.io/sma/SV7_hires.png"
+  }
+}

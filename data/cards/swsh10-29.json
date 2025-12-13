@@ -1,0 +1,82 @@
+{
+  "id": "swsh10-29",
+  "name": "Golduck",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Psyduck",
+  "attacks": [
+    {
+      "name": "Aqua Edge",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": ""
+    },
+    {
+      "name": "Entangled Dive",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Discard each player's Active Pokémon and all attached cards. (You choose a new Active Pokémon first.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh10",
+    "name": "Astral Radiance",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ASR",
+    "releaseDate": "2022/05/27",
+    "updatedAt": "2022/05/27 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh10/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh10/logo.png"
+    }
+  },
+  "number": "29",
+  "artist": "otumami",
+  "rarity": "Uncommon",
+  "flavorText": "This Pokémon lives in gently flowing rivers. It paddles through the water with its long limbs, putting its graceful swimming skills on display.",
+  "nationalPokedexNumbers": [
+    55
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh10/29.png",
+    "large": "https://images.pokemontcg.io/swsh10/29_hires.png"
+  }
+}

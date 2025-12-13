@@ -1,0 +1,39 @@
+{
+  "id": "ex14-75",
+  "name": "Crystal Beach",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card.",
+    "Each Special Energy card that provides 2 or more Energy (both yours and your opponent's) now provides only 1 Colorless Energy. This isn't affected by any Poké-Powers or Poké-Bodies."
+  ],
+  "set": {
+    "id": "ex14",
+    "name": "Crystal Guardians",
+    "series": "EX",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CG",
+    "releaseDate": "2006/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex14/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex14/logo.png"
+    }
+  },
+  "number": "75",
+  "artist": "Shizurow",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex14/75.png",
+    "large": "https://images.pokemontcg.io/ex14/75_hires.png"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "neo4-8",
+  "name": "Dark Porygon2",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "34",
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Porygon",
+  "evolvesTo": [
+    "Porygon-Z"
+  ],
+  "abilities": [
+    {
+      "name": "Spatial Distortion",
+      "text": "Once during your turn (before your attack), you may flip a coin. If heads, choose a Stadium card from your discard pile and put it into play. (If there's already a Stadium card in play, discard it.) This power can't be used if Dark Porygon2 is Asleep, Confused, or Paralyzed.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Curve Attack",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20",
+      "text": "Flip a coin. If heads, prevent all damage done by attacks to Dark Porygon2 during your opponent's next turn. (Any other effects of attacks still happen.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo4",
+    "name": "Neo Destiny",
+    "series": "Neo",
+    "printedTotal": 105,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N4",
+    "releaseDate": "2002/02/28",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo4/logo.png"
+    }
+  },
+  "number": "8",
+  "artist": "Shin-ichi Yoshikawa, CR CG gangs",
+  "rarity": "Rare Holo",
+  "flavorText": "Advances in technology have allowed it to evolve. It occasionally displays behavior not found in its programming.",
+  "nationalPokedexNumbers": [
+    233
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo4/8.png",
+    "large": "https://images.pokemontcg.io/neo4/8_hires.png"
+  }
+}

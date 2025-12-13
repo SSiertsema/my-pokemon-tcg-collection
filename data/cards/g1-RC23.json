@@ -1,0 +1,75 @@
+{
+  "id": "g1-RC23",
+  "name": "Swablu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Altaria"
+  ],
+  "attacks": [
+    {
+      "name": "Bind Wound",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 20 damage from 1 of your Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "g1",
+    "name": "Generations",
+    "series": "XY",
+    "printedTotal": 83,
+    "total": 117,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "GEN",
+    "releaseDate": "2016/02/22",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/g1/symbol.png",
+      "logo": "https://images.pokemontcg.io/g1/logo.png"
+    }
+  },
+  "number": "RC23",
+  "artist": "Atsuko Nishida",
+  "rarity": "Common",
+  "flavorText": "Wings and beaks. I like yours, and I like mine, too.",
+  "nationalPokedexNumbers": [
+    333
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/g1/RC23.png",
+    "large": "https://images.pokemontcg.io/g1/RC23_hires.png"
+  }
+}

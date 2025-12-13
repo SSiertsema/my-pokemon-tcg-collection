@@ -1,0 +1,84 @@
+{
+  "id": "pop4-3",
+  "name": "Flygon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Vibrava",
+  "abilities": [
+    {
+      "name": "Levitate",
+      "text": "As long as Flygon has any Energy attached to it, the Retreat Cost for Flygon is 0.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Sand Pit",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "70",
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pop4",
+    "name": "POP Series 4",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2006/08/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop4/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop4/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Hisao Nakamura",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    330
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop4/3.png",
+    "large": "https://images.pokemontcg.io/pop4/3_hires.png"
+  }
+}

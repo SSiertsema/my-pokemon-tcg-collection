@@ -1,0 +1,74 @@
+{
+  "id": "bw3-88",
+  "name": "Haxorus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Fraxure",
+  "attacks": [
+    {
+      "name": "Dual Chop",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50×",
+      "text": "Flip 2 coins. This attack does 50 damage times the number of heads."
+    },
+    {
+      "name": "Giga Impact",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120",
+      "text": "This Pokémon can't attack during your next turn."
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw3",
+    "name": "Noble Victories",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "NVI",
+    "releaseDate": "2011/11/16",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw3/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw3/logo.png"
+    }
+  },
+  "number": "88",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare Holo",
+  "flavorText": "They are kind but can be relentless when defending territory. They challenge foes with tusks that can cut steel.",
+  "nationalPokedexNumbers": [
+    612
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw3/88.png",
+    "large": "https://images.pokemontcg.io/bw3/88_hires.png"
+  }
+}

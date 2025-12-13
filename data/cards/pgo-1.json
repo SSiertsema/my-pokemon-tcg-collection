@@ -1,0 +1,83 @@
+{
+  "id": "pgo-1",
+  "name": "Bulbasaur",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Ivysaur"
+  ],
+  "attacks": [
+    {
+      "name": "Vine Whip",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Razor Leaf",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pgo",
+    "name": "Pokémon GO",
+    "series": "Sword & Shield",
+    "printedTotal": 78,
+    "total": 88,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PGO",
+    "releaseDate": "2022/07/01",
+    "updatedAt": "2022/07/06 17:07:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pgo/symbol.png",
+      "logo": "https://images.pokemontcg.io/pgo/logo.png"
+    }
+  },
+  "number": "1",
+  "artist": "sowsow",
+  "rarity": "Common",
+  "flavorText": "There is a plant seed on its back right from the day this Pokémon is born. The seed slowly grows larger.",
+  "nationalPokedexNumbers": [
+    1
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/pgo/1.png",
+    "large": "https://images.pokemontcg.io/pgo/1_hires.png"
+  }
+}

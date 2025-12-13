@@ -1,0 +1,79 @@
+{
+  "id": "dp2-34",
+  "name": "Slaking",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "56",
+  "hp": "140",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Vigoroth",
+  "abilities": [
+    {
+      "name": "Energetic Impulse",
+      "text": "Once during your turn (before your attack), if Slaking is your Active Pokémon, you may flip a coin. If heads, Slaking's Lazy Blow attack's base damage is 130 during this turn. If tails, Slaking can't attack or retreat during this turn. (If Slaking is no longer your Active Pokémon, this effect ends.)",
+      "type": "Pok��-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Lazy Blow",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "34",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "flavorText": "The world's laziest Pokémon. When it is lounging, it is actually saving energy for striking back.",
+  "nationalPokedexNumbers": [
+    289
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/34.png",
+    "large": "https://images.pokemontcg.io/dp2/34_hires.png"
+  }
+}

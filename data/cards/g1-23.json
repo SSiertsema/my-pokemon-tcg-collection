@@ -1,0 +1,83 @@
+{
+  "id": "g1-23",
+  "name": "Gyarados",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Magikarp",
+  "attacks": [
+    {
+      "name": "Berserker Splash",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "This attack does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Aqua Tail",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "90+",
+      "text": "Flip a coin for each Water Energy attached to this Pokémon. This attack does 30 more damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "g1",
+    "name": "Generations",
+    "series": "XY",
+    "printedTotal": 83,
+    "total": 117,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "GEN",
+    "releaseDate": "2016/02/22",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/g1/symbol.png",
+      "logo": "https://images.pokemontcg.io/g1/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Shin Nagasawa",
+  "rarity": "Rare",
+  "flavorText": "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
+  "nationalPokedexNumbers": [
+    130
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/g1/23.png",
+    "large": "https://images.pokemontcg.io/g1/23_hires.png"
+  }
+}

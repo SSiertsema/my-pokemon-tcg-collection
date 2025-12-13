@@ -1,0 +1,77 @@
+{
+  "id": "xy11-53",
+  "name": "Primeape",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Mankey",
+  "attacks": [
+    {
+      "name": "Swagger",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Flip a coin. If heads, discard an Energy attached to your opponent's Active Pokémon."
+    },
+    {
+      "name": "Spirited Throw",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "If, before doing damage, your opponent's Active Pokémon has more remaining HP than this Pokémon, this attack does 60 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy11",
+    "name": "Steam Siege",
+    "series": "XY",
+    "printedTotal": 114,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "STS",
+    "releaseDate": "2016/08/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy11/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy11/logo.png"
+    }
+  },
+  "number": "53",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare",
+  "flavorText": "It is always outrageously furious. If it gives chase, it will tenaciously track the target no matter how far.",
+  "nationalPokedexNumbers": [
+    57
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy11/53.png",
+    "large": "https://images.pokemontcg.io/xy11/53_hires.png"
+  }
+}

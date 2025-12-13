@@ -13,5 +13,32 @@
   "images": {
     "symbol": "https://images.pokemontcg.io/mcd21/symbol.png",
     "logo": "https://images.pokemontcg.io/mcd21/logo.png"
-  }
+  },
+  "cards": [
+    "mcd21-4",
+    "mcd21-3",
+    "mcd21-13",
+    "mcd21-18",
+    "mcd21-21",
+    "mcd21-2",
+    "mcd21-6",
+    "mcd21-11",
+    "mcd21-16",
+    "mcd21-20",
+    "mcd21-23",
+    "mcd21-1",
+    "mcd21-8",
+    "mcd21-9",
+    "mcd21-12",
+    "mcd21-14",
+    "mcd21-15",
+    "mcd21-17",
+    "mcd21-5",
+    "mcd21-7",
+    "mcd21-10",
+    "mcd21-19",
+    "mcd21-22",
+    "mcd21-24",
+    "mcd21-25"
+  ]
 }

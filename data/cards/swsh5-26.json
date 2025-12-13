@@ -1,0 +1,81 @@
+{
+  "id": "swsh5-26",
+  "name": "Heatmor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Fire"
+  ],
+  "attacks": [
+    {
+      "name": "Flare",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Burning Licks",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "Flip 2 coins. For each heads, discard an Energy from your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh5",
+    "name": "Battle Styles",
+    "series": "Sword & Shield",
+    "printedTotal": 163,
+    "total": 183,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BST",
+    "releaseDate": "2021/03/19",
+    "updatedAt": "2021/03/19 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh5/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Miki Tanaka",
+  "rarity": "Uncommon",
+  "flavorText": "A flame serves as its tongue, melting through the hard shell of Durant so that Heatmor can devour their insides.",
+  "nationalPokedexNumbers": [
+    631
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh5/26.png",
+    "large": "https://images.pokemontcg.io/swsh5/26_hires.png"
+  }
+}

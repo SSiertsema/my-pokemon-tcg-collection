@@ -1,0 +1,82 @@
+{
+  "id": "bw11-65",
+  "name": "Swoobat",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Woobat",
+  "attacks": [
+    {
+      "name": "Energy Gift",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, search your deck for 2 Psychic Energy cards and attach them to your Pokémon in any way you like. Shuffle your deck afterward."
+    },
+    {
+      "name": "Heart Stamp",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw11",
+    "name": "Legendary Treasures",
+    "series": "Black & White",
+    "printedTotal": 113,
+    "total": 140,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LTR",
+    "releaseDate": "2013/11/06",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw11/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw11/logo.png"
+    }
+  },
+  "number": "65",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Uncommon",
+  "flavorText": "It shakes its tail vigorously when it emits ultrasonic waves strong enough to reduce concrete to rubble.",
+  "nationalPokedexNumbers": [
+    528
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw11/65.png",
+    "large": "https://images.pokemontcg.io/bw11/65_hires.png"
+  }
+}

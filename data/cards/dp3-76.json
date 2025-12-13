@@ -1,0 +1,84 @@
+{
+  "id": "dp3-76",
+  "name": "Bagon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "11",
+  "hp": "50",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Shelgon"
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Rage",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10+",
+      "text": "Does 10 damage plus 10 more damage for each damage counter on Bagon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Colorless",
+      "value": "+10"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "76",
+  "artist": "Atsuko Nishida",
+  "rarity": "Common",
+  "flavorText": "Dreaming of one day flying, it practices by leaping off cliffs every day.",
+  "nationalPokedexNumbers": [
+    371
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/76.png",
+    "large": "https://images.pokemontcg.io/dp3/76_hires.png"
+  }
+}

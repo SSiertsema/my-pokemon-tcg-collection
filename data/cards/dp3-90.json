@@ -1,0 +1,81 @@
+{
+  "id": "dp3-90",
+  "name": "Hoppip",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "7",
+  "hp": "30",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Skiploom"
+  ],
+  "abilities": [
+    {
+      "name": "Cottonweed",
+      "text": "If Hoppip has any Grass Energy attached to it, the Retreat Cost for Hoppip is 0.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Hover Heal",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Remove all Special Conditions from Hoppip."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+10"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "90",
+  "artist": "Motofumi Fujiwara",
+  "rarity": "Common",
+  "flavorText": "It drifts on winds. It is said that when HOPPIP gather in fields and mountains, spring is on the way.",
+  "nationalPokedexNumbers": [
+    187
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/90.png",
+    "large": "https://images.pokemontcg.io/dp3/90_hires.png"
+  }
+}

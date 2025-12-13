@@ -1,0 +1,81 @@
+{
+  "id": "sm11-162",
+  "name": "Lickilicky",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Lickitung",
+  "attacks": [
+    {
+      "name": "Rollout",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": ""
+    },
+    {
+      "name": "Licks Go Crazy",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": "Discard a random card from your opponent's hand, discard the top card of your opponent's deck, and discard an Energy from your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "162",
+  "artist": "Suwama Chiaki",
+  "rarity": "Rare",
+  "flavorText": "A contest is under way to determine which one can stick its tongue out the farthest. The current record is…more than 82 feet.",
+  "nationalPokedexNumbers": [
+    463
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/162.png",
+    "large": "https://images.pokemontcg.io/sm11/162_hires.png"
+  }
+}

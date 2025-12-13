@@ -1,0 +1,75 @@
+{
+  "id": "ex11-77",
+  "name": "Meowth",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Persian"
+  ],
+  "attacks": [
+    {
+      "name": "Pickup Power",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand."
+    },
+    {
+      "name": "Bite",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex11",
+    "name": "Delta Species",
+    "series": "EX",
+    "printedTotal": 113,
+    "total": 114,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DS",
+    "releaseDate": "2005/10/31",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex11/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex11/logo.png"
+    }
+  },
+  "number": "77",
+  "artist": "Hiroki Fuchino",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    52
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex11/77.png",
+    "large": "https://images.pokemontcg.io/ex11/77_hires.png"
+  }
+}

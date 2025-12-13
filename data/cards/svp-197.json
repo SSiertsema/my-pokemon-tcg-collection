@@ -1,0 +1,84 @@
+{
+  "id": "svp-197",
+  "name": "Koraidon ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "ex"
+  ],
+  "hp": "230",
+  "types": [
+    "Fighting"
+  ],
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Claw Slash",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": ""
+    },
+    {
+      "name": "Revenge Buster",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100+",
+      "text": "If your Benched Pokémon have any damage counters on them, this attack does 120 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "svp",
+    "name": "Scarlet & Violet Promos",
+    "series": "Scarlet & Violet",
+    "printedTotal": 150,
+    "total": 148,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2022/11/01",
+    "updatedAt": "2023/07/20 22:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+      "logo": "https://images.pokemontcg.io/svp/logo.png"
+    }
+  },
+  "number": "197",
+  "artist": "PLANETA Tsuji",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    1007
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/svp/197.png",
+    "large": "https://images.pokemontcg.io/svp/197_hires.png"
+  }
+}

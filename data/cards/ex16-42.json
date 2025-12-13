@@ -1,0 +1,83 @@
+{
+  "id": "ex16-42",
+  "name": "Aron",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Metal"
+  ],
+  "evolvesTo": [
+    "Lairon"
+  ],
+  "attacks": [
+    {
+      "name": "Dig Deep",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your discard pile for an Energy card, show it to your opponent, and put it into your hand."
+    },
+    {
+      "name": "Tackle",
+      "cost": [
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex16",
+    "name": "Power Keepers",
+    "series": "EX",
+    "printedTotal": 108,
+    "total": 108,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PK",
+    "releaseDate": "2007/02/02",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex16/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex16/logo.png"
+    }
+  },
+  "number": "42",
+  "artist": "Tomokazu Komiya",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    304
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex16/42.png",
+    "large": "https://images.pokemontcg.io/ex16/42_hires.png"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "hgss1-121",
+  "name": "Darkness Energy",
+  "supertype": "Energy",
+  "subtypes": [
+    "Basic"
+  ],
+  "set": {
+    "id": "hgss1",
+    "name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss1/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss1/logo.png"
+    }
+  },
+  "number": "121",
+  "rarity": "Common",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss1/121.png",
+    "large": "https://images.pokemontcg.io/hgss1/121_hires.png"
+  }
+}

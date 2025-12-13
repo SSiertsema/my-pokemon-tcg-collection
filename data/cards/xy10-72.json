@@ -1,0 +1,88 @@
+{
+  "id": "xy10-72",
+  "name": "Diancie-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "EX"
+  ],
+  "hp": "150",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesTo": [
+    "M Diancie-EX"
+  ],
+  "rules": [
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Sparkle Veil",
+      "text": "As long as this Pokémon is your Active Pokémon, any damage done to your Pokémon by an opponent's attack is reduced by 30 (after applying Weakness and Resistance).",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Wonder Stage",
+      "cost": [
+        "Fairy",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "If there is any Stadium card in play, this attack does 50 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy10",
+    "name": "Fates Collide",
+    "series": "XY",
+    "printedTotal": 124,
+    "total": 129,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FCO",
+    "releaseDate": "2016/05/02",
+    "updatedAt": "2018/09/03 11:49:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy10/logo.png"
+    }
+  },
+  "number": "72",
+  "artist": "Eske Yoshinob",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    719
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy10/72.png",
+    "large": "https://images.pokemontcg.io/xy10/72_hires.png"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "me2-24",
+  "name": "Piloswine",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Swinub",
+  "evolvesTo": [
+    "Mamoswine"
+  ],
+  "attacks": [
+    {
+      "name": "Rising Lunge",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    },
+    {
+      "name": "Frost Smash",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "me2",
+    "name": "Phantasmal Flames",
+    "series": "Mega Evolution",
+    "printedTotal": 94,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PFL",
+    "releaseDate": "2025/11/14",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+      "logo": "https://images.pokemontcg.io/me2/logo.png"
+    }
+  },
+  "number": "24",
+  "artist": "Shinya Komatsu",
+  "rarity": "Common",
+  "flavorText": "Covered by a shaggy coat, it is resistant to the cold. Its tusks of ice thicken when it snows.",
+  "nationalPokedexNumbers": [
+    221
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me2/24.png",
+    "large": "https://images.pokemontcg.io/me2/24_hires.png"
+  }
+}

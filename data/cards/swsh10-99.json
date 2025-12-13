@@ -1,0 +1,81 @@
+{
+  "id": "swsh10-99",
+  "name": "Darkrai VSTAR",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VSTAR"
+  ],
+  "hp": "270",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Darkrai V",
+  "rules": [
+    "VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Star Abyss",
+      "text": "During your turn, you may put up to 2 Item cards from your discard pile into your hand. (You can't use more than 1 VSTAR Power in a game.)",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Dark Pulse",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "This attack does 30 more damage for each Darkness Energy attached to all of your Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh10",
+    "name": "Astral Radiance",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ASR",
+    "releaseDate": "2022/05/27",
+    "updatedAt": "2022/05/27 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh10/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh10/logo.png"
+    }
+  },
+  "number": "99",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo VSTAR",
+  "nationalPokedexNumbers": [
+    491
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh10/99.png",
+    "large": "https://images.pokemontcg.io/swsh10/99_hires.png"
+  }
+}

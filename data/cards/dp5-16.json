@@ -1,0 +1,90 @@
+{
+  "id": "dp5-16",
+  "name": "Bronzong",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "44",
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Bronzor",
+  "abilities": [
+    {
+      "name": "Cursed Alloy",
+      "text": "As long as Bronzong is your Active Pokémon, put 1 damage counter on each of your opponent's Pokémon that has any Poké-Powers between turns.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Pain Amplifier",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Put 1 damage counter on each of your opponent's Pokémon that already has damage counters on it."
+    },
+    {
+      "name": "Coating",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "During your opponent's next turn, any damage done to Bronzong by attacks is reduced by 20 (after applying Weakness and Resistance)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fire",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dp5",
+    "name": "Majestic Dawn",
+    "series": "Diamond & Pearl",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MD",
+    "releaseDate": "2008/05/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp5/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp5/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "flavorText": "One caused a news sensation when it was dug up at a construction site after a 2,000-year sleep.",
+  "nationalPokedexNumbers": [
+    437
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp5/16.png",
+    "large": "https://images.pokemontcg.io/dp5/16_hires.png"
+  }
+}

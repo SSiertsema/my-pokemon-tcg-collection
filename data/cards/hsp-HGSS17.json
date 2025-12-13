@@ -1,0 +1,79 @@
+{
+  "id": "hsp-HGSS17",
+  "name": "Minun",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Lightning"
+  ],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for up to 2 Basic Pokémon and put them onto your Bench. Shuffle your deck afterward."
+    },
+    {
+      "name": "Tag Team Boost",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "If Plusle is on your Bench, this attack does 10 damage plus 20 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hsp",
+    "name": "HGSS Black Star Promos",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hsp/symbol.png",
+      "logo": "https://images.pokemontcg.io/hsp/logo.png"
+    }
+  },
+  "number": "HGSS17",
+  "artist": "Kouki Saitou",
+  "rarity": "Promo",
+  "flavorText": "Exposure to electricity from Minun and Plusle promotes blood circulation and relaxes muscles.",
+  "nationalPokedexNumbers": [
+    312
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hsp/HGSS17.png",
+    "large": "https://images.pokemontcg.io/hsp/HGSS17_hires.png"
+  }
+}

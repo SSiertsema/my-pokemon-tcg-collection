@@ -1,0 +1,77 @@
+{
+  "id": "xy10-52",
+  "name": "Zygarde",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "name": "Lookout",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Switch 1 of your opponent's Benched Pokémon with his or her Active Pokémon."
+    },
+    {
+      "name": "Aura Break",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "If the Defending Pokémon is a Darkness or Fairy Pokémon, it can't attack during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy10",
+    "name": "Fates Collide",
+    "series": "XY",
+    "printedTotal": 124,
+    "total": 129,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FCO",
+    "releaseDate": "2016/05/02",
+    "updatedAt": "2018/09/03 11:49:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy10/logo.png"
+    }
+  },
+  "number": "52",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "flavorText": "It's hypothesized that it's monitoring those who destroy the ecosystem from deep in the cave where it lives.",
+  "nationalPokedexNumbers": [
+    718
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy10/52.png",
+    "large": "https://images.pokemontcg.io/xy10/52_hires.png"
+  }
+}

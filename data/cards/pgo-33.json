@@ -1,0 +1,82 @@
+{
+  "id": "pgo-33",
+  "name": "Xatu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Natu",
+  "attacks": [
+    {
+      "name": "Pinpoint Wave",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "This attack does 90 damage to 1 of your opponent's Pokémon V. This damage isn't affected by Weakness or Resistance."
+    },
+    {
+      "name": "Mind Bend",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "pgo",
+    "name": "Pokémon GO",
+    "series": "Sword & Shield",
+    "printedTotal": 78,
+    "total": 88,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PGO",
+    "releaseDate": "2022/07/01",
+    "updatedAt": "2022/07/06 17:07:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pgo/symbol.png",
+      "logo": "https://images.pokemontcg.io/pgo/logo.png"
+    }
+  },
+  "number": "33",
+  "artist": "Hataya",
+  "rarity": "Uncommon",
+  "flavorText": "They say that it stays still and quiet because it is seeing both the past and future at the same time.",
+  "nationalPokedexNumbers": [
+    178
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/pgo/33.png",
+    "large": "https://images.pokemontcg.io/pgo/33_hires.png"
+  }
+}

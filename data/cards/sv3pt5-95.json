@@ -1,0 +1,87 @@
+{
+  "id": "sv3pt5-95",
+  "name": "Onix",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Steelix"
+  ],
+  "attacks": [
+    {
+      "name": "Thumpalanche",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "80×",
+      "text": "Discard the top 5 cards of your deck. This attack does 80 damage for each Pokémon with a Retreat Cost of exactly 4 that you discarded in this way."
+    },
+    {
+      "name": "Heavy Impact",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "100",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "sv3pt5",
+    "name": "151",
+    "series": "Scarlet & Violet",
+    "printedTotal": 165,
+    "total": 207,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/09/22",
+    "updatedAt": "2023/09/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3pt5/logo.png"
+    }
+  },
+  "number": "95",
+  "artist": "Shin Nagasawa",
+  "rarity": "Uncommon",
+  "flavorText": "It rapidly bores through the ground at 50 mph by squirming and twisting its massive, rugged body.",
+  "nationalPokedexNumbers": [
+    95
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3pt5/95.png",
+    "large": "https://images.pokemontcg.io/sv3pt5/95_hires.png"
+  }
+}

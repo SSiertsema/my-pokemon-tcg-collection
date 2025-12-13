@@ -1,0 +1,82 @@
+{
+  "id": "hgss4-14",
+  "name": "Banette",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Shuppet",
+  "attacks": [
+    {
+      "name": "Lost Crush",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, choose 1 Energy card attached to 1 of your opponent's Pokémon and put it in the Lost Zone."
+    },
+    {
+      "name": "Breakdown",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Count the number of cards in your opponent's hand. Put that many damage counters on the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Colorless",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hgss4",
+    "name": "HS—Triumphant",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 102,
+    "total": 103,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TM",
+    "releaseDate": "2010/11/03",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss4/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss4/logo.png"
+    }
+  },
+  "number": "14",
+  "artist": "Ryo Ueda",
+  "rarity": "Rare",
+  "flavorText": "This Pokémon developed from an abandoned doll that amassed a grudge. It is seen in dark alleys.",
+  "nationalPokedexNumbers": [
+    354
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss4/14.png",
+    "large": "https://images.pokemontcg.io/hgss4/14_hires.png"
+  }
+}

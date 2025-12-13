@@ -1,0 +1,79 @@
+{
+  "id": "bw4-55",
+  "name": "Ralts",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Kirlia"
+  ],
+  "attacks": [
+    {
+      "name": "Psyshot",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Smack",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw4",
+    "name": "Next Destinies",
+    "series": "Black & White",
+    "printedTotal": 99,
+    "total": 103,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "NXD",
+    "releaseDate": "2012/02/08",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw4/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw4/logo.png"
+    }
+  },
+  "number": "55",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Common",
+  "flavorText": "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+  "nationalPokedexNumbers": [
+    280
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw4/55.png",
+    "large": "https://images.pokemontcg.io/bw4/55_hires.png"
+  }
+}

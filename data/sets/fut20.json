@@ -15,5 +15,12 @@
   "images": {
     "symbol": "https://images.pokemontcg.io/fut20/symbol.png",
     "logo": "https://images.pokemontcg.io/fut20/logo.png"
-  }
+  },
+  "cards": [
+    "fut20-1",
+    "fut20-2",
+    "fut20-3",
+    "fut20-4",
+    "fut20-5"
+  ]
 }

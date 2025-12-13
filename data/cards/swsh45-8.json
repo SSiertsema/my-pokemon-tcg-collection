@@ -1,0 +1,78 @@
+{
+  "id": "swsh45-8",
+  "name": "Decidueye",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Dartrix",
+  "abilities": [
+    {
+      "name": "Deep Forest Camo",
+      "text": "Prevent all damage done to this Pokémon by attacks from your opponent's Pok��mon V and Pokémon-GX.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Splitting Arrow",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "90",
+      "text": "This attack also does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh45",
+    "name": "Shining Fates",
+    "series": "Sword & Shield",
+    "printedTotal": 72,
+    "total": 73,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SHF",
+    "releaseDate": "2021/02/19",
+    "updatedAt": "2021/02/24 16:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh45/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh45/logo.png"
+    }
+  },
+  "number": "8",
+  "artist": "Ryota Murayama",
+  "rarity": "Rare Holo",
+  "flavorText": "As if wielding a bow, it launches the arrow quills hidden among the feathers of its wings. Decidueye's shots never miss.",
+  "nationalPokedexNumbers": [
+    724
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh45/8.png",
+    "large": "https://images.pokemontcg.io/swsh45/8_hires.png"
+  }
+}

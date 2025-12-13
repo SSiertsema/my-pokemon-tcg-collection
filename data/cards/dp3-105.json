@@ -1,0 +1,78 @@
+{
+  "id": "dp3-105",
+  "name": "Shellder",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "10",
+  "hp": "50",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Cloyster"
+  ],
+  "attacks": [
+    {
+      "name": "Shell Rest",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Remove 2 damage counters from Shellder."
+    },
+    {
+      "name": "Tongue Slap",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "105",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "flavorText": "It swims backwards by opening and closing its two shells. Its large tongue is always kept hanging out.",
+  "nationalPokedexNumbers": [
+    90
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/105.png",
+    "large": "https://images.pokemontcg.io/dp3/105_hires.png"
+  }
+}

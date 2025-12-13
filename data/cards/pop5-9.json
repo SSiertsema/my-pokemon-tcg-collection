@@ -1,0 +1,37 @@
+{
+  "id": "pop5-9",
+  "name": "δ Rainbow Energy",
+  "supertype": "Energy",
+  "subtypes": [
+    "Special"
+  ],
+  "rules": [
+    "δ Rainbow Energy provides Colorless Energy. While attached to a Pokémon that has δ on its card, δ Rainbow Energy provides every type of Energy but provides only 1 Energy at a time. (Has no effect other than providing Energy.)"
+  ],
+  "set": {
+    "id": "pop5",
+    "name": "POP Series 5",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2007/03/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop5/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop5/logo.png"
+    }
+  },
+  "number": "9",
+  "artist": "Takumi Akabane",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop5/9.png",
+    "large": "https://images.pokemontcg.io/pop5/9_hires.png"
+  }
+}

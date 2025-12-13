@@ -1,0 +1,83 @@
+{
+  "id": "dp1-1",
+  "name": "Dialga",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "68",
+  "hp": "90",
+  "types": [
+    "Metal"
+  ],
+  "attacks": [
+    {
+      "name": "Time Bellow",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Draw a card."
+    },
+    {
+      "name": "Flash Cannon",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": "You may return all Energy cards attached to Dialga to your hand. If you do, remove the highest Stage Evolution card from the Defending Pokémon and shuffle that card into your opponent's deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "dp1",
+    "name": "Diamond & Pearl",
+    "series": "Diamond & Pearl",
+    "printedTotal": 130,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DP",
+    "releaseDate": "2007/05/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp1/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp1/logo.png"
+    }
+  },
+  "number": "1",
+  "artist": "Nakaoka",
+  "rarity": "Rare Holo",
+  "flavorText": "It has the power to control time. It appears in Sinnoh-region myths as an ancient deity.",
+  "nationalPokedexNumbers": [
+    483
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp1/1.png",
+    "large": "https://images.pokemontcg.io/dp1/1_hires.png"
+  }
+}

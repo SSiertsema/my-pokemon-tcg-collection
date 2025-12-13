@@ -1,0 +1,72 @@
+{
+  "id": "me2-43",
+  "name": "Milcery",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Alcremie"
+  ],
+  "attacks": [
+    {
+      "name": "Draining Kiss",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Heal 10 damage from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "me2",
+    "name": "Phantasmal Flames",
+    "series": "Mega Evolution",
+    "printedTotal": 94,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PFL",
+    "releaseDate": "2025/11/14",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me2/symbol.png",
+      "logo": "https://images.pokemontcg.io/me2/logo.png"
+    }
+  },
+  "number": "43",
+  "artist": "Taiga Kayama",
+  "rarity": "Common",
+  "flavorText": "The more sweet aromas it absorbs, the more its body swells. Milcery will deflate when its energy level drops.",
+  "nationalPokedexNumbers": [
+    868
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me2/43.png",
+    "large": "https://images.pokemontcg.io/me2/43_hires.png"
+  }
+}

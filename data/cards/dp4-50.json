@@ -1,0 +1,79 @@
+{
+  "id": "dp4-50",
+  "name": "Purugly",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "47",
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Glameow",
+  "attacks": [
+    {
+      "name": "Swagger",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Flip a coin. If heads, discard an Energy attached to the Defending Pokémon."
+    },
+    {
+      "name": "Fury Swipes",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40×",
+      "text": "Flip 3 coins. This attack does 40 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "dp4",
+    "name": "Great Encounters",
+    "series": "Diamond & Pearl",
+    "printedTotal": 106,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "GE",
+    "releaseDate": "2008/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp4/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp4/logo.png"
+    }
+  },
+  "number": "50",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "flavorText": "It is a brazen brute that barges its way into another Pokémon's nest and claims it as its own.",
+  "nationalPokedexNumbers": [
+    432
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp4/50.png",
+    "large": "https://images.pokemontcg.io/dp4/50_hires.png"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "swsh45sv-SV055",
+  "name": "Hattrem",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Hatenna",
+  "evolvesTo": [
+    "Hatterene"
+  ],
+  "attacks": [
+    {
+      "name": "Calm Mind",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 30 damage from this Pokémon."
+    },
+    {
+      "name": "Brutal Swing",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh45sv",
+    "name": "Shining Fates Shiny Vault",
+    "series": "Sword & Shield",
+    "printedTotal": 122,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SHF",
+    "releaseDate": "2021/02/19",
+    "updatedAt": "2021/02/24 16:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh45sv/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh45sv/logo.png"
+    }
+  },
+  "number": "SV055",
+  "artist": "Lee HyunJung",
+  "rarity": "Rare Shiny",
+  "flavorText": "No matter who you are, if you bring strong emotions near this Pokémon, it will silence you violently.",
+  "nationalPokedexNumbers": [
+    857
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh45sv/SV055.png",
+    "large": "https://images.pokemontcg.io/swsh45sv/SV055_hires.png"
+  }
+}

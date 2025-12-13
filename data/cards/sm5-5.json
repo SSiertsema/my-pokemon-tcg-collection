@@ -1,0 +1,78 @@
+{
+  "id": "sm5-5",
+  "name": "Roserade",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Roselia",
+  "attacks": [
+    {
+      "name": "Inviting Poison",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. The new Active Pokémon is now Poisoned."
+    },
+    {
+      "name": "Flower Tornado",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": "Move any number of Grass Energy from your Pokémon to your other Pokémon in any way you like."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "5",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "flavorText": "With the movements of a dancer, it strikes with whips that are densely lined with poison thorns.",
+  "nationalPokedexNumbers": [
+    407
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/5.png",
+    "large": "https://images.pokemontcg.io/sm5/5_hires.png"
+  }
+}

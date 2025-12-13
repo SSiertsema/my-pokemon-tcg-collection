@@ -13,5 +13,19 @@
   "images": {
     "symbol": "https://images.pokemontcg.io/mcd11/symbol.png",
     "logo": "https://images.pokemontcg.io/mcd11/logo.png"
-  }
+  },
+  "cards": [
+    "mcd11-1",
+    "mcd11-2",
+    "mcd11-3",
+    "mcd11-4",
+    "mcd11-5",
+    "mcd11-6",
+    "mcd11-7",
+    "mcd11-8",
+    "mcd11-9",
+    "mcd11-10",
+    "mcd11-11",
+    "mcd11-12"
+  ]
 }

@@ -1,0 +1,77 @@
+{
+  "id": "neo3-8",
+  "name": "Houndoom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "35",
+  "hp": "70",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Houndour",
+  "attacks": [
+    {
+      "name": "Dark Flame",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Discard 1 Fire Energy card attached to Houndoom or this attack does nothing. If there are any Darkness Energy cards in your discard pile, attach 1 of them to Houndoom."
+    },
+    {
+      "name": "Black Fang",
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30+",
+      "text": "Flip a number of coins equal to the number of Darkness Energy attached to Houndoom. This attack does 30 damage plus 10 more damage for each heads."
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo3",
+    "name": "Neo Revelation",
+    "series": "Neo",
+    "printedTotal": 64,
+    "total": 66,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N3",
+    "releaseDate": "2001/09/21",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo3/logo.png"
+    }
+  },
+  "number": "8",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare Holo",
+  "flavorText": "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
+  "nationalPokedexNumbers": [
+    229
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo3/8.png",
+    "large": "https://images.pokemontcg.io/neo3/8_hires.png"
+  }
+}

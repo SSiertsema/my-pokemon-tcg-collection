@@ -1,0 +1,79 @@
+{
+  "id": "swshp-SWSH066",
+  "name": "Charizard",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "170",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Charmeleon",
+  "abilities": [
+    {
+      "name": "Battle Sense",
+      "text": "Once during your turn, you may look at the top 3 cards of your deck and put 1 of them into your hand. Discard the other cards.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Royal Blaze",
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "100+",
+      "text": "This attack does 50 more damage for each Leon card in your discard pile."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH066",
+  "artist": "NC Empire",
+  "rarity": "Promo",
+  "flavorText": "It spits fire that is hot enough to melt boulders. It may cause forest fires by blowing flames.",
+  "nationalPokedexNumbers": [
+    6
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH066.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH066_hires.png"
+  }
+}

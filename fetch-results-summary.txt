@@ -1,0 +1,25 @@
+======================================
+POKEMON TCG CARD FETCH SUMMARY
+======================================
+Date: 2025-12-13
+Total Sets: 6
+
+RESULTS:
+✓ sv7: SUCCESS (175 cards)
+✓ sv8: SUCCESS (250 cards) - Required 1 retry
+✓ sv8pt5: SUCCESS (180 cards)
+✓ sv9: SUCCESS (190 cards)
+✓ sv10: SUCCESS (244 cards)
+✓ zsv10pt5: SUCCESS (172 cards)
+
+TOTAL: 6 succeeded, 0 failed
+TOTAL CARDS FETCHED: 1,211 cards
+
+NOTES:
+- API was flaky with frequent 504 Gateway Timeout errors
+- All sets experienced retries due to 504 errors
+- sv8 initially failed with 404 errors but succeeded on first retry
+- 15-second delays were used between set fetches
+- Built-in retry mechanism (5 retries per set) handled most failures
+- All card data saved to: /home/sven/Projects/Pokemon-collectie-app/data/cards/
+======================================

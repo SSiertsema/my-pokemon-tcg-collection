@@ -1,0 +1,75 @@
+{
+  "id": "neo3-35",
+  "name": "Parasect",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "30",
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Paras",
+  "abilities": [
+    {
+      "name": "Allergic Pollen",
+      "text": "As long as Parasect is in play, cards in any player's discard piles are not affected by attacks or Pokémon Powers. This power stops working if Parasect becomes Asleep, Confused, or Paralyzed.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sleep Pinchers",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "neo3",
+    "name": "Neo Revelation",
+    "series": "Neo",
+    "printedTotal": 64,
+    "total": 66,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N3",
+    "releaseDate": "2001/09/21",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo3/logo.png"
+    }
+  },
+  "number": "35",
+  "artist": "Atsuko Nishida",
+  "rarity": "Uncommon",
+  "flavorText": "It stays mostly in dark, damp places, the preference not of the bug, but of the big mushrooms on its back.",
+  "nationalPokedexNumbers": [
+    47
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo3/35.png",
+    "large": "https://images.pokemontcg.io/neo3/35_hires.png"
+  }
+}

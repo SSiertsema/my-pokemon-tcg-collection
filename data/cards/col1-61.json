@@ -1,0 +1,68 @@
+{
+  "id": "col1-61",
+  "name": "Magikarp",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "30",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Gyarados"
+  ],
+  "attacks": [
+    {
+      "name": "Splash",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "col1",
+    "name": "Call of Legends",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CL",
+    "releaseDate": "2011/02/09",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/col1/symbol.png",
+      "logo": "https://images.pokemontcg.io/col1/logo.png"
+    }
+  },
+  "number": "61",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Common",
+  "flavorText": "For no reason, it jumps and splashes about, making it easy for predators like Pidgeotto to catch it mid-jump.",
+  "nationalPokedexNumbers": [
+    129
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/col1/61.png",
+    "large": "https://images.pokemontcg.io/col1/61_hires.png"
+  }
+}

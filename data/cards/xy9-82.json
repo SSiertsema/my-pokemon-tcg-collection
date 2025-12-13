@@ -1,0 +1,84 @@
+{
+  "id": "xy9-82",
+  "name": "Clefable",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesFrom": "Clefairy",
+  "attacks": [
+    {
+      "name": "Moon Barrier",
+      "cost": [
+        "Fairy"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "During your opponent's next turn, prevent all effects of attacks, including damage, done to this Pokémon by Dragon Pokémon."
+    },
+    {
+      "name": "Tumbling Attack",
+      "cost": [
+        "Fairy",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy9",
+    "name": "BREAKpoint",
+    "series": "XY",
+    "printedTotal": 122,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKP",
+    "releaseDate": "2016/02/03",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy9/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy9/logo.png"
+    }
+  },
+  "number": "82",
+  "artist": "Sanosuke Sakuma",
+  "rarity": "Rare",
+  "flavorText": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+  "nationalPokedexNumbers": [
+    36
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy9/82.png",
+    "large": "https://images.pokemontcg.io/xy9/82_hires.png"
+  }
+}

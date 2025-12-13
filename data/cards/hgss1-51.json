@@ -1,0 +1,70 @@
+{
+  "id": "hgss1-51",
+  "name": "Skiploom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Hoppip",
+  "evolvesTo": [
+    "Jumpluff"
+  ],
+  "attacks": [
+    {
+      "name": "Knock Away",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20+",
+      "text": "Flip a coin. If heads, this attack does 20 damage plus 10 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "hgss1",
+    "name": "HeartGold & SoulSilver",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss1/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss1/logo.png"
+    }
+  },
+  "number": "51",
+  "artist": "sui",
+  "rarity": "Uncommon",
+  "flavorText": "The bloom on top of its head opens and closes as the temperature fluctuates up and down.",
+  "nationalPokedexNumbers": [
+    188
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss1/51.png",
+    "large": "https://images.pokemontcg.io/hgss1/51_hires.png"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "swsh12pt5gg-GG37",
+  "name": "Simisear VSTAR",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VSTAR"
+  ],
+  "hp": "260",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Simisear V",
+  "rules": [
+    "VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Fireball Fever",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40+",
+      "text": "You may discard up to 5 cards from the top of your deck. This attack does 40 more damage for each card you discarded in this way."
+    },
+    {
+      "name": "Ember Star",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30×",
+      "text": "This attack does 30 damage for each Energy card in your discard pile. (You can't use more than 1 VSTAR Power in a game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh12pt5gg",
+    "name": "Crown Zenith Galarian Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 70,
+    "total": 70,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRZ",
+    "releaseDate": "2023/01/20",
+    "updatedAt": "2023/01/19 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12pt5gg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12pt5gg/logo.png"
+    }
+  },
+  "number": "GG37",
+  "artist": "nagano",
+  "rarity": "Rare Holo VSTAR",
+  "nationalPokedexNumbers": [
+    514
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12pt5gg/GG37.png",
+    "large": "https://images.pokemontcg.io/swsh12pt5gg/GG37_hires.png"
+  }
+}

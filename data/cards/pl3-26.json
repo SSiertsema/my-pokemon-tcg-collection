@@ -1,0 +1,84 @@
+{
+  "id": "pl3-26",
+  "name": "Dusknoir FB",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "SP"
+  ],
+  "level": "50",
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Ghost Hand",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Put 1 damage counter on 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Cursed Wrath",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "10×",
+      "text": "Does 10 damage times the number of Pokémon SP in your discard pile."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Colorless",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Motofumi Fujiwara",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    477
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/26.png",
+    "large": "https://images.pokemontcg.io/pl3/26_hires.png"
+  }
+}

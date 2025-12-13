@@ -1,0 +1,71 @@
+{
+  "id": "ex15-14",
+  "name": "Cloyster δ",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Shellder",
+  "abilities": [
+    {
+      "name": "Solid Shell",
+      "text": "Prevent all effects of attacks, including damage, done by your opponent's Pokémon to each of your Benched Pokémon that has δ on its card.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Grind",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "Does 10 damage plus 10 more damage for each Energy attached to Cloyster."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex15",
+    "name": "Dragon Frontiers",
+    "series": "EX",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DF",
+    "releaseDate": "2006/11/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex15/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex15/logo.png"
+    }
+  },
+  "number": "14",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    91
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex15/14.png",
+    "large": "https://images.pokemontcg.io/ex15/14_hires.png"
+  }
+}

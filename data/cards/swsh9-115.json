@@ -1,0 +1,79 @@
+{
+  "id": "swsh9-115",
+  "name": "Farfetch'd",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Sirfetch'd"
+  ],
+  "attacks": [
+    {
+      "name": "Leek Lash",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "This attack does 10 more damage for each damage counter on your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh9",
+    "name": "Brilliant Stars",
+    "series": "Sword & Shield",
+    "printedTotal": 172,
+    "total": 186,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BRS",
+    "releaseDate": "2022/02/25",
+    "updatedAt": "2022/02/23 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh9/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh9/logo.png"
+    }
+  },
+  "number": "115",
+  "artist": "Tomokazu Komiya",
+  "rarity": "Common",
+  "flavorText": "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
+  "nationalPokedexNumbers": [
+    83
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh9/115.png",
+    "large": "https://images.pokemontcg.io/swsh9/115_hires.png"
+  }
+}

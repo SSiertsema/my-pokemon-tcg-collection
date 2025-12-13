@@ -1,0 +1,73 @@
+{
+  "id": "sm8-30",
+  "name": "Ninjask",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Nincada",
+  "evolvesTo": [
+    "Shedinja"
+  ],
+  "abilities": [
+    {
+      "name": "Molting",
+      "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may put a Shedinja from your discard pile onto your Bench.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "X-Scissor",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40+",
+      "text": "Flip a coin. If heads, this attack does 40 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "30",
+  "artist": "kirisAki",
+  "rarity": "Uncommon",
+  "flavorText": "Because it moves so quickly, it sometimes becomes unseeable. It congregates around tree sap.",
+  "nationalPokedexNumbers": [
+    291
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/30.png",
+    "large": "https://images.pokemontcg.io/sm8/30_hires.png"
+  }
+}

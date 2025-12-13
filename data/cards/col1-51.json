@@ -1,0 +1,75 @@
+{
+  "id": "col1-51",
+  "name": "Seviper",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Poison Buildup",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Seviper is now Poisoned."
+    },
+    {
+      "name": "Poison Effect",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "If Seviper is Poisoned, this attack does 20 damage plus 60 more damage and remove the Special Condition Poisoned from Seviper."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "col1",
+    "name": "Call of Legends",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CL",
+    "releaseDate": "2011/02/09",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/col1/symbol.png",
+      "logo": "https://images.pokemontcg.io/col1/logo.png"
+    }
+  },
+  "number": "51",
+  "artist": "Wataru Kawahara",
+  "rarity": "Uncommon",
+  "flavorText": "In battle, it uses its bladed tail to counter any Zangoose. It secretes a deadly venom in its tail.",
+  "nationalPokedexNumbers": [
+    336
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/col1/51.png",
+    "large": "https://images.pokemontcg.io/col1/51_hires.png"
+  }
+}

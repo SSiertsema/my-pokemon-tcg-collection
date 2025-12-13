@@ -1,0 +1,84 @@
+{
+  "id": "swsh12pt5gg-GG03",
+  "name": "Magmortar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "140",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Magmar",
+  "attacks": [
+    {
+      "name": "Mega Punch",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": ""
+    },
+    {
+      "name": "Boltsplosion",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120+",
+      "text": "If Electivire is on your Bench, this attack does 120 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh12pt5gg",
+    "name": "Crown Zenith Galarian Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 70,
+    "total": 70,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRZ",
+    "releaseDate": "2023/01/20",
+    "updatedAt": "2023/01/19 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12pt5gg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12pt5gg/logo.png"
+    }
+  },
+  "number": "GG03",
+  "artist": "Saya Tsuruta",
+  "rarity": "Trainer Gallery Rare Holo",
+  "flavorText": "When Magmortar inhales deeply, the fire burning in its belly intensifies, rising in temperature to over 3,600 degrees Fahrenheit.",
+  "nationalPokedexNumbers": [
+    467
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12pt5gg/GG03.png",
+    "large": "https://images.pokemontcg.io/swsh12pt5gg/GG03_hires.png"
+  }
+}

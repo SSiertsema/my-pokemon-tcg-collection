@@ -1,0 +1,79 @@
+{
+  "id": "pop2-6",
+  "name": "Venusaur",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Ivysaur",
+  "attacks": [
+    {
+      "name": "Wide Solarbeam",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20",
+      "text": "Does 20 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Hard Plant",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": "Venusaur can't use Hard Plant during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "pop2",
+    "name": "POP Series 2",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2005/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop2/logo.png"
+    }
+  },
+  "number": "6",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    3
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop2/6.png",
+    "large": "https://images.pokemontcg.io/pop2/6_hires.png"
+  }
+}

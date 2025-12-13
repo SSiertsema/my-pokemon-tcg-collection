@@ -1,0 +1,39 @@
+{
+  "id": "ecard3-141",
+  "name": "Underground Lake",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+    "Once during each player's turn, that player may put an Omanyte or a Kabuto card from his or her discard pile onto his or her Bench. (Cards put on the Bench this way are considered Basic Pokémon.)"
+  ],
+  "set": {
+    "id": "ecard3",
+    "name": "Skyridge",
+    "series": "E-Card",
+    "printedTotal": 144,
+    "total": 182,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SK",
+    "releaseDate": "2003/05/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard3/logo.png"
+    }
+  },
+  "number": "141",
+  "artist": "Midori Harada",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard3/141.png",
+    "large": "https://images.pokemontcg.io/ecard3/141_hires.png"
+  }
+}

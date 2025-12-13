@@ -1,0 +1,61 @@
+{
+  "id": "xy11-24",
+  "name": "Pyroar BREAK",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "BREAK"
+  ],
+  "hp": "160",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Pyroar",
+  "rules": [
+    "BREAK Evolution Rule: Pyroar BREAK retains the attacks, Abilities, Weakness, Resistance, and Retreat Cost of its previous Evolution."
+  ],
+  "attacks": [
+    {
+      "name": "Kaiser Tackle",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "180",
+      "text": "This Pokémon does 50 damage to itself."
+    }
+  ],
+  "set": {
+    "id": "xy11",
+    "name": "Steam Siege",
+    "series": "XY",
+    "printedTotal": 114,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "STS",
+    "releaseDate": "2016/08/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy11/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy11/logo.png"
+    }
+  },
+  "number": "24",
+  "artist": "5ban Graphics",
+  "rarity": "Rare BREAK",
+  "nationalPokedexNumbers": [
+    668
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy11/24.png",
+    "large": "https://images.pokemontcg.io/xy11/24_hires.png"
+  }
+}

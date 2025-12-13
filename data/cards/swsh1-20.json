@@ -1,0 +1,79 @@
+{
+  "id": "swsh1-20",
+  "name": "Gossifleur",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Eldegoss"
+  ],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for up to 3 Basic Pokémon and put them onto your Bench. Then, shuffle your deck."
+    },
+    {
+      "name": "Razor Leaf",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh1",
+    "name": "Sword & Shield",
+    "series": "Sword & Shield",
+    "printedTotal": 202,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SSH",
+    "releaseDate": "2020/02/07",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh1/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh1/logo.png"
+    }
+  },
+  "number": "20",
+  "artist": "Saya Tsuruta",
+  "rarity": "Common",
+  "flavorText": "It whirls around in the wind while singing a joyous song. This delightful display has charmed many into raising this Pokémon.",
+  "nationalPokedexNumbers": [
+    829
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh1/20.png",
+    "large": "https://images.pokemontcg.io/swsh1/20_hires.png"
+  }
+}

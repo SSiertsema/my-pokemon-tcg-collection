@@ -1,0 +1,87 @@
+{
+  "id": "zsv10pt5-66",
+  "name": "Cobalion",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Metal"
+  ],
+  "attacks": [
+    {
+      "name": "Righteous Edge",
+      "cost": [
+        "Metal"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Discard a Special Energy from your opponent's Active Pokémon."
+    },
+    {
+      "name": "Metal Arms",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80+",
+      "text": "If this Pokémon has a Pokémon Tool attached, this attack does 40 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "zsv10pt5",
+    "name": "Black Bolt",
+    "series": "Scarlet & Violet",
+    "printedTotal": 86,
+    "total": 172,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BLK",
+    "releaseDate": "2025/07/18",
+    "updatedAt": "2025/07/17 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/zsv10pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/zsv10pt5/logo.png"
+    }
+  },
+  "number": "66",
+  "artist": "HICO KIM",
+  "rarity": "Rare",
+  "flavorText": "This legendary Pokémon battled against humans to protect Pokémon. Its personality is calm and composed.",
+  "nationalPokedexNumbers": [
+    638
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/zsv10pt5/66.png",
+    "large": "https://images.pokemontcg.io/zsv10pt5/66_hires.png"
+  }
+}

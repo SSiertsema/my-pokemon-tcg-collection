@@ -1,0 +1,81 @@
+{
+  "id": "bw11-RC2",
+  "name": "Servine",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Snivy",
+  "evolvesTo": [
+    "Serperior"
+  ],
+  "attacks": [
+    {
+      "name": "Leaf Blade",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    },
+    {
+      "name": "Vine Whip",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw11",
+    "name": "Legendary Treasures",
+    "series": "Black & White",
+    "printedTotal": 113,
+    "total": 140,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LTR",
+    "releaseDate": "2013/11/06",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw11/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw11/logo.png"
+    }
+  },
+  "number": "RC2",
+  "artist": "kirisAki",
+  "rarity": "Common",
+  "flavorText": "When it gets dirty, its leaves can't be used in photosynthesis, so it always keeps itself clean.",
+  "nationalPokedexNumbers": [
+    496
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw11/RC2.png",
+    "large": "https://images.pokemontcg.io/bw11/RC2_hires.png"
+  }
+}

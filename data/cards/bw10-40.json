@@ -1,0 +1,80 @@
+{
+  "id": "bw10-40",
+  "name": "Musharna",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Munna",
+  "attacks": [
+    {
+      "name": "Precognitive Dream",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Draw 3 cards. This Pokémon is now Asleep."
+    },
+    {
+      "name": "Psybeam",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "The Defending Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw10",
+    "name": "Plasma Blast",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 105,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLB",
+    "releaseDate": "2013/08/14",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw10/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw10/logo.png"
+    }
+  },
+  "number": "40",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "flavorText": "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
+  "nationalPokedexNumbers": [
+    518
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw10/40.png",
+    "large": "https://images.pokemontcg.io/bw10/40_hires.png"
+  }
+}

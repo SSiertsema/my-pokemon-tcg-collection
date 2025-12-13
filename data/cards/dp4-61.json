@@ -1,0 +1,76 @@
+{
+  "id": "dp4-61",
+  "name": "Buizel",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "14",
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Floatzel"
+  ],
+  "attacks": [
+    {
+      "name": "Headbutt",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Surf",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp4",
+    "name": "Great Encounters",
+    "series": "Diamond & Pearl",
+    "printedTotal": 106,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "GE",
+    "releaseDate": "2008/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp4/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp4/logo.png"
+    }
+  },
+  "number": "61",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Common",
+  "flavorText": "It has a flotation sac that is like an inflatable collar. It floats on water with its head out.",
+  "nationalPokedexNumbers": [
+    418
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp4/61.png",
+    "large": "https://images.pokemontcg.io/dp4/61_hires.png"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "hgss2-68",
+  "name": "Vulpix",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Ninetales"
+  ],
+  "attacks": [
+    {
+      "name": "Fireworks",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Flip a coin. If tails, discard a Fire Energy attached to Vulpix."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hgss2",
+    "name": "HS—Unleashed",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 96,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UL",
+    "releaseDate": "2010/05/12",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss2/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss2/logo.png"
+    }
+  },
+  "number": "68",
+  "artist": "Hajime Kusajima",
+  "rarity": "Common",
+  "flavorText": "As it develops, its single white tail gains color and splits into six. It is quite warm and cuddly.",
+  "nationalPokedexNumbers": [
+    37
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss2/68.png",
+    "large": "https://images.pokemontcg.io/hgss2/68_hires.png"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "id": "pl2-13",
+  "name": "Shiftry",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "55",
+  "hp": "130",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Nuzleaf",
+  "abilities": [
+    {
+      "name": "Unlucky Wind",
+      "text": "As long as Shiftry is your Active Pokémon, whenever your opponent flips a coin during his or her turn, treat it as tails.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Conform",
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "If you have the same number of cards in your hand as your opponent, the Defending Pokémon is now Confused."
+    },
+    {
+      "name": "Seal Off",
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "The Defending Pokémon can't use any Poké-Powers or Poké-Bodies during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    275
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/13.png",
+    "large": "https://images.pokemontcg.io/pl2/13_hires.png"
+  }
+}

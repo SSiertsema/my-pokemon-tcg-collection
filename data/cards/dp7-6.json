@@ -1,0 +1,83 @@
+{
+  "id": "dp7-6",
+  "name": "Magnezone",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "46",
+  "hp": "120",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Magneton",
+  "abilities": [
+    {
+      "name": "Super Connectivity",
+      "text": "Once during your turn (before your attack), you may search your discard pile for a Lightning or Metal Energy card and attach it to your Active Pokémon. Then, put 1 damage counter on that Pokémon. This power can't be used if Magnezone is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Gyro Ball",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "You may switch Magnezone with 1 of your Benched Pokémon. If you do, your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dp7",
+    "name": "Stormfront",
+    "series": "Diamond & Pearl",
+    "printedTotal": 100,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SF",
+    "releaseDate": "2008/11/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp7/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp7/logo.png"
+    }
+  },
+  "number": "6",
+  "artist": "Tomoaki Imakuni",
+  "rarity": "Rare Holo",
+  "flavorText": "It evolved from exposure to a special magnetic field. Three units generate magnetism.",
+  "nationalPokedexNumbers": [
+    462
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp7/6.png",
+    "large": "https://images.pokemontcg.io/dp7/6_hires.png"
+  }
+}

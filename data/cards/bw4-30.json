@@ -1,0 +1,75 @@
+{
+  "id": "bw4-30",
+  "name": "Basculin",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Bite",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Bared Fangs",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": "If, before this Pokémon does damage, the Defending Pokémon has no damage counters on it, this attack does nothing."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw4",
+    "name": "Next Destinies",
+    "series": "Black & White",
+    "printedTotal": 99,
+    "total": 103,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "NXD",
+    "releaseDate": "2012/02/08",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw4/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw4/logo.png"
+    }
+  },
+  "number": "30",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "flavorText": "Red and blue Basculin usually do not get along, but sometimes members of one school mingle with the other's school.",
+  "nationalPokedexNumbers": [
+    550
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw4/30.png",
+    "large": "https://images.pokemontcg.io/bw4/30_hires.png"
+  }
+}

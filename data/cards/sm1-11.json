@@ -1,0 +1,78 @@
+{
+  "id": "sm1-11",
+  "name": "Decidueye",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Dartrix",
+  "attacks": [
+    {
+      "name": "Leaf Blade",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    },
+    {
+      "name": "Brave Bird",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120",
+      "text": "This Pokémon does 20 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm1",
+    "name": "Sun & Moon",
+    "series": "Sun & Moon",
+    "printedTotal": 149,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SUM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm1/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "flavorText": "It fires arrow quills from its wings with such precision, they can pierce a pebble at distances over a hundred yards.",
+  "nationalPokedexNumbers": [
+    724
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm1/11.png",
+    "large": "https://images.pokemontcg.io/sm1/11_hires.png"
+  }
+}

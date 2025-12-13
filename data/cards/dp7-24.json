@@ -1,0 +1,93 @@
+{
+  "id": "dp7-24",
+  "name": "Salamence",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "66",
+  "hp": "140",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Shelgon",
+  "abilities": [
+    {
+      "name": "Battle Rush",
+      "text": "If your opponent has any Pokémon in play that has maximum HP of 120 or more, ignore all Colorless Energy necessary to use Salamence's attacks.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Combustion",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": ""
+    },
+    {
+      "name": "Steam Twister",
+      "cost": [
+        "Fire",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "120",
+      "text": "Discard a Fire Energy and a Water Energy attached to Salamence."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Colorless",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dp7",
+    "name": "Stormfront",
+    "series": "Diamond & Pearl",
+    "printedTotal": 100,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SF",
+    "releaseDate": "2008/11/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp7/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp7/logo.png"
+    }
+  },
+  "number": "24",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    373
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp7/24.png",
+    "large": "https://images.pokemontcg.io/dp7/24_hires.png"
+  }
+}

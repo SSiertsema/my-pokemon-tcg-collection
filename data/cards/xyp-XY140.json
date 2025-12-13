@@ -1,0 +1,79 @@
+{
+  "id": "xyp-XY140",
+  "name": "Lucario",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Riolu",
+  "attacks": [
+    {
+      "name": "Bone Rush",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30×",
+      "text": "Flip a coin until you get tails. This attack does 30 damage times the number of heads."
+    },
+    {
+      "name": "Mach Claw",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": "This attack's damage isn't affected by Resistance."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY140",
+  "artist": "Naoki Saito",
+  "rarity": "Promo",
+  "flavorText": "By reading the auras of all things, it can tell how others are feeling from over half a mile away.",
+  "nationalPokedexNumbers": [
+    448
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY140.png",
+    "large": "https://images.pokemontcg.io/xyp/XY140_hires.png"
+  }
+}

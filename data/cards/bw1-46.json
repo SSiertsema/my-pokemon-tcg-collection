@@ -1,0 +1,77 @@
+{
+  "id": "bw1-46",
+  "name": "Galvantula",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Joltik",
+  "attacks": [
+    {
+      "name": "Electroweb",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    },
+    {
+      "name": "Leech Life",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw1",
+    "name": "Black & White",
+    "series": "Black & White",
+    "printedTotal": 114,
+    "total": 115,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BLW",
+    "releaseDate": "2011/04/25",
+    "updatedAt": "2018/11/29 19:56:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw1/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw1/logo.png"
+    }
+  },
+  "number": "46",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "flavorText": "They employ an electrically charged web to trap their prey. While it is immobilized by shock, they leisurely consume it.",
+  "nationalPokedexNumbers": [
+    596
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw1/46.png",
+    "large": "https://images.pokemontcg.io/bw1/46_hires.png"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "swsh7-130",
+  "name": "Vigoroth",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Single Strike"
+  ],
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Slakoth",
+  "evolvesTo": [
+    "Slaking"
+  ],
+  "attacks": [
+    {
+      "name": "Shatter",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Discard a Stadium in play."
+    },
+    {
+      "name": "Slash",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh7",
+    "name": "Evolving Skies",
+    "series": "Sword & Shield",
+    "printedTotal": 203,
+    "total": 237,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVS",
+    "releaseDate": "2021/08/27",
+    "updatedAt": "2021/08/27 10:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh7/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh7/logo.png"
+    }
+  },
+  "number": "130",
+  "artist": "nagimiso",
+  "rarity": "Uncommon",
+  "flavorText": "Its stress level rises if it cannot keep moving constantly. Too much stress makes it feel sick.",
+  "nationalPokedexNumbers": [
+    288
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh7/130.png",
+    "large": "https://images.pokemontcg.io/swsh7/130_hires.png"
+  }
+}

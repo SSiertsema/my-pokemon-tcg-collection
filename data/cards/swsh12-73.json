@@ -1,0 +1,86 @@
+{
+  "id": "swsh12-73",
+  "name": "Medicham",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Meditite",
+  "abilities": [
+    {
+      "name": "Chakra Awakening",
+      "text": "If you have exactly 4 cards in your hand, this Pokémon's attacks cost ColorlessColorlessColorless less.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Vigorous Kick",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80+",
+      "text": "If your opponent has any Pokémon VMAX in play, this attack does 90 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh12",
+    "name": "Silver Tempest",
+    "series": "Sword & Shield",
+    "printedTotal": 195,
+    "total": 215,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SIT",
+    "releaseDate": "2022/11/11",
+    "updatedAt": "2022/09/09 11:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12/logo.png"
+    }
+  },
+  "number": "73",
+  "artist": "Aya Kusube",
+  "rarity": "Rare Holo",
+  "flavorText": "Through yoga training, it gained the psychic power to predict its foe's next move.",
+  "nationalPokedexNumbers": [
+    308
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12/73.png",
+    "large": "https://images.pokemontcg.io/swsh12/73_hires.png"
+  }
+}

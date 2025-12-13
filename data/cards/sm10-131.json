@@ -1,0 +1,55 @@
+{
+  "id": "sm10-131",
+  "name": "Cleffa",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fairy"
+  ],
+  "evolvesTo": [
+    "Clefairy"
+  ],
+  "abilities": [
+    {
+      "name": "Excitable Draw",
+      "text": "Once during your turn (before your attack), you may flip a coin. If heads, shuffle your hand into your deck and then draw 6 cards. If you use this Ability, your turn ends.",
+      "type": "Ability"
+    }
+  ],
+  "set": {
+    "id": "sm10",
+    "name": "Unbroken Bonds",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 234,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNB",
+    "releaseDate": "2019/05/03",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm10/logo.png"
+    }
+  },
+  "number": "131",
+  "artist": "Shibuzoh.",
+  "rarity": "Uncommon",
+  "flavorText": "On nights with many shooting stars, they gather in packs and dance in circles. If you should see them, something good will happen!",
+  "nationalPokedexNumbers": [
+    173
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm10/131.png",
+    "large": "https://images.pokemontcg.io/sm10/131_hires.png"
+  }
+}

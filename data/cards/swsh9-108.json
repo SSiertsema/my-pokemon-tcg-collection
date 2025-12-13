@@ -1,0 +1,68 @@
+{
+  "id": "swsh9-108",
+  "name": "Gabite",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Gible",
+  "evolvesTo": [
+    "Garchomp"
+  ],
+  "attacks": [
+    {
+      "name": "Dragon Claw",
+      "cost": [
+        "Water",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70",
+      "text": ""
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh9",
+    "name": "Brilliant Stars",
+    "series": "Sword & Shield",
+    "printedTotal": 172,
+    "total": 186,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BRS",
+    "releaseDate": "2022/02/25",
+    "updatedAt": "2022/02/23 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh9/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh9/logo.png"
+    }
+  },
+  "number": "108",
+  "artist": "hatachu",
+  "rarity": "Uncommon",
+  "flavorText": "This Pokémon emits ultrasonic waves from a protrusion on either side of its head to probe pitch-dark caves.",
+  "nationalPokedexNumbers": [
+    444
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh9/108.png",
+    "large": "https://images.pokemontcg.io/swsh9/108_hires.png"
+  }
+}

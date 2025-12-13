@@ -1,0 +1,84 @@
+{
+  "id": "dp4-23",
+  "name": "Latios",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "47",
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Energy Draw",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Flip a coin. If heads, search your deck for a basic Energy card and attach it to Latios. Shuffle your deck afterward."
+    },
+    {
+      "name": "Luster Purge",
+      "cost": [
+        "Grass",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "120",
+      "text": "Discard 3 Energy attached to Latios."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Colorless",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "dp4",
+    "name": "Great Encounters",
+    "series": "Diamond & Pearl",
+    "printedTotal": 106,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "GE",
+    "releaseDate": "2008/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp4/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp4/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Daisuke Ito",
+  "rarity": "Rare",
+  "flavorText": "A highly intelligent Pokémon. By folding back its wings in flight, it can overtake jet planes.",
+  "nationalPokedexNumbers": [
+    381
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp4/23.png",
+    "large": "https://images.pokemontcg.io/dp4/23_hires.png"
+  }
+}

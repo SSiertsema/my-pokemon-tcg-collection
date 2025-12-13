@@ -1,0 +1,76 @@
+{
+  "id": "swsh6-17",
+  "name": "Thwackey",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Rapid Strike"
+  ],
+  "hp": "100",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Grookey",
+  "evolvesTo": [
+    "Rillaboom"
+  ],
+  "attacks": [
+    {
+      "name": "Knock Off",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Discard a random card from your opponent's hand."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "17",
+  "artist": "Kouki Saitou",
+  "rarity": "Uncommon",
+  "flavorText": "When it's drumming out rapid beats in battle, it gets so caught up in the rhythm that it won't even notice that it's already knocked out its opponent.",
+  "nationalPokedexNumbers": [
+    811
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/17.png",
+    "large": "https://images.pokemontcg.io/swsh6/17_hires.png"
+  }
+}

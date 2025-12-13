@@ -1,0 +1,88 @@
+{
+  "id": "bw11-2",
+  "name": "Tangrowth",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Tangela",
+  "attacks": [
+    {
+      "name": "Bind Down",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    },
+    {
+      "name": "Flog",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "bw11",
+    "name": "Legendary Treasures",
+    "series": "Black & White",
+    "printedTotal": 113,
+    "total": 140,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LTR",
+    "releaseDate": "2013/11/06",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw11/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw11/logo.png"
+    }
+  },
+  "number": "2",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "Even if one of its arms is eaten, it's fine. The Pokémon regenerates quickly and will go right back to normal.",
+  "nationalPokedexNumbers": [
+    465
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw11/2.png",
+    "large": "https://images.pokemontcg.io/bw11/2_hires.png"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "swsh4-134",
+  "name": "Swellow",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Taillow",
+  "attacks": [
+    {
+      "name": "Quick Attack",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20+",
+      "text": "Flip a coin. If heads, this attack does 40 more damage."
+    },
+    {
+      "name": "Energy Assist",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "Attach up to 2 basic Energy cards from your discard pile to 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "swsh4",
+    "name": "Vivid Voltage",
+    "series": "Sword & Shield",
+    "printedTotal": 185,
+    "total": 203,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "VIV",
+    "releaseDate": "2020/11/13",
+    "updatedAt": "2020/11/13 16:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh4/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh4/logo.png"
+    }
+  },
+  "number": "134",
+  "artist": "kodama",
+  "rarity": "Uncommon",
+  "flavorText": "It dives at a steep angle as soon as it spots its prey. It catches its prey with sharp claws.",
+  "nationalPokedexNumbers": [
+    277
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh4/134.png",
+    "large": "https://images.pokemontcg.io/swsh4/134_hires.png"
+  }
+}

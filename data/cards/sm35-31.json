@@ -1,0 +1,69 @@
+{
+  "id": "sm35-31",
+  "name": "Electrode",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Voltorb",
+  "attacks": [
+    {
+      "name": "Swift",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "60",
+      "text": "This attack's damage isn't affected by Weakness, Resistance, or any other effects on your opponent's Active Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "sm35",
+    "name": "Shining Legends",
+    "series": "Sun & Moon",
+    "printedTotal": 73,
+    "total": 81,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SLG",
+    "releaseDate": "2017/10/06",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm35/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm35/logo.png"
+    }
+  },
+  "number": "31",
+  "artist": "Kyoko Umemoto",
+  "rarity": "Uncommon",
+  "flavorText": "It explodes in response to even minor stimuli. It is feared, with the nickname of \"The Bomb Ball.\"",
+  "nationalPokedexNumbers": [
+    101
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm35/31.png",
+    "large": "https://images.pokemontcg.io/sm35/31_hires.png"
+  }
+}

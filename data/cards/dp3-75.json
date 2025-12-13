@@ -1,0 +1,81 @@
+{
+  "id": "dp3-75",
+  "name": "Wartortle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "28",
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Squirtle",
+  "evolvesTo": [
+    "Blastoise"
+  ],
+  "attacks": [
+    {
+      "name": "Giant Wave",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "Wartortle can't use Giant Wave during your next turn."
+    },
+    {
+      "name": "Shell Attack",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "75",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "flavorText": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+  "nationalPokedexNumbers": [
+    8
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/75.png",
+    "large": "https://images.pokemontcg.io/dp3/75_hires.png"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "dp7-8",
+  "name": "Raichu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "45",
+  "hp": "90",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Pikachu",
+  "attacks": [
+    {
+      "name": "Slice",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "30",
+      "text": "Raichu can't use Slice during your next turn."
+    },
+    {
+      "name": "Split Ball",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Move an Energy card attached to Raichu to 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Burst Ball",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": "Discard 3 Energy attached to any of your Pokémon in any way you like."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "dp7",
+    "name": "Stormfront",
+    "series": "Diamond & Pearl",
+    "printedTotal": 100,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SF",
+    "releaseDate": "2008/11/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp7/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp7/logo.png"
+    }
+  },
+  "number": "8",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    26
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp7/8.png",
+    "large": "https://images.pokemontcg.io/dp7/8_hires.png"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "hsp-HGSS24",
+  "name": "Hitmonchan",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "name": "Detect",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, prevent all effects of attacks, including damage, done to Hitmonchan during your opponent's next turn."
+    },
+    {
+      "name": "Sky Uppercut",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "This attack's damage isn't affected by Resistance."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hsp",
+    "name": "HGSS Black Star Promos",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-HS",
+    "releaseDate": "2010/02/10",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hsp/symbol.png",
+      "logo": "https://images.pokemontcg.io/hsp/logo.png"
+    }
+  },
+  "number": "HGSS24",
+  "artist": "Kouki Saitou",
+  "rarity": "Promo",
+  "flavorText": "Its punches slice the air. However, it seems to need a short break after fighting for three minutes.",
+  "nationalPokedexNumbers": [
+    107
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hsp/HGSS24.png",
+    "large": "https://images.pokemontcg.io/hsp/HGSS24_hires.png"
+  }
+}

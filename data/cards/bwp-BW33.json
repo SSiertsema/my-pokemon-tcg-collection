@@ -1,0 +1,79 @@
+{
+  "id": "bwp-BW33",
+  "name": "Riolu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Lucario"
+  ],
+  "attacks": [
+    {
+      "name": "Run Around",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Hook",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bwp",
+    "name": "BW Black Star Promos",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-BLW",
+    "releaseDate": "2011/03/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bwp/symbol.png",
+      "logo": "https://images.pokemontcg.io/bwp/logo.png"
+    }
+  },
+  "number": "BW33",
+  "artist": "sui",
+  "rarity": "Promo",
+  "flavorText": "It has the peculiar power of being able to see emotions such as joy and rage in the form of waves.",
+  "nationalPokedexNumbers": [
+    447
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bwp/BW33.png",
+    "large": "https://images.pokemontcg.io/bwp/BW33_hires.png"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "xy3-8",
+  "name": "Shelmet",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Accelgor"
+  ],
+  "attacks": [
+    {
+      "name": "Jump On",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "Flip a coin. If heads, this attack does 10 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy3",
+    "name": "Furious Fists",
+    "series": "XY",
+    "printedTotal": 111,
+    "total": 114,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FFI",
+    "releaseDate": "2014/08/13",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy3/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy3/logo.png"
+    }
+  },
+  "number": "8",
+  "artist": "sui",
+  "rarity": "Common",
+  "flavorText": "When it and Karrablast are together, and both receive electrical stimulation, they both evolve.",
+  "nationalPokedexNumbers": [
+    616
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy3/8.png",
+    "large": "https://images.pokemontcg.io/xy3/8_hires.png"
+  }
+}

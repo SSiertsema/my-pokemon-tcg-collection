@@ -1,0 +1,92 @@
+{
+  "id": "sm3-25",
+  "name": "Salazzle-GX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "GX"
+  ],
+  "hp": "200",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Salandit",
+  "rules": [
+    "Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Diabolical Claws",
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50×",
+      "text": "This attack does 50 damage for each Prize card you have taken."
+    },
+    {
+      "name": "Heat Blast",
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "110",
+      "text": ""
+    },
+    {
+      "name": "Queen's Haze-GX",
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Discard all Energy from your opponent's Active Pokémon. (You can't use more than 1 GX attack in a game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm3",
+    "name": "Burning Shadows",
+    "series": "Sun & Moon",
+    "printedTotal": 147,
+    "total": 177,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BUS",
+    "releaseDate": "2017/08/05",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm3/logo.png"
+    }
+  },
+  "number": "25",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo GX",
+  "nationalPokedexNumbers": [
+    758
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm3/25.png",
+    "large": "https://images.pokemontcg.io/sm3/25_hires.png"
+  }
+}

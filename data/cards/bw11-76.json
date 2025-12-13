@@ -1,0 +1,77 @@
+{
+  "id": "bw11-76",
+  "name": "Reuniclus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "90",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Duosion",
+  "attacks": [
+    {
+      "name": "Future Sight",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Look at the top 5 cards of your deck and put them back on top of your deck in any order."
+    },
+    {
+      "name": "Net Force",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40×",
+      "text": "Does 40 damage times the number of Reuniclus you have in play."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw11",
+    "name": "Legendary Treasures",
+    "series": "Black & White",
+    "printedTotal": 113,
+    "total": 140,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LTR",
+    "releaseDate": "2013/11/06",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw11/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw11/logo.png"
+    }
+  },
+  "number": "76",
+  "artist": "Kyoko Umemoto",
+  "rarity": "Rare",
+  "flavorText": "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+  "nationalPokedexNumbers": [
+    579
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw11/76.png",
+    "large": "https://images.pokemontcg.io/bw11/76_hires.png"
+  }
+}

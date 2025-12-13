@@ -1,0 +1,81 @@
+{
+  "id": "sv4-93",
+  "name": "Groudon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "130",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "name": "Swelling Power",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Attach a Basic Fighting Energy card from your hand to 1 of your Pokémon."
+    },
+    {
+      "name": "Magma Purge",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60×",
+      "text": "Discard up to 4 Energy from your Pokémon. This attack does 60 damage for each card you discarded in this way."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 266,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/11/03",
+    "updatedAt": "2023/11/03 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4/logo.png"
+    }
+  },
+  "number": "93",
+  "artist": "Uta",
+  "rarity": "Rare",
+  "flavorText": "This legendary Pokémon is said to represent the land. It went to sleep after dueling Kyogre.",
+  "nationalPokedexNumbers": [
+    383
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4/93.png",
+    "large": "https://images.pokemontcg.io/sv4/93_hires.png"
+  }
+}

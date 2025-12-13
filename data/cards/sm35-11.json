@@ -1,0 +1,80 @@
+{
+  "id": "sm35-11",
+  "name": "Torkoal",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Fire"
+  ],
+  "attacks": [
+    {
+      "name": "High-Pressure Heat",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "During your next turn, this Pokémon's High-Pressure Heat attack does 50 more damage (before applying Weakness and Resistance)."
+    },
+    {
+      "name": "Flamethrower",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": "Discard an Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm35",
+    "name": "Shining Legends",
+    "series": "Sun & Moon",
+    "printedTotal": 73,
+    "total": 81,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SLG",
+    "releaseDate": "2017/10/06",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm35/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm35/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Suwama Chiaki",
+  "rarity": "Common",
+  "flavorText": "Coal is the source of Torkoal's energy. Large amounts of coal can be found in the mountains where they live.",
+  "nationalPokedexNumbers": [
+    324
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm35/11.png",
+    "large": "https://images.pokemontcg.io/sm35/11_hires.png"
+  }
+}

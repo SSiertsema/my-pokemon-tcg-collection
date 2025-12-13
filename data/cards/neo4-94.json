@@ -1,0 +1,35 @@
+{
+  "id": "neo4-94",
+  "name": "Impostor Professor Oak's Invention",
+  "supertype": "Trainer",
+  "rules": [
+    "Look at your opponent's Prize cards. You may have your opponent shuffle them into his or her deck. If you do, your opponent takes that many cards from the top of his or her deck and sets them aside as his or her new Prize cards (without looking at them)."
+  ],
+  "set": {
+    "id": "neo4",
+    "name": "Neo Destiny",
+    "series": "Neo",
+    "printedTotal": 105,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N4",
+    "releaseDate": "2002/02/28",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo4/logo.png"
+    }
+  },
+  "number": "94",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo4/94.png",
+    "large": "https://images.pokemontcg.io/neo4/94_hires.png"
+  }
+}

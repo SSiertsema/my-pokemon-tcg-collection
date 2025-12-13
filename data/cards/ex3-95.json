@@ -1,0 +1,81 @@
+{
+  "id": "ex3-95",
+  "name": "Magcargo ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "ex"
+  ],
+  "hp": "100",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Slugma",
+  "rules": [
+    "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Melting Mountain",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Discard the top card from your deck. If that card is a basic Energy card, attach it to Magcargo ex."
+    },
+    {
+      "name": "Lava Flow",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40+",
+      "text": "You may discard any number of basic Energy cards attached to Magcargo ex when you use this attack. If you do, this attack does 40 damage plus 20 more damage for each basic Energy card you discarded."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "ex3",
+    "name": "Dragon",
+    "series": "EX",
+    "printedTotal": 97,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DR",
+    "releaseDate": "2003/11/24",
+    "updatedAt": "2023/02/16 05:47:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex3/logo.png"
+    }
+  },
+  "number": "95",
+  "artist": "Hikaru Koike",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    219
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex3/95.png",
+    "large": "https://images.pokemontcg.io/ex3/95_hires.png"
+  }
+}

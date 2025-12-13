@@ -1,0 +1,82 @@
+{
+  "id": "pl3-18",
+  "name": "Camerupt",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "49",
+  "hp": "120",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Numel",
+  "attacks": [
+    {
+      "name": "Moving Fire",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "You may move a Fire Energy card attached to 1 of your Benched Pokémon to Camerupt."
+    },
+    {
+      "name": "Volcanic Crash",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "100",
+      "text": "Flip 3 coins. For each tails, discard the top card of your deck. Ignore this effect if your opponent has any Water Pokémon in play."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "+30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "pl3",
+    "name": "Supreme Victors",
+    "series": "Platinum",
+    "printedTotal": 147,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SV",
+    "releaseDate": "2009/08/19",
+    "updatedAt": "2018/03/07 22:40:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl3/logo.png"
+    }
+  },
+  "number": "18",
+  "artist": "Yukiko Baba",
+  "rarity": "Rare",
+  "flavorText": "It has volcanoes on its back. If magma builds up in its body, it shudders, then erupts violently.",
+  "nationalPokedexNumbers": [
+    323
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl3/18.png",
+    "large": "https://images.pokemontcg.io/pl3/18_hires.png"
+  }
+}

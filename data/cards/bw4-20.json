@@ -1,0 +1,78 @@
+{
+  "id": "bw4-20",
+  "name": "Chandelure",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Lampent",
+  "attacks": [
+    {
+      "name": "Flame Burst",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Does 30 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Inferno",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "80",
+      "text": "Discard all Energy attached to this Pokémon. The Defending Pokémon is now Burned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw4",
+    "name": "Next Destinies",
+    "series": "Black & White",
+    "printedTotal": 99,
+    "total": 103,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "NXD",
+    "releaseDate": "2012/02/08",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw4/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw4/logo.png"
+    }
+  },
+  "number": "20",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo",
+  "flavorText": "Being consumed in Chandelure's flame burns up the spirit, leaving the body behind.",
+  "nationalPokedexNumbers": [
+    609
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw4/20.png",
+    "large": "https://images.pokemontcg.io/bw4/20_hires.png"
+  }
+}

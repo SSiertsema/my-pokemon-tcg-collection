@@ -1,0 +1,85 @@
+{
+  "id": "rsv10pt5-76",
+  "name": "Stoutland",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Herdier",
+  "attacks": [
+    {
+      "name": "Odor Sleuth",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Flip 3 coins. Put a number of cards up to the number of heads from your discard pile into your hand."
+    },
+    {
+      "name": "Special Fang",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "100+",
+      "text": "If this Pokémon has any Special Energy attached, this attack does 100 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "rsv10pt5",
+    "name": "White Flare",
+    "series": "Scarlet & Violet",
+    "printedTotal": 86,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "WHT",
+    "releaseDate": "2025/07/18",
+    "updatedAt": "2025/07/17 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/rsv10pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/rsv10pt5/logo.png"
+    }
+  },
+  "number": "76",
+  "artist": "sowsow",
+  "rarity": "Uncommon",
+  "flavorText": "It rescues people stranded by blizzards in the mountains. Its shaggy fur shields it from the cold.",
+  "nationalPokedexNumbers": [
+    508
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/rsv10pt5/76.png",
+    "large": "https://images.pokemontcg.io/rsv10pt5/76_hires.png"
+  }
+}

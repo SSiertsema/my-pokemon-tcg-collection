@@ -1,0 +1,80 @@
+{
+  "id": "swsh12-200",
+  "name": "Mawile VSTAR",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VSTAR"
+  ],
+  "hp": "260",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Mawile V",
+  "rules": [
+    "VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Star Rondo",
+      "text": "During your turn, if this Pokémon is on your Bench, you may switch it with your Active Pokémon. If you do, switch 1 of your opponent's Benched Pokémon with their Active Pokémon. (You can't use more than 1 VSTAR Power in a game.)",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sudden Eater",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "90+",
+      "text": "If this Pokémon moved from your Bench to the Active Spot this turn, this attack does 90 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh12",
+    "name": "Silver Tempest",
+    "series": "Sword & Shield",
+    "printedTotal": 195,
+    "total": 215,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SIT",
+    "releaseDate": "2022/11/11",
+    "updatedAt": "2022/09/09 11:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12/logo.png"
+    }
+  },
+  "number": "200",
+  "artist": "PLANETA Mochizuki",
+  "rarity": "Rare Rainbow",
+  "nationalPokedexNumbers": [
+    303
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12/200.png",
+    "large": "https://images.pokemontcg.io/swsh12/200_hires.png"
+  }
+}

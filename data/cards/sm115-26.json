@@ -1,0 +1,70 @@
+{
+  "id": "sm115-26",
+  "name": "Ekans",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Arbok"
+  ],
+  "attacks": [
+    {
+      "name": "Tail Whap",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm115",
+    "name": "Hidden Fates",
+    "series": "Sun & Moon",
+    "printedTotal": 68,
+    "total": 69,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "HIF",
+    "releaseDate": "2019/08/23",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm115/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm115/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Common",
+  "flavorText": "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+  "nationalPokedexNumbers": [
+    23
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm115/26.png",
+    "large": "https://images.pokemontcg.io/sm115/26_hires.png"
+  }
+}

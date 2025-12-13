@@ -1,0 +1,79 @@
+{
+  "id": "ecard3-17",
+  "name": "Magcargo",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Slugma",
+  "attacks": [
+    {
+      "name": "Eruption",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "Each player discard the top card of his or her deck. This attack does 20 damage plus 20 more damage for each Fire Energy card discarded in this way."
+    },
+    {
+      "name": "Fire Stream",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60",
+      "text": "Discard a Fire Energy card attached to Magcargo in order to use this attack. If your opponent has any Benched Pokémon, this attack does 10 damage to each of them. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "ecard3",
+    "name": "Skyridge",
+    "series": "E-Card",
+    "printedTotal": 144,
+    "total": 182,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SK",
+    "releaseDate": "2003/05/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard3/logo.png"
+    }
+  },
+  "number": "17",
+  "artist": "Hajime Kusajima",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    219
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard3/17.png",
+    "large": "https://images.pokemontcg.io/ecard3/17_hires.png"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "sv3-27",
+  "name": "Charmeleon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Charmander",
+  "evolvesTo": [
+    "Charizard"
+  ],
+  "attacks": [
+    {
+      "name": "Heat Tackle",
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70",
+      "text": "This Pokémon also does 20 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv3",
+    "name": "Obsidian Flames",
+    "series": "Scarlet & Violet",
+    "printedTotal": 197,
+    "total": 230,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/08/11",
+    "updatedAt": "2023/08/11 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3/logo.png"
+    }
+  },
+  "number": "27",
+  "artist": "Ryota Murayama",
+  "rarity": "Uncommon",
+  "flavorText": "If it becomes agitated during battle, it spouts intense flames, incinerating its surroundings.",
+  "nationalPokedexNumbers": [
+    5
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3/27.png",
+    "large": "https://images.pokemontcg.io/sv3/27_hires.png"
+  }
+}

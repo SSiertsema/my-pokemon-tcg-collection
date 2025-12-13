@@ -1,0 +1,88 @@
+{
+  "id": "hgss4-101",
+  "name": "Palkia & Dialga LEGEND",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "LEGEND"
+  ],
+  "hp": "160",
+  "types": [
+    "Water",
+    "Metal"
+  ],
+  "rules": [
+    "Put this card from your hand onto your Bench only with the other half of Palkia & Dialga LEGEND.",
+    "When this Pokémon has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Sudden Delete",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Benched Pokémon. Put that Pokémon and all cards attached to it back to your opponent's hand."
+    },
+    {
+      "name": "Time Control",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Discard all Metal Energy attached to Palkia & Dialga LEGEND. Add the top 2 cards of your opponent's deck to his or her Prize cards."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    },
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "hgss4",
+    "name": "HS—Triumphant",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 102,
+    "total": 103,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TM",
+    "releaseDate": "2010/11/03",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss4/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss4/logo.png"
+    }
+  },
+  "number": "101",
+  "artist": "Shinji Higuchi + Sachiko Eba",
+  "rarity": "LEGEND",
+  "nationalPokedexNumbers": [
+    483,
+    484
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss4/101.png",
+    "large": "https://images.pokemontcg.io/hgss4/101_hires.png"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "pl4-AR5",
+  "name": "Arceus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "100",
+  "hp": "80",
+  "types": [
+    "Colorless"
+  ],
+  "rules": [
+    "You may have as many of this card in your deck as you like."
+  ],
+  "attacks": [
+    {
+      "name": "Ripple Swell",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "If you have 6 Arceus in play and each of them is a different type, search your deck for up to 6 basic Energy cards. Attach each of those Energy cards to a different Pokémon you have in play. Shuffle your deck afterward."
+    },
+    {
+      "name": "Sky Spear",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon. This attack does 80 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) Remove all Energy cards attached to Arceus and put them in the Lost Zone."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl4",
+    "name": "Arceus",
+    "series": "Platinum",
+    "printedTotal": 99,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AR",
+    "releaseDate": "2009/11/04",
+    "updatedAt": "2021/07/15 11:30:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl4/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl4/logo.png"
+    }
+  },
+  "number": "AR5",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "flavorText": "It is said to have emerged from an egg in a place where there was nothing, then shaped the world.",
+  "nationalPokedexNumbers": [
+    493
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl4/AR5.png",
+    "large": "https://images.pokemontcg.io/pl4/AR5_hires.png"
+  }
+}

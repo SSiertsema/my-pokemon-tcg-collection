@@ -1,0 +1,72 @@
+{
+  "id": "dpp-DP22",
+  "name": "Mime Jr.",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "5",
+  "hp": "40",
+  "types": [
+    "Psychic"
+  ],
+  "abilities": [
+    {
+      "name": "Baby Evolution",
+      "text": "Once during your turn (before your attack), you may put Mr. Mime from your hand onto Mime Jr. (this counts as evolving Mime Jr.) and remove all damage counters from Mime Jr.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Mime",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Shuffle your hand into your deck. Then, draw a number of cards equal to the number of cards in your opponent's hand."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dpp",
+    "name": "DP Black Star Promos",
+    "series": "Diamond & Pearl",
+    "printedTotal": 56,
+    "total": 56,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-DPP",
+    "releaseDate": "2007/05/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dpp/symbol.png",
+      "logo": "https://images.pokemontcg.io/dpp/logo.png"
+    }
+  },
+  "number": "DP22",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Promo",
+  "flavorText": "It habitually mimics foes. Once mimicked, the foe cannot take its eyes off this Pokémon.",
+  "nationalPokedexNumbers": [
+    439
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dpp/DP22.png",
+    "large": "https://images.pokemontcg.io/dpp/DP22_hires.png"
+  }
+}

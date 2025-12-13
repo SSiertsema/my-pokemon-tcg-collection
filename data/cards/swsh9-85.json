@@ -1,0 +1,81 @@
+{
+  "id": "swsh9-85",
+  "name": "Muk",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Grimer",
+  "abilities": [
+    {
+      "name": "Sludge Street",
+      "text": "The Retreat Cost of your opponent's Poisoned Pokémon is Colorless more.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Shrieking Poison",
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": "Your opponent's Active Pokémon is now Confused and Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh9",
+    "name": "Brilliant Stars",
+    "series": "Sword & Shield",
+    "printedTotal": 172,
+    "total": 186,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BRS",
+    "releaseDate": "2022/02/25",
+    "updatedAt": "2022/02/23 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh9/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh9/logo.png"
+    }
+  },
+  "number": "85",
+  "artist": "Scav",
+  "rarity": "Rare",
+  "flavorText": "Because they scatter germs everywhere, they've long been targeted for extermination, leading to a steep decline in their population.",
+  "nationalPokedexNumbers": [
+    89
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh9/85.png",
+    "large": "https://images.pokemontcg.io/swsh9/85_hires.png"
+  }
+}

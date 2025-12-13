@@ -13,5 +13,19 @@
   "images": {
     "symbol": "https://images.pokemontcg.io/mcd16/symbol.png",
     "logo": "https://images.pokemontcg.io/mcd16/logo.png"
-  }
+  },
+  "cards": [
+    "mcd16-1",
+    "mcd16-2",
+    "mcd16-3",
+    "mcd16-4",
+    "mcd16-5",
+    "mcd16-6",
+    "mcd16-7",
+    "mcd16-8",
+    "mcd16-9",
+    "mcd16-10",
+    "mcd16-11",
+    "mcd16-12"
+  ]
 }

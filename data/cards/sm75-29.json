@@ -1,0 +1,78 @@
+{
+  "id": "sm75-29",
+  "name": "Milotic",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Feebas",
+  "attacks": [
+    {
+      "name": "Aurora Wave",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Your opponent's Active Pokémon is now Confused."
+    },
+    {
+      "name": "Aqua Split",
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": "This attack does 40 damage to 2 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm75",
+    "name": "Dragon Majesty",
+    "series": "Sun & Moon",
+    "printedTotal": 70,
+    "total": 80,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRM",
+    "releaseDate": "2018/09/07",
+    "updatedAt": "2018/10/01 21:54:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm75/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm75/logo.png"
+    }
+  },
+  "number": "29",
+  "artist": "hatachu",
+  "rarity": "Uncommon",
+  "flavorText": "It lives at the bottom of clear lakes. In times of war, it shows itself, which soothes people's minds and hearts.",
+  "nationalPokedexNumbers": [
+    350
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm75/29.png",
+    "large": "https://images.pokemontcg.io/sm75/29_hires.png"
+  }
+}

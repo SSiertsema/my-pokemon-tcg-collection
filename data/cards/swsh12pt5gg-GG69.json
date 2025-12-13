@@ -1,0 +1,79 @@
+{
+  "id": "swsh12pt5gg-GG69",
+  "name": "Giratina VSTAR",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VSTAR"
+  ],
+  "hp": "280",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Giratina V",
+  "rules": [
+    "VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Lost Impact",
+      "cost": [
+        "Grass",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "280",
+      "text": "Put 2 Energy attached to your Pokémon in the Lost Zone."
+    },
+    {
+      "name": "Star Requiem",
+      "cost": [
+        "Grass",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "You can use this attack only if you have 10 or more cards in the Lost Zone. Your opponent's Active Pokémon is Knocked Out. (You can't use more than 1 VSTAR Power in a game.)"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh12pt5gg",
+    "name": "Crown Zenith Galarian Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 70,
+    "total": 70,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRZ",
+    "releaseDate": "2023/01/20",
+    "updatedAt": "2023/01/19 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12pt5gg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12pt5gg/logo.png"
+    }
+  },
+  "number": "GG69",
+  "artist": "AKIRA EGAWA",
+  "rarity": "Rare Secret",
+  "nationalPokedexNumbers": [
+    487
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12pt5gg/GG69.png",
+    "large": "https://images.pokemontcg.io/swsh12pt5gg/GG69_hires.png"
+  }
+}

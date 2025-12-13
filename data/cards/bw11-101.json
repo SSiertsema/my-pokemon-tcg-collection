@@ -1,0 +1,85 @@
+{
+  "id": "bw11-101",
+  "name": "White Kyurem-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "EX"
+  ],
+  "hp": "180",
+  "types": [
+    "Dragon"
+  ],
+  "rules": [
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Dragon Stream",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Flip a coin. If heads, attach a basic Energy card from your discard pile to this Pokémon."
+    },
+    {
+      "name": "Ice Burn",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "150",
+      "text": "Discard 2 Fire Energy attached to this Pokémon. The Defending Pokémon is now Burned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Dragon",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw11",
+    "name": "Legendary Treasures",
+    "series": "Black & White",
+    "printedTotal": 113,
+    "total": 140,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LTR",
+    "releaseDate": "2013/11/06",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw11/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw11/logo.png"
+    }
+  },
+  "number": "101",
+  "artist": "Eske Yoshinob",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    646
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw11/101.png",
+    "large": "https://images.pokemontcg.io/bw11/101_hires.png"
+  }
+}

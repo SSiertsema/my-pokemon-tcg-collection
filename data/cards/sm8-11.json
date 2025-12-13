@@ -1,0 +1,75 @@
+{
+  "id": "sm8-11",
+  "name": "Hoppip",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "30",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Skiploom"
+  ],
+  "attacks": [
+    {
+      "name": "Multiply",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for Hoppip and put it onto your Bench. Then, shuffle your deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Mizue",
+  "rarity": "Common",
+  "flavorText": "It drifts on winds. It is said that when Hoppip gather in fields and mountains, spring is on the way.",
+  "nationalPokedexNumbers": [
+    187
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/11.png",
+    "large": "https://images.pokemontcg.io/sm8/11_hires.png"
+  }
+}

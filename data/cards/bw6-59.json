@@ -1,0 +1,84 @@
+{
+  "id": "bw6-59",
+  "name": "Golurk",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Golett",
+  "attacks": [
+    {
+      "name": "Devolution Punch",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Devolve the Defending Pokémon and put the highest Stage evolution card on it into your opponent's hand."
+    },
+    {
+      "name": "Ghost Hammer",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "90",
+      "text": "During your opponent's next turn, this Pokémon has no Weakness."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "bw6",
+    "name": "Dragons Exalted",
+    "series": "Black & White",
+    "printedTotal": 124,
+    "total": 128,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRX",
+    "releaseDate": "2012/08/15",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw6/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw6/logo.png"
+    }
+  },
+  "number": "59",
+  "artist": "Ryo Ueda",
+  "rarity": "Rare Holo",
+  "flavorText": "It flies around the sky at Mach speeds. Removing the seal on its chest makes its internal energy go out of control.",
+  "nationalPokedexNumbers": [
+    623
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw6/59.png",
+    "large": "https://images.pokemontcg.io/bw6/59_hires.png"
+  }
+}

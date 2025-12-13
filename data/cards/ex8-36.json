@@ -1,0 +1,80 @@
+{
+  "id": "ex8-36",
+  "name": "Lunatone",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fighting"
+  ],
+  "abilities": [
+    {
+      "name": "Moonglow",
+      "text": "The Retreat Cost for each Solrock you have in play is 0.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Foresight",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Look at the top 5 cards of either player's deck and put them back on top of that player's deck in any order."
+    },
+    {
+      "name": "Target Beam",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "Does 20 damage plus 10 more damage for each Solrock you have in play."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex8",
+    "name": "Deoxys",
+    "series": "EX",
+    "printedTotal": 107,
+    "total": 108,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DX",
+    "releaseDate": "2005/02/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex8/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex8/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Kyoko Umemoto",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    337
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex8/36.png",
+    "large": "https://images.pokemontcg.io/ex8/36_hires.png"
+  }
+}

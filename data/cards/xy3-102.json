@@ -1,0 +1,41 @@
+{
+  "id": "xy3-102",
+  "name": "Training Center",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "Each Stage 1 and Stage 2 Pokémon in play (both yours and your opponent's) gets +30 HP.",
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play. If another card with the same name is in play, you can't play this card."
+  ],
+  "set": {
+    "id": "xy3",
+    "name": "Furious Fists",
+    "series": "XY",
+    "printedTotal": 111,
+    "total": 114,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FFI",
+    "releaseDate": "2014/08/13",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy3/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy3/logo.png"
+    }
+  },
+  "number": "102",
+  "artist": "Ryo Ueda",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy3/102.png",
+    "large": "https://images.pokemontcg.io/xy3/102_hires.png"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "swsh9tg-TG20",
+  "name": "Rapid Strike Urshifu V",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "V",
+    "Rapid Strike"
+  ],
+  "hp": "220",
+  "types": [
+    "Fighting"
+  ],
+  "rules": [
+    "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Strafe",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "You may switch this Pokémon with 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Hundred Furious Blows",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "150",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh9tg",
+    "name": "Brilliant Stars Trainer Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 30,
+    "total": 30,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BRS",
+    "releaseDate": "2022/02/25",
+    "updatedAt": "2022/02/23 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh9tg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh9tg/logo.png"
+    }
+  },
+  "number": "TG20",
+  "artist": "takuyoa",
+  "rarity": "Rare Holo V",
+  "nationalPokedexNumbers": [
+    892
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh9tg/TG20.png",
+    "large": "https://images.pokemontcg.io/swsh9tg/TG20_hires.png"
+  }
+}

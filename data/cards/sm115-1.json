@@ -1,0 +1,69 @@
+{
+  "id": "sm115-1",
+  "name": "Caterpie",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Metapod"
+  ],
+  "attacks": [
+    {
+      "name": "Tackle",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm115",
+    "name": "Hidden Fates",
+    "series": "Sun & Moon",
+    "printedTotal": 68,
+    "total": 69,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "HIF",
+    "releaseDate": "2019/08/23",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm115/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm115/logo.png"
+    }
+  },
+  "number": "1",
+  "artist": "tetsuya koizumi",
+  "rarity": "Common",
+  "flavorText": "Perhaps because it would like to grow up quickly, it has a voracious appetite, eating a hundred leaves a day.",
+  "nationalPokedexNumbers": [
+    10
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm115/1.png",
+    "large": "https://images.pokemontcg.io/sm115/1_hires.png"
+  }
+}

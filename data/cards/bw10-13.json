@@ -1,0 +1,79 @@
+{
+  "id": "bw10-13",
+  "name": "Volcarona",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Team Plasma"
+  ],
+  "hp": "100",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Larvesta",
+  "attacks": [
+    {
+      "name": "Solar Transporter",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Reveal the top 5 cards of your deck and put all Team Plasma cards you find there into your hand. Discard the other cards."
+    },
+    {
+      "name": "Leech Life",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "Heal from this Pokémon the same amount of damage you did to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw10",
+    "name": "Plasma Blast",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 105,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLB",
+    "releaseDate": "2013/08/14",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw10/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw10/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "5ban Graphics",
+  "rarity": "Rare",
+  "flavorText": "Thought to be an embodiment of the sun, it appeared during a bitterly cold winter and saved Pokémon from freezing.",
+  "nationalPokedexNumbers": [
+    637
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw10/13.png",
+    "large": "https://images.pokemontcg.io/bw10/13_hires.png"
+  }
+}

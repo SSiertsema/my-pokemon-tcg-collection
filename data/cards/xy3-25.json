@@ -1,0 +1,86 @@
+{
+  "id": "xy3-25",
+  "name": "Amaura",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Restored"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Sail Fossil",
+  "evolvesTo": [
+    "Aurorus"
+  ],
+  "rules": [
+    "Put this card onto your Bench only with the effect of Sail Fossil"
+  ],
+  "attacks": [
+    {
+      "name": "Stampede",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Aurora Beam",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy3",
+    "name": "Furious Fists",
+    "series": "XY",
+    "printedTotal": 111,
+    "total": 114,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FFI",
+    "releaseDate": "2014/08/13",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy3/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy3/logo.png"
+    }
+  },
+  "number": "25",
+  "artist": "5ban Graphics",
+  "rarity": "Uncommon",
+  "flavorText": "This ancient Pokémon was restored from part of its body that had been frozen in ice for over 100 million years.",
+  "nationalPokedexNumbers": [
+    698
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy3/25.png",
+    "large": "https://images.pokemontcg.io/xy3/25_hires.png"
+  }
+}

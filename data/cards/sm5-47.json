@@ -1,0 +1,76 @@
+{
+  "id": "sm5-47",
+  "name": "Luxio",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Shinx",
+  "evolvesTo": [
+    "Luxray"
+  ],
+  "attacks": [
+    {
+      "name": "Disconnect",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Your opponent can't play any Item cards from their hand during their next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "47",
+  "artist": "tetsuya koizumi",
+  "rarity": "Uncommon",
+  "flavorText": "Strong electricity courses through the tips of its sharp claws. A light scratch causes fainting in foes.",
+  "nationalPokedexNumbers": [
+    404
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/47.png",
+    "large": "https://images.pokemontcg.io/sm5/47_hires.png"
+  }
+}

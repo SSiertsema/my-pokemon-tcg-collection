@@ -1,0 +1,95 @@
+{
+  "id": "pl1-20",
+  "name": "Bastiodon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "56",
+  "hp": "130",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Shieldon",
+  "abilities": [
+    {
+      "name": "Metal Trait",
+      "text": "As long as Bastiodon has a Pokémon Tool attached to it, remove 1 damage counter from Bastiodon between turns.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Iron Defense",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": "Flip a coin. If heads, prevent all effects of an attack, including damage, done to Bastiodon during your opponent's next turn."
+    },
+    {
+      "name": "Iron Tackle",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": "Bastiodon does 30 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "pl1",
+    "name": "Platinum",
+    "series": "Platinum",
+    "printedTotal": 127,
+    "total": 133,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PL",
+    "releaseDate": "2009/02/11",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl1/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl1/logo.png"
+    }
+  },
+  "number": "20",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    411
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl1/20.png",
+    "large": "https://images.pokemontcg.io/pl1/20_hires.png"
+  }
+}

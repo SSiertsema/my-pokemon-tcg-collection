@@ -1,0 +1,82 @@
+{
+  "id": "sm35-55",
+  "name": "Hoopa",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Darkness"
+  ],
+  "abilities": [
+    {
+      "name": "Scoundrel Guard",
+      "text": "Prevent all effects of attacks, including damage, done to this Pokémon by your opponent's Pokémon-GX or Pokémon-EX.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Super Psy Bolt",
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm35",
+    "name": "Shining Legends",
+    "series": "Sun & Moon",
+    "printedTotal": 73,
+    "total": 81,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SLG",
+    "releaseDate": "2017/10/06",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm35/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm35/logo.png"
+    }
+  },
+  "number": "55",
+  "artist": "TOKIYA",
+  "rarity": "Rare Holo",
+  "flavorText": "In its true form, it possess a huge amount of power. Legends of its avarice tell how it once carried off an entire castle to gain the treasure hidden within.",
+  "nationalPokedexNumbers": [
+    720
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm35/55.png",
+    "large": "https://images.pokemontcg.io/sm35/55_hires.png"
+  }
+}

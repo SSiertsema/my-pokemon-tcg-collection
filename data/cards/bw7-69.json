@@ -1,0 +1,80 @@
+{
+  "id": "bw7-69",
+  "name": "Musharna",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Munna",
+  "attacks": [
+    {
+      "name": "Telekinesis",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "This attack does 30 damage to 1 of your opponent's Pokémon. This attack's damage isn't affected by Weakness or Resistance."
+    },
+    {
+      "name": "Dream Waltz",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "This attack can be used even if this Pokémon is Asleep. If this Pokémon is Asleep, this attack does 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw7",
+    "name": "Boundaries Crossed",
+    "series": "Black & White",
+    "printedTotal": 149,
+    "total": 153,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BCR",
+    "releaseDate": "2012/11/07",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw7/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw7/logo.png"
+    }
+  },
+  "number": "69",
+  "artist": "Satoshi Shirai",
+  "rarity": "Rare",
+  "flavorText": "The dream mist coming from its forehead changes into many different colors depending on the dream that was eaten.",
+  "nationalPokedexNumbers": [
+    518
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw7/69.png",
+    "large": "https://images.pokemontcg.io/bw7/69_hires.png"
+  }
+}

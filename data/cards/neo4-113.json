@@ -1,0 +1,84 @@
+{
+  "id": "neo4-113",
+  "name": "Shining Tyranitar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "41",
+  "hp": "80",
+  "types": [
+    "Darkness"
+  ],
+  "rules": [
+    "You can't have more than 1 Shining Tyranitar in your deck."
+  ],
+  "attacks": [
+    {
+      "name": "Mountain Crush",
+      "cost": [
+        "Darkness",
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": "Flip a coin until you get tails. For each heads, your opponent discards the top card from his or her deck."
+    },
+    {
+      "name": "Destructive Fire",
+      "cost": [
+        "Darkness",
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "50",
+      "text": "Flip a coin for each Fire Energy card attached to Shining Tyranitar. For each heads, discard a Fire Energy card attached to Shining Tyranitar or this attack does nothing. Then, for each heads, choose an Energy card attached to the Defending Pokémon and discard it. If it has fewer Energy cards than that, remove all of them."
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "neo4",
+    "name": "Neo Destiny",
+    "series": "Neo",
+    "printedTotal": 105,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N4",
+    "releaseDate": "2002/02/28",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo4/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo4/logo.png"
+    }
+  },
+  "number": "113",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare Shining",
+  "flavorText": "It is so powerful, it can knock down a mountain with hust one arm.",
+  "nationalPokedexNumbers": [
+    248
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo4/113.png",
+    "large": "https://images.pokemontcg.io/neo4/113_hires.png"
+  }
+}

@@ -13,5 +13,19 @@
   "images": {
     "symbol": "https://images.pokemontcg.io/mcd19/symbol.png",
     "logo": "https://images.pokemontcg.io/mcd19/logo.png"
-  }
+  },
+  "cards": [
+    "mcd19-1",
+    "mcd19-2",
+    "mcd19-3",
+    "mcd19-4",
+    "mcd19-5",
+    "mcd19-6",
+    "mcd19-7",
+    "mcd19-8",
+    "mcd19-9",
+    "mcd19-10",
+    "mcd19-11",
+    "mcd19-12"
+  ]
 }

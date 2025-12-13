@@ -1,0 +1,41 @@
+{
+  "id": "sm9-150",
+  "name": "Nanu",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Choose a Basic Darkness Pokémon in your discard pile. Switch it with 1 of your Pokémon in play. Any attached cards, damage counters, Special Conditions, turns in play, and any other effects remain on the new Pokémon.",
+    "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "sm9",
+    "name": "Team Up",
+    "series": "Sun & Moon",
+    "printedTotal": 181,
+    "total": 198,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEU",
+    "releaseDate": "2019/02/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm9/logo.png"
+    }
+  },
+  "number": "150",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm9/150.png",
+    "large": "https://images.pokemontcg.io/sm9/150_hires.png"
+  }
+}

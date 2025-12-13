@@ -1,0 +1,79 @@
+{
+  "id": "sv8-74",
+  "name": "Azumarill",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Marill",
+  "abilities": [
+    {
+      "name": "Glistening Bubbles",
+      "text": "If you have any Tera Pokémon in play, this Pokémon can use the Double-Edge attack for Psychic.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Double-Edge",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "230",
+      "text": "This Pokémon also does 50 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv8",
+    "name": "Surging Sparks",
+    "series": "Scarlet & Violet",
+    "printedTotal": 191,
+    "total": 252,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SSP",
+    "releaseDate": "2024/11/08",
+    "updatedAt": "2024/11/07 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv8/logo.png"
+    }
+  },
+  "number": "74",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    184
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv8/74.png",
+    "large": "https://images.pokemontcg.io/sv8/74_hires.png"
+  }
+}

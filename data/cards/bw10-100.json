@@ -1,0 +1,85 @@
+{
+  "id": "bw10-100",
+  "name": "Palkia-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "EX",
+    "Team Plasma"
+  ],
+  "hp": "180",
+  "types": [
+    "Dragon"
+  ],
+  "rules": [
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Strafe",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": "You may switch this Pokémon with 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Dimension Heal",
+      "cost": [
+        "Grass",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "80",
+      "text": "Heal from this Pokémon 20 damage for each Plasma Energy attached to this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Dragon",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw10",
+    "name": "Plasma Blast",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 105,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLB",
+    "releaseDate": "2013/08/14",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw10/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw10/logo.png"
+    }
+  },
+  "number": "100",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Ultra",
+  "nationalPokedexNumbers": [
+    484
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw10/100.png",
+    "large": "https://images.pokemontcg.io/bw10/100_hires.png"
+  }
+}

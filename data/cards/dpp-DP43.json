@@ -1,0 +1,80 @@
+{
+  "id": "dpp-DP43",
+  "name": "Probopass G",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "SP"
+  ],
+  "level": "53",
+  "hp": "90",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "name": "Nose Unit",
+      "cost": [
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "This attack does 20 damage to each of your opponent's Pokémon that has any Poké-Bodies. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Loud Snort",
+      "cost": [
+        "Metal",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "70",
+      "text": "Probopass G's Retreat Cost is 0 until the end of your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dpp",
+    "name": "DP Black Star Promos",
+    "series": "Diamond & Pearl",
+    "printedTotal": 56,
+    "total": 56,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-DPP",
+    "releaseDate": "2007/05/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dpp/symbol.png",
+      "logo": "https://images.pokemontcg.io/dpp/logo.png"
+    }
+  },
+  "number": "DP43",
+  "artist": "Ryota Saito",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    476
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dpp/DP43.png",
+    "large": "https://images.pokemontcg.io/dpp/DP43_hires.png"
+  }
+}

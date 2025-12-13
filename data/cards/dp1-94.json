@@ -1,0 +1,78 @@
+{
+  "id": "dp1-94",
+  "name": "Ponyta",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "12",
+  "hp": "60",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Rapidash"
+  ],
+  "attacks": [
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Flame Tail",
+      "cost": [
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp1",
+    "name": "Diamond & Pearl",
+    "series": "Diamond & Pearl",
+    "printedTotal": 130,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DP",
+    "releaseDate": "2007/05/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp1/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp1/logo.png"
+    }
+  },
+  "number": "94",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Common",
+  "flavorText": "About an hour after birth, its fiery mane and tail grow out, giving it an impressive appearance.",
+  "nationalPokedexNumbers": [
+    77
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp1/94.png",
+    "large": "https://images.pokemontcg.io/dp1/94_hires.png"
+  }
+}

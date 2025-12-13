@@ -1,0 +1,44 @@
+{
+  "id": "sv8pt5-120",
+  "name": "Professor Sada's Vitality",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter",
+    "Ancient"
+  ],
+  "rules": [
+    "Choose up to 2 of your Ancient Pokémon and attach a Basic Energy card from your discard pile to each of them. If you attached any Energy in this way, draw 3 cards.",
+    "You may play only 1 Supporter card during your turn."
+  ],
+  "set": {
+    "id": "sv8pt5",
+    "name": "Prismatic Evolutions",
+    "series": "Scarlet & Violet",
+    "printedTotal": 131,
+    "total": 180,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PRE",
+    "releaseDate": "2025/01/17",
+    "updatedAt": "025/01/16 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv8pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv8pt5/logo.png"
+    }
+  },
+  "number": "120",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv8pt5/120.png",
+    "large": "https://images.pokemontcg.io/sv8pt5/120_hires.png"
+  }
+}

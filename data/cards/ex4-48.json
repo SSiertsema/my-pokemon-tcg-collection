@@ -1,0 +1,76 @@
+{
+  "id": "ex4-48",
+  "name": "Team Aqua's Carvanha",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Sharpedo"
+  ],
+  "attacks": [
+    {
+      "name": "Wave Splash",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Razor Fin",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex4",
+    "name": "Team Magma vs Team Aqua",
+    "series": "EX",
+    "printedTotal": 95,
+    "total": 97,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MA",
+    "releaseDate": "2004/03/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex4/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex4/logo.png"
+    }
+  },
+  "number": "48",
+  "artist": "Hiromichi Sugiyama",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    318
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex4/48.png",
+    "large": "https://images.pokemontcg.io/ex4/48_hires.png"
+  }
+}

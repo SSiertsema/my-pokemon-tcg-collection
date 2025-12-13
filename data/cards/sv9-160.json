@@ -1,0 +1,77 @@
+{
+  "id": "sv9-160",
+  "name": "Maractus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Grass"
+  ],
+  "abilities": [
+    {
+      "name": "Exploding Needles",
+      "text": "If this Pokémon is in the Active Spot and is Knocked Out by damage from an attack from your opponent's Pokémon, put 6 damage counters on the Attacking Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Corner",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "During your opponent's next turn, the Defending Pokémon can't retreat."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv9",
+    "name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "printedTotal": 159,
+    "total": 190,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "JTG",
+    "releaseDate": "2025/03/28",
+    "updatedAt": "2025/03/27 16:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv9/logo.png"
+    }
+  },
+  "number": "160",
+  "artist": "Ounishi",
+  "rarity": "Illustration Rare",
+  "flavorText": "Once each year, this Pokémon scatters its seeds. They're jam-packed with nutrients, making them a precious food source out in the desert.",
+  "nationalPokedexNumbers": [
+    556
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv9/160.png",
+    "large": "https://images.pokemontcg.io/sv9/160_hires.png"
+  }
+}

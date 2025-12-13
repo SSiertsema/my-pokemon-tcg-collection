@@ -1,0 +1,73 @@
+{
+  "id": "neo3-19",
+  "name": "Kingdra",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "49",
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Seadra",
+  "attacks": [
+    {
+      "name": "Genetic Memory",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Use any attack from Kingdra's Basic Pokémon card or Evolution card. (Kingdra doesn't have to pay for that attack's Energy cost.)"
+    },
+    {
+      "name": "Twister",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "50",
+      "text": "Flip 2 coins. For each heads, choose 1 Energy card attached to the Defending Pokémon, if any, and discard it. If both are tails, this attack does nothing (not even damage)."
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "neo3",
+    "name": "Neo Revelation",
+    "series": "Neo",
+    "printedTotal": 64,
+    "total": 66,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N3",
+    "releaseDate": "2001/09/21",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo3/logo.png"
+    }
+  },
+  "number": "19",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "flavorText": "It sleeps deep on the ocean floor to build its energy. It is said to cause tornadoes as it wakes.",
+  "nationalPokedexNumbers": [
+    230
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo3/19.png",
+    "large": "https://images.pokemontcg.io/neo3/19_hires.png"
+  }
+}

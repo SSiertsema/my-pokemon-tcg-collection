@@ -1,0 +1,81 @@
+{
+  "id": "dp5-11",
+  "name": "Palkia",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "62",
+  "hp": "100",
+  "types": [
+    "Water"
+  ],
+  "rules": [
+    "Lustrous Orb: If an Active Pokémon has Weakness to Water type, Palkia's attacks do 20 more damage to that Pokémon (before applying Weakness and Resistance)."
+  ],
+  "attacks": [
+    {
+      "name": "Zone Shift",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent switches the Defending Pokémon with 1 of his or her Benched Pokémon."
+    },
+    {
+      "name": "Pearl Blast",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "60",
+      "text": "You may return an Energy card attached to Palkia to your hand. If you do, choose an Energy card attached to the Defending Pokémon and return it to your opponent's hand."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dp5",
+    "name": "Majestic Dawn",
+    "series": "Diamond & Pearl",
+    "printedTotal": 100,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MD",
+    "releaseDate": "2008/05/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp5/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp5/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    484
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp5/11.png",
+    "large": "https://images.pokemontcg.io/dp5/11_hires.png"
+  }
+}

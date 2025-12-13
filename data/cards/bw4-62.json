@@ -1,0 +1,78 @@
+{
+  "id": "bw4-62",
+  "name": "Beheeyem",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Elgyem",
+  "attacks": [
+    {
+      "name": "Brain Control",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent reveals his or her hand. Choose a card from there and put it on the bottom of your opponent's deck."
+    },
+    {
+      "name": "Psybeam",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": "The Defending Pokémon is now Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw4",
+    "name": "Next Destinies",
+    "series": "Black & White",
+    "printedTotal": 99,
+    "total": 103,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "NXD",
+    "releaseDate": "2012/02/08",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw4/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw4/logo.png"
+    }
+  },
+  "number": "62",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare",
+  "flavorText": "It can manipulate an opponent's memory. Apparently, it communicates by flashing its three different-colored fingers.",
+  "nationalPokedexNumbers": [
+    606
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw4/62.png",
+    "large": "https://images.pokemontcg.io/bw4/62_hires.png"
+  }
+}

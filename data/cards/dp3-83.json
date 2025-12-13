@@ -1,0 +1,70 @@
+{
+  "id": "dp3-83",
+  "name": "Clefairy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "17",
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Clefable"
+  ],
+  "rules": [
+    "Moon Stone: Clefairy can evolve during the turn you play it."
+  ],
+  "attacks": [
+    {
+      "name": "Double Slap",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10×",
+      "text": "Flip 2 coins. This attack does 10 damage times the number of heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+10"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "83",
+  "artist": "Lee HyunJung",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    35
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/83.png",
+    "large": "https://images.pokemontcg.io/dp3/83_hires.png"
+  }
+}

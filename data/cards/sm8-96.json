@@ -1,0 +1,69 @@
+{
+  "id": "sm8-96",
+  "name": "Sableye",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "80",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Quick Hunt",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "If you go first, you can use this attack on your first turn. Search your deck for a card and put it into your hand. Then, shuffle your deck."
+    },
+    {
+      "name": "Cursed Drop",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Put 3 damage counters on your opponent's Pokémon in any way you like."
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "96",
+  "artist": "Miki Tanaka",
+  "rarity": "Uncommon",
+  "flavorText": "This Pokémon is feared. When its gemstone eyes begin to glow with a sinister shine, it's believed that Sableye will steal people's spirits away.",
+  "nationalPokedexNumbers": [
+    302
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/96.png",
+    "large": "https://images.pokemontcg.io/sm8/96_hires.png"
+  }
+}

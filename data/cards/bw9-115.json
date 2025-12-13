@@ -1,0 +1,42 @@
+{
+  "id": "bw9-115",
+  "name": "Ghetsis",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter",
+    "Team Plasma"
+  ],
+  "rules": [
+    "Your opponent reveals his or her hand and shuffles all Item cards found there into his or her deck. Then, draw a number of cards equal to the number of Item cards your opponent shuffled into his or her deck.",
+    "You may play only 1 Supporter card during your turn (before your attack)."
+  ],
+  "set": {
+    "id": "bw9",
+    "name": "Plasma Freeze",
+    "series": "Black & White",
+    "printedTotal": 116,
+    "total": 122,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLF",
+    "releaseDate": "2013/05/08",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw9/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw9/logo.png"
+    }
+  },
+  "number": "115",
+  "artist": "Kanako Eo",
+  "rarity": "Rare Ultra",
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Banned"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw9/115.png",
+    "large": "https://images.pokemontcg.io/bw9/115_hires.png"
+  }
+}

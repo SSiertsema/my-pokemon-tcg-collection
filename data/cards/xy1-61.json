@@ -1,0 +1,86 @@
+{
+  "id": "xy1-61",
+  "name": "Rhydon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "100",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Rhyhorn",
+  "evolvesTo": [
+    "Rhyperior"
+  ],
+  "attacks": [
+    {
+      "name": "Horn Drill",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    },
+    {
+      "name": "Mad Mountain",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "",
+      "text": "Flip 2 coins. If both of them are heads, discard the top card of your opponent's deck for each damage counter on this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xy1",
+    "name": "XY",
+    "series": "XY",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "XY",
+    "releaseDate": "2014/02/05",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy1/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy1/logo.png"
+    }
+  },
+  "number": "61",
+  "artist": "Midori Harada",
+  "rarity": "Rare",
+  "flavorText": "Protected by an armor-like hide, it is capable of living in molten lava of 3,600 degrees Fahrenheit.",
+  "nationalPokedexNumbers": [
+    112
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy1/61.png",
+    "large": "https://images.pokemontcg.io/xy1/61_hires.png"
+  }
+}

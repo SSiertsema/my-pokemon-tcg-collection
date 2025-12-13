@@ -1,0 +1,76 @@
+{
+  "id": "swsh2-38",
+  "name": "Galarian Mr. Rime",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Galarian Mr. Mime",
+  "abilities": [
+    {
+      "name": "Screen Cleaner",
+      "text": "Prevent all effects of your opponent's attacks, except damage, done to all of your Pokémon that have Energy attached. (Existing effects are not removed.)",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Triple Spin",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50×",
+      "text": "Flip 3 coins. This attack does 50 damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh2",
+    "name": "Rebel Clash",
+    "series": "Sword & Shield",
+    "printedTotal": 192,
+    "total": 209,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "RCL",
+    "releaseDate": "2020/05/01",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh2/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh2/logo.png"
+    }
+  },
+  "number": "38",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare",
+  "flavorText": "It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements.",
+  "nationalPokedexNumbers": [
+    866
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh2/38.png",
+    "large": "https://images.pokemontcg.io/swsh2/38_hires.png"
+  }
+}

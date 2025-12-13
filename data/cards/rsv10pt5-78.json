@@ -1,0 +1,86 @@
+{
+  "id": "rsv10pt5-78",
+  "name": "Tornadus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Wrapped in Wind",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Attach a Basic Energy card from your hand to this Pokémon."
+    },
+    {
+      "name": "Hurricane",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": "Move a Basic Energy from this Pokémon to 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "rsv10pt5",
+    "name": "White Flare",
+    "series": "Scarlet & Violet",
+    "printedTotal": 86,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "WHT",
+    "releaseDate": "2025/07/18",
+    "updatedAt": "2025/07/17 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/rsv10pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/rsv10pt5/logo.png"
+    }
+  },
+  "number": "78",
+  "artist": "Nisota Niso",
+  "rarity": "Rare",
+  "flavorText": "The lower half of its body is wrapped in a cloud of energy. It zooms through the sky at 200 mph.",
+  "nationalPokedexNumbers": [
+    641
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/rsv10pt5/78.png",
+    "large": "https://images.pokemontcg.io/rsv10pt5/78_hires.png"
+  }
+}

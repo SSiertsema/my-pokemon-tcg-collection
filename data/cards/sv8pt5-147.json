@@ -1,0 +1,86 @@
+{
+  "id": "sv8pt5-147",
+  "name": "Ceruledge ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Tera",
+    "ex"
+  ],
+  "hp": "270",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Charcadet",
+  "rules": [
+    "As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's).",
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Abyssal Flames",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30+",
+      "text": "This attack does 20 more damage for each Energy card in your discard pile."
+    },
+    {
+      "name": "Raging Amethyst",
+      "cost": [
+        "Fire",
+        "Psychic",
+        "Metal"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "280",
+      "text": "Discard all Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv8pt5",
+    "name": "Prismatic Evolutions",
+    "series": "Scarlet & Violet",
+    "printedTotal": 131,
+    "total": 180,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PRE",
+    "releaseDate": "2025/01/17",
+    "updatedAt": "025/01/16 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv8pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv8pt5/logo.png"
+    }
+  },
+  "number": "147",
+  "rarity": "Special Illustration Rare",
+  "nationalPokedexNumbers": [
+    937
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv8pt5/147.png",
+    "large": "https://images.pokemontcg.io/sv8pt5/147_hires.png"
+  }
+}

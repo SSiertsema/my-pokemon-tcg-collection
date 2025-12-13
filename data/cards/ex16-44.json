@@ -1,0 +1,76 @@
+{
+  "id": "ex16-44",
+  "name": "Baltoy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Claydol"
+  ],
+  "attacks": [
+    {
+      "name": "Psybeam",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Confused."
+    },
+    {
+      "name": "Spinning Attack",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex16",
+    "name": "Power Keepers",
+    "series": "EX",
+    "printedTotal": 108,
+    "total": 108,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PK",
+    "releaseDate": "2007/02/02",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex16/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex16/logo.png"
+    }
+  },
+  "number": "44",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    343
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex16/44.png",
+    "large": "https://images.pokemontcg.io/ex16/44_hires.png"
+  }
+}

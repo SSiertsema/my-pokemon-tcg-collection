@@ -1,0 +1,81 @@
+{
+  "id": "col1-10",
+  "name": "Houndoom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Houndour",
+  "attacks": [
+    {
+      "name": "Fire Counterattack",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20+",
+      "text": "If your opponent has any Fighting Pokémon in play, this attack does 20 damage plus 60 more damage."
+    },
+    {
+      "name": "Dark Roar",
+      "cost": [
+        "Darkness",
+        "Darkness"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Your opponent discards a card from his or her hand."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "col1",
+    "name": "Call of Legends",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 95,
+    "total": 106,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "CL",
+    "releaseDate": "2011/02/09",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/col1/symbol.png",
+      "logo": "https://images.pokemontcg.io/col1/logo.png"
+    }
+  },
+  "number": "10",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare Holo",
+  "flavorText": "Upon hearing its eerie howls, other Pokémon get the shivers and head straight back to their nests.",
+  "nationalPokedexNumbers": [
+    229
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/col1/10.png",
+    "large": "https://images.pokemontcg.io/col1/10_hires.png"
+  }
+}

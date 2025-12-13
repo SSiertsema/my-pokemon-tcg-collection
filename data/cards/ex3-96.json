@@ -1,0 +1,87 @@
+{
+  "id": "ex3-96",
+  "name": "Muk ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "ex"
+  ],
+  "hp": "100",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Grimer",
+  "rules": [
+    "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Toxic Gas",
+      "text": "As long as Muk ex is your Active Pokémon, ignore all Poké-Powers and Poké-Bodies other than Toxic Gas.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Poison Breath",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "The Defending Pokémon is now Poisoned."
+    },
+    {
+      "name": "Slimy Water",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40+",
+      "text": "Does 40 damage plus 10 more damage for each Colorless Energy in the Defending Pokémon's Retreat Cost (after applying effects to the Retreat Cost)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex3",
+    "name": "Dragon",
+    "series": "EX",
+    "printedTotal": 97,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DR",
+    "releaseDate": "2003/11/24",
+    "updatedAt": "2023/02/16 05:47:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex3/logo.png"
+    }
+  },
+  "number": "96",
+  "artist": "Hikaru Koike",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    89
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex3/96.png",
+    "large": "https://images.pokemontcg.io/ex3/96_hires.png"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "sm2-8",
+  "name": "Wimpod",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Golisopod"
+  ],
+  "attacks": [
+    {
+      "name": "Scamper Away",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Shuffle this Pokémon and all cards attached to it into your deck."
+    },
+    {
+      "name": "Ram",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm2",
+    "name": "Guardians Rising",
+    "series": "Sun & Moon",
+    "printedTotal": 145,
+    "total": 180,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "GRI",
+    "releaseDate": "2017/05/05",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm2/logo.png"
+    }
+  },
+  "number": "8",
+  "artist": "match",
+  "rarity": "Common",
+  "flavorText": "This Pokémon is a coward. As it desperately dashes off, the flailing of its many legs leaves a sparkling clean path in its wake.",
+  "nationalPokedexNumbers": [
+    767
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm2/8.png",
+    "large": "https://images.pokemontcg.io/sm2/8_hires.png"
+  }
+}

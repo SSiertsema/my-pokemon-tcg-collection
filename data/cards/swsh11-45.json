@@ -1,0 +1,77 @@
+{
+  "id": "swsh11-45",
+  "name": "Hisuian Basculegion",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Hisuian Basculin",
+  "attacks": [
+    {
+      "name": "Upstream Spirits",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "20×",
+      "text": "This attack does 20 damage for each basic Energy card in your discard pile. Then, shuffle those cards into your deck."
+    },
+    {
+      "name": "Water Shot",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "70",
+      "text": "Discard an Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh11",
+    "name": "Lost Origin",
+    "series": "Sword & Shield",
+    "printedTotal": 196,
+    "total": 217,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOR",
+    "releaseDate": "2022/09/09",
+    "updatedAt": "2022/09/09 13:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh11/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh11/logo.png"
+    }
+  },
+  "number": "45",
+  "artist": "AKIRA EGAWA",
+  "rarity": "Rare Holo",
+  "flavorText": "Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui's rivers is Basculegion's equal.",
+  "nationalPokedexNumbers": [
+    902
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh11/45.png",
+    "large": "https://images.pokemontcg.io/swsh11/45_hires.png"
+  }
+}

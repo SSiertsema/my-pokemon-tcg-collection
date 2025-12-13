@@ -1,0 +1,83 @@
+{
+  "id": "sv4-112",
+  "name": "Crobat",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "130",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Golbat",
+  "attacks": [
+    {
+      "name": "Echoing Madness",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Choose Item cards or Supporter cards. During your opponent's next turn, they can't play any of the chosen cards from their hand."
+    },
+    {
+      "name": "Cutting Wind",
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "130",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 266,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/11/03",
+    "updatedAt": "2023/11/03 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4/logo.png"
+    }
+  },
+  "number": "112",
+  "artist": "Uta",
+  "rarity": "Uncommon",
+  "flavorText": "This Pokémon flaps its four wings skillfully. Crobat can fly through cramped caves without needing to slow down.",
+  "nationalPokedexNumbers": [
+    169
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4/112.png",
+    "large": "https://images.pokemontcg.io/sv4/112_hires.png"
+  }
+}

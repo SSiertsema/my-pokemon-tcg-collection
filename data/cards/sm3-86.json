@@ -1,0 +1,79 @@
+{
+  "id": "sm3-86",
+  "name": "Weavile",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Sneasel",
+  "attacks": [
+    {
+      "name": "Rule of Evil",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "This attack does 60 damage to each Pokémon that has an Ability (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Slash",
+      "cost": [
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "set": {
+    "id": "sm3",
+    "name": "Burning Shadows",
+    "series": "Sun & Moon",
+    "printedTotal": 147,
+    "total": 177,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BUS",
+    "releaseDate": "2017/08/05",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm3/logo.png"
+    }
+  },
+  "number": "86",
+  "artist": "Satoshi Shirai",
+  "rarity": "Rare",
+  "flavorText": "They travel in groups of four or five, leaving signs for one another on trees and rocks. They bring down their prey with coordinated attacks.",
+  "nationalPokedexNumbers": [
+    461
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm3/86.png",
+    "large": "https://images.pokemontcg.io/sm3/86_hires.png"
+  }
+}

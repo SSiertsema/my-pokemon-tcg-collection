@@ -1,0 +1,68 @@
+{
+  "id": "neo3-44",
+  "name": "Geodude",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "14",
+  "hp": "40",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Graveler"
+  ],
+  "attacks": [
+    {
+      "name": "Knuckle Punch",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "neo3",
+    "name": "Neo Revelation",
+    "series": "Neo",
+    "printedTotal": 64,
+    "total": 66,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N3",
+    "releaseDate": "2001/09/21",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo3/logo.png"
+    }
+  },
+  "number": "44",
+  "artist": "Masako Yamashita",
+  "rarity": "Common",
+  "flavorText": "It uses its arms to steadily climb steep mountain paths. It swings its fists around if angered.",
+  "nationalPokedexNumbers": [
+    74
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo3/44.png",
+    "large": "https://images.pokemontcg.io/neo3/44_hires.png"
+  }
+}

@@ -13,5 +13,16 @@
   "images": {
     "symbol": "https://images.pokemontcg.io/bp/symbol.png",
     "logo": "https://images.pokemontcg.io/bp/logo.png"
-  }
+  },
+  "cards": [
+    "bp-1",
+    "bp-2",
+    "bp-4",
+    "bp-3",
+    "bp-6",
+    "bp-5",
+    "bp-7",
+    "bp-8",
+    "bp-9"
+  ]
 }

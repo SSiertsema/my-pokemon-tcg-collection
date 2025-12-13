@@ -1,0 +1,80 @@
+{
+  "id": "swsh1-3",
+  "name": "Roselia",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Roserade"
+  ],
+  "attacks": [
+    {
+      "name": "Sweet Scent",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 30 damage from 1 of your Pokémon."
+    },
+    {
+      "name": "Sting",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh1",
+    "name": "Sword & Shield",
+    "series": "Sword & Shield",
+    "printedTotal": 202,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SSH",
+    "releaseDate": "2020/02/07",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh1/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh1/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Naoyo Kimura",
+  "rarity": "Common",
+  "flavorText": "Its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is.",
+  "nationalPokedexNumbers": [
+    315
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh1/3.png",
+    "large": "https://images.pokemontcg.io/swsh1/3_hires.png"
+  }
+}

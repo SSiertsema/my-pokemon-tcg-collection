@@ -1,0 +1,79 @@
+{
+  "id": "ex6-45",
+  "name": "Pidgeotto",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Pidgey",
+  "evolvesTo": [
+    "Pidgeot"
+  ],
+  "attacks": [
+    {
+      "name": "Clutch",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "The Defending Pokémon can't retreat until the end of your opponent's next turn."
+    },
+    {
+      "name": "Cutting Wind",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "ex6",
+    "name": "FireRed & LeafGreen",
+    "series": "EX",
+    "printedTotal": 112,
+    "total": 116,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RG",
+    "releaseDate": "2004/09/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex6/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex6/logo.png"
+    }
+  },
+  "number": "45",
+  "artist": "Midori Harada",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    17
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex6/45.png",
+    "large": "https://images.pokemontcg.io/ex6/45_hires.png"
+  }
+}

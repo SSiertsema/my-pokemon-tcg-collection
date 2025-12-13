@@ -1,0 +1,82 @@
+{
+  "id": "sm5-74",
+  "name": "Weavile",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Sneasel",
+  "attacks": [
+    {
+      "name": "Icy Wind",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Your opponent's Active Pokémon is now Asleep."
+    },
+    {
+      "name": "Evil Admonition",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "50×",
+      "text": "This attack does 50 damage for each of your opponent's Pokémon that has an Ability."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "74",
+  "artist": "Misa Tsutsui",
+  "rarity": "Rare Holo",
+  "flavorText": "They dwell in cold places. This Pokémon's main food source in Alola is Vulpix and Sandshrew, which they carefully divide among their group.",
+  "nationalPokedexNumbers": [
+    461
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/74.png",
+    "large": "https://images.pokemontcg.io/sm5/74_hires.png"
+  }
+}

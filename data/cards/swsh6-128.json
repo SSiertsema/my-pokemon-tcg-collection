@@ -1,0 +1,79 @@
+{
+  "id": "swsh6-128",
+  "name": "Greedent",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Skwovet",
+  "abilities": [
+    {
+      "name": "Brazen Tail",
+      "text": "Energy attached to your Pokémon can't be put into your hand, deck, or discard pile by an effect of your opponent's Item or Supporter cards.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Gnaw",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "128",
+  "artist": "HYOGONOSUKE",
+  "rarity": "Rare Holo",
+  "flavorText": "Common throughout the Galar region, this Pokémon has strong teeth and can chew through the toughest of berry shells.",
+  "nationalPokedexNumbers": [
+    820
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/128.png",
+    "large": "https://images.pokemontcg.io/swsh6/128_hires.png"
+  }
+}

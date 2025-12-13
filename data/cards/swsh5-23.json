@@ -1,0 +1,86 @@
+{
+  "id": "swsh5-23",
+  "name": "Tepig",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Single Strike"
+  ],
+  "hp": "80",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Pignite"
+  ],
+  "attacks": [
+    {
+      "name": "Ram",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Combustion",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh5",
+    "name": "Battle Styles",
+    "series": "Sword & Shield",
+    "printedTotal": 163,
+    "total": 183,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BST",
+    "releaseDate": "2021/03/19",
+    "updatedAt": "2021/03/19 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh5/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "You Iribi",
+  "rarity": "Common",
+  "flavorText": "It loves to eat roasted berries, but sometimes it gets too excited and burns them to a crisp.",
+  "nationalPokedexNumbers": [
+    498
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh5/23.png",
+    "large": "https://images.pokemontcg.io/swsh5/23_hires.png"
+  }
+}

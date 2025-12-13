@@ -1,0 +1,78 @@
+{
+  "id": "sv8pt5-5",
+  "name": "Leafeon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Eevee",
+  "attacks": [
+    {
+      "name": "Leaflet Blessings",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Attach a Basic Grass Energy card from your hand to 1 of your Benched Pokémon. If you do, heal all damage from that Pokémon."
+    },
+    {
+      "name": "Solar Beam",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv8pt5",
+    "name": "Prismatic Evolutions",
+    "series": "Scarlet & Violet",
+    "printedTotal": 131,
+    "total": 180,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PRE",
+    "releaseDate": "2025/01/17",
+    "updatedAt": "025/01/16 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv8pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv8pt5/logo.png"
+    }
+  },
+  "number": "5",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    470
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv8pt5/5.png",
+    "large": "https://images.pokemontcg.io/sv8pt5/5_hires.png"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ecard1-115",
+  "name": "Krabby",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Kingler"
+  ],
+  "attacks": [
+    {
+      "name": "Crabhammer",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ecard1",
+    "name": "Expedition Base Set",
+    "series": "E-Card",
+    "printedTotal": 165,
+    "total": 165,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "EX",
+    "releaseDate": "2002/09/15",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard1/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard1/logo.png"
+    }
+  },
+  "number": "115",
+  "artist": "Shin-ichi Yoshida",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    98
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard1/115.png",
+    "large": "https://images.pokemontcg.io/ecard1/115_hires.png"
+  }
+}

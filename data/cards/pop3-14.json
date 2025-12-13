@@ -1,0 +1,77 @@
+{
+  "id": "pop3-14",
+  "name": "Ivysaur",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Bulbasaur",
+  "evolvesTo": [
+    "Venusaur"
+  ],
+  "attacks": [
+    {
+      "name": "Gouge",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "Flip a coin. If heads, this attack does 10 damage plus 10 more damage."
+    },
+    {
+      "name": "Poisonpowder",
+      "cost": [
+        "Grass",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": "The Defending Pokémon is now Poisoned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pop3",
+    "name": "POP Series 3",
+    "series": "POP",
+    "printedTotal": 17,
+    "total": 17,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "releaseDate": "2006/04/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pop3/symbol.png",
+      "logo": "https://images.pokemontcg.io/pop3/logo.png"
+    }
+  },
+  "number": "14",
+  "artist": "Midori Harada",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    2
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pop3/14.png",
+    "large": "https://images.pokemontcg.io/pop3/14_hires.png"
+  }
+}

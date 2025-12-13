@@ -1,0 +1,79 @@
+{
+  "id": "pl1-65",
+  "name": "Wartortle",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "25",
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Squirtle",
+  "evolvesTo": [
+    "Blastoise"
+  ],
+  "attacks": [
+    {
+      "name": "Double Slap",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "Flip 2 coins. This attack does 20 damage times the number of heads."
+    },
+    {
+      "name": "Rocket Tackle",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Wartortle does 10 damage to itself. Flip a coin. If heads, prevent all damage done to Wartortle by attacks during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl1",
+    "name": "Platinum",
+    "series": "Platinum",
+    "printedTotal": 127,
+    "total": 133,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PL",
+    "releaseDate": "2009/02/11",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl1/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl1/logo.png"
+    }
+  },
+  "number": "65",
+  "artist": "Midori Harada",
+  "rarity": "Uncommon",
+  "flavorText": "It is said to live 10,000 years. Its furry tail is popular as a symbol of longevity.",
+  "nationalPokedexNumbers": [
+    8
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl1/65.png",
+    "large": "https://images.pokemontcg.io/pl1/65_hires.png"
+  }
+}

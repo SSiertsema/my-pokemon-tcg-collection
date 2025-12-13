@@ -1,0 +1,84 @@
+{
+  "id": "sv5-135",
+  "name": "Unfezant",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "150",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Tranquill",
+  "attacks": [
+    {
+      "name": "Opposing Winds",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70",
+      "text": "You may put 2 Energy attached to your opponent's Active Pokémon into their hand."
+    },
+    {
+      "name": "Boundless Power",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "180",
+      "text": "During your next turn, this Pokémon can't attack."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "sv5",
+    "name": "Temporal Forces",
+    "series": "Scarlet & Violet",
+    "printedTotal": 162,
+    "total": 218,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEF",
+    "releaseDate": "2024/03/22",
+    "updatedAt": "2024/03/22 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv5/logo.png"
+    }
+  },
+  "number": "135",
+  "artist": "Anesaki Dynamic",
+  "rarity": "Uncommon",
+  "flavorText": "Unfezant are exceptional fliers. The females are known for their stamina, while the males outclass them in terms of speed.",
+  "nationalPokedexNumbers": [
+    521
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv5/135.png",
+    "large": "https://images.pokemontcg.io/sv5/135_hires.png"
+  }
+}

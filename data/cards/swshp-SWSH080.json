@@ -1,0 +1,70 @@
+{
+  "id": "swshp-SWSH080",
+  "name": "Dedenne",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Mad Party",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20×",
+      "text": "This attack does 20 damage for each Pokémon in your discard pile that has the Mad Party attack."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH080",
+  "artist": "Yuu Nishida",
+  "rarity": "Promo",
+  "flavorText": "Its upper whiskers are sensors that survey its surroundings. Its lower whiskers are organs that shoot electricity.",
+  "nationalPokedexNumbers": [
+    702
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH080.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH080_hires.png"
+  }
+}

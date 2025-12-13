@@ -1,0 +1,79 @@
+{
+  "id": "xy10-13",
+  "name": "Delphox",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Braixen",
+  "attacks": [
+    {
+      "name": "Flickering Flames",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": "Your opponent's Active Pokémon is now Asleep."
+    },
+    {
+      "name": "Psystorm",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "20×",
+      "text": "This attack does 20 damage times the amount of Energy attached to all Pokémon in play."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy10",
+    "name": "Fates Collide",
+    "series": "XY",
+    "printedTotal": 124,
+    "total": 129,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FCO",
+    "releaseDate": "2016/05/02",
+    "updatedAt": "2018/09/03 11:49:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy10/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy10/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare Holo",
+  "flavorText": "Using psychic power, it generates a fiery vortex of 5,400 degree Fahrenheit, incinerating foes swept into this whirl of flame.",
+  "nationalPokedexNumbers": [
+    655
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy10/13.png",
+    "large": "https://images.pokemontcg.io/xy10/13_hires.png"
+  }
+}

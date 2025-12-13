@@ -1,0 +1,81 @@
+{
+  "id": "dp3-16",
+  "name": "Raikou",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "42",
+  "hp": "80",
+  "types": [
+    "Lightning"
+  ],
+  "abilities": [
+    {
+      "name": "Thunder Rumble",
+      "text": "Once during your turn (before your attack), when you attach a Lightning Energy card from your hand to Raikou, you may put 1 damage counter on 1 of your opponent's Benched Pokémon.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Thunder Climb",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50+",
+      "text": "Discard 3 cards from the top of your deck. This attack does 50 damage plus 10 more damage for each Lightning Energy card you discarded. Then, attach those Lightning Energy cards to 1 of your Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "dp3",
+    "name": "Secret Wonders",
+    "series": "Diamond & Pearl",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "SW",
+    "releaseDate": "2007/11/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp3/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp3/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "Ryo Ueda",
+  "rarity": "Rare Holo",
+  "flavorText": "It is said to have fallen with lightning. It can fire thunderbolts from the rain clouds on its back.",
+  "nationalPokedexNumbers": [
+    243
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp3/16.png",
+    "large": "https://images.pokemontcg.io/dp3/16_hires.png"
+  }
+}

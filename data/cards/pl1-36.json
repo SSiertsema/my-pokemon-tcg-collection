@@ -1,0 +1,70 @@
+{
+  "id": "pl1-36",
+  "name": "Ninetales",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "43",
+  "hp": "90",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Vulpix",
+  "attacks": [
+    {
+      "name": "Flame Bash",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Flip a coin until you get tails. Search your deck for a number of basic Fire Energy cards up to the number of heads and attach them to any of your Pokémon in any way you like. Shuffle your deck afterward."
+    },
+    {
+      "name": "Mysterious Flames",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "If you have more Energy in play than your opponent, the Defending Pokémon is now Burned and Confused."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "+20"
+    }
+  ],
+  "set": {
+    "id": "pl1",
+    "name": "Platinum",
+    "series": "Platinum",
+    "printedTotal": 127,
+    "total": 133,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PL",
+    "releaseDate": "2009/02/11",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl1/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl1/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Suwama Chiaki",
+  "rarity": "Rare",
+  "flavorText": "Its nine tails are said to be imbued with a mystic power. It can live for a thousand years.",
+  "nationalPokedexNumbers": [
+    38
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl1/36.png",
+    "large": "https://images.pokemontcg.io/pl1/36_hires.png"
+  }
+}

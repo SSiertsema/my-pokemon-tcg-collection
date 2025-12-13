@@ -1,0 +1,61 @@
+{
+  "id": "xyp-XY136",
+  "name": "Noctowl BREAK",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "BREAK"
+  ],
+  "hp": "130",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Noctowl",
+  "rules": [
+    "BREAK Evolution Rule: Noctowl BREAK retains the attacks, Abilities, Weakness, Resistance, and Retreat Cost of its previous Evolution."
+  ],
+  "attacks": [
+    {
+      "name": "Night Scan",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "Your opponent reveals his or her hand. This attack does 30 more damage for each Trainer card you find there."
+    }
+  ],
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY136",
+  "artist": "5ban Graphics",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    164
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY136.png",
+    "large": "https://images.pokemontcg.io/xyp/XY136_hires.png"
+  }
+}

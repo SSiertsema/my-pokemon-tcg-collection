@@ -1,0 +1,80 @@
+{
+  "id": "sm10-7",
+  "name": "Gloom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Oddish",
+  "evolvesTo": [
+    "Vileplume",
+    "Bellossom"
+  ],
+  "abilities": [
+    {
+      "name": "Irresistible Aroma",
+      "text": "Once during your turn (before your attack), if your opponent's Bench isn't full, you may flip a coin. If heads, your opponent reveals their hand. Put a Basic Pokémon you find there onto their Bench.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Drool",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm10",
+    "name": "Unbroken Bonds",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 234,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNB",
+    "releaseDate": "2019/05/03",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm10/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm10/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "Anesaki Dynamic",
+  "rarity": "Uncommon",
+  "flavorText": "Smells incredibly foul! However, around one out of a thousand people enjoy sniffing its nose-bending stink.",
+  "nationalPokedexNumbers": [
+    44
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm10/7.png",
+    "large": "https://images.pokemontcg.io/sm10/7_hires.png"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "sm9-59",
+  "name": "Nidoking",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Nidorino",
+  "attacks": [
+    {
+      "name": "Drag Off",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Switch 1 of your opponent's Benched Pokémon with their Active Pokémon. This attack does 50 damage to the new Active Pokémon."
+    },
+    {
+      "name": "King's Drum",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100+",
+      "text": "If Nidoqueen is on your Bench, this attack does 100 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sm9",
+    "name": "Team Up",
+    "series": "Sun & Moon",
+    "printedTotal": 181,
+    "total": 198,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "TEU",
+    "releaseDate": "2019/02/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm9/logo.png"
+    }
+  },
+  "number": "59",
+  "artist": "kawayoo",
+  "rarity": "Rare",
+  "flavorText": "It is recognized by its rock-hard hide and its extended horn. Be careful with the horn, as it contains venom.",
+  "nationalPokedexNumbers": [
+    34
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm9/59.png",
+    "large": "https://images.pokemontcg.io/sm9/59_hires.png"
+  }
+}

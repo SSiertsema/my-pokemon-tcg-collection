@@ -1,0 +1,82 @@
+{
+  "id": "dp2-31",
+  "name": "Nidoqueen",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "50",
+  "hp": "120",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesFrom": "Nidorina",
+  "abilities": [
+    {
+      "name": "Mother Pheromone",
+      "text": "The attack cost of your Nidoran ♀, Nidorina, Nidoran ♂, Nidorino, and Nidoking's attacks is Colorless less.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Give Aid",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90",
+      "text": "If you have the same number of or less Benched Pokémon than your opponent, this attack's base damage is 50 instead of 90."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "+30"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "31",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Rare",
+  "flavorText": "Its entire body is armored with hard scales. It will protect the young in its burrow with its life.",
+  "nationalPokedexNumbers": [
+    31
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/31.png",
+    "large": "https://images.pokemontcg.io/dp2/31_hires.png"
+  }
+}

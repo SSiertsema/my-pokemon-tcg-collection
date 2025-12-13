@@ -1,0 +1,79 @@
+{
+  "id": "swshp-SWSH240",
+  "name": "Finneon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Lumineon"
+  ],
+  "abilities": [
+    {
+      "name": "Oceanic Accompaniment",
+      "text": "As often as you like during your turn, you may attach a Water Energy card from your hand to 1 of your Pokémon that has the Swim Freely attack.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Water Gun",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH240",
+  "artist": "OKACHEKE",
+  "rarity": "Promo",
+  "flavorText": "It lures in prey with its shining tail fins. It stays near the surface during the day and moves to the depths when night falls.",
+  "nationalPokedexNumbers": [
+    456
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH240.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH240_hires.png"
+  }
+}

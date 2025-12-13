@@ -1,0 +1,78 @@
+{
+  "id": "bw8-23",
+  "name": "Heatmor",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Fire"
+  ],
+  "attacks": [
+    {
+      "name": "Luring Flame",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Switch 1 of your opponent's Benched Pokémon with the Defending Pokémon. The new Defending Pokémon is now Burned."
+    },
+    {
+      "name": "Fiery Licks",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50×",
+      "text": "Discard the top 4 cards of your deck. This attack does 50 damage times the number of Fire Energy cards discarded."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "bw8",
+    "name": "Plasma Storm",
+    "series": "Black & White",
+    "printedTotal": 135,
+    "total": 138,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLS",
+    "releaseDate": "2013/02/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw8/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw8/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Suwama Chiaki",
+  "rarity": "Uncommon",
+  "flavorText": "It draws in air through its tail, transforms it into fire, and uses it like a tongue. It melts Durant and eats them.",
+  "nationalPokedexNumbers": [
+    631
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw8/23.png",
+    "large": "https://images.pokemontcg.io/bw8/23_hires.png"
+  }
+}

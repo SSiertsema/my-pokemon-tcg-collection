@@ -1,0 +1,71 @@
+{
+  "id": "swsh45-40",
+  "name": "Trapinch",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Vibrava"
+  ],
+  "attacks": [
+    {
+      "name": "Land's Pulse",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10+",
+      "text": "If a Stadium is in play, this attack does 10 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh45",
+    "name": "Shining Fates",
+    "series": "Sword & Shield",
+    "printedTotal": 72,
+    "total": 73,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SHF",
+    "releaseDate": "2021/02/19",
+    "updatedAt": "2021/02/24 16:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh45/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh45/logo.png"
+    }
+  },
+  "number": "40",
+  "artist": "MAHOU",
+  "rarity": "Common",
+  "flavorText": "Its nest is a sloped, bowl-like pit in the desert. Once something has fallen in, there is no escape.",
+  "nationalPokedexNumbers": [
+    328
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh45/40.png",
+    "large": "https://images.pokemontcg.io/swsh45/40_hires.png"
+  }
+}

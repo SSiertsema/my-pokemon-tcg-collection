@@ -1,0 +1,86 @@
+{
+  "id": "me1-155",
+  "name": "Mega Venusaur ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "MEGA",
+    "ex"
+  ],
+  "hp": "380",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Ivysaur",
+  "rules": [
+    "Mega Evolution ex Rule: When your Mega Evolution Pokémon ex is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Solar Transfer",
+      "text": "As often as you like during your turn, you may use this Ability. Move a Basic Grass Energy from 1 of your Pokémon to another of your Pokémon.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Jungle Dump",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "240",
+      "text": "Heal 30 damage from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 4,
+  "set": {
+    "id": "me1",
+    "name": "Mega Evolution",
+    "series": "Mega Evolution",
+    "printedTotal": 132,
+    "total": 188,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "MEG",
+    "releaseDate": "2025/09/26",
+    "updatedAt": "2025/09/25 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/me1/symbol.png",
+      "logo": "https://images.pokemontcg.io/me1/logo.png"
+    }
+  },
+  "number": "155",
+  "rarity": "Ultra Rare",
+  "nationalPokedexNumbers": [
+    3
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/me1/155.png",
+    "large": "https://images.pokemontcg.io/me1/155_hires.png"
+  }
+}

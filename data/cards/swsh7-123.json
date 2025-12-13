@@ -1,0 +1,78 @@
+{
+  "id": "swsh7-123",
+  "name": "Duraludon VMAX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VMAX",
+    "Single Strike"
+  ],
+  "hp": "330",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Duraludon V",
+  "rules": [
+    "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "abilities": [
+    {
+      "name": "Skyscraper",
+      "text": "Prevent all damage done to this Pokémon by attacks from your opponent's Pokémon that have Special Energy attached.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "G-Max Pulverization",
+      "cost": [
+        "Fighting",
+        "Metal",
+        "Metal"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "220",
+      "text": "This attack's damage isn't affected by any effects on your opponent's Active Pokémon."
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh7",
+    "name": "Evolving Skies",
+    "series": "Sword & Shield",
+    "printedTotal": 203,
+    "total": 237,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVS",
+    "releaseDate": "2021/08/27",
+    "updatedAt": "2021/08/27 10:17:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh7/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh7/logo.png"
+    }
+  },
+  "number": "123",
+  "artist": "PLANETA Mochizuki",
+  "rarity": "Rare Holo VMAX",
+  "nationalPokedexNumbers": [
+    884
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh7/123.png",
+    "large": "https://images.pokemontcg.io/swsh7/123_hires.png"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "sv3-57",
+  "name": "Frogadier",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Froakie",
+  "evolvesTo": [
+    "Greninja"
+  ],
+  "attacks": [
+    {
+      "name": "Strafe",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "You may switch this Pokémon with 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv3",
+    "name": "Obsidian Flames",
+    "series": "Scarlet & Violet",
+    "printedTotal": 197,
+    "total": 230,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/08/11",
+    "updatedAt": "2023/08/11 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv3/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv3/logo.png"
+    }
+  },
+  "number": "57",
+  "artist": "Tonji Matsuno",
+  "rarity": "Uncommon",
+  "flavorText": "Its swiftness is unparalleled. It can scale a tower of more than 600 metres in a minute's time.",
+  "nationalPokedexNumbers": [
+    657
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv3/57.png",
+    "large": "https://images.pokemontcg.io/sv3/57_hires.png"
+  }
+}

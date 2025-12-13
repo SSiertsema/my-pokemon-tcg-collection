@@ -1,0 +1,82 @@
+{
+  "id": "bw1-83",
+  "name": "Stoutland",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Herdier",
+  "attacks": [
+    {
+      "name": "Odor Sleuth",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Flip 3 coins. For each heads, put a card from your discard pile into your hand."
+    },
+    {
+      "name": "Giga Impact",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "90",
+      "text": "This Pokémon can't attack during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "bw1",
+    "name": "Black & White",
+    "series": "Black & White",
+    "printedTotal": 114,
+    "total": 115,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BLW",
+    "releaseDate": "2011/04/25",
+    "updatedAt": "2018/11/29 19:56:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw1/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw1/logo.png"
+    }
+  },
+  "number": "83",
+  "artist": "match",
+  "rarity": "Rare",
+  "flavorText": "This extremely wise Pokémon excels at rescuing people stranded at sea or in the mountains.",
+  "nationalPokedexNumbers": [
+    508
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw1/83.png",
+    "large": "https://images.pokemontcg.io/bw1/83_hires.png"
+  }
+}

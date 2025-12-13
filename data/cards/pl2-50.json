@@ -1,0 +1,77 @@
+{
+  "id": "pl2-50",
+  "name": "Starmie",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "44",
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Staryu",
+  "abilities": [
+    {
+      "name": "Aqua Recycle",
+      "text": "Once during your turn (before your attack), you may search your discard pile for a Water Energy card, show it to your opponent, and put it into your hand. This power can't be used if Starmie is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Synchro Gain",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "If Starmie and the Defending Pokémon have the same amount of Energy attached to them, remove 4 damage counters from Starmie."
+    },
+    {
+      "name": "Powerful Spin",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": "Starmie can't attack during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "set": {
+    "id": "pl2",
+    "name": "Rising Rivals",
+    "series": "Platinum",
+    "printedTotal": 111,
+    "total": 120,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "RR",
+    "releaseDate": "2009/05/16",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl2/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl2/logo.png"
+    }
+  },
+  "number": "50",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    121
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl2/50.png",
+    "large": "https://images.pokemontcg.io/pl2/50_hires.png"
+  }
+}

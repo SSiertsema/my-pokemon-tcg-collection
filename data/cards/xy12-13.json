@@ -1,0 +1,75 @@
+{
+  "id": "xy12-13",
+  "name": "M Charizard-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "MEGA",
+    "EX"
+  ],
+  "hp": "220",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Charizard-EX",
+  "rules": [
+    "Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.",
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Crimson Dive",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 5,
+      "damage": "300",
+      "text": "This Pokémon does 50 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy12",
+    "name": "Evolutions",
+    "series": "XY",
+    "printedTotal": 108,
+    "total": 113,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "EVO",
+    "releaseDate": "2016/11/02",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy12/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy12/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    6
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy12/13.png",
+    "large": "https://images.pokemontcg.io/xy12/13_hires.png"
+  }
+}

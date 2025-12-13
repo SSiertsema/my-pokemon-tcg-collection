@@ -1,0 +1,77 @@
+{
+  "id": "xy7-4",
+  "name": "Bellossom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Gloom",
+  "attacks": [
+    {
+      "name": "Windmill",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Flower Tornado",
+      "cost": [
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "60",
+      "text": "Move as many Grass Energy attached to your Pokémon to your other Pokémon in any way you like."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xy7",
+    "name": "Ancient Origins",
+    "series": "XY",
+    "printedTotal": 98,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "AOR",
+    "releaseDate": "2015/08/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy7/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy7/logo.png"
+    }
+  },
+  "number": "4",
+  "artist": "Mizue",
+  "rarity": "Uncommon",
+  "flavorText": "When the heavy rainfall season ends, it is drawn out by warm sunlight to dance in the open.",
+  "nationalPokedexNumbers": [
+    182
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy7/4.png",
+    "large": "https://images.pokemontcg.io/xy7/4_hires.png"
+  }
+}

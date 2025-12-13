@@ -1,0 +1,85 @@
+{
+  "id": "swshp-SWSH214",
+  "name": "Lucario VSTAR",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VSTAR"
+  ],
+  "hp": "270",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Lucario V",
+  "rules": [
+    "VSTAR rule: When your Pokémon VSTAR is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Fighting Knuckle",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "120+",
+      "text": "If your opponent's Active Pokémon is a Pokémon V, this attack does 120 more damage."
+    },
+    {
+      "name": "Aura Star",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "70×",
+      "text": "This attack does 70 damage for each Energy attached to all of your opponent's Pokémon. (You can't use more than 1 VSTAR Power in a game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH214",
+  "artist": "aky CG Works",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    448
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH214.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH214_hires.png"
+  }
+}

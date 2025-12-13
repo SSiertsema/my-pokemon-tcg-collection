@@ -1,0 +1,76 @@
+{
+  "id": "sv7-121",
+  "name": "Fletchling",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Fletchinder"
+  ],
+  "attacks": [
+    {
+      "name": "Send Back",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Switch out your opponent's Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv7",
+    "name": "Stellar Crown",
+    "series": "Scarlet & Violet",
+    "printedTotal": 142,
+    "total": 175,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SCR",
+    "releaseDate": "2024/09/13",
+    "updatedAt": "2024/09/13 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv7/logo.png"
+    }
+  },
+  "number": "121",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    661
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv7/121.png",
+    "large": "https://images.pokemontcg.io/sv7/121_hires.png"
+  }
+}

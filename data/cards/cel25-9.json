@@ -1,0 +1,77 @@
+{
+  "id": "cel25-9",
+  "name": "Surfing Pikachu VMAX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "VMAX"
+  ],
+  "hp": "310",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Surfing Pikachu V",
+  "evolvesTo": [
+    "Raichu"
+  ],
+  "rules": [
+    "VMAX rule: When your Pokémon VMAX is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "name": "Max Surfer",
+      "damage": "160",
+      "text": "This attack also does 30 damage to each of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "cel25",
+    "name": "Celebrations",
+    "series": "Sword & Shield",
+    "printedTotal": 25,
+    "total": 25,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEL",
+    "releaseDate": "2021/10/08",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/cel25/symbol.png",
+      "logo": "https://images.pokemontcg.io/cel25/logo.png"
+    }
+  },
+  "number": "9",
+  "artist": "aky CG Works",
+  "rarity": "Rare Holo VMAX",
+  "nationalPokedexNumbers": [
+    25
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/cel25/9.png",
+    "large": "https://images.pokemontcg.io/cel25/9_hires.png"
+  }
+}

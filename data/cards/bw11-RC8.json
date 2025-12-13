@@ -1,0 +1,79 @@
+{
+  "id": "bw11-RC8",
+  "name": "Ralts",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Kirlia"
+  ],
+  "attacks": [
+    {
+      "name": "Hypnotic Gaze",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Asleep."
+    },
+    {
+      "name": "Pound",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw11",
+    "name": "Legendary Treasures",
+    "series": "Black & White",
+    "printedTotal": 113,
+    "total": 140,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LTR",
+    "releaseDate": "2013/11/06",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw11/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw11/logo.png"
+    }
+  },
+  "number": "RC8",
+  "artist": "Mizue",
+  "rarity": "Common",
+  "flavorText": "If its horns capture the warm feelings of people or Pokémon, its body warms up slightly.",
+  "nationalPokedexNumbers": [
+    280
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw11/RC8.png",
+    "large": "https://images.pokemontcg.io/bw11/RC8_hires.png"
+  }
+}

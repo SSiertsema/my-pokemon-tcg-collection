@@ -1,0 +1,84 @@
+{
+  "id": "sv6pt5-71",
+  "name": "Cresselia",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Healing Pirouette",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal 20 damage from each of your Pokémon."
+    },
+    {
+      "name": "Crescent Purge",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Psychic"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80+",
+      "text": "You may turn 1 of your face-down Prize cards face up. If you do, this attack does 80 more damage. (That Prize card remains face up for the rest of the game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Darkness",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv6pt5",
+    "name": "Shrouded Fable",
+    "series": "Scarlet & Violet",
+    "printedTotal": 64,
+    "total": 99,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SFA",
+    "releaseDate": "2024/08/02",
+    "updatedAt": "2024/08/02 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv6pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv6pt5/logo.png"
+    }
+  },
+  "number": "71",
+  "rarity": "Illustration Rare",
+  "nationalPokedexNumbers": [
+    488
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv6pt5/71.png",
+    "large": "https://images.pokemontcg.io/sv6pt5/71_hires.png"
+  }
+}

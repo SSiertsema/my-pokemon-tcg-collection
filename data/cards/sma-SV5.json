@@ -1,0 +1,73 @@
+{
+  "id": "sma-SV5",
+  "name": "Pheromosa",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Ultra Beast"
+  ],
+  "hp": "110",
+  "types": [
+    "Grass"
+  ],
+  "attacks": [
+    {
+      "name": "High Jump Kick",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "White Ray",
+      "cost": [
+        "Grass",
+        "Grass",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "90+",
+      "text": "If you have only 1 Prize card remaining, this attack does 90 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "sma",
+    "name": "Hidden Fates Shiny Vault",
+    "series": "Sun & Moon",
+    "printedTotal": 94,
+    "total": 94,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2019/08/23",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sma/symbol.png",
+      "logo": "https://images.pokemontcg.io/sma/logo.png"
+    }
+  },
+  "number": "SV5",
+  "artist": "Mizue",
+  "rarity": "Rare Shiny",
+  "flavorText": "One of the Ultra Beasts. It refuses to touch anything, perhaps because it senses some uncleanness in this world.",
+  "nationalPokedexNumbers": [
+    795
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sma/SV5.png",
+    "large": "https://images.pokemontcg.io/sma/SV5_hires.png"
+  }
+}

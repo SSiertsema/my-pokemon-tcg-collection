@@ -1,0 +1,83 @@
+{
+  "id": "svp-73",
+  "name": "Iron Treads ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "ex",
+    "Future"
+  ],
+  "hp": "220",
+  "types": [
+    "Metal"
+  ],
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Iron-Clad Roll",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "150",
+      "text": "After doing damage, you may discard all Future Booster Energy Capsules from this Pokémon. If you do, during your opponent's next turn, this Pokémon takes 150 less damage from attacks (after applying Weakness and Resistance)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Grass",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "svp",
+    "name": "Scarlet & Violet Black Star Promos",
+    "series": "Scarlet & Violet",
+    "printedTotal": 215,
+    "total": 196,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SV",
+    "releaseDate": "2023/01/01",
+    "updatedAt": "2024/11/09 13:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+      "logo": "https://images.pokemontcg.io/svp/logo.png"
+    }
+  },
+  "number": "73",
+  "artist": "5ban Graphics",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    990
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/svp/73.png",
+    "large": "https://images.pokemontcg.io/svp/73_hires.png"
+  }
+}

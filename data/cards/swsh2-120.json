@@ -1,0 +1,85 @@
+{
+  "id": "swsh2-120",
+  "name": "Mandibuzz",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "120",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Vullaby",
+  "attacks": [
+    {
+      "name": "Bone Rush",
+      "cost": [
+        "Darkness"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30×",
+      "text": "Flip a coin until you get tails. This attack does 30 damage for each heads."
+    },
+    {
+      "name": "Blindside",
+      "cost": [
+        "Darkness",
+        "Darkness"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "This attack does 100 damage to 1 of your opponent's Pokémon that has any damage counters on it. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh2",
+    "name": "Rebel Clash",
+    "series": "Sword & Shield",
+    "printedTotal": 192,
+    "total": 209,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "RCL",
+    "releaseDate": "2020/05/01",
+    "updatedAt": "2020/09/25 10:09:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh2/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh2/logo.png"
+    }
+  },
+  "number": "120",
+  "artist": "kodama",
+  "rarity": "Rare",
+  "flavorText": "Although it's a bit of a ruffian, this Pokémon will take lost Vullaby under its wing and care for them till they're ready to leave the nest.",
+  "nationalPokedexNumbers": [
+    630
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh2/120.png",
+    "large": "https://images.pokemontcg.io/swsh2/120_hires.png"
+  }
+}

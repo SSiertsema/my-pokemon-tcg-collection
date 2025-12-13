@@ -1,0 +1,80 @@
+{
+  "id": "hgss3-82",
+  "name": "Houndoom",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Prime"
+  ],
+  "hp": "110",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Houndour",
+  "abilities": [
+    {
+      "name": "Fire Breath",
+      "text": "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Burned. This power can't be used if Houndoom is affected by a Special Condition.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Dark Clamp",
+      "cost": [
+        "Darkness",
+        "Darkness",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "hgss3",
+    "name": "HS—Undaunted",
+    "series": "HeartGold & SoulSilver",
+    "printedTotal": 90,
+    "total": 91,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "UD",
+    "releaseDate": "2010/08/18",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/hgss3/symbol.png",
+      "logo": "https://images.pokemontcg.io/hgss3/logo.png"
+    }
+  },
+  "number": "82",
+  "artist": "Hideaki Hakozaki",
+  "rarity": "Rare Prime",
+  "nationalPokedexNumbers": [
+    229
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/hgss3/82.png",
+    "large": "https://images.pokemontcg.io/hgss3/82_hires.png"
+  }
+}

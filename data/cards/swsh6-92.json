@@ -1,0 +1,81 @@
+{
+  "id": "swsh6-92",
+  "name": "Grapploct",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "140",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Clobbopus",
+  "abilities": [
+    {
+      "name": "Stranglehold Master",
+      "text": "As long as this Pokémon is in the Active Spot, your opponent's Active Pokémon's Retreat Cost is ColorlessColorless more.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Synchro Buster",
+      "cost": [
+        "Fighting",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80+",
+      "text": "If you have the same number of cards in your hand as your opponent, this attack does 80 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "92",
+  "artist": "Anesaki Dynamic",
+  "rarity": "Rare Holo",
+  "flavorText": "Searching for an opponent to test its skills against, it emerges onto land. Once the battle is over, it returns to the sea.",
+  "nationalPokedexNumbers": [
+    853
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/92.png",
+    "large": "https://images.pokemontcg.io/swsh6/92_hires.png"
+  }
+}

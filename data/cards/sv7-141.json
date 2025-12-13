@@ -1,0 +1,43 @@
+{
+  "id": "sv7-141",
+  "name": "Payapa Berry",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Pokémon Tool"
+  ],
+  "rules": [
+    "If the Pokémon this card is attached to is damaged by an attack from your opponent's Psychic Pokémon, it takes 60 less damage (after applying Weakness and Resistance), and discard this card.",
+    "You may attach any number of Pokémon Tools to your Pokémon during your turn. You may attach only 1 Pokémon Tool to each Pokémon, and it stays attached."
+  ],
+  "set": {
+    "id": "sv7",
+    "name": "Stellar Crown",
+    "series": "Scarlet & Violet",
+    "printedTotal": 142,
+    "total": 175,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SCR",
+    "releaseDate": "2024/09/13",
+    "updatedAt": "2024/09/13 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv7/logo.png"
+    }
+  },
+  "number": "141",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv7/141.png",
+    "large": "https://images.pokemontcg.io/sv7/141_hires.png"
+  }
+}

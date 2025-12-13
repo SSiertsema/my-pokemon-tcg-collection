@@ -1,0 +1,76 @@
+{
+  "id": "ex8-53",
+  "name": "Baltoy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "50",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Claydol"
+  ],
+  "attacks": [
+    {
+      "name": "Spinning Attack",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    },
+    {
+      "name": "Selfdestruct",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "Does 10 damage to each Benched Pokémon (both yours and your opponent's). (Don't apply Weakness and Resistance for Benched Pokémon.) Baltoy does 50 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex8",
+    "name": "Deoxys",
+    "series": "EX",
+    "printedTotal": 107,
+    "total": 108,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DX",
+    "releaseDate": "2005/02/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex8/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex8/logo.png"
+    }
+  },
+  "number": "53",
+  "artist": "Kenkichi Toyama",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    343
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex8/53.png",
+    "large": "https://images.pokemontcg.io/ex8/53_hires.png"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "id": "sm115-43",
+  "name": "Mr. Mime",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "90",
+  "types": [
+    "Fairy"
+  ],
+  "attacks": [
+    {
+      "name": "Happy Mime",
+      "cost": [
+        "Fairy"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Each player draws a card."
+    },
+    {
+      "name": "Double Slap",
+      "cost": [
+        "Fairy",
+        "Fairy"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40×",
+      "text": "Flip 2 coins. This attack does 40 damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Darkness",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm115",
+    "name": "Hidden Fates",
+    "series": "Sun & Moon",
+    "printedTotal": 68,
+    "total": 69,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "HIF",
+    "releaseDate": "2019/08/23",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm115/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm115/logo.png"
+    }
+  },
+  "number": "43",
+  "artist": "Hideki Ishikawa",
+  "rarity": "Rare",
+  "flavorText": "Its pantomime skills are wonderful. You may become enraptured while watching it, but next thing you know, Mr. Mime has made a real wall.",
+  "nationalPokedexNumbers": [
+    122
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm115/43.png",
+    "large": "https://images.pokemontcg.io/sm115/43_hires.png"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "np-26",
+  "name": "Tropical Wind",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Item"
+  ],
+  "rules": [
+    "Flip a coin. If heads, remove 2 damage counters from each Active Pokémon (remove 1 damage counter if a Pokémon has only 1). If tails, each Active Pokémon is now Asleep."
+  ],
+  "set": {
+    "id": "np",
+    "name": "Nintendo Black Star Promos",
+    "series": "NP",
+    "printedTotal": 40,
+    "total": 40,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PR-NP",
+    "releaseDate": "2003/10/01",
+    "updatedAt": "2020/05/01 16:06:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/np/symbol.png",
+      "logo": "https://images.pokemontcg.io/np/logo.png"
+    }
+  },
+  "number": "26",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Promo",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/np/26.png",
+    "large": "https://images.pokemontcg.io/np/26_hires.png"
+  }
+}

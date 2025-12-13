@@ -1,0 +1,76 @@
+{
+  "id": "sm11-38",
+  "name": "Froslass",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Snorunt",
+  "attacks": [
+    {
+      "name": "Spiteful Sigh",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20×",
+      "text": "Put up to 7 damage counters on this Pokémon. This attack does 20 damage for each damage counter you placed in this way."
+    },
+    {
+      "name": "Icy Wind",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": "Your opponent's Active Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm11",
+    "name": "Unified Minds",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 260,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UNM",
+    "releaseDate": "2019/08/02",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm11/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm11/logo.png"
+    }
+  },
+  "number": "38",
+  "artist": "Mizue",
+  "rarity": "Rare Holo",
+  "flavorText": "It freezes hikers who have come to climb snowy mountains and carries them back to its home. It only goes after men it thinks are handsome.",
+  "nationalPokedexNumbers": [
+    478
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm11/38.png",
+    "large": "https://images.pokemontcg.io/sm11/38_hires.png"
+  }
+}

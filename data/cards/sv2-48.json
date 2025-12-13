@@ -1,0 +1,79 @@
+{
+  "id": "sv2-48",
+  "name": "Eiscue",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "110",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Water"
+      ],
+      "name": "Headbutt",
+      "damage": "20",
+      "text": "",
+      "convertedEnergyCost": 1
+    },
+    {
+      "cost": [
+        "Water",
+        "Water",
+        "Water"
+      ],
+      "name": "Frigid Block",
+      "damage": "100",
+      "text": "Discard all Energy from this Pokémon. During your opponent's next turn, this Pokémon takes 100 less damage from attacks (after applying Weakness and Resistance).",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    }
+  },
+  "number": "48",
+  "artist": "kawayoo",
+  "rarity": "Uncommon",
+  "flavorText": "On hot days, these Pokémon press their ice cube heads together and pass the time cooling each other down.",
+  "nationalPokedexNumbers": [
+    875
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv2/48.png",
+    "large": "https://images.pokemontcg.io/sv2/48_hires.png"
+  }
+}

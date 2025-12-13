@@ -1,0 +1,79 @@
+{
+  "id": "ex12-25",
+  "name": "Solrock",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "abilities": [
+    {
+      "name": "Luna Shade",
+      "text": "As long as you have Lunatone in play, each player's Colorless Pokémon (excluding Pokémon-ex) can't use any Poké-Powers.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Call for Family",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Lunatone and put it onto your Bench. Shuffle your deck afterward."
+    },
+    {
+      "name": "Hyper Beam",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, discard an Energy card attached to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex12",
+    "name": "Legend Maker",
+    "series": "EX",
+    "printedTotal": 92,
+    "total": 93,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LM",
+    "releaseDate": "2006/02/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex12/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex12/logo.png"
+    }
+  },
+  "number": "25",
+  "artist": "Hisao Nakamura",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    338
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex12/25.png",
+    "large": "https://images.pokemontcg.io/ex12/25_hires.png"
+  }
+}

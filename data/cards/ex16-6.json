@@ -1,0 +1,77 @@
+{
+  "id": "ex16-6",
+  "name": "Charizard",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "120",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Charmeleon",
+  "attacks": [
+    {
+      "name": "Combustion",
+      "cost": [
+        "Fire"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Bursting Inferno",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "50",
+      "text": "Each Defending Pokémon is now Burned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "ex16",
+    "name": "Power Keepers",
+    "series": "EX",
+    "printedTotal": 108,
+    "total": 108,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "PK",
+    "releaseDate": "2007/02/02",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex16/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex16/logo.png"
+    }
+  },
+  "number": "6",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    6
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex16/6.png",
+    "large": "https://images.pokemontcg.io/ex16/6_hires.png"
+  }
+}

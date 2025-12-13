@@ -1,0 +1,82 @@
+{
+  "id": "swsh8-204",
+  "name": "Kangaskhan",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Rapid Strike"
+  ],
+  "hp": "120",
+  "types": [
+    "Colorless"
+  ],
+  "attacks": [
+    {
+      "name": "Pound",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": ""
+    },
+    {
+      "name": "Coordinated One-Two Punch",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "Flip a coin. If heads, this attack does 100 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh8",
+    "name": "Fusion Strike",
+    "series": "Sword & Shield",
+    "printedTotal": 264,
+    "total": 284,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "FST",
+    "releaseDate": "2021/11/12",
+    "updatedAt": "2021/11/12 07:32:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+    }
+  },
+  "number": "204",
+  "artist": "Souichirou Gunjima",
+  "rarity": "Rare",
+  "flavorText": "You shouldn't get close to the child when it's playing outside its mother's pouch. Its mother is always nearby watching over it.",
+  "nationalPokedexNumbers": [
+    115
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh8/204.png",
+    "large": "https://images.pokemontcg.io/swsh8/204_hires.png"
+  }
+}

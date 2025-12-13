@@ -13,5 +13,19 @@
   "images": {
     "symbol": "https://images.pokemontcg.io/mcd15/symbol.png",
     "logo": "https://images.pokemontcg.io/mcd15/logo.png"
-  }
+  },
+  "cards": [
+    "mcd15-1",
+    "mcd15-2",
+    "mcd15-6",
+    "mcd15-11",
+    "mcd15-3",
+    "mcd15-9",
+    "mcd15-10",
+    "mcd15-5",
+    "mcd15-8",
+    "mcd15-4",
+    "mcd15-7",
+    "mcd15-12"
+  ]
 }

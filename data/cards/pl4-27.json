@@ -1,0 +1,83 @@
+{
+  "id": "pl4-27",
+  "name": "Raichu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "46",
+  "hp": "90",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Pikachu",
+  "attacks": [
+    {
+      "name": "Boosted Voltage",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "If Raichu has a Pokémon Tool card attached to it, this attack does 20 damage to each of your opponent's Benched Pokémon that isn't an Evolved Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    },
+    {
+      "name": "Thunder Blast",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "Discard a Lightning Energy card attached to Raichu."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Metal",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pl4",
+    "name": "Arceus",
+    "series": "Platinum",
+    "printedTotal": 99,
+    "total": 111,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "AR",
+    "releaseDate": "2009/11/04",
+    "updatedAt": "2021/07/15 11:30:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pl4/symbol.png",
+      "logo": "https://images.pokemontcg.io/pl4/logo.png"
+    }
+  },
+  "number": "27",
+  "artist": "Suwama Chiaki",
+  "rarity": "Rare",
+  "flavorText": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+  "nationalPokedexNumbers": [
+    26
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/pl4/27.png",
+    "large": "https://images.pokemontcg.io/pl4/27_hires.png"
+  }
+}

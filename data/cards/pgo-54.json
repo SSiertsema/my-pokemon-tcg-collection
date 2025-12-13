@@ -1,0 +1,89 @@
+{
+  "id": "pgo-54",
+  "name": "Eevee",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Vaporeon",
+    "Jolteon",
+    "Flareon",
+    "Sylveon",
+    "Espeon",
+    "Umbreon",
+    "Leafeon",
+    "Glaceon"
+  ],
+  "attacks": [
+    {
+      "name": "Whiny Voice",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into their deck."
+    },
+    {
+      "name": "Tackle",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "pgo",
+    "name": "Pokémon GO",
+    "series": "Sword & Shield",
+    "printedTotal": 78,
+    "total": 88,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PGO",
+    "releaseDate": "2022/07/01",
+    "updatedAt": "2022/07/06 17:07:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/pgo/symbol.png",
+      "logo": "https://images.pokemontcg.io/pgo/logo.png"
+    }
+  },
+  "number": "54",
+  "artist": "N-DESIGN Inc.",
+  "rarity": "Common",
+  "flavorText": "It has the ability to alter the composition of its body to suit its surrounding environment.",
+  "nationalPokedexNumbers": [
+    133
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/pgo/54.png",
+    "large": "https://images.pokemontcg.io/pgo/54_hires.png"
+  }
+}

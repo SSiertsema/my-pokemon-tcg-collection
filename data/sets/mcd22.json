@@ -14,5 +14,22 @@
   "images": {
     "symbol": "https://images.pokemontcg.io/mcd22/symbol.png",
     "logo": "https://images.pokemontcg.io/mcd22/logo.png"
-  }
+  },
+  "cards": [
+    "mcd22-1",
+    "mcd22-2",
+    "mcd22-3",
+    "mcd22-4",
+    "mcd22-5",
+    "mcd22-6",
+    "mcd22-7",
+    "mcd22-8",
+    "mcd22-9",
+    "mcd22-10",
+    "mcd22-11",
+    "mcd22-12",
+    "mcd22-13",
+    "mcd22-14",
+    "mcd22-15"
+  ]
 }

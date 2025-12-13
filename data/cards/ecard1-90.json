@@ -1,0 +1,67 @@
+{
+  "id": "ecard1-90",
+  "name": "Pupitar",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Larvitar",
+  "evolvesTo": [
+    "Tyranitar"
+  ],
+  "attacks": [
+    {
+      "name": "Headbutt",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ecard1",
+    "name": "Expedition Base Set",
+    "series": "E-Card",
+    "printedTotal": 165,
+    "total": 165,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "EX",
+    "releaseDate": "2002/09/15",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard1/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard1/logo.png"
+    }
+  },
+  "number": "90",
+  "artist": "Yukiko Baba",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    247
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard1/90.png",
+    "large": "https://images.pokemontcg.io/ecard1/90_hires.png"
+  }
+}

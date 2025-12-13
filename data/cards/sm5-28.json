@@ -1,0 +1,67 @@
+{
+  "id": "sm5-28",
+  "name": "Alolan Sandshrew",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Sandslash"
+  ],
+  "attacks": [
+    {
+      "name": "Fury Swipes",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "10×",
+      "text": "Flip 3 coins. This attack does 10 damage for each heads."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm5",
+    "name": "Ultra Prism",
+    "series": "Sun & Moon",
+    "printedTotal": 156,
+    "total": 178,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "UPR",
+    "releaseDate": "2018/02/02",
+    "updatedAt": "2019/02/19 23:25:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm5/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm5/logo.png"
+    }
+  },
+  "number": "28",
+  "artist": "Shin Nagasawa",
+  "rarity": "Common",
+  "flavorText": "An ancient tradition of Alolan festivals, still carried on to this day, is a competition to slide Sandshrew across ice as far as one can.",
+  "nationalPokedexNumbers": [
+    27
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm5/28.png",
+    "large": "https://images.pokemontcg.io/sm5/28_hires.png"
+  }
+}

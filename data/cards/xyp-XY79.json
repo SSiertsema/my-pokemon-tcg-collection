@@ -1,0 +1,78 @@
+{
+  "id": "xyp-XY79",
+  "name": "Latios",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "100",
+  "types": [
+    "Dragon"
+  ],
+  "attacks": [
+    {
+      "name": "Glide",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Sky Blade",
+      "cost": [
+        "Water",
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "70+",
+      "text": "If Latias is on your Bench, this attack does 50 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fairy",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY79",
+  "artist": "Naoki Saito",
+  "rarity": "Promo",
+  "flavorText": "It understands human speech and is highly intelligent. It is a tender Pokémon that dislikes fighting.",
+  "nationalPokedexNumbers": [
+    381
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY79.png",
+    "large": "https://images.pokemontcg.io/xyp/XY79_hires.png"
+  }
+}

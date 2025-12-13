@@ -1,0 +1,74 @@
+{
+  "id": "bw6-91",
+  "name": "Garchomp",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Gabite",
+  "attacks": [
+    {
+      "name": "Jet Headbutt",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": ""
+    },
+    {
+      "name": "Sand Tomb",
+      "cost": [
+        "Water",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80",
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Dragon",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "bw6",
+    "name": "Dragons Exalted",
+    "series": "Black & White",
+    "printedTotal": 124,
+    "total": 128,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRX",
+    "releaseDate": "2012/08/15",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw6/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw6/logo.png"
+    }
+  },
+  "number": "91",
+  "artist": "Naoki Saito",
+  "rarity": "Rare",
+  "flavorText": "It is said that when one runs at high speed, its wings create blades of wind that can fell nearby trees.",
+  "nationalPokedexNumbers": [
+    445
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw6/91.png",
+    "large": "https://images.pokemontcg.io/bw6/91_hires.png"
+  }
+}

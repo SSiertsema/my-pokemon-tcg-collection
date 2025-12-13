@@ -1,0 +1,44 @@
+{
+  "id": "swsh12pt5-126",
+  "name": "Digging Duo",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "Flip a coin. If heads, look at the bottom 8 cards of your deck and put 1 of them into your hand. If tails, look at the bottom 3 cards of your deck and put 1 of them into your hand. Shuffle the other cards back into your deck.",
+    "You may play only 1 Supporter card during your turn."
+  ],
+  "set": {
+    "id": "swsh12pt5",
+    "name": "Crown Zenith",
+    "series": "Sword & Shield",
+    "printedTotal": 159,
+    "total": 160,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRZ",
+    "releaseDate": "2023/01/20",
+    "updatedAt": "2023/01/19 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+    }
+  },
+  "number": "126",
+  "artist": "Yuu Nishida",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12pt5/126.png",
+    "large": "https://images.pokemontcg.io/swsh12pt5/126_hires.png"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "ex15-48",
+  "name": "Elekid δ",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesTo": [
+    "Electabuzz"
+  ],
+  "abilities": [
+    {
+      "name": "Baby Evolution",
+      "text": "Once during your turn (before your attack), you may put Electabuzz from your hand onto Elekid (this counts as evolving Elekid) and remove all damage counters from Elekid.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Thunder Spear",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon. This attack does 10 damage to that Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex15",
+    "name": "Dragon Frontiers",
+    "series": "EX",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DF",
+    "releaseDate": "2006/11/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex15/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex15/logo.png"
+    }
+  },
+  "number": "48",
+  "artist": "Ken Sugimori",
+  "rarity": "Common",
+  "nationalPokedexNumbers": [
+    239
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex15/48.png",
+    "large": "https://images.pokemontcg.io/ex15/48_hires.png"
+  }
+}

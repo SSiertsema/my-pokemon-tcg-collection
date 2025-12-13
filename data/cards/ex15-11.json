@@ -1,0 +1,80 @@
+{
+  "id": "ex15-11",
+  "name": "Togetic δ",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Togepi",
+  "evolvesTo": [
+    "Togekiss"
+  ],
+  "attacks": [
+    {
+      "name": "Delta Copy",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Choose an attack on 1 of your opponent's Pokémon in play that has δ on its card. Delta Copy copies that attack except for its Energy cost. (You must still do anything else required for that attack.) Togetic performs that attack."
+    },
+    {
+      "name": "Wave Splash",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-30"
+    }
+  ],
+  "set": {
+    "id": "ex15",
+    "name": "Dragon Frontiers",
+    "series": "EX",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DF",
+    "releaseDate": "2006/11/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex15/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex15/logo.png"
+    }
+  },
+  "number": "11",
+  "artist": "Kouki Saitou",
+  "rarity": "Rare Holo",
+  "nationalPokedexNumbers": [
+    176
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex15/11.png",
+    "large": "https://images.pokemontcg.io/ex15/11_hires.png"
+  }
+}

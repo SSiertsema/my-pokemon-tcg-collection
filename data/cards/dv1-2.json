@@ -1,0 +1,78 @@
+{
+  "id": "dv1-2",
+  "name": "Dratini",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesTo": [
+    "Dragonair"
+  ],
+  "attacks": [
+    {
+      "name": "Hypnotic Gaze",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Asleep."
+    },
+    {
+      "name": "Tail Whap",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Dragon",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dv1",
+    "name": "Dragon Vault",
+    "series": "Black & White",
+    "printedTotal": 20,
+    "total": 21,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "DRV",
+    "releaseDate": "2012/10/05",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dv1/symbol.png",
+      "logo": "https://images.pokemontcg.io/dv1/logo.png"
+    }
+  },
+  "number": "2",
+  "artist": "Naoki Saito",
+  "rarity": "Rare Holo",
+  "flavorText": "It is called the \"Mirage Pokémon\" because so few have seen it. Its shed skin has been found.",
+  "nationalPokedexNumbers": [
+    147
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dv1/2.png",
+    "large": "https://images.pokemontcg.io/dv1/2_hires.png"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ex4-76",
+  "name": "Team Aqua Belt",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Pokémon Tool"
+  ],
+  "rules": [
+    "Attach Team Aqua Belt to 1 of your Pokémon with Team Aqua in its name that doesn't already have a Pokémon Tool attached to it. If that Pokémon is Knocked Out, discard this card.",
+    "At any time between turns, if the Pokémon Team Aqua Belt is attached to is your Active Pokémon, search your deck for a card that evolves from that Pokémon and put it on that Pokémon. (This counts as evolving that Pokémon.) Shuffle your deck afterward, then discard Team Aqua Belt."
+  ],
+  "set": {
+    "id": "ex4",
+    "name": "Team Magma vs Team Aqua",
+    "series": "EX",
+    "printedTotal": 95,
+    "total": 97,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MA",
+    "releaseDate": "2004/03/01",
+    "updatedAt": "2019/01/28 16:44:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex4/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex4/logo.png"
+    }
+  },
+  "number": "76",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex4/76.png",
+    "large": "https://images.pokemontcg.io/ex4/76_hires.png"
+  }
+}

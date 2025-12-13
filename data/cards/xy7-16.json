@@ -1,0 +1,71 @@
+{
+  "id": "xy7-16",
+  "name": "Larvesta",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Fire"
+  ],
+  "evolvesTo": [
+    "Volcarona"
+  ],
+  "attacks": [
+    {
+      "name": "Combustion",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy7",
+    "name": "Ancient Origins",
+    "series": "XY",
+    "printedTotal": 98,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "AOR",
+    "releaseDate": "2015/08/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy7/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy7/logo.png"
+    }
+  },
+  "number": "16",
+  "artist": "Satoshi Shirai",
+  "rarity": "Common",
+  "flavorText": "The base of volcanoes is where they make their homes. They shoot fire from their five horns to repel attacking enemies.",
+  "nationalPokedexNumbers": [
+    636
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy7/16.png",
+    "large": "https://images.pokemontcg.io/xy7/16_hires.png"
+  }
+}

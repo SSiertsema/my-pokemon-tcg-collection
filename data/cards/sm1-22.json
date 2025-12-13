@@ -1,0 +1,82 @@
+{
+  "id": "sm1-22",
+  "name": "Arcanine",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Growlithe",
+  "attacks": [
+    {
+      "name": "Searing Flame",
+      "cost": [
+        "Fire",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "Your opponent's Active Pokémon is now Burned."
+    },
+    {
+      "name": "Firestorm",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "190",
+      "text": "Discard 3 Fire Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm1",
+    "name": "Sun & Moon",
+    "series": "Sun & Moon",
+    "printedTotal": 149,
+    "total": 173,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SUM",
+    "releaseDate": "2017/02/03",
+    "updatedAt": "2019/04/10 19:59:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm1/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm1/logo.png"
+    }
+  },
+  "number": "22",
+  "artist": "kodama",
+  "rarity": "Rare Holo",
+  "flavorText": "Overflowing with beauty and majesty, this strong Pokémon appears in ancient Eastern folklore.",
+  "nationalPokedexNumbers": [
+    59
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm1/22.png",
+    "large": "https://images.pokemontcg.io/sm1/22_hires.png"
+  }
+}

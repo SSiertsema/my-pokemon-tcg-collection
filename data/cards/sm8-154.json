@@ -1,0 +1,66 @@
+{
+  "id": "sm8-154",
+  "name": "Ditto ◇",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "Prism Star"
+  ],
+  "hp": "40",
+  "types": [
+    "Colorless"
+  ],
+  "rules": [
+    "◇ (Prism Star) Rule: You can't have more than 1 ◇ card with the same name in your deck. If a ◇ card would go to the discard pile, put it in the Lost Zone instead."
+  ],
+  "abilities": [
+    {
+      "name": "Almighty Evolution",
+      "text": "Once during your turn (before your attack), you may put any Stage 1 card from your hand onto this Pokémon to evolve it. You can't use this Ability during your first turn or the turn this Pokémon was put into play.",
+      "type": "Ability"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "154",
+  "artist": "kirisAki",
+  "rarity": "Rare Prism Star",
+  "flavorText": "With its astonishing capacity for metamorphosis, it can get along with anything. It does not get along well with its fellow Ditto.",
+  "nationalPokedexNumbers": [
+    132
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/154.png",
+    "large": "https://images.pokemontcg.io/sm8/154_hires.png"
+  }
+}

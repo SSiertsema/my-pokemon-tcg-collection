@@ -1,0 +1,75 @@
+{
+  "id": "sv9-23",
+  "name": "Combusken",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Torchic",
+  "evolvesTo": [
+    "Blaziken"
+  ],
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv9",
+    "name": "Journey Together",
+    "series": "Scarlet & Violet",
+    "printedTotal": 159,
+    "total": 190,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "JTG",
+    "releaseDate": "2025/03/28",
+    "updatedAt": "2025/03/27 16:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv9/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv9/logo.png"
+    }
+  },
+  "number": "23",
+  "artist": "Fujimoto Gold",
+  "rarity": "Uncommon",
+  "flavorText": "When it enters battle, the flame inside its body burns stronger. Its kicks have outstanding destructive power.",
+  "nationalPokedexNumbers": [
+    256
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv9/23.png",
+    "large": "https://images.pokemontcg.io/sv9/23_hires.png"
+  }
+}

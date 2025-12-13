@@ -1,0 +1,93 @@
+{
+  "id": "ex15-99",
+  "name": "Tyranitar ex δ",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "ex"
+  ],
+  "hp": "150",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesFrom": "Pupitar",
+  "rules": [
+    "When Pokémon-ex has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Electromark",
+      "cost": [
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "Put a Shock-wave marker on 1 of your opponent's Pokémon."
+    },
+    {
+      "name": "Hyper Claws",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70+",
+      "text": "If the Defending Pokémon is a Stage 2 Evolved Pokémon, this attack does 70 damage plus 20 more damage."
+    },
+    {
+      "name": "Shock-wave",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Choose 1 of your opponent's Pokémon that has any Shock-wave markers on it. That Pokémon is Knocked Out."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "ex15",
+    "name": "Dragon Frontiers",
+    "series": "EX",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DF",
+    "releaseDate": "2006/11/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex15/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex15/logo.png"
+    }
+  },
+  "number": "99",
+  "artist": "Yusuke Shimada",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    248
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex15/99.png",
+    "large": "https://images.pokemontcg.io/ex15/99_hires.png"
+  }
+}

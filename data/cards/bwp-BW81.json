@@ -1,0 +1,82 @@
+{
+  "id": "bwp-BW81",
+  "name": "Thundurus-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "EX",
+    "Team Plasma"
+  ],
+  "hp": "170",
+  "types": [
+    "Lightning"
+  ],
+  "rules": [
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Raiden Knuckle",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Attach an Energy card from your discard pile to 1 of your Benched Team Plasma Pokémon."
+    },
+    {
+      "name": "Thunderous Noise",
+      "cost": [
+        "Lightning",
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "90",
+      "text": "If this Pokémon has any Plasma Energy attached to it, discard an Energy attached to the Defending Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bwp",
+    "name": "BW Black Star Promos",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-BLW",
+    "releaseDate": "2011/03/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bwp/symbol.png",
+      "logo": "https://images.pokemontcg.io/bwp/logo.png"
+    }
+  },
+  "number": "BW81",
+  "artist": "Eske Yoshinob",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    642
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bwp/BW81.png",
+    "large": "https://images.pokemontcg.io/bwp/BW81_hires.png"
+  }
+}

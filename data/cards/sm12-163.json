@@ -1,0 +1,78 @@
+{
+  "id": "sm12-163",
+  "name": "Kommo-o",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "160",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesFrom": "Hakamo-o",
+  "attacks": [
+    {
+      "name": "Shout of Power",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "60",
+      "text": "Attach a basic Energy card from your discard pile to 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Scaly Uppercut",
+      "cost": [
+        "Lightning",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "90+",
+      "text": "You may discard a Pokémon Tool card from this Pokémon. If you do, this attack does 90 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fairy",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "163",
+  "artist": "hatachu",
+  "rarity": "Rare Holo",
+  "flavorText": "When it howls after finishing off its prey, the metallic sounds of its celebrating comrades can be heard from all around.",
+  "nationalPokedexNumbers": [
+    784
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/163.png",
+    "large": "https://images.pokemontcg.io/sm12/163_hires.png"
+  }
+}

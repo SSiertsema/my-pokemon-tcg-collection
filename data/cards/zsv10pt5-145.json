@@ -1,0 +1,67 @@
+{
+  "id": "zsv10pt5-145",
+  "name": "Axew",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesTo": [
+    "Fraxure"
+  ],
+  "attacks": [
+    {
+      "name": "Gather Strength",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "zsv10pt5",
+    "name": "Black Bolt",
+    "series": "Scarlet & Violet",
+    "printedTotal": 86,
+    "total": 172,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BLK",
+    "releaseDate": "2025/07/18",
+    "updatedAt": "2025/07/17 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/zsv10pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/zsv10pt5/logo.png"
+    }
+  },
+  "number": "145",
+  "artist": "Ayako Ozaki",
+  "rarity": "Illustration Rare",
+  "flavorText": "They use their tusks to crush the berries they eat. Repeated regrowth makes their tusks strong and sharp.",
+  "nationalPokedexNumbers": [
+    610
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "I",
+  "images": {
+    "small": "https://images.pokemontcg.io/zsv10pt5/145.png",
+    "large": "https://images.pokemontcg.io/zsv10pt5/145_hires.png"
+  }
+}

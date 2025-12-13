@@ -1,0 +1,81 @@
+{
+  "id": "sv2-226",
+  "name": "Maushold",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "60",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesFrom": "Tandemaus",
+  "attacks": [
+    {
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "name": "Gentle Slap",
+      "damage": "50",
+      "text": "",
+      "convertedEnergyCost": 2
+    },
+    {
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "name": "Gnaw Relentlessly",
+      "damage": "",
+      "text": "Put 1 damage counter on each of your opponent's Pokémon for each of your Maushold in play.",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    }
+  },
+  "number": "226",
+  "artist": "Mizue",
+  "rarity": "Illustration Rare",
+  "flavorText": "They build huge nests with many rooms that are used for different purposes, such as eating and sleeping.",
+  "nationalPokedexNumbers": [
+    925
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv2/226.png",
+    "large": "https://images.pokemontcg.io/sv2/226_hires.png"
+  }
+}

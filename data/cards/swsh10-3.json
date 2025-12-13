@@ -1,0 +1,75 @@
+{
+  "id": "swsh10-3",
+  "name": "Hisuian Electrode",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "90",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Hisuian Voltorb",
+  "attacks": [
+    {
+      "name": "Triple Draw",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "",
+      "text": "Draw 3 cards."
+    },
+    {
+      "name": "Irritated Bomb",
+      "cost": [],
+      "convertedEnergyCost": 0,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "swsh10",
+    "name": "Astral Radiance",
+    "series": "Sword & Shield",
+    "printedTotal": 189,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "ASR",
+    "releaseDate": "2022/05/27",
+    "updatedAt": "2022/05/27 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh10/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh10/logo.png"
+    }
+  },
+  "number": "3",
+  "artist": "Akira Komayama",
+  "rarity": "Uncommon",
+  "flavorText": "The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.",
+  "nationalPokedexNumbers": [
+    101
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh10/3.png",
+    "large": "https://images.pokemontcg.io/swsh10/3_hires.png"
+  }
+}

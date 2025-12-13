@@ -1,0 +1,85 @@
+{
+  "id": "sv8-106",
+  "name": "Flygon ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "Tera",
+    "ex"
+  ],
+  "hp": "310",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Vibrava",
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards.",
+    "Tera: As long as this Pokémon is on your Bench, prevent all damage done to this Pokémon by attacks (both yours and your opponent's)."
+  ],
+  "attacks": [
+    {
+      "name": "Reversing Storm",
+      "cost": [
+        "Fighting"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "130",
+      "text": "You may switch this Pokémon with 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Sonic Peridot",
+      "cost": [
+        "Water",
+        "Fighting",
+        "Metal"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "This attack does 100 damage to each of your opponent's Pokémon ex and Pokémon V. This attack's damage isn't affected by Weakness or Resistance."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sv8",
+    "name": "Surging Sparks",
+    "series": "Scarlet & Violet",
+    "printedTotal": 191,
+    "total": 252,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "SSP",
+    "releaseDate": "2024/11/08",
+    "updatedAt": "2024/11/07 22:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv8/logo.png"
+    }
+  },
+  "number": "106",
+  "rarity": "Double Rare",
+  "nationalPokedexNumbers": [
+    330
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv8/106.png",
+    "large": "https://images.pokemontcg.io/sv8/106_hires.png"
+  }
+}

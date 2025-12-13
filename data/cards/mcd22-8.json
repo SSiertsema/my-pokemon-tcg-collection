@@ -1,0 +1,70 @@
+{
+  "id": "mcd22-8",
+  "name": "Chinchou",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Lanturn"
+  ],
+  "attacks": [
+    {
+      "name": "Electro Ball",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "mcd22",
+    "name": "McDonald's Collection 2022",
+    "series": "Other",
+    "printedTotal": 15,
+    "total": 15,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal",
+      "standard": "Legal"
+    },
+    "releaseDate": "2022/08/03",
+    "updatedAt": "2022/10/09 13:21:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/mcd22/symbol.png",
+      "logo": "https://images.pokemontcg.io/mcd22/logo.png"
+    }
+  },
+  "number": "8",
+  "artist": "sowsow",
+  "flavorText": "On the dark ocean floor, its only means of communication is its constantly flashing lights.",
+  "nationalPokedexNumbers": [
+    170
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/mcd22/8.png",
+    "large": "https://images.pokemontcg.io/mcd22/8_hires.png"
+  }
+}

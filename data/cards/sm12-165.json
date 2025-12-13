@@ -1,0 +1,85 @@
+{
+  "id": "sm12-165",
+  "name": "Mega Lopunny & Jigglypuff-GX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "TAG TEAM",
+    "GX"
+  ],
+  "hp": "240",
+  "types": [
+    "Colorless"
+  ],
+  "evolvesTo": [
+    "Wigglytuff"
+  ],
+  "rules": [
+    "TAG TEAM rule: When your TAG TEAM is Knocked Out, your opponent takes 3 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Jumping Balloon",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60+",
+      "text": "This attack does 60 more damage for each of your opponent's Pokémon-GX and Pokémon-EX in play."
+    },
+    {
+      "name": "Puffy Smashers-GX",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Your opponent's Active Pokémon is now Asleep. If this Pokémon has at least 4 extra Energy attached to it (in addition to this attack's cost), this attack does 200 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.) (You can't use more than 1 GX attack in a game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm12",
+    "name": "Cosmic Eclipse",
+    "series": "Sun & Moon",
+    "printedTotal": 236,
+    "total": 272,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CEC",
+    "releaseDate": "2019/11/01",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm12/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm12/logo.png"
+    }
+  },
+  "number": "165",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Rare Holo GX",
+  "nationalPokedexNumbers": [
+    39,
+    428
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm12/165.png",
+    "large": "https://images.pokemontcg.io/sm12/165_hires.png"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "mcd22-7",
+  "name": "Pikachu",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Lightning"
+  ],
+  "evolvesTo": [
+    "Raichu"
+  ],
+  "attacks": [
+    {
+      "name": "Energize",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Attach a Lightning Energy card from your discard pile to this Pokémon."
+    },
+    {
+      "name": "Electro Ball",
+      "cost": [
+        "Lightning",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "30",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "mcd22",
+    "name": "McDonald's Collection 2022",
+    "series": "Other",
+    "printedTotal": 15,
+    "total": 15,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal",
+      "standard": "Legal"
+    },
+    "releaseDate": "2022/08/03",
+    "updatedAt": "2022/10/09 13:21:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/mcd22/symbol.png",
+      "logo": "https://images.pokemontcg.io/mcd22/logo.png"
+    }
+  },
+  "number": "7",
+  "artist": "chibi",
+  "flavorText": "When Pikachu meet, they'll touch their tails together and exchange electricity through them as a form of greeting.",
+  "nationalPokedexNumbers": [
+    25
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/mcd22/7.png",
+    "large": "https://images.pokemontcg.io/mcd22/7_hires.png"
+  }
+}

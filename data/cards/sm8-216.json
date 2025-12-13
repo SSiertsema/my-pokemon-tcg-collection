@@ -1,0 +1,89 @@
+{
+  "id": "sm8-216",
+  "name": "Sceptile-GX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2",
+    "GX"
+  ],
+  "hp": "230",
+  "types": [
+    "Grass"
+  ],
+  "evolvesFrom": "Grovyle",
+  "rules": [
+    "Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Mach Cut",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "60",
+      "text": "Discard a Special Energy from your opponent's Active Pokémon."
+    },
+    {
+      "name": "Leaf Cyclone",
+      "cost": [
+        "Grass",
+        "Grass"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "130",
+      "text": "Move a Grass Energy from this Pokémon to 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Jungle Heal-GX",
+      "cost": [
+        "Grass"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Heal all damage from each of your Pokémon that has any Grass Energy attached to it. (You can't use more than 1 GX attack in a game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "sm8",
+    "name": "Lost Thunder",
+    "series": "Sun & Moon",
+    "printedTotal": 214,
+    "total": 240,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "LOT",
+    "releaseDate": "2018/11/02",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm8/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm8/logo.png"
+    }
+  },
+  "number": "216",
+  "artist": "Yoshinobu Saito",
+  "rarity": "Rare Rainbow",
+  "nationalPokedexNumbers": [
+    254
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm8/216.png",
+    "large": "https://images.pokemontcg.io/sm8/216_hires.png"
+  }
+}

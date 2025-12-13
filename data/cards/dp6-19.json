@@ -1,0 +1,72 @@
+{
+  "id": "dp6-19",
+  "name": "Azelf",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "55",
+  "hp": "70",
+  "types": [
+    "Psychic"
+  ],
+  "abilities": [
+    {
+      "name": "Time Walk",
+      "text": "Once during your turn, when you put Azelf from your hand onto your Bench, you may look at all of your face-down Prize cards. If you do, you may choose 1 Pokémon you find there, show it to your opponent, and put it into your hand. Then, choose 1 card in your hand and put it as a Prize card face down.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Lock Up",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "The Defending Pokémon can't retreat during your opponent's next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "+20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp6",
+    "name": "Legends Awakened",
+    "series": "Diamond & Pearl",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LA",
+    "releaseDate": "2008/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp6/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp6/logo.png"
+    }
+  },
+  "number": "19",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare",
+  "flavorText": "Known as \"The Being of Willpower.\" It sleeps at the bottom of a lake to keep the world in balance.",
+  "nationalPokedexNumbers": [
+    482
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp6/19.png",
+    "large": "https://images.pokemontcg.io/dp6/19_hires.png"
+  }
+}

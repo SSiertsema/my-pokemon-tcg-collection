@@ -1,0 +1,86 @@
+{
+  "id": "sm115-14",
+  "name": "Starmie-GX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "GX"
+  ],
+  "hp": "190",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Staryu",
+  "rules": [
+    "Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Star Stream",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": "Attach 2 Water Energy cards from your discard pile to 1 of your Pokémon."
+    },
+    {
+      "name": "Spinning Attack",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "100",
+      "text": ""
+    },
+    {
+      "name": "Hydro Pump-GX",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40+",
+      "text": "This attack does 40 more damage times the amount of Water Energy attached to this Pokémon. (You can't use more than 1 GX attack in a game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "sm115",
+    "name": "Hidden Fates",
+    "series": "Sun & Moon",
+    "printedTotal": 68,
+    "total": 69,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "HIF",
+    "releaseDate": "2019/08/23",
+    "updatedAt": "2021/09/01 05:37:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm115/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm115/logo.png"
+    }
+  },
+  "number": "14",
+  "artist": "PLANETA Otani",
+  "rarity": "Rare Holo GX",
+  "nationalPokedexNumbers": [
+    121
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm115/14.png",
+    "large": "https://images.pokemontcg.io/sm115/14_hires.png"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "swsh9tg-TG03",
+  "name": "Octillery",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "Rapid Strike"
+  ],
+  "hp": "110",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Remoraid",
+  "abilities": [
+    {
+      "name": "Rapid Strike Search",
+      "text": "Once during your turn, you may search your deck for a Rapid Strike card, reveal it, and put it into your hand. Then, shuffle your deck. You can't use more than 1 Rapid Strike Search Ability each turn.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Waterfall",
+      "cost": [
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh9tg",
+    "name": "Brilliant Stars Trainer Gallery",
+    "series": "Sword & Shield",
+    "printedTotal": 30,
+    "total": 30,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BRS",
+    "releaseDate": "2022/02/25",
+    "updatedAt": "2022/02/23 09:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh9tg/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh9tg/logo.png"
+    }
+  },
+  "number": "TG03",
+  "artist": "Shinya Komatsu",
+  "rarity": "Trainer Gallery Rare Holo",
+  "flavorText": "It traps enemies with its suction-cupped tentacles, then smashes them with its rock-hard head.",
+  "nationalPokedexNumbers": [
+    224
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh9tg/TG03.png",
+    "large": "https://images.pokemontcg.io/swsh9tg/TG03_hires.png"
+  }
+}

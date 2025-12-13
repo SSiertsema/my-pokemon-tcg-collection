@@ -1,0 +1,75 @@
+{
+  "id": "bw8-12",
+  "name": "Foongus",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "40",
+  "types": [
+    "Grass"
+  ],
+  "evolvesTo": [
+    "Amoonguss"
+  ],
+  "attacks": [
+    {
+      "name": "Astonish",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Flip a coin. If heads, choose a random card from your opponent's hand. Your opponent reveals that card and shuffles it into his or her deck."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Water",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw8",
+    "name": "Plasma Storm",
+    "series": "Black & White",
+    "printedTotal": 135,
+    "total": 138,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLS",
+    "releaseDate": "2013/02/06",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw8/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw8/logo.png"
+    }
+  },
+  "number": "12",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Common",
+  "flavorText": "It lures Pokémon with its pattern that looks just like a Poké Ball then releases poison spores.",
+  "nationalPokedexNumbers": [
+    590
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw8/12.png",
+    "large": "https://images.pokemontcg.io/bw8/12_hires.png"
+  }
+}

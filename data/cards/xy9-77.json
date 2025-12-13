@@ -1,0 +1,79 @@
+{
+  "id": "xy9-77",
+  "name": "M Scizor-EX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "MEGA",
+    "EX"
+  ],
+  "hp": "220",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Scizor-EX",
+  "rules": [
+    "Mega Evolution rule: When 1 of your Pokémon becomes a Mega Evolution Pokémon, your turn ends.",
+    "Pokémon-EX rule: When a Pokémon-EX has been Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Iron Crusher",
+      "cost": [
+        "Metal",
+        "Metal"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "120",
+      "text": "You may discard a Special Energy attached to your opponent's Active Pokémon or a Stadium card in play."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "xy9",
+    "name": "BREAKpoint",
+    "series": "XY",
+    "printedTotal": 122,
+    "total": 126,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "BKP",
+    "releaseDate": "2016/02/03",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xy9/symbol.png",
+      "logo": "https://images.pokemontcg.io/xy9/logo.png"
+    }
+  },
+  "number": "77",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo EX",
+  "nationalPokedexNumbers": [
+    212
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xy9/77.png",
+    "large": "https://images.pokemontcg.io/xy9/77_hires.png"
+  }
+}

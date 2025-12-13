@@ -1,0 +1,79 @@
+{
+  "id": "dp2-29",
+  "name": "Mantine",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "25",
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "abilities": [
+    {
+      "name": "Jumbo Fin",
+      "text": "If Mantyke is anywhere under Mantine, the Retreat Cost for each of your Water Pokémon is ColorlessColorless less.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Giant Wave",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "50",
+      "text": "Mantine can't use Giant Wave during your next turn."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "+20"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "29",
+  "artist": "Masakazu Fukuda",
+  "rarity": "Rare",
+  "flavorText": "When the waves are calm, one may encounter a swarm of Mantine swimming as if they are in flight.",
+  "nationalPokedexNumbers": [
+    226
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/29.png",
+    "large": "https://images.pokemontcg.io/dp2/29_hires.png"
+  }
+}

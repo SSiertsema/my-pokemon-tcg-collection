@@ -1,0 +1,83 @@
+{
+  "id": "dp2-21",
+  "name": "Bastiodon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "level": "51",
+  "hp": "130",
+  "types": [
+    "Metal"
+  ],
+  "evolvesFrom": "Shieldon",
+  "abilities": [
+    {
+      "name": "Protective Wall",
+      "text": "Prevent all damage done to your Benched Pokémon by your opponent's attacks.",
+      "type": "Poké-Body"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Anger Revenge",
+      "cost": [
+        "Metal",
+        "Metal",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "60",
+      "text": "If Bastiodon was damaged by an attack during your opponent's last turn, this attack does 40 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fire",
+      "value": "+40"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Psychic",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dp2",
+    "name": "Mysterious Treasures",
+    "series": "Diamond & Pearl",
+    "printedTotal": 123,
+    "total": 124,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "MT",
+    "releaseDate": "2007/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp2/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp2/logo.png"
+    }
+  },
+  "number": "21",
+  "artist": "Kazuyuki Kano",
+  "rarity": "Rare",
+  "flavorText": "Any frontal attack is repulsed. It is a docile Pokémon that feeds on grass and berries.",
+  "nationalPokedexNumbers": [
+    411
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp2/21.png",
+    "large": "https://images.pokemontcg.io/dp2/21_hires.png"
+  }
+}

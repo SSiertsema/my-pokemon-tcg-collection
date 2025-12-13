@@ -1,0 +1,78 @@
+{
+  "id": "swshp-SWSH147",
+  "name": "Rayquaza V",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "V",
+    "Rapid Strike"
+  ],
+  "hp": "210",
+  "types": [
+    "Dragon"
+  ],
+  "rules": [
+    "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Dragon Pulse",
+      "cost": [
+        "Lightning"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "40",
+      "text": "Discard the top 2 cards of your deck."
+    },
+    {
+      "name": "Spiral Burst",
+      "cost": [
+        "Fire",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20+",
+      "text": "You may discard up to 2 basic Fire Energy or up to 2 basic Lightning Energy from this Pokémon. This attack does 80 more damage for each card you discarded in this way."
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH147",
+  "artist": "PLANETA Mochizuki",
+  "rarity": "Promo",
+  "nationalPokedexNumbers": [
+    384
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH147.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH147_hires.png"
+  }
+}

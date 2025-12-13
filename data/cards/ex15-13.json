@@ -1,0 +1,75 @@
+{
+  "id": "ex15-13",
+  "name": "Arbok δ",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Ekans",
+  "attacks": [
+    {
+      "name": "Burning Venom",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "The Defending Pokémon is now Burned and Poisoned."
+    },
+    {
+      "name": "Strangle",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50+",
+      "text": "If the Defending Pokémon has δ on its card, this attack does 50 damage plus 30 more damage."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex15",
+    "name": "Dragon Frontiers",
+    "series": "EX",
+    "printedTotal": 101,
+    "total": 101,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DF",
+    "releaseDate": "2006/11/01",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex15/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex15/logo.png"
+    }
+  },
+  "number": "13",
+  "artist": "Hisao Nakamura",
+  "rarity": "Rare",
+  "nationalPokedexNumbers": [
+    24
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex15/13.png",
+    "large": "https://images.pokemontcg.io/ex15/13_hires.png"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ex3-36",
+  "name": "Marshtomp",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "80",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Mudkip",
+  "evolvesTo": [
+    "Swampert"
+  ],
+  "attacks": [
+    {
+      "name": "Mud Splash",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": "Does 10 damage to 1 of your opponent's Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "ex3",
+    "name": "Dragon",
+    "series": "EX",
+    "printedTotal": 97,
+    "total": 100,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "DR",
+    "releaseDate": "2003/11/24",
+    "updatedAt": "2023/02/16 05:47:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ex3/symbol.png",
+      "logo": "https://images.pokemontcg.io/ex3/logo.png"
+    }
+  },
+  "number": "36",
+  "artist": "Atsuko Nishida",
+  "rarity": "Uncommon",
+  "nationalPokedexNumbers": [
+    259
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ex3/36.png",
+    "large": "https://images.pokemontcg.io/ex3/36_hires.png"
+  }
+}

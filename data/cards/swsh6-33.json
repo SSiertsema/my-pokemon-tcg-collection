@@ -1,0 +1,73 @@
+{
+  "id": "swsh6-33",
+  "name": "Castform Rainy Form",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "abilities": [
+    {
+      "name": "Weather Reading",
+      "text": "If you have 8 or more Stadium cards in your discard pile, ignore all Energy in this Pokémon's attack costs.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Rainfall",
+      "cost": [
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "",
+      "text": "This attack does 20 damage to each of your opponent's Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "swsh6",
+    "name": "Chilling Reign",
+    "series": "Sword & Shield",
+    "printedTotal": 198,
+    "total": 233,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRE",
+    "releaseDate": "2021/06/18",
+    "updatedAt": "2021/06/18 12:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+    }
+  },
+  "number": "33",
+  "artist": "sowsow",
+  "rarity": "Common",
+  "flavorText": "This is Castform's form when pelted by rain. In an experiment where it was placed in a shower, this Pokémon didn't change to this form.",
+  "nationalPokedexNumbers": [
+    351
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "E",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh6/33.png",
+    "large": "https://images.pokemontcg.io/swsh6/33_hires.png"
+  }
+}

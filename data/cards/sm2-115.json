@@ -1,0 +1,90 @@
+{
+  "id": "sm2-115",
+  "name": "Drampa-GX",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "GX"
+  ],
+  "hp": "180",
+  "types": [
+    "Colorless"
+  ],
+  "rules": [
+    "Pokémon-GX rule: When your Pokémon-GX is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Righteous Edge",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "20",
+      "text": "Discard a Special Energy from your opponent's Active Pokémon."
+    },
+    {
+      "name": "Berserk",
+      "cost": [
+        "Colorless",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "80+",
+      "text": "If your Benched Pokémon have any damage counters on them, this attack does 70 more damage."
+    },
+    {
+      "name": "Big Wheel-GX",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Shuffle your hand into your deck. Then, draw 10 cards. (You can't use more than 1 GX attack in a game.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm2",
+    "name": "Guardians Rising",
+    "series": "Sun & Moon",
+    "printedTotal": 145,
+    "total": 180,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "GRI",
+    "releaseDate": "2017/05/05",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm2/logo.png"
+    }
+  },
+  "number": "115",
+  "artist": "5ban Graphics",
+  "rarity": "Rare Holo GX",
+  "nationalPokedexNumbers": [
+    780
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm2/115.png",
+    "large": "https://images.pokemontcg.io/sm2/115_hires.png"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "xyp-XY60",
+  "name": "Gyarados",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "130",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Magikarp",
+  "ancientTrait": {
+    "name": "θ Double",
+    "text": "This Pokémon may have up to 2 Pokémon Tool cards attached to it."
+  },
+  "attacks": [
+    {
+      "name": "Full Retaliation",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "This attack does 30 more damage for each damage counter on each of your Benched Magikarp."
+    },
+    {
+      "name": "Thrash",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "100+",
+      "text": "Flip a coin. If heads, this attack does 30 more damage. If tails, this Pokémon does 30 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY60",
+  "artist": "TOKIYA",
+  "rarity": "Promo",
+  "flavorText": "Rarely seen in the wild. Huge and vicious, it is capable of destroying entire cities in a rage.",
+  "nationalPokedexNumbers": [
+    130
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY60.png",
+    "large": "https://images.pokemontcg.io/xyp/XY60_hires.png"
+  }
+}

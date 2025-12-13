@@ -1,0 +1,39 @@
+{
+  "id": "ecard1-145",
+  "name": "Pokémon Nurse",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Supporter"
+  ],
+  "rules": [
+    "You can play only one Supporter card each turn. When you play this card, put it next to your Active Pokémon. When your turn ends, discard this card.",
+    "Remove all damage counters from 1 of your Pokémon. Then discard all Energy cards attached to it, if any."
+  ],
+  "set": {
+    "id": "ecard1",
+    "name": "Expedition Base Set",
+    "series": "E-Card",
+    "printedTotal": 165,
+    "total": 165,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "EX",
+    "releaseDate": "2002/09/15",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/ecard1/symbol.png",
+      "logo": "https://images.pokemontcg.io/ecard1/logo.png"
+    }
+  },
+  "number": "145",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/ecard1/145.png",
+    "large": "https://images.pokemontcg.io/ecard1/145_hires.png"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "dp6-14",
+  "name": "Rayquaza",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "56",
+  "hp": "100",
+  "types": [
+    "Colorless"
+  ],
+  "abilities": [
+    {
+      "name": "Speed Gain",
+      "text": "Once during your turn (before your attack), you may flip a coin until you get tails. For each heads, search your discard pile for a basic Fire Energy card or a basic Lightning Energy card and attach it to Rayquaza. This power can't be used if Rayquaza is affected by a Special Condition or if you have another Rayquaza in play.",
+      "type": "Poké-Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Sky Judgement",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Lightning",
+        "Lightning"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "150",
+      "text": "Discard all Energy attached to Rayquaza."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Colorless",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Fighting",
+      "value": "-20"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "dp6",
+    "name": "Legends Awakened",
+    "series": "Diamond & Pearl",
+    "printedTotal": 146,
+    "total": 146,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LA",
+    "releaseDate": "2008/08/01",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/dp6/symbol.png",
+      "logo": "https://images.pokemontcg.io/dp6/logo.png"
+    }
+  },
+  "number": "14",
+  "artist": "Kent Kanetsuna",
+  "rarity": "Rare Holo",
+  "flavorText": "It lives in the ozone layer far above the clouds and cannot be seen from the ground.",
+  "nationalPokedexNumbers": [
+    384
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/dp6/14.png",
+    "large": "https://images.pokemontcg.io/dp6/14_hires.png"
+  }
+}

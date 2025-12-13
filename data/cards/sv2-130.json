@@ -1,0 +1,83 @@
+{
+  "id": "sv2-130",
+  "name": "Paldean Clodsire ex",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1",
+    "ex"
+  ],
+  "hp": "280",
+  "types": [
+    "Darkness"
+  ],
+  "evolvesFrom": "Paldean Wooper",
+  "rules": [
+    "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "abilities": [
+    {
+      "type": "Ability",
+      "name": "Toxic Wetland",
+      "text": "Once during your turn, if a Stadium is in play, you may make your opponent's Active Pokémon Poisoned."
+    }
+  ],
+  "attacks": [
+    {
+      "cost": [
+        "Darkness",
+        "Colorless",
+        "Colorless"
+      ],
+      "name": "Needle Bone",
+      "damage": "200",
+      "text": "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
+      "convertedEnergyCost": 3
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fighting",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    }
+  },
+  "number": "130",
+  "artist": "PLANETA Mochizuki",
+  "rarity": "Double Rare",
+  "nationalPokedexNumbers": [
+    980
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv2/130.png",
+    "large": "https://images.pokemontcg.io/sv2/130_hires.png"
+  }
+}

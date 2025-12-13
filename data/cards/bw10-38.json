@@ -1,0 +1,77 @@
+{
+  "id": "bw10-38",
+  "name": "Azelf",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "60",
+  "types": [
+    "Psychic"
+  ],
+  "attacks": [
+    {
+      "name": "Trading Places",
+      "cost": [
+        "Colorless"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+    },
+    {
+      "name": "Psyjamming",
+      "cost": [
+        "Psychic",
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "",
+      "text": "Move as many Special Energy attached to your opponent's Pokémon to your opponent's other Pokémon in any way you like."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "bw10",
+    "name": "Plasma Blast",
+    "series": "Black & White",
+    "printedTotal": 101,
+    "total": 105,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PLB",
+    "releaseDate": "2013/08/14",
+    "updatedAt": "2018/03/04 10:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/bw10/symbol.png",
+      "logo": "https://images.pokemontcg.io/bw10/logo.png"
+    }
+  },
+  "number": "38",
+  "artist": "Naoyo Kimura",
+  "rarity": "Rare",
+  "flavorText": "When Azelf flew, people gained the determination to do things. It was the birth of willpower.",
+  "nationalPokedexNumbers": [
+    482
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/bw10/38.png",
+    "large": "https://images.pokemontcg.io/bw10/38_hires.png"
+  }
+}

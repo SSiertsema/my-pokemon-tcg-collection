@@ -1,0 +1,71 @@
+{
+  "id": "sm7-104",
+  "name": "Bagon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Dragon"
+  ],
+  "evolvesTo": [
+    "Shelgon"
+  ],
+  "attacks": [
+    {
+      "name": "Reckless Charge",
+      "cost": [
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "40",
+      "text": "This Pokémon does 10 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Fairy",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sm7",
+    "name": "Celestial Storm",
+    "series": "Sun & Moon",
+    "printedTotal": 168,
+    "total": 187,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CES",
+    "releaseDate": "2018/08/03",
+    "updatedAt": "2022/10/11 21:39:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sm7/symbol.png",
+      "logo": "https://images.pokemontcg.io/sm7/logo.png"
+    }
+  },
+  "number": "104",
+  "artist": "sui",
+  "rarity": "Common",
+  "flavorText": "With its steel-hard stone head, it headbutts indiscriminately. This is because of the stress it feels at being unable to fly.",
+  "nationalPokedexNumbers": [
+    371
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/sm7/104.png",
+    "large": "https://images.pokemontcg.io/sm7/104_hires.png"
+  }
+}

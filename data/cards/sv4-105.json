@@ -1,0 +1,81 @@
+{
+  "id": "sv4-105",
+  "name": "Klawf",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "120",
+  "types": [
+    "Fighting"
+  ],
+  "attacks": [
+    {
+      "name": "Unhinged Scissors",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30+",
+      "text": "If this Pokémon is affected by a Special Condition, this attack does 160 more damage."
+    },
+    {
+      "name": "Boiled Press",
+      "cost": [
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "80",
+      "text": "This Pokémon is now Burned."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "sv4",
+    "name": "Paradox Rift",
+    "series": "Scarlet & Violet",
+    "printedTotal": 182,
+    "total": 266,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/11/03",
+    "updatedAt": "2023/11/03 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv4/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv4/logo.png"
+    }
+  },
+  "number": "105",
+  "artist": "Yuya Oka",
+  "rarity": "Uncommon",
+  "flavorText": "Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.",
+  "nationalPokedexNumbers": [
+    950
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv4/105.png",
+    "large": "https://images.pokemontcg.io/sv4/105_hires.png"
+  }
+}

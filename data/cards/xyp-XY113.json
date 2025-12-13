@@ -1,0 +1,76 @@
+{
+  "id": "xyp-XY113",
+  "name": "Manaphy",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "hp": "70",
+  "types": [
+    "Water"
+  ],
+  "attacks": [
+    {
+      "name": "Marine Guidance",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Search your deck for a Water Pokémon, reveal it, and put it into your hand. Shuffle your deck afterward."
+    },
+    {
+      "name": "Aqua Ring",
+      "cost": [
+        "Water",
+        "Water"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "30",
+      "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "xyp",
+    "name": "XY Black Star Promos",
+    "series": "XY",
+    "printedTotal": 211,
+    "total": 216,
+    "legalities": {
+      "unlimited": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-XY",
+    "releaseDate": "2013/10/12",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/xyp/symbol.png",
+      "logo": "https://images.pokemontcg.io/xyp/logo.png"
+    }
+  },
+  "number": "XY113",
+  "artist": "Hitoshi Ariga",
+  "rarity": "Promo",
+  "flavorText": "It starts its life with a wondrous power that permits it to bond with any kind of Pokémon.",
+  "nationalPokedexNumbers": [
+    490
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/xyp/XY113.png",
+    "large": "https://images.pokemontcg.io/xyp/XY113_hires.png"
+  }
+}

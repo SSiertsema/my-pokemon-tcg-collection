@@ -1,0 +1,76 @@
+{
+  "id": "base6-73",
+  "name": "Drowzee",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "10",
+  "hp": "50",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Hypno"
+  ],
+  "abilities": [
+    {
+      "name": "Long-Distance Hypnosis",
+      "text": "Once during your turn (before your attack), you may flip a coin. If heads, the Defending Pokémon is now Asleep; if tails, your Active Pokémon is now Asleep. The power can't be used if Drowzee is affected by a Special Condition.",
+      "type": "Pokémon Power"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Nightmare",
+      "cost": [
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "10",
+      "text": "The Defending Pokémon is now Asleep."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base6",
+    "name": "Legendary Collection",
+    "series": "Other",
+    "printedTotal": 110,
+    "total": 110,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "LC",
+    "releaseDate": "2002/05/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base6/symbol.png",
+      "logo": "https://images.pokemontcg.io/base6/logo.png"
+    }
+  },
+  "number": "73",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Common",
+  "flavorText": "Not popular with girls because of its attitude. Can often be heard muttering to itself in a low voice.",
+  "nationalPokedexNumbers": [
+    96
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base6/73.png",
+    "large": "https://images.pokemontcg.io/base6/73_hires.png"
+  }
+}

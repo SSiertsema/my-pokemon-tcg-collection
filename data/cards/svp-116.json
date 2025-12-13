@@ -1,0 +1,79 @@
+{
+  "id": "svp-116",
+  "name": "Infernape",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "140",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Monferno",
+  "abilities": [
+    {
+      "name": "Pyro Dance",
+      "text": "Once during your turn, you may attach a Basic Fire Energy card, a Basic Fighting Energy card, or 1 of each from your hand to your Pokémon in any way you like.",
+      "type": "Ability"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Scorching Fire",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "200",
+      "text": "Discard an Energy from this Pokémon."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "svp",
+    "name": "Scarlet & Violet Black Star Promos",
+    "series": "Scarlet & Violet",
+    "printedTotal": 215,
+    "total": 196,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SV",
+    "releaseDate": "2023/01/01",
+    "updatedAt": "2024/11/09 13:20:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/svp/symbol.png",
+      "logo": "https://images.pokemontcg.io/svp/logo.png"
+    }
+  },
+  "number": "116",
+  "artist": "Kazumasa Yasukuni",
+  "rarity": "Promo",
+  "flavorText": "Its crown of fire is indicative of its fiery nature. It is beaten by none in terms of quickness.",
+  "nationalPokedexNumbers": [
+    392
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "H",
+  "images": {
+    "small": "https://images.pokemontcg.io/svp/116.png",
+    "large": "https://images.pokemontcg.io/svp/116_hires.png"
+  }
+}

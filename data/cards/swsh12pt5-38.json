@@ -1,0 +1,84 @@
+{
+  "id": "swsh12pt5-38",
+  "name": "Glaceon V",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic",
+    "V"
+  ],
+  "hp": "210",
+  "types": [
+    "Water"
+  ],
+  "rules": [
+    "V rule: When your Pokémon V is Knocked Out, your opponent takes 2 Prize cards."
+  ],
+  "attacks": [
+    {
+      "name": "Frost Charge",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "30",
+      "text": "Search your deck for a Water Energy card and attach it to this Pokémon. Then, shuffle your deck."
+    },
+    {
+      "name": "Freezing Wind",
+      "cost": [
+        "Water",
+        "Water",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "130",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Metal",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "swsh12pt5",
+    "name": "Crown Zenith",
+    "series": "Sword & Shield",
+    "printedTotal": 159,
+    "total": 160,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "CRZ",
+    "releaseDate": "2023/01/20",
+    "updatedAt": "2023/01/19 15:45:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
+      "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+    }
+  },
+  "number": "38",
+  "artist": "PLANETA Mochizuki",
+  "rarity": "Rare Holo V",
+  "nationalPokedexNumbers": [
+    471
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "F",
+  "images": {
+    "small": "https://images.pokemontcg.io/swsh12pt5/38.png",
+    "large": "https://images.pokemontcg.io/swsh12pt5/38_hires.png"
+  }
+}

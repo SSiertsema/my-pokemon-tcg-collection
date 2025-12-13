@@ -1,0 +1,83 @@
+{
+  "id": "swshp-SWSH053",
+  "name": "Machamp",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 2"
+  ],
+  "hp": "170",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Machoke",
+  "attacks": [
+    {
+      "name": "Macho Revenge",
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20×",
+      "text": "This attack does 20 damage for each Fighting Pokémon in your discard pile."
+    },
+    {
+      "name": "Dynamite Punch",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "200",
+      "text": "This Pokémon also does 50 damage to itself."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 3,
+  "set": {
+    "id": "swshp",
+    "name": "SWSH Black Star Promos",
+    "series": "Sword & Shield",
+    "printedTotal": 307,
+    "total": 304,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "ptcgoCode": "PR-SW",
+    "releaseDate": "2019/11/15",
+    "updatedAt": "2022/07/23 20:15:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+      "logo": "https://images.pokemontcg.io/swshp/logo.png"
+    }
+  },
+  "number": "SWSH053",
+  "artist": "SATOSHI NAKAI",
+  "rarity": "Promo",
+  "flavorText": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+  "nationalPokedexNumbers": [
+    68
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "D",
+  "images": {
+    "small": "https://images.pokemontcg.io/swshp/SWSH053.png",
+    "large": "https://images.pokemontcg.io/swshp/SWSH053_hires.png"
+  }
+}

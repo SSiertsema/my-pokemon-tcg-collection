@@ -1,0 +1,80 @@
+{
+  "id": "sv2-107",
+  "name": "Primeape",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "hp": "110",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Mankey",
+  "attacks": [
+    {
+      "cost": [
+        "Fighting"
+      ],
+      "name": "Low Kick",
+      "damage": "30",
+      "text": "",
+      "convertedEnergyCost": 1
+    },
+    {
+      "cost": [
+        "Fighting",
+        "Colorless"
+      ],
+      "name": "Pummel",
+      "damage": "60+",
+      "text": "Flip a coin. If heads, this attack does 60 more damage.",
+      "convertedEnergyCost": 2
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "sv2",
+    "name": "Paldea Evolved",
+    "series": "Scarlet & Violet",
+    "printedTotal": 193,
+    "total": 279,
+    "legalities": {
+      "unlimited": "Legal",
+      "standard": "Legal",
+      "expanded": "Legal"
+    },
+    "releaseDate": "2023/06/09",
+    "updatedAt": "2023/06/09 15:00:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/sv2/symbol.png",
+      "logo": "https://images.pokemontcg.io/sv2/logo.png"
+    }
+  },
+  "number": "107",
+  "artist": "Shin Nagasawa",
+  "rarity": "Uncommon",
+  "flavorText": "It becomes wildly furious if it even senses someone looking at it. It chases anyone that meets its glare.",
+  "nationalPokedexNumbers": [
+    57
+  ],
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "regulationMark": "G",
+  "images": {
+    "small": "https://images.pokemontcg.io/sv2/107.png",
+    "large": "https://images.pokemontcg.io/sv2/107_hires.png"
+  }
+}

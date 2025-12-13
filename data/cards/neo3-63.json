@@ -1,0 +1,39 @@
+{
+  "id": "neo3-63",
+  "name": "Rocket's Hideout",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Stadium"
+  ],
+  "rules": [
+    "This card stays in play when you play it. Discard this card if another Stadium card comes into play.",
+    "Each Pokémon in play with Dark in its name (even your opponent's) gets +20 HP."
+  ],
+  "set": {
+    "id": "neo3",
+    "name": "Neo Revelation",
+    "series": "Neo",
+    "printedTotal": 64,
+    "total": 66,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "N3",
+    "releaseDate": "2001/09/21",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/neo3/symbol.png",
+      "logo": "https://images.pokemontcg.io/neo3/logo.png"
+    }
+  },
+  "number": "63",
+  "artist": "Keiji Kinebuchi",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/neo3/63.png",
+    "large": "https://images.pokemontcg.io/neo3/63_hires.png"
+  }
+}
