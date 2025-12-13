@@ -61,7 +61,8 @@
       "Bash(bash:*)",
       "Bash(./run-fetch-all-sets.sh:*)",
       "Bash(do echo \"\")",
-      "Bash(continue)"
+      "Bash(continue)",
+      "Bash(identify:*)"
     ]
   }
 }

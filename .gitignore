@@ -26,3 +26,6 @@ Thumbs.db
 
 # Prettier
 .prettierignore
+
+# Card images (too large for git ~17GB, download with scripts/download-set-images.js)
+app/public/images/
