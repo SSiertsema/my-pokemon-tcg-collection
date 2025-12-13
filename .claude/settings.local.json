@@ -62,7 +62,8 @@
       "Bash(./run-fetch-all-sets.sh:*)",
       "Bash(do echo \"\")",
       "Bash(continue)",
-      "Bash(identify:*)"
+      "Bash(identify:*)",
+      "Bash(npm run dev:*)"
     ]
   }
 }
