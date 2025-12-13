@@ -1,0 +1,64 @@
+{
+  "id": "base4-76",
+  "name": "Goldeen",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "12",
+  "hp": "40",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Seaking"
+  ],
+  "attacks": [
+    {
+      "name": "Horn Attack",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "set": {
+    "id": "base4",
+    "name": "Base Set 2",
+    "series": "Base",
+    "printedTotal": 130,
+    "total": 130,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "B2",
+    "releaseDate": "2000/02/24",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base4/symbol.png",
+      "logo": "https://images.pokemontcg.io/base4/logo.png"
+    }
+  },
+  "number": "76",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Common",
+  "flavorText": "Its tail fin billows like an elegant ballroom dress, giving it the nickname \"Water Queen.\"",
+  "nationalPokedexNumbers": [
+    118
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base4/76.png",
+    "large": "https://images.pokemontcg.io/base4/76_hires.png"
+  }
+}

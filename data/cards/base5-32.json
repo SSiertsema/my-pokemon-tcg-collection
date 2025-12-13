@@ -1,0 +1,82 @@
+{
+  "id": "base5-32",
+  "name": "Dark Charmeleon",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "23",
+  "hp": "50",
+  "types": [
+    "Fire"
+  ],
+  "evolvesFrom": "Charmander",
+  "evolvesTo": [
+    "Charizard"
+  ],
+  "attacks": [
+    {
+      "name": "Tail Slap",
+      "cost": [
+        "Colorless",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 2,
+      "damage": "20",
+      "text": ""
+    },
+    {
+      "name": "Fireball",
+      "cost": [
+        "Fire",
+        "Fire",
+        "Fire"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "70",
+      "text": "Use this attack only if there are any Fire Energy cards attached to Dark Charmeleon. Flip a coin. If heads, discard 1 of those Energy cards. If tails, this attack does nothing (not even damage)."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Water",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "base5",
+    "name": "Team Rocket",
+    "series": "Base",
+    "printedTotal": 82,
+    "total": 83,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TR",
+    "releaseDate": "2000/04/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base5/symbol.png",
+      "logo": "https://images.pokemontcg.io/base5/logo.png"
+    }
+  },
+  "number": "32",
+  "artist": "Kagemaru Himeno",
+  "rarity": "Uncommon",
+  "flavorText": "Its tail is incredibly strong, able to lift up to 5 adult men.",
+  "nationalPokedexNumbers": [
+    5
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base5/32.png",
+    "large": "https://images.pokemontcg.io/base5/32_hires.png"
+  }
+}

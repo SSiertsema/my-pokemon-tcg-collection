@@ -1,0 +1,77 @@
+{
+  "id": "base5-49",
+  "name": "Abra",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "14",
+  "hp": "40",
+  "types": [
+    "Psychic"
+  ],
+  "evolvesTo": [
+    "Kadabra"
+  ],
+  "attacks": [
+    {
+      "name": "Vanish",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Shuffle Abra into your deck. (Discard all cards attached to Abra.)"
+    },
+    {
+      "name": "Psyshock",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": "Flip a coin. If heads, the Defending Pokémon is now Paralyzed."
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Psychic",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base5",
+    "name": "Team Rocket",
+    "series": "Base",
+    "printedTotal": 82,
+    "total": 83,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TR",
+    "releaseDate": "2000/04/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base5/symbol.png",
+      "logo": "https://images.pokemontcg.io/base5/logo.png"
+    }
+  },
+  "number": "49",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Common",
+  "flavorText": "It teleports itself away from danger, making it difficult to capture.",
+  "nationalPokedexNumbers": [
+    63
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base5/49.png",
+    "large": "https://images.pokemontcg.io/base5/49_hires.png"
+  }
+}

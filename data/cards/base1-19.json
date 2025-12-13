@@ -1,0 +1,87 @@
+{
+  "id": "base1-19",
+  "name": "Dugtrio",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "36",
+  "hp": "70",
+  "types": [
+    "Fighting"
+  ],
+  "evolvesFrom": "Diglett",
+  "attacks": [
+    {
+      "name": "Slash",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "40",
+      "text": ""
+    },
+    {
+      "name": "Earthquake",
+      "cost": [
+        "Fighting",
+        "Fighting",
+        "Fighting",
+        "Fighting"
+      ],
+      "convertedEnergyCost": 4,
+      "damage": "70",
+      "text": "Does 10 damage to each of your own Benched Pokémon. (Don't apply Weakness and Resistance for Benched Pokémon.)"
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Grass",
+      "value": "×2"
+    }
+  ],
+  "resistances": [
+    {
+      "type": "Lightning",
+      "value": "-30"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "base1",
+    "name": "Base",
+    "series": "Base",
+    "printedTotal": 102,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "BS",
+    "releaseDate": "1999/01/09",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base1/symbol.png",
+      "logo": "https://images.pokemontcg.io/base1/logo.png"
+    }
+  },
+  "number": "19",
+  "artist": "Keiji Kinebuchi",
+  "rarity": "Rare",
+  "flavorText": "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
+  "nationalPokedexNumbers": [
+    51
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base1/19.png",
+    "large": "https://images.pokemontcg.io/base1/19_hires.png"
+  }
+}

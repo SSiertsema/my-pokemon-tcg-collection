@@ -1,0 +1,38 @@
+{
+  "id": "base5-77",
+  "name": "Nightly Garbage Run",
+  "supertype": "Trainer",
+  "subtypes": [
+    "Rocket's Secret Machine"
+  ],
+  "rules": [
+    "Choose up to 3 Basic Pokémon cards, Evolution cards, and/or basic Energy cards from your discard pile. Show them to your opponent and shuffle them into your deck."
+  ],
+  "set": {
+    "id": "base5",
+    "name": "Team Rocket",
+    "series": "Base",
+    "printedTotal": 82,
+    "total": 83,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TR",
+    "releaseDate": "2000/04/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base5/symbol.png",
+      "logo": "https://images.pokemontcg.io/base5/logo.png"
+    }
+  },
+  "number": "77",
+  "artist": "Sumiyoshi Kizuki",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base5/77.png",
+    "large": "https://images.pokemontcg.io/base5/77_hires.png"
+  }
+}

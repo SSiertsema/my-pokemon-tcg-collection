@@ -1,0 +1,68 @@
+{
+  "id": "base1-41",
+  "name": "Seel",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Basic"
+  ],
+  "level": "12",
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesTo": [
+    "Dewgong"
+  ],
+  "attacks": [
+    {
+      "name": "Headbutt",
+      "cost": [
+        "Water"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "10",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless"
+  ],
+  "convertedRetreatCost": 1,
+  "set": {
+    "id": "base1",
+    "name": "Base",
+    "series": "Base",
+    "printedTotal": 102,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "BS",
+    "releaseDate": "1999/01/09",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base1/symbol.png",
+      "logo": "https://images.pokemontcg.io/base1/logo.png"
+    }
+  },
+  "number": "41",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "flavorText": "The protruding horn on its head is very hard. This horn is used for bashing through thick ice.",
+  "nationalPokedexNumbers": [
+    86
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base1/41.png",
+    "large": "https://images.pokemontcg.io/base1/41_hires.png"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "gym1-19",
+  "name": "The Rocket's Trap",
+  "supertype": "Trainer",
+  "rules": [
+    "Flip a coin. If heads, choose up to 3 cards at random from your opponent's hand (don't look at them). Your opponent shuffles those cards into his or her deck."
+  ],
+  "set": {
+    "id": "gym1",
+    "name": "Gym Heroes",
+    "series": "Gym",
+    "printedTotal": 132,
+    "total": 132,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "G1",
+    "releaseDate": "2000/08/14",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/gym1/symbol.png",
+      "logo": "https://images.pokemontcg.io/gym1/logo.png"
+    }
+  },
+  "number": "19",
+  "artist": "Ken Sugimori",
+  "rarity": "Rare Holo",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/gym1/19.png",
+    "large": "https://images.pokemontcg.io/gym1/19_hires.png"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "base5-37",
+  "name": "Dark Golduck",
+  "supertype": "Pokémon",
+  "subtypes": [
+    "Stage 1"
+  ],
+  "level": "23",
+  "hp": "60",
+  "types": [
+    "Water"
+  ],
+  "evolvesFrom": "Psyduck",
+  "attacks": [
+    {
+      "name": "Third Eye",
+      "cost": [
+        "Psychic"
+      ],
+      "convertedEnergyCost": 1,
+      "damage": "",
+      "text": "Discard 1 Energy card attached to Dark Golduck in order to draw up to 3 cards."
+    },
+    {
+      "name": "Super Psy",
+      "cost": [
+        "Psychic",
+        "Psychic",
+        "Colorless"
+      ],
+      "convertedEnergyCost": 3,
+      "damage": "50",
+      "text": ""
+    }
+  ],
+  "weaknesses": [
+    {
+      "type": "Lightning",
+      "value": "×2"
+    }
+  ],
+  "retreatCost": [
+    "Colorless",
+    "Colorless"
+  ],
+  "convertedRetreatCost": 2,
+  "set": {
+    "id": "base5",
+    "name": "Team Rocket",
+    "series": "Base",
+    "printedTotal": 82,
+    "total": 83,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "TR",
+    "releaseDate": "2000/04/24",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base5/symbol.png",
+      "logo": "https://images.pokemontcg.io/base5/logo.png"
+    }
+  },
+  "number": "37",
+  "artist": "Mitsuhiro Arita",
+  "rarity": "Uncommon",
+  "flavorText": "When Psyducks evolve, their headaches disappear and they find themselves in possession of formidable mental powers.",
+  "nationalPokedexNumbers": [
+    55
+  ],
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base5/37.png",
+    "large": "https://images.pokemontcg.io/base5/37_hires.png"
+  }
+}

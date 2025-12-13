@@ -23,7 +23,14 @@
       "Bash(npm test:*)",
       "Bash(lsof:*)",
       "Bash(npx playwright test:*)",
-      "Bash(kill:*)"
+      "Bash(kill:*)",
+      "WebFetch(domain:pokemontcg.io)",
+      "Bash(\"https://api.pokemontcg.io/v2/sets\" )",
+      "Bash(\"https://api.pokemontcg.io/v2/sets?pageSize=1\")",
+      "Bash(\"https://api.pokemontcg.io/v2/sets\")",
+      "Bash(ls:*)",
+      "Bash(node /home/sven/Projects/Pokemon-collectie-app/scripts/split-cards.js:*)",
+      "Bash(node scripts/fetch-and-split-cards.js:*)"
     ]
   }
 }

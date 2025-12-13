@@ -1,0 +1,35 @@
+{
+  "id": "base1-82",
+  "name": "Full Heal",
+  "supertype": "Trainer",
+  "rules": [
+    "Your Active Pokémon is no longer Asleep, Confused, Paralyzed, or Poisoned."
+  ],
+  "set": {
+    "id": "base1",
+    "name": "Base",
+    "series": "Base",
+    "printedTotal": 102,
+    "total": 102,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "BS",
+    "releaseDate": "1999/01/09",
+    "updatedAt": "2022/10/10 15:12:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base1/symbol.png",
+      "logo": "https://images.pokemontcg.io/base1/logo.png"
+    }
+  },
+  "number": "82",
+  "artist": "Keiji Kinebuchi",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base1/82.png",
+    "large": "https://images.pokemontcg.io/base1/82_hires.png"
+  }
+}

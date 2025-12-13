@@ -1,0 +1,35 @@
+{
+  "id": "base3-58",
+  "name": "Mr. Fuji",
+  "supertype": "Trainer",
+  "rules": [
+    "Choose a Pokémon on your Bench. Shuffle it and any cards attached to it into your deck."
+  ],
+  "set": {
+    "id": "base3",
+    "name": "Fossil",
+    "series": "Base",
+    "printedTotal": 62,
+    "total": 62,
+    "legalities": {
+      "unlimited": "Legal"
+    },
+    "ptcgoCode": "FO",
+    "releaseDate": "1999/10/10",
+    "updatedAt": "2020/08/14 09:35:00",
+    "images": {
+      "symbol": "https://images.pokemontcg.io/base3/symbol.png",
+      "logo": "https://images.pokemontcg.io/base3/logo.png"
+    }
+  },
+  "number": "58",
+  "artist": "Ken Sugimori",
+  "rarity": "Uncommon",
+  "legalities": {
+    "unlimited": "Legal"
+  },
+  "images": {
+    "small": "https://images.pokemontcg.io/base3/58.png",
+    "large": "https://images.pokemontcg.io/base3/58_hires.png"
+  }
+}

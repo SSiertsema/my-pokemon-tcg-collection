@@ -1,0 +1,19 @@
+{
+  "id": "me1",
+  "name": "Mega Evolution",
+  "series": "Mega Evolution",
+  "printedTotal": 132,
+  "total": 188,
+  "legalities": {
+    "unlimited": "Legal",
+    "standard": "Legal",
+    "expanded": "Legal"
+  },
+  "ptcgoCode": "MEG",
+  "releaseDate": "2025/09/26",
+  "updatedAt": "2025/09/25 15:00:00",
+  "images": {
+    "symbol": "https://images.pokemontcg.io/me1/symbol.png",
+    "logo": "https://images.pokemontcg.io/me1/logo.png"
+  }
+}
