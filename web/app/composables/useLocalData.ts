@@ -44,6 +44,21 @@ interface Card {
   [key: string]: unknown;
 }
 
+// Compact card index entry (short keys to reduce payload size)
+// i=id, n=name, si=setId, sn=setName, sr=series, t=types, st=supertype, sb=subtypes, r=rarity, nr=number
+export interface CardIndexEntry {
+  i: string;    // id
+  n: string;    // name
+  si: string;   // setId
+  sn: string;   // setName
+  sr: string;   // series
+  t: string[];  // types
+  st: string;   // supertype
+  sb: string[]; // subtypes
+  r: string;    // rarity
+  nr: string;   // number
+}
+
 export function useLocalData() {
   async function getSetsIndex(): Promise<SetsIndex> {
     return await $fetch<SetsIndex>('/api/local/sets');
@@ -64,10 +79,15 @@ export function useLocalData() {
     });
   }
 
+  async function getCardsIndex(): Promise<CardIndexEntry[]> {
+    return await $fetch<CardIndexEntry[]>('/api/local/cards');
+  }
+
   return {
     getSetsIndex,
     getSet,
     getCard,
     getCardsForSet,
+    getCardsIndex,
   };
 }

@@ -57,11 +57,12 @@ US-001 (Nuxt 3 project setup)
 
 ### Fase 2: Core Browse
 
-| Story  | Beschrijving            | Afhankelijk van |
-| ------ | ----------------------- | --------------- |
-| US-007 | Overview kaarten in set | US-004          |
-| US-008 | Zoeken op set           | US-004          |
-| US-009 | Filteren van sets       | US-004          |
+| Story  | Beschrijving              | Afhankelijk van |
+| ------ | ------------------------- | --------------- |
+| US-007 | Overview kaarten in set   | US-004          |
+| US-008 | Zoeken op set             | US-004          |
+| US-009 | Filteren van sets         | US-004          |
+| US-021 | Globaal zoeken kaarten    | US-001, US-002  |
 
 ### Fase 3: Core Collectie
 

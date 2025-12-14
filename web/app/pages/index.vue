@@ -1,17 +1,33 @@
 <template>
   <div class="container">
     <header class="header">
-      <h1>Pokemon TCG Sets</h1>
+      <div class="header-top">
+        <h1>Pokemon TCG Sets</h1>
+        <NuxtLink to="/search" class="search-all-link">Search All Cards</NuxtLink>
+      </div>
       <p class="subtitle">Browse all {{ allSets.length }} sets</p>
     </header>
 
-    <div class="search-container">
+    <div class="filters-container">
       <input
         v-model="searchQuery"
         type="search"
         placeholder="Search sets..."
         class="search-input"
       />
+      <select v-model="selectedYear" class="filter-select">
+        <option value="">All years</option>
+        <option v-for="year in availableYears" :key="year" :value="year">
+          {{ year }}
+        </option>
+      </select>
+      <button
+        v-if="hasActiveFilters"
+        class="clear-filters"
+        @click="clearFilters"
+      >
+        Clear filters
+      </button>
     </div>
 
     <div v-if="pending" class="loading">Loading sets...</div>
@@ -21,7 +37,7 @@
     </div>
 
     <div v-else-if="filteredSets.length === 0" class="no-results">
-      No sets found for "{{ searchQuery }}"
+      No sets found matching your filters
     </div>
 
     <div v-else class="sets-grid">
@@ -47,6 +63,7 @@
 const { getSetsIndex } = useLocalData();
 
 const searchQuery = ref('');
+const selectedYear = ref('');
 
 const { data, pending, error } = await useAsyncData('sets-index', async () => {
   const response = await getSetsIndex();
@@ -55,17 +72,45 @@ const { data, pending, error } = await useAsyncData('sets-index', async () => {
 
 const allSets = computed(() => data.value || []);
 
-const filteredSets = computed(() => {
-  const query = searchQuery.value.toLowerCase().trim();
-  if (!query) return allSets.value;
-
-  return allSets.value.filter((set) => {
-    if (set.name.toLowerCase().includes(query)) return true;
-    if (set.search?.some((term: string) => term.toLowerCase().includes(query)))
-      return true;
-    return false;
+const availableYears = computed(() => {
+  const years = new Set<string>();
+  allSets.value.forEach((set) => {
+    const year = set.releaseDate?.split('/')[0];
+    if (year) years.add(year);
   });
+  return [...years].sort((a, b) => Number(b) - Number(a));
 });
+
+const hasActiveFilters = computed(() => {
+  return searchQuery.value.trim() !== '' || selectedYear.value !== '';
+});
+
+const filteredSets = computed(() => {
+  let result = allSets.value;
+
+  if (selectedYear.value) {
+    result = result.filter((set) =>
+      set.releaseDate?.startsWith(selectedYear.value)
+    );
+  }
+
+  const query = searchQuery.value.toLowerCase().trim();
+  if (query) {
+    result = result.filter((set) => {
+      if (set.name.toLowerCase().includes(query)) return true;
+      if (set.search?.some((term: string) => term.toLowerCase().includes(query)))
+        return true;
+      return false;
+    });
+  }
+
+  return result;
+});
+
+function clearFilters() {
+  searchQuery.value = '';
+  selectedYear.value = '';
+}
 
 function formatDate(dateStr: string): string {
   const [year, month] = dateStr.split('/');
@@ -85,12 +130,40 @@ function formatDate(dateStr: string): string {
   margin-bottom: 1rem;
 }
 
-.search-container {
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.search-all-link {
+  padding: 0.5rem 1rem;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.15s;
+}
+
+.search-all-link:hover {
+  background: #2563eb;
+}
+
+.filters-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
   margin-bottom: 1.5rem;
+  align-items: center;
 }
 
 .search-input {
-  width: 100%;
+  flex: 1;
+  min-width: 200px;
   max-width: 400px;
   padding: 0.75rem 1rem;
   font-size: 1rem;
@@ -107,6 +180,38 @@ function formatDate(dateStr: string): string {
 
 .search-input::placeholder {
   color: #9ca3af;
+}
+
+.filter-select {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.filter-select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.clear-filters {
+  padding: 0.75rem 1rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+  background: #f3f4f6;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.clear-filters:hover {
+  background: #e5e7eb;
+  color: #374151;
 }
 
 .no-results {

@@ -18,7 +18,7 @@
 | EPIC-05 | Account & Toegang      | 3       |
 | EPIC-06 | Wishlist               | 1       |
 
-**Totaal:** 20 user stories
+**Totaal:** 21 user stories
 
 ---
 
@@ -47,6 +47,7 @@
 | US-007 | Overview van kaarten binnen een set bekijken | EPIC-01 |
 | US-008 | Zoeken op een set                            | EPIC-02 |
 | US-009 | Filteren van sets                            | EPIC-02 |
+| US-021 | Globaal zoeken naar kaarten                  | EPIC-02 |
 
 ### Fase 3: Core Collectie
 
