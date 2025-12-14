@@ -137,8 +137,6 @@ import type { CardIndexEntry } from '~/composables/useLocalData';
 const { getCardsIndex, getCard } = useLocalData();
 
 // State
-const cardsIndex = ref<CardIndexEntry[]>([]);
-const loading = ref(true);
 const searchQuery = ref('');
 const selectedType = ref('');
 const selectedRarity = ref('');
@@ -149,14 +147,14 @@ const pageSize = 50;
 const selectedCardIndex = ref(-1);
 const selectedCardData = ref<Awaited<ReturnType<typeof getCard>> | null>(null);
 
-// Load cards index on mount
-onMounted(async () => {
-  try {
-    cardsIndex.value = await getCardsIndex();
-  } finally {
-    loading.value = false;
-  }
-});
+// Load cards index
+const { data: cardsIndexData, pending: loading } = await useAsyncData(
+  'cards-index',
+  () => getCardsIndex(),
+  { lazy: true }
+);
+
+const cardsIndex = computed(() => cardsIndexData.value || []);
 
 const totalCards = computed(() => cardsIndex.value.length);
 
