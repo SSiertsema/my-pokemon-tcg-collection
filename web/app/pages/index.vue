@@ -2,8 +2,17 @@
   <div class="container">
     <header class="header">
       <h1>Pokemon TCG Sets</h1>
-      <p class="subtitle">Browse all {{ sets?.length || 0 }} sets</p>
+      <p class="subtitle">Browse all {{ allSets.length }} sets</p>
     </header>
+
+    <div class="search-container">
+      <input
+        v-model="searchQuery"
+        type="search"
+        placeholder="Search sets..."
+        class="search-input"
+      />
+    </div>
 
     <div v-if="pending" class="loading">Loading sets...</div>
 
@@ -11,9 +20,13 @@
       Failed to load sets: {{ error.message }}
     </div>
 
+    <div v-else-if="filteredSets.length === 0" class="no-results">
+      No sets found for "{{ searchQuery }}"
+    </div>
+
     <div v-else class="sets-grid">
       <NuxtLink
-        v-for="set in sets"
+        v-for="set in filteredSets"
         :key="set.id"
         :to="`/sets/${set.id}`"
         class="set-card"
@@ -33,12 +46,26 @@
 <script setup lang="ts">
 const { getSetsIndex } = useLocalData();
 
+const searchQuery = ref('');
+
 const { data, pending, error } = await useAsyncData('sets-index', async () => {
   const response = await getSetsIndex();
   return response.sets;
 });
 
-const sets = computed(() => data.value || []);
+const allSets = computed(() => data.value || []);
+
+const filteredSets = computed(() => {
+  const query = searchQuery.value.toLowerCase().trim();
+  if (!query) return allSets.value;
+
+  return allSets.value.filter((set) => {
+    if (set.name.toLowerCase().includes(query)) return true;
+    if (set.search?.some((term: string) => term.toLowerCase().includes(query)))
+      return true;
+    return false;
+  });
+});
 
 function formatDate(dateStr: string): string {
   const [year, month] = dateStr.split('/');
@@ -55,7 +82,39 @@ function formatDate(dateStr: string): string {
 }
 
 .header {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+}
+
+.search-container {
+  margin-bottom: 1.5rem;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.search-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.search-input::placeholder {
+  color: #9ca3af;
+}
+
+.no-results {
+  text-align: center;
+  padding: 3rem;
+  color: #6b7280;
+  background: #f9fafb;
+  border-radius: 0.5rem;
 }
 
 h1 {

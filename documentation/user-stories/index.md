@@ -1,6 +1,6 @@
 # User Stories - Implementatie Status
 
-**Laatst bijgewerkt:** 2025-12-14 (US-003 toegevoegd)
+**Laatst bijgewerkt:** 2025-12-14
 
 ---
 
@@ -37,7 +37,7 @@
 | Status | ID     | Beschrijving                                 | Notities                                       |
 | ------ | ------ | -------------------------------------------- | ---------------------------------------------- |
 | [x]    | US-007 | Overview van kaarten binnen een set bekijken | `pages/sets/[id].vue` - toont kaarten + modal  |
-| [ ]    | US-008 | Zoeken op een set                            | Niet geïmplementeerd                           |
+| [x]    | US-008 | Zoeken op een set                            | Zoekveld op index pagina, filtert op naam      |
 | [ ]    | US-009 | Filteren van sets                            | Niet geïmplementeerd                           |
 
 ---
@@ -73,19 +73,18 @@
 | ------------------------ | -------- | ----- | ------- | ------ |
 | Fase 0: Technisch        | 2        | 1     | 0       | 3      |
 | Fase 1: Foundation       | 2        | 0     | 1       | 3      |
-| Fase 2: Core Browse      | 1        | 0     | 2       | 3      |
+| Fase 2: Core Browse      | 2        | 0     | 1       | 3      |
 | Fase 3: Core Collectie   | 0        | 0     | 5       | 5      |
 | Fase 4: Enhanced         | 0        | 0     | 6       | 6      |
-| **Totaal**               | **5**    | **1** | **14**  | **20** |
+| **Totaal**               | **6**    | **1** | **13**  | **20** |
 
-**Voortgang:** ~28% (5.5 van 20 user stories)
+**Voortgang:** ~33% (6.5 van 20 user stories)
 
 ---
 
 ## Volgende stappen (aanbevolen)
 
-1. **US-008** - Zoeken op een set
-2. **US-009** - Filteren van sets
-3. **US-010** - Zoeken naar een kaart
-4. **US-011** - Filteren van kaarten
-5. **US-012** - Per set zien welke kaarten in bezit zijn (Pinia store klaar)
+1. **US-009** - Filteren van sets
+2. **US-010** - Zoeken naar een kaart
+3. **US-011** - Filteren van kaarten
+4. **US-012** - Per set zien welke kaarten in bezit zijn (Pinia store klaar)
