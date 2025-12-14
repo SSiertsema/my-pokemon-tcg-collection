@@ -3,42 +3,53 @@
     <header class="header">
       <div class="header-top">
         <h1>Pokemon TCG Sets</h1>
-        <NuxtLink to="/search" class="search-all-link">Search All Cards</NuxtLink>
+        <Button
+          as="router-link"
+          to="/search"
+          label="Search All Cards"
+          icon="pi pi-search"
+        />
       </div>
       <p class="subtitle">Browse all {{ allSets.length }} sets</p>
     </header>
 
     <div class="filters-container">
-      <input
-        v-model="searchQuery"
-        type="search"
-        placeholder="Search sets..."
-        class="search-input"
+      <IconField class="search-field">
+        <InputIcon class="pi pi-search" />
+        <InputText
+          v-model="searchQuery"
+          placeholder="Search sets..."
+        />
+      </IconField>
+
+      <Select
+        v-model="selectedYear"
+        :options="yearOptions"
+        option-label="label"
+        option-value="value"
+        placeholder="All years"
+        class="year-select"
       />
-      <select v-model="selectedYear" class="filter-select">
-        <option value="">All years</option>
-        <option v-for="year in availableYears" :key="year" :value="year">
-          {{ year }}
-        </option>
-      </select>
-      <button
+
+      <Button
         v-if="hasActiveFilters"
-        class="clear-filters"
+        label="Clear filters"
+        icon="pi pi-times"
+        severity="secondary"
+        outlined
         @click="clearFilters"
-      >
-        Clear filters
-      </button>
+      />
     </div>
 
-    <div v-if="pending" class="loading">Loading sets...</div>
+    <ProgressSpinner v-if="pending" class="loading-spinner" />
 
-    <div v-else-if="error" class="error">
+    <Message v-else-if="error" severity="error" :closable="false">
       Failed to load sets: {{ error.message }}
-    </div>
+    </Message>
 
-    <div v-else-if="filteredSets.length === 0" class="no-results">
+    <Message v-else-if="filteredSets.length === 0" severity="info" :closable="false">
       No sets found matching your filters
-    </div>
+    </Message>
 
     <div v-else class="sets-grid">
       <NuxtLink
@@ -52,7 +63,7 @@
         </div>
         <div class="set-info">
           <h2 class="set-name">{{ set.name }}</h2>
-          <p class="set-date">{{ formatDate(set.releaseDate) }}</p>
+          <Tag :value="formatDate(set.releaseDate)" severity="secondary" />
         </div>
       </NuxtLink>
     </div>
@@ -80,6 +91,11 @@ const availableYears = computed(() => {
   });
   return [...years].sort((a, b) => Number(b) - Number(a));
 });
+
+const yearOptions = computed(() => [
+  { label: 'All years', value: '' },
+  ...availableYears.value.map((year) => ({ label: year, value: year })),
+]);
 
 const hasActiveFilters = computed(() => {
   return searchQuery.value.trim() !== '' || selectedYear.value !== '';
@@ -138,19 +154,16 @@ function formatDate(dateStr: string): string {
   gap: 1rem;
 }
 
-.search-all-link {
-  padding: 0.5rem 1rem;
-  background: #3b82f6;
-  color: white;
-  text-decoration: none;
-  border-radius: 0.5rem;
-  font-size: 0.9rem;
-  font-weight: 500;
-  transition: background 0.15s;
+h1 {
+  color: var(--p-text-color);
+  font-size: 2rem;
+  margin: 0 0 0.5rem;
 }
 
-.search-all-link:hover {
-  background: #2563eb;
+.subtitle {
+  color: var(--p-text-muted-color);
+  font-size: 1rem;
+  margin: 0;
 }
 
 .filters-container {
@@ -161,91 +174,19 @@ function formatDate(dateStr: string): string {
   align-items: center;
 }
 
-.search-input {
+.search-field {
   flex: 1;
   min-width: 200px;
   max-width: 400px;
-  padding: 0.75rem 1rem;
-  font-size: 1rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.5rem;
-  outline: none;
-  transition: border-color 0.15s, box-shadow 0.15s;
 }
 
-.search-input:focus {
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+.year-select {
+  min-width: 150px;
 }
 
-.search-input::placeholder {
-  color: #9ca3af;
-}
-
-.filter-select {
-  padding: 0.75rem 1rem;
-  font-size: 1rem;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.5rem;
-  background: #fff;
-  cursor: pointer;
-  outline: none;
-  transition: border-color 0.15s, box-shadow 0.15s;
-}
-
-.filter-select:focus {
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-}
-
-.clear-filters {
-  padding: 0.75rem 1rem;
-  font-size: 0.9rem;
-  color: #6b7280;
-  background: #f3f4f6;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  transition: background 0.15s, color 0.15s;
-}
-
-.clear-filters:hover {
-  background: #e5e7eb;
-  color: #374151;
-}
-
-.no-results {
-  text-align: center;
-  padding: 3rem;
-  color: #6b7280;
-  background: #f9fafb;
-  border-radius: 0.5rem;
-}
-
-h1 {
-  color: #1f2937;
-  font-size: 2rem;
-  margin: 0 0 0.5rem;
-}
-
-.subtitle {
-  color: #6b7280;
-  font-size: 1rem;
-  margin: 0;
-}
-
-.loading {
-  text-align: center;
-  padding: 3rem;
-  color: #6b7280;
-}
-
-.error {
-  text-align: center;
-  padding: 2rem;
-  color: #dc2626;
-  background: #fef2f2;
-  border-radius: 0.5rem;
+.loading-spinner {
+  display: block;
+  margin: 3rem auto;
 }
 
 .sets-grid {
@@ -255,9 +196,9 @@ h1 {
 }
 
 .set-card {
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.75rem;
+  background: var(--p-surface-0);
+  border: 1px solid var(--p-surface-200);
+  border-radius: var(--p-border-radius);
   padding: 1rem;
   text-decoration: none;
   transition: transform 0.15s, box-shadow 0.15s;
@@ -269,7 +210,7 @@ h1 {
 .set-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
-  border-color: #3b82f6;
+  border-color: var(--p-primary-color);
 }
 
 .set-logo {
@@ -295,17 +236,11 @@ h1 {
 .set-name {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #1f2937;
-  margin: 0 0 0.25rem;
+  color: var(--p-text-color);
+  margin: 0 0 0.5rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.set-date {
-  font-size: 0.75rem;
-  color: #6b7280;
-  margin: 0;
 }
 
 @media (max-width: 640px) {

@@ -1,89 +1,117 @@
 <template>
   <div class="auth-container">
-    <div class="auth-card">
-      <h1>Login</h1>
+    <Card class="auth-card">
+      <template #title>
+        <h1>Login</h1>
+      </template>
 
-      <div v-if="errorMessage" class="error-message">
-        {{ errorMessage }}
-      </div>
+      <template #content>
+        <Message v-if="errorMessage" severity="error" :closable="false" class="mb-4">
+          {{ errorMessage }}
+        </Message>
 
-      <form v-if="!showMagicLink" @submit.prevent="handleEmailLogin">
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input
-            id="email"
-            v-model="email"
-            type="email"
-            required
-            placeholder="je@email.com"
+        <form v-if="!showMagicLink" @submit.prevent="handleEmailLogin">
+          <div class="field">
+            <label for="email">Email</label>
+            <InputText
+              id="email"
+              v-model="email"
+              type="email"
+              required
+              placeholder="je@email.com"
+              fluid
+            />
+          </div>
+
+          <div class="field">
+            <label for="password">Wachtwoord</label>
+            <Password
+              id="password"
+              v-model="password"
+              required
+              placeholder="********"
+              :feedback="false"
+              toggle-mask
+              fluid
+            />
+          </div>
+
+          <Button
+            type="submit"
+            :label="loading ? 'Bezig...' : 'Inloggen'"
+            :loading="loading"
+            :disabled="loading"
+            fluid
+          />
+        </form>
+
+        <form v-else @submit.prevent="handleMagicLink">
+          <div class="field">
+            <label for="magic-email">Email</label>
+            <InputText
+              id="magic-email"
+              v-model="email"
+              type="email"
+              required
+              placeholder="je@email.com"
+              fluid
+            />
+          </div>
+
+          <Button
+            type="submit"
+            :label="loading ? 'Bezig...' : 'Verstuur magic link'"
+            :loading="loading"
+            :disabled="loading"
+            fluid
+          />
+
+          <Message v-if="magicLinkSent" severity="success" :closable="false" class="mt-3">
+            Check je email voor de login link!
+          </Message>
+        </form>
+
+        <Button
+          :label="showMagicLink ? 'Login met wachtwoord' : 'Login met magic link'"
+          text
+          class="toggle-method"
+          @click="showMagicLink = !showMagicLink"
+        />
+
+        <Divider align="center">
+          <span class="divider-text">of</span>
+        </Divider>
+
+        <div class="oauth-buttons">
+          <Button
+            label="Google"
+            icon="pi pi-google"
+            severity="secondary"
+            outlined
+            @click="loginWithProvider('google')"
+          />
+          <Button
+            label="GitHub"
+            icon="pi pi-github"
+            severity="secondary"
+            outlined
+            @click="loginWithProvider('github')"
+          />
+          <Button
+            label="Microsoft"
+            icon="pi pi-microsoft"
+            severity="secondary"
+            outlined
+            @click="loginWithProvider('azure')"
           />
         </div>
 
-        <div class="form-group">
-          <label for="password">Wachtwoord</label>
-          <input
-            id="password"
-            v-model="password"
-            type="password"
-            required
-            placeholder="********"
-          />
-        </div>
-
-        <button type="submit" class="btn-primary" :disabled="loading">
-          {{ loading ? 'Bezig...' : 'Inloggen' }}
-        </button>
-      </form>
-
-      <form v-else @submit.prevent="handleMagicLink">
-        <div class="form-group">
-          <label for="magic-email">Email</label>
-          <input
-            id="magic-email"
-            v-model="email"
-            type="email"
-            required
-            placeholder="je@email.com"
-          />
-        </div>
-
-        <button type="submit" class="btn-primary" :disabled="loading">
-          {{ loading ? 'Bezig...' : 'Verstuur magic link' }}
-        </button>
-
-        <p v-if="magicLinkSent" class="success-message">
-          Check je email voor de login link!
+        <p class="auth-footer">
+          Nog geen account?
+          <NuxtLink to="/register">Registreer hier</NuxtLink>
         </p>
-      </form>
-
-      <button class="btn-link" @click="showMagicLink = !showMagicLink">
-        {{ showMagicLink ? 'Login met wachtwoord' : 'Login met magic link' }}
-      </button>
-
-      <div class="divider">
-        <span>of</span>
-      </div>
-
-      <div class="oauth-buttons">
-        <button class="btn-oauth btn-google" @click="loginWithProvider('google')">
-          <span class="icon">G</span>
-          Google
-        </button>
-        <button class="btn-oauth btn-github" @click="loginWithProvider('github')">
-          <span class="icon">GH</span>
-          GitHub
-        </button>
-        <button class="btn-oauth btn-azure" @click="loginWithProvider('azure')">
-          <span class="icon">M</span>
-          Microsoft
-        </button>
-      </div>
-
-      <p class="auth-footer">
-        Nog geen account?
-        <NuxtLink to="/register">Registreer hier</NuxtLink>
-      </p>
-    </div>
+      </template>
+    </Card>
   </div>
 </template>
 
@@ -166,105 +194,41 @@ async function loginWithProvider(provider: 'google' | 'github' | 'azure') {
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  background: #f9fafb;
 }
 
 .auth-card {
-  background: white;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 400px;
 }
 
-h1 {
+.auth-card :deep(.p-card-title) {
   text-align: center;
-  color: #1f2937;
-  margin: 0 0 1.5rem;
 }
 
-.form-group {
+h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.field {
   margin-bottom: 1rem;
 }
 
-label {
+.field label {
   display: block;
   font-size: 0.875rem;
   font-weight: 500;
-  color: #374151;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--p-text-color);
 }
 
-input {
+.toggle-method {
   width: 100%;
-  padding: 0.75rem;
-  border: 1px solid #d1d5db;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  box-sizing: border-box;
-}
-
-input:focus {
-  outline: none;
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-}
-
-.btn-primary {
-  width: 100%;
-  padding: 0.75rem;
-  background: #3b82f6;
-  color: white;
-  border: none;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background 0.15s;
-}
-
-.btn-primary:hover:not(:disabled) {
-  background: #2563eb;
-}
-
-.btn-primary:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-.btn-link {
-  width: 100%;
-  padding: 0.5rem;
-  background: none;
-  border: none;
-  color: #6b7280;
-  font-size: 0.875rem;
-  cursor: pointer;
   margin-top: 0.5rem;
 }
 
-.btn-link:hover {
-  color: #3b82f6;
-}
-
-.divider {
-  display: flex;
-  align-items: center;
-  margin: 1.5rem 0;
-}
-
-.divider::before,
-.divider::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: #e5e7eb;
-}
-
-.divider span {
-  padding: 0 1rem;
-  color: #9ca3af;
+.divider-text {
+  color: var(--p-text-muted-color);
   font-size: 0.875rem;
 }
 
@@ -274,65 +238,23 @@ input:focus {
   gap: 0.75rem;
 }
 
-.btn-oauth {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  padding: 0.75rem;
-  border: 1px solid #d1d5db;
-  border-radius: 0.5rem;
-  background: white;
-  font-size: 0.9rem;
-  cursor: pointer;
-  transition: background 0.15s;
-}
-
-.btn-oauth:hover {
-  background: #f9fafb;
-}
-
-.btn-oauth .icon {
-  font-weight: bold;
-}
-
-.btn-google {
-  color: #ea4335;
-}
-
-.btn-github {
-  color: #333;
-}
-
-.btn-azure {
-  color: #0078d4;
-}
-
-.error-message {
-  background: #fef2f2;
-  color: #dc2626;
-  padding: 0.75rem;
-  border-radius: 0.5rem;
+.mb-4 {
   margin-bottom: 1rem;
-  font-size: 0.875rem;
 }
 
-.success-message {
-  color: #059669;
-  font-size: 0.875rem;
-  margin-top: 0.5rem;
-  text-align: center;
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .auth-footer {
   text-align: center;
   margin-top: 1.5rem;
-  color: #6b7280;
+  color: var(--p-text-muted-color);
   font-size: 0.875rem;
 }
 
 .auth-footer a {
-  color: #3b82f6;
+  color: var(--p-primary-color);
   text-decoration: none;
 }
 

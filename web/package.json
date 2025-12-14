@@ -18,8 +18,11 @@
   "dependencies": {
     "@nuxtjs/supabase": "^2.0.3",
     "@pinia/nuxt": "^0.11.3",
+    "@primevue/nuxt-module": "^4.5.3",
+    "@primevue/themes": "^4.5.3",
     "nuxt": "^3.11.2",
     "pinia": "^3.0.4",
+    "primeicons": "^7.0.0",
     "vue": "^3.4.19"
   },
   "devDependencies": {

@@ -1,18 +1,28 @@
 <template>
   <div class="layout">
-    <nav class="navbar">
-      <div class="navbar-content">
-        <div class="navbar-left">
-          <NuxtLink to="/" class="navbar-brand">
+    <Toolbar class="navbar">
+      <template #start>
+        <div class="nav-start">
+          <NuxtLink to="/" class="brand">
+            <i class="pi pi-box mr-2" />
             Pokemon TCG Collection
           </NuxtLink>
-          <NuxtLink v-if="user" to="/collection" class="nav-link">
-            My Collection
-          </NuxtLink>
+          <Button
+            v-if="user"
+            as="router-link"
+            to="/collection"
+            label="My Collection"
+            icon="pi pi-folder"
+            text
+          />
         </div>
+      </template>
+
+      <template #end>
         <AuthButton />
-      </div>
-    </nav>
+      </template>
+    </Toolbar>
+
     <main class="main-content">
       <slot />
     </main>
@@ -31,61 +41,48 @@ const user = useSupabaseUser();
 }
 
 .navbar {
-  background: white;
-  border-bottom: 1px solid #e5e7eb;
-  padding: 0.75rem 1.5rem;
   position: sticky;
   top: 0;
   z-index: 100;
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
 }
 
-.navbar-content {
-  max-width: 1400px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar-left {
+.nav-start {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 0.5rem;
 }
 
-.nav-link {
-  color: #4b5563;
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.2s;
-}
-
-.nav-link:hover {
-  color: #3b82f6;
-}
-
-.navbar-brand {
+.brand {
+  display: flex;
+  align-items: center;
   font-size: 1.125rem;
   font-weight: 600;
-  color: #1f2937;
+  color: var(--p-text-color);
   text-decoration: none;
+  padding: 0.5rem;
+  border-radius: var(--p-border-radius);
+  transition: background-color 0.2s;
 }
 
-.navbar-brand:hover {
-  color: #3b82f6;
+.brand:hover {
+  background-color: var(--p-surface-100);
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
 }
 
 .main-content {
   flex: 1;
-  background: #f9fafb;
+  background: var(--p-surface-50);
 }
 
 @media (max-width: 640px) {
-  .navbar {
-    padding: 0.5rem 1rem;
-  }
-
-  .navbar-brand {
+  .brand {
     font-size: 1rem;
   }
 }

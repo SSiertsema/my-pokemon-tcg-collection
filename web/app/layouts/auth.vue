@@ -7,6 +7,6 @@
 <style scoped>
 .auth-layout {
   min-height: 100vh;
-  background: #f9fafb;
+  background: var(--p-surface-50);
 }
 </style>

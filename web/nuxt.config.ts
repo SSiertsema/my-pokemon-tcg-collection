@@ -1,9 +1,18 @@
 import { resolve } from 'path';
+import Aura from '@primevue/themes/aura';
 
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['@pinia/nuxt', '@nuxtjs/supabase'],
+  modules: ['@pinia/nuxt', '@nuxtjs/supabase', '@primevue/nuxt-module'],
+  primevue: {
+    options: {
+      theme: {
+        preset: Aura,
+      },
+    },
+  },
+  css: ['primeicons/primeicons.css'],
   ssr: true,
   srcDir: 'app/',
   typescript: {

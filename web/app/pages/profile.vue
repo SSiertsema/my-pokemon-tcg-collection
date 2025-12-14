@@ -1,47 +1,62 @@
 <template>
   <div class="profile-container">
-    <div class="profile-card">
-      <h1>Profiel</h1>
+    <Card class="profile-card">
+      <template #title>
+        <h1>Profiel</h1>
+      </template>
 
-      <div v-if="user" class="profile-info">
-        <div class="info-row">
-          <span class="label">Email</span>
-          <span class="value">{{ user.email }}</span>
-        </div>
-
-        <div class="info-row">
-          <span class="label">Aangemaakt op</span>
-          <span class="value">{{ formatDate(user.created_at) }}</span>
-        </div>
-
-        <div class="info-row">
-          <span class="label">Provider</span>
-          <span class="value">{{ provider }}</span>
-        </div>
-      </div>
-
-      <div class="profile-stats">
-        <h2>Collectie statistieken</h2>
-        <div class="stats-grid">
-          <div class="stat-item">
-            <span class="stat-value">{{ collectionStore.ownedCount }}</span>
-            <span class="stat-label">Kaarten in bezit</span>
+      <template #content>
+        <div v-if="user" class="profile-info">
+          <div class="info-row">
+            <span class="info-label">Email</span>
+            <span class="info-value">{{ user.email }}</span>
           </div>
-          <div class="stat-item">
-            <span class="stat-value">{{ collectionStore.wishlistCount }}</span>
-            <span class="stat-label">Op wishlist</span>
+
+          <div class="info-row">
+            <span class="info-label">Aangemaakt op</span>
+            <span class="info-value">{{ formatDate(user.created_at) }}</span>
+          </div>
+
+          <div class="info-row">
+            <span class="info-label">Provider</span>
+            <Tag :value="provider" />
           </div>
         </div>
-      </div>
 
-      <div class="profile-actions">
-        <button class="btn-logout" @click="handleLogout">
-          Uitloggen
-        </button>
-      </div>
+        <div class="profile-stats">
+          <h2>Collectie statistieken</h2>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-value">{{ collectionStore.ownedCount }}</span>
+              <span class="stat-label">Kaarten in bezit</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-value">{{ collectionStore.wishlistCount }}</span>
+              <span class="stat-label">Op wishlist</span>
+            </div>
+          </div>
+        </div>
 
-      <NuxtLink to="/" class="back-link">&larr; Terug naar sets</NuxtLink>
-    </div>
+        <div class="profile-actions">
+          <Button
+            label="Uitloggen"
+            icon="pi pi-sign-out"
+            severity="danger"
+            fluid
+            @click="handleLogout"
+          />
+        </div>
+
+        <Button
+          as="router-link"
+          to="/"
+          label="Terug naar sets"
+          icon="pi pi-arrow-left"
+          text
+          class="back-link"
+        />
+      </template>
+    </Card>
   </div>
 </template>
 
@@ -88,25 +103,20 @@ async function handleLogout() {
   align-items: flex-start;
   justify-content: center;
   padding: 2rem 1rem;
-  background: #f9fafb;
 }
 
 .profile-card {
-  background: white;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   width: 100%;
   max-width: 500px;
 }
 
-h1 {
-  color: #1f2937;
-  margin: 0 0 1.5rem;
+.profile-card h1 {
+  margin: 0;
+  font-size: 1.5rem;
 }
 
 h2 {
-  color: #374151;
+  color: var(--p-text-color);
   font-size: 1rem;
   margin: 0 0 1rem;
 }
@@ -118,25 +128,26 @@ h2 {
 .info-row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0.75rem 0;
-  border-bottom: 1px solid #f3f4f6;
+  border-bottom: 1px solid var(--p-surface-200);
 }
 
-.label {
-  color: #6b7280;
+.info-label {
+  color: var(--p-text-muted-color);
   font-size: 0.875rem;
 }
 
-.value {
-  color: #1f2937;
+.info-value {
+  color: var(--p-text-color);
   font-weight: 500;
   font-size: 0.875rem;
 }
 
 .profile-stats {
-  background: #f9fafb;
+  background: var(--p-surface-50);
   padding: 1rem;
-  border-radius: 0.5rem;
+  border-radius: var(--p-border-radius);
   margin-bottom: 2rem;
 }
 
@@ -154,44 +165,21 @@ h2 {
   display: block;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #3b82f6;
+  color: var(--p-primary-color);
 }
 
 .stat-label {
   font-size: 0.75rem;
-  color: #6b7280;
+  color: var(--p-text-muted-color);
 }
 
 .profile-actions {
   margin-bottom: 1.5rem;
 }
 
-.btn-logout {
-  width: 100%;
-  padding: 0.75rem;
-  background: #dc2626;
-  color: white;
-  border: none;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: background 0.15s;
-}
-
-.btn-logout:hover {
-  background: #b91c1c;
-}
-
 .back-link {
   display: block;
+  width: 100%;
   text-align: center;
-  color: #3b82f6;
-  text-decoration: none;
-  font-size: 0.875rem;
-}
-
-.back-link:hover {
-  text-decoration: underline;
 }
 </style>

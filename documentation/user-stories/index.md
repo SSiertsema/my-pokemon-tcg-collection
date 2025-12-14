@@ -64,6 +64,7 @@
 | [ ]    | US-018 | Collectie delen met anderen                 | Niet geïmplementeerd |
 | [ ]    | US-019 | Zelfgemaakte deck delen met anderen         | Niet geïmplementeerd |
 | [ ]    | US-020 | Offline toegang                             | Niet geïmplementeerd |
+| [ ]    | US-021 | Kaart navigatie via gestures                | Swipe left/right in CardModal |
 
 ---
 

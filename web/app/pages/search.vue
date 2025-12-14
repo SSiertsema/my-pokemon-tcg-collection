@@ -1,6 +1,13 @@
 <template>
   <div class="container">
-    <NuxtLink to="/" class="back-link">&larr; Back to sets</NuxtLink>
+    <Button
+      as="router-link"
+      to="/"
+      label="Back to sets"
+      icon="pi pi-arrow-left"
+      text
+      class="back-link"
+    />
 
     <header class="header">
       <h1>Search Cards</h1>
@@ -9,72 +16,77 @@
 
     <div class="search-section">
       <div class="search-bar">
-        <input
-          v-model="searchQuery"
-          type="search"
-          placeholder="Search by card name (min. 2 characters)..."
-          class="search-input"
-          @input="onSearchInput"
-        />
+        <IconField class="search-field">
+          <InputIcon class="pi pi-search" />
+          <InputText
+            v-model="searchQuery"
+            placeholder="Search by card name (min. 2 characters)..."
+            @input="onSearchInput"
+          />
+        </IconField>
         <span v-if="searchQuery.length > 0 && searchQuery.length < 2" class="search-hint">
           Type at least 2 characters
         </span>
       </div>
 
       <div v-if="hasResults" class="filters">
-        <div class="filter-group">
-          <label>Type</label>
-          <select v-model="selectedType" @change="applyFilters">
-            <option value="">All Types ({{ availableFilters.types.length }})</option>
-            <option v-for="type in availableFilters.types" :key="type.value" :value="type.value">
-              {{ type.value }} ({{ type.count }})
-            </option>
-          </select>
-        </div>
+        <Select
+          v-model="selectedType"
+          :options="typeOptions"
+          option-label="label"
+          option-value="value"
+          placeholder="All Types"
+          class="filter-select"
+          @change="applyFilters"
+        />
 
-        <div class="filter-group">
-          <label>Rarity</label>
-          <select v-model="selectedRarity" @change="applyFilters">
-            <option value="">All Rarities ({{ availableFilters.rarities.length }})</option>
-            <option v-for="rarity in availableFilters.rarities" :key="rarity.value" :value="rarity.value">
-              {{ rarity.value }} ({{ rarity.count }})
-            </option>
-          </select>
-        </div>
+        <Select
+          v-model="selectedRarity"
+          :options="rarityOptions"
+          option-label="label"
+          option-value="value"
+          placeholder="All Rarities"
+          class="filter-select"
+          @change="applyFilters"
+        />
 
-        <div class="filter-group">
-          <label>Series</label>
-          <select v-model="selectedSeries" @change="applyFilters">
-            <option value="">All Series ({{ availableFilters.series.length }})</option>
-            <option v-for="series in availableFilters.series" :key="series.value" :value="series.value">
-              {{ series.value }} ({{ series.count }})
-            </option>
-          </select>
-        </div>
+        <Select
+          v-model="selectedSeries"
+          :options="seriesOptions"
+          option-label="label"
+          option-value="value"
+          placeholder="All Series"
+          class="filter-select"
+          @change="applyFilters"
+        />
 
-        <div class="filter-group">
-          <label>Card Type</label>
-          <select v-model="selectedSupertype" @change="applyFilters">
-            <option value="">All ({{ availableFilters.supertypes.length }})</option>
-            <option v-for="st in availableFilters.supertypes" :key="st.value" :value="st.value">
-              {{ st.value }} ({{ st.count }})
-            </option>
-          </select>
-        </div>
+        <Select
+          v-model="selectedSupertype"
+          :options="supertypeOptions"
+          option-label="label"
+          option-value="value"
+          placeholder="All Card Types"
+          class="filter-select"
+          @change="applyFilters"
+        />
 
-        <button v-if="hasActiveFilters" class="reset-btn" @click="resetFilters">
-          Reset Filters
-        </button>
+        <Button
+          v-if="hasActiveFilters"
+          label="Reset"
+          icon="pi pi-times"
+          severity="danger"
+          size="small"
+          @click="resetFilters"
+        />
       </div>
     </div>
 
-    <div v-if="loading" class="loading">Loading cards index...</div>
+    <ProgressSpinner v-if="loading" class="loading-spinner" />
 
     <div v-else-if="searchQuery.length >= 2">
-      <div v-if="filteredResults.length === 0" class="no-results">
-        <p>No cards found for "{{ searchQuery }}"</p>
-        <p class="suggestion">Try a different search term or adjust your filters</p>
-      </div>
+      <Message v-if="filteredResults.length === 0" severity="info" :closable="false">
+        No cards found for "{{ searchQuery }}". Try a different search term or adjust your filters.
+      </Message>
 
       <div v-else>
         <p class="results-count">
@@ -94,27 +106,26 @@
             <div class="card-info">
               <p class="card-name">{{ card.n }}</p>
               <p class="card-set">{{ card.sn }}</p>
-              <p class="card-details">
-                #{{ card.nr }}
-                <span v-if="card.r" class="card-rarity">{{ card.r }}</span>
-              </p>
+              <div class="card-details">
+                <Tag :value="`#${card.nr}`" size="small" />
+                <Tag v-if="card.r" :value="card.r" severity="secondary" size="small" />
+              </div>
             </div>
           </button>
         </div>
 
-        <div v-if="filteredResults.length > pageSize" class="pagination">
-          <button :disabled="currentPage === 1" @click="currentPage--">
-            Previous
-          </button>
-          <span>Page {{ currentPage }} of {{ totalPages }}</span>
-          <button :disabled="currentPage >= totalPages" @click="currentPage++">
-            Next
-          </button>
-        </div>
+        <Paginator
+          v-if="filteredResults.length > pageSize"
+          v-model:first="first"
+          :rows="pageSize"
+          :total-records="filteredResults.length"
+          class="pagination"
+        />
       </div>
     </div>
 
     <div v-else class="empty-state">
+      <i class="pi pi-search empty-icon" />
       <p>Enter a card name to search</p>
       <p class="examples">Examples: Pikachu, Charizard, Energy, Trainer</p>
     </div>
@@ -142,7 +153,7 @@ const selectedType = ref('');
 const selectedRarity = ref('');
 const selectedSeries = ref('');
 const selectedSupertype = ref('');
-const currentPage = ref(1);
+const first = ref(0);
 const pageSize = 50;
 const selectedCardIndex = ref(-1);
 const selectedCardData = ref<Awaited<ReturnType<typeof getCard>> | null>(null);
@@ -157,6 +168,11 @@ const { data: cardsIndexData, pending: loading } = await useAsyncData(
 const cardsIndex = computed(() => cardsIndexData.value || []);
 
 const totalCards = computed(() => cardsIndex.value.length);
+
+const currentPage = computed({
+  get: () => Math.floor(first.value / pageSize) + 1,
+  set: (val) => { first.value = (val - 1) * pageSize; },
+});
 
 // Search results (before filters)
 const searchResults = computed(() => {
@@ -211,6 +227,27 @@ const availableFilters = computed(() => {
   };
 });
 
+// Select options
+const typeOptions = computed(() => [
+  { label: `All Types (${availableFilters.value.types.length})`, value: '' },
+  ...availableFilters.value.types.map((t) => ({ label: `${t.value} (${t.count})`, value: t.value })),
+]);
+
+const rarityOptions = computed(() => [
+  { label: `All Rarities (${availableFilters.value.rarities.length})`, value: '' },
+  ...availableFilters.value.rarities.map((r) => ({ label: `${r.value} (${r.count})`, value: r.value })),
+]);
+
+const seriesOptions = computed(() => [
+  { label: `All Series (${availableFilters.value.series.length})`, value: '' },
+  ...availableFilters.value.series.map((s) => ({ label: `${s.value} (${s.count})`, value: s.value })),
+]);
+
+const supertypeOptions = computed(() => [
+  { label: `All (${availableFilters.value.supertypes.length})`, value: '' },
+  ...availableFilters.value.supertypes.map((st) => ({ label: `${st.value} (${st.count})`, value: st.value })),
+]);
+
 // Filtered results (after applying filters)
 const filteredResults = computed(() => {
   let results = searchResults.value;
@@ -239,18 +276,17 @@ const hasActiveFilters = computed(() =>
 const totalPages = computed(() => Math.ceil(filteredResults.value.length / pageSize));
 
 const paginatedResults = computed(() => {
-  const start = (currentPage.value - 1) * pageSize;
-  return filteredResults.value.slice(start, start + pageSize);
+  return filteredResults.value.slice(first.value, first.value + pageSize);
 });
 
 // Methods
 function onSearchInput() {
-  currentPage.value = 1;
+  first.value = 0;
   resetFilters();
 }
 
 function applyFilters() {
-  currentPage.value = 1;
+  first.value = 0;
 }
 
 function resetFilters() {
@@ -258,7 +294,7 @@ function resetFilters() {
   selectedRarity.value = '';
   selectedSeries.value = '';
   selectedSupertype.value = '';
-  currentPage.value = 1;
+  first.value = 0;
 }
 
 function getCardImage(card: CardIndexEntry): string {
@@ -297,15 +333,7 @@ async function navigateToNext() {
 }
 
 .back-link {
-  display: inline-block;
-  color: #3b82f6;
-  text-decoration: none;
   margin-bottom: 1rem;
-  font-size: 0.9rem;
-}
-
-.back-link:hover {
-  text-decoration: underline;
 }
 
 .header {
@@ -313,13 +341,13 @@ async function navigateToNext() {
 }
 
 h1 {
-  color: #1f2937;
+  color: var(--p-text-color);
   font-size: 2rem;
   margin: 0 0 0.5rem;
 }
 
 .subtitle {
-  color: #6b7280;
+  color: var(--p-text-muted-color);
   font-size: 1rem;
   margin: 0;
 }
@@ -333,18 +361,8 @@ h1 {
   margin-bottom: 1rem;
 }
 
-.search-input {
+.search-field {
   width: 100%;
-  padding: 0.75rem 1rem;
-  font-size: 1rem;
-  border: 2px solid #e5e7eb;
-  border-radius: 0.5rem;
-  outline: none;
-  transition: border-color 0.15s;
-}
-
-.search-input:focus {
-  border-color: #3b82f6;
 }
 
 .search-hint {
@@ -352,73 +370,48 @@ h1 {
   right: 1rem;
   top: 50%;
   transform: translateY(-50%);
-  color: #9ca3af;
+  color: var(--p-text-muted-color);
   font-size: 0.875rem;
 }
 
 .filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  align-items: flex-end;
+  gap: 0.75rem;
+  align-items: center;
   padding: 1rem;
-  background: #f9fafb;
-  border-radius: 0.5rem;
+  background: var(--p-surface-50);
+  border-radius: var(--p-border-radius);
 }
 
-.filter-group {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.filter-group label {
-  font-size: 0.75rem;
-  font-weight: 500;
-  color: #6b7280;
-  text-transform: uppercase;
-}
-
-.filter-group select {
-  padding: 0.5rem 0.75rem;
-  border: 1px solid #d1d5db;
-  border-radius: 0.375rem;
-  background: white;
-  font-size: 0.875rem;
+.filter-select {
   min-width: 150px;
 }
 
-.reset-btn {
-  padding: 0.5rem 1rem;
-  background: #ef4444;
-  color: white;
-  border: none;
-  border-radius: 0.375rem;
-  font-size: 0.875rem;
-  cursor: pointer;
+.loading-spinner {
+  display: block;
+  margin: 3rem auto;
 }
 
-.reset-btn:hover {
-  background: #dc2626;
-}
-
-.loading,
-.empty-state,
-.no-results {
+.empty-state {
   text-align: center;
   padding: 3rem;
-  color: #6b7280;
+  color: var(--p-text-muted-color);
 }
 
-.examples,
-.suggestion {
+.empty-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  opacity: 0.5;
+}
+
+.examples {
   font-size: 0.875rem;
-  color: #9ca3af;
   margin-top: 0.5rem;
 }
 
 .results-count {
-  color: #6b7280;
+  color: var(--p-text-muted-color);
   font-size: 0.875rem;
   margin-bottom: 1rem;
 }
@@ -430,9 +423,9 @@ h1 {
 }
 
 .card-item {
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.5rem;
+  background: var(--p-surface-0);
+  border: 1px solid var(--p-surface-200);
+  border-radius: var(--p-border-radius);
   overflow: hidden;
   transition: transform 0.15s, box-shadow 0.15s;
   cursor: pointer;
@@ -448,7 +441,7 @@ h1 {
 
 .card-image {
   aspect-ratio: 2.5 / 3.5;
-  background: #f3f4f6;
+  background: var(--p-surface-100);
 }
 
 .card-image img {
@@ -464,7 +457,7 @@ h1 {
 .card-name {
   font-size: 0.8rem;
   font-weight: 500;
-  color: #1f2937;
+  color: var(--p-text-color);
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -473,7 +466,7 @@ h1 {
 
 .card-set {
   font-size: 0.7rem;
-  color: #3b82f6;
+  color: var(--p-primary-color);
   margin: 0.125rem 0 0;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -481,46 +474,13 @@ h1 {
 }
 
 .card-details {
-  font-size: 0.7rem;
-  color: #6b7280;
-  margin: 0.25rem 0 0;
-}
-
-.card-rarity {
-  margin-left: 0.5rem;
-  color: #9ca3af;
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.25rem;
 }
 
 .pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
   margin-top: 2rem;
-  padding: 1rem;
-}
-
-.pagination button {
-  padding: 0.5rem 1rem;
-  background: #3b82f6;
-  color: white;
-  border: none;
-  border-radius: 0.375rem;
-  cursor: pointer;
-}
-
-.pagination button:disabled {
-  background: #d1d5db;
-  cursor: not-allowed;
-}
-
-.pagination button:not(:disabled):hover {
-  background: #2563eb;
-}
-
-.pagination span {
-  color: #6b7280;
-  font-size: 0.875rem;
 }
 
 @media (max-width: 768px) {
@@ -529,7 +489,7 @@ h1 {
     align-items: stretch;
   }
 
-  .filter-group select {
+  .filter-select {
     width: 100%;
   }
 

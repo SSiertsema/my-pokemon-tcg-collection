@@ -6,28 +6,55 @@
     </div>
 
     <div class="stats-grid">
-      <div class="stat-card">
-        <div class="stat-value">{{ collectionStore.ownedCount }}</div>
-        <div class="stat-label">Cards Owned</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-value">{{ collectionStore.wishlistCount }}</div>
-        <div class="stat-label">On Wishlist</div>
-      </div>
+      <Card class="stat-card">
+        <template #content>
+          <div class="stat-content">
+            <span class="stat-value">{{ collectionStore.ownedCount }}</span>
+            <span class="stat-label">Cards Owned</span>
+          </div>
+        </template>
+      </Card>
+      <Card class="stat-card">
+        <template #content>
+          <div class="stat-content">
+            <span class="stat-value">{{ collectionStore.wishlistCount }}</span>
+            <span class="stat-label">On Wishlist</span>
+          </div>
+        </template>
+      </Card>
     </div>
 
-    <div v-if="collectionStore.ownedCount === 0" class="empty-state">
-      <p>You haven't added any cards to your collection yet.</p>
-      <NuxtLink to="/" class="browse-link">Browse Sets</NuxtLink>
-    </div>
+    <Card v-if="collectionStore.ownedCount === 0" class="empty-state-card">
+      <template #content>
+        <div class="empty-state">
+          <i class="pi pi-inbox empty-icon" />
+          <p>You haven't added any cards to your collection yet.</p>
+          <Button
+            as="router-link"
+            to="/"
+            label="Browse Sets"
+            icon="pi pi-search"
+          />
+        </div>
+      </template>
+    </Card>
 
-    <div v-else class="collection-content">
-      <h2>Your Collection</h2>
-      <p class="collection-hint">
-        Browse sets and click on cards to add them to your collection.
-      </p>
-      <NuxtLink to="/" class="browse-link">Browse Sets</NuxtLink>
-    </div>
+    <Card v-else>
+      <template #title>
+        Your Collection
+      </template>
+      <template #content>
+        <p class="collection-hint">
+          Browse sets and click on cards to add them to your collection.
+        </p>
+        <Button
+          as="router-link"
+          to="/"
+          label="Browse Sets"
+          icon="pi pi-search"
+        />
+      </template>
+    </Card>
   </div>
 </template>
 
@@ -69,12 +96,12 @@ const displayName = computed(() => {
 .welcome-section h1 {
   font-size: 2rem;
   font-weight: 700;
-  color: #1f2937;
+  color: var(--p-text-color);
   margin: 0 0 0.5rem 0;
 }
 
 .welcome-subtitle {
-  color: #6b7280;
+  color: var(--p-text-muted-color);
   font-size: 1.125rem;
   margin: 0;
 }
@@ -86,68 +113,50 @@ const displayName = computed(() => {
   margin-bottom: 2rem;
 }
 
-.stat-card {
-  background: white;
-  border-radius: 12px;
+.stat-card :deep(.p-card-body) {
   padding: 1.5rem;
+}
+
+.stat-content {
   text-align: center;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .stat-value {
+  display: block;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #3b82f6;
+  color: var(--p-primary-color);
 }
 
 .stat-label {
-  color: #6b7280;
+  display: block;
+  color: var(--p-text-muted-color);
   margin-top: 0.5rem;
+}
+
+.empty-state-card :deep(.p-card-body) {
+  padding: 0;
 }
 
 .empty-state {
   text-align: center;
   padding: 3rem;
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.empty-icon {
+  font-size: 3rem;
+  color: var(--p-text-muted-color);
+  opacity: 0.5;
+  margin-bottom: 1rem;
 }
 
 .empty-state p {
-  color: #6b7280;
+  color: var(--p-text-muted-color);
   margin: 0 0 1.5rem 0;
 }
 
-.browse-link {
-  display: inline-block;
-  background: #3b82f6;
-  color: white;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: background 0.2s;
-}
-
-.browse-link:hover {
-  background: #2563eb;
-}
-
-.collection-content {
-  background: white;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.collection-content h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-  color: #1f2937;
-}
-
 .collection-hint {
-  color: #6b7280;
+  color: var(--p-text-muted-color);
   margin: 0 0 1.5rem 0;
 }
 

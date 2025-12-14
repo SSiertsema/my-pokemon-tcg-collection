@@ -1,12 +1,19 @@
 <template>
   <div class="container">
-    <NuxtLink to="/" class="back-link">&larr; Back to sets</NuxtLink>
+    <Button
+      as="router-link"
+      to="/"
+      label="Back to sets"
+      icon="pi pi-arrow-left"
+      text
+      class="back-link"
+    />
 
-    <div v-if="pending" class="loading">Loading set...</div>
+    <ProgressSpinner v-if="pending" class="loading-spinner" />
 
-    <div v-else-if="error" class="error">
+    <Message v-else-if="error" severity="error" :closable="false">
       Failed to load set: {{ error.message }}
-    </div>
+    </Message>
 
     <template v-else-if="set">
       <header class="set-header">
@@ -16,28 +23,30 @@
         <div class="set-meta">
           <h1>{{ set.name }}</h1>
           <div class="meta-details">
-            <span class="meta-item">
-              <strong>Series:</strong> {{ set.series }}
-            </span>
-            <span class="meta-item">
-              <strong>Released:</strong> {{ formatDate(set.releaseDate) }}
-            </span>
-            <span class="meta-item">
-              <strong>Cards:</strong> {{ set.total }} ({{ set.printedTotal }} printed)
-            </span>
-            <span v-if="set.ptcgoCode" class="meta-item">
-              <strong>PTCGO:</strong> {{ set.ptcgoCode }}
-            </span>
+            <div class="meta-item">
+              <span class="meta-label">Series</span>
+              <span class="meta-value">{{ set.series }}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Released</span>
+              <span class="meta-value">{{ formatDate(set.releaseDate) }}</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Cards</span>
+              <span class="meta-value">{{ set.total }} ({{ set.printedTotal }} printed)</span>
+            </div>
+            <div v-if="set.ptcgoCode" class="meta-item">
+              <span class="meta-label">PTCGO</span>
+              <span class="meta-value">{{ set.ptcgoCode }}</span>
+            </div>
           </div>
           <div class="legalities">
-            <span
+            <Tag
               v-for="(status, format) in set.legalities"
               :key="format"
-              class="legality-badge"
-              :class="status.toLowerCase()"
-            >
-              {{ format }}
-            </span>
+              :value="String(format)"
+              :severity="status === 'Legal' ? 'success' : 'secondary'"
+            />
           </div>
         </div>
       </header>
@@ -45,7 +54,7 @@
       <section class="cards-section">
         <h2>Cards ({{ cards.length }})</h2>
 
-        <div v-if="cardsPending" class="loading">Loading cards...</div>
+        <ProgressSpinner v-if="cardsPending" class="loading-spinner" />
 
         <div v-else class="cards-grid">
           <button
@@ -61,16 +70,28 @@
             <div class="card-image">
               <img :src="card.images.small" :alt="card.name" loading="lazy" />
               <div v-if="user" class="card-badges">
-                <span v-if="collectionStore.isOwned(card.id)" class="badge badge-owned" title="Owned">✓</span>
-                <span v-if="collectionStore.isWishlisted(card.id)" class="badge badge-wish" title="Wishlist">★</span>
+                <Tag
+                  v-if="collectionStore.isOwned(card.id)"
+                  icon="pi pi-check"
+                  severity="success"
+                  rounded
+                  class="badge"
+                />
+                <Tag
+                  v-if="collectionStore.isWishlisted(card.id)"
+                  icon="pi pi-star-fill"
+                  severity="warn"
+                  rounded
+                  class="badge"
+                />
               </div>
             </div>
             <div class="card-info">
               <p class="card-name">{{ card.name }}</p>
-              <p class="card-details">
-                #{{ card.number }}
-                <span v-if="card.rarity" class="card-rarity">{{ card.rarity }}</span>
-              </p>
+              <div class="card-details">
+                <Tag :value="`#${card.number}`" size="small" />
+                <Tag v-if="card.rarity" :value="card.rarity" severity="secondary" size="small" />
+              </div>
             </div>
           </button>
         </div>
@@ -154,29 +175,12 @@ function formatDate(dateStr: string): string {
 }
 
 .back-link {
-  display: inline-block;
-  color: #3b82f6;
-  text-decoration: none;
   margin-bottom: 1.5rem;
-  font-size: 0.9rem;
 }
 
-.back-link:hover {
-  text-decoration: underline;
-}
-
-.loading {
-  text-align: center;
-  padding: 3rem;
-  color: #6b7280;
-}
-
-.error {
-  text-align: center;
-  padding: 2rem;
-  color: #dc2626;
-  background: #fef2f2;
-  border-radius: 0.5rem;
+.loading-spinner {
+  display: block;
+  margin: 3rem auto;
 }
 
 .set-header {
@@ -184,7 +188,7 @@ function formatDate(dateStr: string): string {
   gap: 2rem;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid var(--p-surface-200);
 }
 
 .set-logo {
@@ -199,24 +203,34 @@ function formatDate(dateStr: string): string {
 
 .set-meta h1 {
   font-size: 1.75rem;
-  color: #1f2937;
+  color: var(--p-text-color);
   margin: 0 0 1rem;
 }
 
 .meta-details {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem 2rem;
+  gap: 1.5rem;
   margin-bottom: 1rem;
 }
 
 .meta-item {
-  font-size: 0.9rem;
-  color: #4b5563;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
 }
 
-.meta-item strong {
-  color: #1f2937;
+.meta-label {
+  font-size: 0.75rem;
+  color: var(--p-text-muted-color);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.meta-value {
+  font-size: 0.9rem;
+  color: var(--p-text-color);
+  font-weight: 500;
 }
 
 .legalities {
@@ -225,23 +239,9 @@ function formatDate(dateStr: string): string {
   flex-wrap: wrap;
 }
 
-.legality-badge {
-  font-size: 0.75rem;
-  padding: 0.25rem 0.75rem;
-  border-radius: 9999px;
-  background: #e5e7eb;
-  color: #374151;
-  text-transform: capitalize;
-}
-
-.legality-badge.legal {
-  background: #d1fae5;
-  color: #065f46;
-}
-
 .cards-section h2 {
   font-size: 1.25rem;
-  color: #1f2937;
+  color: var(--p-text-color);
   margin: 0 0 1rem;
 }
 
@@ -252,9 +252,9 @@ function formatDate(dateStr: string): string {
 }
 
 .card-item {
-  background: #fff;
-  border: 1px solid #e5e7eb;
-  border-radius: 0.5rem;
+  background: var(--p-surface-0);
+  border: 1px solid var(--p-surface-200);
+  border-radius: var(--p-border-radius);
   overflow: hidden;
   transition: transform 0.15s, box-shadow 0.15s;
   cursor: pointer;
@@ -270,7 +270,7 @@ function formatDate(dateStr: string): string {
 
 .card-image {
   aspect-ratio: 2.5 / 3.5;
-  background: #f3f4f6;
+  background: var(--p-surface-100);
   position: relative;
 }
 
@@ -290,34 +290,19 @@ function formatDate(dateStr: string): string {
 }
 
 .badge {
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  padding: 0 !important;
   justify-content: center;
-  font-size: 0.75rem;
-  font-weight: 600;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-}
-
-.badge-owned {
-  background: #10b981;
-  color: white;
-}
-
-.badge-wish {
-  background: #f59e0b;
-  color: white;
 }
 
 .card-item.is-owned {
-  border-color: #10b981;
+  border-color: var(--p-green-500);
   box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
 }
 
 .card-item.is-wishlisted:not(.is-owned) {
-  border-color: #f59e0b;
+  border-color: var(--p-yellow-500);
   box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2);
 }
 
@@ -328,7 +313,7 @@ function formatDate(dateStr: string): string {
 .card-name {
   font-size: 0.8rem;
   font-weight: 500;
-  color: #1f2937;
+  color: var(--p-text-color);
   margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -336,14 +321,9 @@ function formatDate(dateStr: string): string {
 }
 
 .card-details {
-  font-size: 0.7rem;
-  color: #6b7280;
-  margin: 0.25rem 0 0;
-}
-
-.card-rarity {
-  margin-left: 0.5rem;
-  color: #9ca3af;
+  display: flex;
+  gap: 0.25rem;
+  margin-top: 0.25rem;
 }
 
 @media (max-width: 768px) {
