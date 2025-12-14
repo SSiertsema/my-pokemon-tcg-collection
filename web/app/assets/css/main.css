@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Body text - always readable */
+    --app-font-body: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+    /* Theme font - for headlines and interactive elements (default to Raleway) */
+    --app-font-theme: 'Raleway', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+    /* PrimeVue defaults to body font for readability */
+    --p-font-family: var(--app-font-body);
+    --font-family: var(--app-font-body);
+  }
+
+  html {
+    @apply antialiased;
+    /* Body text uses readable font */
+    font-family: var(--app-font-body) !important;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-50;
+    /* Inherit body font from html */
+    font-family: var(--app-font-body) !important;
+  }
+
+  /* Headlines use theme font */
+  h1, h2, h3, h4, h5, h6,
+  .heading {
+    font-family: var(--app-font-theme) !important;
+  }
+
+  /* Interactive elements use theme font */
+  button,
+  button *:not([class*="pi-"]):not(i),
+  .p-button,
+  .p-button *:not([class*="pi-"]):not(i),
+  .p-button-label,
+  [class*="p-button"],
+  .p-toolbar,
+  .p-menubar,
+  .p-menu,
+  label[for],
+  .p-component label:not(.p-checkbox-label):not(.p-radiobutton-label) {
+    font-family: var(--app-font-theme) !important;
+  }
+
+  /* Inputs and form fields stay with body font for readability */
+  .p-inputtext,
+  .p-textarea,
+  .p-dropdown-label,
+  input,
+  textarea,
+  select,
+  .p-dialog-content p,
+  .p-dialog-content div:not([class*="p-button"]) {
+    font-family: var(--app-font-body) !important;
+  }
+
+  /* Allow font preview samples to use their own inline font styles */
+  .font-preview-sample {
+    /* Font family is set via inline style */
+  }
+
+  /* Preserve icon fonts */
+  i[class*="pi-"],
+  .pi,
+  [class*="pi-"]::before {
+    font-family: 'primeicons' !important;
+  }
+}
+
+@layer utilities {
+  /* Tabular numbers for consistent digit width */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Custom scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-gray-100 dark:bg-gray-800;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-gray-300 dark:bg-gray-600 rounded;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-400 dark:bg-gray-500;
+  }
+}
