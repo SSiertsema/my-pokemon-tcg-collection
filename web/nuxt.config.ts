@@ -24,7 +24,6 @@ export default defineNuxtConfig({
     dataPath: process.env.POKEMON_DATA_PATH || resolve(__dirname, '../data'),
   },
   supabase: {
-    types: './types/database.ts',
     redirectOptions: {
       login: '/login',
       callback: '/auth/confirm',
