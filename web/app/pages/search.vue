@@ -20,14 +20,16 @@
           <InputIcon class="pi pi-search" />
           <InputText
             v-model="searchQuery"
-            placeholder="Search by card name (min. 2 characters)..."
+            placeholder="Search cards... (e.g. pikachu type:lightning)"
             @input="onSearchInput"
           />
         </IconField>
-        <span v-if="searchQuery.length > 0 && searchQuery.length < 2" class="search-hint">
+        <span v-if="searchQuery.length > 0 && parsedSearch.query.length < 2 && !hasModifierFilters" class="search-hint">
           Type at least 2 characters
         </span>
       </div>
+
+      <SearchHelp @use-example="useExample" />
 
       <div v-if="hasResults" class="filters">
         <Select
@@ -83,7 +85,7 @@
 
     <ProgressSpinner v-if="loading" class="loading-spinner" />
 
-    <div v-else-if="searchQuery.length >= 2">
+    <div v-else-if="parsedSearch.query.length >= 2 || hasModifierFilters">
       <Message v-if="filteredResults.length === 0" severity="info" :closable="false">
         No cards found for "{{ searchQuery }}". Try a different search term or adjust your filters.
       </Message>
@@ -126,8 +128,8 @@
 
     <div v-else class="empty-state">
       <i class="pi pi-search empty-icon" />
-      <p>Enter a card name to search</p>
-      <p class="examples">Examples: Pikachu, Charizard, Energy, Trainer</p>
+      <p>Enter a card name or use modifiers to search</p>
+      <p class="examples">Try: pikachu, type:fire, is:trainer</p>
     </div>
 
     <CardModal
@@ -146,6 +148,7 @@
 import type { CardIndexEntry } from '~/composables/useLocalData';
 
 const { getCardsIndex, getCard } = useLocalData();
+const { parseQuery } = useSearchParser();
 
 // State
 const searchQuery = ref('');
@@ -153,10 +156,19 @@ const selectedType = ref('');
 const selectedRarity = ref('');
 const selectedSeries = ref('');
 const selectedSupertype = ref('');
+const selectedSet = ref('');
 const first = ref(0);
 const pageSize = 50;
 const selectedCardIndex = ref(-1);
 const selectedCardData = ref<Awaited<ReturnType<typeof getCard>> | null>(null);
+
+// Parsed search query
+const parsedSearch = computed(() => parseQuery(searchQuery.value));
+
+const hasModifierFilters = computed(() => {
+  const f = parsedSearch.value.filters;
+  return !!(f.type || f.rarity || f.series || f.supertype || f.set);
+});
 
 // Load cards index
 const { data: cardsIndexData, pending: loading } = await useAsyncData(
@@ -174,14 +186,49 @@ const currentPage = computed({
   set: (val) => { first.value = (val - 1) * pageSize; },
 });
 
-// Search results (before filters)
+// Search results (before dropdown filters)
 const searchResults = computed(() => {
-  if (searchQuery.value.length < 2) return [];
+  const parsed = parsedSearch.value;
+  const query = parsed.query.toLowerCase();
 
-  const query = searchQuery.value.toLowerCase();
-  return cardsIndex.value.filter(card =>
-    card.n.toLowerCase().includes(query)
-  );
+  // Need either a 2+ char query OR at least one modifier filter
+  if (query.length < 2 && !hasModifierFilters.value) return [];
+
+  return cardsIndex.value.filter((card) => {
+    // Name filter
+    if (query.length >= 2) {
+      if (parsed.exactMatch) {
+        if (card.n.toLowerCase() !== query) return false;
+      } else {
+        if (!card.n.toLowerCase().includes(query)) return false;
+      }
+    }
+
+    // Modifier filters from search query
+    const f = parsed.filters;
+
+    if (f.type && !card.t.some(t => t.toLowerCase() === f.type!.toLowerCase())) {
+      return false;
+    }
+
+    if (f.rarity && card.r?.toLowerCase() !== f.rarity.toLowerCase()) {
+      return false;
+    }
+
+    if (f.series && !card.sr?.toLowerCase().includes(f.series.toLowerCase())) {
+      return false;
+    }
+
+    if (f.supertype && card.st?.toLowerCase() !== f.supertype.toLowerCase()) {
+      return false;
+    }
+
+    if (f.set && card.si?.toLowerCase() !== f.set.toLowerCase()) {
+      return false;
+    }
+
+    return true;
+  });
 });
 
 const hasResults = computed(() => searchResults.value.length > 0);
@@ -281,6 +328,12 @@ const paginatedResults = computed(() => {
 
 // Methods
 function onSearchInput() {
+  first.value = 0;
+  resetFilters();
+}
+
+function useExample(example: string) {
+  searchQuery.value = example;
   first.value = 0;
   resetFilters();
 }
