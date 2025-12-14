@@ -76,10 +76,10 @@
 | Fase 1: Foundation       | 3        | 0     | 0       | 3      |
 | Fase 2: Core Browse      | 3        | 0     | 0       | 3      |
 | Fase 3: Core Collectie   | 2        | 0     | 3       | 5      |
-| Fase 4: Enhanced         | 0        | 0     | 6       | 6      |
-| **Totaal**               | **10**   | **1** | **9**   | **20** |
+| Fase 4: Enhanced         | 0        | 0     | 7       | 7      |
+| **Totaal**               | **10**   | **1** | **10**  | **21** |
 
-**Voortgang:** ~53% (10.5 van 20 user stories)
+**Voortgang:** ~50% (10.5 van 21 user stories)
 
 ---
 
