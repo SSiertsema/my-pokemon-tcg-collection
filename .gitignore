@@ -28,4 +28,4 @@ Thumbs.db
 .prettierignore
 
 # Card images (too large for git ~17GB, download with scripts/download-set-images.js)
-app/public/images/
+web/app/public/images/

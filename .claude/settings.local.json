@@ -63,7 +63,8 @@
       "Bash(do echo \"\")",
       "Bash(continue)",
       "Bash(identify:*)",
-      "Bash(npm run dev:*)"
+      "Bash(npm run dev:*)",
+      "Bash(git add:*)"
     ]
   }
 }

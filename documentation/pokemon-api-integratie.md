@@ -1,6 +1,130 @@
-# Pokemon TCG API Integratie
+# Pokemon TCG Data Integratie
 
-## Onderzoeksresultaten
+## Huidige Aanpak: Lokale Data
+
+De applicatie maakt gebruik van **lokaal opgeslagen JSON bestanden** in plaats van directe API calls naar de Pokemon TCG API. Dit biedt betere performance, offline toegang en voorkomt rate limiting.
+
+### Data Structuur
+
+```
+data/
+├── sets.json              # Index van alle sets (voor overzichtspagina)
+├── sets/
+│   ├── base1.json         # Set details + lijst van kaart-IDs
+│   ├── base2.json
+│   └── ...
+└── cards/
+    ├── base1-1.json       # Individuele kaart data
+    ├── base1-2.json
+    └── ...
+```
+
+### sets.json (Index)
+
+Compacte index voor het sets-overzicht:
+
+```typescript
+interface SetsIndex {
+  sets: Array<{
+    id: string;           // "base1"
+    name: string;         // "Base"
+    releaseDate: string;  // "1999/01/09"
+    logo: string;         // URL naar set logo
+    search: string[];     // Zoektermen voor filtering
+  }>;
+}
+```
+
+### sets/{id}.json (Set Details)
+
+Volledige set informatie inclusief lijst van kaart-IDs:
+
+```typescript
+interface SetDetail {
+  id: string;
+  name: string;
+  series: string;
+  printedTotal: number;
+  total: number;
+  legalities: Record<string, string>;
+  ptcgoCode?: string;
+  releaseDate: string;
+  updatedAt: string;
+  images: {
+    symbol: string;
+    logo: string;
+  };
+  cards: string[];  // Array van kaart-IDs: ["base1-1", "base1-2", ...]
+}
+```
+
+### cards/{id}.json (Kaart Data)
+
+Volledige kaart informatie (oorspronkelijk van Pokemon TCG API):
+
+```typescript
+interface Card {
+  id: string;           // "base1-4"
+  name: string;         // "Charizard"
+  supertype: string;    // "Pokémon"
+  subtypes?: string[];  // ["Stage 2"]
+  hp?: string;          // "120"
+  types?: string[];     // ["Fire"]
+  number: string;
+  artist?: string;
+  rarity?: string;
+  images: {
+    small: string;
+    large: string;
+  };
+  // ... overige velden
+}
+```
+
+### Server API Endpoints
+
+De Nuxt server biedt API routes voor de lokale data:
+
+| Endpoint | Methode | Beschrijving |
+|----------|---------|--------------|
+| `/api/local/sets` | GET | Alle sets (index) |
+| `/api/local/sets/:id` | GET | Set details + kaart-IDs |
+| `/api/local/cards/:id` | GET | Enkele kaart |
+| `/api/local/cards/batch` | POST | Meerdere kaarten (body: `{ ids: string[] }`) |
+
+### Composable: useLocalData()
+
+```typescript
+const { getSetsIndex, getSet, getCard, getCardsForSet } = useLocalData();
+
+// Alle sets ophalen
+const sets = await getSetsIndex();
+
+// Set details ophalen
+const baseSet = await getSet('base1');
+
+// Kaarten van een set laden
+const cards = await getCardsForSet(baseSet.cards);
+
+// Enkele kaart ophalen
+const charizard = await getCard('base1-4');
+```
+
+### Configuratie
+
+De data locatie wordt geconfigureerd in `nuxt.config.ts`:
+
+```typescript
+runtimeConfig: {
+  dataPath: process.env.POKEMON_DATA_PATH || resolve(__dirname, '../data'),
+}
+```
+
+---
+
+## Oorspronkelijke Onderzoeksresultaten
+
+> **Note:** De onderstaande informatie beschrijft de Pokemon TCG API die werd gebruikt om de lokale data te genereren. De applicatie maakt geen directe API calls meer.
 
 ### Beschikbare SDK's
 

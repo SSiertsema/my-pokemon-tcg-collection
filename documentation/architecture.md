@@ -34,25 +34,39 @@ Pokemon-collectie-app is a template application for managing Trading Card Game (
 - `composables/` - Vue composition API utilities
 - `stores/` - State management (Pinia)
 
-### API Integration
+### Data Layer: Lokale JSON Bestanden
 
-**Purpose:** Communicate with the Pokemon TCG API for card data.
+**Purpose:** Provide fast, offline-capable access to Pokemon card data.
 
-**Integration approach:**
+**Aanpak:**
 
-- Use the official [pokemon-tcg-sdk-typescript](https://github.com/PokemonTCG/pokemon-tcg-sdk-typescript) SDK
-- SDK provides native TypeScript types for Cards, Sets, Attacks, Abilities, etc.
-- No code generation needed - types are included in the package
+De applicatie gebruikt lokaal opgeslagen JSON bestanden in plaats van directe API calls:
 
-**API Details:**
+```
+data/
+├── sets.json           # Index van alle sets
+├── sets/{id}.json      # Set details per set
+└── cards/{id}.json     # Individuele kaart data
+```
 
-- API: [Pokemon TCG API](https://docs.pokemontcg.io)
-- Rate limits: 1.000/dag zonder key, 20.000/dag met API key
-- API key verkrijgbaar via [Developer Portal](https://dev.pokemontcg.io)
+**Voordelen:**
+- Snelle laadtijden (geen netwerk latency)
+- Werkt offline
+- Geen rate limiting
+- Voorspelbare performance
+
+**Server API's:**
+
+| Route | Beschrijving |
+|-------|--------------|
+| `/api/local/sets` | Sets index |
+| `/api/local/sets/:id` | Set details |
+| `/api/local/cards/:id` | Enkele kaart |
+| `/api/local/cards/batch` | Batch kaarten ophalen |
 
 Zie [pokemon-api-integratie.md](./pokemon-api-integratie.md) voor gedetailleerde informatie.
 
-### Data Layer (Planned)
+### User Collection Data (Planned)
 
 **Purpose:** Store and manage user collection data.
 
@@ -64,39 +78,45 @@ Zie [pokemon-api-integratie.md](./pokemon-api-integratie.md) voor gedetailleerde
 ## Data Flow
 
 ```
-[User Action] --> [Vue Component] --> [Composable/Store]
+[User Action] --> [Vue Component] --> [useLocalData()]
                                             |
                                             v
-                                    [Pokemon TCG SDK]
+                                    [Nuxt Server API]
+                                    (/api/local/*)
                                             |
                                             v
-                                    [Pokemon TCG API]
+                                    [JSON Bestanden]
+                                    (data/sets/, data/cards/)
                                             |
                                             v
                                     [Typed Response]
                                             |
                                             v
-                                    [Store Update]
-                                            |
-                                            v
                                     [UI Re-render]
 ```
 
-## Directory Structure (Planned)
+## Directory Structure
 
 ```
 pokemon-collectie-app/
-├── .devcontainer/     # Development container configuration
-├── .claude/           # Claude Code plugins and commands
-├── documentation/     # Project documentation
-├── pages/             # Nuxt page components
-├── components/        # Reusable Vue components
-├── composables/       # Vue composition utilities (incl. Pokemon API wrappers)
-├── stores/            # Pinia state stores
-├── types/             # TypeScript type definitions (extends SDK types)
-├── assets/            # Static assets (images, styles)
-├── public/            # Public static files
-└── tests/             # Test files
+├── .devcontainer/        # Development container configuration
+├── .claude/              # Claude Code plugins and commands
+├── documentation/        # Project documentation
+├── data/                 # Lokale Pokemon data
+│   ├── sets.json         # Sets index
+│   ├── sets/             # Set details (per set)
+│   └── cards/            # Kaart data (per kaart)
+├── web/                  # Nuxt applicatie
+│   ├── app/
+│   │   ├── pages/        # Nuxt page components
+│   │   ├── components/   # Reusable Vue components
+│   │   ├── composables/  # Vue composition utilities
+│   │   ├── server/       # Nuxt server API routes
+│   │   │   └── api/
+│   │   │       └── local/    # Lokale data endpoints
+│   │   └── types/        # TypeScript type definitions
+│   └── nuxt.config.ts    # Nuxt configuratie
+└── scripts/              # Utility scripts
 ```
 
 ## Key Design Decisions
@@ -114,25 +134,25 @@ pokemon-collectie-app/
 - Built-in SSR/SSG capabilities for performance
 - Large ecosystem of plugins and modules
 
-### Decision 2: Official Pokemon TCG TypeScript SDK
+### Decision 2: Lokale Data in plaats van API Calls
 
-**Context:** Need type-safe communication with the Pokemon TCG API.
+**Context:** Oorspronkelijk plan was om de Pokemon TCG API direct te gebruiken voor alle data.
 
-**Decision:** Use the official `pokemon-tcg-sdk-typescript` package instead of generating clients with Orval.
+**Decision:** Data lokaal opslaan als JSON bestanden en serveren via Nuxt server routes.
 
 **Rationale:**
 
-- De Pokemon TCG API biedt een officiële TypeScript SDK
-- SDK bevat native TypeScript interfaces (Card, Set, Attack, Ability, etc.)
-- Geen code-generatie of OpenAPI specs nodig
-- Actief onderhouden door de API maintainers
+- Pokemon TCG API heeft rate limits (1.000/dag zonder key)
+- Card data verandert niet frequent
+- Betere user experience door snelle laadtijden
+- Offline toegang mogelijk
 
 **Consequences:**
 
-- Direct type-safe zonder build stappen
-- SDK handelt paginatie automatisch af
-- Minder configuratie en onderhoud
-- Types blijven in sync met API updates via npm package updates
+- Snellere response times (geen externe API latency)
+- Geen afhankelijkheid van externe service voor runtime
+- Data moet periodiek gesynchroniseerd worden voor nieuwe sets
+- Meer disk space nodig voor lokale opslag
 
 ### Decision 3: Devcontainer Development Environment
 
@@ -148,14 +168,14 @@ pokemon-collectie-app/
 
 ## External Integrations
 
-| Integration                                                                            | Purpose              | Configuration                            |
-| -------------------------------------------------------------------------------------- | -------------------- | ---------------------------------------- |
-| [Pokemon TCG API](https://docs.pokemontcg.io)                                          | Card data and images | `POKEMONTCG_API_KEY` in `.env`           |
-| [pokemon-tcg-sdk-typescript](https://github.com/PokemonTCG/pokemon-tcg-sdk-typescript) | Type-safe API client | `npm install pokemon-tcg-sdk-typescript` |
+| Integration | Purpose | Status |
+|-------------|---------|--------|
+| [Pokemon TCG API](https://docs.pokemontcg.io) | Bron van card data | Data lokaal opgeslagen |
+| [images.pokemontcg.io](https://images.pokemontcg.io) | Card en set afbeeldingen | Actief (CDN) |
 
 ## Future Considerations
 
 - **Authentication:** If user accounts are needed
 - **Backend API:** For storing collections server-side
-- **Offline support:** PWA capabilities for offline access
+- **Data sync:** Scripts voor nieuwe sets importeren van Pokemon TCG API
 - **Import/Export:** Collection data portability
