@@ -16,6 +16,7 @@
     "test:headed": "playwright test --headed"
   },
   "dependencies": {
+    "@nuxtjs/supabase": "^2.0.3",
     "@pinia/nuxt": "^0.11.3",
     "nuxt": "^3.11.2",
     "pinia": "^3.0.4",

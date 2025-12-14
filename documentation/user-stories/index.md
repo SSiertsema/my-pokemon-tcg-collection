@@ -27,7 +27,7 @@
 | Status | ID     | Beschrijving               | Notities                                       |
 | ------ | ------ | -------------------------- | ---------------------------------------------- |
 | [x]    | US-004 | Overview van sets bekijken | `pages/index.vue` - toont alle sets in grid    |
-| [ ]    | US-005 | Account aanmaken           | Niet geïmplementeerd                           |
+| [x]    | US-005 | Account aanmaken           | Supabase Auth, login/register pages, My Collection |
 | [x]    | US-006 | Mobiel toegankelijk        | Responsive CSS aanwezig                        |
 
 ---
@@ -48,9 +48,9 @@
 | ------ | ------ | ---------------------------------------- | ------------------ |
 | [ ]    | US-010 | Zoeken naar een kaart                    | Niet geïmplementeerd |
 | [ ]    | US-011 | Filteren van kaarten                     | Niet geïmplementeerd |
-| [ ]    | US-012 | Per set zien welke kaarten in bezit zijn | Niet geïmplementeerd |
+| [x]    | US-012 | Per set zien welke kaarten in bezit zijn | Card badges + CardModal owned/wish buttons |
 | [ ]    | US-013 | Custom set aanmaken                      | Niet geïmplementeerd |
-| [ ]    | US-014 | Wishlist-functionaliteit op kaartniveau  | Niet geïmplementeerd |
+| [x]    | US-014 | Wishlist-functionaliteit op kaartniveau  | Toggle in CardModal + visual badges |
 
 ---
 
@@ -72,18 +72,19 @@
 | Fase                     | Voltooid | Deels | Te doen | Totaal |
 | ------------------------ | -------- | ----- | ------- | ------ |
 | Fase 0: Technisch        | 2        | 1     | 0       | 3      |
-| Fase 1: Foundation       | 2        | 0     | 1       | 3      |
+| Fase 1: Foundation       | 3        | 0     | 0       | 3      |
 | Fase 2: Core Browse      | 3        | 0     | 0       | 3      |
-| Fase 3: Core Collectie   | 0        | 0     | 5       | 5      |
+| Fase 3: Core Collectie   | 2        | 0     | 3       | 5      |
 | Fase 4: Enhanced         | 0        | 0     | 6       | 6      |
-| **Totaal**               | **7**    | **1** | **12**  | **20** |
+| **Totaal**               | **10**   | **1** | **9**   | **20** |
 
-**Voortgang:** ~38% (7.5 van 20 user stories)
+**Voortgang:** ~53% (10.5 van 20 user stories)
 
 ---
 
 ## Volgende stappen (aanbevolen)
 
-1. **US-010** - Zoeken naar een kaart
-2. **US-011** - Filteren van kaarten
-3. **US-012** - Per set zien welke kaarten in bezit zijn (Pinia store klaar)
+1. **US-012** - Per set zien welke kaarten in bezit zijn (Supabase store klaar)
+2. **US-010** - Zoeken naar een kaart
+3. **US-011** - Filteren van kaarten
+4. **US-014** - Wishlist-functionaliteit (store al voorbereid)

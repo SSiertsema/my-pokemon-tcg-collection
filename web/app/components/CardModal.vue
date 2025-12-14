@@ -31,6 +31,25 @@
               </div>
             </header>
 
+            <div v-if="user" class="collection-actions">
+              <button
+                class="action-button owned-button"
+                :class="{ active: isOwned }"
+                @click="toggleOwned"
+              >
+                <span class="action-icon">{{ isOwned ? '✓' : '+' }}</span>
+                {{ isOwned ? 'Owned' : 'Add to Collection' }}
+              </button>
+              <button
+                class="action-button wish-button"
+                :class="{ active: isWishlisted }"
+                @click="toggleWishlist"
+              >
+                <span class="action-icon">{{ isWishlisted ? '★' : '☆' }}</span>
+                {{ isWishlisted ? 'On Wishlist' : 'Add to Wishlist' }}
+              </button>
+            </div>
+
             <div class="detail-section">
               <span class="label">Nummer</span>
               <span class="value">#{{ card.number }}</span>
@@ -131,6 +150,8 @@
 </template>
 
 <script setup lang="ts">
+import { useCollectionStore } from '~/stores/collection';
+
 interface Card {
   id: string;
   name: string;
@@ -151,7 +172,7 @@ interface Card {
   retreatCost?: string[];
 }
 
-defineProps<{
+const props = defineProps<{
   card: Card;
   hasPrevious: boolean;
   hasNext: boolean;
@@ -162,6 +183,20 @@ const emit = defineEmits<{
   previous: [];
   next: [];
 }>();
+
+const user = useSupabaseUser();
+const collectionStore = useCollectionStore();
+
+const isOwned = computed(() => collectionStore.isOwned(props.card.id));
+const isWishlisted = computed(() => collectionStore.isWishlisted(props.card.id));
+
+async function toggleOwned() {
+  await collectionStore.toggleOwned(props.card.id);
+}
+
+async function toggleWishlist() {
+  await collectionStore.toggleWishlist(props.card.id);
+}
 
 function handleKeydown(e: KeyboardEvent) {
   if (e.key === 'Escape') {
@@ -324,6 +359,58 @@ onUnmounted(() => {
 
 .types {
   color: #6b7280;
+}
+
+.collection-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.action-button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+  background: #fff;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #4b5563;
+  transition: all 0.2s;
+}
+
+.action-button:hover {
+  border-color: #d1d5db;
+  background: #f9fafb;
+}
+
+.action-icon {
+  font-size: 1rem;
+}
+
+.owned-button.active {
+  background: #d1fae5;
+  border-color: #10b981;
+  color: #065f46;
+}
+
+.owned-button.active:hover {
+  background: #a7f3d0;
+}
+
+.wish-button.active {
+  background: #fef3c7;
+  border-color: #f59e0b;
+  color: #92400e;
+}
+
+.wish-button.active:hover {
+  background: #fde68a;
 }
 
 .detail-section {

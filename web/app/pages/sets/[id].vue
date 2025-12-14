@@ -52,10 +52,18 @@
             v-for="(card, index) in cards"
             :key="card.id"
             class="card-item"
+            :class="{
+              'is-owned': user && collectionStore.isOwned(card.id),
+              'is-wishlisted': user && collectionStore.isWishlisted(card.id),
+            }"
             @click="selectCard(index)"
           >
             <div class="card-image">
               <img :src="card.images.small" :alt="card.name" loading="lazy" />
+              <div v-if="user" class="card-badges">
+                <span v-if="collectionStore.isOwned(card.id)" class="badge badge-owned" title="Owned">✓</span>
+                <span v-if="collectionStore.isWishlisted(card.id)" class="badge badge-wish" title="Wishlist">★</span>
+              </div>
             </div>
             <div class="card-info">
               <p class="card-name">{{ card.name }}</p>
@@ -82,8 +90,12 @@
 </template>
 
 <script setup lang="ts">
+import { useCollectionStore } from '~/stores/collection';
+
 const route = useRoute();
 const { getSet, getCardsForSet } = useLocalData();
+const user = useSupabaseUser();
+const collectionStore = useCollectionStore();
 
 const setId = computed(() => route.params.id as string);
 const selectedCardIndex = ref(-1);
@@ -259,12 +271,54 @@ function formatDate(dateStr: string): string {
 .card-image {
   aspect-ratio: 2.5 / 3.5;
   background: #f3f4f6;
+  position: relative;
 }
 
 .card-image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.card-badges {
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.badge {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.badge-owned {
+  background: #10b981;
+  color: white;
+}
+
+.badge-wish {
+  background: #f59e0b;
+  color: white;
+}
+
+.card-item.is-owned {
+  border-color: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+}
+
+.card-item.is-wishlisted:not(.is-owned) {
+  border-color: #f59e0b;
+  box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2);
 }
 
 .card-info {
