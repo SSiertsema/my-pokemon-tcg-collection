@@ -34,14 +34,23 @@
           @click="$emit('previous')"
         />
         <div class="image-wrapper">
-          <ProgressSpinner v-if="imageLoading" class="image-loader" />
+          <ProgressSpinner v-if="showLoader" class="image-loader" />
           <img
-            :key="card.id"
+            v-if="!largeImageLoaded"
+            :key="`${card.id}-small`"
+            :src="card.images.small"
+            :alt="card.name"
+            class="card-image card-image-small"
+            :class="{ 'image-hidden': !smallImageLoaded }"
+            @load="onSmallImageLoad"
+          />
+          <img
+            :key="`${card.id}-large`"
             :src="card.images.large"
             :alt="card.name"
-            class="card-image"
-            :class="{ 'image-hidden': imageLoading }"
-            @load="onImageLoad"
+            class="card-image card-image-large"
+            :class="{ 'image-hidden': !largeImageLoaded }"
+            @load="onLargeImageLoad"
           />
         </div>
         <Button
@@ -219,19 +228,28 @@ const emit = defineEmits<{
 const user = useSupabaseUser();
 const collectionStore = useCollectionStore();
 
-const imageLoading = ref(true);
+const smallImageLoaded = ref(false);
+const largeImageLoaded = ref(false);
+
+// Show loader only if neither image is loaded yet
+const showLoader = computed(() => !smallImageLoaded.value && !largeImageLoaded.value);
 
 const isOwned = computed(() => collectionStore.isOwned(props.card.id));
 const isWishlisted = computed(() => collectionStore.isWishlisted(props.card.id));
 
 // Reset loading state when card changes
 watch(() => props.card.id, () => {
-  imageLoading.value = true;
+  smallImageLoaded.value = false;
+  largeImageLoaded.value = false;
   preloadAdjacentImages();
 });
 
-function onImageLoad() {
-  imageLoading.value = false;
+function onSmallImageLoad() {
+  smallImageLoaded.value = true;
+}
+
+function onLargeImageLoad() {
+  largeImageLoaded.value = true;
 }
 
 // Preload adjacent images for smoother navigation
@@ -340,6 +358,15 @@ onUnmounted(() => {
   border-radius: 0.75rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   transition: opacity 0.2s ease;
+}
+
+.card-image-small {
+  position: absolute;
+}
+
+.card-image-large {
+  position: relative;
+  z-index: 1;
 }
 
 .card-image.image-hidden {
