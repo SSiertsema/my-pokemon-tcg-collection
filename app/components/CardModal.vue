@@ -33,7 +33,17 @@
           aria-label="Vorige kaart"
           @click="$emit('previous')"
         />
-        <img :src="card.images.large" :alt="card.name" class="card-image" />
+        <div class="image-wrapper">
+          <ProgressSpinner v-if="imageLoading" class="image-loader" />
+          <img
+            :key="card.id"
+            :src="card.images.large"
+            :alt="card.name"
+            class="card-image"
+            :class="{ 'image-hidden': imageLoading }"
+            @load="onImageLoad"
+          />
+        </div>
         <Button
           v-if="hasNext"
           icon="pi pi-chevron-right"
@@ -207,8 +217,19 @@ const emit = defineEmits<{
 const user = useSupabaseUser();
 const collectionStore = useCollectionStore();
 
+const imageLoading = ref(true);
+
 const isOwned = computed(() => collectionStore.isOwned(props.card.id));
 const isWishlisted = computed(() => collectionStore.isWishlisted(props.card.id));
+
+// Reset loading state when card changes
+watch(() => props.card.id, () => {
+  imageLoading.value = true;
+});
+
+function onImageLoad() {
+  imageLoading.value = false;
+}
 
 async function toggleOwned() {
   await collectionStore.toggleOwned(props.card.id);
@@ -265,12 +286,30 @@ onUnmounted(() => {
   justify-content: center;
 }
 
+.image-wrapper {
+  position: relative;
+  min-width: 200px;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-loader {
+  position: absolute;
+}
+
 .card-image {
   max-height: 60vh;
   max-width: 300px;
   object-fit: contain;
   border-radius: 0.75rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.2s ease;
+}
+
+.card-image.image-hidden {
+  opacity: 0;
 }
 
 .nav-button {
