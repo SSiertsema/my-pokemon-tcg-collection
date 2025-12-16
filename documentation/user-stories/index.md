@@ -46,8 +46,8 @@
 
 | Status | ID     | Beschrijving                             | Notities           |
 | ------ | ------ | ---------------------------------------- | ------------------ |
-| [ ]    | US-010 | Zoeken naar een kaart                    | Niet geïmplementeerd |
-| [ ]    | US-011 | Filteren van kaarten                     | Niet geïmplementeerd |
+| [x]    | US-010 | Zoeken naar een kaart                    | Zoekbalk op set pagina |
+| [x]    | US-011 | Filteren van kaarten                     | Filter op type, rarity |
 | [x]    | US-012 | Per set zien welke kaarten in bezit zijn | Card badges + CardModal owned/wish buttons |
 | [ ]    | US-013 | Custom set aanmaken                      | Niet geïmplementeerd |
 | [x]    | US-014 | Wishlist-functionaliteit op kaartniveau  | Toggle in CardModal + visual badges |
@@ -75,17 +75,17 @@
 | Fase 0: Technisch        | 2        | 1     | 0       | 3      |
 | Fase 1: Foundation       | 3        | 0     | 0       | 3      |
 | Fase 2: Core Browse      | 3        | 0     | 0       | 3      |
-| Fase 3: Core Collectie   | 2        | 0     | 3       | 5      |
+| Fase 3: Core Collectie   | 4        | 0     | 1       | 5      |
 | Fase 4: Enhanced         | 0        | 0     | 7       | 7      |
-| **Totaal**               | **10**   | **1** | **10**  | **21** |
+| **Totaal**               | **12**   | **1** | **8**   | **21** |
 
-**Voortgang:** ~50% (10.5 van 21 user stories)
+**Voortgang:** ~60% (12.5 van 21 user stories)
 
 ---
 
 ## Volgende stappen (aanbevolen)
 
-1. **US-012** - Per set zien welke kaarten in bezit zijn (Supabase store klaar)
-2. **US-010** - Zoeken naar een kaart
-3. **US-011** - Filteren van kaarten
-4. **US-014** - Wishlist-functionaliteit (store al voorbereid)
+1. **US-015** - Completeness percentage per set zien
+2. **US-016** - Completeness percentage binnen set bekijken
+3. **US-013** - Custom set aanmaken
+4. **US-017** - Per set zien welke kaarten ontbreken
