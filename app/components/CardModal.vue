@@ -340,8 +340,9 @@ onUnmounted(() => {
 
 .image-wrapper {
   position: relative;
-  min-width: 200px;
-  min-height: 280px;
+  width: 300px;
+  aspect-ratio: 2.5 / 3.5; /* Pokemon card ratio */
+  max-height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -349,6 +350,8 @@ onUnmounted(() => {
 
 .image-loader {
   position: absolute;
+  width: 2rem !important;
+  height: 2rem !important;
 }
 
 .card-image {
@@ -499,6 +502,12 @@ onUnmounted(() => {
 @media (max-width: 768px) {
   .modal-body {
     flex-direction: column;
+  }
+
+  .image-wrapper {
+    width: 100%;
+    max-width: 250px;
+    max-height: 40vh;
   }
 
   .card-image {
