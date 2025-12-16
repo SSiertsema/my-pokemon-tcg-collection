@@ -2,34 +2,34 @@ import { defineStore } from 'pinia';
 import type { Database } from '~/types/database';
 
 interface CollectionState {
-  ownedCards: Map<string, number>;
-  wishlist: Set<string>;
+  ownedCards: Record<string, number>;
+  wishlist: string[];
   loading: boolean;
   initialized: boolean;
 }
 
 export const useCollectionStore = defineStore('collection', {
   state: (): CollectionState => ({
-    ownedCards: new Map(),
-    wishlist: new Set(),
+    ownedCards: {},
+    wishlist: [],
     loading: false,
     initialized: false,
   }),
 
   getters: {
-    isOwned: (state) => (cardId: string) => state.ownedCards.has(cardId),
-    isWishlisted: (state) => (cardId: string) => state.wishlist.has(cardId),
-    ownedCount: (state) => state.ownedCards.size,
-    wishlistCount: (state) => state.wishlist.size,
-    getQuantity: (state) => (cardId: string) => state.ownedCards.get(cardId) || 0,
+    isOwned: (state) => (cardId: string) => cardId in state.ownedCards,
+    isWishlisted: (state) => (cardId: string) => state.wishlist.includes(cardId),
+    ownedCount: (state) => Object.keys(state.ownedCards).length,
+    wishlistCount: (state) => state.wishlist.length,
+    getQuantity: (state) => (cardId: string) => state.ownedCards[cardId] || 0,
 
     getOwnedCardsForSet: (state) => (setId: string) => {
-      return [...state.ownedCards.keys()].filter((id) =>
+      return Object.keys(state.ownedCards).filter((id) =>
         id.startsWith(`${setId}-`)
       );
     },
 
-    getOwnedCardIds: (state) => [...state.ownedCards.keys()],
+    getOwnedCardIds: (state) => Object.keys(state.ownedCards),
     getWishlistCardIds: (state) => [...state.wishlist],
   },
 
@@ -39,8 +39,8 @@ export const useCollectionStore = defineStore('collection', {
       const supabase = useSupabaseClient<Database>();
 
       if (!user.value) {
-        this.ownedCards = new Map();
-        this.wishlist = new Set();
+        this.ownedCards = {};
+        this.wishlist = [];
         this.initialized = true;
         return;
       }
@@ -54,8 +54,8 @@ export const useCollectionStore = defineStore('collection', {
           .select('card_id, quantity');
 
         if (collectionData) {
-          this.ownedCards = new Map(
-            collectionData.map((item) => [item.card_id, item.quantity] as [string, number])
+          this.ownedCards = Object.fromEntries(
+            collectionData.map((item) => [item.card_id, item.quantity])
           );
         }
 
@@ -65,7 +65,7 @@ export const useCollectionStore = defineStore('collection', {
           .select('card_id');
 
         if (wishlistData) {
-          this.wishlist = new Set(wishlistData.map((item) => item.card_id));
+          this.wishlist = wishlistData.map((item) => item.card_id);
         }
       } catch (error) {
         console.error('Failed to load collection:', error);
@@ -81,16 +81,16 @@ export const useCollectionStore = defineStore('collection', {
 
       if (!user.value) return;
 
-      if (this.ownedCards.has(cardId)) {
+      if (cardId in this.ownedCards) {
         // Remove from collection
-        this.ownedCards.delete(cardId);
+        delete this.ownedCards[cardId];
         await supabase
           .from('user_collections')
           .delete()
           .eq('card_id', cardId);
       } else {
         // Add to collection
-        this.ownedCards.set(cardId, 1);
+        this.ownedCards[cardId] = 1;
         await supabase.from('user_collections').insert({
           user_id: user.value.id,
           card_id: cardId,
@@ -105,16 +105,17 @@ export const useCollectionStore = defineStore('collection', {
 
       if (!user.value) return;
 
-      if (this.wishlist.has(cardId)) {
+      const index = this.wishlist.indexOf(cardId);
+      if (index !== -1) {
         // Remove from wishlist
-        this.wishlist.delete(cardId);
+        this.wishlist.splice(index, 1);
         await supabase
           .from('user_wishlists')
           .delete()
           .eq('card_id', cardId);
       } else {
         // Add to wishlist
-        this.wishlist.add(cardId);
+        this.wishlist.push(cardId);
         await supabase.from('user_wishlists').insert({
           user_id: user.value.id,
           card_id: cardId,
@@ -130,21 +131,21 @@ export const useCollectionStore = defineStore('collection', {
 
       if (quantity <= 0) {
         // Remove card
-        this.ownedCards.delete(cardId);
+        delete this.ownedCards[cardId];
         await supabase
           .from('user_collections')
           .delete()
           .eq('card_id', cardId);
-      } else if (this.ownedCards.has(cardId)) {
+      } else if (cardId in this.ownedCards) {
         // Update quantity
-        this.ownedCards.set(cardId, quantity);
+        this.ownedCards[cardId] = quantity;
         await supabase
           .from('user_collections')
           .update({ quantity })
           .eq('card_id', cardId);
       } else {
         // Add new card
-        this.ownedCards.set(cardId, quantity);
+        this.ownedCards[cardId] = quantity;
         await supabase.from('user_collections').insert({
           user_id: user.value.id,
           card_id: cardId,
@@ -154,8 +155,8 @@ export const useCollectionStore = defineStore('collection', {
     },
 
     clearCollection() {
-      this.ownedCards = new Map();
-      this.wishlist = new Set();
+      this.ownedCards = {};
+      this.wishlist = [];
       this.initialized = false;
     },
   },
