@@ -75,7 +75,8 @@
       "Bash(grep:*)",
       "Bash(timeout 25 npm run dev)",
       "Bash(mv:*)",
-      "Bash(timeout 15 npm run dev)"
+      "Bash(timeout 15 npm run dev)",
+      "Bash(python3:*)"
     ]
   }
 }
