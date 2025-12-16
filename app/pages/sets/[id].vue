@@ -103,6 +103,8 @@
       :card="selectedCard"
       :has-previous="selectedCardIndex > 0"
       :has-next="selectedCardIndex < cards.length - 1"
+      :all-cards="cards"
+      :current-index="selectedCardIndex"
       @close="selectedCardIndex = -1"
       @previous="navigateToPrevious"
       @next="navigateToNext"

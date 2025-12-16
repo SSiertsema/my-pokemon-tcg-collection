@@ -206,6 +206,8 @@ const props = defineProps<{
   card: Card;
   hasPrevious: boolean;
   hasNext: boolean;
+  allCards?: Card[];
+  currentIndex?: number;
 }>();
 
 const emit = defineEmits<{
@@ -225,10 +227,41 @@ const isWishlisted = computed(() => collectionStore.isWishlisted(props.card.id))
 // Reset loading state when card changes
 watch(() => props.card.id, () => {
   imageLoading.value = true;
+  preloadAdjacentImages();
 });
 
 function onImageLoad() {
   imageLoading.value = false;
+}
+
+// Preload adjacent images for smoother navigation
+function preloadAdjacentImages() {
+  if (!props.allCards || props.currentIndex === undefined) return;
+
+  const preloadCount = 5;
+  const imagesToPreload: string[] = [];
+
+  // Get next 5 images
+  for (let i = 1; i <= preloadCount; i++) {
+    const nextIndex = props.currentIndex + i;
+    if (nextIndex < props.allCards.length) {
+      imagesToPreload.push(props.allCards[nextIndex].images.large);
+    }
+  }
+
+  // Get previous 5 images
+  for (let i = 1; i <= preloadCount; i++) {
+    const prevIndex = props.currentIndex - i;
+    if (prevIndex >= 0) {
+      imagesToPreload.push(props.allCards[prevIndex].images.large);
+    }
+  }
+
+  // Preload images
+  imagesToPreload.forEach((src) => {
+    const img = new Image();
+    img.src = src;
+  });
 }
 
 async function toggleOwned() {
@@ -249,6 +282,7 @@ function handleKeydown(e: KeyboardEvent) {
 
 onMounted(() => {
   document.addEventListener('keydown', handleKeydown);
+  preloadAdjacentImages();
 });
 
 onUnmounted(() => {
