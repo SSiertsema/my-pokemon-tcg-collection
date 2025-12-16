@@ -79,7 +79,7 @@ const selectedYear = ref('');
 const { data, pending, error } = await useAsyncData('sets-index', async () => {
   const response = await getSetsIndex();
   return response.sets;
-});
+}, { server: false });
 
 const allSets = computed(() => data.value || []);
 

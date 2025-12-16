@@ -59,24 +59,28 @@ export interface CardIndexEntry {
   nr: string;   // number
 }
 
+async function fetchData<T>(path: string): Promise<T> {
+  return await $fetch<T>(path);
+}
+
 export function useLocalData() {
   async function getSetsIndex(): Promise<SetsIndex> {
-    return await $fetch<SetsIndex>('/data/sets.json');
+    return await fetchData<SetsIndex>('/data/sets.json');
   }
 
   async function getSet(id: string): Promise<SetDetail> {
-    return await $fetch<SetDetail>(`/data/sets/${id}.json`);
+    return await fetchData<SetDetail>(`/data/sets/${id}.json`);
   }
 
   async function getCard(id: string): Promise<Card> {
-    return await $fetch<Card>(`/data/cards/${id}.json`);
+    return await fetchData<Card>(`/data/cards/${id}.json`);
   }
 
   async function getCardsForSet(cardIds: string[]): Promise<Card[]> {
     const cards = await Promise.all(
       cardIds.map(async (id) => {
         try {
-          return await $fetch<Card>(`/data/cards/${id}.json`);
+          return await fetchData<Card>(`/data/cards/${id}.json`);
         } catch {
           return null;
         }
@@ -86,7 +90,7 @@ export function useLocalData() {
   }
 
   async function getCardsIndex(): Promise<CardIndexEntry[]> {
-    return await $fetch<CardIndexEntry[]>('/data/cards-index.json');
+    return await fetchData<CardIndexEntry[]>('/data/cards-index.json');
   }
 
   return {

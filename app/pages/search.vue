@@ -174,7 +174,7 @@ const hasModifierFilters = computed(() => {
 const { data: cardsIndexData, pending: loading } = await useAsyncData(
   'cards-index',
   () => getCardsIndex(),
-  { lazy: true }
+  { lazy: true, server: false }
 );
 
 const cardsIndex = computed(() => cardsIndexData.value || []);

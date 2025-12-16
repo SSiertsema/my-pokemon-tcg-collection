@@ -142,7 +142,8 @@ function navigateToNext() {
 
 const { data: set, pending, error } = await useAsyncData(
   `set-${setId.value}`,
-  () => getSet(setId.value)
+  () => getSet(setId.value),
+  { server: false }
 );
 
 const { data: cardsData, pending: cardsPending } = await useAsyncData(
@@ -151,7 +152,7 @@ const { data: cardsData, pending: cardsPending } = await useAsyncData(
     if (!set.value?.cards) return [];
     return getCardsForSet(set.value.cards);
   },
-  { watch: [set] }
+  { watch: [set], server: false }
 );
 
 const cards = computed(() => cardsData.value || []);
