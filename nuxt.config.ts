@@ -1,4 +1,3 @@
-import { resolve } from 'path';
 import Aura from '@primevue/themes/aura';
 
 export default defineNuxtConfig({
@@ -58,7 +57,6 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     pokemonTcgApiKey: process.env.POKEMONTCG_API_KEY,
-    dataPath: process.env.POKEMON_DATA_PATH || resolve(__dirname, 'data'),
   },
   supabase: {
     types: false,

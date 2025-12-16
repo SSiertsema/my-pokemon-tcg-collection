@@ -61,26 +61,32 @@ export interface CardIndexEntry {
 
 export function useLocalData() {
   async function getSetsIndex(): Promise<SetsIndex> {
-    return await $fetch<SetsIndex>('/api/local/sets');
+    return await $fetch<SetsIndex>('/data/sets.json');
   }
 
   async function getSet(id: string): Promise<SetDetail> {
-    return await $fetch<SetDetail>(`/api/local/sets/${id}`);
+    return await $fetch<SetDetail>(`/data/sets/${id}.json`);
   }
 
   async function getCard(id: string): Promise<Card> {
-    return await $fetch<Card>(`/api/local/cards/${id}`);
+    return await $fetch<Card>(`/data/cards/${id}.json`);
   }
 
   async function getCardsForSet(cardIds: string[]): Promise<Card[]> {
-    return await $fetch<Card[]>('/api/local/cards/batch', {
-      method: 'POST',
-      body: { ids: cardIds },
-    });
+    const cards = await Promise.all(
+      cardIds.map(async (id) => {
+        try {
+          return await $fetch<Card>(`/data/cards/${id}.json`);
+        } catch {
+          return null;
+        }
+      })
+    );
+    return cards.filter((card): card is Card => card !== null);
   }
 
   async function getCardsIndex(): Promise<CardIndexEntry[]> {
-    return await $fetch<CardIndexEntry[]>('/api/local/cards');
+    return await $fetch<CardIndexEntry[]>('/data/cards-index.json');
   }
 
   return {
